@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Frankenstein</title>
+            <title type="subordinate">A Romantic Circles Electronic Edition</title>
+            <author>
+               <name>Mary Shelley (1797-1851)</name>
+            </author>
+            <editor>Stuart Curran</editor>
+            <sponsor>Romantic Circles</sponsor>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Neil Fraistat</name>
+            </respStmt>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Steven E. Jones</name>
+            </respStmt>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Carl Stahmer</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name>Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="edition">frank27.1831v1.let3</idno>
+            <idno type="nines">rce1240</idno>
+            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
+            <pubPlace>College Park, MD</pubPlace>
+            <date when="2009-04-01">April 1, 2009</date>
+            <availability status="restricted">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or disseminated in
+														any manner without authorization unless it is for purposes of criticism, comment, news
+														reporting, teaching, and/or classroom use as provided by the Copyright Act of 1976, as
+														amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are copyrighted by
+														the author/editor and may be shared only in accordance with the Fair Use provisions of U.S.
+														copyright law. Except as expressly permitted by this statement, redistribution or
+														republication in any medium requires express prior written consent from the author/editors and
+														advance notification of Romantic Circles. Any requests for authorization should be forwarded
+														to Romantic Circles:&gt;
+														<address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Neil Fraistat</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Maryland</addrLine>
+                     <addrLine>College Park, MD 20742</addrLine>
+                     <addrLine>fraistat@umd.edu</addrLine>
+                  </address>
+               </p>
+               <p>By their use of these texts and images, users agree to the following conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose without prior
+																written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms other than their
+																current ones.</item>
+                  </list>
+               </p>
+               <p>Users are not permitted to download these texts and images in order to mount them on their own
+														servers. It is not in our interest or that of our users to have uncontrolled subsets of our
+														holdings available elsewhere on the Internet. We make corrections and additions to our edited
+														resources on a continual basis, and we want the most current text to be the only one generally
+														available to all Internet users. Institutions can, of course, make a link to the copies at
+														Romantic Circles, subject to our conditions of use.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title level="a">Letter III</title>
+               </analytic>
+               <monogr>
+                  <author>
+                     <persName>Shelley, Mary Wollstonecraft, 1797-1851</persName>
+                  </author>
+                  <title type="main" level="m">Frankenstein, </title>
+                  <title type="subordinate" level="m">Or, the Modern Prometheus</title>
+                  <imprint>
+                     <publisher>
+                        <name>Henry Colburn</name> and <name>Richard Bentley</name>
+                     </publisher>
+                     <pubPlace>London</pubPlace>
+                     <date>1831</date>
+                     <biblScope type="ed">Rev., Corr. [2nd ed.]</biblScope>
+                     <biblScope type="ser">Bentley's Standard Novels series</biblScope>
+                     <biblScope type="no">9</biblScope>
+                     <biblScope type="vol">1</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘, and ' for
+														’.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all hyphens have been typed on the U.S. keyboard</p>
+               <p>Dashes have been rendered as —</p>
+            </hyphenation>
+            <normalization method="markup">
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization>
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>£ has been used for £, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been encoded in HTML
+														entity decimals.</p>
+            </normalization>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="g">
+               <bibl>NINES categories for Genre and Material Form at
+														http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E on
+														2009-02-26</bibl>
+               <category xml:id="g1">
+                  <catDesc>Architecture</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>Artifacts</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>Letters</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>Politics</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>Folklore</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>History</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>Leisure</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>Humor</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>Education</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>Music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>nonfiction</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>Perodical</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>Philosphy</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>Family Life</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>Travel</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>Book History</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>Law</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#genre" target="#g12"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="2009-05-01" n="3">
+            <label>Changed by</label>
+            <name xml:id="LM">Laura Mandell</name>
+            <list>
+               <item>XSLT Transforming into TEI, RDF</item>
+            </list>
+         </change>
+         <change who="#DR" when="2009-05-01" n="2">
+            <label>Changed by</label>
+            <name xml:id="DR">David Rettenmaier</name>
+            <list>
+               <item>XHTML Encoding</item>
+            </list>
+         </change>
+         <change who="#MQ" when="2009-05-01" n="1">
+            <label>Changed by</label>
+            <name xml:id="MQ">Mike Quilligan</name>
+            <list>
+               <item>XHTML Encoding</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>TEXTS : 1831 EDITION : VOL. I</head>
+         <p rend="emph">Letter III</p>
+         <p> </p>
+         <p>To Mrs. SAVILLE, England.</p>
+         <p>July 7th, 17--.</p>
+         <list type="simple">
+            <item>MY DEAR SISTER,
+
+              <p>I WRITE a few lines in haste, to say that I am
+              safe, and well
+              advanced on my voyage. This letter will reach
+              England by a merchantman now on its homeward voyage
+              from Archangel; more fortunate than I, who may not
+              see my native land, perhaps, for many years. I am,
+              however, in good spirits: my men
+              are bold, and apparently firm of purpose; nor do
+              the floating sheets of ice that continually pass us,
+              indicating the dangers of the region towards which we
+              are advancing, appear to dismay them. We have already
+              reached a very high latitude; but it is the height of
+              summer, and although not so warm as in England, the
+              southern gales, which blow us speedily towards
+              those
+              shores which I so ardently desire to attain,
+              breathe a degree of renovating warmth which I had not
+              expected.</p>
+            </item>
+            <item>
+               <p>No incidents have hitherto befallen us that
+                would make a figure in a letter. One or two stiff
+                gales, and the springing of a leak, are accidents
+                which experienced navigators scarcely remember to
+                record; and I shall be well content if nothing
+                worse happen to us during our voyage.</p>
+            </item>
+            <item>
+               <p>Adieu, my dear Margaret. Be assured, that for my
+                own sake, as well as yours, I will not rashly
+                encounter danger. I will be cool, persevering, and
+                prudent.</p>
+            </item>
+            <item>
+               <p>But success shall crown my endeavours.
+                Wherefore not? Thus far I have gone, tracing a
+                secure way over the pathless seas: the very stars
+                themselves being witnesses and testimonies of my
+                triumph. Why not still proceed over the untamed yet
+                obedient element? What can stop the determined
+                heart and resolved will of man?</p>
+            </item>
+            <item>
+               <p>My swelling heart involuntarily pours itself out
+              thus. But I must finish. Heaven bless my beloved
+              sister!<lb/>
+                  <lb/>
+              Your affectionate brother,</p>
+            </item>
+         </list>
+         <p>R. W.</p>
+         <p>&lt; Letter II | Letter
+          IV&gt;</p>
+         <p>No incidents have hitherto befallen us that
+                would make a figure in a letter. One or two stiff
+                gales, and the springing of a leak, are accidents
+                which experienced navigators scarcely remember to
+                record; and I shall be well content if nothing
+                worse happen to us during our voyage.</p>
+         <p>Adieu, my dear Margaret. Be assured, that for my
+                own sake, as well as yours, I will not rashly
+                encounter danger. I will be cool, persevering, and
+                prudent.</p>
+         <p>But success shall crown my endeavours.
+                Wherefore not? Thus far I have gone, tracing a
+                secure way over the pathless seas: the very stars
+                themselves being witnesses and testimonies of my
+                triumph. Why not still proceed over the untamed yet
+                obedient element? What can stop the determined
+                heart and resolved will of man?</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Frankenstein</title>
+            <title type="subordinate">A Romantic Circles Electronic Edition</title>
+            <author>
+               <name>Mary Shelley (1797-1851)</name>
+            </author>
+            <editor>Stuart Curran</editor>
+            <sponsor>Romantic Circles</sponsor>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Neil Fraistat</name>
+            </respStmt>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Steven E. Jones</name>
+            </respStmt>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Carl Stahmer</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name>Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="edition">frank27.1831v2.ch13</idno>
+            <idno type="nines">rce1254</idno>
+            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
+            <pubPlace>College Park, MD</pubPlace>
+            <date when="2009-04-01">April 1, 2009</date>
+            <availability status="restricted">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or disseminated in
+														any manner without authorization unless it is for purposes of criticism, comment, news
+														reporting, teaching, and/or classroom use as provided by the Copyright Act of 1976, as
+														amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are copyrighted by
+														the author/editor and may be shared only in accordance with the Fair Use provisions of U.S.
+														copyright law. Except as expressly permitted by this statement, redistribution or
+														republication in any medium requires express prior written consent from the author/editors and
+														advance notification of Romantic Circles. Any requests for authorization should be forwarded
+														to Romantic Circles:&gt;
+														<address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Neil Fraistat</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Maryland</addrLine>
+                     <addrLine>College Park, MD 20742</addrLine>
+                     <addrLine>fraistat@umd.edu</addrLine>
+                  </address>
+               </p>
+               <p>By their use of these texts and images, users agree to the following conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose without prior
+																written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms other than their
+																current ones.</item>
+                  </list>
+               </p>
+               <p>Users are not permitted to download these texts and images in order to mount them on their own
+														servers. It is not in our interest or that of our users to have uncontrolled subsets of our
+														holdings available elsewhere on the Internet. We make corrections and additions to our edited
+														resources on a continual basis, and we want the most current text to be the only one generally
+														available to all Internet users. Institutions can, of course, make a link to the copies at
+														Romantic Circles, subject to our conditions of use.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title level="a">Chapter 13</title>
+               </analytic>
+               <monogr>
+                  <author>
+                     <persName>Shelley, Mary Wollstonecraft, 1797-1851</persName>
+                  </author>
+                  <title type="main" level="m">Frankenstein, </title>
+                  <title type="subordinate" level="m">Or, the Modern Prometheus</title>
+                  <imprint>
+                     <publisher>
+                        <name>Henry Colburn</name> and <name>Richard Bentley</name>
+                     </publisher>
+                     <pubPlace>London</pubPlace>
+                     <date>1831</date>
+                     <biblScope type="ed">Rev., Corr. [2nd ed.]</biblScope>
+                     <biblScope type="ser">Bentley's Standard Novels series</biblScope>
+                     <biblScope type="no">9</biblScope>
+                     <biblScope type="vol">1</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘, and ' for
+														’.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all hyphens have been typed on the U.S. keyboard</p>
+               <p>Dashes have been rendered as —</p>
+            </hyphenation>
+            <normalization method="markup">
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization>
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>£ has been used for £, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been encoded in HTML
+														entity decimals.</p>
+            </normalization>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="g">
+               <bibl>NINES categories for Genre and Material Form at
+														http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E on
+														2009-02-26</bibl>
+               <category xml:id="g1">
+                  <catDesc>Architecture</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>Artifacts</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>Letters</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>Politics</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>Folklore</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>History</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>Leisure</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>Humor</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>Education</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>Music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>nonfiction</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>Perodical</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>Philosphy</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>Family Life</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>Travel</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>Book History</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>Law</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#genre" target="#g12"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="2009-05-01" n="3">
+            <label>Changed by</label>
+            <name xml:id="LM">Laura Mandell</name>
+            <list>
+               <item>XSLT Transforming into TEI, RDF</item>
+            </list>
+         </change>
+         <change who="#DR" when="2009-05-01" n="2">
+            <label>Changed by</label>
+            <name xml:id="DR">David Rettenmaier</name>
+            <list>
+               <item>XHTML Encoding</item>
+            </list>
+         </change>
+         <change who="#MQ" when="2009-05-01" n="1">
+            <label>Changed by</label>
+            <name xml:id="MQ">Mike Quilligan</name>
+            <list>
+               <item>XHTML Encoding</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>TEXTS : 1831 EDITION : VOL. II</head>
+         <p rend="emph">Chapter 13</p>
+         <p> </p>
+         <list type="simple">
+            <item>
+               <p>"I NOW hasten
+              to the more
+              moving part of my story. I shall relate events,
+              that impressed me with feelings
+              which, from what I had been, have made me what I
+              am.</p>
+            </item>
+            <item>
+               <p>"Spring advanced rapidly; the weather became fine,
+              and the skies cloudless. It surprised me, that what
+              before was desert and gloomy should now bloom with
+              the most beautiful flowers and verdure. My senses
+              were gratified and refreshed by a thousand scents of
+              delight, and a thousand sights of beauty.</p>
+            </item>
+            <item>
+               <p>"It was on one of these days, when my cottagers
+              periodically rested from labour—the old man
+              played on his guitar, and the children listened to
+              him—that I observed the countenance of Felix
+              was melancholy beyond expression; he sighed
+              frequently; and once his father paused in his music,
+              and I conjectured by his manner that he inquired the
+              cause of his son's sorrow. Felix replied in a
+              cheerful accent, and the old man was recommencing his
+              music, when some one tapped at the door.</p>
+            </item>
+            <item>
+               <p>"It was a
+              lady on horseback, accompanied by a countryman as
+              a guide. The lady was dressed in a dark suit, and
+              covered with a thick black veil. Agatha asked a
+              question; to which the stranger only replied by
+              pronouncing, in a sweet accent, the name of Felix.
+              Her voice was musical, but unlike that of either of
+              my friends. On hearing this word, Felix came up
+              hastily to the lady; who, when she saw him, threw up
+              her veil, and I
+              beheld a countenance of angelic beauty and
+              expression. Her hair of a shining raven black, and
+              curiously braided; her eyes were dark, but gentle,
+              although animated; her features of a regular
+              proportion, and her complexion wondrously fair, each
+              cheek tinged with a lovely pink.</p>
+            </item>
+            <item>
+               <p>"Felix seemed
+              ravished with delight when he saw her, every trait of
+              sorrow vanished from his face, and it instantly
+              expressed a degree of ecstatic joy, of which I could
+              hardly have believed it capable; his eyes sparkled,
+              as his cheek flushed with pleasure; and at that
+              moment I
+              thought him as beautiful as the stranger. She
+              appeared affected by different feelings; wiping a few
+              tears from her lovely eyes, she held out her hand to
+              Felix, who kissed it rapturously, and called her, as
+              well as I could distinguish, his sweet Arabian. She
+              did not appear to understand him, but smiled. He
+              assisted her to dismount, and, dismissing her guide,
+              conducted her into the cottage. Some conversation
+              took place between him and his father; and the young
+              stranger knelt at the old man's feet, and would have
+              kissed his hand, but he raised her, and embraced her
+              affectionately.</p>
+            </item>
+            <item>
+               <p>"I soon perceived, that although the stranger
+              uttered articulate sounds, and appeared to have a
+              language of her own, she
+              was neither understood by, nor herself understood,
+              the cottagers. They made many signs which I did
+              not comprehend; but I saw that her presence diffused
+              gladness through the cottage, dispelling their sorrow
+              as the sun dissipates the morning mists. Felix seemed
+              peculiarly happy, and with smiles of delight welcomed
+              his Arabian. Agatha, the ever-gentle Agatha, kissed
+              the hands of the lovely stranger; and, pointing to
+              her brother, made signs which appeared to me to mean
+              that he had been sorrowful until she came. Some hours
+              passed thus, while they, by their countenances,
+              expressed joy, the cause of which I did not
+              comprehend. Presently I found, by the frequent
+              recurrence of some sound which the stranger repeated
+              after them, that she was endeavouring to learn their
+              language; and the idea instantly occurred to me, that
+              I
+              should make use of the same instructions to the same
+              end. The stranger learned about twenty words at
+              the first lesson, most of them, indeed, were those
+              which I had before understood, but I profited by the
+              others.</p>
+            </item>
+            <item>
+               <p>"As night came on,
+              Agatha and the Arabian retired early. When they
+              separated, Felix kissed the hand of the stranger, and
+              said, 'Good night, sweet Safie.' He sat up much
+              longer, conversing with his father; and, by the
+              frequent repetition of her name, I conjectured that
+              their lovely guest was the subject of their
+              conversation. I
+              ardently desired to understand them, and bent
+              every faculty towards that purpose, but found it
+              utterly impossible.</p>
+            </item>
+            <item>
+               <p>"The next morning Felix went out to his work; and,
+              after the usual occupations of Agatha were finished,
+              the Arabian sat at the feet of the old man, and,
+              taking his guitar, played some airs so entrancingly
+              beautiful, that they at once drew tears
+              of sorrow and delight from my eyes. She sang, and
+              her voice flowed in a rich cadence, swelling or dying
+              away, like a nightingale of the woods.</p>
+            </item>
+            <item>
+               <p>"When she had finished, she gave the guitar to
+              Agatha, who at first declined it. She played a simple
+              air, and her voice accompanied it in sweet accents,
+              but unlike the wondrous strain of the stranger. The
+              old man appeared enraptured, and said some words,
+              which Agatha endeavoured to explain to Safie, and by
+              which he appeared to wish to express that she
+              bestowed on him the greatest delight by her
+              music.</p>
+            </item>
+            <item>
+               <p>"The days now passed as peacefully as before, with
+              the sole alteration, that joy had taken the place of
+              sadness in the countenances of my friends. Safie was
+              always gay and happy; she
+              and I improved rapidly in the knowledge of
+              language, so that in two months I began to
+              comprehend most of the words uttered by my
+              protectors.</p>
+            </item>
+            <item>
+               <p>"In the meanwhile
+              also the black ground was covered with herbage, and
+              the green banks interspersed with innumerable
+              flowers, sweet to the scent and the eyes, stars
+              of pale radiance among the moonlight woods; the
+              sun became warmer, the nights clear and balmy; and my
+              nocturnal rambles were an extreme pleasure to me,
+              although they were considerably shortened by the late
+              setting and early rising of the sun; for I never
+              ventured abroad during day-light, fearful of meeting
+              with the same treatment I had formerly endured in the
+              first village which I entered.</p>
+            </item>
+            <item>
+               <p>"My days were spent in close attention, that I
+              might more speedily master the language; and I may
+              boast that I
+              improved more rapidly than the Arabian, who
+              understood very little, and conversed in broken
+              accents, whilst I comprehended and could imitate
+              almost every word that was spoken.</p>
+            </item>
+            <item>
+               <p>"While I improved in speech, I also learned the
+              science
+              of letters, as it was taught to the stranger; and
+              this opened before me a wide field for wonder and
+              delight.</p>
+            </item>
+            <item>
+               <p>"The book from which Felix instructed Safie was
+              Volney's 'Ruins
+              of Empires.' I should not have understood the
+              purport of this book, had not Felix, in reading it,
+              given very minute explanations. He had chosen this
+              work, he said, because the declamatory style was
+              framed in imitation of the eastern authors. Through
+              this work I obtained a cursory knowledge of history,
+              and a view of the several empires at present existing
+              in the world; it gave me an insight into the manners,
+              governments, and religions of the different nations
+              of the earth. I heard of the slothful Asiatics; of
+              the stupendous genius and mental activity of the
+              Grecians; of the wars and wonderful virtue of the
+              early Romans -- of their subsequent degenerating --
+              of the decline of that mighty empire; of chivalry,
+              Christianity, and kings. I heard of the discovery of
+              the American hemisphere, and wept with Safie over
+              the
+              hapless fate of its original inhabitants.</p>
+            </item>
+            <item>
+               <p>"These wonderful
+              narrations inspired me with strange feelings. Was
+              man, indeed, at once so
+              powerful, so virtuous, and magnificent, yet so
+              vicious and base? He appeared at one time a mere
+              scion of the evil principle, and at another, as all
+              that can be conceived of noble and godlike. To be a
+              great and virtuous man appeared the highest honour
+              that can befall a sensitive being; to be base and
+              vicious, as many on record have been, appeared the
+              lowest degradation, a condition more abject than that
+              of the blind mole or harmless worm. For a long time I
+              could not conceive how one man could go forth to
+              murder his fellow, or even why there were laws and
+              governments; but when I heard details of vice and
+              bloodshed, my wonder ceased, and I turned away with
+              disgust and loathing.</p>
+            </item>
+            <item>
+               <p>"Every conversation of the cottagers now opened
+              new wonders to me. While I listened to the
+              instructions which Felix bestowed upon the Arabian,
+              the strange
+              system of human society was explained to me. I
+              heard of the division of property, of immense wealth
+              and squalid poverty; of rank,
+              descent, and noble blood.</p>
+            </item>
+            <item>
+               <p>"The words induced me to turn towards myself. I
+              learned that the possessions most esteemed by your
+              fellow-creatures were, high and unsullied descent
+              united with riches. A man might be respected with
+              only one of these advantages; but, without either, he
+              was considered, except in very rare instances, as a
+              vagabond and a slave, doomed
+              to waste his powers for the profits of the chosen
+              few. And what was I? Of my creation and creator I
+              was absolutely ignorant; but I knew that I
+              possessed no money, no friends, no kind of
+              property. I was, besides, endued with a figure
+              hideously deformed and loathsome; I was not even of
+              the same nature as man. I was more agile than they,
+              and could subsist upon coarser diet; I bore the
+              extremes of heat and cold with less injury to my
+              frame; my stature far exceeded theirs. When I looked
+              around, I saw and heard of none like me. Was
+              I then a monster, a blot upon the earth, from
+              which all men fled, and whom all men disowned?</p>
+            </item>
+            <item>
+               <p>"I cannot describe
+              to you the agony that these reflections inflicted
+              upon me: I tried to dispel them, but sorrow
+              only increased with knowledge. Oh, that I had for
+              ever remained in my native wood, nor known nor felt
+              beyond the
+              sensations of hunger, thirst, and heat!</p>
+            </item>
+            <item>
+               <p>"Of
+              what a strange nature is knowledge! It clings to
+              the mind, when it has once seized on it, like a
+              lichen on the rock. I wished sometimes to shake off
+              all thought and feeling; but I learned that there was
+              but one means to overcome the sensation of pain, and
+              that was death—a state which I feared yet did
+              not understand. I admired virtue and good feelings,
+              and loved the gentle manners and amiable qualities of
+              my cottagers; but I was shut out from intercourse
+              with them, except through means which I obtained by
+              stealth, when I was unseen and unknown, and which
+              rather increased than satisfied the desire I had of
+              becoming one among my fellows. The gentle words of
+              Agatha, and the animated smiles of the charming
+              Arabian, were not for me. The mild exhortations of
+              the old man, and the lively conversation of the loved
+              Felix, were not for me. Miserable,
+              unhappy wretch!</p>
+            </item>
+            <item>
+               <p>"Other
+              lessons were impressed upon me even more deeply.
+              I heard of the difference of sexes; and the birth and
+              growth of children; how the father doated on the
+              smiles of the infant, and the lively sallies of the
+              older child; how all the life and cares of the mother
+              were wrapped up in the precious charge; how the mind
+              of youth expanded and gained knowledge; of brother,
+              sister, and all the various relationships which bind
+              one human being to another in mutual
+              bonds.</p>
+            </item>
+            <item>
+               <p>"But where were my
+              friends and relations? No father had watched my
+              infant days, no mother had blessed me with smiles and
+              caresses; or if they had, all my past life was now a
+              blot, a blind
+              vacancy in which I distinguished nothing. From my
+              earliest remembrance I had been as I then was in
+              height and proportion. I had never yet seen a being
+              resembling me, or who claimed any intercourse with
+              me. What was I? The question again recurred, to be
+              answered only with groans.</p>
+            </item>
+            <item>
+               <p>"I will soon explain to what these feelings
+              tended; but allow me now to return to the cottagers,
+              whose story excited in me such various feelings of
+              indignation, delight, and wonder, but which all
+              terminated in additional love and reverence for my
+              protectors (for so I loved, in an innocent, half
+              painful self-deceit,
+              to call them).</p>
+            </item>
+         </list>
+         <p>&lt; Chapter 12 | Chapter
+          14 &gt;</p>
+      </body>
+   </text>
+</TEI>

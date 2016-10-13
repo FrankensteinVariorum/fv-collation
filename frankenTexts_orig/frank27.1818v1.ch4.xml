@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Frankenstein</title>
+            <title type="subordinate">A Romantic Circles Electronic Edition</title>
+            <author>
+               <name>Mary Shelley (1797-1851)</name>
+            </author>
+            <editor>Stuart Curran</editor>
+            <sponsor>Romantic Circles</sponsor>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Neil Fraistat</name>
+            </respStmt>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Steven E. Jones</name>
+            </respStmt>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Carl Stahmer</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name>Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="edition">frank27.1818v1.ch4</idno>
+            <idno type="nines">rce1212</idno>
+            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
+            <pubPlace>College Park, MD</pubPlace>
+            <date when="2009-04-01">April 1, 2009</date>
+            <availability status="restricted">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or disseminated in
+														any manner without authorization unless it is for purposes of criticism, comment, news
+														reporting, teaching, and/or classroom use as provided by the Copyright Act of 1976, as
+														amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are copyrighted by
+														the author/editor and may be shared only in accordance with the Fair Use provisions of U.S.
+														copyright law. Except as expressly permitted by this statement, redistribution or
+														republication in any medium requires express prior written consent from the author/editors and
+														advance notification of Romantic Circles. Any requests for authorization should be forwarded
+														to Romantic Circles:&gt;
+														<address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Neil Fraistat</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Maryland</addrLine>
+                     <addrLine>College Park, MD 20742</addrLine>
+                     <addrLine>fraistat@umd.edu</addrLine>
+                  </address>
+               </p>
+               <p>By their use of these texts and images, users agree to the following conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose without prior
+																written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms other than their
+																current ones.</item>
+                  </list>
+               </p>
+               <p>Users are not permitted to download these texts and images in order to mount them on their own
+														servers. It is not in our interest or that of our users to have uncontrolled subsets of our
+														holdings available elsewhere on the Internet. We make corrections and additions to our edited
+														resources on a continual basis, and we want the most current text to be the only one generally
+														available to all Internet users. Institutions can, of course, make a link to the copies at
+														Romantic Circles, subject to our conditions of use.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title level="a">Chapter 4</title>
+               </analytic>
+               <monogr>
+                  <author>
+                     <persName>Shelley, Mary Wollstonecraft, 1797-1851</persName>
+                  </author>
+                  <title type="main" level="m">Frankenstein, </title>
+                  <title type="subordinate" level="m">Or, the Modern Prometheus</title>
+                  <imprint>
+                     <publisher>Lackington, Hughes, Harding, Mavor, &amp; Jones</publisher>
+                     <pubPlace>London</pubPlace>
+                     <date>1818</date>
+                     <biblScope type="ed">The First Edition</biblScope>
+                     <biblScope type="vol">1</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘, and ' for
+														’.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all hyphens have been typed on the U.S. keyboard</p>
+               <p>Dashes have been rendered as —</p>
+            </hyphenation>
+            <normalization method="markup">
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization>
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>£ has been used for £, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been encoded in HTML
+														entity decimals.</p>
+            </normalization>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="g">
+               <bibl>NINES categories for Genre and Material Form at
+														http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E on
+														2009-02-26</bibl>
+               <category xml:id="g1">
+                  <catDesc>Architecture</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>Artifacts</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>Letters</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>Politics</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>Folklore</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>History</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>Leisure</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>Humor</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>Education</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>Music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>nonfiction</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>Perodical</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>Philosphy</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>Family Life</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>Travel</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>Book History</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>Law</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#genre" target="#g12"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="2009-05-01" n="3">
+            <label>Changed by</label>
+            <name xml:id="LM">Laura Mandell</name>
+            <list>
+               <item>XSLT Transforming into TEI, RDF</item>
+            </list>
+         </change>
+         <change who="#DR" when="2009-05-01" n="2">
+            <label>Changed by</label>
+            <name xml:id="DR">David Rettenmaier</name>
+            <list>
+               <item>XHTML Encoding</item>
+            </list>
+         </change>
+         <change who="#MQ" when="2009-05-01" n="1">
+            <label>Changed by</label>
+            <name xml:id="MQ">Mike Quilligan</name>
+            <list>
+               <item>XHTML Encoding</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>TEXTS : 1818 EDITION : VOL. I</head>
+         <p rend="emph">Chapter 4</p>
+         <p> </p>
+         <list type="simple">
+            <item>
+               <p>IT
+              was on a dreary night of November, that I beheld
+              the accomplishment of my toils. With an anxiety that
+              almost amounted to agony,
+              I collected the instruments of life around me, that I
+              might infuse a spark
+              of being into the lifeless thing that lay at my
+              feet. It was already one in the morning; the rain
+              pattered dismally against the panes, and my candle
+              was nearly burnt out, when, by the glimmer of the
+              half-extinguished light, I saw the dull yellow eye of
+              the
+              creature open; it breathed hard, and a convulsive
+              motion agitated its limbs.</p>
+            </item>
+            <item>
+               <p>How can I describe my
+              emotions at this catastrophe,
+              or how delineate the wretch
+              whom with such infinite pains and care I had
+              endeavoured to form? His limbs were in proportion,
+              and I had selected his features as beautiful.
+              
+              Beautiful!—Great God! His yellow skin
+              scarcely covered the work of muscles and arteries
+              beneath; his hair was of a lustrous black, and
+              flowing; his teeth of a pearly whiteness; but these
+              luxuriances only formed a more horrid contrast with
+              his watery eyes, that seemed almost of the same
+              colour as the dun white sockets in which they were
+              set, his shrivelled complexion, and straight black
+              lips.</p>
+            </item>
+            <item>
+               <p>The different accidents
+              of life are not so changeable as the feelings of
+              human nature. I had worked hard for nearly two years,
+              for the sole purpose of infusing life into an
+              inanimate body. For this I had deprived myself of
+              rest and health. I had desired it with an ardour
+              that far exceeded moderation; but now that I had
+              finished, the beauty of the dream vanished, and
+              breathless
+              horror and disgust filled my heart. Unable to
+              endure the aspect of the being I had created, I
+              rushed out of the room, and continued a long time
+              traversing my bed-chamber, unable
+              to compose my mind to sleep. At length lassitude
+              succeeded to the tumult I had before endured; and I
+              threw myself on the bed in my clothes, endeavouring
+              to seek a few moments of forgetfulness. But it was in
+              vain: I slept indeed, but I was disturbed by the
+              wildest dreams. I thought I saw Elizabeth, in the
+              bloom of health, walking in the streets of
+              Ingolstadt. Delighted and surprised, I embraced her;
+              but as I imprinted the first kiss on her lips, they
+              became livid with the hue of death; her features
+              appeared to change, and I thought that I held the
+              corpse
+              of my dead mother in my arms; a shroud enveloped
+              her form, and I saw the grave-worms crawling in the
+              folds of the flannel. I started from my sleep with
+              horror; a cold
+              dew covered my forehead, my teeth chattered, and
+              every limb became convulsed; when, by the dim and
+              yellow light of the moon, as it forced its way
+              through the window-shutters, I beheld the wretch—the
+              miserable monster whom I had created. He held up
+              the curtain of the bed; and his eyes, if eyes they
+              may be called, were fixed on me. His jaws opened, and
+              he muttered
+              some inarticulate sounds, while a grin wrinkled
+              his cheeks. He might have spoken, but I did not hear;
+              one hand was stretched out, seemingly to detain
+              me, but I escaped, and rushed down stairs. I took
+              refuge in the court-yard belonging to the house which
+              I inhabited; where I remained during the rest of the
+              night, walking up and down in the greatest agitation,
+              listening attentively, catching and fearing each
+              sound as if it were to announce the approach of the
+              demoniacal
+              corpse to which I had so miserably given
+              life.</p>
+            </item>
+            <item>
+               <p>Oh! no mortal could
+              support the horror
+              of that countenance. A mummy again endued with
+              animation could not be so hideous as that wretch. I
+              had gazed on him while unfinished; he was ugly then;
+              but when those muscles and joints were rendered
+              capable of motion, it became a thing such as even
+              Dante
+              could not have conceived.</p>
+            </item>
+            <item>
+               <p> I passed the night
+              wretchedly.
+              Sometimes my pulse beat so quickly and hardly, that I
+              felt the palpitation of every artery; at others, I
+              nearly sank to the ground through languor and extreme
+              weakness. Mingled with this horror, I felt the
+              bitterness of disappointment: dreams that had been my
+              food and pleasant rest for so long a space, were now
+              become
+              a hell to me; and the change was so rapid, the
+              overthrow
+              so complete!</p>
+            </item>
+            <item>
+               <p>Morning, dismal and
+              wet, at length dawned, and discovered to my sleepless
+              and aching eyes the church of Ingolstadt, its
+              
+              white steeple and clock, which indicated the
+              sixth hour. The porter
+              opened the gates of the court, which had that night
+              been my asylum, and I issued into the streets, pacing
+              them with quick steps, as if I sought to avoid the
+              wretch whom I feared every turning of the street
+              would present to my view. I did not dare return to
+              the apartment which I inhabited, but felt impelled to
+              hurry on, although wetted by the rain, which poured
+              from a
+              black and comfortless sky.</p>
+            </item>
+            <item>
+               <p>I continued walking in
+              this manner for some time, endeavouring, by bodily
+              exercise, to ease the load that weighed upon my mind.
+              I traversed the streets, without any clear conception
+              of where I was, or what I was doing. My heart
+              palpitated in the sickness of fear; and I hurried on
+              with irregular steps, not daring to look about
+              me:</p>
+               <lg>
+                  <l>
+                Like one who, on a lonely road,<lb/>
+                   Doth walk in fear and
+                dread,<lb/>
+                And, having once turn'd round, walks on,<lb/>
+                   And turns no more his head;<lb/>
+                Because he knows a frightful fiend<lb/>
+                   Doth close behind him
+                tread.*</l>
+               </lg>
+               <p>Continuing thus, I came at length opposite to the
+              inn at which the various diligences and carriages
+              usually stopped. Here I paused, I knew not why; but I
+              remained some minutes with my
+              eyes fixed on a coach that was coming towards me
+              from the other end of the street. As it drew nearer,
+              I observed that it was the Swiss diligence:
+              it stopped just where I was standing; and, on the
+              door being opened, I perceived Henry Clerval, who, on
+              seeing me, instantly sprung out. "My dear
+              Frankenstein," exclaimed he, "how glad I am to see
+              you! how fortunate that you should be here at the
+              very moment of my alighting!"</p>
+            </item>
+            <item>
+               <p>Nothing could equal my delight on seeing
+              Clerval; his presence brought back to my thoughts my
+              father, Elizabeth, and all those scenes of home so
+              dear to my recollection. I grasped his hand, and in a
+              moment forgot my horror and misfortune; I felt
+              suddenly, and for the first time during many months,
+              calm and serene joy. I welcomed my friend therefore,
+              in the most cordial manner, and we walked towards my
+              college. Clerval continued talking for some time
+              about our mutual friends, and his own good fortune in
+              being permitted to come to Ingolstadt. "You may
+              easily believe," said he, "how great was the
+              difficulty to persuade my father that it was not
+              absolutely necessary for a merchant
+              not to understand any thing except book-keeping; and,
+              indeed, I believe I left him incredulous to the last,
+              for his constant answer to my unwearied entreaties
+              was the same as that of the Dutch school-master in
+              the Vicar
+              of Wakefield: 'I have ten thousand florins a year
+              without Greek, I eat heartily without Greek.' But his
+              affection for me at length overcame his dislike of
+              learning, and he has permitted me to undertake
+              a voyage of discovery to the land of
+              knowledge."</p>
+            </item>
+            <item>
+               <p>"It gives me the
+              greatest delight to see you; but tell me how you left
+              my father, brothers, and Elizabeth."</p>
+            </item>
+            <item>
+               <p>"Very well, and very
+              happy, only a little uneasy that they
+              hear from you so seldom. By the bye, I mean to
+              lecture you a little upon their account
+              myself.—But, my dear Frankenstein," continued
+              he, stopping short, and gazing full in my face, "I
+              did not before remark how very ill you appear; so
+              thin and pale; you look as if you had been watching
+              for several nights."</p>
+            </item>
+            <item>
+               <p>"You have guessed right; I have lately
+              been so deeply engaged in one occupation, that I have
+              not allowed myself sufficient rest, as you see: but I
+              hope, I sincerely hope, that all these employments
+              are now at an end, and that I am
+              at length free."</p>
+            </item>
+            <item>
+               <p> I trembled
+              excessively; I could not endure to think of, and far
+              less to allude to the occurrences of the preceding
+              night. I walked with a quick pace, and we soon
+              arrived at my college. I then reflected, and the
+              thought made me shiver, that the creature whom I had
+              left in my apartment might still be there, alive,
+              and walking about. I dreaded to behold this
+              monster; but I feared still more that Henry
+              should see him. Entreating him therefore to remain a
+              few minutes at the bottom of the stairs, I darted up
+              towards my own room. My hand was already on the lock
+              of the door before I recollected myself. I then
+              paused; and a cold shivering came over me. I threw
+              the door forcibly open, as children are accustomed to
+              do when they
+              expect a spectre to stand in waiting for them on
+              the other side; but nothing appeared. I stepped
+              fearfully in: the apartment was empty; and my
+              bed-room was also freed from its hideous guest. I
+              could hardly believe that so great a good-fortune
+              could have befallen me; but when I became assured
+              that my
+              enemy had indeed fled, I clapped my hands for
+              joy, and ran down to Clerval.</p>
+            </item>
+            <item>
+               <p> We ascended into my
+              room, and the servant presently brought breakfast;
+              but I was unable to contain myself. It was not joy
+              only that possessed me; I felt
+              my flesh tingle with excess of sensitiveness, and
+              my pulse beat rapidly. I was unable to remain for a
+              single instant in the same place; I jumped over the
+              chairs, clapped my hands, and laughed aloud. Clerval
+              at first attributed my unusual spirits to joy on his
+              arrival; but when he observed me more attentively, he
+              saw a wildness
+              in my eyes for which he could not account; and my
+              loud, unrestrained, heartless
+              laughter, frightened and astonished him.</p>
+            </item>
+            <item>
+               <p>My dear Victor," cried he, "what, for
+              God's sake, is the matter? Do not laugh in that
+              manner. How ill you are! What is the cause of all
+              this?"</p>
+            </item>
+            <item>
+               <p>"Do not ask me," cried
+              I, putting my hands before my eyes, for I thought I
+              saw the dreaded
+              spectre glide into the room; "he can tell.
+              —Oh, save me! save me!" I imagined that the
+              monster
+              seized me; I struggled furiously, and fell down in a
+              fit.</p>
+            </item>
+            <item>
+               <p>Poor Clerval! what must
+              have been his feelings? A meeting, which he
+              anticipated with such joy, so strangely turned to
+              bitterness. But I was not the witness of his grief;
+              for I was lifeless,
+              and did not recover my senses for a long, long
+              time.</p>
+            </item>
+            <item>
+               <p>This was the
+              commencement of a nervous
+              fever, which confined me for several months.
+              During all that time Henry
+              was my only nurse. I afterwards learned that,
+              knowing my father's advanced age, and unfitness
+              for so long a journey, and how wretched my
+              sickness would make Elizabeth, he spared them this
+              grief by concealing the extent of my disorder. He
+              knew that I could not have a more kind and attentive
+              nurse than himself; and, firm in the hope he felt of
+              my recovery, he did not doubt that, instead
+              of doing harm, he performed the kindest action
+              that he could towards them.</p>
+            </item>
+            <item>
+               <p>But I was in reality
+              very ill; and surely nothing but the unbounded and
+              unremitting attentions of my friend could have
+              restored
+              me to life. The form of the monster on whom I had
+              bestowed existence was for ever before my eyes, and I
+              raved incessantly concerning him. Doubtless my words
+              surprised Henry: he at first believed them to be the
+              wanderings of my disturbed
+              imagination; but the pertinacity with which I
+              continually recurred to the same subject persuaded
+              him that my disorder indeed owed its origin to some
+              uncommon and terrible event.</p>
+            </item>
+            <item>
+               <p>By very slow degrees,
+              and with frequent relapses that alarmed and grieved
+              my friend, I recovered. I remember the first time I
+              became capable
+              of observing outward objects with any kind of
+              pleasure, I perceived that the fallen leaves had
+              disappeared, and that the young buds were shooting
+              forth from the trees that shaded my window. It
+              was a divine spring; and the season contributed
+              greatly to my convalescence. I felt also sentiments
+              of joy and affection revive in my bosom; my gloom
+              disappeared, and in a short time I became as cheerful
+              as before I was attacked by the fatal passion.</p>
+            </item>
+            <item>
+               <p>"Dearest Clerval,"
+              exclaimed I, "how kind, how very good you are to me.
+              This whole winter, instead of being spent in study,
+              as you promised yourself, has been consumed in my
+              sick room. How shall I ever repay you? I feel
+              
+              the greatest remorse for the disappointment of
+              which I have been the occasion; but you will forgive
+              me."</p>
+            </item>
+            <item>
+               <p>"You will repay me
+              entirely, if you do not discompose yourself, but get
+              well as fast as you can; and since you appear in such
+              good spirits, I may speak to you on one subject, may
+              I not?"</p>
+            </item>
+            <item>
+               <p>I trembled. One
+              subject! what could it be? Could he allude to
+              
+              an object on whom I dared not even think?</p>
+            </item>
+            <item>
+               <p>"Compose yourself,"
+              said Clerval, who observed my change of colour, "I
+              will not mention it, if it agitates you; but your
+              father and cousin would be very happy if they
+              received a letter from you in your own handwriting.
+              They hardly know how ill you have been, and are
+              uneasy
+              at your long silence."</p>
+            </item>
+            <item>
+               <p>"Is that all? my dear
+              Henry. How could you suppose that my
+              first thought would not fly towards those dear, dear
+              friends whom I love, and who are so deserving of
+              my love."<lb/>
+              "If this is your present temper, my friend, you will
+              perhaps be glad to see a letter that has been lying
+              here some days for you: it is from your cousin, I
+              believe."</p>
+            </item>
+         </list>
+         <p>&lt; Chapter 3 | Chapter
+          5 &gt;</p>
+      </body>
+   </text>
+</TEI>

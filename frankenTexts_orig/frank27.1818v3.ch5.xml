@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Frankenstein</title>
+            <title type="subordinate">A Romantic Circles Electronic Edition</title>
+            <author>
+               <name>Mary Shelley (1797-1851)</name>
+            </author>
+            <editor>Stuart Curran</editor>
+            <sponsor>Romantic Circles</sponsor>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Neil Fraistat</name>
+            </respStmt>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Steven E. Jones</name>
+            </respStmt>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Carl Stahmer</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name>Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="edition">frank27.1818v3.ch5</idno>
+            <idno type="nines">rce1231</idno>
+            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
+            <pubPlace>College Park, MD</pubPlace>
+            <date when="2009-04-01">April 1, 2009</date>
+            <availability status="restricted">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or disseminated in
+														any manner without authorization unless it is for purposes of criticism, comment, news
+														reporting, teaching, and/or classroom use as provided by the Copyright Act of 1976, as
+														amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are copyrighted by
+														the author/editor and may be shared only in accordance with the Fair Use provisions of U.S.
+														copyright law. Except as expressly permitted by this statement, redistribution or
+														republication in any medium requires express prior written consent from the author/editors and
+														advance notification of Romantic Circles. Any requests for authorization should be forwarded
+														to Romantic Circles:&gt;
+														<address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Neil Fraistat</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Maryland</addrLine>
+                     <addrLine>College Park, MD 20742</addrLine>
+                     <addrLine>fraistat@umd.edu</addrLine>
+                  </address>
+               </p>
+               <p>By their use of these texts and images, users agree to the following conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose without prior
+																written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms other than their
+																current ones.</item>
+                  </list>
+               </p>
+               <p>Users are not permitted to download these texts and images in order to mount them on their own
+														servers. It is not in our interest or that of our users to have uncontrolled subsets of our
+														holdings available elsewhere on the Internet. We make corrections and additions to our edited
+														resources on a continual basis, and we want the most current text to be the only one generally
+														available to all Internet users. Institutions can, of course, make a link to the copies at
+														Romantic Circles, subject to our conditions of use.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title level="a">Chapter 5</title>
+               </analytic>
+               <monogr>
+                  <author>
+                     <persName>Shelley, Mary Wollstonecraft, 1797-1851</persName>
+                  </author>
+                  <title type="main" level="m">Frankenstein, </title>
+                  <title type="subordinate" level="m">Or, the Modern Prometheus</title>
+                  <imprint>
+                     <publisher>Lackington, Hughes, Harding, Mavor, &amp; Jones</publisher>
+                     <pubPlace>London</pubPlace>
+                     <date>1818</date>
+                     <biblScope type="ed">The First Edition</biblScope>
+                     <biblScope type="vol">3</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘, and ' for
+														’.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all hyphens have been typed on the U.S. keyboard</p>
+               <p>Dashes have been rendered as —</p>
+            </hyphenation>
+            <normalization method="markup">
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization>
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>£ has been used for £, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been encoded in HTML
+														entity decimals.</p>
+            </normalization>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="g">
+               <bibl>NINES categories for Genre and Material Form at
+														http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E on
+														2009-02-26</bibl>
+               <category xml:id="g1">
+                  <catDesc>Architecture</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>Artifacts</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>Letters</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>Politics</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>Folklore</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>History</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>Leisure</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>Humor</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>Education</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>Music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>nonfiction</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>Perodical</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>Philosphy</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>Family Life</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>Travel</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>Book History</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>Law</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#genre" target="#g12"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="2009-05-01" n="3">
+            <label>Changed by</label>
+            <name xml:id="LM">Laura Mandell</name>
+            <list>
+               <item>XSLT Transforming into TEI, RDF</item>
+            </list>
+         </change>
+         <change who="#DR" when="2009-05-01" n="2">
+            <label>Changed by</label>
+            <name xml:id="DR">David Rettenmaier</name>
+            <list>
+               <item>XHTML Encoding</item>
+            </list>
+         </change>
+         <change who="#MQ" when="2009-05-01" n="1">
+            <label>Changed by</label>
+            <name xml:id="MQ">Mike Quilligan</name>
+            <list>
+               <item>XHTML Encoding</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>TEXTS : 1818 EDITION : VOL. III</head>
+         <p rend="emph">Chapter 5</p>
+         <p> </p>
+         <list type="simple">
+            <item>
+               <p> WE had resolved not to go to London, but
+              to cross the country to Portsmouth,
+              and thence to embark for Havre.
+              I preferred this plan principally because I dreaded
+              to see again those places in which I had enjoyed a
+              few moments of tranquillity with my beloved Clerval.
+              I thought with horror of seeing again those persons
+              whom we had been accustomed to visit together, and
+              who might make inquiries
+              concerning an event, the very remembrance of
+              which made me again feel the pang I endured when I
+              gazed on his lifeless form in the inn at ----.</p>
+            </item>
+            <item>
+               <p>As for my father, his
+              desires and exertions were bounded to the again
+              seeing me restored to health and peace of mind. His
+              tenderness and attentions were unremitting; my grief
+              and gloom was obstinate, but he would not despair.
+              Sometimes he thought that I felt deeply the
+              degradation of being obliged to answer a charge of
+              murder, and he endeavoured to prove to me the
+              futility of pride.</p>
+            </item>
+            <item>
+               <p>"Alas! my father," said
+              I, "how
+              little do you know me. Human beings, their
+              feelings and passions, would indeed be degraded if
+              such a wretch as I felt pride. Justine, poor unhappy
+              Justine, was as innocent as I, and she suffered the
+              same charge; she died for it; and I am the cause of
+              this—I murdered her. William, Justine, and
+              Henry—they
+              all died by my hands."</p>
+            </item>
+            <item>
+               <p>My father had often,
+              during my imprisonment, heard me make the same
+              assertion; when I thus accused myself, he sometimes
+              seemed to desire an explanation, and at others he
+              appeared to consider it as caused by delirium, and
+              that, during my illness, some idea of this kind had
+              presented itself to my imagination, the remembrance
+              of which I preserved in my convalescence. I avoided
+              explanation, and maintained a continual silence
+              concerning the wretch I had created. I had a feeling
+              that I should
+              be supposed mad, and this for ever chained my
+              tongue, when I would have given the world to have
+              confided the fatal secret. Yet still words like those
+              I have recorded would burst uncontrollably from me. I
+              could offer no explanation of them; but their truth
+              in part relieved the burden of my mysterious woe.</p>
+            </item>
+            <item>
+               <p> Upon this occasion my father said, with
+              an expression of unbounded wonder, "What do you mean,
+              Victor? are you mad? My dear son, I entreat you never
+              to make such an assertion again."</p>
+            </item>
+            <item>
+               <p>"I am
+              not mad," I cried energetically; "the sun and the
+              heavens, who have viewed my operations, can bear
+              witness of my truth. I am the assassin of those most
+              innocent victims; they died by my machinations. A
+              thousand times would I have shed my own blood, drop
+              by drop, to have saved their lives; but I could not,
+              my father, indeed I
+              could not sacrifice the whole human race."</p>
+            </item>
+            <item>
+               <p>The conclusion of this
+              speech convinced my father that my ideas were
+              deranged, and he instantly changed the subject of our
+              conversation and endeavoured to alter the course of
+              my thoughts. He wished as much as possible to
+              obliterate the memory of the scenes that had taken
+              place in Ireland, and never alluded to them, or
+              suffered me to speak of my misfortunes.</p>
+            </item>
+            <item>
+               <p>As time passed away I
+              became more calm: misery had her dwelling in my
+              heart, but I no longer talked in the same incoherent
+              manner of my own crimes; sufficient
+              for me was the consciousness of them. By the
+              utmost self-violence, I
+              curbed the imperious voice of wretchedness, which
+              sometimes desired to declare itself to the whole
+              world; and my manners were calmer and more composed
+              than they had ever been since my journey to the sea
+              of ice.</p>
+            </item>
+            <item>
+               <p> We arrived at Havre on the 8th of
+              May, and instantly proceeded to Paris, where my
+              father had some business which detained us a few
+              weeks. In this city, I received the following letter
+              from Elizabeth:—</p>
+            </item>
+            <item>
+               <p>"To VICTOR
+              FRANKENSTEIN.</p>
+               <p>"MY DEAREST FRIEND,</p>
+            </item>
+            <item>
+               <p>"It gave me the greatest pleasure to receive a
+              letter from my uncle dated at Paris; you are no
+              longer at a formidable distance, and I may hope to
+              see you in less than a fortnight. My poor cousin, how
+              much you must have suffered! I expect to see you
+              looking even more ill than when you quitted Geneva.
+              This winter has been passed most miserably, tortured
+              as I have been by anxious suspense; yet I hope to see
+              peace in your countenance, and to find that your
+              heart is not totally devoid of comfort and
+              tranquillity.</p>
+            </item>
+            <item>
+               <p>"Yet I fear that the
+              same feelings now exist that made you so miserable
+              a
+              year ago, even perhaps augmented by time. I would
+              not disturb you at this period when so many
+              misfortunes weigh upon you; but a conversation that I
+              had with my uncle previous to his departure renders
+              some explanation necessary before we meet.</p>
+            </item>
+            <item>
+               <p>"Explanation! you may
+              possibly say; what can Elizabeth have to explain? If
+              you really say this, my questions are answered, and I
+              have no more to do than to sign myself your
+              affectionate cousin. But you are distant from me, and
+              it is possible that you may dread,
+              and yet be pleased with this explanation; and, in
+              a probability of this being the case, I dare not any
+              longer postpone writing what, during your absence, I
+              have often wished to express to you, but have never
+              had the courage to begin.</p>
+            </item>
+            <item>
+               <p> "You well know, Victor, that our union
+              had been the
+              favourite plan of your parents ever since our
+              infancy. We were told this when young, and taught to
+              look forward to it as an event that would certainly
+              take place. We were affectionate playfellows during
+              childhood, and, I believe, dear and valued friends to
+              one another as we grew older. But as brother and
+              sister often entertain a lively affection towards
+              each other, without desiring a more intimate union,
+              may not such also be our case? Tell me, dearest
+              Victor. Answer me, I conjure you, by our mutual
+              happiness, with simple truth—Do
+              you not love another?</p>
+            </item>
+            <item>
+               <p>"You have travelled;
+              you have spent several years of your life at
+              Ingolstadt; and I confess to you, my friend, that
+              when I saw you last
+              autumn so unhappy, flying
+              to solitude, from the society of every creature,
+              I could not help supposing that you might regret our
+              connection, and believe yourself bound in honour to
+              fulfill the wishes of your parents, although they
+              opposed themselves to your inclinations. But this is
+              false reasoning. I confess to you, my cousin, that I
+              love you, and that in my airy dreams of futurity you
+              have been my constant friend and companion. But it is
+              your happiness I desire as well as my own, when I
+              declare to you, that our marriage would render me
+              eternally miserable, unless it were the dictate of
+              your
+              own free choice. Even now I weep to think, that,
+              borne down as you are by the cruellest misfortunes,
+              you may stifle, by the word honour, all hope
+              of that love and happiness which would alone restore
+              you to yourself. I, who have so disinterested an
+              affection for you, may increase your miseries
+              ten-fold by being an obstacle to your wishes. Ah,
+              Victor, be assured that your cousin and playmate has
+              too sincere a love for you not to be made miserable
+              by this supposition. Be happy, my friend; and if you
+              obey me in this one request, remain satisfied that
+              nothing on earth will have the power to interrupt my
+              tranquillity.</p>
+            </item>
+            <item>
+               <p>"Do not let this letter
+              disturb you; do not answer to-morrow, or the next
+              day, or even until you come, if it will give you
+              pain. My uncle will send me news of your health; and
+              if I see but one smile on your lips when we meet,
+              occasioned by this or any other exertion of mine, I
+              shall need no other happiness.</p>
+               <p>"ELIZABETH LAVENZA.</p>
+               <p>"Geneva, May 18th, 17—."</p>
+            </item>
+            <item>
+               <p> This letter revived in my memory what I
+              had before forgotten, the threat of the
+              fiend—"I will be with you on your
+              wedding-night!" Such was my sentence,
+              and on that night would the dæmon employ every
+              art to destroy me, and tear me from the glimpse of
+              happiness which promised partly to console my
+              sufferings. On that night he had determined to
+              consummate his crimes by my death. Well, be it so;
+              a
+              deadly struggle would then assuredly take place,
+              in which if he was victorious, I should be at peace,
+              and his power over me be at an end. If he were
+              vanquished, I should be a free man. Alas! what
+              freedom? such as the
+              peasant enjoys when his family have been
+              massacred before his eyes, his cottage burnt, his
+              lands laid waste, and he is turned adrift, homeless,
+              pennyless, and alone, but free. Such would be my
+              liberty, except that in my Elizabeth I possessed a
+              treasure; alas! balanced by those horrors of remorse
+              and guilt, which would pursue me until death.</p>
+            </item>
+            <item>
+               <p>Sweet and beloved
+              Elizabeth! I read and re-read her letter, and some
+              softened feelings stole into my heart, and dared to
+              whisper paradisaical dreams of love and joy; but
+              the
+              apple was already eaten, and the angel's arm
+              bared to drive me from all hope. Yet I would die to
+              make her happy. If the monster executed his threat,
+              death was inevitable; yet, again, I considered
+              whether my marriage would hasten my fate. My
+              destruction might indeed arrive a few months sooner;
+              but if my torturer should suspect that I postponed
+              it, influenced by his menaces, he would surely find
+              other, and perhaps more dreadful means of revenge. He
+              had vowed to be with me on my wedding-night,
+              yet he did not consider that threat as binding him to
+              peace in the mean time; for, as if to shew me that he
+              was not yet satiated with blood, he had murdered
+              Clerval immediately after the enunciation of his
+              threats. I resolved, therefore, that if my immediate
+              union with my cousin would conduce either to her's or
+              my father's happiness, my adversary's designs against
+              my life should not retard it a single hour.</p>
+            </item>
+            <item>
+               <p> In this state of mind I wrote to
+              Elizabeth. My
+              letter was calm and affectionate. "I fear, my
+              beloved girl," I said, "little happiness remains for
+              us on earth; yet all that I may one day enjoy is
+              concentered in you. Chase away your idle fears; to
+              you alone do I consecrate my life, and my endeavours
+              for contentment. I have one secret, Elizabeth, a
+              dreadful one; when revealed to you, it will chill
+              your frame with horror, and then, far from being
+              surprised at my misery, you will only wonder that I
+              survive what I have endured. I will confide this tale
+              of misery and terror to you the day after our
+              marriage shall take place; for, my sweet cousin,
+              there must be perfect confidence between us. But
+              until then, I conjure you, do not mention or allude
+              to it. This I most earnestly entreat, and I know you
+              will comply."</p>
+            </item>
+            <item>
+               <p>In about a week after
+              the arrival of Elizabeth's letter, we returned to
+              Geneva. My cousin welcomed me with warm affection;
+              yet tears were in her eyes, as she beheld my
+              emaciated frame and feverish cheeks. I saw a change
+              in her also. She
+              was thinner, and had lost much of that heavenly
+              vivacity that had before charmed me; but her
+              gentleness, and soft looks of compassion, made her a
+              more fit companion for one blasted
+              and miserable as I was.</p>
+            </item>
+            <item>
+               <p>The tranquillity which
+              I now enjoyed did not endure. Memory brought madness
+              with it; and when I thought of what had passed,
+              a
+              real insanity possessed me; sometimes I was
+              furious, and burnt with rage; sometimes low and
+              despondent. I neither spoke or looked, but sat
+              motionless, bewildered by the multitude of miseries
+              that overcame me.</p>
+            </item>
+            <item>
+               <p>Elizabeth alone had the
+              power to draw me from these fits; her gentle voice
+              would soothe me when transported by passion, and
+              inspire me with human feelings when sunk in torpor.
+              She wept with me, and for me. When reason returned,
+              she would remonstrate, and endeavour to inspire me
+              with resignation. Ah! it is well for the unfortunate
+              to be resigned, but for
+              the guilty there is no peace. The agonies of
+              remorse poison the luxury there is otherwise
+              sometimes found in indulging the excess of grief.</p>
+            </item>
+            <item>
+               <p> Soon after my arrival my father spoke of
+              my immediate marriage with my cousin. I remained
+              silent.</p>
+            </item>
+            <item>
+               <p>"Have you, then, some
+              other attachment?"</p>
+            </item>
+            <item>
+               <p>"None on earth. I love
+              Elizabeth, and look forward to our union with
+              delight. Let the day therefore be fixed; and on it I
+              will consecrate myself, in life or death, to the
+              happiness of my cousin."</p>
+            </item>
+            <item>
+               <p>"My dear Victor, do not
+              speak thus. Heavy misfortunes have befallen us; but
+              let us only cling closer to what remains, and
+              transfer our love for those whom we have lost to
+              those who yet live. Our
+              circle will be small, but bound close by the ties
+              of affection and mutual misfortune. And when time
+              shall have softened your despair, new
+              and dear objects of care will be born to replace
+              those of whom we have been so cruelly deprived."</p>
+            </item>
+            <item>
+               <p>Such were the
+              lessons of my father. But to me the remembrance
+              of the threat returned: nor can you wonder, that,
+              omnipotent as the fiend had yet been in his deeds of
+              blood, I should almost regard him as invincible; and
+              that when he had pronounced the words, "I shall be
+              with you on your wedding-night," I should regard
+              the
+              threatened fate as unavoidable. But death was no
+              evil to me, if the loss of Elizabeth were balanced
+              with it; and I therefore, with a contented and even
+              cheerful countenance, agreed with my father, that if
+              my cousin would consent, the ceremony should take
+              place in ten days, and thus put, as I imagined, the
+              seal to my fate.</p>
+            </item>
+            <item>
+               <p>Great God! if for one
+              instant I had thought what might be the hellish
+              intention of my fiendish adversary, I would rather
+              have banished myself for ever from my native country,
+              and wandered
+              a friendless outcast over the earth, than have
+              consented to this miserable marriage. But, as if
+              possessed of magic powers, the monster had blinded me
+              to his real intentions; and when I thought that I had
+              prepared only my own death, I hastened that of a far
+              dearer victim.</p>
+            </item>
+            <item>
+               <p> As the period fixed for our marriage
+              drew nearer, whether from cowardice or a prophetic
+              feeling, I felt my heart sink within me. But I
+              concealed my feelings by an appearance of
+              hilarity, that brought smiles and joy to the
+              countenance of my father, but hardly deceived the
+              ever-watchful and nicer
+              eye of Elizabeth. She looked forward to our union
+              with placid contentment, not unmingled with a little
+              fear, which past misfortunes had impressed, that what
+              now appeared certain and tangible happiness, might
+              soon dissipate into an airy dream, and leave no trace
+              but deep and everlasting regret.</p>
+            </item>
+            <item>
+               <p>Preparations were made
+              for the event; congratulatory visits were received;
+              and all wore a smiling appearance. I shut up, as well
+              as I could, in my own heart the anxiety that preyed
+              there, and entered with seeming earnestness into the
+              plans
+              of my father, although they might only serve as
+              the decorations of my tragedy. A house was purchased
+              for us near Cologny,
+              by which we should enjoy the pleasures of the
+              country, and yet be so near Geneva as to see my
+              father every day; who would still reside within the
+              walls, for the benefit of Ernest,
+              that he might follow his studies at the schools.</p>
+            </item>
+            <item>
+               <p>In the mean time I took
+              every precaution to defend my person, in case the
+              fiend should openly attack me. I carried pistols and
+              a dagger constantly about me, and was ever on the
+              watch to prevent artifice; and by these means gained
+              a greater degree of tranquillity. Indeed, as the
+              period approached, the
+              threat appeared more as a delusion, not to be
+              regarded as worthy to disturb my peace, while the
+              happiness I hoped for in my marriage wore a greater
+              appearance of certainty, as the day fixed for its
+              solemnization drew nearer, and I heard it continually
+              spoken of as an occurrence which no accident could
+              possibly prevent.</p>
+            </item>
+            <item>
+               <p> Elizabeth seemed happy; my tranquil
+              demeanour contributed greatly to calm her mind. But
+              on the day that was to fulfill
+              my wishes and my destiny, she was melancholy, and
+              a presentiment of evil pervaded her; and perhaps also
+              she thought of the dreadful secret, which I had
+              promised to reveal to her on the following day. My
+              father was in the mean time overjoyed, and, in the
+              bustle of preparation, only observed in the
+              melancholy of his niece the diffidence of a
+              bride.</p>
+            </item>
+            <item>
+               <p>After the ceremony was
+              performed, a large party assembled at my father's;
+              but it was agreed that Elizabeth and I should pass
+              the afternoon and night at Evian,
+              and return to Cologny the next morning. As the day
+              was fair, and the wind favourable, we resolved to go
+              by water.</p>
+            </item>
+            <item>
+               <p>Those were the last
+              moments of my life during which I enjoyed the feeling
+              of happiness. We passed rapidly along: the sun was
+              hot, but we were sheltered from its rays by a kind of
+              canopy, while we enjoyed the beauty of the scene,
+              sometimes on one side of the lake, where we saw
+              Mont
+              Salêve, the pleasant banks of
+              Montalêgre, and at a distance, surmounting all,
+              the beautiful Mont Blânc, and the assemblage of
+              snowy mountains that in vain endeavour to emulate
+              her; sometimes coasting the opposite banks, we saw
+              the mighty Jura
+              opposing its dark side to the ambition that would
+              quit its native country, and an almost insurmountable
+              barrier to the invader who should wish to enslave
+              it.</p>
+            </item>
+            <item>
+               <p>I took the hand of
+              Elizabeth: "You are sorrowful, my love. Ah! if you
+              knew what I have suffered, and what I may yet endure,
+              you would endeavour to let me taste the quiet, and
+              freedom from despair, that this one day at least
+              permits me to enjoy."</p>
+            </item>
+            <item>
+               <p> "Be happy, my dear Victor," replied
+              Elizabeth; "there is, I hope, nothing to distress
+              you; and be assured that if a lively joy is not
+              painted in my face, my heart is contented. Something
+              whispers to me not to depend too much on the prospect
+              that is opened before us; but I will not listen to
+              such a sinister voice. Observe how fast we move
+              along, and how the clouds which sometimes obscure,
+              and sometimes rise above the dome of Mont
+              Blânc, render this scene of beauty still more
+              interesting. Look also at the innumerable fish that
+              are swimming in the clear waters, where we can
+              distinguish every pebble that lies at the bottom.
+              What a divine day! how
+              happy and serene all nature appears!"</p>
+            </item>
+            <item>
+               <p>Thus Elizabeth
+              endeavoured to divert her thoughts and mine from all
+              reflection upon melancholy subjects. But her temper
+              was fluctuating; joy for a few instants shone in her
+              eyes, but it continually gave place to distraction
+              and reverie.</p>
+            </item>
+            <item>
+               <p>The sun sunk lower in
+              the heavens; we passed the river Drance, and observed
+              its path through the chasms of the higher, and the
+              glens of the lower hills. The Alps here come closer
+              to the lake, and we approached the amphitheatre of
+              mountains which forms its eastern boundary. The spire
+              of Evian shone under the woods that surrounded it,
+              and the range of mountain above mountain by which it
+              was overhung.</p>
+            </item>
+            <item>
+               <p>The wind, which had
+              hitherto carried us along with amazing rapidity, sunk
+              at sunset to a light breeze; the soft air just
+              ruffled the water, and caused a pleasant motion among
+              the trees as we approached the shore, from which it
+              wafted the most delightful scent
+              of flowers and hay. The sun sunk beneath the
+              horizon as we landed; and as I touched the shore, I
+              felt those cares and fears revive, which soon were to
+              clasp me, and cling to me for ever.</p>
+            </item>
+         </list>
+         <p>&lt; Chapter 4 | Chapter
+          6 &gt;</p>
+      </body>
+   </text>
+</TEI>

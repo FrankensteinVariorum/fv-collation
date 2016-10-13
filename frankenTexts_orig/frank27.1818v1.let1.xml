@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Frankenstein</title>
+            <title type="subordinate">A Romantic Circles Electronic Edition</title>
+            <author>
+               <name>Mary Shelley (1797-1851)</name>
+            </author>
+            <editor>Stuart Curran</editor>
+            <sponsor>Romantic Circles</sponsor>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Neil Fraistat</name>
+            </respStmt>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Steven E. Jones</name>
+            </respStmt>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Carl Stahmer</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name>Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="edition">frank27.1818v1.let1</idno>
+            <idno type="nines">rce1205</idno>
+            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
+            <pubPlace>College Park, MD</pubPlace>
+            <date when="2009-04-01">April 1, 2009</date>
+            <availability status="restricted">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or disseminated in
+														any manner without authorization unless it is for purposes of criticism, comment, news
+														reporting, teaching, and/or classroom use as provided by the Copyright Act of 1976, as
+														amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are copyrighted by
+														the author/editor and may be shared only in accordance with the Fair Use provisions of U.S.
+														copyright law. Except as expressly permitted by this statement, redistribution or
+														republication in any medium requires express prior written consent from the author/editors and
+														advance notification of Romantic Circles. Any requests for authorization should be forwarded
+														to Romantic Circles:&gt;
+														<address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Neil Fraistat</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Maryland</addrLine>
+                     <addrLine>College Park, MD 20742</addrLine>
+                     <addrLine>fraistat@umd.edu</addrLine>
+                  </address>
+               </p>
+               <p>By their use of these texts and images, users agree to the following conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose without prior
+																written permission from Romantic Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms other than their
+																current ones.</item>
+                  </list>
+               </p>
+               <p>Users are not permitted to download these texts and images in order to mount them on their own
+														servers. It is not in our interest or that of our users to have uncontrolled subsets of our
+														holdings available elsewhere on the Internet. We make corrections and additions to our edited
+														resources on a continual basis, and we want the most current text to be the only one generally
+														available to all Internet users. Institutions can, of course, make a link to the copies at
+														Romantic Circles, subject to our conditions of use.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title level="a">Letter I</title>
+               </analytic>
+               <monogr>
+                  <author>
+                     <persName>Shelley, Mary Wollstonecraft, 1797-1851</persName>
+                  </author>
+                  <title type="main" level="m">Frankenstein, </title>
+                  <title type="subordinate" level="m">Or, the Modern Prometheus</title>
+                  <imprint>
+                     <publisher>Lackington, Hughes, Harding, Mavor, &amp; Jones</publisher>
+                     <pubPlace>London</pubPlace>
+                     <date>1818</date>
+                     <biblScope type="ed">The First Edition</biblScope>
+                     <biblScope type="vol">1</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for ‘, and ' for
+														’.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all hyphens have been typed on the U.S. keyboard</p>
+               <p>Dashes have been rendered as —</p>
+            </hyphenation>
+            <normalization method="markup">
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization>
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>£ has been used for £, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been encoded in HTML
+														entity decimals.</p>
+            </normalization>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="g">
+               <bibl>NINES categories for Genre and Material Form at
+														http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E on
+														2009-02-26</bibl>
+               <category xml:id="g1">
+                  <catDesc>Architecture</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>Artifacts</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>Letters</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>Politics</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>Folklore</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>History</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>Leisure</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>Humor</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>Education</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>Music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>nonfiction</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>Perodical</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>Philosphy</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>Family Life</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>Travel</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>Book History</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>Law</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#genre" target="#g12"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="2009-05-01" n="3">
+            <label>Changed by</label>
+            <name xml:id="LM">Laura Mandell</name>
+            <list>
+               <item>XSLT Transforming into TEI, RDF</item>
+            </list>
+         </change>
+         <change who="#DR" when="2009-05-01" n="2">
+            <label>Changed by</label>
+            <name xml:id="DR">David Rettenmaier</name>
+            <list>
+               <item>XHTML Encoding</item>
+            </list>
+         </change>
+         <change who="#MQ" when="2009-05-01" n="1">
+            <label>Changed by</label>
+            <name xml:id="MQ">Mike Quilligan</name>
+            <list>
+               <item>XHTML Encoding</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>TEXTS : 1818 EDITION : VOL. I</head>
+         <p rend="emph">Letter
+          I</p>
+         <p> </p>
+         <list type="simple">
+            <item>
+               <p>To Mrs.
+              SAVILLE, England.</p>
+               <p>St.
+              Petersburgh, Dec.
+              11th, 17--.</p>
+               <p>YOU will rejoice to
+              hear that no disaster has accompanied the
+              commencement of an enterprise which you have regarded
+              with such evil
+              forebodings. I arrived here yesterday; and my
+              first task is to assure my dear sister of my welfare,
+              and increasing confidence in the success of my
+              undertaking.</p>
+            </item>
+            <item>
+               <p>I am already far north
+              of London; and as I walk in the streets of
+              Petersburgh, I feel a cold northern breeze play upon
+              my cheeks, which braces my nerves, and fills me with
+              delight. Do you understand this feeling? This breeze,
+              which has travelled from the regions towards which I
+              am advancing, gives me a foretaste of those icy
+              climes. Inspirited
+              by this wind of promise, my day
+              dreams become more fervent and vivid. I try in
+              vain to be persuaded that the pole is the seat of
+              frost and desolation; it ever presents itself to my
+              imagination as the region of beauty and delight.
+              There, Margaret, the
+              sun is for ever visible; its broad disk just
+              skirting the horizon, and diffusing a perpetual
+              splendour. There—for with your leave, my
+              sister, I will put some trust in preceding navigators—there
+              snow
+              and frost are banished; and, sailing over a calm
+              sea, we may be wafted to a land surpassing in wonders
+              and in beauty every region hitherto discovered on the
+              habitable globe. Its productions and features may be
+              without example, as the phænomena of the
+              heavenly bodies undoubtedly are in those undiscovered
+              solitudes. What may not be expected in a country of
+              eternal light? I may there discover the wondrous
+              power which attracts the needle; and may regulate
+              a thousand celestial
+              observations, that require only this voyage to
+              render their seeming eccentricities consistent for
+              ever. I shall satiate my ardent
+              curiosity with the sight of a part of the world
+              never before visited, and may tread a land never
+              before imprinted by the foot of man. These are my
+              enticements, and they are sufficient to conquer all
+              fear of danger or death, and to induce me to commence
+              this laborious voyage with the joy a child feels when
+              he embarks in a little boat, with his holiday mates,
+              on an expedition of discovery up his native river.
+              But, supposing all these conjectures to be false, you
+              cannot contest the inestimable benefit which I shall
+              confer on all mankind to the last generation, by
+              discovering a passage
+              near the pole to those countries, to reach which
+              at present so many months are requisite; or by
+              ascertaining the secret
+              of the magnet, which, if at all possible, can
+              only be effected by an undertaking such as mine.</p>
+            </item>
+            <item>
+               <p>These
+              reflections have dispelled the agitation with
+              which I began my letter, and I feel my heart glow
+              with an enthusiasm
+              which elevates me to heaven; for nothing contributes
+              so much to tranquillize the mind as a steady
+              purpose,—a point on which the soul may fix its
+              intellectual eye. This expedition has been the
+              favourite dream of my early years. I have read with
+              ardour the accounts of the various voyages which have
+              been made in the
+              prospect of arriving at the North Pacific Ocean
+              through the seas which surround the pole. You may
+              remember that a history of all
+              the voyages made for purposes of discovery
+              composed the whole of our good uncle Thomas's
+              library. My education was neglected, yet I was
+              passionately fond of reading. These volumes were my
+              study day and
+              night, and my familiarity with them increased
+              that regret which I had felt, as a child, on learning
+              that my father's
+              dying injunction had forbidden my uncle to allow
+              me to embark in a sea-faring life.</p>
+            </item>
+            <item>
+               <p>These visions faded
+              when I perused, for the first time, those poets whose
+              effusions entranced my soul, and lifted it to heaven.
+              I also
+              became a poet, and for one year lived in a
+              Paradise of my own creation; I imagined that I also
+              might obtain a niche in the temple where the names of
+              Homer and Shakespeare are consecrated. You are well
+              acquainted with my failure, and how heavily I bore
+              the disappointment. But just at that time I inherited
+              the fortune of my cousin,
+              and my thoughts were turned into the channel of their
+              earlier bent.</p>
+            </item>
+            <item>
+               <p>Six years have passed
+              since I resolved on my present undertaking. I can,
+              even now, remember the hour from which I dedicated
+              myself to this
+              great enterprise. I commenced by inuring my body
+              to hardship. I accompanied the whale-fishers on
+              several expeditions to the North Sea; I voluntarily
+              endured cold, famine, thirst, and want of sleep; I
+              often worked harder than the common sailors during
+              the day, and devoted my nights to the study of
+              mathematics, the theory of medicine, and those
+              branches of physical
+              science from which a naval adventurer might
+              derive the greatest practical advantage. Twice I
+              actually hired myself as an under-mate in a Greenland
+              whaler, and acquitted myself to admiration. I must
+              own I felt a little proud, when my captain offered me
+              the second
+              dignity in the vessel, and entreated me to remain
+              with the greatest earnestness; so valuable did he
+              consider my services.</p>
+            </item>
+            <item>
+               <p>And now, dear Margaret,
+              do I not deserve to accomplish some great purpose? My
+              life might have been passed in ease and luxury; but I
+              preferred glory
+              to every enticement that wealth
+              placed in my path. Oh, that some encouraging voice
+              would answer in the affirmative! My courage
+              and my resolution
+              is firm;
+              but my hopes fluctuate, and my spirits are often
+              depressed. I am about to proceed on a long and
+              difficult voyage, the emergencies of which will
+              demand all my fortitude: I am required not only to
+              raise the spirits of others, but sometimes to sustain
+              my own, when their's are failing.</p>
+            </item>
+            <item>
+               <p>This is the most
+              favourable period for travelling in Russia. They fly
+              quickly over the snow in their sledges; the motion is
+              pleasant, and, in my opinion, far more agreeable than
+              that of an English stage-coach. The cold is not
+              excessive, if you are wrapped in furs, a dress which
+              I have already adopted; for there is a great
+              difference between walking the deck and remaining
+              seated motionless for hours, when no exercise
+              prevents the blood from actually freezing in your
+              veins. I have no ambition to lose my life on the
+              post-road between St. Petersburgh and Archangel.</p>
+            </item>
+            <item>
+               <p>I shall depart for the
+              latter town in a fortnight or three weeks; and my
+              intention is to hire a ship there, which can easily
+              be done by paying the insurance for the owner, and to
+              engage as many sailors as I think necessary among
+              those who are accustomed to the whale-fishing. I do
+              not intend to sail until the month of June:
+              and when shall I return? Ah, dear sister, how can I
+              answer this question? If I succeed, many, many
+              months, perhaps years, will pass before you and I may
+              meet. If I fail, you will see me again soon, or
+              never.</p>
+            </item>
+            <item>
+               <p>Farewell, my dear,
+              excellent Margaret. Heaven shower down blessings on
+              you, and save me, that I may again
+              and again testify my gratitude for all your love
+              and kindness.</p>
+            </item>
+            <item>
+               <p>Your affectionate brother,</p>
+               <p>R. WALTON.</p>
+            </item>
+         </list>
+         <p>&lt; Preface | Letter
+          II &gt;</p>
+      </body>
+   </text>
+</TEI>
