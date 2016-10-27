@@ -7,7 +7,7 @@ version="3.0">
     
     
     <xsl:template match="text()">
-       <xsl:value-of select="normalize-space(replace(., '&quot;', concat('\\', '&quot;')))"/>
+       <xsl:value-of select="replace(replace(., '&quot;', concat('\\', '&quot;')), '[\n\r]', ' ')"/>
         
     </xsl:template>
     <xsl:template match="teiHeader">
@@ -17,8 +17,8 @@ version="3.0">
     
     
    
-    <xsl:template match="text"><xsl:text>{"witnesses" : [ {"id" : "Ed1818", "content" : "</xsl:text><xsl:apply-templates/><xsl:text>"},
-        {"id" : "Ed1831", "content" : "</xsl:text><xsl:apply-templates select="$Ed1831"/><xsl:text>"}]<!--, "algorithm": "dekker"-->}</xsl:text>
+    <xsl:template match="text"><xsl:text>{"witnesses" : [ {"id" : "Ed1818", "content" : "</xsl:text><xsl:apply-templates/><xsl:text>"}<!--,
+        {"id" : "Ed1831", "content" : "</xsl:text><xsl:apply-templates select="$Ed1831"/><xsl:text>"}-->]}</xsl:text>
        
    </xsl:template>
     
