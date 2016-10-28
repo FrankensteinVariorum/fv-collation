@@ -12,7 +12,7 @@ version="3.0">
     </xsl:template>
     <xsl:template match="teiHeader">
     </xsl:template>
-    <xsl:variable name="Ed1831" select="doc('../frankenTexts_orig/frank27.1831.xml')//text/*"/>
+    <xsl:variable name="Ed1831" select="doc('../frankenTexts_orig/frank27.1831v1.ch1.xml')//text/*"/>
         
     
     
