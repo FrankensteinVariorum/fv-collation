@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/viewer -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!--<base href="/">--><base href=".">
+    <link rel="stylesheet" href="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/public/styles/angular-csp.css?e61a94">
+    <link rel="stylesheet" href="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/public/styles/angular-toastr.css?16d5c7">
+    <link rel="stylesheet" href="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/public/styles/icomoon.css?36ecbe">
+    <link rel="stylesheet" href="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/public/styles/katex.min.css?925527">
+    <link rel="stylesheet" href="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/public/styles/app.css?d3d419">
+  </head>
+  <body ng-csp="">
+    <hypothesis-app class="ng-scope ng-isolate-scope"><top-bar auth="auth" on-login="login()" on-logout="logout()" on-share-page="share()" on-show-help-panel="helpPanel.visible = true" is-sidebar="::isSidebar" pending-update-count="countPendingUpdates()" on-apply-pending-updates="applyPendingUpdates()" search-controller="search" sort-key="sortKey()" sort-keys-available="sortKeysAvailable()" on-change-sort-key="setSortKey(sortKey)" class="ng-isolate-scope"><!-- top bar for the sidebar and the stream.
+!-->
+<div class="top-bar" ng-class="frame.visible &amp;&amp; &#39;shown&#39;">
+  <!-- Legacy design for top bar, as used in the stream !-->
+  <!-- ngIf: ::!isSidebar -->
+  <!-- New design for the top bar, as used in the sidebar.
+
+       The inner div is styled with 'content' to center it in
+       the stream view.
+  !-->
+  <!-- ngIf: ::isSidebar --><div class="top-bar__inner content ng-scope" ng-if="::isSidebar">
+    <group-list class="group-list ng-isolate-scope" auth="auth"><!-- ngIf: auth.status === 'logged-out' -->
+
+<!-- ngIf: auth.status === 'logged-in' --><div class="pull-right ng-scope dropdown" ng-if="auth.status === &#39;logged-in&#39;" dropdown="" keyboard-nav="">
+  <div class="dropdown-toggle" dropdown-toggle="" data-toggle="dropdown" role="button" ng-switch="" on="groups.focused().public" title="Change the selected group" aria-haspopup="true" aria-expanded="false">
+    <!-- ngSwitchWhen: true --><i class="group-list-label__icon h-icon-public ng-scope" ng-switch-when="true"></i><!-- end ngSwitchWhen: --><!-- nospace
+    !--><!-- ngSwitchDefault: -->
+    <span class="group-list-label__label ng-binding">Public</span><!-- nospace
+    !--><i class="h-icon-arrow-drop-down"></i>
+  </div>
+  <div class="dropdown-menu__top-arrow"></div>
+  <ul class="dropdown-menu pull-none" role="menu">
+    <!-- ngRepeat: group in groups.all() --><li class="dropdown-menu__row dropdown-menu__row--unpadded  ng-scope" ng-repeat="group in groups.all()">
+      <div ng-class="{&#39;group-item&#39;: true, selected: group.id == groups.focused().id}" ng-click="focusGroup(group.id)" class="group-item selected">
+        <!-- the group icon !-->
+        <div class="group-icon-container" ng-switch="" on="group.public">
+          <!-- ngSwitchWhen: true --><i class="h-icon-public ng-scope" ng-switch-when="true"></i><!-- end ngSwitchWhen: -->
+          <!-- ngSwitchDefault: -->
+        </div>
+        <!-- the group name and share link !-->
+        <div class="group-details">
+          <div class="group-name-container">
+            <a class="group-name-link ng-binding" href="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/" title="Show public annotations">
+               Public
+            </a>
+          </div>
+          <!-- ngIf: !group.public -->
+        </div>
+        <!-- the 'Leave group' icon !-->
+        <div class="group-cancel-icon-container" ng-click="$event.stopPropagation()">
+          <!-- ngIf: !group.public -->
+        </div>
+      </div>
+    </li><!-- end ngRepeat: group in groups.all() -->
+    <li class="dropdown-menu__row dropdown-menu__row--unpadded new-group-btn">
+      <div class="group-item" ng-click="createNewGroup()">
+        <div class="group-icon-container"><i class="h-icon-add"></i></div>
+        <div class="group-details">
+          <a href="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/" class="group-name-link" title="Create a new group to share annotations">
+            New group
+          </a>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div><!-- end ngIf: auth.status === 'logged-in' -->
+</group-list>
+    <div class="top-bar__expander"></div>
+    <!-- ngIf: pendingUpdateCount > 0 -->
+    <search-input class="search-input ng-isolate-scope" query="searchController.query()" on-search="searchController.update($query)" title="Filter the annotation list"><form class="simple-search-form ng-pristine ng-valid simple-search-inactive" name="searchForm" ng-class="!vm.query &amp;&amp; &#39;simple-search-inactive&#39;">
+  <input class="simple-search-input" type="text" name="query" placeholder="Search…" ng-disabled="vm.loading" ng-class="vm.inputClasses()">
+  <button type="button" class="simple-search-icon top-bar__btn" ng-hide="vm.loading">
+    <i class="h-icon-search"></i>
+  </button>
+  <button type="button" class="simple-search-icon btn btn-clean ng-hide" ng-show="vm.loading" disabled="">
+    <span class="btn-icon"><span class="spinner"><span><span></span></span></span></span>
+  </button>
+</form>
+</search-input>
+    <sort-dropdown sort-keys-available="sortKeysAvailable" sort-key="sortKey" on-change-sort-key="onChangeSortKey({sortKey: sortKey})" class="ng-isolate-scope"><span class="dropdown" dropdown="" keyboard-nav="">
+  <button type="button" class="top-bar__btn dropdown-toggle" dropdown-toggle="" title="Sort by Location" aria-haspopup="true" aria-expanded="false">
+    <i class="h-icon-sort"></i>
+  </button>
+  <div class="dropdown-menu__top-arrow"></div>
+  <ul class="dropdown-menu pull-right" role="menu">
+    <!-- ngRepeat: key in sortKeysAvailable --><li class="dropdown-menu__row ng-scope" ng-repeat="key in sortKeysAvailable" ng-click="onChangeSortKey({sortKey: key})"><span class="dropdown-menu-radio" ng-class="{&#39;is-selected&#39; : sortKey === key}"></span><a class="dropdown-menu__link ng-binding" href="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/">Newest</a></li><!-- end ngRepeat: key in sortKeysAvailable --><li class="dropdown-menu__row ng-scope" ng-repeat="key in sortKeysAvailable" ng-click="onChangeSortKey({sortKey: key})"><span class="dropdown-menu-radio" ng-class="{&#39;is-selected&#39; : sortKey === key}"></span><a class="dropdown-menu__link ng-binding" href="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/">Oldest</a></li><!-- end ngRepeat: key in sortKeysAvailable --><li class="dropdown-menu__row ng-scope" ng-repeat="key in sortKeysAvailable" ng-click="onChangeSortKey({sortKey: key})"><span class="dropdown-menu-radio is-selected" ng-class="{&#39;is-selected&#39; : sortKey === key}"></span><a class="dropdown-menu__link ng-binding" href="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/">Location</a></li><!-- end ngRepeat: key in sortKeysAvailable -->
+  </ul>
+</span>
+</sort-dropdown>
+    <a class="top-bar__btn" ng-click="onSharePage()" title="Share this page">
+      <i class="h-icon-annotation-share"></i>
+    </a>
+    <login-control class="login-control ng-isolate-scope" auth="auth" new-style="true" on-show-help-panel="onShowHelpPanel()" on-login="onLogin()" on-logout="onLogout()"><!-- New controls -->
+<!-- ngIf: vm.newStyle && vm.auth.status === 'unknown' -->
+<!-- ngIf: vm.newStyle && vm.auth.status === 'logged-out' -->
+<!-- ngIf: vm.newStyle --><div ng-if="vm.newStyle" class="pull-right login-control-menu ng-scope dropdown" dropdown="" keyboard-nav="">
+  <a role="button" class="top-bar__btn dropdown-toggle" data-toggle="dropdown" dropdown-toggle="" title="ebeshero" aria-haspopup="true" aria-expanded="false">
+    <!-- ngIf: vm.auth.status === 'logged-in' --><i class="h-icon-account ng-scope" ng-if="vm.auth.status === &#39;logged-in&#39;"></i><!-- end ngIf: vm.auth.status === 'logged-in' --><!--
+    !--><i class="h-icon-arrow-drop-down top-bar__dropdown-arrow"></i>
+  </a>
+  <ul class="dropdown-menu pull-right" role="menu">
+    <!-- ngIf: vm.auth.status === 'logged-in' --><li class="dropdown-menu__row ng-scope" ng-if="vm.auth.status === &#39;logged-in&#39;">
+      <a href="https://hypothes.is/u/ebeshero" class="dropdown-menu__link ng-binding" title="View all your annotations" target="_blank">ebeshero</a>
+    </li><!-- end ngIf: vm.auth.status === 'logged-in' -->
+    <!-- ngIf: vm.auth.status === 'logged-in' --><li class="dropdown-menu__row ng-scope" ng-if="vm.auth.status === &#39;logged-in&#39;">
+      <a class="dropdown-menu__link" href="https://hypothes.is/account/settings" target="_blank">Account settings</a>
+    </li><!-- end ngIf: vm.auth.status === 'logged-in' -->
+    <li class="dropdown-menu__row">
+      <a class="dropdown-menu__link" ng-click="vm.onShowHelpPanel()">Help</a>
+    </li>
+    <!-- ngIf: vm.auth.status === 'logged-in' --><li class="dropdown-menu__row ng-scope" ng-if="vm.auth.status === &#39;logged-in&#39;">
+      <a class="dropdown-menu__link dropdown-menu__link--subtle" href="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/" ng-click="vm.onLogout()">Log out</a>
+    </li><!-- end ngIf: vm.auth.status === 'logged-in' -->
+  </ul>
+</div><!-- end ngIf: vm.newStyle -->
+
+<!-- Old controls -->
+<!-- ngIf: !vm.newStyle && vm.auth.status === 'unknown' -->
+<!-- ngIf: !vm.newStyle && vm.auth.status === 'logged-out' -->
+<!-- ngIf: !vm.newStyle -->
+</login-control>
+  </div><!-- end ngIf: ::isSidebar -->
+</div>
+</top-bar>
+
+<!-- ngIf: isSidebar && auth.status === 'logged-out' -->
+
+<div class="content">
+  <!-- ngIf: accountDialog.visible -->
+  <!-- ngIf: isSidebar --><sidebar-tutorial ng-if="isSidebar" class="ng-scope ng-isolate-scope"><!-- ngIf: vm.showSidebarTutorial() -->
+</sidebar-tutorial><!-- end ngIf: isSidebar -->
+  <!-- ngIf: shareDialog.visible -->
+  <!-- ngIf: helpPanel.visible -->
+  <!-- ngView: --><main ng-view="" class="ng-scope"><!-- ngIf: !search.query() && selectedAnnotationCount() === 0 -->
+
+<!-- ngIf: !isStream --><search-status-bar ng-show="!isLoading()" ng-if="!isStream" filter-active="!!search.query()" filter-match-count="visibleCount()" on-clear-selection="clearSelection()" search-query="search ? search.query : &#39;&#39;" selection-count="selectedAnnotationCount()" total-count="topLevelThreadCount()" selected-tab="selectedTab" total-annotations="totalAnnotations" total-notes="totalNotes" class="ng-scope ng-isolate-scope"><!-- ngIf: vm.filterActive -->
+<!-- ngIf: !vm.filterActive && vm.selectionCount > 0 --><div class="search-status-bar ng-scope" ng-if="!vm.filterActive &amp;&amp; vm.selectionCount &gt; 0">
+  <button class="primary-action-btn primary-action-btn--short" ng-click="vm.onClearSelection()" title="Clear the selection and show all annotations">
+    <!-- ngIf: !vm.selectedTab || vm.selectedTab === vm.TAB_ORPHANS -->
+    <!-- ngIf: vm.selectedTab === vm.TAB_ANNOTATIONS --><span ng-if="vm.selectedTab === vm.TAB_ANNOTATIONS" class="ng-scope">
+      Show all annotations
+      <!-- ngIf: vm.totalAnnotations > 1 --><span ng-if="vm.totalAnnotations &gt; 1" class="ng-binding ng-scope">
+        (166)
+      </span><!-- end ngIf: vm.totalAnnotations > 1 -->
+    </span><!-- end ngIf: vm.selectedTab === vm.TAB_ANNOTATIONS -->
+    <!-- ngIf: vm.selectedTab === vm.TAB_NOTES -->
+  </button>
+
+</div><!-- end ngIf: !vm.filterActive && vm.selectionCount > 0 -->
+</search-status-bar><!-- end ngIf: !isStream -->
+
+<!-- ngIf: selectedAnnotationUnavailable() -->
+
+<span window-scroll="loadMore(20)" class="ng-scope">
+  <thread-list on-change-collapsed="setCollapsed(id, collapsed)" on-clear-selection="clearSelection()" on-focus="focus(annotation)" on-force-visible="forceVisible(thread)" on-select="scrollTo(annotation)" show-document-info="::!isSidebar" thread="rootThread" class="ng-isolate-scope"><ul class="thread-list">
+  <li class="thread-list__spacer" ng-style="{height: vm.virtualThreadList.offscreenUpperHeight}" style="height: 0px;"></li>
+  <!-- ngRepeat: child in vm.virtualThreadList.visibleThreads track by child.id --><li id="tSRKsrDREeaVGYP5K0yLKw" class="thread-list__card ng-scope" ng-mouseenter="vm.onFocus({annotation: child.annotation})" ng-click="vm.onSelect({annotation: child.annotation})" ng-mouseleave="vm.onFocus({annotation: null})" ng-repeat="child in vm.virtualThreadList.visibleThreads track by child.id">
+      <annotation-thread thread="child" show-document-info="vm.showDocumentInfo" on-change-collapsed="vm.onChangeCollapsed({id: id, collapsed: collapsed})" on-force-visible="vm.onForceVisible({thread: thread})" class="ng-isolate-scope"><div ng-class="vm.threadClasses()" class="annotation-thread">
+  <!-- ngIf: !vm.isTopLevelThread() -->
+  <div class="annotation-thread__content">
+    <!-- ngIf: vm.thread.annotation --><annotation ng-class="vm.annotationClasses()" annotation="vm.thread.annotation" is-collapsed="vm.thread.collapsed" is-last-reply="$last" is-sidebar="::vm.isSidebar" name="annotation" ng-mouseenter="vm.annotationHovered = true" ng-mouseleave="vm.annotationHovered = false" ng-if="vm.thread.annotation" ng-show="vm.thread.visible" show-document-info="vm.showDocumentInfo" on-reply-count-click="vm.toggleCollapsed()" reply-count="vm.thread.replyCount" class="ng-scope ng-isolate-scope annotation is-collapsed"><!-- ngIf: !vm.user() -->
+
+<!-- ngIf: vm.user() --><div ng-keydown="vm.onKeydown($event)" ng-if="vm.user()" class="ng-scope">
+  <header class="annotation-header">
+    <!-- User -->
+    <!-- ngIf: vm.user() --><span ng-if="vm.user()" class="ng-scope">
+      <a class="annotation-header__user ng-binding" target="_blank" ng-href="https://hypothes.is/u/acct%3APleia_Ds%40hypothes.is" href="https://hypothes.is/u/acct%3APleia_Ds%40hypothes.is">Pleia_Ds</a>
+      <span class="annotation-collapsed-replies">
+        <a class="annotation-link" href="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/" ng-click="vm.onReplyCountClick()" ng-pluralize="" count="vm.replyCount" when="{&#39;0&#39;: &#39;&#39;, &#39;one&#39;: &#39;1 reply&#39;, &#39;other&#39;: &#39;{} replies&#39;}"></a>
+      </span>
+      <br>
+      <span class="annotation-header__share-info">
+        <!-- ngIf: vm.group() && vm.group().url -->
+        <span ng-show="vm.state().isPrivate" title="This annotation is visible only to you." class="ng-hide">
+          <i class="h-icon-lock"></i><span class="annotation-header__group-name" ng-show="!vm.group().url">Only me</span>
+        </span>
+        <i class="h-icon-border-color ng-hide" ng-show="vm.isHighlight() &amp;&amp; !vm.editing()" title="This is a highlight. Click &#39;edit&#39; to add a note or tag."></i>
+        <!-- ngIf: ::vm.showDocumentInfo -->
+      </span>
+    </span><!-- end ngIf: vm.user() -->
+
+    <span class="u-flex-spacer"></span>
+
+    <!-- ngIf: !vm.editing() && vm.updated() --><timestamp class-name="&#39;annotation-header__timestamp&#39;" timestamp="vm.updated()" href="vm.links().html" ng-if="!vm.editing() &amp;&amp; vm.updated()" class="ng-scope ng-isolate-scope"><a class="annotation-header__timestamp" target="_blank" ng-title="vm.absoluteTimestamp" href="https://hypothes.is/a/tSRKsrDREeaVGYP5K0yLKw">Nov 22</a></timestamp><!-- end ngIf: !vm.editing() && vm.updated() -->
+  </header>
+
+  <!-- Excerpts -->
+  <!-- ngRepeat: target in vm.target() track by $index --><!-- ngIf: vm.hasQuotes() --><section class="annotation-quote-list ng-scope" ng-class="{&#39;is-orphan&#39; : vm.isOrphan()}" ng-repeat="target in vm.target() track by $index" ng-if="vm.hasQuotes()">
+    <excerpt collapsed-height="35" inline-controls="true" overflow-hysteresis="20" content-data="selector.exact" class="ng-isolate-scope"><!-- ngIf: !vm.enabled -->
+<!-- ngIf: vm.enabled --><div class="excerpt__container ng-scope" ng-if="vm.enabled">
+  <div class="excerpt" ng-style="vm.contentStyle()" style="max-height: 35px;">
+    <div ng-transclude="">
+      <!-- ngRepeat: selector in target.selector
+          | filter : {'type': 'TextQuoteSelector'}
+          track by $index --><blockquote class="annotation-quote ng-binding ng-scope" ng-bind-html="selector.exact" ng-repeat="selector in target.selector
+          | filter : {&#39;type&#39;: &#39;TextQuoteSelector&#39;}
+          track by $index">But it is a still greater evil to me that I
+am self-educated:  for the first fourteen years of my life I ran wild
+on a common and read nothing but our Uncle Thomas' books of voyages. At
+that age I became acquainted with the celebrated poets of our own
+country; but it was only when it had ceased to be in my power to derive
+its most important benefits from such a conviction that I perceived the
+necessity of becoming acquainted with more languages than that of my
+native country.  Now I am twenty-eight and am in reality more
+illiterate than many schoolboys of fifteen.</blockquote><!-- end ngRepeat: selector in target.selector
+          | filter : {'type': 'TextQuoteSelector'}
+          track by $index -->
+    </div>
+    <div ng-click="vm.expand()" ng-class="vm.bottomShadowStyles()" title="Show the full excerpt" class="excerpt__shadow excerpt__shadow--transparent"></div>
+    <div class="excerpt__inline-controls" ng-show="vm.showInlineControls()">
+      <span class="excerpt__toggle-link" ng-show="vm.isExpandable()">
+        … <a ng-click="vm.toggle($event)" title="Show the full excerpt">More</a>
+      </span>
+      <span class="excerpt__toggle-link ng-hide" ng-show="vm.isCollapsible()">
+        <a ng-click="vm.toggle($event)" title="Show the first few lines only">Less</a>
+      </span>
+    </div>
+  </div>
+</div><!-- end ngIf: vm.enabled -->
+</excerpt>
+  </section><!-- end ngIf: vm.hasQuotes() --><!-- end ngRepeat: target in vm.target() track by $index -->
+
+  <!-- / Excerpts -->
+
+  <!-- Body -->
+  <section name="text" class="annotation-body">
+    <excerpt enabled="!vm.editing()" inline-controls="false" on-collapsible-changed="vm.setBodyCollapsible(collapsible)" collapse="vm.collapseBody" collapsed-height="400" overflow-hysteresis="20" content-data="vm.state().text" class="ng-isolate-scope"><!-- ngIf: !vm.enabled -->
+<!-- ngIf: vm.enabled --><div class="excerpt__container ng-scope" ng-if="vm.enabled">
+  <div class="excerpt" ng-style="vm.contentStyle()" style="">
+    <div ng-transclude="">
+      <markdown text="vm.state().text" on-edit-text="vm.setText(text)" read-only="!vm.editing()" class="ng-scope ng-isolate-scope"><!-- ngIf: !readOnly -->
+<textarea class="form-input form-textarea js-markdown-input ng-hide" ng-show="showEditor()" ng-click="$event.stopPropagation()"></textarea>
+<div class="markdown-body js-markdown-preview" ng-class="preview &amp;&amp; &#39;markdown-preview&#39;" ng-dblclick="togglePreview()" ng-show="!showEditor()"><p>Walton's self-education and alienation from society mirror the creature's experiences. Both learned of the world through text and are at-odds when it comes to social interaction.</p></div>
+</markdown>
+    </div>
+    <div ng-click="vm.expand()" ng-class="vm.bottomShadowStyles()" title="Show the full excerpt" class="excerpt__shadow is-hidden"></div>
+    <div class="excerpt__inline-controls ng-hide" ng-show="vm.showInlineControls()">
+      <span class="excerpt__toggle-link ng-hide" ng-show="vm.isExpandable()">
+        … <a ng-click="vm.toggle($event)" title="Show the full excerpt">More</a>
+      </span>
+      <span class="excerpt__toggle-link ng-hide" ng-show="vm.isCollapsible()">
+        <a ng-click="vm.toggle($event)" title="Show the first few lines only">Less</a>
+      </span>
+    </div>
+  </div>
+</div><!-- end ngIf: vm.enabled -->
+</excerpt>
+  </section>
+  <!-- / Body -->
+
+  <!-- Tags -->
+  <!-- ngIf: vm.editing() -->
+
+  <!-- ngIf: (vm.canCollapseBody || vm.state().tags.length) && !vm.editing() --><div class="annotation-body u-layout-row tags tags-read-only ng-scope" ng-if="(vm.canCollapseBody || vm.state().tags.length) &amp;&amp; !vm.editing()">
+    <ul class="tag-list">
+      <!-- ngRepeat: tag in vm.state().tags --><li class="tag-item ng-scope" ng-repeat="tag in vm.state().tags">
+        <a ng-href="https://hypothes.is/stream?q=tag:UPG19cBrit" target="_blank" class="ng-binding" href="https://hypothes.is/stream?q=tag:UPG19cBrit">UPG19cBrit</a>
+      </li><!-- end ngRepeat: tag in vm.state().tags -->
+    </ul>
+    <div class="u-stretch"></div>
+    <a class="annotation-link u-strong ng-binding ng-hide" ng-show="vm.canCollapseBody" ng-click="vm.toggleCollapseBody($event)" ng-title="vm.collapseBody ? &#39;Show the full annotation text&#39; : &#39;Show the first few lines only&#39;" ng-bind="vm.collapseBody ? &#39;More&#39; : &#39;Less&#39;">More</a>
+  </div><!-- end ngIf: (vm.canCollapseBody || vm.state().tags.length) && !vm.editing() -->
+  <!-- / Tags -->
+
+  <footer class="annotation-footer">
+    <!-- ngIf: vm.editing() -->
+
+    <div class="annotation-section annotation-license ng-hide" ng-show="vm.isShared() &amp;&amp; vm.editing()">
+      <a class="annotation-license__link" href="http://creativecommons.org/publicdomain/zero/1.0/" title="View more information about the Creative Commons Public Domain license" target="_blank">
+        <i class="h-icon-cc-logo"></i><i class="h-icon-cc-zero"></i>
+        Annotations can be freely reused by anyone for any purpose.
+      </a>
+    </div>
+
+    <!-- ngIf: !vm.isReply() && vm.replyCount > 0 -->
+
+    <!-- ngIf: vm.isSaving -->
+
+    <!-- ngIf: !vm.isSaving && !vm.editing() && vm.id() --><div class="annotation-actions ng-scope" ng-if="!vm.isSaving &amp;&amp; !vm.editing() &amp;&amp; vm.id()">
+      <div ng-show="vm.isSaving" class="ng-hide">Saving…</div>
+      <button class="btn btn-clean annotation-action-btn ng-hide" ng-show="vm.authorize(&#39;update&#39;) &amp;&amp; !vm.isSaving" ng-click="vm.edit()" ng-disabled="vm.isDeleted()" aria-label="Edit" h-tooltip="">
+        <i class="h-icon-annotation-edit btn-icon "></i>
+      </button>
+      <button class="btn btn-clean annotation-action-btn ng-hide" ng-show="vm.authorize(&#39;delete&#39;)" ng-click="vm.delete()" ng-disabled="vm.isDeleted()" aria-label="Delete" h-tooltip="">
+        <i class="h-icon-annotation-delete btn-icon "></i>
+      </button>
+      <button class="btn btn-clean annotation-action-btn" ng-click="vm.reply()" ng-disabled="vm.isDeleted()" aria-label="Reply" h-tooltip="">
+        <i class="h-icon-annotation-reply btn-icon "></i>
+      </button>
+      <span class="annotation-share-dialog-wrapper">
+        <button class="btn btn-clean annotation-action-btn" ng-click="vm.showShareDialog = true" ng-disabled="vm.isDeleted()" aria-label="Share" h-tooltip="">
+          <i class="h-icon-annotation-share btn-icon "></i>
+        </button>
+        <annotation-share-dialog group="vm.group()" uri="vm.links().incontext" is-private="vm.state().isPrivate" is-open="vm.showShareDialog" on-close="vm.showShareDialog = false" class="ng-isolate-scope"><div class="annotation-share-dialog" ng-class="{&#39;is-open&#39;: vm.isOpen}">
+  <div class="annotation-share-dialog-target">
+    <span class="annotation-share-dialog-target__label">Share:</span>
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fhyp.is%2FtSRKsrDREeaVGYP5K0yLKw%2Fwww.gutenberg.org%2Ffiles%2F84%2F84-h%2F84-h.htm&amp;hashtags=annotated" target="_blank" title="Tweet link" class="annotation-share-dialog-target__icon h-icon-twitter"></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhyp.is%2FtSRKsrDREeaVGYP5K0yLKw%2Fwww.gutenberg.org%2Ffiles%2F84%2F84-h%2F84-h.htm" target="_blank" title="Share on Facebook" class="annotation-share-dialog-target__icon h-icon-facebook"></a>
+    <a href="https://plus.google.com/share?url=https%3A%2F%2Fhyp.is%2FtSRKsrDREeaVGYP5K0yLKw%2Fwww.gutenberg.org%2Ffiles%2F84%2F84-h%2F84-h.htm" target="_blank" title="Post on Google Plus" class="annotation-share-dialog-target__icon h-icon-google-plus"></a>
+    <a href="mailto:?subject=Let%27s%20Annotate&amp;body=https://hyp.is/tSRKsrDREeaVGYP5K0yLKw/www.gutenberg.org/files/84/84-h/84-h.htm" title="Share via email" class="annotation-share-dialog-target__icon h-icon-mail"></a>
+  </div>
+  <div class="annotation-share-dialog-link" type="text">
+    <input class="annotation-share-dialog-link__text" value="https://hyp.is/tSRKsrDREeaVGYP5K0yLKw/www.gutenberg.org/files/84/84-h/84-h.htm" readonly="">
+    <!-- ngIf: vm.copyToClipboardMessage -->
+    <button class="btn btn-clean annotation-share-dialog-link__btn" ng-click="vm.copyToClipboard($event)">
+      <i class="h-icon-clipboard btn-icon"></i>
+    </button>
+  </div>
+  <!-- ngIf: vm.group && !vm.group.public && !vm.isPrivate -->
+  <!-- ngIf: vm.isPrivate -->
+</div>
+</annotation-share-dialog>
+      </span>
+    </div><!-- end ngIf: !vm.isSaving && !vm.editing() && vm.id() -->
+  </footer>
+</div><!-- end ngIf: vm.user() -->
+</annotation><!-- end ngIf: vm.thread.annotation -->
+
+    <!-- ngIf: !vm.thread.annotation -->
+
+    <!-- ngIf: vm.hiddenCount() > 0 -->
+
+    <!-- Replies -->
+    <ul ng-show="!vm.thread.collapsed" class="ng-hide">
+      <!-- ngRepeat: child in vm.thread.children track by child.id -->
+    </ul>
+  </div>
+</div>
+</annotation-thread>
+  </li><!-- end ngRepeat: child in vm.virtualThreadList.visibleThreads track by child.id -->
+  <li class="thread-list__spacer" ng-style="{height: vm.virtualThreadList.offscreenLowerHeight}" style="height: 0px;"></li>
+</ul>
+</thread-list>
+</span>
+
+<!-- ngIf: isSidebar && shouldShowLoggedOutMessage() -->
+</main>
+</div>
+</hypothesis-app>
+
+    <script class="js-hypothesis-settings" type="application/json">
+    {"apiUrl":"https://hypothes.is/api/","serviceUrl":"https://hypothes.is/","release":"0.49.0.0","websocketUrl":"wss://hypothes.is/ws","raven":{"dsn":"https://934d4f62912b47d8bb03c28ae6670cf8@app.getsentry.com/69811","release":"0.49.0.0"}}
+    </script>
+
+    <script src="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/public/scripts/raven.bundle.js?0bb0b8"></script>
+    <script src="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/public/scripts/angular.bundle.js?6b1cbd"></script>
+    <script src="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/public/scripts/katex.bundle.js?5ff8c3"></script>
+    <script src="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/public/scripts/showdown.bundle.js?1e9f4c"></script>
+    <script src="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/public/scripts/polyfills.bundle.js?3cd616"></script>
+    <script src="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/public/scripts/unorm.bundle.js?5e23eb"></script>
+    <script src="chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/public/scripts/app.bundle.js?f2f839"></script><div class="tooltip" style="visibility: hidden;"><span class="tooltip-label js-tooltip-label"></span></div>
+  
+
+</body></html>
