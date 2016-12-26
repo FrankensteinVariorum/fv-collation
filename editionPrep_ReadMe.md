@@ -8,9 +8,16 @@ Raff and Elisa subsequently met over Skype with Neil Fraistat and Dave Rettenmai
  
  ### Source texts
  
-Studying the markup of the RC edition reveals that its TEI is built on its first publication in the [Pennsylvania Electronic Edition (PAEE)](http://knarf.english.upenn.edu/). Some of the markup in RC's TEI is not well-formed and may be missing information (such as italics), so we decided we had best begin our refurbished edition working with the original (and simpler) code of the old HTML in the PAEE. 
+Studying the markup of the RC edition reveals that its TEI is built on its first publication in the [Pennsylvania Electronic Edition (PAEE)](http://knarf.english.upenn.edu/). Some of the markup in RC's TEI is not well-formed and due to the nature of the extraction from HTML may be missing information (such as italics), so we decided we had best begin our refurbished edition working with the original and simpler code of the old HTML in the PAEE on which the current TEI is based. 
  
  An 1823 edition of Frankenstein whose production was supervised by William Godwin has not previously been fully studied in relation to the 1818 or 1831 editions, though a table of hand-collected variants was published with the PAEE. We have located a photo facsimile of the 1823 edition of Frankenstein, which we plan to process with OCR to produce a digital text to include with our  new edition.
+ 
+ ### Proof checking
+ Elisa and Rikk will work on proofing the 1818 and 1831 texts against photofacsimiles.
+ 
+ Rikk will investigate using ABBYY finereader (and Rikk and Elisa may also investigate Tesseract) for producing a good OCR of the 1823 text, and then work on proofing it. 
+ 
+ When the texts are proofed we'll be ready for automated collation. 
  
  ### Collation process as stage 1 of TEI prep
 
