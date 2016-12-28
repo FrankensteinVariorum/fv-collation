@@ -2,11 +2,10 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
 version="3.0">
 
-   <!--2016-12-28 ebb: Prepared to process from a numbered collection and output a single file. -->  <!--<xsl:strip-space elements="*"/>-->
+   <!--2016-12-28 ebb: Prepared to process from a collection organized unambiguously by filename and output a single file. Filenames were prefaced by a number to process in sequential order.-->  <!--<xsl:strip-space elements="*"/>-->
     <xsl:output method="text" encoding="UTF-8"/>
 
-   <!--ebb: Uncomment one of the following lines to process the appropriate edition, either 1818 or 1831.
-   REMEMBER TO CHANGE FILENAMES ON 1831 DIRECTORY TO PLOT SEQUENTIALLY--> 
+   <!--ebb: Uncomment one of the following lines to process the appropriate edition, either 1818 or 1831.--> 
   <!-- <xsl:variable name="paEdition" select="collection('../frankenTexts_HTML/PA_Electronic_Ed/1818_ed')"/> -->
    
 <xsl:variable name="paEdition" select="collection('../frankenTexts_HTML/PA_Electronic_Ed/1831_ed')"/>
