@@ -2,7 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
 version="3.0">
 
-   <!--2016-12-28 ebb: Prepared to process from a collection organized unambiguously by filename and output a single file. Filenames were prefaced by a number to process in sequential order.-->  <!--<xsl:strip-space elements="*"/>-->
+   <!--2016-12-28 ebb: Prepared to process from a collection organized unambiguously by filename and output a single file. Filenames were prefaced by a number to process in sequential order.-->  
+  <xsl:strip-space elements="*"/>
     <xsl:output method="text" encoding="UTF-8"/>
 
    <!--ebb: Uncomment one of the following lines to process the appropriate edition, either 1818 or 1831.--> 
@@ -33,7 +34,7 @@ version="3.0">
    </xsl:template>-->
    
 <xsl:template match="i">
-   <xsl:text>*</xsl:text><xsl:apply-templates/><xsl:text>*</xsl:text>
+   <xsl:text>_</xsl:text><xsl:apply-templates/><xsl:text>_</xsl:text>
 </xsl:template> 
 
    <xsl:template match="small">
