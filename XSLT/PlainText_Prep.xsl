@@ -7,7 +7,7 @@ version="3.0">
     <xsl:output method="text" encoding="UTF-8"/>
 
    <!--ebb: Uncomment one of the following lines to process the appropriate edition, either 1818 or 1831.--> 
-  <xsl:variable name="paEdition" select="collection('../frankenTexts_HTML/PA_Electronic_Ed/1818_ed')"/> 
+  <xsl:variable name="paEdition" select="collection('../frankenTexts_HTML/PA_Electronic_Ed/1818_ed')"/>
    
 <!--<xsl:variable name="paEdition" select="collection('../frankenTexts_HTML/PA_Electronic_Ed/1831_ed')"/>-->
    
@@ -18,7 +18,7 @@ version="3.0">
         
         # INTRODUCTORY NOTE ON THE TEXT: 
         
-# This is a plain text edition of the </xsl:text><xsl:value-of select="$paEdition/head[1]/tokenize(title, ',')[2]"/> edition of _Frankenstein; or, the Modern Prometheus_ by Mary Shelley <xsl:text>prepared for the Frankenstein Bicentennial project, which commemorates the 200th anniversary of the first published edition of this novel in 1818.
+# This is a plain text edition of the </xsl:text><xsl:value-of select="($paEdition//head[1]/tokenize(title, ', ')[2])[1]"/> edition of _Frankenstein; or, the Modern Prometheus_ by Mary Shelley <xsl:text>prepared for the Frankenstein Bicentennial project, which commemorates the 200th anniversary of the first published edition of this novel in 1818.
      </xsl:text> 
       
       <xsl:text># Frankenstein; or, the Modern Prometheus: Pittsburgh Bicentennial Edition is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. <!--ebb: Check with project team. Do we want this to be a free culture license, meaning we permit commercial uses of this work? If so, change this to read:
