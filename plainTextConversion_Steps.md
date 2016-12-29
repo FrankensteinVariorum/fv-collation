@@ -1,7 +1,7 @@
 ## Stages in Porting from HTML of the Pennsylvania Electronic Edition to Plain Text 
 This work completed by Elisa Beshero-Bondar.
 
-This file documents stages of processing the HTML files of the Pennsylvania Electronic Edition (PA EE) in preparation for automated collation with CollateX, as well as for supplying a diplomatic plain text edition that preserves most of the PA EE’s markup. 
+This file documents stages of processing the HTML files of the Pennsylvania Electronic Edition (PA EE) in preparation for automated collation with CollateX, as well as for supplying a diplomatic plain text edition of the 1818 and 1831 texts of _Frankenstein_ that preserves most of the PA EE’s markup. 
 
 ### Decisions for preserving and eliminating markup in plain text versions:
 
