@@ -5,7 +5,7 @@ This file documents stages of processing the HTML files of the Pennsylvania Elec
 
 ### Decisions for preserving and eliminating markup in plain text versions:
 
-* Using regex find-and-replace strategies, we have prepared altered versions of the PA EE HTML files to reproduce simpler forms which are consistent with current XHTML 5 web standards in 2016. 
+* Using regex find-and-replace strategies, we have prepared altered versions of the PA EE HTML files to reproduce simpler forms which are consistent with current XHTML 5 standards in 2016. 
 
 * In the PA EE some elements (like `<p>` and `<br>`) were not given close tags, while others were, making the code difficult to process with XSLT. Close tags were applied and the files were simplified to carry only the title page, prefacing material, and text of the novel. 
 
@@ -25,7 +25,7 @@ This file documents stages of processing the HTML files of the Pennsylvania Elec
 
 * Documentation is generated at the head of the text files inside commented text marked with hashes (`# `), to indicate the derivation of the documents from the PA EE and to document the rendering decisions above. 
 
-### Stages for processing the altered PA EE HTML to plain text:
+### Stages for processing the altered PA EE HTML to produce plain text editions:
 
 * Run the XSLT file [PlainText_Prep.xsl ](https://raw.githubusercontent.com/ebeshero/Pittsburgh_Frankenstein/master/XSLT/PlainText_Prep.xsl) over each directory (in oXygen, do this by uncommenting the appropriate variable pointing to either the 1818 or 1831 directory, commenting out the other, and running it over any “dummy” XML file since oXygen requires an XML file be associated with the transformation). Save the output in the top level of the Plain Text directory.
 
