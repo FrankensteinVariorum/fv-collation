@@ -31,13 +31,17 @@ This file documents stages of processing the HTML files of the Pennsylvania Elec
 
 * Open the output in Text Wrangler and in oXygen, and work on the following:
 
+* In oXygen , with regex find and replace, eliminate instances of more than two newline characters `\n`, but ensure that two newlines appear between each line. 
+
+* Regularize white spaces using Find & Replace in oXygen, using the `\h` regex to indicate white space inside a line. Replace any instances of `\h\h` with `\h`.
+
 * In Text Wrangler, remove line breaks (option in the Text menu). This ensures that any text preceded by just one newline character is pulled into the preceding line, which unites the content of each paragraph inside a single line.
 
 * In Text Wrangler, “educate” the quotes (option in the Text menu): This produces curly apostrophes and quotes from the straight quotes of the PA EE.
 
 * Convert double hyphens (`--`) to em dashes (`—`).
 
-* Regularize white spaces using Find & Replace in oXygen, using the `\h` regex to indicate white space inside a line. Replace any instances of `\h\h` with `\h`.
+
 
 
 
