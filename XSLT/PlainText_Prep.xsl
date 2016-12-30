@@ -12,35 +12,37 @@ version="3.0">
  <xsl:variable name="paEdition" select="collection('../frankenTexts_HTML/PA_Electronic_Ed/1831_ed')"/>
    
    <xsl:template match="/">
-     <xsl:text>###########################################################################
+     <xsl:text>********************************************************************************
         # FRANKENSTEIN; OR, THE MODERN PROMETHEUS
         
         # The Pittsburgh Bicentennial Edition
         
-        # INTRODUCTORY NOTE ON THE TEXT: 
+        ## INTRODUCTORY NOTE ON THE TEXT: 
         
-# This is a plain text edition of the </xsl:text><xsl:value-of select="($paEdition//head[1]/tokenize(title, ', ')[2])[1]"/> edition of _Frankenstein; or, the Modern Prometheus_ by Mary Shelley <xsl:text>prepared for the Frankenstein Bicentennial project, which commemorates the 200th anniversary of the first published edition of this novel in 1818.
+This is a plain text edition of the </xsl:text><xsl:value-of select="($paEdition//head[1]/tokenize(title, ', ')[2])[1]"/> edition of _Frankenstein; or, the Modern Prometheus_ by Mary Shelley <xsl:text>prepared for the Frankenstein Bicentennial project, which commemorates the 200th anniversary of the first published edition of this novel in 1818.
      </xsl:text> 
       
-      <xsl:text># Frankenstein; or, the Modern Prometheus: Pittsburgh Bicentennial Edition is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. <!--ebb: Check with project team. Do we want this to be a free culture license, meaning we permit commercial uses of this work? If so, change this to read:
+      <xsl:text>Frankenstein; or, the Modern Prometheus: Pittsburgh Bicentennial Edition is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. <!--ebb: Check with project team. Do we want this to be a free culture license, meaning we permit commercial uses of this work? If so, change this to read:
      
 Frankenstein; or, the Modern Prometheus: Pittsburgh Bicentennial Edition is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
       -->
       </xsl:text>
-      <xsl:text># Date this text was produced: </xsl:text><xsl:value-of select="current-dateTime()"/><xsl:text>. 
+      <xsl:text>Date this text was produced: </xsl:text><xsl:value-of select="current-dateTime()"/><xsl:text>. 
       </xsl:text> 
-      <xsl:text># This edition is part of the Pittsburgh research team's contribution to the Bicentennial Frankenstein Project, and is prepared by Elisa Beshero-Bondar of the University of Pittsburgh at Greensburg with assistance from Rikk Mulligan of Carnegie Mellon University. We are grateful for consultation from Wendell Piez, David J. Birnbaum, and Raffaele Viglianti, as well as Neil Fraistat and Dave Rettenmaier. This edition's stages of development are stored and documented in the Pittsburgh_Frankenstein GitHub repository: https://github.com/ebeshero/Pittsburgh_Frankenstein/ .
-# We have produced this plain text edition for two purposes:
+      <xsl:text>This edition is part of the Pittsburgh research team's contribution to the Bicentennial Frankenstein Project, and is prepared by Elisa Beshero-Bondar of the University of Pittsburgh at Greensburg with assistance from Rikk Mulligan of Carnegie Mellon University. We are grateful for consultation from Wendell Piez, David J. Birnbaum, and Raffaele Viglianti, as well as Neil Fraistat and Dave Rettenmaier. This edition's stages of development are stored and documented in the Pittsburgh_Frankenstein GitHub repository: https://github.com/ebeshero/Pittsburgh_Frankenstein/ .
 
-# 1) To prepare for automated collation of the 1818, 1823, and 1831 editions of _Frankenstein_ using CollateX, in order to generate a TEI XML document that stores the variations of these texts.
+We have produced this plain text edition for two purposes:
 
-# 2) To provide a reliable digital base text of each edition tractable for future projects. 
+1) To prepare for automated collation of the 1818, 1823, and 1831 editions of _Frankenstein_ using CollateX, in order to generate a TEI XML document that stores the variations of these texts.
+
+2) To provide a reliable digital base text of each edition tractable for future projects.
+
       </xsl:text>
      
-     <xsl:text># This plain text edition is one of two, representing the 1818 and 1831 editions of the novel. This pair of editions is based on the Pennsylvania Electronic Edition of _Frankenstein; or, the Modern Prometheus_ by Mary Shelley, edited by Stuart Curran and assisted by Jack Lynch, located at http://knarf.english.upenn.edu/ and hereafter referred to as PA EE. Elisa Beshero-Bondar and Rikk Mulligan *are correcting* these texts against photo facsimiles of the 1818 and 1831 texts. 
+     <xsl:text>This plain text edition is one of two, representing the 1818 and 1831 editions of the novel. This pair of editions is based on the Pennsylvania Electronic Edition of _Frankenstein; or, the Modern Prometheus_ by Mary Shelley, edited by Stuart Curran and assisted by Jack Lynch, located at http://knarf.english.upenn.edu/ and hereafter referred to as PA EE. Elisa Beshero-Bondar and Rikk Mulligan *are correcting* these texts against photo facsimiles of the 1818 and 1831 texts. 
         * We will alter the previous sentence in this header when this phase of proof-checking is completed.
      </xsl:text>
-      <xsl:text># Our plain text edition preserves the rendering of italics, square brackets, and centered text from the PA EE HTML texts. 
+      <xsl:text>Our plain text edition preserves the rendering of italics, square brackets, and centered text from the PA EE HTML texts. 
 
 * In the PA EE there is no distinction between italics for titles and italics for emphasized words. Because the asterisk is used to signal footnotes in the text, we use the underscore (`_`) instead to mark off italicized text of any kind. 
 
@@ -50,8 +52,8 @@ Frankenstein; or, the Modern Prometheus: Pittsburgh Bicentennial Edition is lice
 
 * Each unit of PA EE HTML texts marked with a structural element to indicate line break (`&lt;br&gt;`) or paragraph (`&lt;p&gt;`) is produced as a unit line in the plain text. Thus, an entire paragraph appears as a single line. Every unit line is followed by two newline characters. 
       </xsl:text>
-      <xsl:text># Note for later processing: In the PA EE of this text, there are </xsl:text><xsl:value-of select="count(distinct-values($paEdition//body//a/@href))"/> encoded links, each pointing to an editorial annotation.
-      <xsl:text>###########################################################################</xsl:text>
+      <xsl:text>Note for later processing: In the PA EE of this text, there are </xsl:text><xsl:value-of select="count(distinct-values($paEdition//body//a/@href))"/> encoded links, each pointing to an editorial annotation.
+      <xsl:text>********************************************************************************</xsl:text>
       <xsl:apply-templates select="$paEdition//body"/>
    </xsl:template>
    
