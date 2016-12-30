@@ -7,13 +7,14 @@ version="3.0">
     <xsl:output method="text" encoding="UTF-8"/>
 
    <!--ebb: Uncomment one of the following lines to process the appropriate edition, either 1818 or 1831.--> 
-  <xsl:variable name="paEdition" select="collection('../frankenTexts_HTML/PA_Electronic_Ed/1818_ed')"/>
+  <!--<xsl:variable name="paEdition" select="collection('../frankenTexts_HTML/PA_Electronic_Ed/1818_ed')"/>-->
    
-<!--<xsl:variable name="paEdition" select="collection('../frankenTexts_HTML/PA_Electronic_Ed/1831_ed')"/>-->
+ <xsl:variable name="paEdition" select="collection('../frankenTexts_HTML/PA_Electronic_Ed/1831_ed')"/>
    
    <xsl:template match="/">
      <xsl:text>###########################################################################
         # FRANKENSTEIN; OR, THE MODERN PROMETHEUS
+        
         # The Pittsburgh Bicentennial Edition
         
         # INTRODUCTORY NOTE ON THE TEXT: 
@@ -24,17 +25,20 @@ version="3.0">
       <xsl:text># Frankenstein; or, the Modern Prometheus: Pittsburgh Bicentennial Edition is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. <!--ebb: Check with project team. Do we want this to be a free culture license, meaning we permit commercial uses of this work? If so, change this to read:
      
 Frankenstein; or, the Modern Prometheus: Pittsburgh Bicentennial Edition is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
-
-      --></xsl:text>
+      -->
+      </xsl:text>
       <xsl:text># Date this text was produced: </xsl:text><xsl:value-of select="current-dateTime()"/><xsl:text>. 
       </xsl:text> 
-      <xsl:text># This edition is part of the Pittsburgh research team's contribution to the Bicentennial Frankenstein Project, and is prepared by Elisa Beshero-Bondar of the University of Pittsburgh at Greensburg with assistance from Rikk Mulligan of Carnegie Mellon University. We are grateful for consultation and assistance from Wendell Piez, David J. Birnbaum, and Raffaele Viglianti, as well as Neil Fraistat and Dave Rettenmaier. This edition's stages of development are stored and documented in the Pittsburgh_Frankenstein GitHub repository: https://github.com/ebeshero/Pittsburgh_Frankenstein/ .
-# We have produced this plain text edition for two purposes: 
-# 1) To prepare for automated collation of the 1818, 1823, and 1831 editions of _Frankenstein_ using CollateX, in order to generate a TEI XML document that stores the variations of these texts.  
-# 2) To provide a tractable and reliable base text of each edition for future digital research.
+      <xsl:text># This edition is part of the Pittsburgh research team's contribution to the Bicentennial Frankenstein Project, and is prepared by Elisa Beshero-Bondar of the University of Pittsburgh at Greensburg with assistance from Rikk Mulligan of Carnegie Mellon University. We are grateful for consultation from Wendell Piez, David J. Birnbaum, and Raffaele Viglianti, as well as Neil Fraistat and Dave Rettenmaier. This edition's stages of development are stored and documented in the Pittsburgh_Frankenstein GitHub repository: https://github.com/ebeshero/Pittsburgh_Frankenstein/ .
+# We have produced this plain text edition for two purposes:
+
+# 1) To prepare for automated collation of the 1818, 1823, and 1831 editions of _Frankenstein_ using CollateX, in order to generate a TEI XML document that stores the variations of these texts.
+
+# 2) To provide a reliable digital base text of each edition tractable for future projects. 
       </xsl:text>
      
-     <xsl:text># This plain text edition is one of two, representing the 1818 and 1831 editions of the novel. This pair of editions are based on the Pennsylvania Electronic Edition of _Frankenstein; or, the Modern Prometheus_ by Mary Shelley, edited by Stuart Curran and assisted by Jack Lynch, located at http://knarf.english.upenn.edu/ and hereafter referred to as PA EE. Elisa Beshero-Bondar and Rikk Mulligan *are correcting* these texts against photo facsimiles of the 1818 and 1831 texts. * We will alter the previous sentence in this header when this phase of proof-checking is completed.
+     <xsl:text># This plain text edition is one of two, representing the 1818 and 1831 editions of the novel. This pair of editions is based on the Pennsylvania Electronic Edition of _Frankenstein; or, the Modern Prometheus_ by Mary Shelley, edited by Stuart Curran and assisted by Jack Lynch, located at http://knarf.english.upenn.edu/ and hereafter referred to as PA EE. Elisa Beshero-Bondar and Rikk Mulligan *are correcting* these texts against photo facsimiles of the 1818 and 1831 texts. 
+        * We will alter the previous sentence in this header when this phase of proof-checking is completed.
      </xsl:text>
       <xsl:text># Our plain text edition preserves the rendering of italics, square brackets, and centered text from the PA EE HTML texts. 
 

@@ -19,7 +19,7 @@ This file documents stages of processing the HTML files of the Pennsylvania Elec
 
 * Square brackets (`[ ]`) are placed around text marked as small caps. (We have commented out the one instance in the 1831 PA EE HTML in which square brackets were used to hold a normalized variant of a word, to suppress that from the output.) 
 
-* Centered text is marked between curly braces: `{ }`
+* Centered text is marked between curly braces: `{ }` Note: some center tagging, such as in header tags, was lost in the conversion process and should be restored as we proof the texts.
 
 * Each unit of PA EE HTML texts marked with a structural element to indicate line break (`<br>`) or paragraph (`<p>`) is produced as a unit line in the plain text. Thus, an entire paragraph appears as a single line. Every unit line is followed by two newline characters. 
 
@@ -31,15 +31,17 @@ This file documents stages of processing the HTML files of the Pennsylvania Elec
 
 * Open the output in Text Wrangler and in oXygen, and work on the following:
 
-* In oXygen , with regex find and replace, eliminate instances of more than two newline characters `\n`, but ensure that two newlines appear between each line. 
+* In Text Wrangler, remove line breaks (option in the Text menu). This ensures that any text preceded by just one newline character is pulled into the preceding line, which unites the content of each paragraph inside a single line. 
 
-* Regularize white spaces using Find & Replace in oXygen, using the `\h` regex to indicate white space inside a line. Replace any instances of `\h\h` with `\h`.
+* In oXygen, with regex find and replace, eliminate instances of more than two newline characters `\n`, but ensure that two newlines appear between each line.
 
-* In Text Wrangler, remove line breaks (option in the Text menu). This ensures that any text preceded by just one newline character is pulled into the preceding line, which unites the content of each paragraph inside a single line.
+* Add `\n\n` after VOLUME, LETTER, PREFACE, and CHAPTER headings and the Introduction heading in the 1831 edition. Search for `(PREFACE|VOLUME|LETTER|CHAPTER)\s+[IVXLC]+\.*` .  Also check and restore newlines in letter headings.
 
-* In Text Wrangler, “educate” the quotes (option in the Text menu): This produces curly apostrophes and quotes from the straight quotes of the PA EE.
+* In Text Wrangler, “educate” the quotes (option in the Text menu): This produces curly apostrophes and quotes from the straight quotes of the PA EE. 
 
-* Convert double hyphens (`--`) to em dashes (`—`).
+* Regularize white spaces using Find & Replace in oXygen, using the `\h` regex to indicate white space inside a line. Replace any instances of `\h\h` with ` `. 
+
+* Convert double hyphens (`--`) to em dashes (`—`). 
 
 
 
