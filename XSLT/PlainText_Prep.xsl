@@ -15,9 +15,9 @@ version="3.0">
      <xsl:text>********************************************************************************
         # FRANKENSTEIN; OR, THE MODERN PROMETHEUS
         
-        # The Pittsburgh Bicentennial Edition
+        ## The Pittsburgh Bicentennial Edition
         
-        ## INTRODUCTORY NOTE ON THE TEXT: 
+        ### INTRODUCTORY NOTE ON THE TEXT: 
         
 This is a plain text edition of the </xsl:text><xsl:value-of select="($paEdition//head[1]/tokenize(title, ', ')[2])[1]"/> edition of _Frankenstein; or, the Modern Prometheus_ by Mary Shelley <xsl:text>prepared for the Frankenstein Bicentennial project, which commemorates the 200th anniversary of the first published edition of this novel in 1818.
      </xsl:text> 
