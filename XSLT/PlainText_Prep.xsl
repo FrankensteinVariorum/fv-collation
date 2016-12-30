@@ -48,7 +48,7 @@ We have produced this plain text edition for two purposes:
 
 * Square brackets (`[ ]`) are placed around text marked as small caps. (We have commented out the one instance in the 1831 PA EE HTML in which square brackets were used to hold a normalized variant of a word, to suppress that from the output.) 
 
-* Centered text is marked between curly braces: `{ }`
+* Centered text is marked between percent symobls: `% %`.
 
 * Each unit of PA EE HTML texts marked with a structural element to indicate line break (`&lt;br&gt;`) or paragraph (`&lt;p&gt;`) is produced as a unit line in the plain text. Thus, an entire paragraph appears as a single line. Every unit line is followed by two newline characters. 
       </xsl:text>
@@ -82,7 +82,7 @@ We have produced this plain text edition for two purposes:
    </xsl:template> 
    
    <xsl:template match="center">
-      <xsl:text>{</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>
+      <xsl:text>%</xsl:text><xsl:apply-templates/><xsl:text>%</xsl:text>
    </xsl:template>
        
 </xsl:stylesheet>

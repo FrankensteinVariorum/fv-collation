@@ -29,7 +29,7 @@ Our plain text edition preserves the rendering of italics, square brackets, and 
 
 * Square brackets (`[ ]`) are placed around text marked as small caps. (We have commented out the one instance in the 1831 PA EE HTML in which square brackets were used to hold a normalized variant of a word, to suppress that from the output.)
 
-* Centered text is marked between curly braces: `{ }`
+* Centered text is marked between percent symbols: `% %`.
 
 * Each unit of PA EE HTML texts marked with a structural element to indicate line break (`<br>`) or paragraph (`<p>`) is produced as a unit line in the plain text. Thus, an entire paragraph appears as a single line. Every unit line is followed by two newline characters. 
 
@@ -39,27 +39,27 @@ Note for later processing: In the PA EE of this text, there are 1337 encoded lin
 
 FRANKENSTEIN; OR, THE MODERN PROMETHEUS.
 
-{IN THREE VOLUMES}
+%IN THREE VOLUMES%
 
-{
+%
 
 Did I request thee, Maker, from my clay
 
 To mould me man? Did I solicit thee
 
-From darkness to promote me?— PARADISE LOST. }
+From darkness to promote me?— PARADISE LOST. %
 
 VOL. I.
 
-{_London:
+%_London:
 
 PRINTED FOR_
 
 LACKINGTON, HUGHES, HARDING, MAVOR, & JONES,
 
-FINSBURY SQUARE.}
+FINSBURY SQUARE.%
 
-{1818.}
+%1818.%
 
 TO
 
@@ -93,7 +93,7 @@ MODERN PROMETHEUS.
 
 LETTER I
 
-{_To Mrs. S[AVILLE], England._} St. Petersburgh, Dec. 11th, 17—.
+%_To Mrs. S[AVILLE], England._% St. Petersburgh, Dec. 11th, 17—.
 
 Y[OU] will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking.
 
@@ -119,7 +119,7 @@ R. W[ALTON].
 
 LETTER II.
 
-{_To Mrs. S[AVILLE], England._}
+%_To Mrs. S[AVILLE], England._%
 
 Archangel, 28th March, 17—.
 
@@ -143,7 +143,7 @@ R[OBERT] W[ALTON].
 
 LETTER III.
 
-{_To Mrs. S[AVILLE], England._}
+%_To Mrs. S[AVILLE], England._%
 
 July 7th, 17—.
 
@@ -163,7 +163,7 @@ R.W.
 
 LETTER IV
 
-{_To Mrs. S[AVILLE], England._}
+%_To Mrs. S[AVILLE], England._%
 
 August 5th, 17—.
 
@@ -441,7 +441,7 @@ CHAPTER V.
 
  C[LERVAL] then put the following letter into my hands.
 
-{_To_ V. F[RANKENSTEIN].}
+%_To_ V. F[RANKENSTEIN].%
 
 “[MY DEAR COUSIN],
 
@@ -491,7 +491,7 @@ CHAPTER VI.
 
  O[N] my return, I found the following letter from my father:—
 
-{_”To_ V. F[RANKENSTEIN].}
+%_”To_ V. F[RANKENSTEIN].%
 
 “[MY DEAR VICTOR],
 
@@ -1623,7 +1623,7 @@ In this manner many appalling hours passed; several of my dogs died; and I mysel
 
 Oh! when will my guiding spirit, in conducting me to the daemon, allow me the rest I so much desire; or must I die, and he yet live? If I do, swear to me, Walton, that he shall not escape; that you will seek him, and satisfy my vengeance in his death. Yet, do I dare ask you to undertake my pilgrimage, to endure the hardships that I have undergone? No; I am not so selfish. Yet, when I am dead, if he should appear; if the ministers of vengeance should conduct him to you, swear that he shall not live — swear that he shall not triumph over my accumulated woes, and live to make another such a wretch as I am. He is eloquent and persuasive; and once his words had even power over my heart: but trust him not. His soul is as hellish as his form, full of treachery and fiend-like malice. Hear him not; call on the manes of William, Justine, Clerval, Elizabeth, my father, and of the wretched Victor, and thrust your sword into his heart. I will hover near, and direct the steel aright.
 
-{W[ALTON], _in continuation._}
+%W[ALTON], _in continuation._%
 
 August 26th, 17—.
 

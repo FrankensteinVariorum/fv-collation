@@ -22,7 +22,7 @@ This plain text edition is one of two, representing the 1818 and 1831 editions o
 
 * Square brackets (`[ ]`) are placed around text marked as small caps. (We have commented out the one instance in the 1831 PA EE HTML in which square brackets were used to hold a normalized variant of a word, to suppress that from the output.)
 
-* Centered text is marked between curly braces: `{ }`
+* Centered text is marked between percent symbols: `% %`.
 
 * Each unit of PA EE HTML texts marked with a structural element to indicate line break (`<br>`) or paragraph (`<p>`) is produced as a unit line in the plain text. Thus, an entire paragraph appears as a single line. Every unit line is followed by two newline characters. 
 
@@ -30,29 +30,29 @@ Note for later processing: In the PA EE of this text, there are 1341 encoded lin
 
 ###########################################################################
 
-{FRANKENSTEIN:} 
+%FRANKENSTEIN:% 
 
-{OR,} 
+%OR,% 
 
-{THE MODERN PROMETHEUS.}
+%THE MODERN PROMETHEUS.%
 
-{BY THE AUTHOR OF}
+%BY THE AUTHOR OF%
 
-{THE LAST MAN, PERKIN WARBECK &C. &C.}
+%THE LAST MAN, PERKIN WARBECK &C. &C.%
 
-{REVISED, CORRECTED,}
+%REVISED, CORRECTED,%
 
-{AND ILLUSTRATED WITH A NEW INTRODUCTION,}
+%AND ILLUSTRATED WITH A NEW INTRODUCTION,%
 
-{BY THE AUTHOR.}
+%BY THE AUTHOR.%
 
-{LONDON: HENRY COLBURN AND RICHARD BENTLEY, NEW BURLINGTON STREET:}
+%LONDON: HENRY COLBURN AND RICHARD BENTLEY, NEW BURLINGTON STREET:%
 
-{BELL AND BRADFUTE, EDINBURGH;}
+%BELL AND BRADFUTE, EDINBURGH;%
 
-{AND CUMMING, DUBLIN.}
+%AND CUMMING, DUBLIN.%
 
-{1831}
+%1831%
 
 Introduction 
 
@@ -114,7 +114,7 @@ THE MODERN PROMETHEUS.
 
 LETTER I.
 
- {_To Mrs. S[AVILLE], England._}
+ %_To Mrs. S[AVILLE], England._%
 
 St. Petersburgh, Dec. 11th, 17—.
 
@@ -142,7 +142,7 @@ R. W[ALTON].
 
 LETTER II.
 
-{_To Mrs. S[AVILLE], England._}
+%_To Mrs. S[AVILLE], England._%
 
 Archangel, 28th March, 17—.
 
@@ -166,7 +166,7 @@ R[OBERT] W[ALTON].
 
 LETTER III.
 
-{_To Mrs. S[AVILLE], England._}
+%_To Mrs. S[AVILLE], England._%
 
 July 7th, 17—.
 
@@ -186,7 +186,7 @@ R.W.
 
 LETTER IV
 
-{_To Mrs. S[AVILLE], England._}
+%_To Mrs. S[AVILLE], England._%
 
 August 5th, 17—.
 
@@ -1626,7 +1626,7 @@ In this manner many appalling hours passed; several of my dogs died; and I mysel
 
 Oh! when will my guiding spirit, in conducting me to the daemon, allow me the rest I so much desire; or must I die, and he yet live? If I do, swear to me, Walton, that he shall not escape; that you will seek him, and satisfy my vengeance in his death. And do I dare to ask of you to undertake my pilgrimage, to endure the hardships that I have undergone? No; I am not so selfish. Yet, when I am dead, if he should appear; if the ministers of vengeance should conduct him to you, swear that he shall not live — swear that he shall not triumph over my accumulated woes, and survive to add to the list of his dark crimes. He is eloquent and persuasive; and once his words had even power over my heart: but trust him not. His soul is as hellish as his form, full of treachery and fiendlike malice. Hear him not; call on the manes of William, Justine, Clerval, Elizabeth, my father, and of the wretched Victor, and thrust your sword into his heart. I will hover near, and direct the steel aright.
 
-{W[ALTON], _in continuation._}
+%W[ALTON], _in continuation._%
 
 August 26th, 17—.
 
