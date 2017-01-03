@@ -25,6 +25,10 @@ This plain text edition is one of two, representing the 1818 and 1831 editions o
 
 Our plain text edition preserves the rendering of italics, square brackets, and centered text from the PA EE HTML texts.
 
+We will be adding page breaks using the TEI self-closing milestone element. We will not be preserving the running headers but will retain page number in order to link to page images in future iterations of the text.
+
+To track pages from our source images we will be using the TEI self-closing milestone element with "unNum" as the marker.
+
 * In the PA EE there is no distinction between italics for titles and italics for emphasized words. Because the asterisk is used to signal footnotes in the text, we use the underscore (`_`) instead to mark off italicized text of any kind.
 
 * Square brackets (`[ ]`) are placed around text marked as small caps. (We have commented out the one instance in the 1831 PA EE HTML in which square brackets were used to hold a normalized variant of a word, to suppress that from the output.)
@@ -37,67 +41,123 @@ Note for later processing: In the PA EE of this text, there are 1337 encoded lin
 
 ********************************************************************************
 
-FRANKENSTEIN; OR, THE MODERN PROMETHEUS.
+%FRANKENSTEIN;%
+
+%[OR],%
+
+%THE MODERN PROMETHEUS.%
+
+<pb n="10001"/>
+
+[blank page]
+
+<pb n="10002"/>
+
+%FRANKENSTEIN;%
+
+%[OR],%
+
+%THE MODERN PROMETHEUS.%
 
 %IN THREE VOLUMES%
 
-%
+%Did I request thee, Maker, from my clay%
 
-Did I request thee, Maker, from my clay
+%To mould me man? Did I solicit thee%
 
-To mould me man? Did I solicit thee
+%From darkness to promote me?-—% 
 
-From darkness to promote me?— PARADISE LOST. %
+P[ARADISE] L[OST].
 
-VOL. I.
+%VOL. I.%
 
-%_London:
+%_London:_%
 
-PRINTED FOR_
+%_PRINTED FOR_%
 
-LACKINGTON, HUGHES, HARDING, MAVOR, & JONES,
+%LACKINGTON, HUGHES, HARDING, MAVOR, & JONES,
 
-FINSBURY SQUARE.%
+%FINSBURY SQUARE.%
 
 %1818.%
 
-TO
+<pb n="10003"/>
 
-WILLIAM GODWIN, _AUTHOR OF POLITICAL JUSTICE, CALEB WILLIAMS, &C._
+%_Printed by Macdonald and Son, Cloth Fair, London_%
 
-THESE VOLUMES
+<pb n="10004"/>
+
+%TO%
+
+%WILLIAM GODWIN,%
+
+%_AUTHOR OF POLITICAL JUSTICE, CALEB WILLIAMS, &C._%
+
+%THESE VOLUMES%
 
 _Are respectfully inscribed_
 
-BY
+[BY]
 
-THE AUTHOR
+THE AUTHOR.
 
-PREFACE. 
+<pb n="10005"/>
 
-T[HE] event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely weaving a series of supernatural terrors. The event on which the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield.
+[blank page]
 
-I have thus endeavoured to preserve the truth of the elementary principles of human nature, while I have not scrupled to innovate upon their combinations. The _Iliad_, the tragic poetry of Greece, Shakespeare, in the _Tempest_ and _Midsummer Night’s Dream_ and most especially Milton, in _Paradise Lost_, conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry.
+<pb n="10006"/>
 
-The circumstance on which my story rests was suggested in casual conversation. It was commenced partly as a source of amusement, and partly as an expedient for exercising any untried resources of mind. Other motives were mingled with these as the work proceeded. I am by no means indifferent to the manner in which whatever moral tendencies exist in the sentiments or characters it contains shall affect the reader; yet my chief concern in this respect has been limited to the avoiding the enervating effects of the novels of the present day, and to the exhibition of the amiableness of domestic affection, and the excellence of universal virtue. The opinions which naturally spring from the character and situation of the hero are by no means to be conceived as existing always in my own conviction; nor is any inference justly to be drawn from the following pages as prejudicing any philosophical doctrine of whatever kind.
+%PREFACE.% 
 
-It is a subject also of additional interest to the author that this story was begun in the majestic region where the scene is principally laid, and in society which cannot cease to be regretted. I passed the summer of 1816 in the environs of Geneva. The season was cold and rainy, and in the evenings we crowded around a blazing wood fire, and occasionally amused ourselves with some German stories of ghosts, which happened to fall into our hands. These tales excited in us a playful desire of imitation. Two other friends (a tale from the pen of one of whom would be far more acceptable to the public than any thing I can ever hope to produce) and myself agreed to write each a story founded on some supernatural occurrence.
+T[HE] event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely weaving a series of supernatural terrors. The event on 
+
+<pb n="10007"/>
+
+which the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield.
+
+I have thus endeavoured to preserve the truth of the elementary principles of human nature, while I have not scrupled to innovate upon their combinations. The _Iliad_, the tragic poetry of Greece,--Shakespeare, in the _Tempest_ and _Midsummer_ 
+
+<pb n="10008"/>
+
+_Night’s Dream_--and most especially Milton, in _Paradise Lost_, conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry.
+
+The circumstance on which my story rests was suggested in casual conversation. It was commenced partly as a source of amusement, and partly as an expedient for exercising any untried resources of mind. Other motives were mingled with these, as the work proceeded.
+
+<pb n="10009"/>
+
+I am by no means indifferent to the manner in which whatever moral tendencies exist in the sentiments or characters it contains shall affect the reader; yet my chief concern in this respect has been limited to the avoiding the enervating effects of the novels of the present day, and to the exhibition of the amiableness of domestic affection, and the excellence of universal virtue. The opinions which naturally spring from the character and situation of the hero are by no means to be conceived as existing always in my own conviction; nor is any inference justly to be drawn from the following pages as prejudicing any philosophical doctrine of whatever kind.
+
+<pb n="10010"/>
+
+It is a subject also of additional interest to the author, that this story was begun in the majestic region where the scene is principally laid, and in society which cannot cease to be regretted. I passed the summer of 1816 in the environs of Geneva. The season was cold and rainy, and in the evenings we crowded around a blazing wood fire, and occasionally amused ourselves with some German stories of ghosts, which happened to fall into our hands. These tales excited in us a playful desire of imitation. Two other friends (a tale from the pen of one of whom would be far more acceptable to the public than any thing I can ever hope to produce) and 
+
+<pb n="10011"/>
+
+myself agreed to write each a story, founded on some supernatural occurrence.
 
 The weather, however, suddenly became serene; and my two friends left me on a journey among the Alps, and lost, in the magnificent scenes which they present, all memory of their ghostly visions. The following tale is the only one which has been completed.
 
-FRANKENSTEIN;
+<pb n="10012"/>
 
-OR, THE
+%FRANKENSTEIN;%
 
-MODERN PROMETHEUS.
+%[OR, THE]%
 
-LETTER I
+%MODERN PROMETHEUS.%
 
-%_To Mrs. S[AVILLE], England._% St. Petersburgh, Dec. 11th, 17—.
+%LETTER I%
+
+%_To Mrs._ S[AVILLE], _England._% 
+
+St. Petersburgh, Dec. 11th, 17—.
 
 Y[OU] will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking.
 
-I am already far north of London; and as I walk in the streets of Petersburgh, I feel a cold northern breeze play upon my cheeks, which braces my nerves, and fills me with delight. Do you understand this feeling? This breeze, which has travelled from the regions towards which I am advancing, gives me a foretaste of those icy climes. Inspirited by this wind of promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that the pole is the seat of frost and desolation; it ever presents itself to my imagination as the region of beauty and delight. There, Margaret, the sun is for ever visible; its broad disk just skirting the horizon, and diffusing a perpetual splendour. There — for with your leave, my sister, I will put some trust in preceding navigators — there snow and frost are banished; and, sailing over a calm sea, we may be wafted to a land surpassing in wonders and in beauty every region hitherto discovered on the habitable globe. Its productions and features may be without example, as the phænomena of the heavenly bodies undoubtedly are in those undiscovered solitudes. What may not be expected in a country of eternal light? I may there discover the wondrous power which attracts the needle; and may regulate a thousand celestial observations, that require only this voyage to render their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity with the sight of a part of the world never before visited, and may tread a land never before imprinted by the foot of man. These are my enticements, and they are sufficient to conquer all fear of danger or death, and to induce me to commence this laborious voyage with the joy a child feels when he embarks in a little boat, with his holiday mates, on an expedition of discovery up his native river. But, supposing all these conjectures to be false, you cannot contest the inestimable benefit which I shall confer on all mankind to the last generation, by discovering a passage near the pole to those countries, to reach which at present so many months are requisite; or by ascertaining the secret of the magnet, which, if at all possible, can only be effected by an undertaking such as mine.
+I am already far north of London; and as I walk in the streets of Petersburgh,
+
+<pb n="10013"/>
+
+ I feel a cold northern breeze play upon my cheeks, which braces my nerves, and fills me with delight. Do you understand this feeling? This breeze, which has travelled from the regions towards which I am advancing, gives me a foretaste of those icy climes. Inspirited by this wind of promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that the pole is the seat of frost and desolation; it ever presents itself to my imagination as the region of beauty and delight. There, Margaret, the sun is for ever visible; its broad disk just skirting the horizon, and diffusing a perpetual splendour. There — for with your leave, my sister, I will put some trust in preceding navigators — there snow and frost are banished; and, sailing over a calm sea, we may be wafted to a land surpassing in wonders and in beauty every region hitherto discovered on the habitable globe. Its productions and features may be without example, as the phænomena of the heavenly bodies undoubtedly are in those undiscovered solitudes. What may not be expected in a country of eternal light? I may there discover the wondrous power which attracts the needle; and may regulate a thousand celestial observations, that require only this voyage to render their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity with the sight of a part of the world never before visited, and may tread a land never before imprinted by the foot of man. These are my enticements, and they are sufficient to conquer all fear of danger or death, and to induce me to commence this laborious voyage with the joy a child feels when he embarks in a little boat, with his holiday mates, on an expedition of discovery up his native river. But, supposing all these conjectures to be false, you cannot contest the inestimable benefit which I shall confer on all mankind to the last generation, by discovering a passage near the pole to those countries, to reach which at present so many months are requisite; or by ascertaining the secret of the magnet, which, if at all possible, can only be effected by an undertaking such as mine.
 
 These reflections have dispelled the agitation with which I began my letter, and I feel my heart glow with an enthusiasm which elevates me to heaven; for nothing contributes so much to tranquillize the mind as a steady purpose, — a point on which the soul may fix its intellectual eye. This expedition has been the favourite dream of my early years. I have read with ardour the accounts of the various voyages which have been made in the prospect of arriving at the North Pacific Ocean through the seas which surround the pole. You may remember that a history of all the voyages made for purposes of discovery composed the whole of our good uncle Thomas’s library. My education was neglected, yet I was passionately fond of reading. These volumes were my study day and night, and my familiarity with them increased that regret which I had felt, as a child, on learning that my father’s dying injunction had forbidden my uncle to allow me to embark in a sea-faring life.
 
