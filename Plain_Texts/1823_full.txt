@@ -1,4 +1,47 @@
-﻿This is a reproduction of a library book that was digitized
+﻿********************************************************************************
+
+# FRANKENSTEIN; OR, THE MODERN PROMETHEUS 
+
+## The Pittsburgh Bicentennial Edition
+
+### INTRODUCTORY NOTE ON THE TEXT:
+
+This is a plain text edition of the 1823 edition of _Frankenstein; or, the Modern Prometheus_ by Mary Shelley prepared for the Frankenstein Bicentennial project, which commemorates the 200th anniversary of the first published edition of this novel in 1818. 
+
+_Frankenstein; or, the Modern Prometheus: Pittsburgh Bicentennial Edition_ is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
+
+Date this text was produced: 2017-01-13. 
+
+This edition is part of the Pittsburgh research team’s contribution to the Bicentennial Frankenstein Project, and is prepared by Elisa Beshero-Bondar of the University of Pittsburgh at Greensburg with assistance from Rikk Mulligan of Carnegie Mellon University. We are grateful for consultation from Wendell Piez, David J. Birnbaum, and Raffaele Viglianti, as well as Neil Fraistat and Dave Rettenmaier. This edition’s stages of development are stored and documented in the Pittsburgh_Frankenstein GitHub repository: https://github.com/ebeshero/Pittsburgh_Frankenstein/ . 
+
+We have produced this plain text edition for two purposes: 
+
+1) To prepare for automated collation of the 1818, 1823, and 1831 editions of _Frankenstein_ using CollateX, in order to generate a TEI XML document that stores the variations of these texts. 
+
+2) To provide a reliable digital base text of each edition tractable for future projects. 
+
+This plain text edition was generated using ABBYY Fine Reader v11.0 from a Google Books version digitized from the Austrian National Library 24028-B. The digitization of the files was completed by Ann Marie Mesco and Joe Mesco of the Archives at Carnegie Mellon University. Elisa Beshero-Bondar and Rikk Mulligan *are correcting* this text against photo facsimiles of the 1823 texts. 
+* We will alter the previous sentence in this header when this phase of proof-checking is completed. 
+
+Our plain text edition preserves the rendering of italics, square brackets, and centered text from the PA EE HTML texts.
+
+We will be adding page breaks using the TEI self-closing milestone element. We will not be preserving the running headers but will retain page number in order to link to page images in future iterations of the text.
+
+To track pages from our source images we will be using the TEI self-closing milestone element with "unNum" as the marker.
+
+* In the PA EE there is no distinction between italics for titles and italics for emphasized words. Because the asterisk is used to signal footnotes in the text, we use the underscore (`_`) instead to mark off italicized text of any kind.
+
+* Square brackets (`[ ]`) are placed around text marked as small caps. (We have commented out the one instance in the 1831 PA EE HTML in which square brackets were used to hold a normalized variant of a word, to suppress that from the output.)
+
+* Centered text is marked between percent symbols: `% %`.
+
+* Each unit of PA EE HTML texts marked with a structural element to indicate line break (`<br>`) or paragraph (`<p>`) is produced as a unit line in the plain text. Thus, an entire paragraph appears as a single line. Every unit line is followed by two newline characters. 
+
+Note for later processing: In the PA EE of this text, there are 1337 encoded links, each pointing to an editorial annotation. 
+
+********************************************************************************
+
+This is a reproduction of a library book that was digitized
 by Google as part of an ongoing effort to preserve the
 information in books and make it universally accessible.
 
