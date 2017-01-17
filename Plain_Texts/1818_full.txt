@@ -25,6 +25,10 @@ This plain text edition is one of two, representing the 1818 and 1831 editions o
 
 Our plain text edition preserves the rendering of italics, square brackets, and centered text from the PA EE HTML texts.
 
+We will be adding page breaks using the TEI self-closing milestone element. We will not be preserving the running headers but will retain page number in order to link to page images in future iterations of the text.
+
+To track pages from our source images we will be using the TEI self-closing milestone element with "unNum" as the marker.
+
 * In the PA EE there is no distinction between italics for titles and italics for emphasized words. Because the asterisk is used to signal footnotes in the text, we use the underscore (`_`) instead to mark off italicized text of any kind.
 
 * Square brackets (`[ ]`) are placed around text marked as small caps. (We have commented out the one instance in the 1831 PA EE HTML in which square brackets were used to hold a normalized variant of a word, to suppress that from the output.)
@@ -37,123 +41,246 @@ Note for later processing: In the PA EE of this text, there are 1337 encoded lin
 
 ********************************************************************************
 
-FRANKENSTEIN; OR, THE MODERN PROMETHEUS.
+%FRANKENSTEIN;%
+
+%[OR],%
+
+%THE MODERN PROMETHEUS.%
+
+<pb n="10001"/>
+
+[blank page]
+
+<pb n="10002"/>
+
+%FRANKENSTEIN;%
+
+%[OR],%
+
+%THE MODERN PROMETHEUS.%
 
 %IN THREE VOLUMES%
 
-%
+%Did I request thee, Maker, from my clay%
 
-Did I request thee, Maker, from my clay
+%To mould me man? Did I solicit thee%
 
-To mould me man? Did I solicit thee
+%From darkness to promote me?-—% 
 
-From darkness to promote me?— PARADISE LOST. %
+P[ARADISE] L[OST].
 
-VOL. I.
+%VOL. I.%
 
-%_London:
+%_London:_%
 
-PRINTED FOR_
+%_PRINTED FOR_%
 
-LACKINGTON, HUGHES, HARDING, MAVOR, & JONES,
+%LACKINGTON, HUGHES, HARDING, MAVOR, & JONES,
 
-FINSBURY SQUARE.%
+%FINSBURY SQUARE.%
 
 %1818.%
 
-TO
+<pb n="10003"/>
 
-WILLIAM GODWIN, _AUTHOR OF POLITICAL JUSTICE, CALEB WILLIAMS, &C._
+%_Printed by Macdonald and Son, Cloth Fair, London_%
 
-THESE VOLUMES
+<pb n="10004"/>
+
+%TO%
+
+%WILLIAM GODWIN,%
+
+%_AUTHOR OF POLITICAL JUSTICE, CALEB WILLIAMS, &C._%
+
+%THESE VOLUMES%
 
 _Are respectfully inscribed_
 
-BY
+[BY]
 
-THE AUTHOR
+THE AUTHOR.
 
-PREFACE. 
+<pb n="10005"/>
 
-T[HE] event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely weaving a series of supernatural terrors. The event on which the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield.
+[blank page]
 
-I have thus endeavoured to preserve the truth of the elementary principles of human nature, while I have not scrupled to innovate upon their combinations. The _Iliad_, the tragic poetry of Greece, Shakespeare, in the _Tempest_ and _Midsummer Night’s Dream_ and most especially Milton, in _Paradise Lost_, conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry.
+<pb n="10006"/>
 
-The circumstance on which my story rests was suggested in casual conversation. It was commenced partly as a source of amusement, and partly as an expedient for exercising any untried resources of mind. Other motives were mingled with these as the work proceeded. I am by no means indifferent to the manner in which whatever moral tendencies exist in the sentiments or characters it contains shall affect the reader; yet my chief concern in this respect has been limited to the avoiding the enervating effects of the novels of the present day, and to the exhibition of the amiableness of domestic affection, and the excellence of universal virtue. The opinions which naturally spring from the character and situation of the hero are by no means to be conceived as existing always in my own conviction; nor is any inference justly to be drawn from the following pages as prejudicing any philosophical doctrine of whatever kind.
+%PREFACE.% 
 
-It is a subject also of additional interest to the author that this story was begun in the majestic region where the scene is principally laid, and in society which cannot cease to be regretted. I passed the summer of 1816 in the environs of Geneva. The season was cold and rainy, and in the evenings we crowded around a blazing wood fire, and occasionally amused ourselves with some German stories of ghosts, which happened to fall into our hands. These tales excited in us a playful desire of imitation. Two other friends (a tale from the pen of one of whom would be far more acceptable to the public than any thing I can ever hope to produce) and myself agreed to write each a story founded on some supernatural occurrence.
+T[HE] event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely weaving a series of supernatural terrors. The event on  
+
+<pb n="10007"/>
+
+which the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield.
+
+I have thus endeavoured to preserve the truth of the elementary principles of human nature, while I have not scrupled to innovate upon their combinations. The _Iliad_, the tragic poetry of Greece,-—Shakespeare, in the _Tempest_ and _Midsummer_  
+
+<pb n="10008"/>
+
+_Night’s Dream_-—and most especially Milton, in _Paradise Lost_, conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry.
+
+The circumstance on which my story rests was suggested in casual conversation. It was commenced partly as a source of amusement, and partly as an expedient for exercising any untried resources of mind. Other motives were mingled with these, as the work proceeded.
+
+<pb n="10009"/>
+
+I am by no means indifferent to the manner in which whatever moral tendencies exist in the sentiments or characters it contains shall affect the reader; yet my chief concern in this respect has been limited to the avoiding the enervating effects of the novels of the present day, and to the exhibition of the amiableness of domestic affection, and the excellence of universal virtue. The opinions which naturally spring from the character and situation of the hero are by no means to be conceived as existing always in my own conviction; nor is any inference justly to be drawn from the following pages as prejudicing any philosophical doctrine of whatever kind.
+
+<pb n="10010"/>
+
+It is a subject also of additional interest to the author, that this story was begun in the majestic region where the scene is principally laid, and in society which cannot cease to be regretted. I passed the summer of 1816 in the environs of Geneva. The season was cold and rainy, and in the evenings we crowded around a blazing wood fire, and occasionally amused ourselves with some German stories of ghosts, which happened to fall into our hands. These tales excited in us a playful desire of imitation. Two other friends (a tale from the pen of one of whom would be far more acceptable to the public than any thing I can ever hope to produce) and  
+
+<pb n="10011"/>
+
+myself agreed to write each a story, founded on some supernatural occurrence.
 
 The weather, however, suddenly became serene; and my two friends left me on a journey among the Alps, and lost, in the magnificent scenes which they present, all memory of their ghostly visions. The following tale is the only one which has been completed.
 
-FRANKENSTEIN;
+<pb n="10012"/>
 
-OR, THE
+%FRANKENSTEIN;%
 
-MODERN PROMETHEUS.
+%[OR, THE]%
 
-LETTER I
+%MODERN PROMETHEUS.%
 
-%_To Mrs. S[AVILLE], England._% St. Petersburgh, Dec. 11th, 17—.
+%LETTER I%
+
+%_To Mrs._ S[AVILLE], _England._% 
+
+St. Petersburgh, Dec. 11th, 17—.
 
 Y[OU] will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking.
 
-I am already far north of London; and as I walk in the streets of Petersburgh, I feel a cold northern breeze play upon my cheeks, which braces my nerves, and fills me with delight. Do you understand this feeling? This breeze, which has travelled from the regions towards which I am advancing, gives me a foretaste of those icy climes. Inspirited by this wind of promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that the pole is the seat of frost and desolation; it ever presents itself to my imagination as the region of beauty and delight. There, Margaret, the sun is for ever visible; its broad disk just skirting the horizon, and diffusing a perpetual splendour. There — for with your leave, my sister, I will put some trust in preceding navigators — there snow and frost are banished; and, sailing over a calm sea, we may be wafted to a land surpassing in wonders and in beauty every region hitherto discovered on the habitable globe. Its productions and features may be without example, as the phænomena of the heavenly bodies undoubtedly are in those undiscovered solitudes. What may not be expected in a country of eternal light? I may there discover the wondrous power which attracts the needle; and may regulate a thousand celestial observations, that require only this voyage to render their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity with the sight of a part of the world never before visited, and may tread a land never before imprinted by the foot of man. These are my enticements, and they are sufficient to conquer all fear of danger or death, and to induce me to commence this laborious voyage with the joy a child feels when he embarks in a little boat, with his holiday mates, on an expedition of discovery up his native river. But, supposing all these conjectures to be false, you cannot contest the inestimable benefit which I shall confer on all mankind to the last generation, by discovering a passage near the pole to those countries, to reach which at present so many months are requisite; or by ascertaining the secret of the magnet, which, if at all possible, can only be effected by an undertaking such as mine.
+I am already far north of London; and as I walk in the streets of Petersburgh, 
 
-These reflections have dispelled the agitation with which I began my letter, and I feel my heart glow with an enthusiasm which elevates me to heaven; for nothing contributes so much to tranquillize the mind as a steady purpose, — a point on which the soul may fix its intellectual eye. This expedition has been the favourite dream of my early years. I have read with ardour the accounts of the various voyages which have been made in the prospect of arriving at the North Pacific Ocean through the seas which surround the pole. You may remember that a history of all the voyages made for purposes of discovery composed the whole of our good uncle Thomas’s library. My education was neglected, yet I was passionately fond of reading. These volumes were my study day and night, and my familiarity with them increased that regret which I had felt, as a child, on learning that my father’s dying injunction had forbidden my uncle to allow me to embark in a sea-faring life.
+<pb n="10013"/>
 
-These visions faded when I perused, for the first time, those poets whose effusions entranced my soul, and lifted it to heaven. I also became a poet, and for one year lived in a Paradise of my own creation; I imagined that I also might obtain a niche in the temple where the names of Homer and Shakespeare are consecrated. You are well acquainted with my failure, and how heavily I bore the disappointment. But just at that time I inherited the fortune of my cousin, and my thoughts were turned into the channel of their earlier bent.
+I feel a cold northern breeze play upon my cheeks, which braces my nerves, and fills me with delight. Do you understand this feeling? This breeze, which has travelled from the regions towards which I am advancing, gives me a foretaste of those icy climes. Inspirited by this wind of promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that the pole is the seat of frost and desolation; it ever presents itself to my imagination as the region of beauty and delight. There, Margaret, the sun is for ever visible; its broad disk just skirting the horizon, and diffusing a perpetual splendour. There—for with your leave, my sister, I will put some trust in preceding navigators—there snow and frost are banished; and, sailing over a calm sea, we may be wafted to a land surpassing in wonders 
 
-Six years have passed since I resolved on my present undertaking. I can, even now, remember the hour from which I dedicated myself to this great enterprise. I commenced by inuring my body to hardship. I accompanied the whale-fishers on several expeditions to the North Sea; I voluntarily endured cold, famine, thirst, and want of sleep; I often worked harder than the common sailors during the day, and devoted my nights to the study of mathematics, the theory of medicine, and those branches of physical science from which a naval adventurer might derive the greatest practical advantage. Twice I actually hired myself as an under-mate in a Greenland whaler, and acquitted myself to admiration. I must own I felt a little proud, when my captain offered me the second dignity in the vessel, and entreated me to remain with the greatest earnestness; so valuable did he consider my services.
+<pb n="10014"/>
 
-And now, dear Margaret, do I not deserve to accomplish some great purpose? My life might have been passed in ease and luxury; but I preferred glory to every enticement that wealth placed in my path. Oh, that some encouraging voice would answer in the affirmative! My courage and my resolution is firm; but my hopes fluctuate, and my spirits are often depressed. I am about to proceed on a long and difficult voyage, the emergencies of which will demand all my fortitude: I am required not only to raise the spirits of others, but sometimes to sustain my own, when their’s are failing.
+and in beauty every region hitherto discovered on the habitable globe. Its productions and features may be without example, as the phænomena of the heavenly bodies undoubtedly are in those undiscovered solitudes. What may not be expected in a country of eternal light? I may there discover the wondrous power which attracts the needle; and may regulate a thousand celestial observations, that require only this voyage to render their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity with the sight of a part of the world never before visited, and may tread a land never before imprinted by the foot of man. These are my enticements, and they are sufficient to conquer all fear of danger or death, and to induce me to commence this laborious voyage with the joy a child feels when he embarks 
 
-This is the most favourable period for travelling in Russia. They fly quickly over the snow in their sledges; the motion is pleasant, and, in my opinion, far more agreeable than that of an English stage-coach. The cold is not excessive, if you are wrapped in furs, a dress which I have already adopted; for there is a great difference between walking the deck and remaining seated motionless for hours, when no exercise prevents the blood from actually freezing in your veins. I have no ambition to lose my life on the post-road between St. Petersburgh and Archangel.
+<pb n="10015"/>
+
+in a little boat, with his holiday mates, on an expedition of discovery up his native river. But, supposing all these conjectures to be false, you cannot contest the inestimable benefit which I shall confer on all mankind to the last generation, by discovering a passage near the pole to those countries, to reach which at present so many months are requisite; or by ascertaining the secret of the magnet, which, if at all possible, can only be effected by an undertaking such as mine.
+
+These reflections have dispelled the agitation with which I began my letter, and I feel my heart glow with an enthusiasm which elevates me to heaven; for nothing contributes so much to tranquillize the mind as a steady purpose,—a point on which the soul may fix its intellectual eye. This expedition has been the favourite dream of my 
+
+<pb n="10016"/>
+
+early years. I have read with ardour the accounts of the various voyages which have been made in the prospect of arriving at the North Pacific Ocean through the seas which surround the pole. You may remember, that a history of all the voyages made for purposes of discovery composed the whole of our good uncle Thomas’s library. My education was neglected, yet I was passionately fond of reading. These volumes were my study day and night, and my familiarity with them increased that regret which I had felt, as a child, on learning that my father’s dying injunction had forbidden my uncle to allow me to embark in a sea-faring life.
+
+These visions faded when I perused, for the first time, those poets whose effusions entranced my soul, and lifted it to heaven. I also became a poet, 
+
+<pb n="10017"/>
+
+and for one year lived in a Paradise of my own creation; I imagined that I also might obtain a niche in the temple where the names of Homer and Shakespeare are consecrated. You are well acquainted with my failure, and how heavily I bore the disappointment. But just at that time I inherited the fortune of my cousin, and my thoughts were turned into the channel of their earlier bent.
+
+Six years have passed since I resolved on my present undertaking. I can, even now, remember the hour from which I dedicated myself to this great enterprise. I commenced by inuring my body to hardship. I accompanied the whale-fishers on several expeditions to the North Sea; I voluntarily endured cold, famine, thirst, and want of sleep; I often worked harder than the common sailors during the day, and devoted my 
+
+<pb n="10018"/>
+
+nights to the study of mathematics, the theory of medicine, and those branches of physical science from which a naval adventurer might derive the greatest practical advantage. Twice I actually hired myself as an under-mate in a Greenland whaler, and acquitted myself to admiration. I must own I felt a little proud, when my captain offered me the second dignity in the vessel, and entreated me to remain with the greatest earnestness; so valuable did he consider my services.
+
+And now, dear Margaret, do I not deserve to accomplish some great purpose? My life might have been passed in ease and luxury; but I preferred glory to every enticement that wealth placed in my path. Oh, that some encouraging voice would answer in the affirmative! My courage and my resolution is firm; but my hopes fluctuate, 
+
+<pb n="10019"/>
+
+and my spirits are often depressed. I am about to proceed on a long and difficult voyage; the emergencies of which will demand all my fortitude: I am required not only to raise the spirits of others, but sometimes to sustain my own, when their’s are failing.
+
+This is the most favourable period for travelling in Russia. They fly quickly over the snow in their sledges; the motion is pleasant, and, in my opinion, far more agreeable than that of an English stage-coach. The cold is not excessive, if you are wrapt in furs, a dress which I have already adopted; for there is a great difference between walking the deck and remaining seated motionless for hours, when no exercise prevents the blood from actually freezing in your veins. I have no ambition to lose my life on the post-road between St. Petersburgh and Archangel.
+
+<pb n="10020"/>
 
 I shall depart for the latter town in a fortnight or three weeks; and my intention is to hire a ship there, which can easily be done by paying the insurance for the owner, and to engage as many sailors as I think necessary among those who are accustomed to the whale-fishing. I do not intend to sail until the month of June: and when shall I return? Ah, dear sister, how can I answer this question? If I succeed, many, many months, perhaps years, will pass before you and I may meet. If I fail, you will see me again soon, or never.
 
-Farewell, my dear, excellent Margaret. Heaven shower down blessings on you, and save me, that I may again and again testify my gratitude for all your love and kindness.
+Farewell, my dear, excellent, Margaret. Heaven shower down blessings on you, and save me, that I may again and again testify my gratitude for all your love and kindness.
 
 Your affectionate brother,
 
 R. W[ALTON].
 
-LETTER II.
+<pb n="10021"/>
 
-%_To Mrs. S[AVILLE], England._%
+%LETTER II.%
+
+%_To Mrs._ S[AVILLE], _England._%
 
 Archangel, 28th March, 17—.
 
-How slowly the time passes here, encompassed as I am by frost and snow! yet a second step is taken towards my enterprise. I have hired a vessel, and am occupied in collecting my sailors; those whom I have already engaged appear to be men on whom I can depend, and are certainly possessed of dauntless courage.
+How slowly the time passes here, encompassed as I am by frost and snow; yet a second step is taken towards my enterprise. I have hired a vessel, and am occupied in collecting my sailors; those whom I have already engaged appear to be men on whom I can depend, and are certainly possessed of dauntless courage.
 
-But I have one want which I have never yet been able to satisfy; and the absence of the object of which I now feel as a most severe evil. I have no friend, Margaret: when I am glowing with the enthusiasm of success, there will be none to participate my joy; if I am assailed by disappointment, no one will endeavour to sustain me in dejection. I shall commit my thoughts to paper, it is true; but that is a poor medium for the communication of feeling. I desire the company of a man who could sympathize with me; whose eyes would reply to mine. You may deem me romantic, my dear sister, but I bitterly feel the want of a friend. I have no one near me, gentle yet courageous, possessed of a cultivated as well as of a capacious mind, whose tastes are like my own, to approve or amend my plans. How would such a friend repair the faults of your poor brother! I am too ardent in execution, and too impatient of difficulties. But it is a still greater evil to me that I am self-educated: for the first fourteen years of my life I ran wild on a common, and read nothing but our uncle Thomas’s books of voyages. At that age I became acquainted with the celebrated poets of our own country; but it was only when it had ceased to be in my power to derive its most important benefits from such a conviction, that I perceived the necessity of becoming acquainted with more languages than that of my native country. Now I am twenty-eight, and am in reality more illiterate than many school-boys of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) _keeping_; and I greatly need a friend who would have sense enough not to despise me as romantic, and affection enough for me to endeavour to regulate my mind.
+But I have one want which I have never yet been able to satisfy; and the absence of the object of which I 
+
+<pb n="10022"/>
+
+now feel as a most severe evil. I have no friend, Margaret: when I am glowing with the enthusiasm of success, there will be none to participate my joy; if I am assailed by disappointment, no one will endeavour to sustain me in dejection. I shall commit my thoughts to paper, it is true; but that is a poor medium for the communication of feeling. I desire the company of a man who could sympathize with me; whose eyes would reply to mine. You may deem me romantic, my dear sister, but I bitterly feel the want of a friend. I have no one near me, gentle yet courageous, possessed of a cultivated as well as of a capacious mind, whose tastes are like my own, to approve or amend my plans. How would such a friend repair the faults of your poor brother! I am too ardent in execution, and too impatient of difficulties.
+
+<pb n="10023"/>
+
+ But it is a still greater evil to me that I am self-educated: for the first fourteen years of my life I ran wild on a common, and read nothing but our uncle Thomas’s books of voyages. At that age I became acquainted with the celebrated poets of our own country; but it was only when it had ceased to be in my power to derive its most important benefits from such a conviction, that I perceived the necessity of becoming acquainted with more languages than that of my native country. Now I am twenty-eight, and am in reality more illiterate than many school-boys of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) _keeping_; and I greatly need a friend who would have sense enough not to despise me as romantic, and affection 
+ 
+<pb n="10024"/>
+ 
+enough for me to endeavour to regulate my mind.
 
 Well, these are useless complaints; I shall certainly find no friend on the wide ocean, nor even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the dross of human nature, beat even in these rugged bosoms. My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous of glory. He is an Englishman, and in the midst of national and professional prejudices, unsoftened by cultivation, retains some of the noblest endowments of humanity. I first became acquainted with him on board a whale vessel: finding that he was unemployed in this city, I easily engaged him to assist in my enterprise.
 
-The master is a person of an excellent disposition, and is remarkable in the ship for his gentleness, and the mildness of his discipline. He is, indeed, of so amiable a nature, that he will not hunt (a favourite, and almost the only amusement here), because he cannot endure to spill blood. He is, moreover, heroically generous. Some years ago he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match. He saw his mistress once before the destined ceremony; but she was bathed in tears, and, throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union. My generous friend reassured the suppliant, and on being informed of the name of her lover instantly abandoned his pursuit. He had already bought a farm with his money, on which he had designed to pass the remainder of his life; but he bestowed the whole on his rival, together with the remains of his prize-money to purchase stock, and then himself solicited the young woman’s father to consent to her marriage with her lover. But the old man decidedly refused, thinking himself bound in honour to my friend; who, when he found the father inexorable, quitted his country, nor returned until he heard that his former mistress was married according to her inclinations. “What a noble fellow!” you will exclaim. He is so; but then he has passed all his life on board a vessel, and has scarcely an idea beyond the rope and the shroud.
+The master is a person of an excellent disposition, and is remarkable in 
 
-But do not suppose that, because I complain a little, or because I can conceive a consolation for my toils which I may never know, that I am wavering in my resolutions. Those are as fixed as fate; and my voyage is only now delayed until the weather shall permit my embarkation. The winter has been dreadfully severe; but the spring promises well, and it is considered as a remarkably early season; so that, perhaps, I may sail sooner than I expected. I shall do nothing rashly; you know me sufficiently to confide in my prudence and considerateness whenever the safety of others is committed to my care.
+<pb n="10025"/>
 
-I cannot describe to you my sensations on the near prospect of my undertaking. It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart. I am going to unexplored regions, to “the land of mist and snow;” but I shall kill no albatross, therefore do not be alarmed for my safety.
+the ship for his gentleness, and the mildness of his discipline. He is, indeed, of so amiable a nature, that he will not hunt (a favourite, and almost the only amusement here), because he cannot endure to spill blood. He is, moreover, heroically generous. Some years ago he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match. He saw his mistress once before the destined ceremony; but she was bathed in tears, and, throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union. My generous friend reassured the suppliant, and on being informed of the name of her lover instantly abandoned his pursuit. He had 
+ 
+<pb n="10026"/>
 
-Shall I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue to write to me by every opportunity; I may receive your letters (though the chance is very doubtful) on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.
+ 
+already bought a farm with his money, on which he had designed to pass the remainder of his life; but he bestowed the whole on his rival, together with the remains of his prize-money to purchase stock, and then himself solicited the young woman’s father to consent to her marriage with her lover. But the old man decidedly refused, thinking himself bound in honour to my friend; who, when he found the father inexorable, quitted his country, nor returned until he heard that his former mistress was married according to her inclinations. “What a noble fellow!” you will exclaim. He is so; but then he has passed all his life on board a vessel, and has scarcely an idea beyond the rope and the shroud.
+
+But do not suppose that, because I complain a little, or because I can conceive a consolation for my toils which I 
+
+<pb n="10027"/>
+
+may never know, that I am wavering in my resolutions. Those are as fixed as fate; and my voyage is only now delayed until the weather shall permit my embarkation. The winter has been dreadfully severe; but the spring promises well, and it is considered as a remarkably early season; so that, perhaps, I may sail sooner than I expected. I shall do nothing rashly; you know me sufficiently to confide in my prudence and considerateness whenever the safety of others is committed to my care.
+
+I cannot describe to you my sensations on the near prospect of my undertaking. It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart. I am going to unexplored regions, to “the land of mist and 
+
+<pb n="10028"/>
+
+snow;” but I shall kill no albatross, therefore do not be alarmed for my safety.
+
+Shall I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue to write to me by every opportunity: I may receive your letters (though the chance is very doubtful) on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.
 
 Your affectionate brother,
 
 R[OBERT] W[ALTON].
 
-LETTER III.
+<pb n="10029"/>
 
-%_To Mrs. S[AVILLE], England._%
+%LETTER III.%
+
+%_To Mrs._ S[AVILLE], _England._%
 
 July 7th, 17—.
 
 [MY DEAR SISTER],
 
-I [WRITE] a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a merchant-man now on its homeward voyage from Archangel; more fortunate than I, who may not see my native land, perhaps, for many years. I am, however, in good spirits: my men are bold, and apparently firm of purpose; nor do the floating sheets of ice that continually pass us, indicating the dangers of the region towards which we are advancing, appear to dismay them. We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not expected.
+I [WRITE] a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a merchant-man now on its homeward voyage from Archangel; more fortunate than I, who may not see my native land, perhaps, for many years. I am, however, in good spirits: my men are bold, and apparently firm of purpose; nor do the floating sheets of ice that continually pass us, indicating 
 
-No incidents have hitherto befallen us that would make a figure in a letter. One or two stiff gales, and the breaking of a mast, are accidents which experienced navigators scarcely remember to record; and I shall be well content, if nothing worse happen to us during our voyage.
+<pb n="10030"/>
 
-Adieu, my dear Margaret. Be assured, that for my own sake, as well as your’s, I will not rashly encounter danger. I will be cool, persevering, and prudent.
+the dangers of the region towards which we are advancing, appear to dismay them. We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not expected.
+
+No incidents have hitherto befallen us, that would make a figure in a letter. One or two stiff gales, and the breaking of a mast, are accidents which experienced navigators scarcely remember to record; and I shall be well content, if nothing worse happen to us during our voyage.
+
+Adieu, my dear Margaret. Be assured, that for my own sake, as well as your’s, I will not rashly encounter danger. 
+
+<pb n="10031"/>
+
+I will be cool, persevering, and prudent.
 
 Remember me to all my English friends.
 
@@ -161,35 +288,63 @@ Most affectionately yours,
 
 R.W.
 
-LETTER IV
+<pb n="10032"/>
 
-%_To Mrs. S[AVILLE], England._%
+%LETTER IV.%
+
+%_To Mrs._ S[AVILLE], _England._%
 
 August 5th, 17—.
 
 So strange an accident has happened to us, that I cannot forbear recording it, although it is very probable that you will see me before these papers can come into your possession.
 
-Last Monday (July 31st), we were nearly surrounded by ice, which closed in the ship on all sides, scarcely leaving her the searoom in which she floated. Our situation was somewhat dangerous, especially as we were compassed round by a very thick fog. We accordingly lay to, hoping that some change would take place in the atmosphere and weather.
+Last Monday (July 31st), we were nearly surrounded by ice, which closed in the ship on all sides, scarcely leaving her the sea room in which she floated. Our situation was somewhat dangerous, especially as we were compassed round by a very thick fog. We accordingly lay to, hoping that some 
+
+<pb n="10033"/>
+
+change would take place in the atmosphere and weather.
 
 About two o’clock the mist cleared away, and we beheld, stretched out in every direction, vast and irregular plains of ice, which seemed to have no end. Some of my comrades groaned, and my own mind began to grow watchful with anxious thoughts, when a strange sight suddenly attracted our attention, and diverted our solicitude from our own situation. We perceived a low carriage, fixed on a sledge and drawn by dogs, pass on towards the north, at the distance of half a mile: a being which had the shape of a man, but apparently of gigantic stature, sat in the sledge, and guided the dogs. We watched the rapid progress of the traveller with our telescopes, until he was lost among the distant inequalities of the ice.
+
+<pb n="10034"/>
 
 This appearance excited our unqualified wonder. We were, as we believed, many hundred miles from any land; but this apparition seemed to denote that it was not, in reality, so distant as we had supposed. Shut in, however, by ice, it was impossible to follow his track, which we had observed with the greatest attention.
 
 About two hours after this occurrence, we heard the ground sea; and before night the ice broke, and freed our ship. We, however, lay to until the morning, fearing to encounter in the dark those large loose masses which float about after the breaking up of the ice. I profited of this time to rest for a few hours.
 
-In the morning, however, as soon as it was light, I went upon the deck, and found all the sailors busy on one side of the vessel, apparently talking to some one in the sea. It was, in fact, a sledge, like that we had seen before, which had drifted towards us in the night, on a large fragment of ice. Only one dog remained alive; but there was a human being within it, whom the sailors were persuading to enter the vessel. He was not, as the other traveller seemed to be, a savage inhabitant of some undiscovered island, but an European. When I appeared on deck, the master said, “Here is our captain, and he will not allow you to perish on the open sea.”
+In the morning, however, as soon as it was light, I went upon the deck, and found all the sailors busy on one side 
+
+<pb n="10035"/>
+
+of the vessel, apparently talking to some one in the sea. It was, in fact, a sledge, like that we had seen before, which had drifted towards us in the night, on a large fragment of ice. Only one dog remained alive; but there was a human being within it, whom the sailors were persuading to enter the vessel. He was not, as the other traveller seemed to be, a savage inhabitant of some undiscovered island, but an European. When I appeared on deck, the master said, “Here is our captain, and he will not allow you to perish on the open sea.”
 
 On perceiving me, the stranger addressed me in English, although with a foreign accent. “Before I come on board your vessel,” said he, “will you have the kindness to inform me whither you are bound?”
 
-You may conceive my astonishment on hearing such a question addressed to me from a man on the brink of destruction, and to whom I should have supposed that my vessel would have been a resource which he would not have exchanged for the most precious wealth the earth can afford. I replied, however, that we were on a voyage of discovery towards the northern pole.
+You may conceive my astonishment 
 
-Upon hearing this he appeared satisfied, and consented to come on board. Good God! Margaret, if you had seen the man who thus capitulated for his safety, your surprise would have been boundless. His limbs were nearly frozen, and his body dreadfully emaciated by fatigue and suffering. I never saw a man in so wretched a condition. We attempted to carry him into the cabin; but as soon as he had quitted the fresh air, he fainted. We accordingly brought him back to the deck, and restored him to animation by rubbing him with brandy, and forcing him to swallow a small quantity. As soon as he shewed signs of life, we wrapped him up in blankets, and placed him near the chimney of the kitchen-stove. By slow degrees he recovered, and ate a little soup, which restored him wonderfully.
+<pb n="10036"/>
 
-Two days passed in this manner before he was able to speak; and I often feared that his sufferings had deprived him of understanding. When he had in some measure recovered, I removed him to my own cabin, and attended on him as much as my duty would permit. I never saw a more interesting creature: his eyes have generally an expression of wildness, and even madness; but there are moments when, if any-one performs an act of kindness towards him, or does him any the most trifling service, his whole countenance is lighted up, as it were, with a beam of benevolence and sweetness that I never saw equalled. But he is generally melancholy and despairing; and sometimes he gnashes his teeth, as if impatient of the weight of woes that oppresses him.
+on hearing such a question addressed to me from a man on the brink of destruction, and to whom I should have supposed that my vessel would have been a resource which he would not have exchanged for the most precious wealth the earth can afford. I replied, however, that we were on a voyage of discovery towards the northern pole.
+
+Upon hearing this he appeared satisfied, and consented to come on board. Good God! Margaret, if you had seen the man who thus capitulated for his safety, your surprise would have been boundless. His limbs were nearly frozen, and his body dreadfully emaciated by fatigue and suffering. I never saw a man in so wretched a condition. We attempted to carry him into the cabin; but as soon as he had quitted the fresh air, he fainted. We accordingly 
+
+<pb n="10037"/>
+
+brought him back to the deck, and restored him to animation by rubbing him with brandy, and forcing him to swallow a small quantity. As soon as he shewed signs of life, we wrapped him up in blankets, and placed him near the chimney of the kitchen-stove. By slow degrees he recovered, and ate a little soup, which restored him wonderfully.
+
+Two days passed in this manner before he was able to speak; and I often feared that his sufferings had deprived him of understanding. When he had in some measure recovered, I removed him to my own cabin, and attended on him as much as my duty would permit. I never saw a more interesting creature: his eyes have generally an expression of wildness, and even madness; but there are moments when, if any one performs an act of kindness 
+
+<pb n="10038"/>
+
+towards him, or does him any the most trifling service, his whole countenance is lighted up, as it were, with a beam of benevolence and sweetness that I never saw equalled. But he is generally melancholy and despairing; and sometimes he gnashes his teeth, as if impatient of the weight of woes that oppresses him.
 
 When my guest was a little recovered, I had great trouble to keep off the men, who wished to ask him a thousand questions; but I would not allow him to be tormented by their idle curiosity, in a state of body and mind whose restoration evidently depended upon entire repose. Once, however, the lieutenant asked, Why he had come so far upon the ice in so strange a vehicle?
 
-His countenance instantly assumed an aspect of the deepest gloom; and he replied, “To seek one who fled from me.”
+His countenance instantly assumed an aspect of the deepest gloom; and he 
+
+<pb n="10039"/>
+
+replied, “To seek one who fled from me.”
 
 “And did the man whom you pursued travel in the same fashion?”
 
@@ -201,15 +356,23 @@ This aroused the stranger’s attention; and he asked a multitude of questions c
 
 “Certainly; it would indeed be very impertinent and inhuman in me to trouble you with any inquisitiveness of mine.”
 
+<pb n="10040"/>
+
 “And yet you rescued me from a strange and perilous situation; you have benevolently restored me to life.”
 
 Soon after this he inquired, if I thought that the breaking up of the ice had destroyed the other sledge? I replied, that I could not answer with any degree of certainty; for the ice had not broken until near midnight, and the traveller might have arrived at a place of safety before that time; but of this I could not judge.
 
 From this time the stranger seemed very eager to be upon deck, to watch for the sledge which had before appeared; but I have persuaded him to remain in the cabin, for he is far too weak to sustain the rawness of the atmosphere. But I have promised that some one should watch for him, and give him instant notice if any new object should appear in sight.
 
+<pb n="10041"/>
+
 Such is my journal of what relates to this strange occurrence up to the present day. The stranger has gradually improved in health, but is very silent, and appears uneasy when any one except myself enters his cabin. Yet his manners are so conciliating and gentle, that the sailors are all interested in him, although they have had very little communication with him. For my own part, I begin to love him as a brother; and his constant and deep grief fills me with sympathy and compassion. He must have been a noble creature in his better days, being even now in wreck so attractive and amiable.
 
-I said in one of my letters, my dear Margaret, that I should find no friend on the wide ocean; yet I have found a man who, before his spirit had been broken by misery, I should have been happy to have possessed as the brother of my heart.
+I said in one of my letters, my dear Margaret, that I should find no friend on the wide ocean; yet I have found a man who, before his spirit had been broken by misery, I should have been 
+
+<pb n="10042"/>
+
+happy to have possessed as the brother of my heart.
 
 I shall continue my journal concerning the stranger at intervals, should I have any fresh incidents to record.
 
@@ -217,141 +380,359 @@ August 13th, 17—.
 
 My affection for my guest increases every day. He excites at once my admiration and my pity to an astonishing degree. How can I see so noble a creature destroyed by misery without feeling the most poignant grief? He is so gentle, yet so wise; his mind is so cultivated; and when he speaks, although his words are culled with the choicest art, yet they flow with rapidity and unparalleled eloquence.
 
-He is now much recovered from his illness, and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although unhappy, he is not so utterly occupied by his own misery, but that he interests himself deeply in the employments of others. He has asked me many questions concerning my design; and I have related my little history frankly to him. He appeared pleased with the confidence, and suggested several alterations in my plan, which I shall find exceedingly useful. There is no pedantry in his manner; but all he does appears to spring solely from the interest he instinctively takes in the welfare of those who surround him. He is often overcome by gloom, and then he sits by himself, and tries to overcome all that is sullen or unsocial in his humour. These paroxysms pass from him like a cloud from before the sun, though his dejection never leaves him. I have endeavoured to win his confidence; and I trust that I have succeeded. One day I mentioned to him the desire I had always felt of finding a friend who might sympathize with me, and direct me by his counsel. I said, I did not belong to that class of men who are offended by advice. “I am self-educated, and perhaps I hardly rely sufficiently upon my own powers. I wish therefore that my companion should be wiser and more experienced than myself, to confirm and support me; nor have I believed it impossible to find a true friend.”
+He is now much recovered from his illness, and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although unhappy, 
 
-“I agree with you,” replied the stranger, “in believing that friendship is not only a desirable, but a possible acquisition. I once had a friend, the most noble of human creatures, and am entitled, therefore, to judge respecting friendship. You have hope, and the world before you, and have no cause for despair. But I — I have lost every thing, and cannot begin life anew.”
+<pb n="10043"/>
+
+he is not so utterly occupied by his own misery, but that he interests himself deeply in the employments of others. He has asked me many questions concerning my design; and I have related my little history frankly to him. He appeared pleased with the confidence, and suggested several alterations in my plan, which I shall find exceedingly useful. There is no pedantry in his manner; but all he does appears to spring solely from the interest he instinctively takes in the welfare of those who surround him. He is often overcome by gloom, and then he sits by himself, and tries to overcome all that is sullen or unsocial in his humour. These paroxysms pass from him like a cloud from before the sun, though his dejection never leaves him. I have endeavoured to win his confidence; and I trust that I have succeeded. 
+
+<pb n="10044"/>
+
+One day I mentioned to him the desire I had always felt of finding a friend who might sympathize with me, and direct me by his counsel. I said, I did not belong to that class of men who are offended by advice. “I am self-educated, and perhaps I hardly rely sufficiently upon my own powers. I wish therefore that my companion should be wiser and more experienced than myself, to confirm and support me; nor have I believed it impossible to find a true friend.”
+
+“I agree with you,” replied the stranger, “in believing that friendship is not only a desirable, but a possible acquisition. I once had a friend, the most noble of human creatures, and am entitled, therefore, to judge respecting friendship. You have hope, and the world before you, and have no cause for despair. But I—I have lost 
+
+<pb n="10045"/>
+
+every thing, and cannot begin life anew.”
 
 As he said this, his countenance became expressive of a calm settled grief, that touched me to the heart. But he was silent, and presently retired to his cabin.
 
 Even broken in spirit as he is, no one can feel more deeply than he does the beauties of nature. The starry sky, the sea, and every sight afforded by these wonderful regions, seems still to have the power of elevating his soul from earth. Such a man has a double existence: he may suffer misery, and be overwhelmed by disappointments; yet when he has retired into himself, he will be like a celestial spirit, that has a halo around him, within whose circle no grief or folly ventures.
 
-Will you laugh at the enthusiasm I express concerning this divine wanderer? If you do, you must have certainly lost that simplicity which was once your characteristic charm. Yet, if you will, smile at the warmth of my expressions, while I find every day new causes for repeating them.
+Will you laugh at the enthusiasm I express concerning this divine wanderer? 
+
+<pb n="10046"/>
+
+If you do, you must have certainly lost that simplicity which was once your characteristic charm. Yet, if you will, smile at the warmth of my expressions, while I find every day new causes for repeating them.
 
 August 19th, 17—.
 
-Yesterday the stranger said to me, “You may easily perceive, Captain Walton, that I have suffered great and unparalleled misfortunes. I had determined, once, that the memory of these evils should die with me; but you have won me to alter my determination. You seek for knowledge and wisdom, as I once did; and I ardently hope that the gratification of your wishes may not be a serpent to sting you, as mine has been. I do not know that the relation of my misfortunes will be useful to you, yet, if you are inclined, listen to my tale. I believe that the strange incidents connected with it will afford a view of nature, which may enlarge your faculties and understanding. You will hear of powers and occurrences, such as you have been accustomed to believe impossible: but I do not doubt that my tale conveys in its series internal evidence of the truth of the events of which it is composed.”
+Yesterday the stranger said to me, “You may easily perceive, Captain Walton, that I have suffered great and unparalleled misfortunes. I had determined, once, that the memory of these evils should die with me; but you have won me to alter my determination. You seek for knowledge and wisdom, as I once did; and I ardently hope that the gratification of your wishes may not be a serpent to sting you, as mine has been. I do not know that the relation of my misfortunes will be useful to you, yet, if you are inclined, 
+
+<pb n="10047"/>
+
+listen to my tale. I believe that the strange incidents connected with it will afford a view of nature, which may enlarge your faculties and understanding. You will hear of powers and occurrences, such as you have been accustomed to believe impossible: but I do not doubt that my tale conveys in its series internal evidence of the truth of the events of which it is composed.”
 
 You may easily conceive that I was much gratified by the offered communication; yet I could not endure that he should renew his grief by a recital of his misfortunes. I felt the greatest eagerness to hear the promised narrative, partly from curiosity, and partly from a strong desire to ameliorate his fate, if it were in my power. I expressed these feelings in my answer.
 
-“I thank you,” he replied, “for your sympathy, but it is useless; my fate is nearly fulfilled. I wait but for one event, and then I shall repose in peace. I understand your feeling,” continued he, perceiving that I wished to interrupt him; “but you are mistaken, my friend, if thus you will allow me to name you; nothing can alter my destiny: listen to my history, and you will perceive how irrevocably it is determined.”
+“I thank you,” he replied, “for 
 
-He then told me, that he would commence his narrative the next day when I should be at leisure. This promise drew from me the warmest thanks. I have resolved every night, when I am not engaged, to record, as nearly as possible in his own words, what he has related during the day. If I should be engaged, I will at least make notes. This manuscript will doubtless afford you the greatest pleasure: but to me, who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future day!
+<pb n="10048"/>
 
-_FRANKENSTEIN;_ 
+your sympathy, but it is useless; my fate is nearly fulfilled. I wait but for one event, and then I shall repose in peace. I understand your feeling,” continued he, perceiving that I wished to interrupt him; “but you are mistaken, my friend, if thus you will allow me to name you; nothing can alter my destiny: listen to my history, and you will perceive how irrevocably it is determined.” <!--rm: this close quote is not in the page image -->
 
-_OR, THE MODERN PROMETHEUS._ 
+He then told me, that he would commence his narrative the next day when I should be at leisure. This promise drew from me the warmest thanks. I have resolved every night, when I am not engaged, to record, as nearly as possible in his own words, what he has related during the day. If I should be engaged, I will at least make notes. This manuscript will doubtless afford you the greatest pleasure: but to me, 
 
-CHAPTER I.
+<pb n="10049"/>
 
- I [AM] by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew him for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of his country; and it was not until the decline of life that he thought of marrying, and bestowing on the state sons who might carry his virtues and his name down to posterity.
+who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future day!
 
-As the circumstances of his marriage illustrate his character, I cannot refrain from relating them. One of his most intimate friends was a merchant, who, from a flourishing state, fell, through numerous mischances, into poverty. This man, whose name was Beaufort, was of a proud and unbending disposition, and could not bear to live in poverty and oblivion in the same country where he had formerly been distinguished for his rank and magnificence. Having paid his debts, therefore, in the most honourable manner, he retreated with his daughter to the town of Lucerne, where he lived unknown and in wretchedness. My father loved Beaufort with the truest friendship, and was deeply grieved by his retreat in these unfortunate circumstances. He grieved also for the loss of his society, and resolved to seek him out and endeavour to persuade him to begin the world again through his credit and assistance.
+<pb n="10050"/>
 
-Beaufort had taken effectual measures to conceal himself; and it was ten months before my father discovered his abode. Overjoyed at this discovery, he hastened to the house, which was situated in a mean street, near the Reuss. But when he entered, misery and despair alone welcomed him. Beaufort had saved but a very small sum of money from the wreck of his fortunes; but it was sufficient to provide him with sustenance for some months, and in the meantime he hoped to procure some respectable employment in a merchant’s house. The interval was consequently spent in inaction; his grief only became more deep and rankling, when he had leisure for reflection; and at length it took so fast hold of his mind, that at the end of three months he lay on a bed of sickness, incapable of any exertion.
+%_FRANKENSTEIN;_% 
+
+%_[OR],_% 
+
+%_THE MODERN PROMETHEUS._% 
+
+%CHAPTER I.%
+
+ I [AM] by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew him for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of 
+ 
+<pb n="10051"/>
+ 
+his country; and it was not until the decline of life that he thought of marrying, and bestowing on the state sons who might carry his virtues and his name down to posterity.
+
+As the circumstances of his marriage illustrate his character, I cannot refrain from relating them. One of his most intimate friends was a merchant, who, from a flourishing state, fell, through numerous mischances, into poverty. This man, whose name was Beaufort, was of a proud and unbending disposition, and could not bear to live in poverty and oblivion in the same country where he had formerly been distinguished for his rank and magnificence. Having paid his debts, therefore, in the most honourable manner, he retreated with his daughter to the town of Lucerne, where he lived unknown and in wretchedness. My father loved Beaufort 
+
+<pb n="10052"/>
+
+with the truest friendship, and was deeply grieved by his retreat in these unfortunate circumstances. He grieved also for the loss of his society, and resolved to seek him out and endeavour to persuade him to begin the world again through his credit and assistance.
+
+Beaufort had taken effectual measures to conceal himself; and it was ten months before my father discovered his abode. Overjoyed at this discovery, he hastened to the house, which was situated in a mean street, near the Reuss. But when he entered, misery and despair alone welcomed him. Beaufort had saved but a very small sum of money from the wreck of his fortunes; but it was sufficient to provide him with sustenance for some months, and in the mean time he hoped to procure some respectable employment in a merchant’s 
+
+<pb n="10053"/>
+
+house. The interval was consequently spent in inaction; his grief only became more deep and rankling, when he had leisure for reflection; and at length it took so fast hold of his mind, that at the end of three months he lay on a bed of sickness, incapable of any exertion.
 
 His daughter attended him with the greatest tenderness; but she saw with despair that their little fund was rapidly decreasing, and that there was no other prospect of support. But Caroline Beaufort possessed a mind of an uncommon mould; and her courage rose to support her in her adversity. She procured plain work; she plaited straw; and by various means contrived to earn a pittance scarcely sufficient to support life.
 
-Several months passed in this manner. Her father grew worse; her time was more entirely occupied in attending him; her means of subsistence decreased; and in the tenth month her father died in her arms, leaving her an orphan and a beggar. This last blow overcame her; and she knelt by Beaufort’s coffin, weeping bitterly, when my father entered the chamber. He came like a protecting spirit to the poor girl, who committed herself to his care, and after the interment of his friend he conducted her to Geneva, and placed her under the protection of a relation. Two years after this event Caroline became his wife.
+Several months passed in this manner. Her father grew worse; her time 
 
-When my father became a husband and a parent, he found his time so occupied by the duties of his new situation, that he relinquished many of his public employments, and devoted himself to the education of his children. Of these I was the eldest, and the destined successor to all his labours and utility. No creature could have more tender parents than mine. My improvement and health were their constant care, especially as I remained for several years their only child. But before I continue my narrative, I must record an incident which took place when I was four years of age.
+<pb n="10054"/>
 
-My father had a sister, whom he tenderly loved, and who had married early in life an Italian gentleman. Soon after her marriage, she had accompanied her husband into his native country, and for some years my father had very little communication with her. About the time I mentioned she died; and a few months afterwards he received a letter from her husband, acquainting him with his intention of marrying an Italian lady, and requesting my father to take charge of the infant Elizabeth, the only child of his deceased sister. “It is my wish,” he said, “that you should consider her as your own daughter, and educate her thus. Her mother’s fortune is secured to her, the documents of which I will commit to your keeping. Reflect upon this proposition; and decide whether you would prefer educating your niece yourself to her being brought up by a stepmother.”
+was more entirely occupied in attending him; her means of subsistence decreased; and in the tenth month her father died in her arms, leaving her an orphan and a beggar. This last blow overcame her; and she knelt by Beaufort’s coffin, weeping bitterly, when my father entered the chamber. He came like a protecting spirit to the poor girl, who committed herself to his care, and after the interment of his friend he conducted her to Geneva, and placed her under the protection of a relation. Two years after this event Caroline became his wife.
 
-My father did not hesitate, and immediately went to Italy, that he might accompany the little Elizabeth to her future home. I have often heard my mother say, that she was at that time the most beautiful child she had ever seen, and shewed signs even then of a gentle and affectionate disposition. These indications, and a desire to bind as closely as possible the ties of domestic love, determined my mother to consider Elizabeth as my future wife; a design which she never found reason to repent.
+When my father became a husband and a parent, he found his time so occupied by the duties of his new situation, that he relinquished many of his public employments, and devoted himself to the education of his children. Of these I was the eldest, and the destined successor 
 
-From this time Elizabeth Lavenza became my playfellow, and, as we grew older, my friend. She was docile and good tempered, yet gay and playful as a summer insect. Although she was lively and animated, her feelings were strong and deep, and her disposition uncommonly affectionate. No one could better enjoy liberty, yet no one could submit with more grace than she did to constraint and caprice. Her imagination was luxuriant, yet her capability of application was great. Her person was the image of her mind; her hazel eyes, although as lively as a bird’s, possessed an attractive softness. Her figure was light and airy; and, though capable of enduring great fatigue, she appeared the most fragile creature in the world. While I admired her understanding and fancy, I loved to tend on her, as I should on a favourite animal; and I never saw so much grace both of person and mind united to so little pretension.
+<pb n="10055"/>
 
-Every one adored Elizabeth. If the servants had any request to make, it was always through her intercession. We were strangers to any species of disunion and dispute; for although there was a great dissimilitude in our characters, there was an harmony in that very dissimilitude. I was more calm and philosophical than my companion; yet my temper was not so yielding. My application was of longer endurance; but it was not so severe whilst it endured. I delighted in investigating the facts relative to the actual world; she busied herself in following the aërial creations of the poets. The world was to me a secret, which I desired to discover; to her it was a vacancy, which she sought to people with imaginations of her own.
+to all his labours and utility. No creature could have more tender parents than mine. My improvement and health were their constant care, especially as I remained for several years their only child. But before I continue my narrative, I must record an incident which took place when I was four years of age.
+
+My father had a sister, whom he tenderly loved, and who had married early in life an Italian gentleman. Soon after her marriage, she had accompanied her husband into his native country, and for some years my father had very little communication with her. About the time I mentioned she died; and a few months afterwards he received a letter from her husband, acquainting him with his intention of marrying an Italian lady, and requesting my father to take charge of the infant 
+
+<pb n="10056"/>
+<!--rm: Edited to here 2017-0110 -->
+
+Elizabeth, the only child of his deceased sister. “It is my wish,” he said, “that you should consider her as your own daughter, and educate her thus. Her mother’s fortune is secured to her, the documents of which I will commit to your keeping. Reflect upon this proposition; and decide whether you would prefer educating your niece yourself to her being brought up by a stepmother.”
+
+My father did not hesitate, and immediately went to Italy, that he might accompany the little Elizabeth to her future home. I have often heard my mother say, that she was at that time the most beautiful child she had ever seen, and shewed signs even then of a gentle and affectionate disposition. These indications, and a desire to bind as closely as possible the ties of domestic love, determined my mother to consider 
+
+<pb n="10057"/>
+
+Elizabeth as my future wife; a design which she never found reason to repent.
+
+From this time Elizabeth Lavenza became my playfellow, and, as we grew older, my friend. She was docile and good tempered, yet gay and playful as a summer insect. Although she was lively and animated, her feelings were strong and deep, and her disposition uncommonly affectionate. No one could better enjoy liberty, yet no one could submit with more grace than she did to constraint and caprice. Her imagination was luxuriant, yet her capability of application was great. Her person was the image of her mind; her hazel eyes, although as lively as a bird’s, possessed an attractive softness. Her figure was light and airy; and, though capable of enduring great fatigue, she appeared the most fragile creature in the world. While I admired 
+
+<pb n="10058"/>
+
+her understanding and fancy, I loved to tend on her, as I should on a favourite animal; and I never saw so much grace both of person and mind united to so little pretension.
+
+Every one adored Elizabeth. If the servants had any request to make, it was always through her intercession. We were strangers to any species of disunion and dispute; for although there was a great dissimilitude in our characters, there was an harmony in that very dissimilitude. I was more calm and philosophical than my companion; yet my temper was not so yielding. My application was of longer endurance; but it was not so severe whilst it endured. I delighted in investigating the facts relative to the actual world; she busied herself in following the aërial creations of the poets. The world was to me a secret, which I desired to 
+
+<pb n="10059"/>
+
+discover; to her it was a vacancy, which she sought to people with imaginations of her own.
 
 My brothers were considerably younger than myself; but I had a friend in one of my schoolfellows, who compensated for this deficiency. Henry Clerval was the son of a merchant of Geneva, an intimate friend of my father. He was a boy of singular talent and fancy. I remember, when he was nine years old, he wrote a fairy tale, which was the delight and amazement of all his companions. His favourite study consisted in books of chivalry and romance; and when very young, I can remember, that we used to act plays composed by him out of these favourite books, the principal characters of which were Orlando, Robin Hood, Amadis, and St. George.
 
-No youth could have passed more happily than mine. My parents were indulgent, and my companions amiable. Our studies were never forced; and by some means we always had an end placed in view, which excited us to ardour in the prosecution of them. It was by this method, and not by emulation, that we were urged to application. Elizabeth was not incited to apply herself to drawing, that her companions might not outstrip her; but through the desire of pleasing her aunt, by the representation of some favourite scene done by her own hand. We learned Latin and English, that we might read the writings in those languages; and so far from study being made odious to us through punishment, we loved application, and our amusements would have been the labours of other children. Perhaps we did not read so many books, or learn languages so quickly, as those who are disciplined according to the ordinary methods; but what we learned was impressed the more deeply on our memories.
+No youth could have passed more 
+
+<pb n="10060"/>
+
+happily than mine. My parents were indulgent, and my companions amiable. Our studies were never forced; and by some means we always had an end placed in view, which excited us to ardour in the prosecution of them. It was by this method, and not by emulation, that we were urged to application. Elizabeth was not incited to apply herself to drawing, that her companions might not outstrip her; but through the desire of pleasing her aunt, by the representation of some favourite scene done by her own hand. We learned Latin and English, that we might read the writings in those languages; and so far from study being made odious to us through punishment, we loved application, and our amusements would have been the labours of other children. Perhaps we did not read so many books, or learn languages so 
+
+<pb n="10061"/>
+
+quickly, as those who are disciplined according to the ordinary methods; but what we learned was impressed the more deeply on our memories.
 
 In this description of our domestic circle I include Henry Clerval; for he was constantly with us. He went to school with me, and generally passed the afternoon at our house: for being an only child, and destitute of companions at home, his father was well pleased that he should find associates at our house; and we were never completely happy when Clerval was absent.
 
-I feel pleasure in dwelling on the recollections of childhood, before misfortune had tainted my mind, and changed its bright visions of extensive usefulness into gloomy and narrow reflections upon self. But, in drawing the picture of my early days, I must not omit to record those events which led, by insensible steps to my after tale of misery: for when I would account to myself for the birth of that passion, which afterwards ruled my destiny, I find it arise, like a mountain river, from ignoble and almost forgotten sources; but, swelling as it proceeded, it became the torrent which, in its course, has swept away all my hopes and joys.
+I feel pleasure in dwelling on the recollections of childhood, before misfortune had tainted my mind, and changed its bright visions of extensive usefulness into gloomy and narrow reflections upon self. But, in drawing the picture of my early days, I must not omit to record those events which led, by insensible 
 
-Natural philosophy is the genius that has regulated my fate; I desire therefore, in this narration, to state those facts which led to my predilection for that science. When I was thirteen years of age, we all went on a party of pleasure to the baths near Thonon: the inclemency of the weather obliged us to remain a day confined to the inn. In this house I chanced to find a volume of the works of Cornelius Agrippa. I opened it with apathy; the theory which he attempts to demonstrate, and the wonderful facts which he relates, soon changed this feeling into enthusiasm. A new light seemed to dawn upon my mind; and, bounding with joy, I communicated my discovery to my father. I cannot help remarking here the many opportunities instructors possess of directing the attention of their pupils to useful knowledge, which they utterly neglect. My father looked carelessly at the title-page of my book, and said, “Ah! Cornelius Agrippa! My dear Victor, do not waste your time upon this; it is sad trash.”
+<pb n="10062"/>
 
-If, instead of this remark, my father had taken the pains to explain to me, that the principles of Agrippa had been entirely exploded, and that a modern system of science had been introduced, which possessed much greater powers than the ancient, because the powers of the latter were chimerical, while those of the former were real and practical; under such circumstances, I should certainly have thrown Agrippa aside, and, with my imagination warmed as it was, should probably have applied myself to the more rational theory of chemistry which has resulted from modern discoveries. It is even possible, that the train of my ideas would never have received the fatal impulse that led to my ruin. But the cursory glance my father had taken of my volume by no means assured me that he was acquainted with its contents; and I continued to read with the greatest avidity.
+steps to my after tale of misery: for when I would account to myself for the birth of that passion, which afterwards ruled my destiny, I find it arise, like a mountain river, from ignoble and almost forgotten sources; but, swelling as it proceeded, it became the torrent which, in its course, has swept away all my hopes and joys.
 
-When I returned home, my first care was to procure the whole works of this author, and afterwards of Paracelsus and Albertus Magnus. I read and studied the wild fancies of these writers with delight; they appeared to me treasures known to few beside myself; and although I have often wished to communicate these secret stores of knowledge to my father, yet his indefinite censure of my favourite Agrippa always withheld me. I disclosed my discoveries to Elizabeth, therefore, under a promise of strict secrecy; but she did not interest herself in the subject, and I was left by her to pursue my studies alone.
+Natural philosophy is the genius that has regulated my fate; I desire therefore, in this narration, to state those facts which led to my predilection for that science. When I was thirteen years of age, we all went on a party of pleasure to the baths near Thonon: the inclemency of the weather obliged us to remain a day confined to the inn. In this house I chanced to find a volume of the works of Cornelius Agrippa. I opened it with apathy; the theory which he attempts to demonstrate, and the 
 
-It may appear very strange, that a disciple of Albertus Magnus should arise in the eighteenth century; but our family was not scientifical, and I had not attended any of the lectures given at the schools of Geneva. My dreams were therefore undisturbed by reality; and I entered with the greatest diligence into the search of the philosopher’s stone and the elixir of life. But the latter obtained my undivided attention: wealth was an inferior object; but what glory would attend the discovery, if I could banish disease from the human frame, and render man invulnerable to any but a violent death!
+<pb n="10063"/>
 
-Nor were these my only visions. The raising of ghosts or devils was a promise liberally accorded by my favourite authors, the fulfillment of which I most eagerly sought; and if my incantations were always unsuccessful, I attributed the failure rather to my own inexperience and mistake than to a want of skill or fidelity in my instructors.
+wonderful facts which he relates, soon changed this feeling into enthusiasm. A new light seemed to dawn upon my mind; and, bounding with joy, I communicated my discovery to my father. I cannot help remarking here the many opportunities instructors possess of directing the attention of their pupils to useful knowledge, which they utterly neglect. My father looked carelessly at the title-page of my book, and said, “Ah! Cornelius Agrippa! My dear Victor, do not waste your time upon this; it is sad trash.”
 
-The natural phænomena that take place every day before our eyes did not escape my examinations. Distillation, and the wonderful effects of steam, processes of which my favourite authors were utterly ignorant, excited my astonishment; but my utmost wonder was engaged by some experiments on an air-pump, which I saw employed by a gentleman whom we were in the habit of visiting.
+If, instead of this remark, my father had taken the pains to explain to me, that the principles of Agrippa had been entirely exploded, and that a modern system of science had been introduced, which possessed much greater powers than the ancient, because the powers of the latter were chimerical, while 
+
+<pb n="10064"/>
+
+those of the former were real and practical; under such circumstances, I should certainly have thrown Agrippa aside, and, with my imagination warmed as it was, should probably have applied myself to the more rational theory of chemistry which has resulted from modern discoveries. It is even possible, that the train of my ideas would never have received the fatal impulse that led to my ruin. But the cursory glance my father had taken of my volume by no means assured me that he was acquainted with its contents; and I continued to read with the greatest avidity.
+
+When I returned home, my first care was to procure the whole works of this author, and afterwards of Paracelsus and Albertus Magnus. I read and studied the wild fancies of these writers with delight; they appeared to me treasures 
+
+<pb n="10065"/>
+
+known to few beside myself; and although I have often wished to communicate these secret stores of knowledge to my father, yet his indefinite censure of my favourite Agrippa always withheld me. I disclosed my discoveries to Elizabeth, therefore, under a promise of strict secrecy; but she did not interest herself in the subject, and I was left by her to pursue my studies alone.
+
+It may appear very strange, that a disciple of Albertus Magnus should arise in the eighteenth century; but our family was not scientifical, and I had not attended any of the lectures given at the schools of Geneva. My dreams were therefore undisturbed by reality; and I entered with the greatest diligence into the search of the philosopher’s stone and the elixir of life. But the latter obtained my undivided 
+
+<pb n="10066"/>
+
+attention: wealth was an inferior object; but what glory would attend the discovery, if I could banish disease from the human frame, and render man invulnerable to any but a violent death!
+
+Nor were these my only visions. The raising of ghosts or devils was a promise liberally accorded by my favourite authors, the fulfillment of which I most eagerly sought; and if my incantations were always unsuccessful, I attributed the failure rather to my own inexperience and mistake, than to a want of skill or fidelity in my instructors.
+
+The natural phænomena that take place every day before our eyes did not escape my examinations. Distillation, and the wonderful effects of steam, processes of which my favourite authors were utterly ignorant, excited my astonishment; but my utmost wonder was 
+
+<pb n="10067"/>
+
+engaged by some experiments on an air-pump, which I saw employed by a gentleman whom we were in the habit of visiting.
 
 The ignorance of the early philosophers on these and several other points served to decrease their credit with me: but I could not entirely throw them aside, before some other system should occupy their place in my mind.
 
-When I was about fifteen years old, we had retired to our house near Belrive, when we witnessed a most violent and terrible thunder-storm. It advanced from behind the mountains of Jura; and the thunder burst at once with frightful loudness from various quarters of the heavens. I remained, while the storm lasted, watching its progress with curiosity and delight. As I stood at the door, on a sudden I beheld a stream of fire issue from an old and beautiful oak, which stood about twenty yards from our house; and so soon as the dazzling light vanished, the oak had disappeared, and nothing remained but a blasted stump. When we visited it the next morning, we found the tree shattered in a singular manner. It was not splintered by the shock, but entirely reduced to thin ribbands of wood. I never beheld anything so utterly destroyed.
+When I was about fifteen years old, we had retired to our house near Belrive, when we witnessed a most violent and terrible thunder-storm. It advanced from behind the mountains of Jura; and the thunder burst at once with frightful loudness from various quarters of the heavens. I remained, while the storm lasted, watching its progress with curiosity and delight. As I stood at the door, on a sudden I beheld a stream of fire issue from an old and beautiful oak, 
+
+<pb n="10068"/>
+
+which stood about twenty yards from our house; and so soon as the dazzling light vanished, the oak had disappeared, and nothing remained but a blasted stump. When we visited it the next morning, we found the tree shattered in a singular manner. It was not splintered by the shock, but entirely reduced to thin ribbands of wood. I never beheld anything so utterly destroyed.
 
 The catastrophe of this tree excited my extreme astonishment; and I eagerly inquired of my father the nature and origin of thunder and lightning. He replied, “Electricity;” describing at the same time the various effects of that power. He constructed a small electrical machine, and exhibited a few experiments; he made also a kite, with a wire and string, which drew down that fluid from the clouds.
 
-This last stroke completed the overthrow of Cornelius Agrippa, Albertus Magnus, and Paracelsus, who had so long reigned the lords of my imagination. But by some fatality I did not feel inclined to commence the study of any modern system; and this disinclination was influenced by the following circumstance.
+This last stroke completed the overthrow 
 
-My father expressed a wish that I should attend a course of lectures upon natural philosophy, to which I cheerfully consented. Some accident prevented my attending these lectures until the course was nearly finished. The lecture, being therefore one of the last, was entirely incomprehensible to me. The professor discoursed with the greatest fluency of potassium and boron, of sulphates and oxyds, terms to which I could affix no idea; and I became disgusted with the science of natural philosophy, although I still read Pliny and Buffon with delight, authors, in my estimation, of nearly equal interest and utility.
+<pb n="10069"/>
+
+of Cornelius Agrippa, Albertus Magnus, and Paracelsus, who had so long reigned the lords of my imagination. But by some fatality I did not feel inclined to commence the study of any modern system; and this disinclination was influenced by the following circumstance.
+
+My father expressed a wish that I should attend a course of lectures upon natural philosophy, to which I cheerfully consented. Some accident prevented my attending these lectures until the course was nearly finished. The lecture, being therefore one of the last, was entirely incomprehensible to me. The professor discoursed with the greatest fluency of potassium and boron, of sulphates and oxyds, terms to which I could affix no idea; and I became disgusted with the science of natural philosophy, although I still read 
+
+<pb n="10070"/>
+
+Pliny and Buffon with delight, authors, in my estimation, of nearly equal interest and utility.
 
 My occupations at this age were principally the mathematics, and most of the branches of study appertaining to that science. I was busily employed in learning languages; Latin was already familiar to me, and I began to read some of the easiest Greek authors without the help of a lexicon. I also perfectly understood English and German. This is the list of my accomplishments at the age of seventeen; and you may conceive that my hours were fully employed in acquiring and maintaining a knowledge of this various literature.
 
-Another task also devolved upon me, when I became the instructor of my brothers. Ernest was six years younger than myself, and was my principal pupil. He had been afflicted with ill health from his infancy, through which Elizabeth and I had been his constant nurses: his disposition was gentle, but he was incapable of any severe application. William, the youngest of our family, was yet an infant, and the most beautiful little fellow in the world; his lively blue eyes, dimpled cheeks, and endearing manners, inspired the tenderest affection.
+Another task also devolved upon me, when I became the instructor of my brothers. Ernest was six years younger than myself, and was my principal pupil. 
+
+<pb n="10071"/>
+
+He had been afflicted with ill health from his infancy, through which Elizabeth and I had been his constant nurses: his disposition was gentle, but he was incapable of any severe application. William, the youngest of our family, was yet an infant, and the most beautiful little fellow in the world; his lively blue eyes, dimpled cheeks, and endearing manners, inspired the tenderest affection.
 
 Such was our domestic circle, from which care and pain seemed for ever banished. My father directed our studies, and my mother partook of our enjoyments. Neither of us possessed the slightest pre-eminence over the other; the voice of command was never heard amongst us; but mutual affection engaged us all to comply with and obey the slightest desire of each other.
 
-CHAPTER II.
+<pb n="10072"/>
 
- W[HEN] I had attained the age of seventeen, my parents resolved that I should become a student at the university of Ingolstadt. I had hitherto attended the schools of Geneva; but my father thought it necessary, for the completion of my education, that I should be made acquainted with other customs than those of my native country. My departure was therefore fixed at an early date; but, before the day resolved upon could arrive, the first misfortune of my life occurred — an omen, as it were, of my future misery.
+%CHAPTER II.%
 
-Elizabeth had caught the scarlet fever; but her illness was not severe, and she quickly recovered. During her confinement, many arguments had been urged to persuade my mother to refrain from attending upon her. She had, at first, yielded to our entreaties; but when she heard that her favourite was recovering, she could no longer debar herself from her society, and entered her chamber long before the danger of infection was past. The consequences of this imprudence were fatal. On the third day my mother sickened; her fever was very malignant, and the looks of her attendants prognosticated the worst event. On her death-bed the fortitude and benignity of this admirable woman did not desert her. She joined the hands of Elizabeth and myself: “My children,” she said, “my firmest hopes of future happiness were placed on the prospect of your union. This expectation will now be the consolation of your father. Elizabeth, my love, you must supply my place to your younger cousins. Alas! I regret that I am taken from you; and, happy and beloved as I have been, is it not hard to quit you all? But these are not thoughts befitting me; I will endeavour to resign myself cheerfully to death, and will indulge a hope of meeting you in another world.”
+ W[HEN] I had attained the age of seventeen, my parents resolved that I should become a student at the university of Ingolstadt. I had hitherto attended the schools of Geneva; but my father thought it necessary, for the completion of my education, that I should be made acquainted with other customs than those of my native country. My departure was therefore fixed at an early date; but, before the day resolved upon could arrive, the first misfortune of my life occurred—an omen, as it were, of my future misery.
+ 
+<pb n="10073"/>
 
-She died calmly; and her countenance expressed affection even in death. I need not describe the feelings of those whose dearest ties are rent by that most irreparable evil, the void that presents itself to the soul, and the despair that is exhibited on the countenance. It is so long before the mind can persuade itself that she, whom we saw every day, and whose very existence appeared a part of our own, can have departed for ever — that the brightness of a beloved eye can have been extinguished, and the sound of a voice so familiar, and dear to the ear, can be hushed, never more to be heard. These are the reflections of the first days; but when the lapse of time proves the reality of the evil, then the actual bitterness of grief commences. Yet from whom has not that rude hand rent away some dear connexion; and why should I describe a sorrow which all have felt, and must feel? The time at length arrives, when grief is rather an indulgence than a necessity; and the smile that plays upon the lips, although it may be deemed a sacrilege, is not banished. My mother was dead, but we had still duties which we ought to perform; we must continue our course with the rest, and learn to think ourselves fortunate, whilst one remains whom the spoiler has not seized.
+Elizabeth had caught the scarlet fever; but her illness was not severe, and she quickly recovered. During her confinement, many arguments had been urged to persuade my mother to refrain from attending upon her. She had, at first, yielded to our entreaties; but when she heard that her favourite was recovering, she could no longer debar herself from her society, and entered her chamber long before the danger of infection was past. The consequences of this imprudence were fatal. On the third day my mother sickened; her fever was very malignant, and the looks of her attendants prognosticated the worst event. On her death-bed the fortitude and benignity of this admirable woman did not desert her. She joined the hands of Elizabeth and myself: “My children,” she said, “my firmest hopes of future 
 
-My journey to Ingolstadt, which had been deferred by these events, was now again determined upon. I obtained from my father a respite of some weeks. This period was spent sadly; my mother’s death, and my speedy departure, depressed our spirits; but Elizabeth endeavoured to renew the spirit of cheerfulness in our little society. Since the death of her aunt, her mind had acquired new firmness and vigour. She determined to fulfil her duties with the greatest exactness; and she felt that that most imperious duty, of rendering her uncle and cousins happy, had devolved upon her. She consoled me, amused her uncle, instructed my brothers; and I never beheld her so enchanting as at this time, when she was continually endeavouring to contribute to the happiness of others, entirely forgetful of herself.
+<pb n="10074"/>
+
+happiness were placed on the prospect of your union. This expectation will now be the consolation of your father. Elizabeth, my love, you must supply my place to your younger cousins. Alas! I regret that I am taken from you; and, happy and beloved as I have been, is it not hard to quit you all? But these are not thoughts befitting me; I will endeavour to resign myself cheerfully to death, and will indulge a hope of meeting you in another world.”
+
+She died calmly; and her countenance expressed affection even in death. I need not describe the feelings of those whose dearest ties are rent by that most irreparable evil, the void that presents itself to the soul, and the despair that is exhibited on the countenance. It is so long before the mind can persuade itself that she, whom we saw every day, and whose very existence 
+
+<pb n="10075"/>
+
+appeared a part of our own, can have departed for ever—that the brightness of a beloved eye can have been extinguished, and the sound of a voice so familiar, and dear to the ear, can be hushed, never more to be heard. These are the reflections of the first days; but when the lapse of time proves the reality of the evil, then the actual bitterness of grief commences. Yet from whom has not that rude hand rent away some dear connexion; and why should I describe a sorrow which all have felt, and must feel? The time at length arrives, when grief is rather an indulgence than a necessity; and the smile that plays upon the lips, although it may be deemed a sacrilege, is not banished. My mother was dead, but we had still duties which we ought to perform; we must continue our course with the rest, and learn to think 
+
+<pb n="10076"/>
+
+ourselves fortunate, whilst one remains whom the spoiler has not seized.
+
+My journey to Ingolstadt, which had been deferred by these events, was now again determined upon. I obtained from my father a respite of some weeks. This period was spent sadly; my mother’s death, and my speedy departure, depressed our spirits; but Elizabeth endeavoured to renew the spirit of cheerfulness in our little society. Since the death of her aunt, her mind had acquired new firmness and vigour. She determined to fulfil her duties with the greatest exactness; and she felt that that most imperious duty, of rendering her uncle and cousins happy, had devolved upon her. She consoled me, amused her uncle, instructed my brothers; and I never beheld her so enchanting as at this time, when she was continually endeavouring to contribute 
+
+<pb n="10077"/>
+
+to the happiness of others, entirely forgetful of herself.
 
 The day of my departure at length arrived. I had taken leave of all my friends, excepting Clerval, who spent the last evening with us. He bitterly lamented that he was unable to accompany me: but his father could not be persuaded to part with him, intending that he should become a partner with him in business, in compliance with his favourite theory, that learning was superfluous in the commerce of ordinary life. Henry had a refined mind; he had no desire to be idle, and was well pleased to become his father’s partner, but he believed that a man might become a very good trader, and yet possess a cultivated understanding.
 
-We sat late, listening to his complaints, and making many little arrangements for the future. The next morning early I departed. Tears gushed from the eyes of Elizabeth; they proceeded partly from sorrow at my departure, and partly because she reflected that the same journey was to have taken place three months before, when a mother’s blessing would have accompanied me.
+We sat late, listening to his complaints, and making many little arrangements for the future. The next 
 
-I threw myself into the chaise that was to convey me away, and indulged in the most melancholy reflections. I, who had ever been surrounded by amiable companions, continually engaged in endeavouring to bestow mutual pleasure, I was now alone. In the university, whither I was going, I must form my own friends, and be my own protector. My life had hitherto been remarkably secluded and domestic; and this had given me invincible repugnance to new countenances. I loved my brothers, Elizabeth, and Clerval; these were “old familiar faces;” but I believed myself totally unfitted for the company of strangers. Such were my reflections as I commenced my journey; but as I proceeded, my spirits and hopes rose. I ardently desired the acquisition of knowledge. I had often, when at home, thought it hard to remain during my youth cooped up in one place, and had longed to enter the world, and take my station among other human beings. Now my desires were complied with, and it would, indeed, have been folly to repent.
+<pb n="10078"/>
+
+morning early I departed. Tears gushed from the eyes of Elizabeth; they proceeded partly from sorrow at my departure, and partly because she reflected that the same journey was to have taken place three months before, when a mother’s blessing would have accompanied me.
+
+I threw myself into the chaise that was to convey me away, and indulged in the most melancholy reflections. I, who had ever been surrounded by amiable companions, continually engaged in endeavouring to bestow mutual pleasure, I was now alone. In the university, whither I was going, I must form my own friends, and be my own protector. My life had hitherto been remarkably secluded and domestic; and this had given me invincible repugnance to new countenances. I loved my brothers, Elizabeth, and Clerval; 
+
+<pb n="10079"/>
+
+these were “old familiar faces;” but I believed myself totally unfitted for the company of strangers. Such were my reflections as I commenced my journey; but as I proceeded, my spirits and hopes rose. I ardently desired the acquisition of knowledge. I had often, when at home, thought it hard to remain during my youth cooped up in one place, and had longed to enter the world, and take my station among other human beings. Now my desires were complied with, and it would, indeed, have been folly to repent.
 
 I had sufficient leisure for these and many other reflections during my journey to Ingolstadt, which was long and fatiguing. At length the high white steeple of the town met my eyes. I alighted, and was conducted to my solitary apartment, to spend the evening as I pleased.
 
+<pb n="10080"/>
+
 The next morning I delivered my letters of introduction, and paid a visit to some of the principal professors, and among others to M. Krempe, professor of natural philosophy. He received me with politeness, and asked me several questions concerning my progress in the different branches of science appertaining to natural philosophy. I mentioned, it is true, with fear and trembling, the only authors I had ever read upon those subjects. The professor stared: “Have you,” he said, “really spent your time in studying such nonsense?”
 
-I replied in the affirmative. “Every minute,” continued M. Krempe with warmth, “every instant that you have wasted on those books is utterly and entirely lost. You have burdened your memory with exploded systems, and useless names. Good God! in what desert land have you lived, where no one was kind enough to inform you that these fancies, which you have so greedily imbibed, are a thousand years old, and as musty as they are ancient? I little expected in this enlightened and scientific age to find a disciple of Albertus Magnus and Paracelsus. My dear Sir, you must begin your studies entirely anew.”
+I replied in the affirmative. “Every minute,” continued M. Krempe with warmth, “every instant that you have wasted on those books is utterly and entirely lost. You have burdened your memory with exploded systems, and useless names. Good God! in what 
+
+<pb n="10081"/>
+
+desert land have you lived, where no one was kind enough to inform you that these fancies, which you have so greedily imbibed, are a thousand years old, and as musty as they are ancient? I little expected in this enlightened and scientific age to find a disciple of Albertus Magnus and Paracelsus. My dear Sir, you must begin your studies entirely anew.”
 
 So saying, he stepped aside, and wrote down a list of several books treating of natural philosophy, which he desired me to procure, and dismissed me, after mentioning that in the beginning of the following week he intended to commence a course of lectures upon natural philosophy in its general relations, and that M. Waldman, a fellow-professor, would lecture upon chemistry the alternate days that he missed.
 
-I returned home, not disappointed, for I had long considered those authors useless whom the professor had so strongly reprobated; but I did not feel much inclined to study the books which I had procured at his recommendation. M. Krempe was a little squat man, with a gruff voice and repulsive countenance; the teacher, therefore, did not prepossess me in favour of his doctrine. Besides, I had a contempt for the uses of modern natural philosophy. It was very different, when the masters of the science sought immortality and power; such views, although futile, were grand: but now the scene was changed. The ambition of the inquirer seemed to limit itself to the annihilation of those visions on which my interest in science was chiefly founded. I was required to exchange chimeras of boundless grandeur for realities of little worth.
+I returned home, not disappointed, 
 
-Such were my reflections during the first two or three days spent almost in solitude. But as the ensuing week commenced, I thought of the information which M. Krempe had given me concerning the lectures. And although I could not consent to go and hear that little conceited fellow deliver sentences out of a pulpit, I recollected what he had said of M. Waldman, whom I had never seen, as he had hitherto been out of town.
+<pb n="10082"/>
 
-Partly from curiosity, and partly from idleness, I went into the lecturing room, which M. Waldman entered shortly after. This professor was very unlike his colleague. He appeared about fifty years of age, but with an aspect expressive of the greatest benevolence; a few grey hairs covered his temples, but those at the back of his head were nearly black. His person was short, but remarkably erect; and his voice the sweetest I had ever heard. He began his lecture by a recapitulation of the history of chemistry, and the various improvements made by different men of learning, pronouncing with fervour the names of the most distinguished discoverers. He then took a cursory view of the present state of the science, and explained many of its elementary terms. After having made a few preparatory experiments, he concluded with a panegyric upon modern chemistry, the terms of which I shall never forget:—
+for I had long considered those authors useless whom the professor had so strongly reprobated; but I did not feel much inclined to study the books which I procured at his recommendation. M. Krempe was a little squat man, with a gruff voice and repulsive countenance; the teacher, therefore, did not prepossess me in favour of his doctrine. Besides, I had a contempt for the uses of modern natural philosophy. It was very different, when the masters of the science sought immortality and power; such views, although futile, were grand: but now the scene was changed. The ambition of the inquirer seemed to limit itself to the annihilation of those visions on which my interest in science was chiefly founded. I was required to exchange chimeras of boundless grandeur for realities of little worth.
 
-“The ancient teachers of this science,” said he, “promised impossibilities, and performed nothing. The modern masters promise very little; they know that metals cannot be transmuted, and that the elixir of life is a chimera. But these philosophers, whose hands seem only made to dabble in dirt, and their eyes to pore over the microscope or crucible, have indeed performed miracles. They penetrate into the recesses of nature, and shew how she works in her hiding places. They ascend into the heavens; they have discovered how the blood circulates, and the nature of the air we breathe. They have acquired new and almost unlimited powers; they can command the thunders of heaven, mimic the earthquake, and even mock the invisible world with its own shadows.”
+Such were my reflections during the 
 
-I departed highly pleased with the professor and his lecture, and paid him a visit the same evening. His manners in private were even more mild and attractive than in public; for there was a certain dignity in his mien during his lecture, which in his own house was replaced by the greatest affability and kindness. He heard with attention my little narration concerning my studies, and smiled at the names of Cornelius Agrippa and Paracelsus, but without the contempt that M. Krempe had exhibited. He said, that “these were men to whose indefatigable zeal modern philosophers were indebted for most of the foundations of their knowledge. They had left to us, as an easier task, to give new names, arrange in connected classifications, the facts which they in a great degree had been the instruments of bringing to light. The labours of men of genius, however erroneously directed, scarcely ever fail in ultimately turning to the solid advantage of mankind.” I listened to his statement, which was delivered without any presumption or affectation; and then added, that his lecture had removed my prejudices against modern chemists; and I, at the same time, requested his advice concerning the books I ought to procure.
+<pb n="10083"/>
+
+first two or three days spent almost in solitude. But as the ensuing week commenced, I thought of the information which M. Krempe had given me concerning the lectures. And although I could not consent to go and hear that little conceited fellow deliver sentences out of a pulpit, I recollected what he had said of M. Waldman, whom I had never seen, as he had hitherto been out of town.
+
+Partly from curiosity, and partly from idleness, I went into the lecturing room, which M. Waldman entered shortly after. This professor was very unlike his colleague. He appeared about fifty years of age, but with an aspect expressive of the greatest benevolence; a few grey hairs covered his temples, but those at the back of his head were nearly black. His person was short, but remarkably erect; and his 
+
+<pb n="10084"/>
+
+voice the sweetest I had ever heard. He began his lecture by a recapitulation of the history of chemistry and the various improvements made by different men of learning, pronouncing with fervour the names of the most distinguished discoverers. He then took a cursory view of the present state of the science, and explained many of its elementary terms. After having made a few preparatory experiments, he concluded with a panegyric upon modern chemistry, the terms of which I shall never forget:—
+
+“The ancient teachers of this science,” said he, “promised impossibilities, and performed nothing. The modern masters promise very little; they know that metals cannot be transmuted, and that the elixir of life is a chimera. But these philosophers, whose hands seem only made to dabble 
+
+<pb n="10085"/>
+
+in dirt, and their eyes to pour over the microscope or crucible, have indeed performed miracles. They penetrate into the recesses of nature, and shew how she works in her hiding places. They ascend into the heavens; they have discovered how the blood circulates, and the nature of the air we breathe. They have acquired new and almost unlimited powers; they can command the thunders of heaven, mimic the earthquake, and even mock the invisible world with its own shadows.”
+
+I departed highly pleased with the professor and his lecture, and paid him a visit the same evening. His manners in private were even more mild and attractive than in public; for there was a certain dignity in his mien during his lecture, which in his own house was replaced by the greatest 
+
+<pb n="10086"/>
+
+affability and kindness. He heard with attention my little narration concerning my studies, and smiled at the names of Cornelius Agrippa, and Paracelsus, but without the contempt that M. Krempe had exhibited. He said, that “these were men to whose indefatigable zeal modern philosophers were indebted for most of the foundations of their knowledge. They had left to us, as an easier task, to give new names, arrange in connected classifications, the facts which they in a great degree had been the instruments of bringing to light. The labours of men of genius, however erroneously directed, scarcely ever fail in ultimately turning to the solid advantage of mankind.” I listened to his statement, which was delivered without any presumption or affectation; and then added, that his lecture had removed my prejudices against modern 
+
+<pb n="10087"/>
+
+chemists; and I, at the same time, requested his advice concerning the books I ought to procure.
 
 “I am happy,” said M. Waldman, “to have gained a disciple; and if your application equals your ability, I have no doubt of your success. Chemistry is that branch of natural philosophy in which the greatest improvements have been and may be made; it is on that account that I have made it my peculiar study; but at the same time I have not neglected the other branches of science. A man would make but a very sorry chemist, if he attended to that department of human knowledge alone. If your wish is to become really a man of science, and not merely a petty experimentalist, I should advise you to apply to every branch of natural philosophy, including mathematics.”
+
+<pb n="10088"/>
 
 He then took me into his laboratory, and explained to me the uses of his various machines; instructing me as to what I ought to procure, and promising me the use of his own, when I should have advanced far enough in the science not to derange their mechanism. He also gave me the list of books which I had requested; and I took my leave.
 
 Thus ended a day memorable to me; it decided my future destiny.
 
-CHAPTER III.
+<pb n="10089"/>
 
- F[ROM] this day natural philosophy, and particularly chemistry, in the most comprehensive sense of the term, became nearly my sole occupation. I read with ardour those works, so full of genius and discrimination, which modern inquirers have written on these subjects. I attended the lectures, and cultivated the acquaintance, of the men of science of the university; and I found even in M. Krempe a great deal of sound sense and real information, combined, it is true, with a repulsive physiognomy and manners, but not on that account the less valuable. In M. Waldman I found a true friend. His gentleness was never tinged by dogmatism; and his instructions were given with an air of frankness and good nature that banished every idea of pedantry. It was, perhaps, the amiable character of this man that inclined me more to that branch of natural philosophy which he professed, than an intrinsic love for the science itself. But this state of mind had place only in the first steps towards knowledge: the more fully I entered into the science, the more exclusively I pursued it for its own sake. That application, which at first had been a matter of duty and resolution, now became so ardent and eager, that the stars often disappeared in the light of morning whilst I was yet engaged in my laboratory.
+%CHAPTER III.%
 
-As I applied so closely, it may be easily conceived that I improved rapidly. My ardour was indeed the astonishment of the students; and my proficiency, that of the masters. Professor Krempe often asked me, with a sly smile, how Cornelius Agrippa went on? whilst M. Waldman expressed the most heartfelt exultation in my progress. Two years passed in this manner, during which I paid no visit to Geneva, but was engaged, heart and soul, in the pursuit of some discoveries, which I hoped to make. None but those who have experienced them can conceive of the enticements of science. In other studies you go as far as others have gone before you, and there is nothing more to know; but in a scientific pursuit there is continual food for discovery and wonder. A mind of moderate capacity, which closely pursues one study, must infallibly arrive at great proficiency in that study; and I, who continually sought the attainment of one object of pursuit, and was solely wrapped up in this, improved so rapidly, that, at the end of two years, I made some discoveries in the improvement of some chemical instruments, which procured me great esteem and admiration at the university. When I had arrived at this point, and had become as well acquainted with the theory and practice of natural philosophy as depended on the lessons of any of the professors at Ingolstadt, my residence there being no longer conducive to my improvements, I thought of returning to my friends and my native town, when an incident happened that protracted my stay.
+ F[ROM] this day natural philosophy, and particularly chemistry, in the most comprehensive sense of the term, became nearly my sole occupation. I read with ardour those works, so full of genius and discrimination, which modern inquirers have written on these subjects. I attended the lectures, and cultivated the acquaintance, of the men of science of the university; and I found even in M. Krempe a great deal of sound sense and real information, combined, it is true, with a repulsive physiognomy and manners, but not on that account the less valuable. In M. Waldman I found 
+ 
+<pb n="10090"/>
+ 
+ a true friend. His gentleness was never tinged by dogmatism; and his instructions were given with an air of frankness and good nature, that banished every idea of pedantry. It was, perhaps, the amiable character of this man that inclined me more to that branch of natural philosophy which he professed, than an intrinsic love for the science itself. But this state of mind had place only in the first steps towards knowledge: the more fully I entered into the science, the more exclusively I pursued it for its own sake. That application, which at first had been a matter of duty and resolution, now became so ardent and eager, that the stars often disappeared in the light of morning whilst I was yet engaged in my laboratory.
 
-One of the phænomena which had peculiarly attracted my attention was the structure of the human frame, and, indeed, any animal endued with life. Whence, I often asked myself, did the principle of life proceed? It was a bold question, and one which has ever been considered as a mystery; yet with how many things are we upon the brink of becoming acquainted, if cowardice or carelessness did not restrain our inquiries. I revolved these circumstances in my mind, and determined thenceforth to apply myself more particularly to those branches of natural philosophy which relate to physiology. Unless I had been animated by an almost supernatural enthusiasm, my application to this study would have been irksome, and almost intolerable. To examine the causes of life, we must first have recourse to death. I became acquainted with the science of anatomy: but this was not sufficient; I must also observe the natural decay and corruption of the human body. In my education my father had taken the greatest precautions that my mind should be impressed with no supernatural horrors. I do not ever remember to have trembled at a tale of superstition, or to have feared the apparition of a spirit. Darkness had no effect upon my fancy; and a churchyard was to me merely the receptacle of bodies deprived of life, which, from being the seat of beauty and strength, had become food for the worm. Now I was led to examine the cause and progress of this decay, and forced to spend days and nights in vaults and charnel houses. My attention was fixed upon every object the most insupportable to the delicacy of the human feelings. I saw how the fine form of man was degraded and wasted; I beheld the corruption of death succeed to the blooming cheek of life; I saw how the worm inherited the wonders of the eye and brain. I paused, examining and analysing all the minutiae of causation, as exemplified in the change from life to death, and death to life, until from the midst of this darkness a sudden light broke in upon me — a light so brilliant and wondrous, yet so simple, that while I became dizzy with the immensity of the prospect which it illustrated, I was surprised that among so many men of genius, who had directed their inquiries towards the same science, that I alone should be reserved to discover so astonishing a secret.
+As I applied so closely, it may be easily conceived that I improved rapidly. 
 
-Remember, I am not recording the vision of a madman. The sun does not more certainly shine in the heavens, than that which I now affirm is true. Some miracle might have produced it, yet the stages of the discovery were distinct and probable. After days and nights of incredible labour and fatigue, I succeeded in discovering the cause of generation and life; nay, more, I became myself capable of bestowing animation upon lifeless matter.
+<pb n="10091"/>
 
-The astonishment which I had at first experienced on this discovery soon gave place to delight and rapture. After so much time spent in painful labour, to arrive at once at the summit of my desires, was the most gratifying consummation of my toils. But this discovery was so great and overwhelming, that all the steps by which I had been progressively led to it were obliterated, and I beheld only the result. What had been the study and desire of the wisest men since the creation of the world, was now within my grasp. Not that, like a magic scene, it all opened upon me at once: the information I had obtained was of a nature rather to direct my endeavours so soon as I should point them towards the object of my search, than to exhibit that object already accomplished. I was like the Arabian who had been buried with the dead, and found a passage to life aided only by one glimmering, and seemingly ineffectual, light.
+My ardour was indeed the astonishment of the students; and my proficiency, that of the masters. Professor Krempe often asked me, with a sly smile, how Cornelius Agrippa went on? whilst M. Waldman expressed the most heartfelt exultation in my progress. Two years passed in this manner, during which I paid no visit to Geneva, but was engaged, heart and soul, in the pursuit of some discoveries, which I hoped to make. None but those who have experienced them can conceive of the enticements of science. In other studies you go as far as others have gone before you, and there is nothing more to know; but in a scientific pursuit there is continual food for discovery and wonder. A mind of moderate capacity, which closely pursues one study, must infallibly arrive at great proficiency in that study; and I, who continually 
 
-I see by your eagerness, and the wonder and hope which your eyes express, my friend, that you expect to be informed of the secret with which I am acquainted; that cannot be: listen patiently until the end of my story, and you will easily perceive why I am reserved upon that subject. I will not lead you on, unguarded and ardent as I then was, to your destruction and infallible misery. Learn from me, if not by my precepts, at least by my example, how dangerous is the acquirement of knowledge, and how much happier that man is who believes his native town to be the world, than he who aspires to become greater than his nature will allow.
+<pb n="10092"/>
+
+sought the attainment of one object of pursuit, and was solely wrapt up in this, improved so rapidly, that, at the end of two years, I made some discoveries in the improvement of some chemical instruments, which procured me great esteem and admiration at the university. When I had arrived at this point, and had become as well acquainted with the theory and practice of natural philosophy as depended on the lessons of any of the professors at Ingolstadt, my residence there being no longer conducive to my improvements, I thought of returning to my friends and my native town, when an incident happened that protracted my stay.
+
+One of the phænomena which had peculiarly attracted my attention was the structure of the human frame, and, indeed, any animal endued with life. Whence, I often asked myself, did the 
+
+<pb n="10093"/>
+<!--rm: Edited to here 2017-0111 -->
+
+principle of life proceed? It was a bold question, and one which has ever been considered as a mystery; yet with how many things are we upon the brink of becoming acquainted, if cowardice or carelessness did not restrain our inquiries. I revolved these circumstances in my mind, and determined thenceforth to apply myself more particularly to those branches of natural philosophy which relate to physiology. Unless I had been animated by an almost supernatural enthusiasm, my application to this study would have been irksome, and almost intolerable. To examine the causes of life, we must first have recourse to death. I became acquainted with the science of anatomy: but this was not sufficient; I must also observe the natural decay and corruption of the human body. In my education my father had taken the 
+
+<pb n="10094"/>
+<!--rm: Edited to here 2017-0112 -->
+
+greatest precautions that my mind should be impressed with no supernatural horrors. I do not ever remember to have trembled at a tale of superstition, or to have feared the apparition of a spirit. Darkness had no effect upon my fancy; and a church-yard was to me merely the receptacle of bodies deprived of life, which, from being the seat of beauty and strength, had become food for the worm. Now I was led to examine the cause and progress of this decay, and forced to spend days and nights in vaults and charnel houses. My attention was fixed upon every object the most insupportable to the delicacy of the human feelings. I saw how the fine form of man was degraded and wasted; I beheld the corruption of death succeed to the blooming cheek of life; I saw how the worm inherited the wonders of the eye and brain. I 
+
+<pb n="10095"/>
+
+paused, examining and analysing all the minutiae of causation, as exemplified in the change from life to death, and death to life, until from the midst of this darkness a sudden light broke in upon me—a light so brilliant and wondrous, yet so simple, that while I became dizzy with the immensity of the prospect which it illustrated, I was surprised that among so many men of genius, who had directed their inquiries towards the same science, that I alone should be reserved to discover so astonishing a secret.
+
+Remember, I am not recording the vision of a madman. The sun does not more certainly shine in the heavens, than that which I now affirm is true. Some miracle might have produced it, yet the stages of the discovery were distinct and probable. After days and nights of incredible labour and fatigue, 
+
+<pb n="10096"/>
+
+I succeeded in discovering the cause of generation and life; nay, more, I became myself capable of bestowing animation upon lifeless matter.
+
+The astonishment which I had at first experienced on this discovery soon gave place to delight and rapture. After so much time spent in painful labour, to arrive at once at the summit of my desires, was the most gratifying consummation of my toils. But this discovery was so great and overwhelming, that all the steps by which I had been progressively led to it were obliterated, and I beheld only the result. What had been the study and desire of the wisest men since the creation of the world, was now within my grasp. Not that, like a magic scene, it all opened upon me at once: the information I had obtained was of a nature rather to direct my endeavours so soon as I should point them towards 
+
+<pb n="10097"/>
+
+the object of my search, than to exhibit that object already accomplished. I was like the Arabian who had been buried with the dead, and found a passage to life aided only by one glimmering, and seemingly ineffectual, light.
+
+I see by your eagerness, and the wonder and hope which your eyes express, my friend, that you expect to be informed of the secret with which I am acquainted; that cannot be: listen patiently until the end of my story, and you will easily perceive why I am reserved upon that subject. I will not lead you on, unguarded and ardent as I then was, to your destruction and infallible misery. Learn from me, if not by my precepts, at least by my example, how dangerous is the acquirement of knowledge, and how much happier that man is who believes his 
+
+<pb n="10098"/>
+<!--rm: Edited to here 2017-0114 -->
+
+native town to be the world, than he who aspires to become greater than his nature will allow.
 
 When I found so astonishing a power placed within my hands, I hesitated a long time concerning the manner in which I should employ it. Although I possessed the capacity of bestowing animation, yet to prepare a frame for the reception of it, with all its intricacies of fibres, muscles, and veins, still remained a work of inconceivable difficulty and labour. I doubted at first whether I should attempt the creation of a being like myself or one of simpler organization; but my imagination was too much exalted by my first success to permit me to doubt of my ability to give life to an animal as complex and wonderful as man. The materials at present within my command hardly appeared adequate to so arduous an undertaking; but I doubted not that I should ultimately succeed. I prepared myself for a multitude of reverses; my operations might be incessantly baffled, and at last my work be imperfect: yet, when I considered the improvement which every day takes place in science and mechanics, I was encouraged to hope my present attempts would at least lay the foundations of future success. Nor could I consider the magnitude and complexity of my plan as any argument of its impracticability. It was with these feelings that I began the creation of a human being. As the minuteness of the parts formed a great hindrance to my speed, I resolved, contrary to my first intention, to make the being of a gigantic stature; that is to say, about eight feet in height, and proportionably large. After having formed this determination, and having spent some months in successfully collecting and arranging my materials, I began.
 
