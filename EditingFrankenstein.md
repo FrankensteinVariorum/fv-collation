@@ -16,14 +16,18 @@ Because numbering must work across three volumes and anticipate links to individ
 Examples: 
 
 `@n` values:
+````
 v1_viii
 v1_001
 v2_050
 v3_150
+````
 USE LITERAL PAGE NUMBER in the printed volumes.
 
 `@xml:id` values are:
+````
 1823_v1_001
+````
 The end number indicates the literal image object made from the imaging of the facsimile we are working with.
 
 5) Formerly hyphenated words that cross page breaks will be joined on the previous page before the <pb> is added to the text file. Any immediate punctuation will be retained, most typically commas and periods.
