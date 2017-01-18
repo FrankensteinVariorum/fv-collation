@@ -11,11 +11,20 @@ evaluate when to use the TEI <hi rend="WhateverTypeFace">...</hi> and for how ma
 
 3) Smallcaps are marked as capital letters set within square brackets thus: M[RS]. [S[AVILLE].
 
-4) We will add the TEI milestone marker for page breaks <pb n=“ “/>
+4) We will add the TEI milestone marker for page breaks thus: `<pb xml:id="1823_v1_001" n="v1_001"/>`
 Because numbering must work across three volumes and anticipate links to individual image files, the numbering scheme will use 5 digits: volume# + 0 + image #. 
 Examples: 
-— vol.1 image 15 as n=“10015” 
-— vol.3 image 190 as n=“30190”
+
+`@n` values:
+v1_viii
+v1_001
+v2_050
+v3_150
+USE LITERAL PAGE NUMBER in the printed volumes.
+
+`@xml:id` values are:
+1823_v1_001
+The end number indicates the literal image object made from the imaging of the facsimile we are working with.
 
 5) Formerly hyphenated words that cross page breaks will be joined on the previous page before the <pb> is added to the text file. Any immediate punctuation will be retained, most typically commas and periods.
 
