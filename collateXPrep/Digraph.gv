@@ -1,0 +1,17 @@
+digraph {
+	graph [rankdir=LR]
+		1 [label="#"]
+		2 [label=big]
+		3 [label=koala]
+		4 [label=grey]
+		5 [label=gray]
+		6 [label="#"]
+		7 [label=The]
+			1 -> 7 [label="A, B"]
+			2 -> 5 [label=A]
+			3 -> 6 [label="A, B"]
+			4 -> 3 [label=B]
+			5 -> 3 [label=A]
+			7 -> 4 [label=B]
+			7 -> 2 [label=A]
+}
