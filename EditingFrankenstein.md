@@ -38,4 +38,4 @@ The end number indicates the literal image object made from the imaging of the f
 
 8) We will not be preserving the form work including the signatures, though we could add this into the TEI later.
 
-9) Footnotes or endnnotes in the printed editions will be moved, marked as `<note>` and placed next to the material they annotate rather than presented in their physical location on the page. 
+9) Footnotes or endnotes in the printed editions will be moved, marked as `<note>` and placed next to the material they annotate rather than presented in their physical location on the page. 
