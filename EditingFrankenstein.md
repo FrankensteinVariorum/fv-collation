@@ -36,4 +36,6 @@ The end number indicates the literal image object made from the imaging of the f
 
 7) We will use the spelling as it appears rather than normalizing or modernizing the texts.
 
-9) We will not be preserving the form work including the signatures, though we could add this into the TEI later.
+8) We will not be preserving the form work including the signatures, though we could add this into the TEI later.
+
+9) Footnotes or endnotes in the printed editions will be moved and marked as `<note>` and placed next to the material they annotate rather than presented in their physical location on the page. 
