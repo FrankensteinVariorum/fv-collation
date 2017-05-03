@@ -65,7 +65,7 @@ def normalize(inputText):
     return regexPageBreak('',inputText)
 
 def processToken(inputText):
-    return {"t": inputText, "n": regexPageBreak.sub('',inputText)}
+    return {"t": inputText + ' ', "n": regexPageBreak.sub('',inputText)}
 
 def processWitness(inputWitness, id):
     return {'id': id, 'tokens' : [processToken(token) for token in inputWitness]}
@@ -81,6 +81,6 @@ with open('1818_Ch1.xml', 'rb') as f1818file, \
     f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
     f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
     collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, f1831_tokenlist]}
-    table = collate(collation_input, segmentation=False)
+    table = collate(collation_input, segmentation=True, layout='vertical')
     print(table)
 
