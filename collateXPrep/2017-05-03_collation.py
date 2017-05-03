@@ -9,6 +9,7 @@ regexNonWhitespace = re.compile(r'\S+')
 regexEmptyTag = re.compile(r'/>$')
 regexBlankLine = re.compile(r'\n{2,}')
 regexLeadingBlankLine = re.compile(r'^\n')
+regexPageBreak = re.compile(r'<pb.+?/>')
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
 # Tags to ignore, with content to keep: xml
@@ -58,7 +59,14 @@ def extract(input_xml):
             output += normalizeSpace(node.data)
     return output
 
-collation = Collation()
+def normalize(inputText):
+    return regexPageBreak('',inputText)
+
+def processToken(inputText):
+    return {"t": inputText, "n": regexPageBreak.sub('',inputText)}
+
+def processWitness(inputWitness, id):
+    return {'id': id, 'tokens' : [processToken(token) for token in inputWitness]}
 
 with open('1818_Ch1.xml', 'rb') as f1818file, \
     open('1823_Ch1.xml', 'rb') as f1823file, \
@@ -67,5 +75,10 @@ with open('1818_Ch1.xml', 'rb') as f1818file, \
     f1818_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1831file))).split('\n')
     f1823_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1823file))).split('\n')
     f1831_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1831file))).split('\n')
-    print(f1818_tokens)
+    f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
+    f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
+    f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
+    collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist]}
+    table = collate(collation_input, segmentation=False)
+    print(table)
 
