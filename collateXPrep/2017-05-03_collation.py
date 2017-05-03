@@ -40,7 +40,7 @@ def extract(input_xml):
         if event == pulldom.START_ELEMENT and node.localName in ignore:
             continue
         # copy comments intact
-        if event == pulldom.COMMENT:
+        elif event == pulldom.COMMENT:
             doc.expandNode(node)
             output += node.toxml()
         # empty inline elements: pb
@@ -57,6 +57,8 @@ def extract(input_xml):
             output += '\n</' + node.localName + '>'
         elif event == pulldom.CHARACTERS:
             output += normalizeSpace(node.data)
+        else:
+            continue
     return output
 
 def normalize(inputText):
@@ -72,13 +74,13 @@ with open('1818_Ch1.xml', 'rb') as f1818file, \
     open('1823_Ch1.xml', 'rb') as f1823file, \
     open('1831_Chs1-2.xml', 'rb') as f1831file, \
     open('output.txt', 'w') as outputFile:
-    f1818_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1831file))).split('\n')
+    f1818_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1818file))).split('\n')
     f1823_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1823file))).split('\n')
     f1831_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1831file))).split('\n')
     f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
     f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
     f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
-    collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist]}
+    collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, f1831_tokenlist]}
     table = collate(collation_input, segmentation=False)
     print(table)
 
