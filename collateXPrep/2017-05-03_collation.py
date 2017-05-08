@@ -73,7 +73,7 @@ def processWitness(inputWitness, id):
 with open('1818_Ch1.xml', 'rb') as f1818file, \
     open('1823_Ch1.xml', 'rb') as f1823file, \
     open('1831_Chs1-2.xml', 'rb') as f1831file, \
-    open('output.txt', 'w') as outputFile:
+    open('output.svg', 'w') as outputFile:
     f1818_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1818file))).split('\n')
     f1823_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1823file))).split('\n')
     f1831_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1831file))).split('\n')
@@ -81,6 +81,7 @@ with open('1818_Ch1.xml', 'rb') as f1818file, \
     f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
     f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
     collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, f1831_tokenlist]}
-    table = collate(collation_input, output='tei', segmentation=True)
+    table = collate(collation_input, output='svg_simple', segmentation=True)
+    # table = collate(collation_input, segmentation=True, layout='vertical')
     print(table)
 
