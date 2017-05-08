@@ -6,7 +6,7 @@
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
     <xsl:template match="/">
-        <html>
+        <html lang="en">
             <head><title>Frankenstein (1818)</title>
                 <link rel="stylesheet" type="text/css" href="frankenStyle.css"/>
             </head>
