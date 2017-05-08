@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
     xmlns="http://www.w3.org/1999/xhtml" version="3.0">
-    <xsl:output method="xhtml" encoding="utf-8"
+    <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
     <xsl:template match="/">
         <html>
@@ -69,7 +69,7 @@
     </xsl:template>
     
    <xsl:template match="pb">
-       <span class="pb" id="{@xml:id}"><xsl:if test="@n"><xsl:value-of select="@n"/></xsl:if></span>
+       <span class="pb" id="e{@xml:id}"><xsl:if test="@n"><xsl:value-of select="@n"/></xsl:if></span>
     </xsl:template>
     <xsl:template match="note | bibl">
        <span class="note"><xsl:apply-templates/></span> 
