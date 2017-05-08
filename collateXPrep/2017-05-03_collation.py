@@ -15,13 +15,13 @@ regexPageBreak = re.compile(r'<pb.+?/>')
 # Tags to ignore, with content to keep: xml
 # Structural elements: div, p, lg, l
 # Inline elements (empty) retained in normalization: pb
-# Inline elements (with content) retained in normalization: note, hi, head
+# Inline and block elements (with content) retained in normalization: note, hi, head, ab
 
 # GIs fall into one three classes
 ignore = ['xml']
 inlineEmpty = ['pb']
 inlineContent = ['hi']
-blockElement = ['p', 'div', 'lg', 'l', 'head', 'comment', 'note']
+blockElement = ['p', 'div', 'lg', 'l', 'head', 'comment', 'note', 'ab']
 
 def normalizeSpace(inText):
     """Replaces all whitespace spans with single space characters"""
@@ -46,7 +46,7 @@ def extract(input_xml):
         # empty inline elements: pb
         elif event == pulldom.START_ELEMENT and node.localName in inlineEmpty:
             output += node.toxml()
-        # non-empty inline elements: note, hi, head, l, lg, div, p
+        # non-empty inline elements: note, hi, head, l, lg, div, p, ab, 
         elif event == pulldom.START_ELEMENT and node.localName in inlineContent:
             output += regexEmptyTag.sub('>', node.toxml())
         elif event == pulldom.END_ELEMENT and node.localName in inlineContent:
