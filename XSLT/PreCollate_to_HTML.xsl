@@ -69,7 +69,7 @@
     </xsl:template>
     
    <xsl:template match="pb">
-       <span class="pb" id="{@xml:id}"><xsl:if test="@n"><xsl:value-of select="@n"/></xsl:if></span>
+       <span class="pb" id="e{@xml:id}"><xsl:if test="@n"><xsl:value-of select="@n"/></xsl:if></span>
     </xsl:template>
     <xsl:template match="note | bibl">
        <span class="note"><xsl:apply-templates/></span> 
