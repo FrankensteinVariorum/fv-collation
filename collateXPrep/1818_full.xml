@@ -20,12 +20,11 @@
 
       <p>This edition is part of the Pittsburgh research team’s contribution to the Bicentennial
         Frankenstein Project, and is prepared by Elisa Beshero-Bondar of the University of
-        Pittsburgh at Greensburg with assistance from Rikk Mulligan of Carnegie Mellon University.
-        We are grateful for consultation from Wendell Piez, David J. Birnbaum, and Raffaele
-        Viglianti, as well as Neil Fraistat and Dave Rettenmaier. This edition’s stages of
-        development are stored and documented in the <ref
-          target="https://github.com/ebeshero/Pittsburgh_Frankenstein/">Pittsburgh_Frankenstein
-          GitHub repository</ref>.</p>
+        Pittsburgh at Greensburg and Rikk Mulligan of Carnegie Mellon University. We are grateful
+        for consultation from Wendell Piez, David J. Birnbaum, and Raffaele Viglianti, as well as
+        Neil Fraistat and Dave Rettenmaier. This edition’s stages of development are stored and
+        documented in the <ref target="https://github.com/ebeshero/Pittsburgh_Frankenstein/"
+          >Pittsburgh_Frankenstein GitHub repository</ref>.</p>
 
       <resp>We have produced this XML edition for two purposes:</resp>
       <list type="numbered">
@@ -45,21 +44,21 @@
         hereafter referred to as PA EE. Elisa Beshero-Bondar and Rikk Mulligan have corrected these
         texts against photo facsimiles of the 1818 and 1831 publications.</p>
 
-      <p>Our plain text edition preserves the rendering of italics, square brackets, and centered
+      <!--<p>Our plain text edition preserves the rendering of italics, square brackets, and centered
         text from the PA EE HTML texts.</p>
-
+-->
       <p>We have added page breaks using the TEI self-closing pb element. We will not be preserving
         the running headers but will retain page number in order to link to page images in future
         iterations of the text.</p>
 
-      <p>To track pages from our source images we will be using the TEI self-closing milestone
-        element with "unNum" as the marker.</p>
+      <!--<p>To track pages from our source images we will be using the TEI self-closing milestone
+        element with "unNum" as the marker.</p>-->
 
       <list>
-        <item>In the PA EE there is no distinction between italics for titles and italics for
-          emphasized words. Italics have been converted to hi elements with @rend="ital"</item>
+        <!-- <item>In the PA EE there is no distinction between italics for titles and italics for
+          emphasized words. Italics have been converted to hi elements with @rend="italic"</item>-->
 
-        <item>We preserved small caps in the texts in hi elements with @rend="smallcaps".</item>
+        <item>We preserved italics and small caps.</item>
 
         <item>We have not normalized the spelling, and where the PA EE did so, we have silently
           restored the spelling to its original state as observed in the photo facsimile
@@ -68,8 +67,8 @@
           commented out the one instance in the 1831 PA EE HTML in which square brackets were used
           to hold a normalized variant of a word, to suppress that from the output.</item>
 
-        <item>When centered text is the heading of a chapter or book, we render it inside head
-          elements. Otherwise we use hi @rend="center".</item>
+        <!--<item>When centered text is the heading of a chapter or book, we render it inside head
+          elements. Otherwise we use hi @rend="center".</item>-->
       </list>
       <!--<note resp="#ebb">Note for later processing: In the PA EE of this text, there are 1337 encoded links, each pointing to an editorial annotation.</note> -->
     </div>
@@ -77,8 +76,8 @@
   <text>
     <div type="volume">
       <pb xml:id="1818_v1_001"/>
-      <head>FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS.</head>
-      <pb xml:id="1818_v1_002"/>
+      <!--<head>FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS.</head>
+      <pb xml:id="1818_v1_002"/>-->
       <!--blank page-->
       <pb xml:id="1818_v1_003"/>
       <head>FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS.</head>
@@ -100,9 +99,13 @@
 
       <head>VOL. I.</head>
       <!--rm: centered double-underscore -->
-      <ab rend="center">_London:_</ab>
+      <ab rend="center">
+        <hi rend="italic">London:</hi>
+      </ab>
 
-      <ab rend="center">_PRINTED FOR_</ab>
+      <ab rend="center">
+        <hi rend="italic">PRINTED FOR</hi>
+      </ab>
 
       <ab rend="center">LACKINGTON, HUGHES, HARDING, MAVOR, &amp; JONES,</ab>
 
@@ -111,18 +114,22 @@
       <ab rend="center">1818.</ab>
 
       <pb xml:id="1818_v1_004"/>
-      <ab rend="center">_Printed by Macdonald and Son, Cloth Fair, London_</ab>
+      <ab rend="center">
+        <hi rend="italic">Printed by Macdonald and Son, Cloth Fair, London</hi>
+      </ab>
       <!-- library stamp -->
       <pb xml:id="1818_v1_005"/>
       <ab rend="center">TO</ab>
 
       <head>WILLIAM GODWIN,</head>
 
-      <ab rend="center">_AUTHOR OF POLITICAL JUSTICE, CALEB WILLIAMS, &amp;C._</ab>
+      <ab rend="center"><hi rend="italic">AUTHOR OF POLITICAL JUSTICE, CALEB WILLIAMS, &amp;C.</hi></ab>
 
       <head>THESE VOLUMES</head>
 
-      <ab>_Are respectfully inscribed_</ab>
+      <ab>
+        <hi rend="italic">Are respectfully inscribed</hi>
+      </ab>
 
       <ab>
         <hi rend="smallcaps">BY</hi>
@@ -186,8 +193,8 @@
       <head>FRANKENSTEIN; <hi rend="smallcaps">OR, THE</hi> MODERN PROMETHEUS.</head>
       <!-- RM: centered ornamental -->
       <head>LETTER I</head>
-      <ab rend="center">_To Mrs._ S<hi rend="smallcaps">AVILLE</hi>, <hi rend="italic"
-        >England.</hi></ab>
+      <ab rend="center"><hi rend="italic">To Mrs.</hi> S<hi rend="smallcaps">AVILLE</hi>, <hi
+          rend="italic">England.</hi></ab>
       <p>St. Petersburgh, Dec. 11th, 17—.</p>
       <p>Y<hi rend="smallcaps">OU</hi> will rejoice to hear that no disaster has accompanied the
         commencement of an enterprise which you have regarded with such evil forebodings. I arrived
@@ -277,35 +284,35 @@
       <p>R. W<hi rend="smallcaps">ALTON</hi>.</p>
       <pb xml:id="1818_v1_022" n="v1_010"/>
       <head>LETTER II.</head>
-      <ab rend="center">_To Mrs._ S<hi rend="smallcaps">AVILLE</hi>, <hi rend="italic"
-        >England.</hi></ab>
+      <ab rend="center"><hi rend="italic">To Mrs.</hi> S<hi rend="smallcaps">AVILLE</hi>, <hi
+          rend="italic">England.</hi></ab>
       <p>Archangel, 28th March, 17—.</p>
       <p>How slowly the time passes here, encompassed as I am by frost and snow; yet a second step
         is taken towards my enterprise. I have hired a vessel, and am occupied in collecting my
         sailors; those whom I have already engaged appear to be men on whom I can depend, and are
         certainly possessed of dauntless courage.</p>
       <p>But I have one want which I have never yet been able to satisfy; and the absence of the
-        object of which I <pb xml:id="1818_v1_023" n="v1_011"/></p>
-      <p>now feel as a most severe evil. I have no friend, Margaret: when I am glowing with the
-        enthusiasm of success, there will be none to participate my joy; if I am assailed by
-        disappointment, no one will endeavour to sustain me in dejection. I shall commit my thoughts
-        to paper, it is true; but that is a poor medium for the communication of feeling. I desire
-        the company of a man who could sympathize with me; whose eyes would reply to mine. You may
-        deem me romantic, my dear sister, but I bitterly feel the want of a friend. I have no one
-        near me, gentle yet courageous, possessed of a cultivated as well as of a capacious mind,
-        whose tastes are like my own, to approve or amend my plans. How would such a friend repair
-        the faults of your poor brother! I am too ardent in execution, and too impatient of
-          difficul<pb xml:id="1818_v1_024" n="v1_012"/>ties. But it is a still greater evil to me
-        that I am self-educated: for the first fourteen years of my life I ran wild on a common, and
-        read nothing but our uncle Thomas’s books of voyages. At that age I became acquainted with
-        the celebrated poets of our own country; but it was only when it had ceased to be in my
-        power to derive its most important benefits from such a conviction, that I perceived the
-        necessity of becoming acquainted with more languages than that of my native country. Now I
-        am twenty-eight, and am in reality more illiterate than many school-boys of fifteen. It is
-        true that I have thought more, and that my day dreams are more extended and magnificent; but
-        they want (as the painters call it) <hi rend="italic">keeping</hi>; and I greatly need a
-        friend who would have sense enough not to despise me as romantic, and affection <pb
-          xml:id="1818_v1_025" n="v1_013"/>enough for me to endeavour to regulate my mind.</p>
+        object of which I <pb xml:id="1818_v1_023" n="v1_011"/>now feel as a most severe evil. I
+        have no friend, Margaret: when I am glowing with the enthusiasm of success, there will be
+        none to participate my joy; if I am assailed by disappointment, no one will endeavour to
+        sustain me in dejection. I shall commit my thoughts to paper, it is true; but that is a poor
+        medium for the communication of feeling. I desire the company of a man who could sympathize
+        with me; whose eyes would reply to mine. You may deem me romantic, my dear sister, but I
+        bitterly feel the want of a friend. I have no one near me, gentle yet courageous, possessed
+        of a cultivated as well as of a capacious mind, whose tastes are like my own, to approve or
+        amend my plans. How would such a friend repair the faults of your poor brother! I am too
+        ardent in execution, and too impatient of difficul<pb xml:id="1818_v1_024" n="v1_012"/>ties.
+        But it is a still greater evil to me that I am self-educated: for the first fourteen years
+        of my life I ran wild on a common, and read nothing but our uncle Thomas’s books of voyages.
+        At that age I became acquainted with the celebrated poets of our own country; but it was
+        only when it had ceased to be in my power to derive its most important benefits from such a
+        conviction, that I perceived the necessity of becoming acquainted with more languages than
+        that of my native country. Now I am twenty-eight, and am in reality more illiterate than
+        many school-boys of fifteen. It is true that I have thought more, and that my day dreams are
+        more extended and magnificent; but they want (as the painters call it) <hi rend="italic"
+          >keeping</hi>; and I greatly need a friend who would have sense enough not to despise me
+        as romantic, and affection <pb xml:id="1818_v1_025" n="v1_013"/>enough for me to endeavour
+        to regulate my mind.</p>
       <p>Well, these are useless complaints; I shall certainly find no friend on the wide ocean, nor
         even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the dross
         of human nature, beat even in these rugged bosoms. My lieutenant, for instance, is a man of
@@ -356,8 +363,8 @@
       <p>R<hi rend="smallcaps">OBERT</hi> W<hi rend="smallcaps">ALTON</hi>.</p>
       <pb xml:id="1818_v1_030" n="v1_018"/>
       <head>LETTER III.</head>
-      <ab rend="center">_To Mrs._ S<hi rend="smallcaps">AVILLE</hi>, <hi rend="italic"
-        >England.</hi></ab>
+      <ab rend="center"><hi rend="italic">To Mrs.</hi> S<hi rend="smallcaps">AVILLE</hi>, <hi
+          rend="italic">England.</hi></ab>
       <p>July 7th, 17—.</p>
       <p><hi rend="smallcaps">MY DEAR SISTER</hi>,</p>
       <p>I <hi rend="smallcaps">WRITE</hi> a few lines in haste, to say that I am safe, and well
@@ -382,8 +389,8 @@
       <p>R.W.</p>
       <pb xml:id="1818_v1_033" n="v1_021"/>
       <head>LETTER IV.</head>
-      <ab rend="center">_To Mrs._ S<hi rend="smallcaps">AVILLE</hi>, <hi rend="italic"
-        >England.</hi></ab>
+      <ab rend="center"><hi rend="italic">To Mrs.</hi> S<hi rend="smallcaps">AVILLE</hi>, <hi
+          rend="italic">England.</hi></ab>
       <p>August 5th, 17—.</p>
       <p>So strange an accident has happened to us, that I cannot forbear recording it, although it
         is very probable that you will see me before these papers can come into your possession.</p>
@@ -480,8 +487,8 @@
         noble creature in his better days, being even now in wreck so attractive and amiable.</p>
       <p>I said in one of my letters, my dear Margaret, that I should find no friend on the wide
         ocean; yet I have found a man who, before his spirit had been broken by misery, I should
-        have been <pb xml:id="1818_v1_043" n="v1_031"/></p>
-      <p>happy to have possessed as the brother of my heart.</p>
+        have been <pb xml:id="1818_v1_043" n="v1_031"/>happy to have possessed as the brother of my
+        heart.</p>
       <p>I shall continue my journal concerning the stranger at intervals, should I have any fresh
         incidents to record.</p>
       <p>August 13th, 17—.</p>
@@ -555,7 +562,7 @@
         />who know him, and who hear it from his own lips, with what interest and sympathy shall I
         read it in some future day!</p>
       <pb xml:id="1818_v1_051" n="v1_039"/>
-      <head>_FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS._</head>
+      <head><hi rend="italic">FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS.</hi></head>
       <!-- RM: centered ornamental -->
       <div type="chapter">
         <head>CHAPTER I.</head>
@@ -797,29 +804,28 @@
           her attendants prognosticated the worst event. On her death-bed the fortitude and
           benignity of this admirable woman did not desert her. She joined the hands of Elizabeth
           and myself: “My children,” she said, “my firmest hopes of future <pb xml:id="1818_v1_075"
-            n="v1_063"/></p>
-        <p>happiness were placed on the prospect of your union. This expectation will now be the
-          consolation of your father. Elizabeth, my love, you must supply my place to your younger
-          cousins. Alas! I regret that I am taken from you; and, happy and beloved as I have been,
-          is it not hard to quit you all? But these are not thoughts befitting me; I will endeavour
-          to resign myself cheerfully to death, and will indulge a hope of meeting you in another
-          world.”</p>
+            n="v1_063"/>happiness were placed on the prospect of your union. This expectation will
+          now be the consolation of your father. Elizabeth, my love, you must supply my place to
+          your younger cousins. Alas! I regret that I am taken from you; and, happy and beloved as I
+          have been, is it not hard to quit you all? But these are not thoughts befitting me; I will
+          endeavour to resign myself cheerfully to death, and will indulge a hope of meeting you in
+          another world.”</p>
         <p>She died calmly; and her countenance expressed affection even in death. I need not
           describe the feelings of those whose dearest ties are rent by that most irreparable evil,
           the void that presents itself to the soul, and the despair that is exhibited on the
           countenance. It is so long before the mind can persuade itself that she, whom we saw every
-          day, and whose very existence <pb xml:id="1818_v1_076" n="v1_064"/></p>
-        <p>appeared a part of our own, can have departed for ever—that the brightness of a beloved
-          eye can have been extinguished, and the sound of a voice so familiar, and dear to the ear,
-          can be hushed, never more to be heard. These are the reflections of the first days; but
-          when the lapse of time proves the reality of the evil, then the actual bitterness of grief
-          commences. Yet from whom has not that rude hand rent away some dear connexion; and why
-          should I describe a sorrow which all have felt, and must feel? The time at length arrives,
-          when grief is rather an indulgence than a necessity; and the smile that plays upon the
-          lips, although it may be deemed a sacrilege, is not banished. My mother was dead, but we
-          had still duties which we ought to perform; we must continue our course with the rest, and
-          learn to think <pb xml:id="1818_v1_077" n="v1_065"/>ourselves fortunate, whilst one
-          remains whom the spoiler has not seized.</p>
+          day, and whose very existence <pb xml:id="1818_v1_076" n="v1_064"/>appeared a part of our
+          own, can have departed for ever—that the brightness of a beloved eye can have been
+          extinguished, and the sound of a voice so familiar, and dear to the ear, can be hushed,
+          never more to be heard. These are the reflections of the first days; but when the lapse of
+          time proves the reality of the evil, then the actual bitterness of grief commences. Yet
+          from whom has not that rude hand rent away some dear connexion; and why should I describe
+          a sorrow which all have felt, and must feel? The time at length arrives, when grief is
+          rather an indulgence than a necessity; and the smile that plays upon the lips, although it
+          may be deemed a sacrilege, is not banished. My mother was dead, but we had still duties
+          which we ought to perform; we must continue our course with the rest, and learn to think
+            <pb xml:id="1818_v1_077" n="v1_065"/>ourselves fortunate, whilst one remains whom the
+          spoiler has not seized.</p>
         <p>My journey to Ingolstadt, which had been deferred by these events, was now again
           determined upon. I obtained from my father a respite of some weeks. This period was spent
           sadly; my mother’s death, and my speedy departure, depressed our spirits; but Elizabeth
@@ -1151,32 +1157,32 @@
           contrast with his watery eyes, that seemed almost of the same colour as the dun white
           sockets in which they were set, his shrivelled complexion, and straight black lips.</p>
         <p>The different accidents of life are not so changeable as the feelings of human nature. I
-          had worked hard for <pb xml:id="1818_v1_111" n="v1_099"/></p>
-        <p>nearly two years, for the sole purpose of infusing life into an inanimate body. For this
-          I had deprived myself of rest and health. I had desired it with an ardour that far
-          exceeded moderation; but now that I had finished, the beauty of the dream vanished, and
-          breathless horror and disgust filled my heart. Unable to endure the aspect of the being I
-          had created, I rushed out of the room, and continued a long time traversing my
-          bed-chamber, unable to compose my mind to sleep. At length lassitude succeeded to the
-          tumult I had before endured; and I threw myself on the bed in my clothes, endeavouring to
-          seek a few moments of forgetfulness. But it was in vain: I slept indeed, but I was
-          disturbed by the wildest dreams. I thought I saw Elizabeth, in the bloom of health,
-          walking in the streets of Ingolstadt. Delighted and surprised, I em<pb
-            xml:id="1818_v1_112" n="v1_100"/>braced her; but as I imprinted the first kiss on her
-          lips, they became livid with the hue of death; her features appeared to change, and I
-          thought that I held the corpse of my dead mother in my arms; a shroud enveloped her form,
-          and I saw the grave-worms crawling in the folds of the flannel. I started from my sleep
-          with horror; a cold dew covered my forehead, my teeth chattered, and every limb became
-          convulsed; when, by the dim and yellow light of the moon, as it forced its way through the
-          window-shutters, I beheld the wretch—the miserable monster whom I had created. He held up
-          the curtain of the bed; and his eyes, if eyes they may be called, were fixed on me. His
-          jaws opened, and he muttered some inarticulate sounds, while a grin wrinkled his cheeks.
-          He might have spoken, but I did not hear; one hand was <pb xml:id="1818_v1_113" n="v1_101"
-          />stretched out, seemingly to detain me, but I escaped, and rushed down stairs. I took
-          refuge in the court-yard belonging to the house which I inhabited; where I remained during
-          the rest of the night, walking up and down in the greatest agitation, listening
-          attentively, catching and fearing each sound as if it were to announce the approach of the
-          demoniacal corpse to which I had so miserably given life.</p>
+          had worked hard for <pb xml:id="1818_v1_111" n="v1_099"/>nearly two years, for the sole
+          purpose of infusing life into an inanimate body. For this I had deprived myself of rest
+          and health. I had desired it with an ardour that far exceeded moderation; but now that I
+          had finished, the beauty of the dream vanished, and breathless horror and disgust filled
+          my heart. Unable to endure the aspect of the being I had created, I rushed out of the
+          room, and continued a long time traversing my bed-chamber, unable to compose my mind to
+          sleep. At length lassitude succeeded to the tumult I had before endured; and I threw
+          myself on the bed in my clothes, endeavouring to seek a few moments of forgetfulness. But
+          it was in vain: I slept indeed, but I was disturbed by the wildest dreams. I thought I saw
+          Elizabeth, in the bloom of health, walking in the streets of Ingolstadt. Delighted and
+          surprised, I em<pb xml:id="1818_v1_112" n="v1_100"/>braced her; but as I imprinted the
+          first kiss on her lips, they became livid with the hue of death; her features appeared to
+          change, and I thought that I held the corpse of my dead mother in my arms; a shroud
+          enveloped her form, and I saw the grave-worms crawling in the folds of the flannel. I
+          started from my sleep with horror; a cold dew covered my forehead, my teeth chattered, and
+          every limb became convulsed; when, by the dim and yellow light of the moon, as it forced
+          its way through the window-shutters, I beheld the wretch—the miserable monster whom I had
+          created. He held up the curtain of the bed; and his eyes, if eyes they may be called, were
+          fixed on me. His jaws opened, and he muttered some inarticulate sounds, while a grin
+          wrinkled his cheeks. He might have spoken, but I did not hear; one hand was <pb
+            xml:id="1818_v1_113" n="v1_101"/>stretched out, seemingly to detain me, but I escaped,
+          and rushed down stairs. I took refuge in the court-yard belonging to the house which I
+          inhabited; where I remained during the rest of the night, walking up and down in the
+          greatest agitation, listening attentively, catching and fearing each sound as if it were
+          to announce the approach of the demoniacal corpse to which I had so miserably given
+          life.</p>
         <p>Oh! no mortal could support the horror of that countenance. A mummy again endued with
           animation could not be so hideous as that wretch. I had gazed on him while unfinished; he
           was ugly then; but when those muscles and joints were rendered capable of motion, it
@@ -1198,9 +1204,12 @@
           ease the load that weighed upon my mind. I traversed the streets, without any clear
           conception of where I was, or what I was doing. My heart palpitated in the sickness of
           fear; and I hurried on with irregular steps, not daring to look about me:</p>
-        <p> Like one who, on a lonely road, Doth walk in fear and dread, And, having once turn’d
-          round, walks on, And turns no more his head; Because he knows a frightful fiend Doth close
-          behind him tread*.<note>* Coleridge’s “Ancient Mariner.”</note></p>
+        <cit><lg><l rend="i2">Like one who, on a lonely road,</l>
+          <l rend="i5">Doth walk in fear and dread,</l>
+        <l rend="i2">And, having once turn’d round, walks on,</l>
+        <l rend="i5">And turns no more his head;</l>
+        <l rend="i2">Because he knows a frightful fiend</l>
+        <l rend="i5">Doth close behind him tread*.</l></lg><bibl>* Coleridge’s “Ancient Mariner.”</bibl></cit>
         <p>Continuing thus, I came at length opposite to the inn at which the various diligences and
           carriages usually stopped.</p>
         <p><pb xml:id="1818_v1_116" n="v1_104"/>Here I paused, I knew not why; but I remained some
@@ -1259,8 +1268,9 @@
         <p>“My dear Victor,” cried he, “what, for God’s sake, is the matter? Do not laugh in that
           manner. How ill you are! What is the cause of all this?”</p>
         <p>“Do not ask me,” cried I, putting my hands before my eyes, for I thought I saw the
-          dreaded spectre glide into the room; “_he_ can tell.—Oh, save me! save me!” I imagined
-          that the monster seized me; I struggled furiously, and fell down in a fit.</p>
+          dreaded spectre glide into the room; “<hi rend="italic">he</hi> can tell.—Oh, save me!
+          save me!” I imagined that the monster seized me; I struggled furiously, and fell down in a
+          fit.</p>
         <p>Poor Clerval! what must have been his feelings? A meeting, which he anticipated with such
           joy, so strangely turned to bitterness. But I was not the witness of his grief; for I was
           lifeless, and did not recover my senses for a long, long time.</p>
@@ -1308,7 +1318,7 @@
         <pb xml:id="1818_v1_126" n="v1_114"/>
         <head>CHAPTER V.</head>
         <p>C<hi rend="smallcaps">LERVAL</hi> then put the following letter into my hands.</p>
-        <ab rend="center">_To_ V. F<hi rend="smallcaps">RANKENSTEIN</hi>.</ab>
+        <ab rend="center"><hi rend="italic">To</hi> V. F<hi rend="smallcaps">RANKENSTEIN</hi>.</ab>
         <p>“<hi rend="smallcaps">MY DEAR COUSIN</hi>,</p>
         <p>“I cannot describe to you the uneasiness we have all felt concerning your health. We
           cannot help imagining that your friend Clerval conceals the extent of your disorder: for
@@ -1334,12 +1344,11 @@
           interest he might become a judge. But, besides that he is not at all fitted for such an
           occupation, it is certainly more creditable to cultivate the earth for the sustenance of
           man, than to be the confidant, and sometimes the accomplice, of his vices; which is <pb
-            xml:id="1818_v1_129" n="v1_117"/></p>
-        <p>the profession of a lawyer. I said, that the employments of a prosperous farmer, if they
-          were not a more honourable, they were at least a happier species of occupation than that
-          of a judge, whose misfortune it was always to meddle with the dark side of human nature.
-          My uncle smiled, and said, that I ought to be an advocate myself, which put an end to the
-          conversation on that subject.</p>
+            xml:id="1818_v1_129" n="v1_117"/>the profession of a lawyer. I said, that the
+          employments of a prosperous farmer, if they were not a more honourable, they were at least
+          a happier species of occupation than that of a judge, whose misfortune it was always to
+          meddle with the dark side of human nature. My uncle smiled, and said, that I ought to be
+          an advocate myself, which put an end to the conversation on that subject.</p>
         <p>“And now I must tell you a little story that will please, and perhaps amuse you. Do you
           not remember Justine Moritz? Probably you do not; I will relate her history, therefore, in
           a few words. Madame Moritz, her mother, was a widow with four children, of whom Justine
@@ -1409,7 +1418,7 @@
           happy; or——I cannot bear to think of the other side of the question; my tears already
           flow. Adieu, my dearest cousin.</p>
         <p>“E<hi rend="smallcaps">LIZABETH</hi> L<hi rend="smallcaps">AVENZA</hi>.</p>
-        <p>“_Geneva, March 18th, 17—_.”</p>
+        <p>“<hi rend="italic">Geneva, March 18th, 17—</hi>.”</p>
         <p>“Dear, dear Elizabeth!” I exclaimed when I had read her letter, “I will write instantly,
           and relieve them from the anxiety they must feel.” I wrote, and this exertion greatly
           fatigued me; but my convalescence had commenced, and proceeded regularly. In another
@@ -1508,7 +1517,7 @@
         <head>CHAPTER VI.</head>
         <p> O<hi rend="smallcaps">N</hi> my return, I found the following letter from my
           father:—</p>
-        <ab rend="center">_”To_ V. F<hi rend="smallcaps">RANKENSTEIN</hi>.</ab>
+        <ab rend="center"><hi rend="italic">”To</hi> V. F<hi rend="smallcaps">RANKENSTEIN</hi>.</ab>
         <p>“<hi rend="smallcaps">MY DEAR VICTOR</hi>,</p>
         <p>“You have probably waited impatiently for a letter to fix the date of your return to us;
           and I was at first tempted to write only a few lines, merely mentioning the day on which I
@@ -1561,7 +1570,7 @@
           kindness and affection for those who love you, and not with hatred for your enemies.</p>
         <p>“Your affectionate and afflicted father,</p>
         <p>A<hi rend="smallcaps">LPHONSE</hi> F<hi rend="smallcaps">RANKENSTEIN</hi>.</p>
-        <p>“_Geneva, May 12th, 17—_.”</p>
+        <p>“<hi rend="italic">Geneva, May 12th, 17—</hi>.”</p>
         <p>Clerval, who had watched my countenance as I read this letter, was surprised to observe
           the despair that succeeded to the joy I at first expressed on receiving news from my
           friends. I threw the letter on the table, and covered my face with my hands.</p>
@@ -1607,9 +1616,9 @@
           prognosticate peace, or to mock at my unhappiness?”</p>
         <p>I fear, my friend, that I shall render myself tedious by dwelling on these preliminary
           circumstances; but they were days of comparative happiness, and I think of them with
-          pleasure. My <pb xml:id="1818_v1_156" n="v1_144"/></p>
-        <p>country, my beloved country! who but a native can tell the delight I took in again
-          beholding thy streams, thy mountains, and, more than all, thy lovely lake!</p>
+          pleasure. My <pb xml:id="1818_v1_156" n="v1_144"/>country, my beloved country! who but a
+          native can tell the delight I took in again beholding thy streams, thy mountains, and,
+          more than all, thy lovely lake!</p>
         <p>Yet, as I drew nearer home, grief and fear again overcame me. Night also closed around;
           and when I could hardly see the dark mountains, I felt still more gloomily. The picture
           appeared a vast and dim scene of evil, and I foresaw obscurely that I was destined to
@@ -1924,11 +1933,10 @@
           now that falsehood lies heavier at my heart than all my other sins. The God of heaven
           forgive me! Ever since I was condemned, my confessor has besieged me; he threatened and
           menaced, until I almost began to think that I was the monster that he <pb
-            xml:id="1818_v1_187" n="v1_175"/></p>
-        <p>said I was. He threatened excommunication and hell fire in my last moments, if I
-          continued obdurate. Dear lady, I had none to support me; all looked on me as a wretch
-          doomed to ignominy and perdition. What could I do? In an evil hour I subscribed to a lie;
-          and now only am I truly miserable.”</p>
+            xml:id="1818_v1_187" n="v1_175"/>said I was. He threatened excommunication and hell fire
+          in my last moments, if I continued obdurate. Dear lady, I had none to support me; all
+          looked on me as a wretch doomed to ignominy and perdition. What could I do? In an evil
+          hour I subscribed to a lie; and now only am I truly miserable.”</p>
         <p>She paused, weeping, and then continued—“I thought with horror, my sweet lady, that you
           should believe your Justine, whom your blessed aunt had so highly honoured, and whom you
           loved, was a creature capable of a crime which none but the devil himself could have
@@ -2015,8 +2023,12 @@
       <!--rm: centered underscore -->
       <head>VOL. II.</head>
       <!--rm: centered double-underscore -->
-      <ab rend="center">_London:_</ab>
-      <ab rend="center">_PRINTED FOR_</ab>
+      <ab rend="center">
+        <hi rend="italic">London:</hi>
+      </ab>
+      <ab rend="center">
+        <hi rend="italic">PRINTED FOR</hi>
+      </ab>
       <ab rend="center">LACKINGTON, HUGHES, HARDING, MAVOR, &amp; JONES,</ab>
       <ab rend="center">FINSBURY SQUARE.</ab>
       <!--rm: centered underscore -->
@@ -2075,7 +2087,7 @@
           and whose existence was bound up in mine. I thought also of my father, and surviving
           brother: should I by my base desertion leave them exposed and unprotected to the malice of
           the fiend whom I had let loose among them?</p>
-        <p>At these moments I wept bitterly, <pb xml:id="1818_v2_009" n="v2_006"/>and wished that
+        <p>At these moments I wept bitterly, <pb xml:id="1818_v2_010" n="v2_006"/>and wished that
           peace would revisit my mind only that I might afford them consolation and happiness. But
           that could not be. Remorse extinguished every hope. I had been the author of unalterable
           evils; and I lived in daily fear, lest the monster whom I had created should perpetrate
@@ -2124,17 +2136,16 @@
           I would sacrifice my life to your peace. We surely shall be happy: quiet in our native
           country, and not mingling in the world, what can disturb our tranquillity?”</p>
         <p>She shed tears as she said this, distrusting the very solace that she gave; but at the
-          same time she smiled, that <pb xml:id="1818_v2_015" n="v2_011"/></p>
-        <p>she might chase away the fiend that lurked in my heart. My father, who saw in the
-          unhappiness that was painted in my face only an exaggeration of that sorrow which I might
-          naturally feel, thought that an amusement suited to my taste would be the best means of
-          restoring to me my wonted serenity. It was from this cause that he had removed to the
-          country; and, induced by the same motive, he now proposed that we should all make an
-          excursion to the valley of Chamounix. I had been there before, but Elizabeth and Ernest
-          never had; and both had often expressed an earnest desire to see the scenery of this
-          place, which had been described to them as so wonderful and sublime. Accordingly we
-          departed from Geneva on this tour about the middle of the month of August, nearly two
-          months after the death of Justine.</p>
+          same time she smiled, that <pb xml:id="1818_v2_015" n="v2_011"/>she might chase away the
+          fiend that lurked in my heart. My father, who saw in the unhappiness that was painted in
+          my face only an exaggeration of that sorrow which I might naturally feel, thought that an
+          amusement suited to my taste would be the best means of restoring to me my wonted
+          serenity. It was from this cause that he had removed to the country; and, induced by the
+          same motive, he now proposed that we should all make an excursion to the valley of
+          Chamounix. I had been there before, but Elizabeth and Ernest never had; and both had often
+          expressed an earnest desire to see the scenery of this place, which had been described to
+          them as so wonderful and sublime. Accordingly we departed from Geneva on this tour about
+          the middle of the month of August, nearly two months after the death of Justine.</p>
         <p><pb xml:id="1818_v2_016" n="v2_012"/>The weather was uncommonly fine; and if mine had
           been a sorrow to be chased away by any fleeting circumstance, this excursion would
           certainly have had the effect intended by my father. As it was, I was somewhat interested
@@ -2221,10 +2232,14 @@
           renders them more necessary beings. If our impulses were confined to hunger, thirst, and
           desire, we might be nearly free; but now we are moved by every wind that blows, and a
           chance word or scene that that word may convey to us.</p>
-        <p>We rest; a dream has power to poison sleep. We rise; one wand’ring thought pollutes the
-          day. We feel, conceive, or reason; laugh, or weep, Embrace fond woe, or cast our cares
-          away; It is the same: for, be it joy or sorrow, The path of its departure still is free.
-          Man’s yesterday may ne’er be like his morrow; Nought may endure but mutability!</p>
+        <lg><l>We rest; a dream has power to poison sleep.</l>
+        <l rend="i2">We rise; one wand’ring thought pollutes the day.</l>
+        <l>We feel, conceive, or reason; laugh, or weep,</l>
+        <l rend="i2">Embrace fond woe, or cast our cares away;</l>
+        <l>It is the same: for, be it joy or sorrow,</l>
+        <l rend="i2">The path of its departure still is free.</l>
+        <l>Man’s yesterday may ne’er be like his morrow;</l>
+        <l rend="i2">Nought may endure but mutability!</l></lg>
         <p><pb xml:id="1818_v2_025" n="v2_021"/>It was nearly noon when I arrived at the top of the
           ascent. For some time I sat upon the rock that overlooks the sea of ice. A mist covered
           both that and the surrounding mountains. Presently a breeze dissipated the cloud, and I
@@ -2725,12 +2740,12 @@
         <p>“It was a lady on horseback, accompanied by a countryman as a guide. The lady was dressed
           in a dark suit, and covered with a thick black veil. Agatha asked a question; to which the
           stranger only replied by pronouncing, in a sweet accent, the name of Felix. Her voice was
-          musical, but unlike that of <pb xml:id="1818_v2_075" n="v2_071"/></p>
-        <p>either of my friends. On hearing this word, Felix came up hastily to the lady; who, when
-          she saw him, threw up her veil, and I beheld a countenance of angelic beauty and
-          expression. Her hair of a shining raven black, and curiously braided; her eyes were dark,
-          but gentle, although animated; her features of a regular proportion, and her complexion
-          wondrously fair, each cheek tinged with a lovely pink.</p>
+          musical, but unlike that of <pb xml:id="1818_v2_075" n="v2_071"/>either of my friends. On
+          hearing this word, Felix came up hastily to the lady; who, when she saw him, threw up her
+          veil, and I beheld a countenance of angelic beauty and expression. Her hair of a shining
+          raven black, and curiously braided; her eyes were dark, but gentle, although animated; her
+          features of a regular proportion, and her complexion wondrously fair, each cheek tinged
+          with a lovely pink.</p>
         <p>“Felix seemed ravished with delight when he saw her, every trait of sorrow vanished from
           his face, and it instantly expressed a degree of ecstatic joy, of which I could hardly
           have believed it capable; his eyes sparkled, as his cheek flushed with pleasure; and at
@@ -3341,18 +3356,17 @@
           quitted the district where I had so long resided. I travelled only at night, fearful of
           encountering the visage of a human being. Nature decayed around me, and the sun became
           heatless; rain and snow poured around me; mighty rivers were <pb xml:id="1818_v2_135"
-            n="v2_131"/></p>
-        <p>frozen; the surface of the earth was hard, and chill, and bare, and I found no shelter.
-          Oh, earth! how often did I imprecate curses on the cause of my being! The mildness of my
-          nature had fled, and all within me was turned to gall and bitterness. The nearer I
-          approached to your habitation, the more deeply did I feel the spirit of revenge enkindled
-          in my heart. Snow fell, and the waters were hardened, but I rested not. A few incidents
-          now and then directed me, and I possessed a map of the country; but I often wandered wide
-          from my path. The agony of my feelings allowed me no respite: no incident occurred from
-          which my rage and misery could not extract its food; but a circumstance that happened when
-          I arrived on the confines of Switzerland, when the sun had recovered its warmth, and the
-          earth again began to look <pb xml:id="1818_v2_136" n="v2_132"/>green, confirmed in an
-          especial manner the bitterness and horror of my feelings.</p>
+            n="v2_131"/>frozen; the surface of the earth was hard, and chill, and bare, and I found
+          no shelter. Oh, earth! how often did I imprecate curses on the cause of my being! The
+          mildness of my nature had fled, and all within me was turned to gall and bitterness. The
+          nearer I approached to your habitation, the more deeply did I feel the spirit of revenge
+          enkindled in my heart. Snow fell, and the waters were hardened, but I rested not. A few
+          incidents now and then directed me, and I possessed a map of the country; but I often
+          wandered wide from my path. The agony of my feelings allowed me no respite: no incident
+          occurred from which my rage and misery could not extract its food; but a circumstance that
+          happened when I arrived on the confines of Switzerland, when the sun had recovered its
+          warmth, and the earth again began to look <pb xml:id="1818_v2_136" n="v2_132"/>green,
+          confirmed in an especial manner the bitterness and horror of my feelings.</p>
         <p>“I generally rested during the day, and travelled only when I was secured by night from
           the view of man. One morning, however, finding that my path lay through a deep wood, I
           ventured to continue my journey after the sun had risen; the day, which was one of the
@@ -3622,8 +3636,10 @@
       <!-- rm: centered underline -->
       <head>VOL. III.</head>
       <!-- rm: centered double-underline -->
-      <ab rend="center">_London:_</ab>
-      <ab rend="center">_<hi rend="smallcaps">PRINTED FOR</hi>_</ab>
+      <ab rend="center">
+        <hi rend="italic">London:</hi>
+      </ab>
+      <ab rend="center"><hi rend="smallcaps">PRINTED FOR</hi></ab>
       <ab rend="center">LACKINGTON, HUGHES, HARDING, MAVOR, &amp; JONES,</ab>
       <ab rend="center">FINDSBURY SQUARE.</ab>
       <ab rend="center">1818</ab>
@@ -3806,13 +3822,15 @@
           and wondrous nature that the worldy-minded teach us to look for only in the imagination.
           But even human sympathies were not sufficient to satisfy his eager mind. The scenery of
           external nature, which others regard only with admiration, he loved with ardour:</p>
-        <p>
-          <!-- following poetry block is 2 points smaller than base text --> _——— “The sounding
-          cataract_ _Haunted <hi rend="italic">him</hi> like a passion: the tall rock,_ _The
-          mountain, and the deep and gloomy wood,_ _Their colours and their forms, were then to him_
-          _An appetite; a feeling, and a love,_ _That had no need of a remoter charm,_ _By thought
-          supplied, or any interest_ _Unborrowed from the eye*<note>* Wordsworth’s "Tintern
-            Abbey."</note>.”_</p>
+          <!-- following poetry block is 2 points smaller than base text -->
+        <cit><lg><l>——— “The sounding cataract</l>
+        <l>Haunted <hi rend="italic">him</hi> like a passion: the tall rock,</l>
+        <l>The mountain, and the deep and gloomy wood,</l>
+        <l>Their colours and their forms, were then to him</l>
+        <l>An appetite; a feeling, and a love,</l>
+        <l>That had no need of a remoter charm,</l>
+        <l>By thought supplied, or any interest</l>
+          <l>Unborrowed from the eye*.”</l></lg><bibl>* Wordsworth’s "Tintern Abbey."</bibl></cit>
         <p>And where does he now exist? Is this gentle and lovely being lost forever? Has this mind
           so replete with <pb xml:id="1818_v3_023" n="v3_019"/>ideas, imaginations fanciful and
           magnificent, which formed a world, whose existence depended on the life of its creator;
@@ -4594,8 +4612,8 @@ rm: Yet still words like those I have recorded would burst uncontrollably from m
         <p>We arrived at Havre on the 8th of May, and instantly proceeded to Paris, where my father
           had some business which detained us a few weeks. In this city, I received the following
           letter from Elizabeth:—</p>
-        <p><pb xml:id="1818_v3_100" n="v3_096"/>“_To_ V<hi rend="smallcaps">ICTOR</hi> F<hi
-            rend="smallcaps">RANKENSTEIN</hi>.</p>
+        <p><pb xml:id="1818_v3_100" n="v3_096"/>“<hi rend="italic">To</hi> V<hi rend="smallcaps"
+            >ICTOR</hi> F<hi rend="smallcaps">RANKENSTEIN</hi>.</p>
         <p>“<hi rend="smallcaps">MY DEAREST FRIEND</hi>,</p>
         <p>“It gave me the greatest pleasure to receive a letter from my uncle dated at Paris; you
           are no longer at a formidable distance, and I may hope to see you in less than a
@@ -5281,7 +5299,9 @@ rm: Yet still words like those I have recorded would burst uncontrollably from m
           design, fraught with extensive utility to my fellow-creatures, then could I live to fulfil
           it. But such is not my destiny; I must pursue and destroy the being to whom I gave
           existence; then my lot on earth will be fulfilled, and I may die.”</p>
-        <p>_September 2d._</p>
+        <p>
+          <hi rend="italic">September 2d.</hi>
+        </p>
         <p><hi rend="smallcaps">MY BELOVED SISTER</hi>,</p>
         <p>I write to you, encompassed by peril, and ignorant whether I am ever doomed to see again
           dear England, and the dearer friends that inhabit it. I <pb xml:id="1818_v3_168"
@@ -5360,11 +5380,16 @@ rm: Yet still words like those I have recorded would burst uncontrollably from m
         <p>How all this will terminate, I know not; but I had rather die, than return shamefully,—my
           purpose unfulfilled. Yet I fear such will be my fate; the men, unsupported by ideas of
           glory and honour, can never willingly continue to endure their present hardships.</p>
-        <p>_September 7th._</p>
+        <p>
+          <hi rend="italic">September 7th.</hi>
+        </p>
         <p>The die is cast; I have consented to return, if we are not destroyed. Thus are my hopes
           blasted by cowardice and indecision; I come back ignorant and disappointed. It requires
           more philosophy than I possess, to bear this injustice with patience.</p>
-        <p><pb xml:id="1818_v3_176" n="v3_172"/>_September 12th._</p>
+        <p>
+          <pb xml:id="1818_v3_176" n="v3_172"/>
+          <hi rend="italic">September 12th.</hi>
+        </p>
         <p>It is past; I am returning to England. I have lost my hopes of utility and glory;—I have
           lost my friend. But I will endeavour to detail these bitter circumstances to you, my dear
           sister; and, while I am wafted towards England, and towards you, I will not despond.</p>
@@ -5575,7 +5600,7 @@ rm: Yet still words like those I have recorded would burst uncontrollably from m
       </div>
       <head>THE END.</head>
 
-      <ab rend="center">_Printed by Macdonald &amp; Son, Cloth Fair, London_</ab>
+      <ab rend="center"><hi rend="italic">Printed by Macdonald &amp; Son, Cloth Fair, Londo</hi>n</ab>
     </div>
   </text>
 </xml>
