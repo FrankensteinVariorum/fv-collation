@@ -17,7 +17,7 @@
             <xsl:apply-templates select="//text"/>
             <p class="boilerplate"><span><strong>Maintained by: </strong> Elisa E. Beshero-Bondar
                 (ebb8 at pitt.edu)   <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a> <xsl:text>  </xsl:text><strong>Last modified:
-                </strong><xsl:value-of select="format-dateTime(current-dateTime(), '[h1]:[m01] [P] on [MNn] [D] [z].')"/>.</span></p>	
+                </strong><xsl:value-of select="format-dateTime(current-dateTime(), '[h1]:[m01] [P] on [MNn] [D] [z]')"/>.</span></p>	
             
         </body>
         </html>
