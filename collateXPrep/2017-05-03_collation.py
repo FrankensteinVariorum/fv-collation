@@ -21,7 +21,7 @@ regexPageBreak = re.compile(r'<pb.+?/>')
 ignore = ['xml']
 inlineEmpty = ['pb']
 inlineContent = ['hi']
-blockElement = ['p', 'div', 'lg', 'l', 'head', 'comment', 'note', 'ab']
+blockElement = ['p', 'div', 'lg', 'l', 'head', 'comment', 'note', 'ab', 'cit', 'bibl']
 
 def normalizeSpace(inText):
     """Replaces all whitespace spans with single space characters"""
