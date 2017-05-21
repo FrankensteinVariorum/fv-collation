@@ -73,7 +73,7 @@
     </div>
   </header>
   <text>
-    <div type="volume">
+<milestone unit="volume" n="1"/>
       <pb xml:id="1818_v1_001"/>
       <!--<head>FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS.</head>
       <pb xml:id="1818_v1_002"/>-->
@@ -86,11 +86,11 @@
       <!--rm: centered ornamental -->
       <epigraph>
         <cit>
-          <lg>
+          <quote><lg>
             <l>Did I request thee, Maker, from my clay</l>
             <l>To mould me man? Did I solicit thee</l>
             <l>From darkness to promote me?—</l>
-          </lg>
+          </lg></quote>
           <bibl>P<hi rend="smallcaps">ARADISE</hi> L<hi rend="smallcaps">OST</hi>.</bibl>
         </cit>
       </epigraph>
@@ -1203,12 +1203,12 @@
           ease the load that weighed upon my mind. I traversed the streets, without any clear
           conception of where I was, or what I was doing. My heart palpitated in the sickness of
           fear; and I hurried on with irregular steps, not daring to look about me:</p>
-        <cit><lg><l rend="i2">Like one who, on a lonely road,</l>
+        <cit><quote><lg><l rend="i2">Like one who, on a lonely road,</l>
           <l rend="i5">Doth walk in fear and dread,</l>
         <l rend="i2">And, having once turn’d round, walks on,</l>
         <l rend="i5">And turns no more his head;</l>
         <l rend="i2">Because he knows a frightful fiend</l>
-        <l rend="i5">Doth close behind him tread*.</l></lg><bibl>* Coleridge’s “Ancient Mariner.”</bibl></cit>
+        <l rend="i5">Doth close behind him tread*.</l></lg></quote><note><bibl>* Coleridge’s “Ancient Mariner.”</bibl></note></cit>
         <p>Continuing thus, I came at length opposite to the inn at which the various diligences and
           carriages usually stopped.</p>
         <p><pb xml:id="1818_v1_116" n="v1_104"/>Here I paused, I knew not why; but I remained some
@@ -2002,8 +2002,8 @@
           But I—I was a wretch, and none ever conceived of the misery that I then endured.</p>
       </div>
       <head>END OF VOL. I.</head>
-    </div>
-    <div type="volume">
+    
+    <milestone unit="volume" n="2"/>
       <pb xml:id="1818_v2_003"/>
       <head>FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS.</head>
       <!--rm: centered ornamental -->
@@ -2011,11 +2011,11 @@
       <!--rm: centered ornamental -->
       <epigraph>
         <cit>
-          <lg>
+          <quote><lg>
             <l>Did I request thee, Maker, from my clay</l>
             <l>To mould me man? Did I solicit thee</l>
             <l>From darkness to promote me?—</l>
-          </lg>
+          </lg></quote>
           <bibl>P<hi rend="smallcaps">ARADISE</hi> L<hi rend="smallcaps">OST</hi>.</bibl>
         </cit>
       </epigraph>
@@ -3614,8 +3614,8 @@
           degree of tranquillity.</p>
       </div>
       <head>END OF VOL. II</head>
-    </div>
-    <div type="volume">
+    
+    <milestone unit="volume" n="3"/>
       <!-- we had not yet discussed what to do with redundant front-copy -->
       <pb xml:id="1818_v3_003"/>
       <head>FRANKENSTEIN; <hi rend="smallcaps">OR,</hi> THE MODERN PROMETHEUS.</head>
@@ -3624,11 +3624,11 @@
       <!-- RM: centered ornamental -->
       <epigraph>
         <cit>
-          <lg>
+          <quote><lg>
             <l>Did I request thee, Maker, from my clay</l>
             <l>To mould me man? Did I solicit thee</l>
             <l>From darkness to promote me?—</l>
-          </lg>
+          </lg></quote>
           <bibl>P<hi rend="smallcaps">ARADISE</hi> L<hi rend="smallcaps">OST</hi>.</bibl>
         </cit>
       </epigraph>
@@ -3822,14 +3822,14 @@
           But even human sympathies were not sufficient to satisfy his eager mind. The scenery of
           external nature, which others regard only with admiration, he loved with ardour:
           <!-- following poetry block is 2 points smaller than base text -->
-        <cit><lg><l>——— “The sounding cataract</l>
+        <cit><quote><lg><l>——— “The sounding cataract</l>
         <l>Haunted <hi rend="italic">him</hi> like a passion: the tall rock,</l>
         <l>The mountain, and the deep and gloomy wood,</l>
         <l>Their colours and their forms, were then to him</l>
         <l>An appetite; a feeling, and a love,</l>
         <l>That had no need of a remoter charm,</l>
         <l>By thought supplied, or any interest</l>
-          <l>Unborrowed from the eye*.”</l></lg><bibl>* Wordsworth’s "Tintern Abbey."</bibl></cit></p>
+          <l>Unborrowed from the eye*.”</l></lg></quote><note><bibl>* Wordsworth’s "Tintern Abbey."</bibl></note></cit></p>
         <p>And where does he now exist? Is this gentle and lovely being lost forever? Has this mind
           so replete with <pb xml:id="1818_v3_023" n="v3_019"/>ideas, imaginations fanciful and
           magnificent, which formed a world, whose existence depended on the life of its creator;
@@ -5597,10 +5597,11 @@ rm: Yet still words like those I have recorded would burst uncontrollably from m
         <p>He sprung from the cabin-window, as he said this, upon the ice-raft which lay close to
           the vessel. He was soon borne away by the waves, and lost in darkness and distance.</p>
       </div>
-    </div>
+    
       <head>THE END.</head>
+      </div>
 
       <ab rend="center"><hi rend="italic">Printed by Macdonald &amp; Son, Cloth Fair, London</hi></ab>
-    </div>
+    
   </text>
 </xml>
