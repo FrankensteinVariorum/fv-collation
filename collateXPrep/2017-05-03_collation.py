@@ -12,16 +12,17 @@ regexLeadingBlankLine = re.compile(r'^\n')
 regexPageBreak = re.compile(r'<pb.+?/>')
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
-# Tags to ignore, with content to keep: xml
+# Tags to ignore, with content to keep: xml, comment, anchor
 # Structural elements: div, p, lg, l
-# Inline elements (empty) retained in normalization: pb
+# Inline elements (empty) retained in normalization: pb, milestone, xi:include
 # Inline and block elements (with content) retained in normalization: note, hi, head, ab
 
 # GIs fall into one three classes
-ignore = ['xml']
-inlineEmpty = ['pb']
+# ebb: Due to trouble with pulldom parsing XML comments, I have converted these to comment elements
+ignore = ['xml', 'comment']
+inlineEmpty = ['pb', 'milestone', 'anchor', 'xi:include']
 inlineContent = ['hi']
-blockElement = ['p', 'div', 'lg', 'l', 'head', 'comment', 'note', 'ab', 'cit', 'bibl']
+blockElement = ['p', 'div', 'epigraph', 'lg', 'l', 'head', 'comment', 'note', 'ab', 'cit', 'quote', 'bibl', 'header']
 
 def normalizeSpace(inText):
     """Replaces all whitespace spans with single space characters"""
@@ -43,7 +44,7 @@ def extract(input_xml):
         elif event == pulldom.COMMENT:
             doc.expandNode(node)
             output += node.toxml()
-        # empty inline elements: pb
+        # empty inline elements: pb, milestone
         elif event == pulldom.START_ELEMENT and node.localName in inlineEmpty:
             output += node.toxml()
         # non-empty inline elements: note, hi, head, l, lg, div, p, ab, 
