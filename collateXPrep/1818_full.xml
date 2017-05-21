@@ -10,7 +10,7 @@
       <div type="preface">
         <pb xml:id="F1818_v1_007" n="viii"/>
         <head>PREFACE.</head>
-        <!--rm: centered ornamental -->
+        <comment>rm: centered ornamental </comment>
         <p>T<hi rend="smallcaps">HE</hi> event on which this fiction is founded has been supposed,
           by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible
           occurrence. I shall not be supposed as according the remotest degree of serious faith to
@@ -59,7 +59,7 @@
     <div type="novel">
       <pb xml:id="F1818_v1_013" n="v1_001"/>
       <head>FRANKENSTEIN; <hi rend="smallcaps">OR, THE</hi> MODERN PROMETHEUS.</head>
-      <!-- RM: centered ornamental -->
+      <comment> RM: centered ornamental </comment>
       <div type="letter"><head>LETTER I</head>
       <ab rend="center"><hi rend="italic">To Mrs.</hi> S<hi rend="smallcaps">AVILLE</hi>, <hi
           rend="italic">England.</hi></ab>
@@ -431,7 +431,7 @@
         read it in some future day!</p>
       <pb xml:id="F1818_v1_051" n="v1_039"/>
       <head><hi rend="italic">FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS.</hi></head>
-      <!-- RM: centered ornamental -->
+      <comment> RM: centered ornamental </comment>
       <div type="chapter">
         <head>CHAPTER I.</head>
         <p> I <hi rend="smallcaps">AM</hi> by birth a Genevese; and my family is one of the most
@@ -2289,7 +2289,7 @@
           of fire. I greedily devoured the remnants of the shepherd’s breakfast, which consisted of
           bread, cheese, milk, and wine; the latter, however, I did not like. <pb
             xml:id="F1818_v2_046" n="v2_042"
-          /><!-- the word 'Then' does not appear on the PDF source, but was in the base converted text -->overcome
+          /><comment> the word 'Then' does not appear on the PDF source, but was in the base converted text </comment>overcome
           by fatigue, I lay down among some straw, and fell asleep.</p>
         <p>“It was noon when I awoke; and, allured by the warmth of the sun, which shone brightly on
           the white ground, I determined to recommence my travels; and, depositing the remains of
@@ -2693,7 +2693,7 @@
           from intercourse with them, except through means which I obtained by stealth, when I was
           unseen and unknown, and which rather increased than satisfied the desire I had of becoming
           one among my fellows. The gentle words of Agatha, <pb xml:id="F1818_v2_086" n="v2_082"
-          /><!-- RM edits end 03/20/2017 -->and the animated smiles of the charming Arabian, were
+          /><comment> RM edits end 03/20/2017 </comment>and the animated smiles of the charming Arabian, were
           not for me. The mild exhortations of the old man, and the lively conversation of the loved
           Felix, were not for me. Miserable, unhappy wretch!</p>
         <p>“Other lessons were impressed upon me even more deeply. I heard of the difference of
@@ -3630,7 +3630,7 @@
           and wondrous nature that the worldy-minded teach us to look for only in the imagination.
           But even human sympathies were not sufficient to satisfy his eager mind. The scenery of
           external nature, which others regard only with admiration, he loved with ardour:
-          <!-- following poetry block is 2 points smaller than base text -->
+          <comment> following poetry block is 2 points smaller than base text </comment>
         <cit><quote><lg><l>——— “The sounding cataract</l>
         <l>Haunted <hi rend="italic">him</hi> like a passion: the tall rock,</l>
         <l>The mountain, and the deep and gloomy wood,</l>
@@ -3658,7 +3658,7 @@
           flat, but fertile, and almost every town was marked by the remembrance of some story. We
           saw Tilbury Fort, and remembered the Spanish armada; Gravesend, Woolwich, and Greenwich,
           places which I had heard of even in my
-          country.<!--<note type="editor" resp="rm">Mary Shelley’s text gives a date DECEMBER that cannot be reconciled with OCTOBER on page 24. Text-base from original editors displays SEPTEMBER. Revised to match original edition in PDF source.</note>--></p>
+          country.<comment><note type="editor" resp="rm">Mary Shelley’s text gives a date DECEMBER that cannot be reconciled with OCTOBER on page 24. Text-base from original editors displays SEPTEMBER. Revised to match original edition in PDF source.</note></comment></p>
         <p>At length, we saw the numerous steeples of London, St. Paul’s towering above all, and the
           Tower famed in English history.</p>
       </div>
@@ -4396,8 +4396,8 @@
           wretch I had created. I had a feeling that I should be supposed mad, and this for ever
           chained my tongue, when I would have given the whole world to have confided the fatal
           secret.</p>
-        <p><!--<note type="editor" resp="rm">This block is NOT in the 1818 PDF. </note>
-rm: Yet still words like those I have recorded would burst uncontrollably from me. I could offer no explanation of them; but their truth in part relieved the burden of my mysterious woe.--></p>
+        <p><comment><note type="editor" resp="rm">This block is NOT in the 1818 PDF. </note>
+rm: Yet still words like those I have recorded would burst uncontrollably from me. I could offer no explanation of them; but their truth in part relieved the burden of my mysterious woe.</comment></p>
         <p>Upon this occasion my father said, with an expression of unbounded wonder, “What do you
           mean, Victor? <pb xml:id="F1818_v3_098" n="v3_094"/>are you mad? My dear son, I entreat you
           never to make such an assertion again.”</p>
@@ -5201,7 +5201,7 @@ rm: Yet still words like those I have recorded would burst uncontrollably from m
           lost my friend. But I will endeavour to detail these bitter circumstances to you, my dear
           sister; and, while I am wafted towards England, and towards you, I will not despond.</p>
         <p>September 19th,
-          <!--<note type="editor" resp="rm">PDF displays 19 but correct date should be SEPTEMBER 9</note>-->
+          <comment><note type="editor" resp="rm">PDF displays 19 but correct date should be SEPTEMBER 9</note></comment>
           the ice began to move, and roarings like thunder were heard at a distance, as the islands
           split and cracked in every direction. We were in the most imminent peril; but, as we could
           only remain passive, my chief attention was occupied by my unfortunate guest, whose
@@ -5409,7 +5409,9 @@ rm: Yet still words like those I have recorded would burst uncontrollably from m
       </div>
     </div>
 
-      <ab rend="center"><hi rend="italic">Printed by Macdonald &amp; Son, Cloth Fair, London</hi></ab>
+      <div type="backmatter">
+        <xi:include href="standOff_Includes/1818_backMatter.xml" parse="xml"/>
+      </div>
     
   </text>
 </xml>
