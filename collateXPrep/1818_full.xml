@@ -1,75 +1,11 @@
 <xml xmlns:xi="http://www.w3.org/2001/XInclude">
   <header>
-    <xi:include href="standOff_Includes/1818_header.xml"/>
+    <xi:include href="standOff_Includes/1818_header.xml" parse="xml"/>
   </header>
   <text>
 <milestone unit="volume" n="1"/>
-    <div type="frontmatter">
-      <pb xml:id="F1818_v1_001"/>
-      <!--<head>FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS.</head>
-      <pb xml:id="F1818_v1_002"/>-->
-      <!--blank page-->
-      <pb xml:id="F1818_v1_003"/>
-      <head>FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS.</head>
-      <!--rm: centered ornamental -->
-
-      <head>IN THREE VOLUMES.</head>
-      <!--rm: centered ornamental -->
-      <epigraph>
-        <cit>
-          <quote><lg>
-            <l>Did I request thee, Maker, from my clay</l>
-            <l>To mould me man? Did I solicit thee</l>
-            <l>From darkness to promote me?—</l>
-          </lg></quote>
-          <bibl>P<hi rend="smallcaps">ARADISE</hi> L<hi rend="smallcaps">OST</hi>.</bibl>
-        </cit>
-      </epigraph>
-      <!--rm: centered underscore -->
-
-      <head>VOL. I.</head>
-      <!--rm: centered double-underscore -->
-      <ab rend="center">
-        <hi rend="italic">London:</hi>
-      </ab>
-
-      <ab rend="center">
-        <hi rend="italic">PRINTED FOR</hi>
-      </ab>
-
-      <ab rend="center">LACKINGTON, HUGHES, HARDING, MAVOR, &amp; JONES,</ab>
-
-      <ab rend="center">FINSBURY SQUARE.</ab>
-    <!--rm: centered underscore -->
-
-      <ab rend="center">1818.</ab>
-
-      <pb xml:id="F1818_v1_004"/>
-      <ab rend="center">
-        <hi rend="italic">Printed by Macdonald and Son, Cloth Fair, London</hi>
-      </ab>
-    <!-- library stamp: FüRSTLICHE | BIBLIOTHEK | IN CORVEY. -->
-      <pb xml:id="F1818_v1_005"/>
-      <ab rend="center">TO</ab>
-
-      <head>WILLIAM GODWIN,</head>
-
-      <ab rend="center"><hi rend="italic">AUTHOR OF POLITICAL JUSTICE, CALEB WILLIAMS, &amp;c.</hi></ab>
-
-      <head>THESE VOLUMES</head>
-
-      <ab>
-        <hi rend="italic">Are respectfully inscribed</hi>
-      </ab>
-
-      <ab>
-        <hi rend="smallcaps">BY</hi>
-      </ab>
-
-      <ab>THE AUTHOR.</ab>
-
-      <pb xml:id="F1818_v1_006"/>
-      <!--blank page-->
+    <div type="frontmatter" n="1">
+      <xi:include href="standOff_Includes/1818_frontMatter1.xml" parse="xml"/>
     </div>
       <div type="preface">
         <pb xml:id="F1818_v1_007" n="viii"/>
@@ -1937,41 +1873,8 @@
       <head>END OF VOL. I.</head>
     
     <milestone unit="volume" n="2"/>
-        <div type="frontmatter">
-      <pb xml:id="F1818_v2_003"/>
-      <head>FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS.</head>
-      <!--rm: centered ornamental -->
-      <head>IN THREE VOLUMES.</head>
-      <!--rm: centered ornamental -->
-      <epigraph>
-        <cit>
-          <quote><lg>
-            <l>Did I request thee, Maker, from my clay</l>
-            <l>To mould me man? Did I solicit thee</l>
-            <l>From darkness to promote me?—</l>
-          </lg></quote>
-          <bibl>P<hi rend="smallcaps">ARADISE</hi> L<hi rend="smallcaps">OST</hi>.</bibl>
-        </cit>
-      </epigraph>
-      <!--rm: centered underscore -->
-      <head>VOL. II.</head>
-      <!--rm: centered double-underscore -->
-      <ab rend="center">
-        <hi rend="italic">London:</hi>
-      </ab>
-      <ab rend="center">
-        <hi rend="italic">PRINTED FOR</hi>
-      </ab>
-      <ab rend="center">LACKINGTON, HUGHES, HARDING, MAVOR, &amp; JONES,</ab>
-      <ab rend="center">FINSBURY SQUARE.</ab>
-      <!--rm: centered underscore -->
-      <ab rend="center">1818.</ab>
-      <pb xml:id="F1818_v2_004"/>
-      <!-- library stamp -->
-      <pb xml:id="F1818_v2_005"/>
-      <head>FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, <hi rend="italic">THE MODERN
-        PROMETHEUS</hi></head>
-      <!--rm: centered ornamental -->
+        <div type="frontmatter" n="2">
+          <xi:include href="standOff_Includes/1818_frontMatter2.xml" parse="xml"/>
         </div>
       <div type="chapter">
         <head>CHAPTER I.</head>
@@ -3550,39 +3453,10 @@
       </div>
       <head>END OF VOL. II</head>
     
-    <milestone unit="volume" n="3"/><div type="frontmatter">
-      <!-- we had not yet discussed what to do with redundant front-copy -->
-      <pb xml:id="F1818_v3_003"/>
-      <head>FRANKENSTEIN; <hi rend="smallcaps">OR,</hi> THE MODERN PROMETHEUS.</head>
-      <!-- RM: centered ornamental -->
-      <head>IN THREE VOLUMES</head>
-      <!-- RM: centered ornamental -->
-      <epigraph>
-        <cit>
-          <quote><lg>
-            <l>Did I request thee, Maker, from my clay</l>
-            <l>To mould me man? Did I solicit thee</l>
-            <l>From darkness to promote me?—</l>
-          </lg></quote>
-          <bibl>P<hi rend="smallcaps">ARADISE</hi> L<hi rend="smallcaps">OST</hi>.</bibl>
-        </cit>
-      </epigraph>
-      <!-- rm: centered underline -->
-      <head>VOL. III.</head>
-      <!-- rm: centered double-underline -->
-      <ab rend="center">
-        <hi rend="italic">London:</hi>
-      </ab>
-      <ab rend="center"><hi rend="smallcaps">PRINTED FOR</hi></ab>
-      <ab rend="center">LACKINGTON, HUGHES, HARDING, MAVOR, &amp; JONES,</ab>
-      <ab rend="center">FINSBURY SQUARE.</ab>
-      <ab rend="center">1818</ab>
-      <pb xml:id="F1818_v3_004"/>
-      <!-- blank page with library stamp -->
-      <pb xml:id="F1818_v3_005" n="v3_001"/>
-      <head>FRANKENSTEIN; <hi rend="smallcaps">OR,</hi>
-        <hi rend="italic">THE MODERN PROMETHEUS.</hi></head>
-      <!-- rm: centered ornamental --></div>
+    <milestone unit="volume" n="3"/>
+        <div type="frontmatter" n="3">
+          <xi:include href="standOff_Includes/1818_frontMatter3.xml" parse="xml"/>
+        </div>
       <div type="chapter">
         <head>CHAPTER I.</head>
         <p>D<hi rend="smallcaps">AY</hi> after day, week after week, passed away on my return to
