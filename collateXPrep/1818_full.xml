@@ -74,6 +74,7 @@
   </header>
   <text>
 <milestone unit="volume" n="1"/>
+    <div type="frontmatter">
       <pb xml:id="1818_v1_001"/>
       <!--<head>FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS.</head>
       <pb xml:id="1818_v1_002"/>-->
@@ -82,7 +83,7 @@
       <head>FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS.</head>
       <!--rm: centered ornamental -->
 
-      <head>IN THREE VOLUMES</head>
+      <head>IN THREE VOLUMES.</head>
       <!--rm: centered ornamental -->
       <epigraph>
         <cit>
@@ -108,7 +109,8 @@
 
       <ab rend="center">LACKINGTON, HUGHES, HARDING, MAVOR, &amp; JONES,</ab>
 
-      <head>FINSBURY SQUARE.</head>
+      <ab rend="center">FINSBURY SQUARE.</ab>
+    <!--rm: centered underscore -->
 
       <ab rend="center">1818.</ab>
 
@@ -116,13 +118,13 @@
       <ab rend="center">
         <hi rend="italic">Printed by Macdonald and Son, Cloth Fair, London</hi>
       </ab>
-      <!-- library stamp -->
+    <!-- library stamp: FüRSTLICHE | BIBLIOTHEK | IN CORVEY. -->
       <pb xml:id="1818_v1_005"/>
       <ab rend="center">TO</ab>
 
       <head>WILLIAM GODWIN,</head>
 
-      <ab rend="center"><hi rend="italic">AUTHOR OF POLITICAL JUSTICE, CALEB WILLIAMS, &amp;C.</hi></ab>
+      <ab rend="center"><hi rend="italic">AUTHOR OF POLITICAL JUSTICE, CALEB WILLIAMS, &amp;c.</hi></ab>
 
       <head>THESE VOLUMES</head>
 
@@ -138,7 +140,7 @@
 
       <pb xml:id="1818_v1_006"/>
       <!--blank page-->
-
+    </div>
       <div type="preface">
         <pb xml:id="1818_v1_007" n="viii"/>
         <head>PREFACE.</head>
@@ -2005,10 +2007,11 @@
       <head>END OF VOL. I.</head>
     
     <milestone unit="volume" n="2"/>
+        <div type="frontmatter">
       <pb xml:id="1818_v2_003"/>
       <head>FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS.</head>
       <!--rm: centered ornamental -->
-      <head>IN THREE VOLUMES</head>
+      <head>IN THREE VOLUMES.</head>
       <!--rm: centered ornamental -->
       <epigraph>
         <cit>
@@ -2039,6 +2042,7 @@
       <head>FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, <hi rend="italic">THE MODERN
         PROMETHEUS</hi></head>
       <!--rm: centered ornamental -->
+        </div>
       <div type="chapter">
         <head>CHAPTER I.</head>
         <p>N<hi rend="smallcaps">OTHING</hi> is more painful to the human mind, than, after the
@@ -3616,7 +3620,7 @@
       </div>
       <head>END OF VOL. II</head>
     
-    <milestone unit="volume" n="3"/>
+    <milestone unit="volume" n="3"/><div type="frontmatter">
       <!-- we had not yet discussed what to do with redundant front-copy -->
       <pb xml:id="1818_v3_003"/>
       <head>FRANKENSTEIN; <hi rend="smallcaps">OR,</hi> THE MODERN PROMETHEUS.</head>
@@ -3641,14 +3645,14 @@
       </ab>
       <ab rend="center"><hi rend="smallcaps">PRINTED FOR</hi></ab>
       <ab rend="center">LACKINGTON, HUGHES, HARDING, MAVOR, &amp; JONES,</ab>
-      <ab rend="center">FINDSBURY SQUARE.</ab>
+      <ab rend="center">FINSBURY SQUARE.</ab>
       <ab rend="center">1818</ab>
       <pb xml:id="1818_v3_004"/>
       <!-- blank page with library stamp -->
       <pb xml:id="1818_v3_005" n="v3_001"/>
       <head>FRANKENSTEIN; <hi rend="smallcaps">OR,</hi>
         <hi rend="italic">THE MODERN PROMETHEUS.</hi></head>
-      <!-- rm: centered ornamental -->
+      <!-- rm: centered ornamental --></div>
       <div type="chapter">
         <head>CHAPTER I.</head>
         <p>D<hi rend="smallcaps">AY</hi> after day, week after week, passed away on my return to
