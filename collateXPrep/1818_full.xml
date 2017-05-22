@@ -1,12 +1,15 @@
-<xml xmlns:xi="http://www.w3.org/2001/XInclude">
+<xml>
+  <comment>ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi="http://www.w3.org/2001/XInclude", and apply
+  xi: namespace prefix to include elements in the document.
+  </comment>
   <anchor type="collate" xml:id="C1"/>
   <header>
-    <xi:include href="standOff_Includes/1818_header.xml" parse="xml"/>
+    <include href="standOff_Includes/1818_header.xml" parse="xml"/>
   </header>
   <text>
     <milestone unit="volume" n="1"/>
     <div type="frontmatter" n="1">
-      <xi:include href="standOff_Includes/1818_frontMatter1.xml" parse="xml"/>
+      <include href="standOff_Includes/1818_frontMatter1.xml" parse="xml"/>
     </div>
     <div type="preface">
       <pb xml:id="F1818_v1_007" n="viii"/>
@@ -1952,7 +1955,7 @@
 
         <milestone unit="volume" n="2"/>
         <div type="frontmatter" n="2">
-          <xi:include href="standOff_Includes/1818_frontMatter2.xml" parse="xml"/>
+          <include href="standOff_Includes/1818_frontMatter2.xml" parse="xml"/>
         </div>
         <anchor type="collate" xml:id="C15"/>
         <div type="chapter">
@@ -3577,7 +3580,7 @@
         <head>END OF VOL. II</head>
         <milestone unit="volume" n="3"/>
         <div type="frontmatter" n="3">
-          <xi:include href="standOff_Includes/1818_frontMatter3.xml" parse="xml"/>
+          <include href="standOff_Includes/1818_frontMatter3.xml" parse="xml"/>
         </div><anchor type="collate" xml:id="C24"/>
         <div type="chapter">
           <head>CHAPTER I.</head>
@@ -5574,7 +5577,7 @@
     </div>
 
     <div type="backmatter">
-      <xi:include href="standOff_Includes/1818_backMatter.xml" parse="xml"/>
+      <include href="standOff_Includes/1818_backMatter.xml" parse="xml"/>
     </div>
 
   </text><anchor type="collate" xml:id="C34"/>

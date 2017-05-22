@@ -1,14 +1,17 @@
-<xml xmlns:xi="http://www.w3.org/2001/XInclude">
+<xml>
+  <comment>ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi="http://www.w3.org/2001/XInclude", and apply
+    xi: namespace prefix to include elements in the document.
+  </comment>
   <anchor type="collate" xml:id="C1"/>
   <header>
-    <xi:include href="standOff_Includes/1831_header.xml" parse="xml"/>
+    <include href="standOff_Includes/1831_header.xml" parse="xml"/>
   </header>
   <text>
     <div type="frontmatter">
-      <xi:include href="standOff_Includes/1831_frontMatter.xml" parse="xml"/>
+      <include href="standOff_Includes/1831_frontMatter.xml" parse="xml"/>
     </div>
     <div type="introduction">
-     <xi:include href="standOff_Includes/1831_introduction.xml" parse="xml"/>
+     <include href="standOff_Includes/1831_introduction.xml" parse="xml"/>
     </div>
     <div type="preface">
       <pb xml:id="F1831_v_017"/>
@@ -5559,7 +5562,7 @@
       </div>
     </div>
        <div type="backmatter">
-        <xi:include href="standOff_Includes/1831_backMatter.xml" parse="xml"/>
+        <include href="standOff_Includes/1831_backMatter.xml" parse="xml"/>
        </div>
   </text><anchor type="collate" xml:id="C34"/>
 </xml>
