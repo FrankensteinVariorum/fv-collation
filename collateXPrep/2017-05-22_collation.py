@@ -83,7 +83,7 @@ with open('1818_Ch1.xml', 'rb') as f1818file, \
     f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
     f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
     collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, f1831_tokenlist]}
-    table = collate(collation_input, output='svg_simple', segmentation=True)
+    table = collate(collation_input, output='tei', segmentation=True)
     # table = collate(collation_input, segmentation=True, layout='vertical')
     print(table)
 
