@@ -18,7 +18,8 @@ regexPageBreak = re.compile(r'<pb.+?/>')
 # Inline and block elements (with content) retained in normalization: note, hi, head, ab
 
 # GIs fall into one three classes
-# ebb: Due to trouble with pulldom parsing XML comments, I have converted these to comment elements
+# 2017-05-21 ebb: Due to trouble with pulldom parsing XML comments, I have converted these to comment elements
+# 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
 ignore = ['xml', 'comment']
 inlineEmpty = ['pb', 'milestone', 'anchor', 'xi:include']
 inlineContent = ['hi']
