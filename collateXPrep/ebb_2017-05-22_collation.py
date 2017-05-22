@@ -78,15 +78,15 @@ for name in glob.glob('collationChunks/1818_fullFlat_*'):
     with open (name, 'rb') as f1818file, \
     open('collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
     open('collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
-    open('output/collation_' + matchString + 'xml', 'w') as outputFile: 
-    f1818_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1818file))).split('\n')
-    f1823_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1823file))).split('\n')
-    f1831_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1831file))).split('\n')
-    f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
-    f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
-    f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
-    collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, f1831_tokenlist]}
-    table = collate(collation_input, output='tei', segmentation=True)
-    # table = collate(collation_input, segmentation=True, layout='vertical')
+    open('output/collation_' + matchString, 'w') as outputFile: 
+        f1818_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1818file))).split('\n')
+        f1823_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1823file))).split('\n')
+        f1831_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1831file))).split('\n')
+        f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
+        f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
+        f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
+        collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, f1831_tokenlist]}
+        table = collate(collation_input, output='tei', segmentation=True)
+        # table = collate(collation_input, segmentation=True, layout='vertical')
     print(table)
 
