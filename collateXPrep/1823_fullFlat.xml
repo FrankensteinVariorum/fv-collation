@@ -2,11 +2,11 @@
   <comment>ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi="http://www.w3.org/2001/XInclude", and apply
     xi: namespace prefix to include elements in the document.
   </comment>
-  <anchor type="collate" xml:id="C1"/>
   <header>
     <include href="standOff_Includes/1823_header.xml" parse="xml"/>
   </header>
   <text>
+    <anchor type="collate" xml:id="C1"/>
     <milestone unit="volume" n="1"/>
     <milestone unit="frontmatter" type="start" n="1"/>
       <include href="standOff_Includes/1823_frontMatter1.xml" parse="xml"/>
@@ -5299,5 +5299,5 @@
     <milestone unit="backmatter" type="start" n="1"/>
       <include href="standOff_Includes/1823_backMatter.xml" parse="xml"/>
     <milestone unit="backmatter" type="end" n="1"/>
-  </text><anchor type="collate" xml:id="C34"/>
+  </text>
 </xml>
