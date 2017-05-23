@@ -88,5 +88,5 @@ for name in glob.glob('collationChunks/1818_fullFlat_*'):
         collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, f1831_tokenlist]}
         table = collate(collation_input, output='tei', segmentation=True)
         # table = collate(collation_input, segmentation=True, layout='vertical')
-    print(table)
+        print(table, file=outputFile)
 
