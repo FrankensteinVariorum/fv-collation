@@ -3,6 +3,7 @@ from xml.dom import pulldom
 import string
 import re
 import json
+import glob
 
 regexWhitespace = re.compile(r'\s+')
 regexNonWhitespace = re.compile(r'\S+')
@@ -72,18 +73,23 @@ def processToken(inputText):
 def processWitness(inputWitness, id):
     return {'id': id, 'tokens' : [processToken(token) for token in inputWitness]}
 
-with open('1818_Ch1.xml', 'rb') as f1818file, \
-    open('1823_Ch1.xml', 'rb') as f1823file, \
-    open('1831_Chs1-2.xml', 'rb') as f1831file, \
-    open('output.svg', 'w') as outputFile:
-    f1818_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1818file))).split('\n')
-    f1823_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1823file))).split('\n')
-    f1831_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1831file))).split('\n')
-    f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
-    f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
-    f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
-    collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, f1831_tokenlist]}
-    table = collate(collation_input, output='tei', segmentation=True)
-    # table = collate(collation_input, segmentation=True, layout='vertical')
-    print(table)
+for name in glob.glob('collationChunks/1818_fullFlat_*'):
+    matchString = name.split("fullFlat_", 1)[1]
+    # ebb: above gets C30.xml for example
+    matchStr = matchString.split(".", 1)[0]
+    # ebb: above strips off the file extension
+    with open (name, 'rb') as f1818file, \
+    open('collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
+    open('collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
+    open('textTableOutput/collation_' + matchStr + '.txt', 'w') as outputFile: 
+        f1818_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1818file))).split('\n')
+        f1823_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1823file))).split('\n')
+        f1831_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1831file))).split('\n')
+        f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
+        f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
+        f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
+        collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, f1831_tokenlist]}
+        # table = collate(collation_input, output='tei', segmentation=True)
+        table = collate(collation_input, segmentation=True, layout='vertical')
+        print(table, file=outputFile)
 
