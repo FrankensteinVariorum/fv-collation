@@ -1,12 +1,19 @@
 from collatex import *
 from xml.dom import pulldom
-import string
 import re
-import json
 import glob
-import datetime
+from datetime import datetime, date
+# import pytz
+# from tzlocal import get_localzone
 
-today = datetime.date.today()
+# today = date.today()
+# utc_dt = datetime(today, tzinfo=pytz.utc)
+# dateTime = utc_dt.astimezone(get_localzone())
+# strDateTime = str(dateTime)
+
+now = datetime.utcnow()
+nowStr = str(now)
+
 regexWhitespace = re.compile(r'\s+')
 regexNonWhitespace = re.compile(r'\S+')
 regexEmptyTag = re.compile(r'/>$')
@@ -28,12 +35,14 @@ inlineEmpty = ['milestone', 'anchor', 'include']
 inlineContent = ['hi']
 blockElement = ['p', 'div', 'lg', 'l', 'head', 'comment', 'note', 'ab', 'cit', 'quote', 'bibl', 'header']
 
+
 def normalizeSpace(inText):
     """Replaces all whitespace spans with single space characters"""
     if regexNonWhitespace.search(inText):
         return regexWhitespace.sub('\n', inText)
     else:
         return ''
+
 
 def extract(input_xml):
     """Process entire input XML document, firing on events"""
@@ -66,29 +75,31 @@ def extract(input_xml):
             continue
     return output
 
-def normalize(inputText):
-    return regexPageBreak('',inputText)
+
+# def normalize(inputText):
+#    return regexPageBreak('',inputText)
 
 def processToken(inputText):
-    return {"t": inputText + ' ', "n": regexPageBreak.sub('',inputText)}
+    return {"t": inputText + ' ', "n": inputText}
+
 
 def processWitness(inputWitness, id):
-    return {'id': id, 'tokens' : [processToken(token) for token in inputWitness]}
+    return {'id': id, 'tokens': [processToken(token) for token in inputWitness]}
+
 
 for name in glob.glob('collationChunks/1818_fullFlat_*'):
     matchString = name.split("fullFlat_", 1)[1]
-    with open (name, 'rb') as f1818file, \
-    open('collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
-    open('collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
-    open('output/collation_' + matchString, 'w') as outputFile: 
-        f1818_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1818file))).split('\n')
-        f1823_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1823file))).split('\n')
-        f1831_tokens = regexLeadingBlankLine.sub('',regexBlankLine.sub('\n', extract(f1831file))).split('\n')
+    with open(name, 'rb') as f1818file, \
+            open('collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
+            open('collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
+            open('teiOutput/collation_' + matchString, 'w') as outputFile:
+        f1818_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1818file))).split('\n')
+        f1823_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1823file))).split('\n')
+        f1831_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1831file))).split('\n')
         f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
         f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
         f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
         collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, f1831_tokenlist]}
         table = collate(collation_input, output='tei', segmentation=True)
         # table = collate(collation_input, segmentation=True, layout='vertical')
-        print(table, file=outputFile)
-
+        print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
