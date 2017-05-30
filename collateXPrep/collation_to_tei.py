@@ -28,7 +28,11 @@ regexPageBreak = re.compile(r'<pb.+?/>')
 # Inline and block elements (with content) retained in normalization: note, hi, head, ab
 
 # GIs fall into one three classes
-# 2017-05-21 ebb: Due to trouble with pulldom parsing XML comments, I have converted these to comment elements
+# 2017-05-21 ebb: Due to trouble with pulldom parsing XML comments, I have converted these to comment elements,
+# 2017-05-21 ebb: to be ignored during collation.
+# 2017-05-30 ebb: Determined that comment elements cannot really be ignored when they have text nodes (the text is
+# 2017-05-30 ebb: collated but the tags are not). Decision to make the comments into self-closing elements with text
+# 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
 ignore = ['xml', 'pb', 'comment']
 inlineEmpty = ['milestone', 'anchor', 'include']

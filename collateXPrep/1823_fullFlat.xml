@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><xml>
-  <comment>ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi="http://www.w3.org/2001/XInclude", and apply
-    xi: namespace prefix to include elements in the document.
-  </comment>
+  <comment text="ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi='http://www.w3.org/2001/XInclude', and apply     xi: namespace prefix to include elements in the document.   "/>
   <header>
     <include href="standOff_Includes/1823_header.xml" parse="xml"/>
   </header>
@@ -14,7 +12,7 @@
     <pb xml:id="F1823_v1_012"/>
     <milestone unit="preface" type="start" n="1"/>
       <head>PREFACE.</head>
-      <comment>ebb: centered underscore a few lines below</comment>
+      <comment text="ebb: centered underscore a few lines below"/>
 
       <p>T<hi rend="smallcaps">HE</hi> event on which this fiction is founded has been supposed, by Dr. Darwin, and some of
         the physiological writers of Germany, as not of impossible occurrence. I shall not be
@@ -63,7 +61,7 @@
       <head>FRANKENSTEIN;</head>
       <head><hi rend="smallcaps">OR</hi>,</head>
       <head>THE MODERN PROMETHEUS.</head>
-      <comment>ebb: centered underscore a few lines below</comment>
+      <comment text="ebb: centered underscore a few lines below"/>
       <milestone unit="letter" type="start" n="1"/>
         <head>LETTER I.</head>
         <head><hi rend="italic">To Mrs</hi>. S<hi rend="smallcaps">AVILLE</hi>, <hi rend="italic">England</hi>.</head>
@@ -433,7 +431,7 @@
         <head>FRANKENSTEIN;</head>
         <head><hi rend="smallcaps">OR</hi>,</head>
         <head>THE MODERN PROMETHEUS.</head>
-        <comment>ebb: centered underscore a few lines below</comment><anchor type="collate" xml:id="C07"/>
+        <comment text="ebb: centered underscore a few lines below"/><anchor type="collate" xml:id="C07"/>
         <milestone unit="chapter" type="start" n="1"/>
           <head>CHAPTER I.</head>
           <p>I <hi rend="smallcaps">AM</hi> by birth a Genevese; and my family is one of the most
@@ -577,7 +575,7 @@
             discoveries. It is even possible, that the train of my ideas would never have received
             the fatal impulse that led to my ruin. But the cursory glance my father had taken of my
             volume by no means assured me that he was acquainted with its contents; and I continued
-            to read with the greadest <comment>RM: sic</comment> avidity.</p>
+            to read with the greadest <comment text="RM: sic"/> avidity.</p>
           <p>When I returned home, my first care was to procure the whole works of this author, and
             afterwards of Paracelsus and Albertus Magnus. I read and studied the wild fancies of
             these writers with delight; they appeared to me trea<pb xml:id="F1823_v1_073" n="54"/>sures known to few beside myself; and although I often wished to communicate these
@@ -717,8 +715,7 @@
           <p>I threw myself into the chaise that was to convey me away, and indulged in the most
             melancholy reflections. I, who had ever been surrounded by amiable companions,
             continually engaged in endeavouring to bestow mutual pleasure, I was now alone. In th e
-              niversity,<comment> RM: sic: image shows this not 'the university', this appears to be
-              the actual typsetting error not OCR error </comment> whither I was going, I must form
+              niversity,<comment text=" RM: sic: image shows this not 'the university', this appears to be               the actual typsetting error not OCR error "/> whither I was going, I must form
             my own friends, and be my own protector. My life had hitherto been remarkably secluded
             and domestic; and this had given me invincible repugnance to new countenances. I loved
             my brothers, Elizabeth, and Clerval; <pb xml:id="F1823_v1_087" n="68"/>these were “old
@@ -1064,7 +1061,7 @@
             ease the load that weighed upon my mind. I traversed the streets, without any clear
             conception of where I was, or what I was doing. My heart palpitated in the sickness of
             fear; and I hurried on with irregular steps, not daring to look about me:</p>
-          <comment> the poem and footnote are 2 points smaller than body text </comment>
+          <comment text=" the poem and footnote are 2 points smaller than body text "/>
           <p><cit>
             <quote>
               <lg>
@@ -1281,7 +1278,7 @@
             happy; or——I cannot bear to think of the other side of the question; my tears already
             flow. Adieu, my dearest cousin.</p>
           <p>“E<hi rend="smallcaps">LIZABETH</hi> L<hi rend="smallcaps">AVENZA</hi>.</p>
-          <p><comment> RM: location and date are 2 points smaller than body text </comment> “Geneva,
+          <p><comment text=" RM: location and date are 2 points smaller than body text "/> “Geneva,
             March 18th, 17—.</p><anchor type="collate" xml:id="C12"/>
           <p>“Dear, dear Elizabeth!” I exclaimed when I had read her letter, “I will write
             instantly, and relieve them from the anxiety they must feel.” I wrote, and this exertion
@@ -2229,7 +2226,7 @@
             wood. I quickly collected some branches; but they were wet, and would not burn. I was
             pained at this, and sat still watching the operation of the fire. The wet wood which I
             had placed near the heat dried, and itself became inflamed. I reflected on this;</p>
-          <p><pb xml:id="F1823_v1_238" n="219"/><comment> Rm: finished to here 04/19/2017 </comment>
+          <p><pb xml:id="F1823_v1_238" n="219"/><comment text=" Rm: finished to here 04/19/2017 "/>
             and, by touching the various branches, I discovered the cause, and busied myself in
             collecting a great quantity of wood, that I might dry it, and have a plentiful supply of
             fire. When night came on, and brought sleep with it, I was in the greatest fear lest my
@@ -2570,7 +2567,7 @@
             but smiled. He assisted her to dismount, and dismissing her guide, conducted her into
             the cottage. Some conversation took place between him and his father; and the young
             stranger knelt at the old man’s feet, and would have kissed his hand, but he raised her,
-            and embraced her affectionately.<comment> RM: edit to here 05/03/2017 </comment></p>
+            and embraced her affectionately.<comment text=" RM: edit to here 05/03/2017 "/></p>
           <p>“I soon perceived, that althoug the stranger uttered articulate sounds, and appeared to
             have a language of her own, she was neither understood by, nor herself understood, the
             cottagers. They made many signs which I did not comprehend; but I saw that her presence
@@ -3579,7 +3576,7 @@
             wondrous nature that the worldly-minded teach us to look for only in the imagination.
             But even human sympathies were not sufficient to satisfy his eager mind. The scenery of
             external nature, which others regard only with admiration, he loved with ardour:
-              <comment> RM: text following for poem appears 2 points smaller </comment>
+              <comment text=" RM: text following for poem appears 2 points smaller "/>
             <cit><quote><lg><l>————————————“The sounding cataract</l>
                   <l>Haunted him like a passion: the tall rock,</l>
                   <l>The mountain, and the deep and gloomy wood,</l>
@@ -4234,7 +4231,7 @@
             health rendered every precaution necessary that could insure tranquillity. Mr. Kirwin
             came in, and insisted that my strength should not be exhausted by too much exertion. But
             the appearance of my father was to me like that of my good angel, and I gradually
-            recovered my health. <comment> RM edited to here 05/09/2017 </comment>
+            recovered my health. <comment text=" RM edited to here 05/09/2017 "/>
             <pb xml:id="F1823_v2_444" n="171"/>As my sickness quitted me, I was absorbed by a gloomy
             and black melancholy, that .nothing could dissipate. The image of Clerval was for ever
             before me, ghastly and murdered. More than once the agitation into which these
@@ -4311,7 +4308,7 @@
             to embark for Havre. I preferred this plan principally because I dreaded to see again
             those places in which I had enjoyed a few moments of tranquillity with my beloved
             Clerval. I thought with horror of seeing again those persons whom we had been accustomed
-            to visit together, and who might mkae<comment>ebb: printer error for make</comment> inquiries concerning an event, the very
+            to visit together, and who might mkae<comment text="ebb: printer error for make"/> inquiries concerning an event, the very
             remembrance of which made me again feel the pang I endured <pb xml:id="F1823_v2_453" n="180"/>when I gazed on his lifeless form in the inn at ——.</p>
           <p>As for my father, his desires and exertions were bounded to the again seeing me
             restored to health and peace of mind. His tenderness and attentions were unremitting; my
