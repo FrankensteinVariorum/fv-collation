@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><xml>
-  
+  <anchor type="collate" xml:id="C01"/>
   <comment>ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi="http://www.w3.org/2001/XInclude", and apply
     xi: namespace prefix to include elements in the document.
   </comment>
@@ -7,7 +7,6 @@
     <include href="standOff_Includes/1831_header.xml" parse="xml"/>
   </header>
   <text>
-    <anchor type="collate" xml:id="C1"/>
     <milestone unit="frontmatter" type="start" n="1"/>
       <include href="standOff_Includes/1831_frontMatter.xml" parse="xml"/>
     <milestone unit="frontmatter" type="end" n="1"/>
@@ -31,7 +30,7 @@
         relations of existing events can yield.</p>
       <p>I have thus endeavoured to preserve the truth of the elementary principles of human nature,
         while I have not scrupled to innovate upon their combinations. The Iliad, the tragic poetry
-        of Greece,—Shakspeare, in the Tempest, and Midsummer Night’s Dream,—and most especially
+        of Greece,—Shakspeare<comment><note>RM: printer error: Shakspeare</note></comment>, in the Tempest, and Midsummer Night’s Dream,—and most especially
         Milton, in Paradise Lost, conform to this rule; and the most humble novelist, who seeks to
         confer or receive amusement from his labours, may, without presumption, apply to prose
         fiction a licence, or rather a rule, from the adoption of which so many exquisite
@@ -39,7 +38,7 @@
       <p>The circumstance on which my story rests was suggested in casual conversation. It was
         commenced partly as a source of amusement, and partly as an expedient for exercising any
         untried resources of mind. Other motives were <pb xml:id="F1831_v_018" n="2"/>mingled with
-        these as the work proceeded. I am by no means indifferent to the manner in which whatever
+        these, as the work proceeded. I am by no means indifferent to the manner in which whatever
         moral tendencies exist in the sentiments or characters it contains shall affect the reader;
         yet my chief concern in this respect has been limited to the avoiding the enervating effects
         of the novels of the present day, and to the exhibition of the amiableness of domestic
@@ -61,18 +60,14 @@
         ghostly visions. The following tale is the only one which has been completed.</p>
       <p>Marlow, September, 1817.</p>
     <milestone unit="preface" type="end" n="1"/>
-    <anchor type="collate" xml:id="C2"/>
+    <anchor type="collate" xml:id="C02"/>
     <milestone unit="novel" type="start" n="1"/>
-      <p>
         <pb xml:id="F1831_v_019"/>
         <comment>ebb: This page is unnumbered.</comment>
         <head>FRANKENSTEIN;</head>
-      </p>
-      <head><hi rend="smallcaps">OR</hi>,</head>
-      <p>
+        <head><hi rend="smallcaps">OR</hi>,</head>
         <head>THE MODERN PROMETHEUS.</head>
         <comment>ebb: centered underscore beneath</comment>
-      </p>
       <milestone unit="letter" type="start" n="1"/>
         <head>LETTER I.</head>
         <head>
@@ -91,7 +86,7 @@
           persuaded that the pole is the seat of frost and desolation; it ever presents itself to my
           imagination as the region of beauty and delight. There, Margaret, the sun is for ever
           visible; its broad disk just skirting the horizon, and diffusing a perpetual splendour.
-          There—for with your leave, my sister, I will put some trust in preceding navigators—          there snow and frost are banished; and, sailing over a calm sea, we may be wafted to a
+          There—for with your leave, my sister, I will put some trust in preceding navigators—there snow and frost are banished; and, sailing over a calm sea, we may be wafted to a
           land surpassing in wonders and in beauty every region hitherto discovered on the habitable
           globe. Its productions and features may be without ex<pb xml:id="F1831_v_020" n="4"/>ample, as the phenomena of the heavenly bodies undoubtedly are in those undiscovered
           solitudes. What may not be expected in a country of eternal light? I may there discover
@@ -120,7 +115,7 @@
           my father’s dying injunction had forbidden my uncle to allow me to embark in a seafaring
           life.</p>
         <p>These visions faded when I perused, for the first time, those poets whose effusions
-          entranced my soul, and lifted <pb xml:id="F1831_v_021" n="5"/>it to heaven.I also became a
+          entranced my soul, and lifted <pb xml:id="F1831_v_021" n="5"/>it to heaven. I also became a
           poet, and for one year lived in a Paradise of my own creation; I imagined that I also
           might obtain a niche in the temple where the names of Homer and Shakspeare are
           consecrated. You are well acquainted with my failure, and how heavily I bore the
@@ -162,7 +157,7 @@
           that I may again and again testify my gratitude for all your love and kindness.</p>
         <p>Your affectionate brother,</p>
         <p>R. W<hi rend="smallcaps">ALTON</hi>.</p>
-      <milestone unit="letter" type="end" n="1"/><anchor type="collate" xml:id="C3"/>
+      <milestone unit="letter" type="end" n="1"/><anchor type="collate" xml:id="C03"/>
       <milestone unit="letter" type="start" n="2"/>
         <head>LETTER II.</head>
         <head>
@@ -191,7 +186,7 @@
           conviction, that I perceived the necessity of becoming acquainted with more languages than
           that of my native country. Now I am twenty-eight, and am in reality more illiterate than
           many schoolboys of fifteen. It is true that I have thought more, and that my day dreams
-          are more extended and magnificent; but they want (as the painters call it) <hi rend="italic">keeping</hi>; and I greatly need a friend who would have sense enough not
+          are more extended and magnificent; but they want (as the painters call it) <hi rend="italic">keeping;</hi> and I greatly need a friend who would have sense enough not
           to despise me as romantic, and affection enough for me to endeavour to regulate my
           mind.</p>
         <p>Well, these are useless complaints; I shall certainly find no friend on the wide ocean,
@@ -260,7 +255,7 @@
         <p>R<hi rend="smallcaps">OBERT</hi> W<hi rend="smallcaps">ALTON</hi>.</p>
         <pb xml:id="F1831_v_026" n="10"/>
       <milestone unit="letter" type="end" n="2"/>
-      <anchor type="collate" xml:id="C4"/>
+      <anchor type="collate" xml:id="C04"/>
       <milestone unit="letter" type="start" n="3"/>
         <head>LETTER III.</head>
         <head>
@@ -292,7 +287,7 @@
           beloved sister!</p>
         <p>R.W.</p>
         <pb xml:id="F1831_v_027" n="11"/>
-      <milestone unit="letter" type="end" n="3"/><anchor type="collate" xml:id="C5"/>
+      <milestone unit="letter" type="end" n="3"/><anchor type="collate" xml:id="C05"/>
       <milestone unit="letter" type="start" n="4"/>
         <head>LETTER IV.</head>
         <head>
@@ -397,7 +392,7 @@
           ocean; yet I have found a man who, before his spirit had been broken by misery, I should
           have been happy to have possessed as the brother of my heart.</p>
         <p>I shall continue my journal concerning the stranger at intervals, should I have any fresh
-          incidents to record.</p><anchor type="collate" xml:id="C6"/>
+          incidents to record.</p><anchor type="collate" xml:id="C06"/>
         <p>August 13th, 17—.</p>
         <p>My affection for my guest increases every day. He excites at once my admiration and my
           pity to an astonishing degree. How can I see so noble a creature destroyed by misery,
@@ -492,7 +487,7 @@
           melancholy sweetness; I see his thin hand raised in animation, while the lineaments of his
           face are irradiated by the soul within. Strange and harrowing must be his story; frightful
           the storm which embraced the gallant vessel on its course, and wrecked it—thus!</p>
-        <comment>ebb: centered underscore a few lines below</comment><anchor type="collate" xml:id="C7"/>
+        <comment>ebb: centered underscore a few lines below</comment><anchor type="collate" xml:id="C07"/>
         
         <milestone unit="chapter" type="start" n="1"/>
           <head>CHAPTER I.</head>
@@ -740,7 +735,7 @@
             I could banish disease from the human frame, and render man invulnerable to any but a
             violent death!</p>
           <p>Nor were these my only visions. The raising of ghosts or devils was a promise liberally
-            accorded by my favourite authors, the fulfillment of which I most eagerly sought; and if
+            accorded by my favourite authors, the fulfilment of which I most eagerly sought; and if
             my incantations were always unsuccessful, I attributed the failure rather to my own
             inexperience and mistake, than to a want of skill or fidelity in my instructors. And
             thus for a time I was occupied by exploded systems, mingling, like an unadept, a
@@ -783,7 +778,7 @@
             was ineffectual. Destiny was too potent, and her immutable laws had decreed my utter and
             terrible destruction.</p>
           <comment>ebb: centered underscore a few lines below</comment>
-        <milestone unit="chapter" type="end" n="2"/><anchor type="collate" xml:id="C8"/>
+        <milestone unit="chapter" type="end" n="2"/><anchor type="collate" xml:id="C08"/>
         <milestone unit="chapter" type="start" n="3"/>
           <head>CHAPTER III.</head>
           <p> W<hi rend="smallcaps">HEN</hi> I had attained the age of seventeen, my parents
@@ -981,7 +976,7 @@
             leave.</p>
           <p>Thus ended a day memorable to me; it decided my future destiny.</p>
           <comment>ebb: centered underscore a few lines below</comment>
-        <milestone unit="chapter" type="end" n="3"/><anchor type="collate" xml:id="C9"/>
+        <milestone unit="chapter" type="end" n="3"/><anchor type="collate" xml:id="C09"/>
         <milestone unit="chapter" type="start" n="4"/>
           <head>CHAPTER IV.</head>
           <p>F<hi rend="smallcaps">ROM</hi> this day natural philosophy, and particularly chemistry,
@@ -1032,8 +1027,7 @@
             apparition of a spirit. Darkness had no effect upon my fancy; and a churchyard was to me
             merely the receptacle of bodies deprived of life, which, from being the seat of beauty
             and strength, had become food for the worm. Now I was led to examine the cause and
-            progress of this decay, and forced to spend days and nights in vaults and charnel
-            houses. My attention was fixed upon every object the most insupportable to the delicacy
+            progress of this decay, and forced to spend days and nights in vaults and charnel-houses. My attention was fixed upon every object the most insupportable to the delicacy
             of the human feelings. I saw how the fine form of man was degraded and wasted; I beheld
             the corruption of death succeed to the blooming cheek of life; I saw how the worm
             inherited the wonders of the eye and brain. I paused, examining and analysing all the
@@ -1161,8 +1155,8 @@
             wreck I perceived that I had become; the energy of my purpose alone sustained me: my
             labours would soon end, and I believed that exercise and amusement would then drive away
             incipient disease; and I promised myself both of these when my creation should be
-              complete.<pb xml:id="F1831_v_059" n="43"/></p>
-        <milestone unit="chapter" type="end" n="4"/><anchor type="collate" xml:id="C10"/>
+              complete.</p>
+        <milestone unit="chapter" type="end" n="4"/><pb xml:id="F1831_v_059" n="43"/><anchor type="collate" xml:id="C10"/>
         <milestone unit="chapter" type="start" n="5"/>
           <head>CHAPTER V.</head>
           <p> I<hi rend="smallcaps">T</hi> was on a dreary night of November, that I beheld the
@@ -1225,10 +1219,11 @@
           <p>I continued walking in this manner for some time, endeavouring, by bodily exercise, to
             ease the load that weighed upon my mind. I traversed the streets, without any clear
             conception of where I was, or what I was doing. My heart palpitated in the sickness of
-            fear; and I hurried on with irregular steps, not daring to look about me:— <cit><quote><lg>
+            fear; and I hurried on with irregular steps, not daring to look about me:—</p>
+            <p><cit><quote><lg>
                   <l rend="i2">Like one who, on a lonely road,</l>
                   <l rend="i5">Doth walk in fear and dread,</l>
-                  <l rend="i2">And, having once turn’d round, walks on,</l>
+                  <l rend="i2">And, having once turned round, walks on,</l>
                   <l rend="i5">And turns no more his head;</l>
                   <l rend="i2">Because he knows a frightful fiend</l>
                   <l rend="i5">Doth close behind him tread*.</l></lg></quote><note>*
@@ -1449,7 +1444,7 @@
             previously been my laboratory. But these cares of Clerval were made of no avail when I
             visited the professors. M. Waldman inflicted torture when he praised, with kindness and
             warmth, the astonishing progress I had made in the sciences. He soon perceived that I
-            disliked the subject; but, not guessing the real cause, he attributed my feelings to
+            disliked the subject; but not guessing the real cause, he attributed my feelings to
             modesty, and changed the subject from my improvement, to the science itself, with a
             desire, as I evidently saw, of drawing me out. What could I do? He meant to please, and
             he tormented me. I felt as if he had placed carefully, one by one, in my view those
@@ -1654,7 +1649,7 @@
             minute, and the thunder burst with a terrific crash over my head. It was echoed from
             Salêve, the Juras, and the Alps of Savoy; vivid flashes of lightning dazzled my eyes,
             illuminating the lake, making it appear like a vast sheet of fire; then for an instant
-            everything seemed of a pitchy darkness, until the eye recovered <pb xml:id="F1831_v_077" n="61"/>itself from the preceding flash. The storm, as is often the case in
+            every thing seemed of a pitchy darkness, until the eye recovered <pb xml:id="F1831_v_077" n="61"/>itself from the preceding flash. The storm, as is often the case in
             Switzerland, appeared at once in various parts of the heavens. The most violent storm
             hung exactly north of the town, over that part of the lake which lies between the
             promontory of Belrive and the village of Copêt. Another storm enlightened Jura with
@@ -1893,7 +1888,7 @@
             bauble on which the chief proof rests, if she had earnestly desired it, I should have
             willingly given it to her; so much do I esteem and value her.”</p>
           <p>A murmur of approbation followed Elizabeth’s simple and powerful appeal; but it was
-            excited by her generous interference, and not in favor of poor Justine, on whom the
+            excited by her generous interference, and not in favour of poor Justine, on whom the
             public indignation was turned with renewed violence, charging her with the blackest
             ingratitude. She herself wept as Elizabeth spoke, but she did not answer. My own
             agitation and anguish was extreme during the whole trial. I believed in her innocence; I
@@ -2104,7 +2099,7 @@
             thought such a creature unfit to remain in the society of men. But she was innocent. I
             know, I feel she was innocent; you are of the same opinion, and that confirms me. Alas!
             Victor, when falsehood can look so like the truth, who can assure themselves of certain
-            happiness? I feel if I were walking on the edge of a precipice, towards which thousands
+            happiness? I feel as if I were walking on the edge of a precipice, towards which thousands
             are crowding, and endeavouring to plunge me into the abyss. William and Justine were
             assassinated, and the murderer escapes; he walks about the world free, and perhaps
             respected. But even if I were condemned to suffer on the scaffold for the same crimes, I
@@ -5480,5 +5475,5 @@
        <milestone unit="backmatter" type="start" n="1"/>
         <include href="standOff_Includes/1831_backMatter.xml" parse="xml"/>
        <milestone unit="backmatter" type="end" n="1"/>
-  </text>
+  </text><anchor type="collate" xml:id="C34"/>
 </xml>
