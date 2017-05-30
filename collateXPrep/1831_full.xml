@@ -1,7 +1,7 @@
 <xml>
-  <comment>ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi="http://www.w3.org/2001/XInclude", and apply
+  <comment text="ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi='http://www.w3.org/2001/XInclude', and apply
     xi: namespace prefix to include elements in the document.
-  </comment>
+  "/>
   <header>
     <include href="standOff_Includes/1831_header.xml" parse="xml"/>
   </header>
@@ -15,9 +15,9 @@
     </div>
     <div type="preface">
       <pb xml:id="F1831_v_017"/>
-      <comment>ebb: this is page unnumbered.</comment>
+      <comment text="ebb: this is page unnumbered."/>
       <head>PREFACE.</head>
-      <comment>ebb: centered underscore a few lines beneath. </comment>
+      <comment text="ebb: centered underscore a few lines beneath. "/>
       <p>T<hi rend="smallcaps">HE</hi> event on which this fiction is founded has been supposed, by
         Dr. Darwin, and some of the physiological writers of Germany, as not of impossible
         occurrence. I shall not be supposed as according the remotest degree of serious faith to
@@ -30,7 +30,7 @@
         relations of existing events can yield.</p>
       <p>I have thus endeavoured to preserve the truth of the elementary principles of human nature,
         while I have not scrupled to innovate upon their combinations. The Iliad, the tragic poetry
-        of Greece,—Shakspeare<comment><note>RM: printer error: Shakspeare</note></comment>, in the Tempest, and Midsummer Night’s Dream,—and most especially
+        of Greece,—Shakspeare<comment elem="note" text="RM: printer error: Shakspeare"/>, in the Tempest, and Midsummer Night’s Dream,—and most especially
         Milton, in Paradise Lost, conform to this rule; and the most humble novelist, who seeks to
         confer or receive amusement from his labours, may, without presumption, apply to prose
         fiction a licence, or rather a rule, from the adoption of which so many exquisite
@@ -63,11 +63,11 @@
     <anchor type="collate" xml:id="C02"/>
     <div type="novel">
         <pb xml:id="F1831_v_019"/>
-        <comment>ebb: This page is unnumbered.</comment>
+        <comment text="ebb: This page is unnumbered."/>
         <head>FRANKENSTEIN;</head>
         <head><hi rend="smallcaps">OR</hi>,</head>
         <head>THE MODERN PROMETHEUS.</head>
-        <comment>ebb: centered underscore beneath</comment>
+        <comment text="ebb: centered underscore beneath"/>
       <div type="letter">
         <head>LETTER I.</head>
         <head>
@@ -490,7 +490,7 @@
           melancholy sweetness; I see his thin hand raised in animation, while the lineaments of his
           face are irradiated by the soul within. Strange and harrowing must be his story; frightful
           the storm which embraced the gallant vessel on its course, and wrecked it—thus!</p>
-        <comment>ebb: centered underscore a few lines below</comment><anchor type="collate" xml:id="C07"/>
+        <comment text="ebb: centered underscore a few lines below"/><anchor type="collate" xml:id="C07"/>
         
         <div type="chapter">
           <head>CHAPTER I.</head>
@@ -620,7 +620,7 @@
             received as made to a possession of my own. We called each other familiarly by the name
             of cousin. No word, no expression could body forth the kind of relation in which she
             stood to me—my more than sister, since till death she was to be mine only.</p>
-          <comment>ebb: centered underscore a few lines below</comment>
+          <comment text="ebb: centered underscore a few lines below"/>
         </div>
         <div type="chapter">
           <head>CHAPTER II.</head>
@@ -784,7 +784,7 @@
           <p><pb xml:id="F1831_v_045" n="29"/>It was a strong effort of the spirit of good; but it
             was ineffectual. Destiny was too potent, and her immutable laws had decreed my utter and
             terrible destruction.</p>
-          <comment>ebb: centered underscore a few lines below</comment>
+          <comment text="ebb: centered underscore a few lines below"/>
         </div><anchor type="collate" xml:id="C08"/>
         <div type="chapter">
           <head>CHAPTER III.</head>
@@ -983,7 +983,7 @@
             mechanism. He also gave me the list of books which I had requested; and I took my
             leave.</p>
           <p>Thus ended a day memorable to me; it decided my future destiny.</p>
-          <comment>ebb: centered underscore a few lines below</comment>
+          <comment text="ebb: centered underscore a few lines below"/>
         </div><anchor type="collate" xml:id="C09"/>
         <div type="chapter">
           <head>CHAPTER IV.</head>
@@ -1343,7 +1343,7 @@
             who are so deserving of my love.”</p>
           <p>“If this is your present temper, my friend, you will perhaps be glad to see a letter
             that has been lying here some days for you: it is from your cousin, I believe.”
-              <comment>ebb: centered underscore a few lines below</comment></p>
+              <comment text="ebb: centered underscore a few lines below"/></p>
         </div><anchor type="collate" xml:id="C11"/>
         <div type="chapter">
           <head>CHAPTER VI.</head>
@@ -1543,8 +1543,8 @@
             poems, or drew me out into arguments, which he supported with great ingenuity.</p>
           <p>We returned to our college on a Sunday afternoon: the peasants were dancing, and every
             one we met appeared gay and happy. My own spirits were high, and I bounded along with
-            feelings of unbridled joy and hilarity. <comment>ebb: centered underscore a few lines
-              below</comment></p>
+            feelings of unbridled joy and hilarity. <comment text="ebb: centered underscore a few lines
+              below"/></p>
         </div><anchor type="collate" xml:id="C13"/>
         <div type="chapter">
           <head>CHAPTER VII.</head>
@@ -1798,9 +1798,9 @@
             sensibility and intellect. She welcomed me with the greatest affection. “Your arrival,
             my dear cousin,” said she, “fills me with hope. You perhaps will find some means to
             justify my poor guiltless Justine. Alas! who is safe, if she be convicted of crime? I
-            rely on her innocence as certainly as I do upon my own.<comment>ebb: Typesetter error:
+            rely on her innocence as certainly as I do upon my own.<comment text="ebb: Typesetter error:
               the period is missing at the end of the previous sentence which also comes at the end
-              of a line .</comment> Our misfortune is doubly hard to us; we have not only lost that
+              of a line ."/> Our misfortune is doubly hard to us; we have not only lost that
             lovely darling boy, but this poor girl, whom I sincerely love, is to be torn away by
             even a worse fate. If she is condemned, I never shall know joy more. But she will not, I
             am sure she will not; and then I shall be happy again, even after the sad death of my
@@ -1812,8 +1812,8 @@
             deadly a manner rendered me hopeless and despairing.” She wept.</p>
           <p>“Dearest niece,” said my father, “dry your tears. If she is, as you believe, innocent,
             rely on the justice of our <pb xml:id="F1831_v_082" n="66"/>laws, and the activity with
-            which I shall prevent the slightest shadow of partiality.” <comment>ebb: centered
-              underscore a few lines below</comment></p>
+            which I shall prevent the slightest shadow of partiality.” <comment text="ebb: centered
+              underscore a few lines below"/></p>
         </div><anchor type="collate" xml:id="C14"/>
         <div type="chapter">
           <head>CHAPTER VIII.</head>
@@ -2039,8 +2039,8 @@
             pause before the peace of the grave have succeeded to your sad torments!</p>
           <p>Thus spoke my prophetic soul, as, torn by remorse, horror, and despair, I beheld those
             I loved spend vain sorrow upon the graves of William and Justine, the first hapless
-            victims to my unhallowed arts. <comment>ebb: centered underscore a few lines
-              below</comment></p>
+            victims to my unhallowed arts. <comment text="ebb: centered underscore a few lines
+              below"/></p>
         </div><anchor type="collate" xml:id="C15"/>
         <div type="chapter">
           <head>CHAPTER IX.</head>
@@ -2201,8 +2201,8 @@
             played above Mont Blanc, and listening to the rushing of the Arve, which pursued its
             noisy way beneath. The same lulling sounds acted as a lullaby to my too keen sensations:
             when I placed my head upon my pillow, sleep crept over me; I felt it as it came, and
-            blest the giver of oblivion. <comment>ebb: centered underscore a few lines
-              below</comment></p>
+            blest the giver of oblivion. <comment text="ebb: centered underscore a few lines
+              below"/></p>
         </div><anchor type="collate" xml:id="C16"/>
         <div type="chapter">
           <head>CHAPTER X.</head>
@@ -2371,8 +2371,8 @@
             therefore, and ascended the opposite rock. The air was cold, and the rain again began to
             descend: we entered the hut, the fiend with an air of exultation, I with a heavy heart,
             and depressed spirits. But I consented to listen; and, seating myself by the fire which
-            my odious companion had lighted, he thus began his tale.</p><comment>ebb: centered
-              underscore a few lines below</comment>
+            my odious companion had lighted, he thus began his tale.</p><comment text="ebb: centered
+              underscore a few lines below"/>
         </div><anchor type="collate" xml:id="C17"/>
         <div type="chapter">
           <head>CHAPTER XI.</head>
@@ -2575,8 +2575,8 @@
             since found that he read aloud, but at that time I knew nothing of the science of words
             or letters.</p>
           <p>“The family, after having been thus occupied for a short time, extinguished their
-            lights, and retired, as I conjectured, to rest. <comment>ebb: centered underscore a few
-              lines below</comment></p>
+            lights, and retired, as I conjectured, to rest. <comment text="ebb: centered underscore a few
+              lines below"/></p>
         </div><anchor type="collate" xml:id="C18"/>
         <div type="chapter">
           <head>CHAPTER XII.</head>
@@ -2734,8 +2734,8 @@
             trees. Happy, happy earth! fit habitation for gods, which, so short a time before, was
             bleak, damp, and unwholesome. My spirits were elevated by the enchanting appearance of
             nature; the past was blotted from my memory, the present was tranquil, and the future
-            gilded by bright rays of hope, and anticipations of joy. <comment>ebb: centered
-              underscore a few lines below</comment></p>
+            gilded by bright rays of hope, and anticipations of joy. <comment text="ebb: centered
+              underscore a few lines below"/></p>
         </div><anchor type="collate" xml:id="C19"/>
         <div type="chapter">
           <head>CHAPTER XIII.</head>
@@ -2886,8 +2886,8 @@
           <p>“I will soon explain to what these feelings tended; but allow me now to return to the
             cottagers, whose story excited in me such various feelings of indignation, delight, and
             wonder, but which all terminated in additional love and reverence for my protectors (for
-            so I loved, in an innocent, half painful self-deceit, to call them).</p><comment>ebb:
-              centered underscore a few lines below</comment>
+            so I loved, in an innocent, half painful self-deceit, to call them).</p><comment text="ebb:
+              centered underscore a few lines below"/>
         </div><anchor type="collate" xml:id="C20"/>
         <div type="chapter">
           <head>CHAPTER XIV.</head>
@@ -3025,8 +3025,8 @@
             language of the country, and utterly ignorant of the customs of the world. She fell,
             however, into good hands. The Italian had mentioned the name of the spot for which they
             were bound; and, after her death, the woman of the house in which they had lived took
-            care that Safie should arrive in safety at the cottage of her lover.</p><comment>ebb:
-              centered underscore a few lines below</comment>
+            care that Safie should arrive in safety at the cottage of her lover.</p><comment text="ebb:
+              centered underscore a few lines below"/>
         </div><anchor type="collate" xml:id="C21"/>
         <div type="chapter">
           <head>CHAPTER XV.</head>
@@ -3483,8 +3483,8 @@
             gratify. We may not part until you have promised to comply with my requisition. I am
             alone, and miserable; man will not associate with me; but one as deformed and horrible
             as myself would not deny herself to me. My companion must be of the same species, and
-            have the same defects. This being you must create.”</p><comment>ebb: centered underscore a
-              few lines below</comment>
+            have the same defects. This being you must create.”</p><comment text="ebb: centered underscore a
+              few lines below"/>
         </div><anchor type="collate" xml:id="C23"/>
         <div type="chapter">
           <head>CHAPTER XVII.</head>
@@ -3617,8 +3617,8 @@
             I enjoy companionship with them. Yet even thus I loved them to adoration; and to save
             them, I resolved to dedicate myself to my most abhorred task. The prospect of such an
             occupation made every other circumstance of existence pass before me like a dream; and
-            that thought only had to me the reality of life.</p><comment>ebb: centered underscore a few
-              lines below</comment>
+            that thought only had to me the reality of life.</p><comment text="ebb: centered underscore a few
+              lines below"/>
         </div><anchor type="collate" xml:id="C24"/>
         <div type="chapter">
           <head>CHAPTER XVIII.</head>
@@ -4975,7 +4975,7 @@
           <p>“Man,” I cried, “how ignorant art thou in thy pride of wisdom! Cease; you know not what
             it is you say.”</p>
           <p>I broke from the house angry and disturbed, and retired to meditate on some other mode
-            of action.</p><comment>ebb: centered underscore a few lines below</comment>
+            of action.</p><comment text="ebb: centered underscore a few lines below"/>
         </div><anchor type="collate" xml:id="C31"/>
         <div type="chapter">
           <head>CHAPTER XXIV.</head>

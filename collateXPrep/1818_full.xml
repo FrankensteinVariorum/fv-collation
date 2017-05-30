@@ -1,7 +1,7 @@
 <xml>
-  <comment>ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi="http://www.w3.org/2001/XInclude", and apply
+  <comment text="ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi='http://www.w3.org/2001/XInclude', and apply
   xi: namespace prefix to include elements in the document.
-  </comment>
+  "/>
   <header>
     <include href="standOff_Includes/1818_header.xml" parse="xml"/>
   </header>
@@ -14,7 +14,7 @@
     <div type="preface">
       <pb xml:id="F1818_v1_007" n="viii"/>
       <head>PREFACE.</head>
-      <comment>rm: centered ornamental </comment>
+      <comment text="rm: centered ornamental "/>
       <p>T<hi rend="smallcaps">HE</hi> event on which this fiction is founded has been supposed, by
         Dr. Darwin, and some of the physiological writers of Germany, as not of impossible
         occurrence. I shall not be supposed as according the remotest degree of serious faith to
@@ -66,7 +66,7 @@
       <head>FRANKENSTEIN;</head>
       <head><hi rend="smallcaps">OR, THE</hi></head>
       <head><hi rend="italic">MODERN PROMETHEUS.</hi></head>
-      <comment> RM: centered ornamental </comment>
+      <comment text=" RM: centered ornamental "/>
       <div type="letter">
         <head>LETTER I</head>
         <ab rend="center"><hi rend="italic">To Mrs.</hi> S<hi rend="smallcaps">AVILLE</hi>, <hi
@@ -460,7 +460,7 @@
         <head>FRANKENSTEIN;</head>
         <head><hi rend="smallcaps">OR</hi>,</head>
         <head>THE MODERN PROMETHEUS.</head>
-        <comment> RM: centered ornamental </comment>
+        <comment text=" RM: centered ornamental "/>
         <anchor type="collate" xml:id="C07"/>
         <div type="chapter">
           <head>CHAPTER I.</head>
@@ -1944,7 +1944,7 @@
             reliance on her. For the moment that I did believe her guilty, I felt an anguish that I
             could not have long sustained. Now my heart is lightened. The innocent suffers; but she
             whom I thought amiable and good has not betrayed the trust I reposed in her, and I am
-            consoled.<comment>RM: sic close quote missing ”</comment></p>
+            consoled.<comment text="RM: sic close quote missing ”"/></p>
           <p>Amiable cousin! such were your thoughts, mild and gentle as your own dear eyes and
             voice. But I—I was a wretch, and none ever conceived of the misery that I then
             endured.</p>
@@ -2382,8 +2382,8 @@
             exquisite and divine a retreat as Pandæmonium appeared to the dæmons of hell after their
             sufferings in the lake of fire. I greedily devoured the remnants of the shepherd’s
             breakfast, which consisted of bread, cheese, milk, and wine; the latter, however, I did
-            not like. <pb xml:id="F1818_v2_046" n="042"/><comment> the word 'Then' does not
-              appear on the PDF source, but was in the base converted text </comment>overcome by
+            not like. <pb xml:id="F1818_v2_046" n="042"/><comment text=" the word 'Then' does not
+              appear on the PDF source, but was in the base converted text "/>overcome by
             fatigue, I lay down among some straw, and fell asleep.</p>
           <p>“It was noon when I awoke; and, allured by the warmth of the sun, which shone brightly
             on the white ground, I determined to recommence my travels; and, depositing the remains
@@ -3756,8 +3756,8 @@
             overflowed with ardent affections, and his friendship was of that devoted and wondrous
             nature that the worldy-minded teach us to look for only in the imagination. But even
             human sympathies were not sufficient to satisfy his eager mind. The scenery of external
-            nature, which others regard only with admiration, he loved with ardour: <comment>
-              following poetry block is 2 points smaller than base text </comment>
+            nature, which others regard only with admiration, he loved with ardour: <comment text="
+              following poetry block is 2 points smaller than base text "/>
             <cit><quote><lg><l>——— “The sounding cataract</l>
                   <l>Haunted <hi rend="italic">him</hi> like a passion: the tall rock,</l>
                   <l>The mountain, and the deep and gloomy wood,</l>
@@ -3785,10 +3785,10 @@
             the white cliffs of Britain. The banks of the Thames presented a new scene; they were
             flat, but fertile, and almost every town was marked by the remembrance of some story. We
             saw Tilbury Fort, and remembered the Spanish armada; Gravesend, Woolwich, and Greenwich,
-            places which I had heard of even in my country.<comment><note type="editor" resp="rm"
-                >Mary Shelley’s text gives a date DECEMBER that cannot be reconciled with OCTOBER on
+            places which I had heard of even in my country.<comment elem="note" type="editor" resp="rm"
+                text="Mary Shelley’s text gives a date DECEMBER that cannot be reconciled with OCTOBER on
                 page 24. Text-base from original editors displays SEPTEMBER. Revised to match
-                original edition in PDF source.</note></comment></p>
+                original edition in PDF source."/></p>
           <p>At length, we saw the numerous steeples of London, St. Paul’s towering above all, and
             the Tower famed in English history.</p>
         </div><anchor type="collate" xml:id="C25"/>
@@ -4548,10 +4548,9 @@
             this for ever chained my tongue, when I would have given the whole world to have
             confided the fatal secret.</p>
           <p>
-            <comment><note type="editor" resp="rm">This block is NOT in the 1818 PDF. </note> rm:
-              Yet still words like those I have recorded would burst uncontrollably from me. I could
+            <comment elem="note" type="editor" resp="rm" text="This block at this point in the PAEE is NOT in the 1818 PDF. rm: Yet still words like those I have recorded would burst uncontrollably from me. I could
               offer no explanation of them; but their truth in part relieved the burden of my
-              mysterious woe.</comment>
+              mysterious woe."/>
           </p>
           <p>Upon this occasion my father said, with an expression of unbounded wonder, “What do you
             mean, Victor? <pb xml:id="F1818_v3_098" n="094"/>are you mad? My dear son, I entreat
@@ -5365,8 +5364,8 @@
         <p>It is past; I am returning to England. I have lost my hopes of utility and glory;—I have
           lost my friend. But I will endeavour to detail these bitter circumstances to you, my dear
           sister; and, while I am wafted towards England, and towards you, I will not despond.</p>
-        <p>September 19th, <comment><note type="editor" resp="rm">PDF displays 19 but correct date
-              should be SEPTEMBER 9</note></comment> the ice began to move, and roarings like
+        <p>September 19th, <comment elem="note" type="editor" resp="rm" text="PDF displays 19 but correct date
+              should be SEPTEMBER 9"/> the ice began to move, and roarings like
           thunder were heard at a distance, as the islands split and cracked in every direction. We
           were in the most imminent peril; but, as we could only remain passive, my chief attention
           was occupied by my unfortunate guest, whose illness increased in such a degree, that he
