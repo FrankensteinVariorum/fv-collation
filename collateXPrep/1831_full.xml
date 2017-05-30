@@ -1,5 +1,4 @@
 <xml>
-  <anchor type="collate" xml:id="C01"/>
   <comment>ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi="http://www.w3.org/2001/XInclude", and apply
     xi: namespace prefix to include elements in the document.
   </comment>
@@ -7,6 +6,7 @@
     <include href="standOff_Includes/1831_header.xml" parse="xml"/>
   </header>
   <text>
+    <anchor type="collate" xml:id="C01"/>
     <div type="frontmatter">
       <include href="standOff_Includes/1831_frontMatter.xml" parse="xml"/>
     </div>
