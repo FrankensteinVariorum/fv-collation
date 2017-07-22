@@ -17,12 +17,12 @@ This XSLT generates the fullFlat series: [flattenHierarchiesIDtrans.xsl](https:/
 In the new fullFlat XML files, we identified 33 chunks based on start and end points where all three texts shared passages in common. Mostly these chunks followed basic structural divisions in the texts with a few exceptions. NOTE: We excluded title pages from automatic collation because they are encoded distinctively and we can handle those variations by hand later. 
 
 We then broke apart the three fullFlat files into 33 separate files per edition, which means 99 files.
-These represent separate small XML files prepared for collation, and exist [here](https://github.com/ebeshero/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/collationChunks) 
+These represent separate small XML files prepared for collation, and exist [here].(https://github.com/ebeshero/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/collationChunks) 
 
 ## Collated Editions:
 Using a Python script, we "fed" the 99 "chunks" into collateX and output 33 collation files in two different formats:
-* text-table format, which outputs a table that visually aligns the three texts.
-* pseudo-TEI output: 33 files that contain a more precise encoding of the segmented variants 
+* [text-table format](https://github.com/ebeshero/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/textTableOutput), which outputs a table that visually aligns the three texts.
+* [pseudo-TEI output](https://github.com/ebeshero/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/teiOutput): 33 files that contain a more precise encoding of the segmented variants 
 
 ## Notes for next steps:
 We'd like to see color encoded tables generated as HTML but currently this is only available as output within Jupyter Notebooks. 
