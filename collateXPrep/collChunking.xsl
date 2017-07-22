@@ -6,7 +6,7 @@
 
    <xsl:template match="/">
        <xsl:for-each-group select="//anchor/following-sibling::*" group-starting-with="anchor">
-       <xsl:result-document href="{substring-before(tokenize(base-uri(), '/')[last()], '.')}_{current()/@xml:id}.xml" method="xml" indent="yes">
+       <xsl:result-document href="collationChunks/{substring-before(tokenize(base-uri(), '/')[last()], '.')}_{current()/@xml:id}.xml" method="xml" indent="yes">
            <xml>
                <xsl:apply-templates select="current-group()"/>
            </xml>

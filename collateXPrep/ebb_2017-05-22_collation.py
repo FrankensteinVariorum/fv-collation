@@ -4,7 +4,9 @@ import string
 import re
 import json
 import glob
+import datetime
 
+today = datetime.date.today()
 regexWhitespace = re.compile(r'\s+')
 regexNonWhitespace = re.compile(r'\S+')
 regexEmptyTag = re.compile(r'/>$')
@@ -21,8 +23,8 @@ regexPageBreak = re.compile(r'<pb.+?/>')
 # GIs fall into one three classes
 # 2017-05-21 ebb: Due to trouble with pulldom parsing XML comments, I have converted these to comment elements
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
-ignore = ['xml']
-inlineEmpty = ['pb', 'milestone', 'anchor', 'include']
+ignore = ['xml', 'pb']
+inlineEmpty = ['milestone', 'anchor', 'include']
 inlineContent = ['hi']
 blockElement = ['p', 'div', 'lg', 'l', 'head', 'comment', 'note', 'ab', 'cit', 'quote', 'bibl', 'header']
 
