@@ -25,7 +25,11 @@ Using a Python script, we "fed" the 99 "chunks" into collateX and output 33 coll
 * [pseudo-TEI output](https://github.com/ebeshero/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/teiOutput): 33 files that contain a more precise encoding of the segmented variants 
 
 ## Notes for next steps:
-We'd like to see color encoded tables generated as HTML but currently this is only available as output within Jupyter Notebooks. 
+I. Collating the printed texts: Refinements?
+* We'd like to see color encoded tables generated as HTML but currently this is only available as output within Jupyter Notebooks. 
+* Perhaps consider normalizing variant spellings? Punctuation? (Be careful...)
+
+II. Collating with the MS Notebook files
 
 
 
