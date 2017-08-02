@@ -1,0 +1,1986 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ox-ms_abinger_c58">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Frankenstein, MS. Abinger C. 58</title>
+                <title type="sub">An electronic transcription</title>
+                <respStmt xml:id="md_editor">
+                    <resp>Metadata editor</resp>
+                    <name xml:id="RV">Raffaele Viglianti</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Shelley-Godwin Archive edition, <date>2012-2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Oxford University</distributor>
+                <address>
+                    <addrLine>
+                        <ref target="http://www.shelleygodwinarchive.org/">http://www.shelleygodwinarchive.org/</ref>
+                    </addrLine>
+                </address>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+                        <p>CC0 1.0 Universal.</p>
+                        <p> To the extent possible under law, the creators of the metadata records for the Shelley-Godwin Archive 
+                            have waived all copyright and related or neighboring rights to this work.</p>
+                    </licence>
+                </availability>
+                <pubPlace>Oxford, UK, and College Park, MD</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library, University of Oxford</repository>
+                        <idno type="Bod">MS. Abinger c.58</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="#work">
+                            <bibl status="fair_copy">
+                                <author>Mary Wollstonecraft Shelley</author>
+                                <title>Frankenstein</title>
+                            </bibl>
+                            <msItem class="#volume" n="III" xml:id="ox-frankenstein_volume_iii">
+                                <locusGrp>
+                                    <locus target="#ox-ms_abinger_c58-0001                                         #ox-ms_abinger_c58-0002                                         #ox-ms_abinger_c58-0003                                         #ox-ms_abinger_c58-0004                                         #ox-ms_abinger_c58-0005                                         #ox-ms_abinger_c58-0006                                         #ox-ms_abinger_c58-0007                                         #ox-ms_abinger_c58-0008                                         #ox-ms_abinger_c58-0009                                         #ox-ms_abinger_c58-0010                                         #ox-ms_abinger_c58-0011                                         #ox-ms_abinger_c58-0012                                         #ox-ms_abinger_c58-0013                                         #ox-ms_abinger_c58-0014                                         #ox-ms_abinger_c58-0015                                         #ox-ms_abinger_c58-0016                                         #ox-ms_abinger_c58-0017                                         #ox-ms_abinger_c58-0018                                         #ox-ms_abinger_c58-0019                                         #ox-ms_abinger_c58-0020                                         #ox-ms_abinger_c58-0021                                         #ox-ms_abinger_c58-0022                                         #ox-ms_abinger_c58-0023                                         #ox-ms_abinger_c58-0024                                         #ox-ms_abinger_c58-0025                                         #ox-ms_abinger_c58-0026                                         #ox-ms_abinger_c58-0027                                         #ox-ms_abinger_c58-0028                                         #ox-ms_abinger_c58-0029                                         #ox-ms_abinger_c58-0030                                         #ox-ms_abinger_c58-0031                                         #ox-ms_abinger_c58-0032                                         #ox-ms_abinger_c58-0033                                         #ox-ms_abinger_c58-0034                                         #ox-ms_abinger_c58-0035                                         #ox-ms_abinger_c58-0036                                         #ox-ms_abinger_c58-0038                                         #ox-ms_abinger_c58-0039                                         #ox-ms_abinger_c58-0040                                         #ox-ms_abinger_c58-0041                                         #ox-ms_abinger_c58-0042                                         #ox-ms_abinger_c58-0043                                         #ox-ms_abinger_c58-0044                                         #ox-ms_abinger_c58-0045                                         #ox-ms_abinger_c58-0046                                         #ox-ms_abinger_c58-0047                                         #ox-ms_abinger_c58-0048                                         #ox-ms_abinger_c58-0049                                         #ox-ms_abinger_c58-0050                                         #ox-ms_abinger_c58-0051                                         #ox-ms_abinger_c58-0052                                         #ox-ms_abinger_c58-0053                                         #ox-ms_abinger_c58-0054                                         #ox-ms_abinger_c58-0055                                         #ox-ms_abinger_c58-0056                                         #ox-ms_abinger_c58-0057                                         #ox-ms_abinger_c58-0058                                         #ox-ms_abinger_c58-0059                                         #ox-ms_abinger_c58-0060                                         #ox-ms_abinger_c58-0061                                         #ox-ms_abinger_c58-0062"/>
+                                </locusGrp>
+                                <bibl>
+                                    <title>Volume III</title>
+                                    <date notAfter="1817-04" notBefore="1816-12">18 April-[?13] May 1817</date>
+                                </bibl>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <handNote scope="major" xml:id="mws"><persName>Mary Shelley</persName></handNote>
+                            <handNote scope="minor" xml:id="pbs"><persName>Percy Shelley</persName></handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl xml:base="../shared/classDecl.xml">
+    <taxonomy>
+        <category xml:id="work">
+            <catDesc>A work in the Shelley-Godwin Archive, e.g. Frankenstein</catDesc>
+        </category>
+        <category xml:id="work_part">
+            <catDesc>Metadata about a work in the Shelley-Godwin Archive split across multiple manuscripts</catDesc>
+        </category>
+        <category xml:id="notebook">
+            <catDesc>A manuscript notebook containing one or more works in the Shelley-Godwin
+                Archive, e.g. Frankenstein Notebook A</catDesc>
+        </category>
+        <category xml:id="volume">
+            <catDesc>The volume of a work in the Shelley-Godwin Archive, e.g. Frankenstein Vol
+                I</catDesc>
+        </category>
+        <category xml:id="chapter">
+            <catDesc>The chapter in a volume of a work in the Shelley-Godwin Archive, e.g.
+                Frankenstein Vol I, Chapter 1</catDesc>
+        </category>
+        <category xml:id="miscellaneous">
+            <catDesc>A part of a manuscript in the Shelley-Godwin Archive that does not fit in other
+                categories of this taxonomy.</catDesc>
+        </category>
+    </taxonomy>
+</classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <sourceDoc>
+<text>
+<body>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0001.jp2"/>
+  <p><anchor id="struct1a"/> <anchor id="struct1b"/></p>
+  <p><anchor id="struct2a"/> <anchor id="struct2b"/></p>
+  <p><anchor id="struct3a"/> <anchor id="struct3b"/></p>
+  <p><anchor id="struct4a"/> <anchor id="struct4b"/></p>
+  <p><anchor id="struct5a"/> <anchor id="struct5b"/></p>
+  <p><anchor id="struct6a"/> <anchor id="struct6b"/></p>
+  <p><anchor id="struct7a"/> <anchor id="struct7b"/></p>
+  <p><anchor id="struct8a"/> <anchor id="struct8b"/></p>
+  <p><anchor id="struct9a"/> <anchor id="struct9b"/></p>
+  <p><anchor id="struct10a"/> <anchor id="struct10b"/></p>
+  <p><anchor id="struct11a"/> <anchor id="struct11b"/></p>
+  <p><anchor id="struct12a"/> <anchor id="struct12b"/></p>
+  <p><anchor id="struct13a"/> <anchor id="struct13b"/></p>
+  <p><anchor id="struct14a"/> <anchor id="struct14b"/></p>
+  <p><anchor id="struct15a"/> <anchor id="struct15b"/></p>
+  <p><anchor id="struct16a"/> <anchor id="struct16b"/></p>
+  <p><anchor id="struct17a"/> <anchor id="struct17b"/></p>
+  <p><anchor id="struct18a"/> <anchor id="struct18b"/></p>
+  <p><anchor id="struct19a"/> <anchor id="struct19b"/></p>
+  <p><anchor id="struct20a"/> <anchor id="struct20b"/></p>
+  <p><anchor id="struct21a"/> <anchor id="struct21b"/></p>
+  <p><anchor id="struct22a"/> <anchor id="struct22b"/></p>
+  <p><anchor id="struct23a"/> <anchor id="struct23b"/></p>
+  <p><anchor id="struct24a"/> <anchor id="struct24b"/></p>
+  <p><anchor id="struct25a"/> <anchor id="struct25b"/></p>
+  <p><anchor id="struct26a"/> <anchor id="struct26b"/></p>
+  <p><anchor id="struct27a"/> <anchor id="struct27b"/></p>
+  <p><anchor id="struct28a"/> <anchor id="struct28b"/></p>
+  <p><anchor id="struct29a"/> <anchor id="struct29b"/></p>
+  <p><anchor id="struct30a"/> <anchor id="struct30b"/></p>
+  <p><anchor id="struct31a"/> <anchor id="struct31b"/></p>
+  <p type="pagination"><l>99</l></p>
+  <p><anchor id="struct32a"/> <anchor id="struct32b"/></p>
+  <p type="library"><anchor id="struct33a" subtype="ide"/><l>1</l><anchor id="struct33b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct34a" subtype="ide"/>
+    <handShift medium="pen" new="#mws"/>
+    <l/><app id="var1" type="sub"><rdg><l>satisfied</l></rdg></app><l> that nothing on earth will have the power</l>
+    <l>to </l><app id="var2" type="sub"><rdg><l/><seg><l>interrupt</l></seg><l/></rdg></app><l> my </l><app id="var3" type="ort"><rdg><l>tranquility.</l></rdg></app><l/>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">Do not let this letter disturb </l><app id="var4" type="sub"><rdg><l rend="indent2">you; do</l></rdg></app><l rend="indent2"> not</l>
+    <l>answer it tomorrow or the next day or </l><app id="var5" type="sub"><rdg><l/><seg><l>even</l></seg><l/></rdg></app><l> untill</l>
+    <l>you come if it will give you pain. My </l><app id="var6" type="ort"><rdg><l>uncle</l></rdg></app><l> will</l>
+    <l>send me news of your health and if I see but</l>
+    <l>one smile on your lips when we meet </l><app id="var7" type="sub"><rdg><l>occasioned</l></rdg></app><l/>
+    <l>by this </l><app id="var8" type="sub"><rdg><l/><seg><l>or</l></seg><l/></rdg></app><l> any other <del rend="strikethrough"/></l><app id="var9" type="sub"><rdg><l><del rend="strikethrough">happ</del> </l><seg><l>exertion</l></seg><l/></rdg></app><l> of mine I</l>
+    <l>shall need no other </l><app id="var10" type="sub int"><rdg><l>happiness;</l></rdg></app><l/>
+    <l rend="right">E<hi rend="underline">liz<hi rend="double-underline">abeth</hi></hi>
+      </l><app id="var11" type="sub int"><rdg><l rend="right"><hi rend="underline">L<hi rend="double-underline">avenz</hi></hi>a</l>
+    <l/><seg><l>Geneva</l></seg><l/>
+    <l><del instant="true" rend="strikethrough">April</del> May 18<hi rend="underline"><hi rend="sup">th</hi></hi>
+      <hi rend="underline">17—— </hi></l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">This letter revived in my memory what I had</l>
+    <l>before forgotten, the <del rend="strikethrough">tr</del> threat of the fiend.– <hi rend="underline">I will b</hi>e</l>
+    <l><hi rend="underline">with you on your wedding night!</hi> Such was my</l></rdg></app><l/>
+  <anchor id="struct34b" subtype="ide"/></p>
+    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0002.jp2"/>
+    <p type="pagination"><l>100</l></p>
+    <p><anchor id="struct35a"/> <anchor id="struct35b"/></p>
+    <p type="main"><anchor id="struct36a" subtype="ide"/>
+        <l/><app id="var12" type="sub int"><rdg><l>sentence,</l></rdg></app><l> and on that night would the dæmon </l><app id="var13" type="sub"><rdg><l>employ</l></rdg></app><l/>
+        <l>every art to destroy me </l><app id="var14" type="ort"><rdg><l>and</l></rdg></app><l> tear me from the</l>
+        <l><mod>
+                <del rend="strikethrough"/></mod></l><app id="var15" type="sub"><rdg><l><mod><del rend="strikethrough">p</del>
+                <add><metamark function="insert"/></add></mod></l><seg><l><mod><add><metamark function="insert">^</metamark></add></mod></l></seg><l><mod><add><metamark function="insert"/></add></mod></l></rdg></app><l><mod><add><metamark function="insert"/></add>
+                <add place="superlinear">glimse </add></mod></l><app id="var16" type="sub"><rdg><l><mod><add place="superlinear">of</add>
+            </mod> </l><seg><l>happiness</l></seg><l/></rdg></app><l> which </l><app id="var17" type="sub"><rdg><l/><seg><l>promised</l></seg><l> <del rend="strikethrough">to</del> </l><seg><l>partly</l></seg><l> to <del rend="strikethrough">so</del> </l><seg><l>console</l></seg><l/></rdg></app><l/>
+        <l>my sufferings. On that night he had determined</l>
+        <l>to consummate his crimes by my death. Well be it </l><app id="var18" type="ort int"><rdg><l>so;</l>
+        <l>a</l></rdg></app><l> deadly </l><app id="var19" type="ort"><rdg><l>strugle</l></rdg></app><l> would then assuredly take place</l>
+        <l>where if he <del instant="true" rend="strikethrough"/></l><app id="var20" type="sub"><rdg><l><del instant="true" rend="strikethrough">wer</del>
+                <mod><del rend="strikethrough">should be</del>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
+                <add place="superlinear"/></mod></l><seg><l><mod><add place="superlinear">was</add></mod></l></seg><l><mod><add place="superlinear"/></mod></l></rdg></app><l><mod><add place="superlinear"/>
+            </mod> victorious I should be at</l>
+        <l>peace and his power over me </l><app id="var21" type="sub"><rdg><l/><seg><l>be</l></seg><l/></rdg></app><l> at an </l><app id="var22" type="int"><rdg><l>end.</l></rdg></app><l> If </l>
+        <l>he were vanquished </l><app id="var23" type="ort"><rdg><l>I</l></rdg></app><l> should <add hand="#comp" place="sublinear"><metamark function="insert"/></add></l><app id="var24" type="sub ort"><rdg><l><add hand="#comp" place="sublinear"><metamark function="insert">^</metamark></add><add hand="#comp" place="superlinear">be</add></l></rdg></app><l><add hand="#comp" place="superlinear"/> a free </l><app id="var25" type="sub int"><rdg><l>man. Alas!</l></rdg></app><l/>
+        <l>what </l><app id="var26" type="sub int"><rdg><l>freedom;</l></rdg></app><l> such as </l><app id="var27" type="sub"><rdg><l>the </l><seg><l>peasant</l></seg><l> enjoys</l></rdg></app><l> when</l>
+        <l>his family have been massacred before his</l>
+        <l/><app id="var28" type="int"><rdg><l>eyes,</l></rdg></app><l> his cottage </l><app id="var29" type="int"><rdg><l>burnt,</l></rdg></app><l> his lands <add hand="#comp" place="superlinear">laid</add>
+            </l><app id="var30" type="ort int"><rdg><l>waste, and</l></rdg></app><l> he is</l>
+        <l>turned adrift </l><app id="var31" type="int"><rdg><l>homeless</l></rdg></app><l> pennyless </l><app id="var32" type="ort int"><rdg><l>and alone,</l></rdg></app><l> but </l>
+        <l>free. Such would be my liberty except that in</l>
+        <l>my <del rend="strikethrough"/></l><app id="var33" type="sub"><rdg><l><del rend="strikethrough">libert</del> </l><seg><l>Elizabeth</l></seg><l/></rdg></app><l> I possessed a </l><app id="var34" type="int"><rdg><l>treasure,
+            alas!</l></rdg></app><l/>
+        <l>balanced by the horrors of remorse </l><app id="var35" type="ort"><rdg><l>and</l></rdg></app><l> guilt</l>
+        <l>which would pursue me untill death.</l>
+        <milestone unit="tei:p"/>
+        <l rend="indent2">Sweet </l><app id="var36" type="ort"><rdg><l rend="indent2">and</l></rdg></app><l rend="indent2"> beloved Elizabeth! I read </l><app id="var37" type="sub ort"><rdg><l rend="indent2">and re-</l>
+        <l>read</l></rdg></app><l> her letter </l><app id="var38" type="ort"><rdg><l>and</l></rdg></app><l> some softened feelings </l><app id="var39" type="sub"><rdg><l/><seg><l>stole</l></seg><l/></rdg></app><l/>
+    <anchor id="struct36b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0003.jp2"/>
+  <p type="pagination"><l>105</l></p>
+  <p><anchor id="struct37a"/> <anchor id="struct37b"/></p>
+  <p type="library"><anchor id="struct38a" subtype="ide"/><l>2</l><anchor id="struct38b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct39a" subtype="ide"/>
+    <l><add hand="#comp"><milestone spanTo="#c58-0003.01" unit="tei:note"/></add></l><app id="var40" type="sub int"><rdg><l><add hand="#comp">T.K</add></l></rdg></app><l><add hand="#comp"><anchor xml:id="c58-0003.01"/></add></l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">Soon after my arrival my father spoke</l>
+    <l>of my immediate marriage with my cousin. I</l>
+    <l>remained silent.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">"Have you </l><app id="var41" type="sub int"><rdg><l rend="indent1">then</l></rdg></app><l rend="indent1"> some other </l><app id="var42" type="int"><rdg><l rend="indent1">attachment?"</l></rdg></app><l rend="indent1"/>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">"None on </l><app id="var43" type="int"><rdg><l rend="indent1">earth;</l></rdg></app><l rend="indent1"> I </l><app id="var44" type="sub"><rdg><l rend="indent1"/><seg><l rend="indent1">love</l></seg><l rend="indent1"> Elizabeth</l></rdg></app><l rend="indent1"> and look</l>
+    <l/><app id="var45" type="ort"><rdg><l>foward</l></rdg></app><l> to our union with </l><app id="var46" type="sub"><rdg><l>delight. Let</l></rdg></app><l> the</l>
+    <l>day therefore be </l><app id="var47" type="sub ort"><rdg><l>fixed</l></rdg></app><l> and on it I will consecrate</l>
+    <l>my<mod>
+        <add place="sublinear"><metamark function="insert"/></add></mod></l><app id="var48" type="sub"><rdg><l><mod><add place="sublinear"><metamark function="insert">^</metamark></add>
+        <del rend="strikethrough"><add place="intralinear">s</add></del>
+      </mod><mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">self in</add>
+      </mod> </l><seg><l>life</l></seg><l/></rdg></app><l> or death to the happiness </l><app id="var49" type="sub"><rdg><l/><seg><l>of</l></seg><l/></rdg></app><l> my cousin.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">My dear </l><app id="var50" type="sub int"><rdg><l rend="indent1">Victor</l></rdg></app><l rend="indent1"> do not speak thus. Heavy</l>
+    <l>misfortunes have befallen </l><app id="var51" type="int"><rdg><l>us,</l></rdg></app><l> but let us </l><app id="var52" type="sub"><rdg><l/><seg><l>only</l></seg><l/></rdg></app><l> cling</l>
+    <l>closer to what remains </l><app id="var53" type="sub"><rdg><l/><seg><l>and</l></seg><l/></rdg></app><l> transfer our love for</l>
+    <l>those whom we </l><app id="var54" type="sub ort"><rdg><l>have</l></rdg></app><l> lost <del rend="strikethrough"/></l><app id="var55" type="sub"><rdg><l><del rend="strikethrough">wh</del> </l><seg><l>to</l></seg><l/></rdg></app><l> those who </l><app id="var56" type="sub"><rdg><l/><seg><l>yet</l></seg><l/></rdg></app><l/>
+    <l>live. Our circle will be small but bound close</l>
+    <l>by the ties of affection </l><app id="var57" type="ort"><rdg><l>and</l></rdg></app><l> mutual </l><app id="var58" type="sub"><rdg><l>misfortune-</l></rdg></app><l/>
+  <anchor id="struct39b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0004.jp2"/>
+  <p type="pagination"><l>106</l></p>
+  <p><anchor id="struct40a"/> <anchor id="struct40b"/></p>
+  <p type="main"><anchor id="struct41a" subtype="ide"/>
+    <l/><app id="var59" type="sub"><rdg><l>and when time shall have softened your despair</l>
+    <l>new and dear cares will be <del rend="strikethrough">to</del> born to replace those
+      of</l>
+    <l>whom we have been so cruelly deprived."</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">Such were the lessons of my father; but to</l>
+    <l>me the remembrance of the threat returned </l><seg><l>nor</l></seg><l/></rdg></app><l/>
+    <l>can you wonder that omnipotent as the fiend</l>
+    <l/><app id="var60" type="sub ort"><rdg><l>had</l></rdg></app><l> yet been in his deeds of blood I should almost </l>
+    <l>regard him as invincible, and that when <add hand="#comp" place="superlinear">he</add>
+      </l><app id="var61" type="sub"><rdg><l>had</l>
+    <l/><seg><l>pronounced</l></seg><l/></rdg></app><l> the </l><app id="var62" type="int"><rdg><l>words,</l></rdg></app><l> <hi rend="underline">I <del instant="true" rend="strikethrough"/></hi></l><app id="var63" type="sub"><rdg><l><hi rend="underline"><del instant="true" rend="strikethrough">will</del> </hi></l><seg><l><hi rend="underline">shall</hi></l></seg><l/></rdg></app><l><hi rend="underline"> be with you</hi></l>
+    <l><hi rend="underline">on your </hi></l><app id="var64" type="sub int"><rdg><l><hi rend="underline">wedding night</hi>,</l></rdg></app><l> I should regard the </l>
+    <l>threatened fate as unavoidable. But death was </l>
+    <l>no evil to me if the loss of </l><app id="var65" type="sub"><rdg><l>Elizabeth</l></rdg></app><l> were balanced</l>
+    <l>with it and I therefore with </l><app id="var66" type="sub"><rdg><l>a conten<mod>
+        <del rend="overwritten">d</del>
+        <add place="intralinear">t</add>
+      </mod>ed and</l></rdg></app><l> even</l>
+    <l>cheerful countenance agreed with my father</l>
+    <l>that </l><app id="var67" type="sub"><rdg><l>if my cousin would consent </l><seg><l>the</l></seg><l/></rdg></app><l> ceremony</l>
+    <l>should take place </l><app id="var68" type="sub"><rdg><l/><seg><l>in</l></seg><l/></rdg></app><l> ten </l><app id="var69" type="sub int"><rdg><l>days;</l></rdg></app><l> and thus </l><app id="var70" type="int"><rdg><l>put</l></rdg></app><l> as I</l>
+    <l>imagined the seal to my fate.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2"/><app id="var71" type="sub ort"><rdg><l rend="indent2">Great</l></rdg></app><l rend="indent2"> God! If for one instant I had though<add place="intralinear">t</add></l>
+    <l>what might be the hellish intention of my fiendish</l>
+  <anchor id="struct41b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0005.jp2"/>
+  <p type="pagination"><l>107</l></p>
+  <p><anchor id="struct42a"/> <anchor id="struct42b"/></p>
+  <p type="library"><anchor id="struct43a" subtype="ide"/><l>3</l><anchor id="struct43b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct44a"/>
+    <l>adversary I would rather have banished myself for</l>
+    <l>ever from my native country and wandered <mod>
+      <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">a</add>
+      </mod> friend-</l>
+    <l>less outcast over the earth than have consented</l>
+    <l>to this miserable marriage. But as if possessed</l>
+    <l>of magic powers the monster had blinded me to his real</l>
+    <l>intentions and when I thought that I prepared only</l>
+    <l>my own death I hastened that of a far dearer victim.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">As the <del rend="strikethrough">th</del> period fixed for our
+      marriage drew</l>
+    <l>nearer <del instant="true" rend="strikethrough">wh</del>
+      <del instant="true" rend="strikethrough">wh</del> whether from cowardice or a prophetic</l>
+    <l>feeling, I felt my heart sink within me. But I concealed</l>
+    <l>my feelings by <del rend="strikethrough">b</del> an appearance of hilarity that</l>
+    <l>brought smiles and joy to the countenance of my fa-</l>
+    <l>ther but hardly deceived the ever watchful and</l>
+    <l> nicer eye of Elizabeth. She looked forward to our u-</l>
+  <anchor id="struct44b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0006.jp2"/>
+  <p type="pagination"><l>108</l></p>
+  <p><anchor id="struct45a"/> <anchor id="struct45b"/></p>
+  <p type="main"><anchor id="struct46a" subtype="ide"/>
+    <l/><app id="var72" type="sub int"><rdg><l>nion with placid contentment not unmingled</l>
+    <l>with a little fear,</l></rdg></app><l> which past </l><app id="var73" type="ort"><rdg><l>misfortune</l></rdg></app><l> had</l>
+    <l>impressed, that what now appeared certain </l><app id="var74" type="ort"><rdg><l>and</l></rdg></app><l/>
+    <l>tangible happiness might soon dissipate into an</l>
+    <l>airy dream </l><app id="var75" type="ort"><rdg><l>and</l></rdg></app><l> leave no trace but deep </l><app id="var76" type="sub ort"><rdg><l>and</l>
+    <l>everlasting</l></rdg></app><l> regret.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">Preparations were made for the </l><app id="var77" type="sub int"><rdg><l rend="indent2">event; congratu-</l>
+    <l>latory</l></rdg></app><l> were </l><app id="var78" type="int"><rdg><l>received,</l></rdg></app><l> and all wore a smiling </l><app id="var79" type="sub"><rdg><l>appear</l>
+    <l>ance.</l></rdg></app><l> I shut up </l><app id="var80" type="sub"><rdg><l/><seg><l>as</l></seg><l/></rdg></app><l> well as I </l><app id="var81" type="int"><rdg><l>could</l></rdg></app><l> in my own heart</l>
+    <l>the anxiety that preyed there and entered with <del rend="strikethrough"/></l><app id="var82" type="sub"><rdg><l><del rend="strikethrough">sen</del></l>
+    <l/><seg><l>seeming</l></seg><l> earnestness</l></rdg></app><l> into the plans of my father</l>
+    <l><del rend="strikethrough"/></l><app id="var83" type="sub"><rdg><l><del rend="strikethrough">altho</del> </l><seg><l>although</l></seg><l/></rdg></app><l> they might only serve as the </l><app id="var84" type="sub"><rdg><l>decora-</l>
+    <l>tions</l></rdg></app><l> of my tragedy. A house was purchased for us</l>
+    <l>near </l><app id="var85" type="ort"><rdg><l>Cologny</l></rdg></app><l> by which we should enjoy the </l><app id="var86" type="sub"><rdg><l>plea-</l>
+    <l>sures</l></rdg></app><l> of the country and yet be so near Gene<retrace cause="unclear">v</retrace>a</l>
+    <l>as to see my father every </l><app id="var87" type="int"><rdg><l>day;</l></rdg></app><l> who would still</l>
+    <l>reside within the walls for the benefit of </l><app id="var88" type="int"><rdg><l>Ernest</l></rdg></app><l> that</l>
+    <l>he might follow his studies at the </l><app id="var89" type="sub int"><rdg><l>schools.</l></rdg></app><l/>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">In the mean time I took every </l><app id="var90" type="sub"><rdg><l rend="indent2">precaution</l></rdg></app><l rend="indent2"/>
+  <anchor id="struct46b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0007.jp2"/>
+  <p type="pagination"><l>109</l></p>
+  <p><anchor id="struct47a"/> <anchor id="struct47b"/></p>
+  <p type="library"><anchor id="struct48a" subtype="ide"/><l>4</l><anchor id="struct48b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct49a"/>
+    <l>to defend my person in case the fiend should openly</l>
+    <l>attack me. I carried pistols and dagger constantly</l>
+    <l>about me and was ever on the watch to prevent</l>
+    <l>artifice and by these means gain<add place="intralinear">ed</add> a greter degree
+      of</l>
+    <l>tanquillity. Indeed as the <del rend="strikethrough">the</del> period approached
+      the</l>
+    <l>threat appeared more as a delusion not <del rend="strikethrough">bo</del> to be re-</l>
+    <l>garded as worthy to disturb my peace while the</l>
+    <l>happiness I hoped for in my marriage wore</l>
+    <l>a greater appearance of certainty as the day fixed</l>
+    <l>for its solemnization drew nearer and I heard it</l>
+    <l>continully spoken of as an occurrence which no ac</l>
+    <l>cident could possibly prevent.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">Elizabeth seemed happy and this change</l>
+    <l>from mirth to content which she saw come over</l>
+  <anchor id="struct49b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0008.jp2"/>
+  <p type="pagination"><anchor id="struct50a" subtype="ide"/><l>110</l><anchor id="struct50b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct51a" subtype="ide"/>
+    <l/><app id="var91" type="sub int"><rdg><l>me.</l></rdg></app><l> But on the day that was to </l><app id="var92" type="sub ort"><rdg><l>fulfil</l></rdg></app><l> my <del rend="strikethrough"/></l><app id="var93" type="sub ort"><rdg><l><del rend="strikethrough">wi</del> </l><seg><l>wishes</l></seg><l/>
+    <l>and</l></rdg></app><l> my destiny she was melancholy </l><app id="var94" type="sub"><rdg><l>and </l><seg><l>a</l></seg><l/></rdg></app><l> presentiment</l>
+    <l>of evil pervaded </l><app id="var95" type="sub"><rdg><l>her; and</l></rdg></app><l> perhaps also she thought</l>
+    <l>of the </l><app id="var96" type="sub"><rdg><l/><seg><l>dreadful</l></seg><l/></rdg></app><l> secret which I had promised to</l>
+    <l>reveal to her the </l><app id="var97" type="sub"><rdg><l>following</l></rdg></app><l> day. My father was in the</l>
+    <l>mean time </l><app id="var98" type="sub"><rdg><l>overjoyed, and, <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add></mod></l></rdg></app><l><mod><add place="sublinear"><metamark function="insert"/></add>
+        <add place="superlinear">in</add>
+      </mod> the bustle of <del instant="true" rend="strikethrough"/></l><app id="var99" type="sub"><rdg><l><del instant="true" rend="strikethrough">pe</del> preparation,</l></rdg></app><l/>
+    <l>only observed in the melancholy of his </l><app id="var100" type="ort"><rdg><l>niece</l></rdg></app><l> the</l>
+    <l><del rend="strikethrough"/></l><app id="var101" type="sub"><rdg><l><del rend="strikethrough">a</del> </l><seg><l>diffidence</l></seg><l/></rdg></app><l> of a bride.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">After the </l><app id="var102" type="ort"><rdg><l rend="indent2">ceremony</l></rdg></app><l rend="indent2"> was performed a large</l>
+    <l>party assembled at my </l><app id="var103" type="sub"><rdg><l>father's;</l></rdg></app><l> but it was agreed</l>
+    <l>that Elizabeth </l><app id="var104" type="ort"><rdg><l>and</l></rdg></app><l> I should pass the afternoon</l>
+    <l/><app id="var105" type="ort"><rdg><l>and</l></rdg></app><l> night at Evian and </l><app id="var106" type="sub"><rdg><l/><seg><l>return</l></seg><l> to Cologny </l><seg><l>the</l></seg><l/></rdg></app><l/>
+    <l>next morning. <add hand="#comp" place="superlinear"/></l><app id="var107" type="sub ort"><rdg><l><add hand="#comp" place="superlinear">As</add> The day was fair and the</l></rdg></app><l> <del rend="strikethrough">the</del></l>
+    <l>wind <del rend="strikethrough">was</del> favourable we resolved to go by water.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">Those were the last moments of my life </l><app id="var108" type="sub"><rdg><l rend="indent2">du</l>
+    <l>ring</l></rdg></app><l> which I enjoyed the </l><app id="var109" type="ort"><rdg><l>felling</l></rdg></app><l> of happiness. We</l>
+    <l>passed rapidly along; the sun was hot but we were</l>
+    <l>sheltered <del rend="strikethrough">by</del> </l><app id="var110" type="sub"><rdg><l>from its rays by </l><seg><l>a</l></seg><l/></rdg></app><l> kind of canopy
+      </l><app id="var111" type="sub"><rdg><l>while</l></rdg></app><l/>
+    <l>we enjoyed the </l><app id="var112" type="sub"><rdg><l/><seg><l>beauty</l></seg><l/></rdg></app><l> of </l><app id="var113" type="sub int"><rdg><l>the scene;</l></rdg></app><l> </l><app id="var114" type="ort"><rdg><l>sometimes</l></rdg></app><l> on</l>
+  <anchor id="struct51b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0009.jp2"/>
+  <p type="pagination"><l>111</l></p>
+  <p><anchor id="struct52a"/> <anchor id="struct52b"/></p>
+  <p type="library"><anchor id="struct53a" subtype="ide"/><l>5</l><anchor id="struct53b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct54a"/>
+    <l>one side of the lake where we saw Mont Salêve,</l>
+    <l>the pleasant banks of Montalêgre and at a dis</l>
+    <l>tance surmounting all the beeautiful Mont</l>
+    <l>Blânc and the assemblage of snowy mountains</l>
+    <l>that <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">in vain</add>
+      </mod> endeavour <del rend="strikethrough">in va</del> to emulate her; som<add place="intralinear">e</add>times</l>
+    <l>coasting the opposite banks we saw the mighty Jura</l>
+    <l>opposing its dark side to the ambition that would</l>
+    <l>quit its native country and an almost insurmount</l>
+    <l>able barrier to the invader who should wish to</l>
+    <l>enslave it.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">I took the hand of Elizabeth<mod>
+        <del rend="strikethrough">s</del>
+        <add place="intralinear">:</add>
+      </mod> "You are sorrow</l>
+    <l>ful, my love<mod>
+        <del rend="strikethrough">;</del>
+        <add place="intralinear">.</add>
+      </mod> ah! if you knew what I have suffered</l>
+    <l>and what I may yet endure you would endeavour</l>
+    <l>to let me taste the quiet, and freedom from despair</l>
+  <anchor id="struct54b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0010.jp2"/>
+  <p type="pagination"><l>112</l></p>
+  <p><anchor id="struct55a"/> <anchor id="struct55b"/></p>
+  <p type="main"><anchor id="struct56a" subtype="ide"/>
+    <l/><app id="var115" type="sub"><rdg><l>that this one day at least permits me to enjoy.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">Be happy, my dear Victor, replied Elizabeth,</l></rdg></app><l rend="indent2"> </l><app id="var116" type="sub"><rdg><l rend="indent2"/><seg><l rend="indent2">there</l></seg><l rend="indent2"/></rdg></app><l rend="indent2"/>
+    <l>is I hope nothing to distress you; and be assured that</l>
+    <l>if a lively joy is not painted in my face my heart is</l>
+    <l/><app id="var117" type="ort"><rdg><l>contented.</l></rdg></app><l> Something whispers to me not to depend</l>
+    <l>too much on the prospect </l><app id="var118" type="sub"><rdg><l>that</l></rdg></app><l> is opened before us</l>
+    <l>but I will not <del rend="strikethrough"/></l><app id="var119" type="sub"><rdg><l><del rend="strikethrough">lis</del> </l><seg><l>listen</l></seg><l/></rdg></app><l> to such a sinister </l><app id="var120" type="int"><rdg><l>voice.</l></rdg></app><l/>
+    <l>Observe how fast we move </l><app id="var121" type="ort int"><rdg><l>along, and</l></rdg></app><l> how the clouds</l>
+    <l>which </l><app id="var122" type="sub"><rdg><l>sometimes obscure, and</l></rdg></app><l> sometimes rise above</l>
+    <l>the </l><app id="var123" type="sub"><rdg><l/><seg><l>dome</l></seg><l/></rdg></app><l> of </l><app id="var124" type="ort int"><rdg><l>Mônt Blânc, under</l></rdg></app><l> this scene of</l>
+    <l>beauty still more </l><app id="var125" type="ort"><rdg><l>interesting.</l></rdg></app><l> Look also at the</l>
+    <l>innumerable fish that are <del rend="strikethrough"/></l><app id="var126" type="sub"><rdg><l><del rend="strikethrough">smi</del> </l><seg><l>swimming</l></seg><l/></rdg></app><l/>
+    <l>in </l><app id="var127" type="ort"><rdg><l>the</l></rdg></app><l> clear waters where we can distinguish</l>
+    <l>every pebble that lies at the bottom. What a divine</l>
+    <l/><app id="var128" type="sub int"><rdg><l>day<mod>
+        <del rend="overwritten">;</del>
+        <add place="intralinear">!</add></mod></l></rdg></app><l><mod><add place="intralinear"/>
+      </mod> how happy </l><app id="var129" type="ort"><rdg><l>and</l></rdg></app><l> serene all nature appears!</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">Thus Elizabeth endeavoured to divert her</l>
+    <l>thoughts </l><app id="var130" type="ort"><rdg><l>and</l></rdg></app><l> mine from </l><app id="var131" type="sub"><rdg><l/><seg><l>all</l></seg><l/></rdg></app><l> reflection </l><app id="var132" type="ort"><rdg><l>upon</l></rdg></app><l/>
+    <l>melancholy </l><app id="var133" type="ort int"><rdg><l>subjects. But</l></rdg></app><l> her temper was </l><app id="var134" type="sub int"><rdg><l>fluc</l>
+    <l>tuating;</l></rdg></app><l> joy for a few instants shone in </l><app id="var135" type="sub"><rdg><l/><seg><l>her</l></seg><l/></rdg></app><l/>
+  <anchor id="struct56b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0011.jp2"/>
+  <p type="pagination"><l>113</l></p>
+  <p><anchor id="struct57a"/> <anchor id="struct57b"/></p>
+  <p type="library"><anchor id="struct58a" subtype="ide"/><l>6</l><anchor id="struct58b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct59a"/>
+    <l><del rend="strikethrough">ey</del> eyes but it continually gave place to
+      distraction</l>
+    <l>and reverie.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">The sun sunk lower in the heavens; we</l>
+    <l>passed the river Drance and observed its path</l>
+    <l>through the chasms of the higher and the glens</l>
+    <l>of the lower hills. The <del instant="true" rend="strikethrough">Ap</del> Alps here come closer</l>
+    <l>to the lake and we approached the amphi-</l>
+    <l><del instant="true" rend="strikethrough">thre</del> theatre of mountains which forms the</l>
+    <l>eastern boundary of the lake. The spire of Evian</l>
+    <l>shone <del rend="strikethrough">un<mod>
+          <del rend="overwritten">t</del>
+          <add place="intralinear">d</add>
+        </mod>e</del> under the woods that surrounded</l>
+    <l>it and the range of mountain above mountain</l>
+    <l>by which it was overhung.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">The wind which had hitherto carried us a-</l>
+    <l>long with amazing rapidity sunk at sunset to a</l>
+  <anchor id="struct59b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0012.jp2"/>
+  <p type="pagination"><l>114</l></p>
+  <p><anchor id="struct60a"/> <anchor id="struct60b"/></p>
+  <p type="main"><anchor id="struct61a" subtype="ide"/>
+    <l/><app id="var136" type="sub int"><rdg><l>light breeze;</l></rdg></app><l> the light air just ruffled the water</l>
+    <l/><app id="var137" type="ort"><rdg><l>and</l></rdg></app><l> caused a pleasant motion among the </l><app id="var138" type="ort int"><rdg><l>trees as</l></rdg></app><l/>
+    <l>we approached the shore it </l><app id="var139" type="sub"><rdg><l>wafted</l></rdg></app><l> the most </l><app id="var140" type="sub"><rdg><l>de-</l>
+    <l>lightful</l></rdg></app><l> scent of flowers </l><app id="var141" type="ort"><rdg><l>and</l></rdg></app><l> hay. The sun </l><app id="var142" type="sub"><rdg><l/><seg><l>sunk</l></seg><l> be-</l>
+    <l>neath</l></rdg></app><l> the horizon as we </l><app id="var143" type="int"><rdg><l>landed,</l></rdg></app><l> and as I touched</l>
+    <l>the shore I felt those cares and fears revive which</l>
+    <l/><app id="var144" type="sub"><rdg><l>soon</l></rdg></app><l> were to clasp me </l><app id="var145" type="ort"><rdg><l>and</l></rdg></app><l> cling to me </l><app id="var146" type="sub"><rdg><l/><seg><l>forever.</l></seg><l/></rdg></app><l/>
+  <anchor id="struct61b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0013.jp2"/>
+  <p type="pagination"><l>115</l></p>
+  <p><anchor id="struct62a"/> <anchor id="struct62b"/></p>
+  <p type="library"><anchor id="struct63a" subtype="ide"/><l>7</l><anchor id="struct63b" subtype="ide"/></p>
+  
+  <p type="main"><anchor id="struct64a" subtype="ide"/>
+    <l rend="center"><milestone spanTo="#c58-0013.03" unit="tei:head"/></l><app id="var147" type="ort int"><rdg><l rend="center">Chapter VI</l></rdg></app><l rend="center"><anchor xml:id="c58-0013.03"/></l>
+    <milestone unit="tei:p"/><l>It was eight o'clock when we landed; we </l><app id="var148" type="ort"><rdg><l>walk</l>
+    <l>ed</l></rdg></app><l> for a short time on the shore enjoying the</l>
+    <l>transitory </l><app id="var149" type="ort"><rdg><l>light and</l></rdg></app><l> then retired to the </l><app id="var150" type="ort"><rdg><l>inn</l></rdg></app><l> and </l><app id="var151" type="ort"><rdg><l>con</l>
+    <l>templated</l></rdg></app><l> the lovely scene of waters, </l><app id="var152" type="sub"><rdg><l>woods and </l><seg><l>mountains</l></seg><l/></rdg></app><l/>
+    <l>obscured in darkness yet still </l><app id="var153" type="sub ort"><rdg><l>displaying the<mod>
+        <del rend="overwritten">y</del>
+        <add place="intralinear">ir</add>
+      </mod>
+      <del rend="strikethrough"><add place="superlinear">black</add></del></l>
+    <l><mod>
+        <del rend="strikethrough">lovely</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">black</add></mod></l></rdg></app><l><mod><add place="superlinear"> <del rend="strikethrough">black</del></add>
+      </mod> </l><app id="var154" type="ort int"><rdg><l>outlines. <milestone unit="tei:p"/><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>The</l></rdg></app><l> wind which had fallen in the</l>
+    <l>south now rose with great violence in the </l><app id="var155" type="sub"><rdg><l>west. The</l></rdg></app><l/>
+    <l>moon had reached her summit in the heavens </l><app id="var156" type="ort"><rdg><l>and</l></rdg></app><l/>
+    <l>was beginning to </l><app id="var157" type="int"><rdg><l>descend;</l></rdg></app><l> the clouds swept across</l>
+    <l>it swifter than the flight of the vulture and </l><app id="var158" type="sub ort"><rdg><l>dim</l>
+    <l>me<mod>
+        <del rend="overwritten">r</del>
+        <add place="intralinear">d</add></mod></l></rdg></app><l><mod><add place="intralinear"/>
+      </mod> her rays while the lake reflected the scene of the</l>
+    <l>busy heavens <del rend="strikethrough"><unclear reason="illegible"/></del></l><app id="var159" type="sub ort"><rdg><l><del rend="strikethrough"><unclear reason="illegible">se</unclear></del>
+      rendered still busier</l></rdg></app><l> <delSpan rend="strikethrough" spanTo="#c58-0013.02"/>made still</l>
+    <l>busier<anchor xml:id="c58-0013.02"/> by the </l><app id="var160" type="sub"><rdg><l/><seg><l>restless</l></seg><l/></rdg></app><l> waves that were beginning to</l>
+    <l/><app id="var161" type="sub int"><rdg><l>rise. Suddenly</l></rdg></app><l> a heavy storm of rain descended.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2"/><app id="var162" type="ort"><rdg><l rend="indent2">I</l></rdg></app><l rend="indent2"> had been calm during the day but </l><app id="var163" type="sub"><rdg><l rend="indent2"/><seg><l rend="indent2">so</l></seg><l rend="indent2"/></rdg></app><l rend="indent2"> soon as</l>
+    <l>night </l><app id="var164" type="sub"><rdg><l/><seg><l>obscured</l></seg><l/></rdg></app><l> the shapes of objects a </l><app id="var165" type="ort"><rdg><l>thousand<del rend="strikethrough">s</del></l></rdg></app><l><del rend="strikethrough"/></l>
+    <l>fears arose in my </l><app id="var166" type="int"><rdg><l>mind.</l></rdg></app><l> I was anxious </l><app id="var167" type="ort"><rdg><l>at</l></rdg></app><l> watchful</l>
+  <anchor id="struct64b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0014.jp2"/>
+  <p type="pagination"><l>116</l></p>
+  <p><anchor id="struct65a"/> <anchor id="struct65b"/></p>
+  <p type="main"><anchor id="struct66a"/>
+    <l>while my right hand grasped a pistol which</l>
+    <l>was hidden in my bosom; every sound terrified</l>
+    <l>me but I <del rend="strikethrough">s</del> resolved that I would sell my life</l>
+    <l><del rend="strikethrough">as</del> dearly <del rend="strikethrough">as possible</del> and
+      not relax the impending</l>
+    <l>conflict untill my own life, or that of my adversa</l>
+    <l>ry were extinguished.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">Elizabeth observed my agitation for some</l>
+    <l>time in timid and fearful silence; at length she</l>
+    <l>said, What is it that agitates you<del rend="strikethrough"><unclear>r</unclear></del>, my
+      dear Victor?</l>
+    <l>What is it you fear?</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">Oh! peace, peace, my love, replied I, this night</l>
+    <l>and all will be safe; but this night is dreadful,</l>
+    <l><unclear>—</unclear>very dreadful.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">I passed an hour in this state of mind when</l>
+  <anchor id="struct66b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0015.jp2"/>
+  <p type="pagination"><l>117</l></p>
+  <p><anchor id="struct67a"/> <anchor id="struct67b"/></p>
+  <p type="library"><anchor id="struct68a" subtype="ide"/><l>8</l><anchor id="struct68b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct69a" subtype="ide"/>
+    <l/><app id="var168" type="sub"><rdg><l/><seg><l>suddenly</l></seg><l/></rdg></app><l> I reflected how dreadful </l><app id="var169" type="sub"><rdg><l/><seg><l>the</l></seg><l/></rdg></app><l> combat </l><app id="var170" type="sub"><rdg><l/><seg><l>which</l></seg><l/></rdg></app><l> I</l>
+    <l/><app id="var171" type="ort"><rdg><l>momentarily</l></rdg></app><l> expected </l><app id="var172" type="sub"><rdg><l/><seg><l>would</l></seg><l/></rdg></app><l> be to my wife and </l><app id="var173" type="sub"><rdg><l>earnest</l>
+    <l>ly</l></rdg></app><l> entreated her to </l><app id="var174" type="int"><rdg><l>retire,</l></rdg></app><l> resolving not to join her</l>
+    <l>untill I had obtained some knowledge as to the</l>
+    <l>situation of my enemy.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">She left </l><app id="var175" type="int"><rdg><l rend="indent2">me,</l></rdg></app><l rend="indent2"> and I continued </l><app id="var176" type="sub"><rdg><l rend="indent2">sometime</l></rdg></app><l rend="indent2"> walking</l>
+    <l>up and down the passages of the house </l><app id="var177" type="ort"><rdg><l>and</l></rdg></app><l/>
+    <l>inspecting every corner that might afford a </l><app id="var178" type="sub"><rdg><l>re</l>
+    <l>treat</l></rdg></app><l> to my </l><app id="var179" type="int"><rdg><l>adversary.</l></rdg></app><l> But I </l><app id="var180" type="sub"><rdg><l>discovered</l></rdg></app><l> no trace</l>
+    <l>of him </l><app id="var181" type="sub ort"><rdg><l>and was beginning</l></rdg></app><l> to </l><app id="var182" type="sub"><rdg><l>cons<mod>
+        <del rend="overwritten">ider</del>
+        <add place="intralinear">jecture</add>
+      </mod> that</l></rdg></app><l> some</l>
+    <l>fortunate chance </l><app id="var183" type="sub ort"><rdg><l>had</l></rdg></app><l> intervened to prevent</l>
+    <l>the execution of his </l><app id="var184" type="ort int"><rdg><l>menaces;</l></rdg></app><l> </l><app id="var185" type="ort"><rdg><l>when</l></rdg></app><l> suddenly I heard</l>
+    <l>a shrill </l><app id="var186" type="ort"><rdg><l>and</l></rdg></app><l> dreadful </l><app id="var187" type="sub"><rdg><l>scream<mod>
+        <del rend="overwritten">i</del>
+        <add place="intralinear">—</add>
+        <del rend="overwritten">I</del>
+        <add place="intralinear">i</add>
+      </mod>t</l></rdg></app><l> came from the</l>
+    <l>room into which Elizabeth had retired<mod>
+        <add place="intralinear">.</add>
+        <del rend="strikethrough"/></mod></l><app id="var188" type="sub"><rdg><l><mod><del rend="strikethrough">,</del>
+        <del rend="overwritten">a</del>
+        <add place="intralinear">A</add>
+      </mod>s</l></rdg></app><l> I heard</l>
+    <l/><app id="var189" type="int"><rdg><l>it,</l></rdg></app><l> the whole truth rushed </l><app id="var190" type="ort"><rdg><l>into</l></rdg></app><l> my </l><app id="var191" type="int"><rdg><l>mind,</l></rdg></app><l> my arms</l>
+    <l/><app id="var192" type="int"><rdg><l>dropped,</l></rdg></app><l> the motion of every muscle </l><app id="var193" type="ort"><rdg><l>and</l></rdg></app><l> fibre was</l>
+    <l/><app id="var194" type="int"><rdg><l>suspended,</l></rdg></app><l> I could feel the </l><app id="var195" type="sub"><rdg><l>blood trickling</l></rdg></app><l> in my veins</l>
+    <l/><app id="var196" type="sub"><rdg><l>and</l></rdg></app><l> tingling in </l><app id="var197" type="sub int"><rdg><l>the extremities of </l><seg><l>my</l></seg><l> limbs.</l></rdg></app><l> This state</l>
+    <l>lasted but </l><app id="var198" type="sub"><rdg><l>for </l><seg><l>an</l></seg><l> <mod>
+        <del rend="overwritten">o</del>
+        <add place="intralinear">i</add>
+      </mod>nstant; the scream was repeated,</l></rdg></app><l/>
+  <anchor id="struct69b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0016.jp2"/>
+  <p type="pagination"><l>118</l></p>
+  <p><anchor id="struct70a"/> <anchor id="struct70b"/></p>
+  <p type="main"><anchor id="struct71a"/>
+    <l>and I rushed into the room. <milestone unit="tei:p"/><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>Gread God! Why did I not</l>
+    <l>then expire! Why am I here to relate the dustruction</l>
+    <l>of the best hope and the purest creature of earth.</l>
+    <l>She was there, lifeless and inanimate<del rend="strikethrough">;</del> thrown
+      across</l>
+    <l>the bed, her head hanging down and her pale and</l>
+    <l>distorted features half covered by her hair. Every</l>
+    <l>where I turn I see the same figure, her bloodless</l>
+    <l>arms and relaxed form flung by the murderer on</l>
+    <l>its bridal bier. Could I behold this, and live? Alas!</l>
+    <l>life is obstinate and clings closest where it is most</l>
+    <l>hated. For a moment only did I lo<mod>
+        <del rend="overwritten">o</del>
+        <add place="intralinear">s</add>
+      </mod>e recollection;</l>
+    <l>I fainted.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">When I recovered, I found myself surrounded by</l>
+    <l>the people of the inn; their countenances expressed</l>
+  </p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0017.jp2"/>
+  <p type="pagination"><l>1<mod><del rend="overwritten">0</del><add place="intralinear">1</add></mod>9</l><anchor id="struct71b"/></p>
+  <p type="library"><anchor id="struct72a" subtype="ide"/><l>9</l><anchor id="struct72b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct73a" subtype="ide"/>
+    <l/><app id="var199" type="sub"><rdg><l/><seg><l/></seg><l/><seg><l/></seg><l/><seg><l>a</l></seg><l/></rdg></app><l> breathless terror but the horror of others </l><app id="var200" type="ort"><rdg><l>appear</l>
+    <l>ed</l></rdg></app><l> only as a </l><app id="var201" type="sub int"><rdg><l>mockery,</l></rdg></app><l> a shadow of the feelings that </l><app id="var202" type="sub"><rdg><l>op-</l>
+    <l>pressed me.</l></rdg></app><l> I escaped from them </l><app id="var203" type="sub"><rdg><l/><seg><l>to</l></seg><l/></rdg></app><l> the room where</l>
+    <l>lay the body of </l><app id="var204" type="int"><rdg><l>Elizabeth,</l></rdg></app><l> my </l><app id="var205" type="sub int"><rdg><l>love,</l></rdg></app><l> my </l><app id="var206" type="int"><rdg><l>wife;</l></rdg></app><l> so lately</l>
+    <l/><app id="var207" type="int"><rdg><l>living,</l></rdg></app><l> so </l><app id="var208" type="int"><rdg><l>dear,</l></rdg></app><l> so </l><app id="var209" type="int"><rdg><l>worthy.</l></rdg></app><l> She had been moved from</l>
+    <l>the posture in which I had first beheld </l><app id="var210" type="ort int"><rdg><l>her, <add place="intralinear">and</add></l></rdg></app><l><add place="intralinear"/></l>
+    <l>now as she lay her head upon her </l><app id="var211" type="int"><rdg><l>arm,</l></rdg></app><l> and </l><app id="var212" type="sub ort"><rdg><l/><seg><l>a</l></seg><l/>
+    <l>handkerchief</l></rdg></app><l> thrown across her face </l><app id="var213" type="ort"><rdg><l>and</l></rdg></app><l> neck I</l>
+    <l>might have </l><app id="var214" type="sub"><rdg><l>supposed</l></rdg></app><l> her </l><app id="var215" type="int"><rdg><l>asleep.</l></rdg></app><l> I rushed towards</l>
+    <l/><app id="var216" type="ort int"><rdg><l>her, and</l></rdg></app><l> embraced her with </l><app id="var217" type="ort"><rdg><l>adrour</l></rdg></app><l> but the <del rend="strikethrough"/></l><app id="var218" type="sub ort"><rdg><l><del rend="strikethrough">dealthy</del></l>
+    <l>dealthy languour</l></rdg></app><l> of the </l><app id="var219" type="sub"><rdg><l>limbs</l></rdg></app><l> told me that what</l>
+    <l>I now held in my arms had ceased to be the </l><app id="var220" type="sub"><rdg><l>Eliza</l>
+    <l>beth</l></rdg></app><l> whom I had loved </l><app id="var221" type="ort int"><rdg><l>and cherished;</l></rdg></app><l> the <add hand="#comp" place="superlinear"><milestone spanTo="#c58-0017.01" unit="tei:note"/></add></l><app id="var222" type="sub int"><rdg><l><add hand="#comp" place="superlinear">[Vol. III-G 121]<anchor xml:id="c58-0017.01"/></add>
+      <add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>murder</l>
+    <l>rous mark</l></rdg></app><l> of the </l><app id="var223" type="sub ort"><rdg><l>fiend's grasp</l></rdg></app><l> was on her </l><app id="var224" type="ort int"><rdg><l>neck,</l>
+    <l>and</l></rdg></app><l> the breath had ceased to issue from her </l><app id="var225" type="sub"><rdg><l/><seg><l>lips.</l></seg><l/></rdg></app><l/>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">While I still </l><app id="var226" type="sub ort"><rdg><l rend="indent2">hung over</l></rdg></app><l rend="indent2"> her </l><app id="var227" type="sub"><rdg><l rend="indent2"/><seg><l rend="indent2">in</l></seg><l rend="indent2"/></rdg></app><l rend="indent2"> the agony of</l>
+    <l/><app id="var228" type="int"><rdg><l>despair,</l></rdg></app><l> I happened to look up. The <mod>
+        <add place="sublinear"><metamark function="insert"/></add></mod></l><app id="var229" type="sub"><rdg><l><mod><add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">windows of the</add>
+      </mod> </l><seg><l>room</l></seg><l/></rdg></app><l> had</l>
+    <l>before been </l><app id="var230" type="sub int"><rdg><l>darkened,</l></rdg></app><l> and I felt a kind of panic on</l>
+    <l>seeing the pale yellow light of the moon </l><app id="var231" type="sub"><rdg><l/><seg><l>illuminate</l></seg><l/></rdg></app><l/>
+  <anchor id="struct73b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0018.jp2"/>
+  <p type="pagination"><l>120</l></p>
+  <!--first "120" was mispositioned and faintly inked in upper left corner-->
+  
+  <p><anchor id="struct74a"/> <anchor id="struct74b"/></p>
+  
+  <p type="main"><anchor id="struct75a"/>
+    <l>the chamber, the shutters had been thrown back; and,</l>
+    <l>with a sensation of horror not be described, <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">I</add>
+      </mod> saw <del rend="strikethrough">th</del>at</l>
+    <l>the open window a figure the most hidious and</l>
+    <l>abhorred. A grin was <del rend="strikethrough">was</del> on the face <add place="superlinear">of</add> the monster;</l>
+    <l>he seemed to jeer as with his fiendish finger he pointed</l>
+    <l>towards the <del rend="strikethrough">window</del> corpse of my wife. I rushed
+      towards</l>
+    <l>the window, and, drawing a pistol from <del rend="strikethrough">the window
+      and</del></l>
+    <l>my bosom, shot; but he eluded me, leapt from his</l>
+    <l>station, and running with the swiftness of lightning</l>
+    <l>plunged into the lake. <milestone unit="tei:p"/><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark><metamark><hi rend="sup">X</hi></metamark></add>The report of the pistol brought</l>
+    <l>a crowd into the room; I pointed to where he had</l>
+    <l>disappeared and we followed the tract with boats; nets</l>
+    <l>were cast but in vain. After passing <del rend="strikethrough">in the</del> severa<add place="intralinear">l</add></l>
+    <l>hours we returned hopeless, most of my companions</l>
+  <anchor id="struct75b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0019.jp2"/>
+  <p type="pagination"><l>121</l></p>
+  <p><anchor id="struct76a"/> <anchor id="struct76b"/></p>
+  <p type="library"><anchor id="struct77a" subtype="ide"/><l>10</l><anchor id="struct77b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct78a" subtype="ide"/>
+    <l/><app id="var232" type="sub ort"><rdg><l>believing it <mod>
+        <add hand="#comp" place="sublinear"><metamark function="insert">^</metamark></add></mod></l></rdg></app><l><mod><add hand="#comp" place="sublinear"><metamark function="insert"/></add>
+        <add hand="#comp" place="superlinear"/></mod></l><app id="var233" type="sub"><rdg><l><mod><add hand="#comp" place="superlinear"/></mod></l><seg><l><mod><add hand="#comp" place="superlinear"/></mod></l></seg><l><mod><add hand="#comp" place="superlinear"/></mod></l><seg><l><mod><add hand="#comp" place="superlinear"/></mod></l></seg><l><mod><add hand="#comp" place="superlinear"/></mod></l><seg><l><mod><add hand="#comp" place="superlinear">to</add></mod></l></seg><l><mod><add hand="#comp" place="superlinear"/></mod></l></rdg></app><l><mod><add hand="#comp" place="superlinear"/>
+      </mod> have been a form conjured <del rend="strikethrough"/></l><app id="var234" type="sub"><rdg><l><del rend="strikethrough">my</del> </l><seg><l>by</l></seg><l/></rdg></app><l> my</l>
+    <l>fancy. </l><app id="var235" type="sub ort"><rdg><l>After</l></rdg></app><l> having </l><app id="var236" type="sub"><rdg><l/><seg><l>landed</l></seg><l/></rdg></app><l> they </l><app id="var237" type="sub"><rdg><l>proceeded</l></rdg></app><l> to search the</l>
+    <l/><app id="var238" type="sub int"><rdg><l>country,</l></rdg></app><l> parties going in different directions among</l>
+    <l>the woods </l><app id="var239" type="ort"><rdg><l>and</l></rdg></app><l> vines.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">I did not accompany </l><app id="var240" type="sub int"><rdg><l rend="indent2">them;</l></rdg></app><l rend="indent2"> I was </l><app id="var241" type="int"><rdg><l rend="indent2">exhausted,</l></rdg></app><l rend="indent2"/>
+    <l>a film covered my eyes and my skin </l><app id="var242" type="sub"><rdg><l/><seg><l>was</l></seg><l/></rdg></app><l> parched with</l>
+    <l/><app id="var243" type="sub"><rdg><l/><seg><l>the</l></seg><l/></rdg></app><l> heat of fever. In this state I lay on a bed</l>
+    <l>hardly conscious of what had </l><app id="var244" type="sub int"><rdg><l>happened;</l></rdg></app><l> my eyes</l>
+    <l>wandered round the room as if to seek somthing</l>
+    <l>that I had lost. <milestone unit="tei:p"/><add hand="#comp" place="intralinear"><metamark function="paragraph"/></add></l><app id="var245" type="ort"><rdg><l><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>At</l></rdg></app><l> length I </l><app id="var246" type="sub"><rdg><l>remembered</l></rdg></app><l> that my father</l>
+    <l>would anxiously expect the return of Elizabeth </l><app id="var247" type="ort int"><rdg><l>and</l>
+    <l>myself,</l></rdg></app><l> and that I must return alone. This </l><app id="var248" type="sub"><rdg><l>reflec</l>
+    <l>-tion</l></rdg></app><l> brought tears into my eyes </l><app id="var249" type="ort"><rdg><l>and</l></rdg></app><l> I wept for a long</l>
+    <l/><app id="var250" type="sub"><rdg><l>time; but my thoughts rambled to various subjects,</l>
+    <l>reflecting on</l></rdg></app><l> my misfortunes </l><app id="var251" type="ort"><rdg><l>and</l></rdg></app><l> their cause </l><app id="var252" type="ort"><rdg><l>I</l></rdg></app><l> was</l>
+    <l>bewildered in a cloud of wonder and horror. </l><app id="var253" type="sub"><rdg><l/><seg><l>The</l></seg><l/>
+    <l>death of William, the execution of Justine, the murder</l>
+    <l>of Clerval and lastly of my wife; even at that mo-</l>
+    <l>ment I knew not that my only remaining friends were</l></rdg></app><l/>
+  <anchor id="struct78b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0020.jp2"/>
+  <p type="pagination"><l>122</l></p>
+  <p><anchor id="struct79a"/> <anchor id="struct79b"/></p>
+  <p type="main"><anchor id="struct80a" subtype="ide"/>
+    <l/><app id="var254" type="sub"><rdg><l/><seg><l/></seg><l/><seg><l>safe</l></seg><l/></rdg></app><l> from the malignity of the <del rend="strikethrough"/></l><app id="var255" type="sub int"><rdg><l><del rend="strikethrough">friend</del> fiend;</l></rdg></app><l> my
+      father</l>
+    <l>even now might <mod>
+        <add hand="#comp" place="sublinear"><metamark function="insert"/></add></mod></l><app id="var256" type="sub"><rdg><l><mod><add hand="#comp" place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#comp" place="superlinear"/></mod></l><seg><l><mod><add hand="#comp" place="superlinear">be</add></mod></l></seg><l><mod><add hand="#comp" place="superlinear"/></mod></l></rdg></app><l><mod><add hand="#comp" place="superlinear"/>
+      </mod> writhing under his grasp </l><app id="var257" type="sub ort"><rdg><l>and Er-</l>
+    <l>nest</l></rdg></app><l> might be dead at his </l><app id="var258" type="int"><rdg><l>feet.</l></rdg></app><l> This <del rend="strikethrough"/></l><app id="var259" type="sub"><rdg><l><del rend="strikethrough">p</del> idea</l></rdg></app><l> made</l>
+    <l>me shudder and recalled me to </l><app id="var260" type="int"><rdg><l>action;</l></rdg></app><l> I </l><app id="var261" type="sub"><rdg><l/><seg><l>started</l></seg><l/></rdg></app><l> up</l>
+    <l/><app id="var262" type="ort"><rdg><l>and</l></rdg></app><l> resolved to return to Geneva with </l><app id="var263" type="sub"><rdg><l/><seg><l>all</l></seg><l/></rdg></app><l> possible</l>
+    <l>speed.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">There were no horses to be procured and I must</l>
+    <l>return by the </l><app id="var264" type="int"><rdg><l>lake;</l></rdg></app><l> but the wind was </l><app id="var265" type="sub"><rdg><l/><seg><l>unfavourable</l></seg><l/>
+    <l><del rend="strikethrough">amd</del> </l><seg><l>and</l></seg><l/></rdg></app><l> the rain fell in torrents. </l><app id="var266" type="sub ort"><rdg><l>However it</l></rdg></app><l> was</l>
+    <l/><app id="var267" type="sub"><rdg><l/><seg><l>hardly</l></seg><l> </l><seg><l>morning</l></seg><l/></rdg></app><l> and I </l><app id="var268" type="sub"><rdg><l/><seg><l>might</l></seg><l/></rdg></app><l> reasonably </l><app id="var269" type="ort"><rdg><l>hope</l></rdg></app><l> to arrive</l>
+    <l/><app id="var270" type="sub int"><rdg><l/><seg><l>by</l></seg><l> night.</l></rdg></app><l> I hired </l><app id="var271" type="sub"><rdg><l/><seg><l>men</l></seg><l/></rdg></app><l> to row and took an oar myself</l>
+    <l>for I had always </l><app id="var272" type="sub"><rdg><l/><seg><l>experienced</l></seg><l/></rdg></app><l> relief </l><app id="var273" type="sub"><rdg><l/><seg><l>from</l></seg><l/></rdg></app><l> mental </l><app id="var274" type="sub ort"><rdg><l>tor</l>
+    <l>ment</l></rdg></app><l> in bodily exercise. But the overflowing misery</l>
+    <l>I now felt </l><app id="var275" type="ort"><rdg><l>and</l></rdg></app><l> the excess of agitation that I endured</l>
+  <anchor id="struct80b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0021.jp2"/>
+  <p type="pagination"><l>123</l></p>
+  <p><anchor id="struct81a"/> <anchor id="struct81b"/></p>
+  <p type="library"><anchor id="struct82a" subtype="ide"/><l>11</l><anchor id="struct82b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct83a"/>
+    <l>rendered me incapable of any exertion. I threw</l>
+    <l>down the oar and leaning my head upon my hands</l>
+    <l>gave way to every gloomy idea that arose. If I</l>
+    <l>looked up I saw the scenes which were familiar</l>
+    <l>to me in my happier time and which I had</l>
+    <l>contemplated but the day before in the company</l>
+    <l>of her who was now but a shadow and a recollection.</l>
+    <l>Tears streamed from my eyes, the rain had ceased</l>
+    <l>for a moment and I saw the fish play in the </l>
+    <l>waters as they had done a few hours before; they</l>
+    <l>had then been observed by Elizabeth. Nothing is</l>
+    <l>so painful to the human mind as a great and</l>
+    <l>sudden change. The sun might shine, or the clouds</l>
+    <l>might lour, but nothing could appear to me as it</l>
+    <l>had done the day before. A fiend had snatched</l>
+    <l>from me every hope of future happiness; no crea-</l>
+    <l>ture had ever been so miserable as I was. So fright</l>
+    <l>ful an event was single in the history of man.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">But why should I <del rend="strikethrough">dewe</del> dwell upon
+      the inci</l>
+  </p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0022.jp2"/>
+  <p type="pagination"><l>12<mod><del rend="overwritten">2</del><add place="intralinear">4</add></mod></l><anchor id="struct83b"/></p>
+  <p type="main"><anchor id="struct84a" subtype="ide"/>
+    <l/><app id="var276" type="sub"><rdg><l>dents</l></rdg></app><l> </l><app id="var277" type="sub"><rdg><l/><seg><l/></seg><l/><seg><l>that</l></seg><l/></rdg></app><l> followed this last </l><app id="var278" type="sub int"><rdg><l>overwhelming event.</l></rdg></app><l/>
+    <l>Mine has been a tale </l><app id="var279" type="sub int"><rdg><l>of horrors,</l></rdg></app><l> I have <del rend="strikethrough">now</del> reached</l>
+    <l>their </l><app id="var280" type="sub ort"><rdg><l>acme <del rend="strikethrough">me</del></l></rdg></app><l><del rend="strikethrough"/> and what I must now relate can</l>
+    <l>but be <del rend="strikethrough"/></l><app id="var281" type="sub ort"><rdg><l><del rend="strikethrough">de</del> tedious</l></rdg></app><l> to you<mod>
+        <add hand="#comp" place="intralinear"/></mod></l><app id="var282" type="sub"><rdg><l><mod><add hand="#comp" place="intralinear">.</add>
+        <del rend="strikethrough">no</del>
+        <add hand="#comp" place="superlinear">Know</add>
+      </mod> that,</l></rdg></app><l> one by </l><app id="var283" type="int"><rdg><l>one,</l></rdg></app><l> my friends</l>
+    <l>were snatched </l><app id="var284" type="sub int"><rdg><l>away;</l></rdg></app><l> I was left desolate. <del rend="strikethrough"><unclear/></del></l><app id="var285" type="sub"><rdg><l><del rend="strikethrough"><unclear>ow</unclear></del> </l><seg><l>My</l></seg><l/></rdg></app><l> own</l>
+    <l>strength is </l><app id="var286" type="ort int"><rdg><l>exhausted; and</l></rdg></app><l> I must tell in few words</l>
+    <l/><app id="var287" type="ort"><rdg><l>what</l></rdg></app><l> remains of my hideous narration.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">I arrived at Geneva. My </l><app id="var288" type="ort"><rdg><l rend="indent2">father and</l></rdg></app><l rend="indent2"> Ernest</l>
+    <l>yet </l><app id="var289" type="int"><rdg><l>lived;</l></rdg></app><l> but the former </l><app id="var290" type="sub ort"><rdg><l>sunk under the</l></rdg></app><l> tidings</l>
+    <l>that I </l><app id="var291" type="sub int"><rdg><l>bore.</l></rdg></app><l> I see him </l><app id="var292" type="int"><rdg><l>now,</l></rdg></app><l> excellent </l><app id="var293" type="ort"><rdg><l>and</l></rdg></app><l> venerable old</l>
+    <l/><app id="var294" type="int"><rdg><l>man;</l></rdg></app><l> his eyes wandered in vacancy for they had lost</l>
+    <l>their charm </l><app id="var295" type="ort int"><rdg><l>and delight.</l></rdg></app><l> </l><app id="var296" type="ort int"><rdg><l>His neice,</l></rdg></app><l> his more than </l><app id="var297" type="sub ort"><rdg><l>daugh</l>
+    <l>-ter</l></rdg></app><l> whom he doated <mod>
+        <add hand="#comp" place="sublinear"><metamark function="insert"/></add></mod></l><app id="var298" type="sub"><rdg><l><mod><add hand="#comp" place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#comp" place="superlinear"/></mod></l><seg><l><mod><add hand="#comp" place="superlinear">on</add></mod></l></seg><l><mod><add hand="#comp" place="superlinear"/></mod></l></rdg></app><l><mod><add hand="#comp" place="superlinear"/>
+      </mod> with all the affection </l><app id="var299" type="sub"><rdg><l>that</l></rdg></app><l> a</l>
+    <l>man </l><app id="var300" type="sub"><rdg><l/><seg><l>in</l></seg><l/></rdg></app><l> the </l><app id="var301" type="sub"><rdg><l>dec<mod>
+        <del rend="overwritten">t</del>
+        <add place="intralinear">l</add>
+      </mod>ine</l></rdg></app><l> of life having few </l><app id="var302" type="sub"><rdg><l>affections</l></rdg></app><l> clings</l>
+  <anchor id="struct84b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0023.jp2"/>
+  <p type="pagination"><l>125</l></p>
+  <p><anchor id="struct85a"/> <anchor id="struct85b"/></p>
+  <p type="library"><anchor id="struct86a" subtype="ide"/><l>12</l><anchor id="struct86b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct87a"/>
+    <l>more earnestly to those that remain. Cursed, Cursed</l>
+    <l>be the fiend that brought <del rend="strikethrough">wretchedn</del> misery <mod>
+        <del rend="strikethrough">of</del>
+        <add place="superlinear">on</add>
+      </mod> his</l>
+    <l>grey hairs and domed him to waste in wretchedness.</l>
+    <l>He could not live under the horrors that were</l>
+    <l>accumulated around him; an approplectic fit was</l>
+    <l>brought on and in a few days he died in my arms.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">What then became of me? I know not; I</l>
+    <l>lost sensation and chains and darkness were the only</l>
+    <l>objects that pressed upon me. Sometimes indeed</l>
+    <l>I dreamt that I wandered in flowery meadows and</l>
+    <l>pleasant vales with the friends of my youth; but I</l>
+    <l>awoke and found myself in a dungeon. Melancholy</l>
+    <l>followed but by degrees. I gained a clear conception</l>
+    <l>of my miseries and situation and was then released</l>
+    <l>from my prison. For they had called me mad</l>
+    <l>and during many months, as I understood, a solita</l>
+    <l>-ry cell had been my habitation. <milestone unit="tei:p"/><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>But liberty had</l>
+    <l>been a useless gift to me had I not <delSpan spanTo="#c58-0023.01"/>at the same</l>
+    <l>time that<anchor xml:id="c58-0023.01"/> as I awakened to reason at the same</l>
+  <anchor id="struct87b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0024.jp2"/>
+  <p type="pagination"><l>126</l></p>
+  <p><anchor id="struct88a"/> <anchor id="struct88b"/></p>
+  <p type="main"><anchor id="struct89a" subtype="ide"/>
+    <l/><app id="var303" type="sub"><rdg><l/><seg><l/></seg><l/><seg><l/></seg><l/><seg><l/></seg><l/><seg><l>time</l></seg><l> </l><seg><l>awakened</l></seg><l/></rdg></app><l> to </l><app id="var304" type="sub"><rdg><l>revenge.</l></rdg></app><l> As </l><app id="var305" type="sub"><rdg><l/><seg><l>the</l></seg><l/></rdg></app><l> memory of past</l>
+    <l>misfortunes prest </l><app id="var306" type="ort int"><rdg><l>upon me<add hand="#comp" place="intralinear">,</add></l></rdg></app><l><add hand="#comp" place="intralinear"/> I began to <del rend="strikethrough">f</del> reflect</l>
+    <l/><app id="var307" type="ort"><rdg><l>on</l></rdg></app><l> their </l><app id="var308" type="sub"><rdg><l>cause; <mod>
+        <del rend="overwritten">T</del>
+        <add place="intralinear">t</add>
+      </mod>he</l></rdg></app><l> monster whom I had </l><app id="var309" type="sub"><rdg><l>created, the</l></rdg></app><l/>
+    <l>miserable </l><app id="var310" type="sub ort"><rdg><l>dæmon</l></rdg></app><l> whom I had sent <mod>
+        <add place="sublinear"><metamark function="insert"/></add></mod></l><app id="var311" type="sub ort"><rdg><l><mod><add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear"/></mod></l><seg><l><mod><add place="superlinear">abroard</add></mod></l></seg><l><mod><add place="superlinear"/>
+      </mod> in<del rend="strikethrough">to</del></l></rdg></app><l><del rend="strikethrough"/> the world</l>
+    <l>for my </l><app id="var312" type="sub int"><rdg><l>destruction.</l></rdg></app><l> I was possessed by a madening</l>
+    <l>rage when I thought of him and desired </l><app id="var313" type="ort"><rdg><l>and</l></rdg></app><l> ardently</l>
+    <l><del instant="true" rend="strikethrough"/></l><app id="var314" type="sub"><rdg><l><del instant="true" rend="strikethrough">prazed</del> </l><seg><l>prayed</l></seg><l/></rdg></app><l> that I might have him
+      within</l>
+    <l>my grasp to wreak a great </l><app id="var315" type="sub ort"><rdg><l>and signal</l></rdg></app><l> revenge on</l>
+    <l/><app id="var316" type="sub ort"><rdg><l>his</l></rdg></app><l> cursed head.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">Nor did my hate long confine </l><app id="var317" type="ort"><rdg><l rend="indent2">itself to use</l>
+    <l>less</l></rdg></app><l> wishes; I began to reflect on the best means of </l><app id="var318" type="sub"><rdg><l>se</l>
+    <l>-curing him, and</l></rdg></app><l> for this purpose about a month after</l>
+    <l>my release I repaired to a criminal judge in the town</l>
+    <l/><app id="var319" type="ort"><rdg><l>and</l></rdg></app><l> told him that I had an </l><app id="var320" type="sub"><rdg><l>accusation</l></rdg></app><l> to </l><app id="var321" type="sub int"><rdg><l>make; </l><seg><l>that</l></seg><l/></rdg></app><l/>
+  <anchor id="struct89b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0025.jp2"/>
+  <p type="pagination"><l>127</l></p>
+  <p><anchor id="struct90a"/> <anchor id="struct90b"/></p>
+  <p type="library"><anchor id="struct91a" subtype="ide"/><l>13</l><anchor id="struct91b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct92a" subtype="ide"/>
+    <l/><app id="var322" type="sub"><rdg><l>I knew the destroyer of my family and that I required</l>
+    <l>him to exert his whole authority for the apprehension</l></rdg></app><l/>
+    <l>of the murderer.</l>
+    <l><add hand="#comp"><milestone spanTo="#c58-0025.01" unit="tei:note"/><unclear/></add></l><app id="var323" type="sub"><rdg><l><add hand="#comp"><unclear>KT</unclear></add><anchor xml:id="c58-0025.01"/>
+      <milestone unit="tei:p"/> </l><seg><l>The</l></seg><l/></rdg></app><l> magistrate listened to </l><app id="var324" type="sub"><rdg><l/><seg><l>me</l></seg><l/></rdg></app><l> with </l><app id="var325" type="sub int"><rdg><l>attention</l>
+    <l>and kindness.</l></rdg></app><l> Be assured, sir, said </l><app id="var326" type="int"><rdg><l>he,</l></rdg></app><l> no pains or</l>
+    <l>exertions on my part </l><app id="var327" type="sub"><rdg><l/><seg><l>shall</l></seg><l/></rdg></app><l> be spared to discover</l>
+    <l>the </l><app id="var328" type="sub int"><rdg><l>villain.</l></rdg></app><l/>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">I thank you, </l><app id="var329" type="sub int"><rdg><l rend="indent1">replied I,</l></rdg></app><l rend="indent1"> listen therefore to </l><app id="var330" type="sub ort"><rdg><l rend="indent1">the</l></rdg></app><l rend="indent1"/>
+    <l>deposition </l><app id="var331" type="sub"><rdg><l>that </l><seg><l>I</l></seg><l/></rdg></app><l> have to </l><app id="var332" type="sub int"><rdg><l>make.</l></rdg></app><l> It is </l><app id="var333" type="sub"><rdg><l/><seg><l>indeed</l></seg><l/></rdg></app><l> a tale</l>
+    <l>so </l><app id="var334" type="sub"><rdg><l/><seg><l>strange</l></seg><l/></rdg></app><l> that I </l><app id="var335" type="sub"><rdg><l>should </l><seg><l>fear</l></seg><l/></rdg></app><l> you would not</l>
+    <l>credit it were there not </l><app id="var336" type="ort"><rdg><l>som<add place="intralinear">e</add>thing</l></rdg></app><l> in truth which
+      </l><app id="var337" type="sub"><rdg><l>how</l>
+    <l>ever</l></rdg></app><l> wonderful forces conviction. The story is too </l><app id="var338" type="sub"><rdg><l>con</l>
+    <l>nected</l></rdg></app><l> to be </l><app id="var339" type="sub"><rdg><l>mistaken</l></rdg></app><l> for a dream </l><app id="var340" type="ort"><rdg><l>and</l></rdg></app><l> I have no</l>
+    <l>motive for falsehood. My manner as I </l><app id="var341" type="sub"><rdg><l>thus addressed</l>
+    <l>him</l></rdg></app><l> was impressive but calm; I had formed in my</l>
+    <l>own heart </l><app id="var342" type="ort"><rdg><l>a</l></rdg></app><l> resolution to pursue my destroyer to death</l>
+    <l/><app id="var343" type="sub ort"><rdg><l>and th<mod>
+        <del rend="overwritten">e</del>
+        <add place="intralinear">is</add></mod></l></rdg></app><l><mod><add place="intralinear"/>
+      </mod> purpose quieted my agony </l><app id="var344" type="sub ort"><rdg><l>and provisonably</l></rdg></app><l/>
+    <l>reconciled me to life. I now related my history briefly but</l>
+    <l>with firmness </l><app id="var345" type="ort int"><rdg><l>and precision,</l></rdg></app><l> marking </l><app id="var346" type="sub"><rdg><l>the dates</l></rdg></app><l/>
+  <anchor id="struct92b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0026.jp2"/>
+  <p type="pagination"><anchor id="struct93a" subtype="ide"/><l>128</l><anchor id="struct93b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct94a"/>
+    <l>with accu<mod>
+        <del rend="overwritten">s</del>
+        <add place="intralinear">r</add>
+      </mod>acy, and never deviating into invective or</l>
+    <l>exclamation. <milestone unit="tei:p"/><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>The magistrate appeared at first per-</l>
+    <l>fectly incredulous but as I continued he became more</l>
+    <l>attentive and interrested; I saw him sometimes shud</l>
+    <l>der with horror, at others a lively surprise unmin</l>
+    <l>gled with disbelief was painted on his countenance.</l>
+    <milestone unit="tei:p"/>
+    <l><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>When I had concluded my narration I said:<add hand="#comp" place="intralinear"><metamark>――</metamark></add></l>
+    <l><add hand="#comp" place="intralinear"><metamark>―</metamark></add>This is the being
+      whom I accuse and for whose</l>
+    <l>detection and punishment I call upon you to exert</l>
+    <l>your whole power. It is your duty as a magistrate</l>
+    <l>and I believe and hope that your feelings as a</l>
+    <l>man will not <del rend="strikethrough">revold</del> revolt from the execution of</l>
+    <l>those functions on this occasion."</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">This address caused a considerable change in the</l>
+  <anchor id="struct94b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0027.jp2"/>
+  <p type="pagination"><anchor id="struct95a" subtype="ide"/><l>129</l><anchor id="struct95b" subtype="ide"/></p>
+  <p type="library"><anchor id="struct96a" subtype="ide"/><l>14</l><anchor id="struct96b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct97a" subtype="ide"/>
+    <l/><app id="var347" type="sub"><rdg><l/><seg><l>phisiognomy</l></seg><l/></rdg></app><l> of my </l><app id="var348" type="int"><rdg><l>auditor.</l></rdg></app><l> He had heard my </l><app id="var349" type="sub"><rdg><l/><seg><l>story</l></seg><l/></rdg></app><l> with</l>
+    <l/><app id="var350" type="sub ort"><rdg><l>that</l></rdg></app><l> half kind of belief that is given to a tale of </l><app id="var351" type="sub"><rdg><l>spi-</l>
+    <l>rits</l></rdg></app><l> and </l><app id="var352" type="sub"><rdg><l>supernatural events;</l></rdg></app><l> but when he was</l>
+    <l>called upon to act officially in consequence </l><app id="var353" type="sub"><rdg><l/><seg><l>the</l></seg><l/></rdg></app><l> whole</l>
+    <l>tide of his </l><app id="var354" type="sub int"><rdg><l>incredulity returned.</l></rdg></app><l> He however answered</l>
+    <l/><app id="var355" type="int"><rdg><l>mildly,</l></rdg></app><l> "I would willingly afford you every aid <del rend="strikethrough">in
+      your</del></l>
+    <l/><app id="var356" type="sub int"><rdg><l>in your persuit;</l></rdg></app><l> but the creature of whom you</l>
+    <l>speak appears to have powers which would put all</l>
+    <l>my exertions to </l><app id="var357" type="sub int"><rdg><l>defiance<unclear reason="illegible">:</unclear></l></rdg></app><l><unclear reason="illegible"/> Who can follow </l><app id="var358" type="ort"><rdg><l>an<del rend="strikethrough">d</del></l></rdg></app><l><del rend="strikethrough"/> animal</l>
+    <l/><app id="var359" type="sub"><rdg><l/><seg><l>which</l></seg><l/></rdg></app><l> can traverse </l><app id="var360" type="sub"><rdg><l/><seg><l>the</l></seg><l/></rdg></app><l> sea of </l><app id="var361" type="int"><rdg><l>ice,</l></rdg></app><l> and inhabit caves</l>
+    <l/><app id="var362" type="ort"><rdg><l>and</l></rdg></app><l> dens where no man would venture to </l><app id="var363" type="sub"><rdg><l>intrude?</l>
+    <l>Besides</l></rdg></app><l> some months have elapsed since the </l><app id="var364" type="sub"><rdg><l>commis</l>
+    <l>-sion</l></rdg></app><l> of his crimes </l><app id="var365" type="ort"><rdg><l>and <del rend="strikethrough">k</del></l></rdg></app><l><del rend="strikethrough"/> no one </l><app id="var366" type="ort"><rdg><l>can</l></rdg></app><l> conjecture to</l>
+    <l>what place he has wandered </l><app id="var367" type="sub"><rdg><l/><seg><l>or</l></seg><l/></rdg></app><l> what </l><app id="var368" type="sub"><rdg><l/><seg><l>region</l></seg><l/></rdg></app><l> he may</l>
+    <l>now inhabit."</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">"I do not </l><app id="var369" type="sub int"><rdg><l rend="indent1">doubt</l></rdg></app><l rend="indent1"> that he hovers near the </l><app id="var370" type="sub"><rdg><l rend="indent1"/><seg><l rend="indent1">spot</l></seg><l rend="indent1"/></rdg></app><l rend="indent1"/>
+    <l>which I </l><app id="var371" type="sub int"><rdg><l>inhabit,</l></rdg></app><l> </l><app id="var372" type="ort"><rdg><l>and</l></rdg></app><l> if he has indeed taken refuge</l>
+    <l>in the </l><app id="var373" type="ort"><rdg><l>Alps</l></rdg></app><l> he may be hunted like the chamois </l><app id="var374" type="ort"><rdg><l>and des-</l></rdg></app><l/>
+    <l>troyed as a beast of prey. But I perceive your thoughts</l>
+  <anchor id="struct97b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0028.jp2"/>
+  <p type="pagination"><l>130</l></p>
+  <p><anchor id="struct98a"/> <anchor id="struct98b"/></p>
+  <p type="main"><anchor id="struct99a"/>
+    <l>you do not credit my narrative, and do not intend to</l>
+    <l>pursue my enemy with the punishment which</l>
+    <l>is his desert.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">As I spoke rage sparkled in my eyes; the ma-</l>
+    <l>gistrate was intimidated; <mod>
+        <del rend="overwritten">Y</del>
+        <add place="intralinear">y</add>
+      </mod>ou are mistaken, said</l>
+    <l>he, I will exert myself and if it is in my power to</l>
+    <l>seize the monster be assured that he shall suffer</l>
+    <l>punishment proportionate to his crimes. But I</l>
+    <l>fear from what you have yourself described</l>
+    <l>to be his properties that this will prove impracti</l>
+    <l>cable and that, while every proper measure is</l>
+    <l>pursued, you should endeavour to make up your mind</l>
+    <l>to a disappointment.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">That cannot be; but all that I can say will be</l>
+  <anchor id="struct99b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0029.jp2"/>
+  <p type="pagination"><l>131</l></p>
+  <p><anchor id="struct100a"/> <anchor id="struct100b"/></p>
+  <p type="library"><anchor id="struct101a" subtype="ide"/><l>15</l><anchor id="struct101b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct102a" subtype="ide"/>
+    <l/><app id="var375" type="sub"><rdg><l/><seg><l/></seg><l/><seg><l>of</l></seg><l/></rdg></app><l> little avail; </l><app id="var376" type="sub"><rdg><l>my revenge</l></rdg></app><l> is of no moment to </l><app id="var377" type="int"><rdg><l>you,</l></rdg></app><l> yet</l>
+    <l>while I allow it to </l><app id="var378" type="sub"><rdg><l/><seg><l>be</l></seg><l/></rdg></app><l> a vice I confess that it is the </l><app id="var379" type="sub ort"><rdg><l>devour</l>
+    <l>-ing and</l></rdg></app><l> only passion of my </l><app id="var380" type="ort int"><rdg><l>soul. My</l></rdg></app><l> rage is </l><app id="var381" type="sub ort"><rdg><l>unspeaka</l>
+    <l>ble</l></rdg></app><l> when I reflect that the murderer whom I have</l>
+    <l>turned loose upon society still </l><app id="var382" type="int"><rdg><l>exists.</l></rdg></app><l> </l><app id="var383" type="sub"><rdg><l/><seg><l>You</l></seg><l/></rdg></app><l> refuse</l>
+    <l>my just </l><app id="var384" type="int"><rdg><l>demand;</l></rdg></app><l> I have but one resource and I </l><app id="var385" type="sub"><rdg><l>de-</l>
+    <l>vote</l></rdg></app><l> myself either in <mod>
+        <add place="sublinear"><metamark function="insert"/></add></mod></l><app id="var386" type="sub"><rdg><l><mod><add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear"/></mod></l><seg><l><mod><add place="superlinear">my</add></mod></l></seg><l><mod><add place="superlinear"/></mod></l></rdg></app><l><mod><add place="superlinear"/>
+      </mod>life or death to his </l><app id="var387" type="ort int"><rdg><l>destruc-</l>
+    <l>tion.</l></rdg></app><l/>
+    <milestone unit="tei:p"/>
+    <l rend="indent1"/><app id="var388" type="sub"><rdg><l rend="indent1"/><seg><l rend="indent1">I</l></seg><l rend="indent1"/></rdg></app><l rend="indent1"> trembled with excess of agitation as I said </l><app id="var389" type="int"><rdg><l rend="indent1">this;</l></rdg></app><l rend="indent1"> there</l>
+    <l>was a frenzy in my </l><app id="var390" type="ort int"><rdg><l>manner, and</l></rdg></app><l> something I doubt not</l>
+    <l>of that haughty fierceness </l><app id="var391" type="sub"><rdg><l/><seg><l>which</l></seg><l/></rdg></app><l> the </l><app id="var392" type="ort"><rdg><l>martys</l></rdg></app><l> of old </l><app id="var393" type="ort"><rdg><l>are</l></rdg></app><l> </l>
+    <l>said to have </l><app id="var394" type="sub int"><rdg><l>possessed.</l></rdg></app><l> But </l><app id="var395" type="sub"><rdg><l/><seg><l>to</l></seg><l/></rdg></app><l> a </l><app id="var396" type="sub"><rdg><l>Genevan magistrate</l></rdg></app><l/>
+    <l>whose mind was occupied by far other ideas than </l><app id="var397" type="sub"><rdg><l/><seg><l>those</l></seg><l/></rdg></app><l/>
+    <l>of </l><app id="var398" type="sub"><rdg><l>devotion and heroism,</l></rdg></app><l> this elevation of mind had much the</l>
+    <l>appearance of madness. He endeavoured to </l><app id="var399" type="sub"><rdg><l/><seg><l>soothe</l></seg><l/></rdg></app><l> me as a</l>
+    <l>nurse does a child </l><app id="var400" type="ort"><rdg><l>and</l></rdg></app><l> reverted to my tale as the effects of </l><app id="var401" type="sub int"><rdg><l>deli</l>
+    <l>rium<add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>. <milestone unit="tei:p"/>"Man,</l></rdg></app><l> I cried, how ignorant </l><app id="var402" type="sub ort"><rdg><l>ar<mod>
+        <del rend="overwritten">e</del>
+        <add place="intralinear">t</add></mod></l></rdg></app><l><mod><add place="intralinear"/>
+      </mod> thou in thy pride of</l>
+    <l>wisdom. </l><app id="var403" type="ort int"><rdg><l>Cease,</l></rdg></app><l> you know not what </l><app id="var404" type="sub"><rdg><l/><seg><l>it</l></seg><l/></rdg></app><l> is you say.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">I broke from the house <mod>
+        <del rend="strikethrough"/></mod></l><app id="var405" type="sub ort"><rdg><l rend="indent2"><mod><del rend="strikethrough">ang</del>
+        <add place="sublinear"><metamark function="insert">^ ^</metamark></add></mod></l></rdg></app><l rend="indent2"><mod><add place="sublinear"><metamark function="insert"/></add>
+        <add place="superlinear">angry </add></mod></l><app id="var406" type="ort"><rdg><l rend="indent2"><mod><add place="superlinear">and</add></mod></l></rdg></app><l rend="indent2"><mod><add place="superlinear"/>
+      </mod> disturbed </l><app id="var407" type="sub"><rdg><l rend="indent2">and </l><seg><l rend="indent2">retired</l></seg><l rend="indent2"/></rdg></app><l rend="indent2"> to</l>
+    <l>meditate </l><app id="var408" type="sub"><rdg><l>on </l><seg><l>some</l></seg><l/></rdg></app><l> other mode of action.</l>
+  <anchor id="struct102b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0030.jp2"/>
+  <p type="pagination"><l>132</l></p>
+  
+  <p><anchor id="struct103a"/> <anchor id="struct103b"/></p>
+  
+  <p type="main"><anchor id="struct104a"/>
+    <l rend="center"><milestone spanTo="#c58-0030.01" unit="tei:head"/>Chapter <mod><del rend="strikethrough">7</del><add place="intralinear">VII</add></mod><anchor xml:id="c58-0030.01"/></l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">My present situation was one in which all vo-</l>
+    <l>luntary thought was swallowed up and lost. I was hur-</l>
+    <l>ried away by fury; revenge alone endowed me with</l>
+    <l>strength and composure, it modelled my feelings and</l>
+    <l>allowed me to be <del rend="strikethrough">call</del> calculating and calm at
+      periods</l>
+    <l>when otherwise delirium or death would have</l>
+    <l>been my portion. <milestone unit="tei:p"/><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>My first resolution was to quit</l>
+    <l>Geneva for ever; my country, which when I was</l>
+    <l>happy and beloved was dear to me, now in my</l>
+    <l>adversity became <del rend="strikethrough">hurf</del>
+      <del rend="strikethrough">hurtful</del> hateful. I provided</l>
+    <l>myself with a sum of money together with a few</l>
+    <l>jewels which had belonged to my mother and departed.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1"><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>And now my wanderings began which are to
+      cease</l>
+  <anchor id="struct104b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0031.jp2"/>
+  <p type="pagination"><l>133</l></p>
+  <p><anchor id="struct105a"/> <anchor id="struct105b"/></p>
+  <p type="library"><anchor id="struct106a" subtype="ide"/><l>16</l><anchor id="struct106b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct107a" subtype="ide"/>
+    <l/><app id="var409" type="sub"><rdg><l/><seg><l/></seg><l/><seg><l/></seg><l/><seg><l/></seg><l/><seg><l>but</l></seg><l/></rdg></app><l> with </l><app id="var410" type="int"><rdg><l>life.</l></rdg></app><l> I have traversed a vast </l><app id="var411" type="sub"><rdg><l/><seg><l>portion</l></seg><l/></rdg></app><l> of </l><app id="var412" type="sub"><rdg><l/><seg><l>the</l></seg><l/></rdg></app><l/>
+    <l>earth and have endured all the har<add hand="#comp" place="superlinear">d</add>ships
+      </l><app id="var413" type="sub"><rdg><l/><seg><l>which</l></seg><l/></rdg></app><l/>
+    <l>travellers in desarts </l><app id="var414" type="ort"><rdg><l>and</l></rdg></app><l> barbarous countries are wont</l>
+    <l>to </l><app id="var415" type="int"><rdg><l>meet.</l></rdg></app><l> How I </l><app id="var416" type="sub"><rdg><l/><seg><l>have</l></seg><l/></rdg></app><l> lived I hardly </l><app id="var417" type="sub"><rdg><l>know; Many</l></rdg></app><l> times </l><app id="var418" type="sub"><rdg><l/><seg><l>have</l></seg><l/></rdg></app><l/>
+    <l>I </l><app id="var419" type="sub"><rdg><l/><seg><l>stretched</l></seg><l/></rdg></app><l> my <del rend="strikethrough"/></l><app id="var420" type="sub"><rdg><l><del rend="strikethrough">wear</del> </l><seg><l>failing</l></seg><l/></rdg></app><l> limbs <del rend="strikethrough"/></l><app id="var421" type="sub"><rdg><l><del rend="strikethrough">and</del> </l><seg><l>on</l></seg><l/></rdg></app><l> the sandy plain</l>
+    <l/><app id="var422" type="sub"><rdg><l>and</l></rdg></app><l> prayed for </l><app id="var423" type="int"><rdg><l>death.</l></rdg></app><l> But revenge kept me </l><app id="var424" type="int"><rdg><l>alive;</l></rdg></app><l> I</l>
+    <l>dared not die </l><app id="var425" type="ort"><rdg><l>and</l></rdg></app><l> leave my adversary in </l><app id="var426" type="int"><rdg><l>being.</l></rdg></app><l/>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">When I quitted Geneva <del rend="strikethrough"/></l><app id="var427" type="sub"><rdg><l rend="indent2"><del rend="strikethrough">I</del> </l><seg><l rend="indent2">my</l></seg><l rend="indent2"/></rdg></app><l rend="indent2"> first
+      </l><app id="var428" type="sub"><rdg><l rend="indent2"/><seg><l rend="indent2">labour</l></seg><l rend="indent2"/></rdg></app><l rend="indent2"> was</l>
+    <l>to gain some </l><app id="var429" type="sub"><rdg><l/><seg><l>clue</l></seg><l> <del rend="strikethrough">but</del> </l><seg><l>by</l></seg><l/></rdg></app><l> which I might trace </l><app id="var430" type="sub"><rdg><l/><seg><l>the</l></seg><l/></rdg></app><l/>
+    <l>steps </l><app id="var431" type="sub"><rdg><l/><seg><l>of</l></seg><l/></rdg></app><l> my fiendish </l><app id="var432" type="sub int"><rdg><l>enemy.</l></rdg></app><l> But my plan was </l><app id="var433" type="sub"><rdg><l>unset-</l>
+    <l>tled</l></rdg></app><l> and I wandered many hours around the confines</l>
+    <l>of </l><app id="var434" type="sub"><rdg><l/><seg><l>the</l></seg><l> <del rend="strikethrough">tw</del> </l><seg><l>town</l></seg><l/></rdg></app><l> uncertain what path </l><app id="var435" type="sub"><rdg><l/><seg><l>I</l></seg><l/></rdg></app><l> should </l><app id="var436" type="int"><rdg><l>pursue.</l></rdg></app><l/>
+    <l>As night approached I found myself <mod>
+        <del rend="strikethrough"/></mod></l><app id="var437" type="sub"><rdg><l><mod><del rend="strikethrough">and</del>
+        <add hand="#comp" place="superlinear"/></mod></l><seg><l><mod><add hand="#comp" place="superlinear">at</add></mod></l></seg><l><mod><add hand="#comp" place="superlinear"/></mod></l></rdg></app><l><mod><add hand="#comp" place="superlinear"/>
+      </mod> the entrance</l>
+    <l>of the </l><app id="var438" type="sub"><rdg><l>cemetary<add hand="#comp" place="superlinear">cemetery</add></l></rdg></app><l><add hand="#comp" place="superlinear"/> where William,
+      </l><app id="var439" type="sub"><rdg><l>Elizabeth</l></rdg></app><l> and my father</l>
+    <l/><app id="var440" type="int"><rdg><l>reposed.</l></rdg></app><l> I entered it </l><app id="var441" type="ort"><rdg><l>and</l></rdg></app><l> approached the </l><app id="var442" type="sub"><rdg><l/><seg><l>tomb</l></seg><l/></rdg></app><l> which</l>
+    <l>marked their graves. Every thing was silent except the</l>
+    <l>leaves of the trees which were </l><app id="var443" type="sub ort"><rdg><l>gently</l></rdg></app><l> agitated by the</l>
+    <l/><app id="var444" type="sub"><rdg><l>breeze; the</l></rdg></app><l> night was nearly dark and the scene</l>
+    <l>would have been </l><app id="var445" type="sub ort"><rdg><l>solemn and <del rend="strikethrough">in terresting</del> </l><seg><l>affecting</l></seg><l/></rdg></app><l/>
+  <anchor id="struct107b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0032.jp2"/>
+  <p type="pagination"><l>134</l></p>
+  <p><anchor id="struct108a"/> <anchor id="struct108b"/></p>
+  <p type="main"><anchor id="struct109a"/>
+    <l>even to an uninterested observer; the spirits of the</l>
+    <l>departed seemed to flit around and to cast a shadow</l>
+    <l>which was felt but seen not around the head of</l>
+    <l>the mourner.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">The deep grief which this scene had at first</l>
+    <l>excited quickly gave way to rage and despair<unclear reason="illegible">.</unclear> They</l>
+    <l>were dead and I lived; their murderer also lived and to</l>
+    <l>destroy him I must drag out my weary existence. I</l>
+    <l>knelt on the earth and with quivering lips exclaimed;</l>
+    <l>"By the sacred earth on which I kneel, by the</l>
+    <l>shades that wander near me, by the deep and eternal</l>
+    <l>grief that I feel, I swear; And by thee, <del rend="strikethrough">oh</del>O Night,
+      and</l>
+    <l>by the spirits that preside over thee, I swear to</l>
+    <l>pursue the dæmon who caused this misery untill</l>
+  <anchor id="struct109b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0033.jp2"/>
+  <p type="pagination"><l>135</l></p>
+  <p><anchor id="struct110a"/> <anchor id="struct110b"/></p>
+  <p type="library"><anchor id="struct111a" subtype="ide"/><l>17</l><anchor id="struct111b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct112a" subtype="ide"/>
+    <l/><app id="var446" type="sub"><rdg><l/><seg><l/></seg><l/><seg><l/></seg><l/><seg><l/></seg><l/><seg><l>he</l></seg><l/></rdg></app><l> or I shall </l><app id="var447" type="sub"><rdg><l/><seg><l>perish</l></seg><l/></rdg></app><l> in </l><app id="var448" type="sub int"><rdg><l/><seg><l>mortal</l></seg><l> conflict.</l></rdg></app><l> For this</l>
+    <l>purpose I will preserve my </l><app id="var449" type="sub"><rdg><l>life: to ex<del rend="strikethrough">c</del>e<mod>
+        <del rend="overwritten"><unclear reason="illegible">t</unclear></del>
+        <add place="intralinear">c</add>
+      </mod>ute</l></rdg></app><l> this</l>
+    <l/><app id="var450" type="sub"><rdg><l/><seg><l>dear</l></seg><l/></rdg></app><l> revenge will I again </l><app id="var451" type="sub"><rdg><l>behold</l></rdg></app><l> the sun </l><app id="var452" type="sub ort"><rdg><l>and</l></rdg></app><l/>
+    <l>tread the green herbage of earth which otherwise</l>
+    <l>should vanish from my eyes for </l><app id="var453" type="int"><rdg><l>ever.</l></rdg></app><l> And I call</l>
+    <l>on </l><app id="var454" type="int"><rdg><l>you,</l></rdg></app><l> spirits of the </l><app id="var455" type="sub"><rdg><l>dead; and on you,</l></rdg></app><l> wandering</l>
+    <l>ministers of </l><app id="var456" type="sub int"><rdg><l>vengeance,</l></rdg></app><l> to aid </l><app id="var457" type="sub ort"><rdg><l>and</l></rdg></app><l> conduct me in</l>
+    <l>my work. Let the cursed </l><app id="var458" type="ort"><rdg><l>and</l></rdg></app><l> hellish monster drink</l>
+    <l>deep of </l><app id="var459" type="int"><rdg><l>agony;</l></rdg></app><l> </l><app id="var460" type="sub ort"><rdg><l>let</l></rdg></app><l> him feel the despair that now</l>
+    <l>torments </l><app id="var461" type="int"><rdg><l>me!</l></rdg></app><l/>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">I had begun my adjuration with </l><app id="var462" type="ort int"><rdg><l rend="indent2">solemnity,</l>
+    <l>and</l></rdg></app><l> an awe that almost assured me that the shades</l>
+    <l>of my murdered friends heard </l><app id="var463" type="ort"><rdg><l>and</l></rdg></app><l> approved my </l><app id="var464" type="sub int"><rdg><l>devotion.</l></rdg></app><l/>
+    <l>But <mod>
+        <del rend="strikethrough"/></mod></l><app id="var465" type="sub"><rdg><l><mod><del rend="strikethrough">rage</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear"/></mod></l><seg><l><mod><add place="superlinear">the</add></mod></l></seg><l><mod><add place="superlinear"/></mod></l></rdg></app><l><mod><add place="superlinear"> furies</add>
+      </mod> possessed me as I </l><app id="var466" type="sub"><rdg><l>concluded, and</l></rdg></app><l> rage choaked</l>
+    <l>my utterance.<add hand="#comp" place="intralinear"><metamark function="paragraph">
+          </metamark></add></l><app id="var467" type="ort"><rdg><l><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>I</l></rdg></app><l> was answered through the stillness</l>
+    <l>of night by a <del rend="strikethrough"/></l><app id="var468" type="sub ort"><rdg><l><del rend="strikethrough">lon</del> </l><seg><l>loud</l></seg><l> and</l></rdg></app><l> fiendish </l><app id="var469" type="int"><rdg><l>laugh.</l></rdg></app><l> It rung</l>
+    <l/><app id="var470" type="sub"><rdg><l>on </l><seg><l>my</l></seg><l/></rdg></app><l> ears long and heavily; the mountains re-echoed</l>
+    <l>it and I felt as if all </l><app id="var471" type="ort"><rdg><l>hell</l></rdg></app><l> surrounded me with </l><app id="var472" type="sub ort"><rdg><l>mock</l>
+    <l>ery</l></rdg></app><l> and </l><app id="var473" type="sub int"><rdg><l>laughter. Surely</l></rdg></app><l> in that moment I </l><app id="var474" type="sub"><rdg><l/><seg><l>should</l></seg><l/></rdg></app><l/>
+  <anchor id="struct112b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0034.jp2"/>
+  <p type="pagination"><l>136</l></p>
+  <p><anchor id="struct113a"/> <anchor id="struct113b"/></p>
+  <p type="main"><anchor id="struct114a"/>
+    <l>have been possessed by frenzy and have destroyed my</l>
+    <l>miserable existence, but that my vow was heard</l>
+    <l>and I was reserved for vengeance. The laughter died</l>
+    <l>away when a well known and abhorred voice ap-</l>
+    <l>parently close to my ear, addressed me in an audible</l>
+    <l>whisper; "I am satisfied; <del rend="strikethrough">yo</del> miserable wretch, you</l>
+    <l>have determined to live and I am satisfied."</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">I darted towards the spot from which the</l>
+    <l>sound proceeded but the devil eluded my grasp; sud-</l>
+    <l>denly the broard disk of the moon arose and shone</l>
+    <l>full<del rend="strikethrough">y</del> upon his ghastly and distorted shape as he
+      fled</l>
+    <l>with more than mortal speed.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">I pursued him; and for many months this</l>
+    <l>has been my task. Guided by a slight clue I follow</l>
+  <anchor id="struct114b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0035.jp2"/>
+  <p type="pagination"><l>137</l></p>
+  <p><anchor id="struct115a"/> <anchor id="struct115b"/></p>
+  <p type="library"><anchor id="struct116a" subtype="ide"/><l>18</l><anchor id="struct116b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct117a" subtype="ide"/>
+    <l/><app id="var475" type="sub"><rdg><l>ed the windings of the Rhone but vainly;</l></rdg></app><l> </l><app id="var476" type="sub ort"><rdg><l>the blue</l>
+    <l>Mediterranean appeared</l></rdg></app><l> and </l><app id="var477" type="sub ort"><rdg><l>by a strange chance</l>
+    <l>I saw the fiend enter by night and hide himself</l>
+    <l><add place="superlinear">in a vessel </add>bound for the black sea and took</l></rdg></app><l> my </l><app id="var478" type="sub"><rdg><l>passage</l></rdg></app><l>
+      in</l>
+    <l/><app id="var479" type="sub ort"><rdg><l>the same ship</l></rdg></app><l> </l><app id="var480" type="sub"><rdg><l/><seg><l/></seg><l/><seg><l>but</l></seg><l> </l><seg><l>he</l></seg><l> escaped</l></rdg></app><l> </l><app id="var481" type="sub"><rdg type="empty"><l/></rdg></app><l>I </l><app id="var482" type="sub"><rdg><l>know not how;</l>
+    <milestone unit="tei:p"/><l><add hand="#comp" place="intralinear"><metamark>[</metamark></add>Amidst</l></rdg></app><l> the wilds of Tartary </l><app id="var483" type="ort"><rdg><l>and</l></rdg></app><l> Russia although</l>
+    <l>he still </l><app id="var484" type="sub"><rdg><l/><seg><l>evaded</l></seg><l/></rdg></app><l> me I <del rend="strikethrough"/></l><app id="var485" type="sub"><rdg><l><del rend="strikethrough">e</del> </l><seg><l>have</l></seg><l/></rdg></app><l> ever followed in his</l>
+    <l/><app id="var486" type="sub"><rdg><l>tract. Sometimes</l></rdg></app><l> the peasants <add place="intralinear">s</add>cared by <add place="intralinear"/></l><app id="var487" type="ort"><rdg><l><add place="intralinear">t</add>his</l></rdg></app><l> horrid</l>
+    <l/><app id="var488" type="ort"><rdg><l>appar<add place="intralinear">i</add>tion</l></rdg></app><l> informed me of his </l><app id="var489" type="ort int"><rdg><l>path; sometimes</l></rdg></app><l/>
+    <l>he </l><app id="var490" type="int"><rdg><l>himself,</l></rdg></app><l> who feared that if I lost all trace I should</l>
+    <l>despair </l><app id="var491" type="ort int"><rdg><l>and die,</l></rdg></app><l> often left some mark to guide</l>
+    <l/><app id="var492" type="int"><rdg><l>me.</l></rdg></app><l> The snows descended on my head </l><app id="var493" type="ort"><rdg><l>and</l></rdg></app><l> I saw the </l><app id="var494" type="sub"><rdg><l/><seg><l>prin<add place="intralinear">t</add></l></seg><l><add place="intralinear"/></l></rdg></app><l><add place="intralinear"/></l>
+    <l>of his huge step on the white </l><app id="var495" type="int"><rdg><l>plain.</l></rdg></app><l> To you <delSpan rend="strikethrough" spanTo="#c58-0034.01"/></l><app id="var496" type="sub ort"><rdg><l>who</l>
+    <l/><seg><l>are</l></seg><l><anchor xml:id="c58-0034.01"/> first</l></rdg></app><l> enterring on </l><app id="var497" type="sub"><rdg><l>life <mod>
+        <del rend="strikethrough">an</del>
+        <add place="superlinear">to whom</add>
+      </mod> care</l></rdg></app><l> is </l><app id="var498" type="sub"><rdg><l>new <del rend="strikethrough"/></l><seg><l><del rend="strikethrough">new</del></l></seg><l><del rend="strikethrough"/></l></rdg></app><l><del rend="strikethrough"/>
+      <del rend="strikethrough">to you</del></l>
+    <l/><app id="var499" type="sub ort"><rdg><l>and agony unknown;</l></rdg></app><l> how can </l><app id="var500" type="sub"><rdg><l/><seg><l>you</l></seg><l> <del rend="strikethrough">de</del> </l><seg><l>understand</l></seg><l/></rdg></app><l> what</l>
+    <l>I have felt </l><app id="var501" type="ort"><rdg><l>and</l></rdg></app><l> still feel. Cold, want </l><app id="var502" type="sub ort"><rdg><l>and</l></rdg></app><l> fatigue were</l>
+    <l/><app id="var503" type="sub"><rdg><l/><seg><l>the</l></seg><l/></rdg></app><l> least pains </l><app id="var504" type="sub"><rdg><l>which I was destined to endure; </l><seg><l>I</l></seg><l/></rdg></app><l> was</l>
+    <l>cursed by some devil <mod>
+        <add hand="#comp" place="sublinear"><metamark function="insert"/></add></mod></l><app id="var505" type="sub ort"><rdg><l><mod><add hand="#comp" place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#comp" place="superlinear">carried</add></mod></l></rdg></app><l><mod><add hand="#comp" place="superlinear"/>
+      </mod> about with me my eternal</l>
+    <l/><app id="var506" type="ort int"><rdg><l>hell;</l></rdg></app><l> </l><app id="var507" type="ort"><rdg><l>yet</l></rdg></app><l> still a spirit of good followed </l><app id="var508" type="sub ort"><rdg><l>and </l><seg><l>directed</l></seg><l/></rdg></app><l/>
+  <anchor id="struct117b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0036.jp2"/>
+  <p type="pagination"><l>138</l></p>
+  <p><anchor id="struct118a"/> <anchor id="struct118b"/></p>
+  <p type="main"><anchor id="struct119a"/>
+    <l>my steps and when I most murmured would sud-</l>
+    <l>denly extricate me from my seemingly insurmounta</l>
+    <l>ble difficulties; sometimes when nature over<mod>
+        <del rend="overwritten">s</del>
+        <add place="intralinear">c</add>
+      </mod>ome by</l>
+    <l>hunger sunk under the exhaustion a repast was</l>
+    <l>prepared for me in the desart that restored and</l>
+    <l>insprited me. The fare was indeed coarse, such as</l>
+    <l>the peasants of the country ate, but I may not doubt</l>
+    <l>that it was <del rend="strikethrough">e</del> set there by the <del rend="strikethrough">sprits</del>
+      <del rend="strikethrough">th</del> spirits that</l>
+    <l>I invoked to aid me. Often when all was dry, the hea-</l>
+    <l>vens cloudless and I was parched by thirst, a slight</l>
+    <l>cloud would bedim the sky, shed the few drops that</l>
+    <l>revived me and vanish.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">I followed when I could the courses of the</l>
+    <l>rivers but the dæmon generally avoided these as it</l>
+  <anchor id="struct119b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0037.jp2"/>
+  <p type="pagination"><l>139</l></p>
+  <p><anchor id="struct120a"/> <anchor id="struct120b"/></p>
+  <p type="library"><anchor id="struct121a" subtype="ide"/><l>19</l><anchor id="struct121b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct122a" subtype="ide"/>
+    <handShift medium="pen" new="#mws"/>
+    <l/><app id="var509" type="sub"><rdg><l/><seg><l/></seg><l/><seg><l/></seg><l/><seg><l>was</l></seg><l/></rdg></app><l> here that the population of the country chiefly</l>
+    <l/><app id="var510" type="int"><rdg><l>collected.</l></rdg></app><l> In other </l><app id="var511" type="ort"><rdg><l>places</l></rdg></app><l> human beings were seldom seen</l>
+    <l/><app id="var512" type="ort"><rdg><l>and</l></rdg></app><l> I generally subsisted </l><app id="var513" type="sub"><rdg><l/><seg><l>on</l></seg><l/></rdg></app><l> the wild </l><app id="var514" type="sub"><rdg><l>animals</l></rdg></app><l> that</l>
+    <l>crossed my </l><app id="var515" type="int"><rdg><l>path.</l></rdg></app><l> I had money with me </l><app id="var516" type="ort"><rdg><l>and</l></rdg></app><l> gained the</l>
+    <l>friendship of the villagers by distributing it or bringing</l>
+    <l>with me some </l><app id="var517" type="sub"><rdg><l/><seg><l>food</l></seg><l/></rdg></app><l> that I had killed which after</l>
+    <l>taking a small part I </l><app id="var518" type="sub"><rdg><l>always</l></rdg></app><l> presented to those</l>
+    <l>who had provided </l><app id="var519" type="sub"><rdg><l>me </l><seg><l>with</l></seg><l/></rdg></app><l> fire </l><app id="var520" type="sub"><rdg><l>and utensils</l></rdg></app><l> for</l>
+    <l/><app id="var521" type="int"><rdg><l>cooking.</l></rdg></app><l> <del rend="strikethrough">My</del>
+      <del rend="strikethrough"/></l><app id="var522" type="sub"><rdg><l><del rend="strikethrough">My life as it passed thus</del></l>
+    <milestone unit="tei:p"/><l><milestone spanTo="#c58-0037.01" unit="tei:note"/><add hand="#comp" place="intralinear">F.W/</add><anchor xml:id="c58-0037.01"/>My </l><seg><l>life</l></seg><l/></rdg></app><l> as it
+      passed thus was indeed hateful to</l>
+    <l>me </l><app id="var523" type="ort"><rdg><l>and</l></rdg></app><l> it was during sleep alone that I could</l>
+    <l>taste </l><app id="var524" type="sub int"><rdg><l>joy. Oh<mod>
+        <del rend="overwritten">,</del>
+        <add place="intralinear">!</add></mod></l></rdg></app><l><mod><add place="intralinear"/>
+      </mod> blessed sleep! often when most </l><app id="var525" type="sub"><rdg><l>mise</l>
+    <l>rable</l></rdg></app><l> I </l><app id="var526" type="ort"><rdg><l>sank</l></rdg></app><l> to repose </l><app id="var527" type="ort"><rdg><l>and</l></rdg></app><l> my dreams </l><app id="var528" type="sub"><rdg><l/><seg><l>lulled</l></seg><l> </l><seg><l>me</l></seg><l/></rdg></app><l> even</l>
+    <l>to </l><app id="var529" type="int"><rdg><l>rapture.</l></rdg></app><l> The spirit that guarded me had </l><app id="var530" type="sub"><rdg><l/><seg><l>provided</l></seg><l/></rdg></app><l/>
+  <anchor id="struct122b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0038.jp2"/>
+  <p type="pagination"><l>140</l></p>
+  <p><anchor id="struct123a"/> <anchor id="struct123b"/></p>
+  <p type="main"><anchor id="struct124a" subtype="ide"/>
+    <l/><app id="var531" type="sub"><rdg><l>these moments or rather hours of happiness that I might</l>
+    <l>retain strength to </l><seg><l>fulfil</l></seg><l/></rdg></app><l> my </l><app id="var532" type="sub int"><rdg><l>pilgrimage. Deprived of</l>
+    <l>this respite</l></rdg></app><l> I should <mod>
+        <add hand="#comp" place="sublinear"><metamark function="insert"/></add></mod></l><app id="var533" type="sub"><rdg><l><mod><add hand="#comp" place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#comp" place="superlinear"/></mod></l><seg><l><mod><add hand="#comp" place="superlinear">have</add></mod></l></seg><l><mod><add hand="#comp" place="superlinear"/></mod></l></rdg></app><l><mod><add hand="#comp" place="superlinear"/>
+      </mod>sunk under my </l><app id="var534" type="sub"><rdg><l>hardships. Du</l>
+    <l>ring</l></rdg></app><l> the day I was </l><app id="var535" type="sub ort"><rdg><l/><seg><l>sustained</l></seg><l> and inspirited</l></rdg></app><l> by the hope</l>
+    <l>of night; </l><app id="var536" type="sub"><rdg><l/><seg><l/></seg><l/><seg><l>for</l></seg><l/></rdg></app><l> in sleep I <mod>
+        <del rend="strikethrough">saw</del>
+        <add place="sublinear"><metamark function="insert"/></add></mod></l><app id="var537" type="sub int"><rdg><l><mod><add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">saw</add>
+      </mod> </l><seg><l>my</l></seg><l> friends,</l></rdg></app><l> my wife </l><app id="var538" type="ort"><rdg><l>and</l></rdg></app><l/>
+    <l>my beloved </l><app id="var539" type="int"><rdg><l>country;</l></rdg></app><l> again I saw the benevolent </l><app id="var540" type="sub"><rdg><l>coun-</l>
+    <l>tenance</l></rdg></app><l> of my </l><app id="var541" type="sub"><rdg><l/><seg><l>father,</l></seg><l/></rdg></app><l> heard the silver </l><app id="var542" type="sub"><rdg><l>tones</l></rdg></app><l> of my</l>
+    <l/><app id="var543" type="ort"><rdg><l>Elizabeth's</l></rdg></app><l> voice and beheld Clerval enjoying health</l>
+    <l/><app id="var544" type="ort int"><rdg><l>and youth.</l></rdg></app><l> Often when wearied by a toilsome march</l>
+    <l>I </l><app id="var545" type="sub ort"><rdg><l>persuaded</l></rdg></app><l> myself that I was </l><app id="var546" type="sub"><rdg><l/><seg><l>dreaming</l></seg><l> untill</l></rdg></app><l> night</l>
+    <l>should come </l><app id="var547" type="ort"><rdg><l>and</l></rdg></app><l> that </l><app id="var548" type="sub"><rdg><l/><seg><l>I</l></seg><l> </l><seg><l>should</l></seg><l/></rdg></app><l> then </l><app id="var549" type="ort"><rdg><l>enjoy</l></rdg></app><l> <del rend="strikethrough"><unclear extent="1" unit="chars"/></del> reality </l><app id="var550" type="sub"><rdg><l/><seg><l>in</l></seg><l/></rdg></app><l/>
+    <l>the arms of my dearest </l><app id="var551" type="sub int"><rdg><l>friends. What</l></rdg></app><l> agonizing fondness</l>
+    <l>did I feel for </l><app id="var552" type="sub"><rdg><l>them, how</l></rdg></app><l> did I cling to their dear forms</l>
+    <l>as sometimes they </l><app id="var553" type="sub"><rdg><l/><seg><l>haunted</l></seg><l/></rdg></app><l> even my </l><app id="var554" type="sub int"><rdg><l>waking hours,</l></rdg></app><l/>
+    <l>and </l><app id="var555" type="sub"><rdg><l>persuade</l></rdg></app><l> myself that they still lived. At such</l>
+    <l>moments </l><app id="var556" type="sub"><rdg><l/><seg><l>vengeance</l></seg><l/></rdg></app><l> that burned </l><app id="var557" type="ort"><rdg><l>within</l></rdg></app><l> me died</l>
+    <l>in my heart and I pursued my path towards the</l>
+    <l>destruction of the </l><app id="var558" type="sub ort"><rdg><l>dæmon</l></rdg></app><l> more as a task <del rend="strikethrough"/></l><app id="var559" type="sub"><rdg><l><del rend="strikethrough">enjo</del></l>
+    <l/><seg><l>enjoined</l></seg><l/></rdg></app><l> by heaven, </l><app id="var560" type="sub ort"><rdg><l>as</l></rdg></app><l> the </l><app id="var561" type="sub"><rdg><l>mechanical impulse</l></rdg></app><l/>
+  <anchor id="struct124b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0039.jp2"/>
+  <p type="pagination"><l>143</l></p>
+  <p><anchor id="struct125a"/> <anchor id="struct125b"/></p>
+  <p type="library"><anchor id="struct126a" subtype="ide"/><l>20</l><anchor id="struct126b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct127a" subtype="ide"/>
+    <l/><app id="var562" type="sub int"><rdg><l>words.</l></rdg></app><l> </l><app id="var563" type="sub"><rdg><l>Prepare!</l></rdg></app><l> </l><app id="var564" type="sub ort"><rdg><l/><seg><l/></seg><l>Your</l></rdg></app><l> toils only </l><app id="var565" type="int"><rdg><l>begin;</l></rdg></app><l> </l><app id="var566" type="ort"><rdg><l>wrap</l></rdg></app><l> yourself </l><app id="var567" type="sub"><rdg><l>up</l>
+    <l/><seg><l>in</l></seg><l/></rdg></app><l> furs </l><app id="var568" type="ort"><rdg><l>and</l></rdg></app><l> provide food for we shall soon enter</l>
+    <l>on a journey where </l><app id="var569" type="ort"><rdg><l>your</l></rdg></app><l> sufferings will satisfy</l>
+    <l>my everlasting </l><app id="var570" type="sub"><rdg><l>hatred.</l>
+    <l><milestone spanTo="#c58-0039.01" unit="tei:note"/><add hand="#comp" place="intralinear">F.W/</add><anchor xml:id="c58-0039.01"/><milestone unit="tei:p"/>My courage and</l></rdg></app><l>
+      perseverance were </l><app id="var571" type="sub"><rdg><l>invigorated</l></rdg></app><l/>
+    <l>by these </l><app id="var572" type="sub"><rdg><l>scoffing words;</l></rdg></app><l> I resolved not to fail in my</l>
+    <l/><app id="var573" type="sub int"><rdg><l>purpose;</l></rdg></app><l> and calling </l><app id="var574" type="sub"><rdg><l>on </l><seg><l>heaven</l></seg><l/></rdg></app><l> to support me I</l>
+    <l>continued with unabated </l><app id="var575" type="int"><rdg><l>fervour,</l></rdg></app><l> to traverse </l><app id="var576" type="sub"><rdg><l>im-</l>
+    <l>mense</l></rdg></app><l> desarts untill the </l><app id="var577" type="ort"><rdg><l>ocean</l></rdg></app><l> appeared at a</l>
+    <l>distance and formed the utmost boundary of</l>
+    <l>the </l><app id="var578" type="ort int"><rdg><l>horizon. Oh! how</l></rdg></app><l> unlike it was to the blue </l><app id="var579" type="sub ort"><rdg><l>seas</l></rdg></app><l/>
+    <l>of the south<mod>
+        <add place="intralinear"/></mod></l><app id="var580" type="sub"><rdg><l><mod><add place="intralinear">!</add>
+        <del rend="overwritten">;</del>
+      </mod> </l><seg><l>Covered</l></seg><l/></rdg></app><l> with ice it was only to be</l>
+    <l>distinguished from land </l><app id="var581" type="sub"><rdg><l/><seg><l>by</l></seg><l> its superior wildness and</l>
+    <l>ruggedness. The greeks wept <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">for joy</add>
+      </mod>when they beheld the</l></rdg></app><l/>
+  <anchor id="struct127b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0040.jp2"/>
+  <p type="pagination"><l>144</l></p>
+  <p><anchor id="struct128a"/> <anchor id="struct128b"/></p>
+  <p type="main"><anchor id="struct129a" subtype="ide"/>
+    <l/><app id="var582" type="sub"><rdg><l/><seg><l>mediterranean</l></seg><l/></rdg></app><l> from the hills of </l><app id="var583" type="int"><rdg><l>Asia;</l></rdg></app><l> and hailed</l>
+    <l>with rapture the boundary of their </l><app id="var584" type="int"><rdg><l>toils.</l></rdg></app><l> I did not </l><app id="var585" type="int"><rdg><l>weep,</l></rdg></app><l/>
+    <l>but I knelt down </l><app id="var586" type="ort"><rdg><l>and</l></rdg></app><l> <del rend="strikethrough">thanked my </del></l><app id="var587" type="sub"><rdg><l><del rend="strikethrough"/></l><seg><l><del rend="strikethrough">guiding</del></l></seg><l><del rend="strikethrough"/></l></rdg></app><l><del rend="strikethrough"> spirit</del> with</l>
+    <l>a full heart </l><app id="var588" type="sub"><rdg><l>thanked my guiding spirit </l><seg><l>for</l></seg><l> co<del rend="strikethrough">u</del>nduct-</l>
+    <l>ing</l></rdg></app><l> me </l><app id="var589" type="sub"><rdg><l>in <del rend="strikethrough">safete</del> </l><seg><l>safety</l></seg><l> to</l></rdg></app><l> the place where I hoped
+      </l><app id="var590" type="sub"><rdg><l>not-</l>
+    <l>withstanding</l></rdg></app><l> my </l><app id="var591" type="sub"><rdg><l>adversary's gibe,</l></rdg></app><l> to meet </l><app id="var592" type="sub ort"><rdg><l>and grap</l>
+    <l>ple</l></rdg></app><l> with </l><app id="var593" type="sub"><rdg><l>him.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">Some</l></rdg></app><l rend="indent1"> weeks before </l><app id="var594" type="sub"><rdg><l rend="indent1">this period </l><seg><l rend="indent1">I</l></seg><l rend="indent1"/></rdg></app><l rend="indent1"> had procured a</l>
+    <l>sledge </l><app id="var595" type="sub ort"><rdg><l>and <del rend="strikethrough">go</del></l></rdg></app><l><del rend="strikethrough"/> dogs and thus traversed the snows
+      with</l>
+    <l>inconceivable </l><app id="var596" type="int"><rdg><l>speed.</l></rdg></app><l> I know not whether the fiend</l>
+    <l>possessed the same advantages but I found that as</l>
+    <l>before I had </l><app id="var597" type="sub"><rdg><l/><seg><l>daily</l></seg><l/></rdg></app><l> lost </l><app id="var598" type="sub"><rdg><l>ground </l><seg><l>in</l></seg><l/></rdg></app><l> the </l><app id="var599" type="sub"><rdg><l>pursuit</l></rdg></app><l> I now</l>
+    <l>gained on </l><app id="var600" type="int"><rdg><l>him;</l></rdg></app><l> so much </l><app id="var601" type="sub"><rdg><l>so </l><seg><l>that</l></seg><l/></rdg></app><l> when I </l><app id="var602" type="sub"><rdg><l/><seg><l>first</l></seg><l> </l><seg><l>saw</l></seg><l/></rdg></app><l/>
+    <l>the </l><app id="var603" type="ort"><rdg><l>ocean</l></rdg></app><l> he was but one days <del rend="strikethrough"/></l><app id="var604" type="sub"><rdg><l><del rend="strikethrough">joury</del> </l><seg><l>journey</l></seg><l/></rdg></app><l> in</l>
+    <l>advance </l><app id="var605" type="ort"><rdg><l>and</l></rdg></app><l> I hoped </l><app id="var606" type="sub"><rdg><l/><seg><l>to</l></seg><l/></rdg></app><l> intercept him </l><app id="var607" type="sub"><rdg><l>before</l>
+    <l>he should reach the beach. </l><seg><l>With</l></seg><l/></rdg></app><l> new courage </l><app id="var608" type="sub"><rdg><l>there</l>
+    <l>fore</l></rdg></app><l> I pressed on </l><app id="var609" type="ort"><rdg><l>and</l></rdg></app><l> in two days arrived at a</l>
+    <l>wretched hamlet on the sea shore. I enquired</l>
+  <anchor id="struct129b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0041.jp2"/>
+  <p type="pagination"><l>153</l></p>
+  <p><anchor id="struct130a"/> <anchor id="struct130b"/></p>
+  <p type="library"><anchor id="struct131a" subtype="ide"/><l>21</l><anchor id="struct131b" subtype="ide"/></p>
+  
+  <p type="main"><anchor id="struct132a"/>
+    <l><milestone spanTo="#c58-0041.01" unit="tei:head"/>Walton, in continuation<anchor xml:id="c58-0041.01"/></l>
+    <l rend="right">August 2<mod>
+        <del rend="overwritten">5</del>
+        <add place="intralinear">6</add>
+      </mod>– 17—</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">You have read this strange and terrific story, Mar</l>
+    <l>geret, and do you not feel your blood congealed with</l>
+    <l>horror like that which even now curdles mine. Some</l>
+    <l>times seized with sudden agony he could not continue</l>
+    <l>his tale, at others his <mod>
+        <del rend="overwritten"><unclear reason="illegible">b</unclear></del>
+        <add place="intralinear">v</add>
+      </mod>oice broken yet piercing uttered</l>
+    <l>with difficulty the words so replete with agony. His fine</l>
+    <l>and lovely eyes were now lighted up with indignation,</l>
+    <l>now subdued to downcast sorrow and infinite wretch</l>
+    <l>edness. Sometimes he commanded his countenance and</l>
+    <l>tones and related the most horrible incidents with a</l>
+    <l>tranquil voice suppressing every mark of agitation,</l>
+    <l>then like a volcano bursting forth his face would</l>
+  <anchor id="struct132b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0042.jp2"/>
+  <p type="pagination"><l>154</l></p>
+  <p><anchor id="struct133a"/> <anchor id="struct133b"/></p>
+  <p type="main"><anchor id="struct134a" subtype="ide"/>
+    <l/><app id="var610" type="sub ort"><rdg><l>suddenly change to an expression of the wildest</l>
+    <l>rage as he shrieked out</l></rdg></app><l> <del rend="strikethrough"/></l><app id="var611" type="sub"><rdg><l><del rend="strikethrough"/></l><seg><l><del rend="strikethrough"/></l></seg><l><del rend="strikethrough"/></l><seg><l><del rend="strikethrough"/></l></seg><l><del rend="strikethrough"/></l><seg><l><del rend="strikethrough">his</del></l></seg><l><del rend="strikethrough"/></l></rdg></app><l><del rend="strikethrough"/> imprecations </l><app id="var612" type="sub"><rdg><l/><seg><l>on</l></seg><l> his per</l>
+    <l>-secutor.</l></rdg></app><l/>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">His tale is connected </l><app id="var613" type="ort"><rdg><l rend="indent1">and</l></rdg></app><l rend="indent1"> told with an appearance</l>
+    <l>of <del rend="strikethrough"/></l><app id="var614" type="sub"><rdg><l><del rend="strikethrough">truth</del> </l><seg><l>the</l></seg><l/></rdg></app><l> simplest </l><app id="var615" type="int"><rdg><l>truth,</l></rdg></app><l> yet I own to you </l><app id="var616" type="sub"><rdg><l/><seg><l>that</l></seg><l/></rdg></app><l/>
+    <l>the letters of Felix </l><app id="var617" type="sub ort"><rdg><l>and</l></rdg></app><l> Safie which he shewed </l><app id="var618" type="ort int"><rdg><l>me,</l>
+    <l>and</l></rdg></app><l> the </l><app id="var619" type="sub"><rdg><l>appar<mod>
+        <del rend="overwritten"><del rend="smear">t</del></del>
+        <add place="intralinear">i</add>
+      </mod>tion</l></rdg></app><l> of the monster seen from our ship</l>
+    <l>brought to me a greater conviction of the </l><app id="var620" type="sub"><rdg><l/><seg><l>truth</l></seg><l> of</l>
+    <l>his narrative </l><seg><l>than</l></seg><l/></rdg></app><l> his </l><app id="var621" type="sub int"><rdg><l>asservations however</l></rdg></app><l> earnest</l>
+    <l/><app id="var622" type="ort"><rdg><l>and</l></rdg></app><l> connected. Such a monster </l><app id="var623" type="sub"><rdg><l/><seg><l>has</l></seg><l/></rdg></app><l> then really </l><app id="var624" type="int"><rdg><l>existence;</l></rdg></app><l/>
+    <l>I </l><app id="var625" type="sub"><rdg><l/><seg><l>cannot</l></seg><l/></rdg></app><l> doubt </l><app id="var626" type="int"><rdg><l>it,</l></rdg></app><l> yet I </l><app id="var627" type="sub"><rdg><l/><seg><l>am</l></seg><l/></rdg></app><l> lost in </l><app id="var628" type="sub"><rdg><l>surprise and</l>
+    <l>admiration.</l></rdg></app><l> Sometimes I endeavoured to gain </l><app id="var629" type="sub"><rdg><l/><seg><l>from</l></seg><l> Fran-</l>
+    <l>kenstein the particulars of his creature's formation, but </l>
+    <l>on this point he was impenetrable. Are you mad, my</l>
+    <l>friend<mod>
+        <del rend="overwritten">,</del>
+        <add place="intralinear">?</add>
+      </mod> said he,<del rend="smear">?</del>
+      <mod>
+        <del rend="overwritten">O</del>
+        <add place="intralinear">o</add>
+      </mod>r whither does your senseless curiosity</l>
+    <l>lead you? Would you also create for yourself and the</l>
+    <l>world a dæmoni<mod>
+        <del rend="overwritten">le</del>
+        <add place="intralinear">a</add>
+      </mod>c<del rend="strikethrough">l</del> enemy? <mod>
+        <del rend="overwritten">o</del>
+        <add place="intralinear">O</add>
+      </mod>r to what do your questions</l>
+    <l>lend? Peace, peace! learn my miseries and do not seek</l></rdg></app><l/>
+  <anchor id="struct134b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0043.jp2"/>
+  <p type="pagination"><l>155</l></p>
+  <p><anchor id="struct135a"/> <anchor id="struct135b"/></p>
+  <p type="library"><anchor id="struct136a" subtype="ide"/><l>22</l><anchor id="struct136b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct137a" subtype="ide"/>
+    <l/><app id="var630" type="sub"><rdg><l>to encrease your own.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">Frankenstein discovered <mod>
+        <del rend="strikethrough">or</del>
+        <add hand="#comp" place="sublinear"><metamark function="insert">^</metamark></add></mod></l></rdg></app><l rend="indent2"><mod><add hand="#comp" place="sublinear"><metamark function="insert"/></add>
+        <add hand="#comp" place="superlinear">that I</add>
+      </mod></l><app id="var631" type="sub"><rdg><l rend="indent2"> </l><seg><l rend="indent2">made</l></seg><l rend="indent2"/></rdg></app><l rend="indent2"> notes </l><app id="var632" type="sub ort"><rdg><l rend="indent2">concern</l>
+    <l>-ing</l></rdg></app><l> his </l><app id="var633" type="int"><rdg><l>history;</l></rdg></app><l> he asked to see them </l><app id="var634" type="sub ort"><rdg><l>and then</l></rdg></app><l/>
+    <l>himself <del rend="strikethrough"/></l><app id="var635" type="sub"><rdg><l><del rend="strikethrough">as</del> </l><seg><l>corrected</l></seg><l/></rdg></app><l> and augmented them in many</l>
+    <l/><app id="var636" type="int"><rdg><l>places,</l></rdg></app><l> but principally in </l><app id="var637" type="sub"><rdg><l/><seg><l>giving</l></seg><l/></rdg></app><l> the life </l><app id="var638" type="ort"><rdg><l>and</l></rdg></app><l> spirit</l>
+    <l/><app id="var639" type="ort"><rdg><l>to</l></rdg></app><l> the </l><app id="var640" type="sub"><rdg><l>conversations</l></rdg></app><l> he held with his </l><app id="var641" type="sub int"><rdg><l>enemy. Si<retrace cause="unclear">n</retrace>ce</l></rdg></app><l/>
+    <l>you <del rend="strikethrough"/></l><app id="var642" type="sub"><rdg><l><del rend="strikethrough">y</del> </l><seg><l>have</l></seg><l> preserved my narration,</l></rdg></app><l> said </l><app id="var643" type="int"><rdg><l>he,</l></rdg></app><l> I</l>
+    <l>would not that a mutilated one should go down</l>
+    <l>to posterity.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">Thus <del rend="strikethrough"/></l><app id="var644" type="sub ort"><rdg><l rend="indent2"><del rend="strikethrough">as</del> has a week</l></rdg></app><l rend="indent2"> passed away while I
+      have</l>
+    <l>listened to the strangest tale that ever imagination</l>
+    <l>formed. My thoughts </l><app id="var645" type="ort"><rdg><l>and</l></rdg></app><l> every feeling of my soul </l><app id="var646" type="sub"><rdg><l/><seg><l>have</l></seg><l/></rdg></app><l/>
+    <l>been drunk up by the interrest </l><app id="var647" type="sub"><rdg><l/><seg><l>for</l></seg><l/></rdg></app><l> my guest </l><app id="var648" type="sub ort"><rdg><l>which</l>
+    <l>this tale and</l></rdg></app><l> </l><app id="var649" type="sub ort"><rdg><l/><seg><l>his</l></seg><l> own elevated and gentle manners</l></rdg></app><l/>
+  <anchor id="struct137b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0044.jp2"/>
+  <p type="pagination"><l>156</l></p>
+  <p><anchor id="struct138a"/> <anchor id="struct138b"/></p>
+  <p type="main"><anchor id="struct139a"/>
+    <l>have created. I wish to soothe him yet can<del rend="strikethrough">not</del>
+      <del rend="strikethrough">o</del> I</l>
+    <l>counsel one so infinitely miserable, so destitute</l>
+    <l>of every hope of consolation to live? Oh, no! The only</l>
+    <l>joy that <add hand="#comp" place="superlinear">he</add> can now know will be when he
+      composes</l>
+    <l>his <del rend="strikethrough">h</del> shattered feelings to peace and death; Yet he</l>
+    <l>enjoys one comfort the offspring of solitude and de-</l>
+    <l>lirium; he believes that when in dreams he holds</l>
+    <l>converse with his friends and derives from that</l>
+    <l>communion consolation for his miseries or ex-</l>
+    <l>citements to his vengeance that they are not the</l>
+    <l>creations of his fancy but the real beings who visit</l>
+    <l>him from the regions of a remote world. This</l>
+    <l>faith gives a solemnity to his reveries that render</l>
+    <l>them to me almost as imposing and inter<del rend="strikethrough">r</del>esting</l>
+    <l>as truth.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">Our conversations are not always confined</l>
+    <l>to his own history and misfortunes. On every</l>
+    <l>point of general literature he displays unbound-</l>
+    <l>ed knowledge and a quick and piercing appre-</l>
+  <anchor id="struct139b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0045.jp2"/>
+  <p><anchor id="struct140a"/> <anchor id="struct140b"/></p>
+  <p><anchor id="struct141a"/> <anchor id="struct141b"/></p>
+  <p><anchor id="struct142a"/> <anchor id="struct142b"/></p>
+  <p><anchor id="struct143a"/> <anchor id="struct143b"/></p>
+  <p><anchor id="struct144a"/> <anchor id="struct144b"/></p>
+  <p><anchor id="struct145a"/> <anchor id="struct145b"/></p>
+  <p><anchor id="struct146a"/> <anchor id="struct146b"/></p>
+  <p><anchor id="struct147a"/> <anchor id="struct147b"/></p>
+  <p><anchor id="struct148a"/> <anchor id="struct148b"/></p>
+  <p><anchor id="struct149a"/> <anchor id="struct149b"/></p>
+  <p><anchor id="struct150a"/> <anchor id="struct150b"/></p>
+  <p><anchor id="struct151a"/> <anchor id="struct151b"/></p>
+  <p><anchor id="struct152a"/> <anchor id="struct152b"/></p>
+  <p><anchor id="struct153a"/> <anchor id="struct153b"/></p>
+  <p><anchor id="struct154a"/> <anchor id="struct154b"/></p>
+  <p type="pagination"><l>167</l></p>
+  <p><anchor id="struct155a"/> <anchor id="struct155b"/></p>
+  <p type="library"><anchor id="struct156a" subtype="ide"/><l>23</l><anchor id="struct156b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct157a"/>
+    <l>You were hereafter to be hailed as the benefactors</l>
+    <l>of your species; your names adored as belonging</l>
+    <l>to brave men who encountered death for honor,</l>
+    <l>and the benefit of mankind. And now behold!</l>
+    <l>with the first imagination of danger, or, if you</l>
+    <l>will, the first mighty and terrific trial of your</l>
+    <l>courage <del rend="strikethrough">you</del> you shrink away and are content</l>
+    <l>to be handed down as men who had not strength</l>
+    <l>enough to endure cold and peril, and so, poor</l>
+    <l>souls, they were chilly and returned to their warm</l>
+    <l>firesides. <del rend="strikethrough">Y</del> Why that requires not this
+      preparation;</l>
+    <l>Ye need not have come thus far and dragged your</l>
+    <l>captain to the shame of a defeat <del rend="strikethrough">t</del> merely to</l>
+    <l>prove yourselves cowards. Oh! be men, or be more</l>
+    <l>than men. Be steady to your purposes, and firm</l>
+    <l>as rock; this ice is not made of such stuff as your</l>
+    <l>hearts might be; it is mutable, cannot with</l>
+    <l>stand you if you say that it shall not. Do</l>
+    <l>not return to your families with the stigma</l>
+  <anchor id="struct157b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0046.jp2"/>
+  <p><anchor id="struct158a"/> <anchor id="struct158b"/></p>
+  <p type="pagination"><l>168</l></p>
+  <p type="main"><anchor id="struct159a" subtype="ide"/>
+    <l/><app id="var650" type="sub"><rdg><l/><seg><l/></seg><l/><seg><l/></seg><l/><seg><l>of</l></seg><l/></rdg></app><l> disgrace marked on your </l><app id="var651" type="ort int"><rdg><l>brows. Return</l></rdg></app><l> as heroes</l>
+    <l>who have fought </l><app id="var652" type="ort"><rdg><l>and</l></rdg></app><l> conquered </l><app id="var653" type="ort"><rdg><l>and</l></rdg></app><l> who know</l>
+    <l>not what it is to turn their backs on the </l><app id="var654" type="ort"><rdg><l>foe.</l></rdg></app><l/>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">He spoke thus with a voice so </l><app id="var655" type="sub"><rdg><l rend="indent2">modulated</l></rdg></app><l rend="indent2"/>
+    <l>to the different feelings expressed in his </l><app id="var656" type="int"><rdg><l>speech,</l></rdg></app><l/>
+    <l>with an eye so full of </l><app id="var657" type="sub"><rdg><l>lofty</l></rdg></app><l> design </l><app id="var658" type="ort int"><rdg><l>and heroism,</l></rdg></app><l/>
+    <l>that can you wonder that </l><app id="var659" type="ort"><rdg><l>these</l></rdg></app><l> men were</l>
+    <l/><app id="var660" type="int"><rdg><l>moved.</l></rdg></app><l> They looked at one </l><app id="var661" type="sub ort"><rdg><l/><seg><l>another</l></seg><l> and</l></rdg></app><l> were</l>
+    <l>unable to reply. I </l><app id="var662" type="int"><rdg><l>spoke;</l></rdg></app><l> I told them to retire</l>
+    <l/><app id="var663" type="ort"><rdg><l>and</l></rdg></app><l> consider of what had been said. <mod>
+        <del rend="overwritten"/></mod></l><app id="var664" type="sub"><rdg><l><mod><del rend="overwritten">t</del>
+        <add place="intralinear">T</add>
+      </mod>hat</l></rdg></app><l> I would</l>
+    <l>not lead them further north if they </l><app id="var665" type="sub ort"><rdg><l>strenuously</l>
+    <l>desired</l></rdg></app><l> the </l><app id="var666" type="int"><rdg><l>contrary;</l></rdg></app><l> but that I hoped that</l>
+    <l>with reflection their courage would return.</l>
+    <l>They retired and I turned </l><app id="var667" type="sub"><rdg><l>towards</l></rdg></app><l> my friend </l><app id="var668" type="sub"><rdg><l/><seg><l>but</l></seg><l/></rdg></app><l/>
+  <anchor id="struct159b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0047.jp2"/>
+  <p><anchor id="struct160a"/> <anchor id="struct160b"/></p>
+  <p><anchor id="struct161a"/> <anchor id="struct161b"/></p>
+  <p><anchor id="struct162a"/> <anchor id="struct162b"/></p>
+  <p><anchor id="struct163a"/> <anchor id="struct163b"/></p>
+  <p><anchor id="struct164a"/> <anchor id="struct164b"/></p>
+  <p><anchor id="struct165a"/> <anchor id="struct165b"/></p>
+  <p><anchor id="struct166a"/> <anchor id="struct166b"/></p>
+  <p type="pagination"><l>175</l></p>
+  <p><anchor id="struct167a"/> <anchor id="struct167b"/></p>
+  <p type="library"><anchor id="struct168a" subtype="ide"/><l>24</l><anchor id="struct168b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct169a" subtype="ide"/>
+    <l/><app id="var669" type="sub"><rdg><l>sideration</l></rdg></app><l> of these points and the well </l><app id="var670" type="sub ort"><rdg><l>balanc-</l>
+    <l>ing</l></rdg></app><l> of what you may esteem your duties I leave</l>
+    <l>to </l><app id="var671" type="sub int"><rdg><l>you.</l></rdg></app><l> My judgement </l><app id="var672" type="ort"><rdg><l>and</l></rdg></app><l> ideas </l><app id="var673" type="sub"><rdg><l/><seg><l>are</l></seg><l/></rdg></app><l> already</l>
+    <l>disturbed by </l><app id="var674" type="sub"><rdg><l/><seg><l>the</l></seg><l/></rdg></app><l> near approach of </l><app id="var675" type="int"><rdg><l>death.</l></rdg></app><l> I dare</l>
+    <l>not ask you </l><app id="var676" type="sub"><rdg><l/><seg><l>to</l></seg><l/></rdg></app><l> do what I think right for I</l>
+    <l>may still be misled by passion.</l>
+    <handShift medium="pen" new="#pbs"/>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">That he should </l><app id="var677" type="int"><rdg><l rend="indent2">live,</l></rdg></app><l rend="indent2"> to </l><app id="var678" type="sub ort"><rdg><l rend="indent2"/><seg><l rend="indent2">be</l></seg><l rend="indent2"> an
+      instrument</l></rdg></app><l rend="indent2"> of</l>
+    <l/><app id="var679" type="sub"><rdg><l>mischief</l></rdg></app><l> disturbs </l><app id="var680" type="sub int"><rdg><l>me; in other respects</l></rdg></app><l> this hour</l>
+    <l>when I </l><app id="var681" type="sub"><rdg><l/><seg><l>momentarily</l></seg><l/></rdg></app><l> expect </l><app id="var682" type="sub"><rdg><l>my release</l></rdg></app><l> is the only</l>
+    <l>happy one </l><app id="var683" type="sub ort"><rdg><l>which </l><seg><l>I</l></seg><l> have</l></rdg></app><l> enjoyed for </l><app id="var684" type="sub"><rdg><l/><seg><l>several</l></seg><l/></rdg></app><l/>
+    <l>years. The forms of the beloved dead flit</l>
+    <l>before me and I hasten to their arms.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1"/><app id="var685" type="int"><rdg><l rend="indent1">Farewell,</l></rdg></app><l rend="indent1"> Walton. Seek </l><app id="var686" type="sub"><rdg><l rend="indent1">happiness</l></rdg></app><l rend="indent1"> in tranquillity</l>
+    <l>and avoid </l><app id="var687" type="sub"><rdg><l>ambition</l></rdg></app><l> even if </l><app id="var688" type="sub"><rdg><l/><seg><l>it</l></seg><l/></rdg></app><l> be only the</l>
+    <l>apparently innocent one of </l><app id="var689" type="sub"><rdg><l>distinguishing yourself</l></rdg></app><l/>
+    <l>in science &amp; discoveries. Yet </l><app id="var690" type="sub"><rdg><l/><seg><l>why</l></seg><l/></rdg></app><l> do I say this?</l>
+    <l>I have myself been blasted in these </l><app id="var691" type="ort int"><rdg><l>hopes,</l>
+    <l>yet</l></rdg></app><l> another may succeed.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">His voice became fainter </l><app id="var692" type="sub"><rdg><l rend="indent1">as he spoke; </l><seg><l rend="indent1">&amp;</l></seg><l rend="indent1"/>
+    <l>at length </l><seg><l>exhausted</l></seg><l> by</l></rdg></app><l> his effort he </l><app id="var693" type="sub"><rdg><l/><seg><l>sunk</l></seg><l/>
+    <l>into silence.</l></rdg></app><l> About half an hour </l><app id="var694" type="sub"><rdg><l>afterwards</l></rdg></app><l/>
+    <l>he </l><app id="var695" type="sub"><rdg><l>attempted again</l></rdg></app><l> to speak, but was unable</l>
+  <anchor id="struct169b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0048.jp2"/>
+  <p><anchor id="struct170a"/> <anchor id="struct170b"/></p>
+  <p type="pagination"><l>176</l></p>
+  <p type="main"><anchor id="struct171a" subtype="ide"/>
+    <handShift medium="pen" new="#pbs"/>
+    <l/><app id="var696" type="sub"><rdg><l>— he pressed my hand feebly and his eyes</l>
+    <l>closed forever while the irradiation of a gentle</l>
+    <l>smile past away from his lips.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">Margaret, what comment can I </l><seg><l rend="indent1">make</l></seg><l rend="indent1"/></rdg></app><l rend="indent1"> on the</l>
+    <l/><app id="var697" type="sub"><rdg><l>untimely extinction</l></rdg></app><l> of this glorious </l><app id="var698" type="sub"><rdg><l>sprit? What</l>
+    <l>can I say that will make you understand</l>
+    <l>the depth of my sorrow? All that I should ex</l>
+    <l>-press would</l></rdg></app><l> be inadequate </l><app id="var699" type="ort"><rdg><l>&amp;</l></rdg></app><l> feeble. My tears</l>
+    <l/><app id="var700" type="sub ort"><rdg><l>flow- My life is overshadowed with a cloud</l>
+    <l>of dissappointment.</l></rdg></app><l> But I journey towards</l>
+    <l/><app id="var701" type="ort int"><rdg><l>England, &amp;</l></rdg></app><l> I may there find consolation.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">I am </l><app id="var702" type="ort"><rdg><l rend="indent1">interrupted</l></rdg></app><l rend="indent1"> </l><app id="var703" type="ort"><rdg><l rend="indent1">what</l></rdg></app><l rend="indent1"> do these sounds</l>
+    <l>portend? It is </l><app id="var704" type="sub"><rdg><l>midnight. The</l></rdg></app><l> breeze blows</l>
+    <l/><app id="var705" type="ort int"><rdg><l>fairly; &amp;</l></rdg></app><l> the watch on deck scarcely </l><app id="var706" type="sub int"><rdg><l>stir—</l>
+    <l>Again</l></rdg></app><l> there is a sound </l><app id="var707" type="sub ort"><rdg><l>as of a human voice</l>
+    <l>but hoarser-</l></rdg></app><l> it comes from the cabin where the</l>
+    <l/><app id="var708" type="sub"><rdg><l/><seg><l>remains</l></seg><l/></rdg></app><l> of </l><app id="var709" type="ort"><rdg><l>Frankenstein</l></rdg></app><l> still </l><app id="var710" type="ort int"><rdg><l>lie.</l></rdg></app><l> I must</l>
+    <l/><app id="var711" type="sub int"><rdg><l>arise<del rend="strikethrough"><unclear>s</unclear></del> &amp; examine—</l></rdg></app><l> Good night
+      my </l><app id="var712" type="sub"><rdg><l>sister- –</l></rdg></app><l/>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">Great God! What a scene has just taken</l>
+    <l/><app id="var713" type="ort int"><rdg><l>place-</l></rdg></app><l> I am yet dizzy with the </l><app id="var714" type="sub"><rdg><l>remem-</l>
+    <l>-brance</l></rdg></app><l> of it. I hardly know whether I</l>
+    <l>shall have the power to </l><app id="var715" type="sub int"><rdg><l/><seg><l>detail</l></seg><l> it;</l></rdg></app><l> yet </l><app id="var716" type="sub"><rdg><l/><seg><l>the</l></seg><l/></rdg></app><l/>
+  <anchor id="struct171b" subtype="ide"/></p>
+    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0049.jp2"/>
+    <p><anchor id="struct172a"/> <anchor id="struct172b"/></p>
+    <p type="pagination"><l>177</l></p>
+    <p type="library"><anchor id="struct173a" subtype="ide"/><l>25</l><anchor id="struct173b" subtype="ide"/></p>
+    <p><anchor id="struct174a"/> <anchor id="struct174b"/></p>
+    <p type="main"><anchor id="struct175a"/>
+        <handShift medium="pen" new="#pbs"/>
+        <l>tale which I have recorded would be incomplete</l>
+        <l>without this final &amp; wonderful catastrophe.</l>
+        <milestone unit="tei:p"/>
+        <l rend="indent1">I entered the cabin where lay the remains <del rend="strikethrough">of
+                my</del></l>
+        <l>of my ill-fated, &amp; admirable friend. Over him</l>
+        <l>hung a form which I cannot find words to</l>
+        <l>describe gigantic in stature, yet uncouth &amp; distor</l>
+        <l>ted in its proportions. As he hung over the</l>
+        <l>coffin his face was hid by long locks of ragged</l>
+        <l>hair– <del rend="strikethrough">but</del> but one vast hand was
+            extended,</l>
+        <l>in colour &amp; apparent texture like that of a</l>
+        <l>mummy. When he heard the sound of my</l>
+        <l>approach; he ceased to utter exclamations of</l>
+        <l>grief &amp; horror, &amp; sprung towards the window.</l>
+        <l>Never did I behold a vision so horrible as his</l>
+        <l>face, of <del rend="strikethrough">h</del> such loathsome yet apalling hideous</l>
+        <l>-ness. I shut my eyes involuntarily, as</l>
+        <l>recollecting what were my duties with respect</l>
+        <l>to this destroyer, I called on him to stay.</l>
+        <l>He paused – Looking on me with wonder, &amp;</l>
+        <l>again turning towards the lifeless form of his</l>
+        <l>creator he seemed to forget <del rend="strikethrough">to</del> my presence;</l>
+        <l><del rend="strikethrough">whi</del> and every feature &amp; gesture seemed
+            instigated</l>
+    <anchor id="struct175b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0050.jp2"/>
+  <p type="pagination"><l>178</l></p>
+  <p type="main"><anchor id="struct176a" subtype="ide"/>
+    <handShift medium="pen" new="#pbs"/>
+    <l/><app id="var717" type="sub"><rdg><l>by the wildest rage of some uncontrolable passion</l>
+    <l>—</l></rdg></app><l> That is also my </l><app id="var718" type="sub"><rdg><l>victim<mod>
+        <del rend="overwritten">,</del>
+        <add place="intralinear">!</add>
+      </mod> he exclaimed In</l></rdg></app><l/>
+    <l>his </l><app id="var719" type="ort"><rdg><l>murder<del rend="strikethrough">e</del></l></rdg></app><l><del rend="strikethrough"/> my crimes are </l><app id="var720" type="sub"><rdg><l>consummated — the</l>
+    <l>miserable series of my being is wound to its close!</l>
+    <l>O</l></rdg></app><l> Frankenstein – </l><app id="var721" type="ort"><rdg><l>generous</l></rdg></app><l> &amp; self devoted </l><app id="var722" type="sub"><rdg><l>being</l>
+    <l>what does it avail that</l></rdg></app><l> I ask </l><app id="var723" type="sub"><rdg><l/><seg><l>thee</l></seg><l> now </l><seg><l>to</l></seg><l/></rdg></app><l/>
+    <l>pardon </l><app id="var724" type="sub int"><rdg><l>me. Wherefore do I seek to perish</l>
+    <l>in thy stead after</l></rdg></app><l> I </l><app id="var725" type="sub int"><rdg><l>have irretrievably des-</l>
+    <l>-troyed thee,</l></rdg></app><l> by </l><app id="var726" type="sub"><rdg><l>destroying</l></rdg></app><l> those </l><app id="var727" type="sub int"><rdg><l/><seg><l>thou</l></seg><l> lovedst</l></rdg></app><l/>
+    <l>Alas he is </l><app id="var728" type="sub"><rdg><l>cold.. he <mod>
+        <del rend="overwritten"><del rend="smear">cannot</del></del></mod></l></rdg></app><l><mod><del rend="overwritten"><del rend="smear"/></del>
+        <add place="intralinear">may not</add>
+      </mod> answer me.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">His voice seemed </l><app id="var729" type="int"><rdg><l rend="indent1">suffocated,</l></rdg></app><l rend="indent1"> &amp; my first </l><app id="var730" type="sub"><rdg><l rend="indent1">im</l>
+    <l>-pulses</l></rdg></app><l> which had </l><app id="var731" type="sub"><rdg><l>suggested</l></rdg></app><l> to </l><app id="var732" type="sub ort"><rdg><l>me the duty</l>
+    <l>of obeying</l></rdg></app><l> the dying request of my </l><app id="var733" type="int"><rdg><l>friend,</l></rdg></app><l/>
+    <l>in destroying his </l><app id="var734" type="sub int"><rdg><l>enemy,</l></rdg></app><l> now </l><app id="var735" type="sub ort"><rdg><l>were suspended</l>
+    <l>by</l></rdg></app><l> a mixture of curiosity &amp; <del rend="strikethrough"/></l><app id="var736" type="sub int"><rdg><l><del rend="strikethrough">pity</del> compassion.</l></rdg></app><l/>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">I </l><app id="var737" type="sub ort"><rdg><l rend="indent1">approached this tremendous being–</l></rdg></app><l rend="indent1"> I dared</l>
+    <l/><app id="var738" type="sub ort"><rdg><l>no<mod>
+        <del rend="overwritten"><unclear reason="illegible">w</unclear></del>
+        <add place="intralinear">t</add>
+      </mod> again <del rend="strikethrough">to</del> raise my looks upon his face—</l></rdg></app><l/>
+    <l>there was </l><app id="var739" type="ort"><rdg><l>something</l></rdg></app><l> so </l><app id="var740" type="sub"><rdg><l>scaring</l></rdg></app><l> &amp; </l><app id="var741" type="sub"><rdg><l>unearth-</l>
+    <l>-ly</l></rdg></app><l> in his ugliness. I attempted to </l><app id="var742" type="int"><rdg><l>speak,</l></rdg></app><l/>
+    <l>but </l><app id="var743" type="sub ort"><rdg><l>his presence</l></rdg></app><l> </l><app id="var744" type="sub"><rdg><l/><seg><l>was</l></seg><l> as</l></rdg></app><l> </l><app id="var745" type="sub ort"><rdg><l>a burthen which</l>
+    <l>held</l></rdg></app><l> me </l><app id="var746" type="sub"><rdg><l>dumb, &amp; the words died on my</l>
+    <l>lips—. The monster continued to utter</l></rdg></app><l/>
+  <anchor id="struct176b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0051.jp2"/>
+  <p type="pagination"><l>179</l></p>
+  <p><anchor id="struct177a"/> <anchor id="struct177b"/></p>
+  <p type="library"><anchor id="struct178a" subtype="ide"/><l>26</l><anchor id="struct178b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct179a"/>
+    <handShift medium="pen" new="#pbs"/>
+    <l>wild &amp; incoherent reproaches.. At length I gathered</l>
+    <l>resolution to speak, in a pause as it were in</l>
+    <l>the tempest of his passion — Your repentance is</l>
+    <l>now superflous: I said, If you had listened to</l>
+    <l>the voice of conscience, &amp; heeded the stings of</l>
+    <l>remorse before you had urged your diabolical</l>
+    <l>vengeance to this extremity; Frankenstein would</l>
+    <l>yet have lived.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">And do you dream — said the Dæmon,
+      do</l>
+    <l>you think that I was then dead to agony &amp;</l>
+    <l>remorse. – He– he <del rend="strikethrough">ex</del> p continued, pointing
+      to</l>
+    <l>the corpse, he suffered not more in consum</l>
+    <l>-mation of the deed; oh not the ten thousandth</l>
+    <l>portion of the anguish that was mine during</l>
+    <l>the lingering detail of its execution. A frigh-</l>
+    <l>-tful selfishness hurried me on, while my heart</l>
+    <l>was poisoned with remorse. Think ye that</l>
+    <l>the groans of Clerval were music to my ear.</l>
+    <l>My heart was fashioned to be susceptible of</l>
+    <l>love &amp; sympathy, &amp; when wrenched by misery</l>
+    <l>to vice &amp; hatred it did not endure the</l>
+    <l>violence of the change without torture</l>
+  <anchor id="struct179b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0052.jp2"/>
+  <p><anchor id="struct180a"/> <anchor id="struct180b"/></p>
+  <p type="pagination"><l>180</l></p>
+  <p><anchor id="struct181a"/> <anchor id="struct181b"/></p>
+  <p type="main"><anchor id="struct182a" subtype="ide"/>
+    <handShift medium="pen" new="#pbs"/>
+    <l/><app id="var747" type="sub ort"><rdg><l>such as you cannot even <mod>
+        <del rend="overwritten"><del rend="smear"><unclear reason="illegible">ing</unclear></del></del>
+        <add place="intralinear">im</add>
+      </mod>agine— After</l></rdg></app><l> the</l>
+    <l/><app id="var748" type="sub"><rdg><l>murder</l></rdg></app><l> of Clerval </l><app id="var749" type="sub"><rdg><l/><seg><l/></seg><l/><seg><l>I</l></seg><l/></rdg></app><l> returned to Switzerland</l>
+    <l/><app id="var750" type="sub ort"><rdg><l>heart-</l></rdg></app><l> broken &amp; overcome </l><app id="var751" type="sub"><rdg><l>- </l><seg><l>I</l></seg><l/></rdg></app><l> pitied Frankenstein</l>
+    <l/><app id="var752" type="sub ort"><rdg><l/><seg><l/></seg><l>My</l></rdg></app><l> pity </l><app id="var753" type="ort"><rdg><l>ammounted</l></rdg></app><l> to horror – I abhorred </l><app id="var754" type="sub int"><rdg><l>myself.</l></rdg></app><l/>
+    <l>But when I </l><app id="var755" type="sub"><rdg><l>discovered</l></rdg></app><l> that </l><app id="var756" type="sub"><rdg><l/><seg><l>he–</l></seg><l> the author <del rend="strikethrough">of</del></l>
+    <l>at once of my existence and of all its unspea</l>
+    <l>kable torments</l></rdg></app><l> dared to hope for happiness </l><app id="var757" type="sub ort"><rdg><l>—</l>
+    <l>that whilst</l></rdg></app><l> he </l><app id="var758" type="sub"><rdg><l>accumulated upon me</l></rdg></app><l> wretchedness</l>
+    <l>&amp; </l><app id="var759" type="sub int"><rdg><l>despair,</l></rdg></app><l> he sought his own enjoyment in</l>
+    <l>feelings &amp; passions from </l><app id="var760" type="sub"><rdg><l/><seg><l>the</l></seg><l/></rdg></app><l> indulgence of</l>
+    <l>which I was </l><app id="var761" type="sub int"><rdg><l>barred— then impotent envy &amp;</l>
+    <l>bitter</l></rdg></app><l> indignation </l><app id="var762" type="sub int"><rdg><l>filled me with an insatiable</l>
+    <l>thirst for vengeance.</l></rdg></app><l> I </l><app id="var763" type="sub"><rdg><l>recollected</l></rdg></app><l> my threat</l>
+    <l>&amp; resolved </l><app id="var764" type="sub"><rdg><l>that it should be accomplished. I</l>
+    <l>knew that I was preparing for myselft a deadly</l>
+    <l>torture.. but I was the slave not the master</l>
+    <l>of an impulse which I detested but could not</l>
+    <l>disobey.</l></rdg></app><l> – </l><app id="var765" type="sub"><rdg><l>Yet </l><seg><l>when</l></seg><l/></rdg></app><l> she </l><app id="var766" type="int"><rdg><l>died!</l></rdg></app><l> Nay then I</l>
+    <l/><app id="var767" type="sub"><rdg><l/><seg><l>was</l></seg><l/></rdg></app><l> not </l><app id="var768" type="sub"><rdg><l>miserable.</l></rdg></app><l> I </l><app id="var769" type="sub"><rdg><l>had </l><seg><l>cast</l></seg><l/></rdg></app><l> off all </l><app id="var770" type="sub int"><rdg><l>feeling,</l>
+    <l>subdued</l></rdg></app><l> all anguish </l><app id="var771" type="ort"><rdg><l>to riot</l></rdg></app><l> in the </l><app id="var772" type="ort"><rdg><l>excess</l></rdg></app><l> of</l>
+    <l>my </l><app id="var773" type="sub"><rdg><l>despair. Evil thenceforth became my good.</l>
+    <l><mod>
+        <del rend="overwritten"><unclear extent="5" unit="chars"/></del>
+        <add place="intralinear">Urged</add>
+      </mod> thus far I had no choice but to adapt</l></rdg></app><l/>
+  <anchor id="struct182b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0053.jp2"/>
+  <p type="pagination"><l>181</l></p>
+  <p><anchor id="struct183a"/> <anchor id="struct183b"/></p>
+  <p type="library"><anchor id="struct184a" subtype="ide"/><l>27</l><anchor id="struct184b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct185a"/>
+    <handShift medium="pen" new="#pbs"/>
+    <l><damage/>nature to an element which <add place="superlinear">I</add> had chosen
+      willingly.</l>
+    <l>The completion of my demoniacal design thencefor-</l>
+    <l>ward became an insatiable pasion— And now</l>
+    <l><damage/>t is ended— there is my last victim!"</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">I was <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">at first</add>
+      </mod> touched by the expression of his misery,</l>
+    <l>yet when I called to mind what Frankenstein</l>
+    <l>had said of his powers of eloquence &amp; persua</l>
+    <l>-sion, &amp; when I again cast my eyes on the</l>
+    <l>lifeless form of my friend, indignation was</l>
+    <l>re- kindled within me. — Wretch, I said,</l>
+    <l>it is well that you come here to whine over</l>
+    <l>the desolation which you have made – you</l>
+    <l>throw a torch into a pile of buildings, &amp;</l>
+    <l>when they are consumed you sit among the</l>
+    <l>ruins &amp; lament the fall. Hypocritical</l>
+    <l>fiend! If he whom you lament still lived,</l>
+    <l>still would he be the object, again would he</l>
+    <l>become the prey of your accursed vengeamce.</l>
+    <l>It is not pity that you feel– you lament</l>
+    <l>only because the victim of your malignity</l>
+    <l>is withdrawn from your power.——</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">Oh! it is not thus— not thus –
+      interrupted</l>
+  <anchor id="struct185b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0054.jp2"/>
+  <p type="pagination"><l>182</l></p>
+  <p><anchor id="struct186a"/> <anchor id="struct186b"/></p>
+  <p type="main"><anchor id="struct187a" subtype="ide"/>
+    <handShift medium="pen" new="#pbs"/>
+    <l/><app id="var774" type="sub ort"><rdg><l>the Being=yet such must be</l></rdg></app><l> the </l><app id="var775" type="sub"><rdg><l>impression</l>
+    <l>conveyed to</l></rdg></app><l> you </l><app id="var776" type="sub"><rdg><l>by what</l></rdg></app><l> </l><app id="var777" type="sub"><rdg><l/><seg><l>appears</l></seg><l/></rdg></app><l> to </l><app id="var778" type="sub ort"><rdg><l>be</l></rdg></app><l> the</l>
+    <l>purport of my actions. </l><app id="var779" type="sub"><rdg><l>– Yet,</l></rdg></app><l> I </l><app id="var780" type="sub"><rdg><l>seek</l></rdg></app><l> not </l><app id="var781" type="sub"><rdg><l/><seg><l>a</l></seg><l/>
+    <l>fellow-feeling</l></rdg></app><l> in my </l><app id="var782" type="sub"><rdg><l>misery. No sympathy</l>
+    <l>may</l></rdg></app><l> I </l><app id="var783" type="sub"><rdg><l>ever</l></rdg></app><l> find. When I first sought </l><app id="var784" type="int"><rdg><l>it,</l></rdg></app><l> it</l>
+    <l>was </l><app id="var785" type="sub"><rdg><l/><seg><l>the</l></seg><l/></rdg></app><l> love of </l><app id="var786" type="sub"><rdg><l>virtue. I desired that the</l></rdg></app><l> feelings</l>
+    <l>of happiness &amp; </l><app id="var787" type="sub ort"><rdg><l>affection with the hope of which</l>
+    <l>my whole "being" once overflowed, should</l></rdg></app><l> be </l><app id="var788" type="sub int"><rdg><l>par</l>
+    <l>-ticipated</l></rdg></app><l> – But </l><app id="var789" type="int"><rdg><l>now,</l></rdg></app><l> that virtue </l><app id="var790" type="sub ort"><rdg><l>has become</l></rdg></app><l/>
+    <l>to me </l><app id="var791" type="sub"><rdg><l/><seg><l>a</l></seg><l> shadow, &amp;</l></rdg></app><l> happiness &amp; </l><app id="var792" type="sub"><rdg><l>affection</l></rdg></app><l> are</l>
+    <l>turned into </l><app id="var793" type="sub int"><rdg><l>bitter &amp; loath<mod>
+        <del rend="overwritten"><unclear reason="illegible">some</unclear></del>
+        <add place="intralinear">ing</add>
+      </mod> despair, in what</l>
+    <l>should</l></rdg></app><l> I seek for </l><app id="var794" type="sub"><rdg><l>sympathy? I am contented</l></rdg></app><l/>
+    <l>to suffer alone </l><app id="var795" type="sub ort"><rdg><l>whilst my sufferings shall</l>
+    <l>endure. When</l></rdg></app><l> I </l><app id="var796" type="int"><rdg><l>die,</l></rdg></app><l> I am </l><app id="var797" type="sub"><rdg><l>well </l><seg><l>satisfied</l></seg><l/></rdg></app><l/>
+    <l>that </l><app id="var798" type="sub"><rdg><l>abhorrence</l></rdg></app><l> &amp; opprobrium should load</l>
+    <l>my memory. Once my fancy was soothed </l><app id="var799" type="sub"><rdg><l>with</l></rdg></app><l/>
+    <l>dreams of virtue of fame &amp; of enjoyment.</l>
+    <l>Once I </l><app id="var800" type="sub"><rdg><l>falsely </l><seg><l>hoped</l></seg><l/></rdg></app><l> to meet with </l><app id="var801" type="sub"><rdg><l>beings</l></rdg></app><l/>
+    <l>who pardoning my outward form </l><app id="var802" type="sub"><rdg><l/><seg><l>would</l></seg><l/></rdg></app><l> love me</l>
+    <l>for the <mod>
+        <del rend="strikethrough"/></mod></l><app id="var803" type="sub"><rdg><l><mod><del rend="strikethrough">eminent</del>
+        <add place="superlinear"/></mod></l><seg><l><mod><add place="superlinear">excellent</add></mod></l></seg><l><mod><add place="superlinear"/></mod></l></rdg></app><l><mod><add place="superlinear"/>
+      </mod> qualities </l><app id="var804" type="sub"><rdg><l/><seg><l>which</l></seg><l/></rdg></app><l> I </l><app id="var805" type="sub"><rdg><l/><seg><l>was</l></seg><l/></rdg></app><l> so</l>
+    <l>eminently </l><app id="var806" type="sub"><rdg><l>capable of bringing forth.</l></rdg></app><l> I was</l>
+  <anchor id="struct187b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0055.jp2"/>
+  <p type="pagination"><anchor id="struct188a"/><l>183</l><anchor id="struct188b"/></p>
+  <p type="library"><anchor id="struct189a" subtype="ide"/><l>28</l><anchor id="struct189b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct190a"/>
+    <handShift medium="pen" new="#pbs"/>
+    <l><damage/> nourished with high thoughts of honour &amp;</l>
+    <l><damage/>lf devotion. But now vice has degraded me</l>
+    <l><damage/>neath the meanest animal. No crimes no</l>
+    <l>mischief, no malignity no misery can be </l>
+    <l>found parallell with mine. When I call over</l>
+    <l>the frightful catalogue of my deeds I cannot</l>
+    <l>believe that I am he, whose thoughts were once</l>
+    <l>filled with sublime &amp; transcendent visions of</l>
+    <l>the beauty &amp; the majesty of goodness – But</l>
+    <l>it is even so – The fallen Angel becomes a</l>
+    <l>malignant devil – Yet even that enemy of</l>
+    <l>God &amp; man had friends &amp; associates in his</l>
+    <l>desolation. I am quite alone.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">You, who call Frankenstein your friend,
+      seem</l>
+    <l>to have a knowledge of my crimes &amp; his</l>
+    <l>misfortunes. But in the detail which he</l>
+    <l>gave you of them he could not sum up the</l>
+    <l>hours &amp; months of misery which I endured</l>
+    <l>wasting in impotent passions. For whilst I</l>
+    <l>destroyed his hopes, I did not satisfy my</l>
+    <l>own desires. They were forever ardent &amp; craving.</l>
+  <anchor id="struct190b"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0056.jp2"/>
+  <p type="pagination"><l>184</l></p>
+  <p type="main"><anchor id="struct191a"/>
+    <handShift medium="pen" new="#pbs"/>
+    <l>Still I desired love &amp; fellowship, &amp; I was stil<damage/></l>
+    <l>spurned — Was there no injustice in this?</l>
+    <l>Am I to be thought the only criminal whi<damage/></l>
+    <l>all human kind sinned against me? — Why d<damage/></l>
+    <l>you not hate <mod>
+        <del rend="overwritten"><del rend="smear"><unclear reason="illegible">Felix</unclear></del></del>
+        <add place="intralinear">Felix</add>
+      </mod> who drove his friend f<damage/></l>
+    <l>his door with contumely? Why do you not</l>
+    <l>execrate the rustic who sought to destroy th<damage/></l>
+    <l>saviour of his child? Nay, these are virtuo<damage/></l>
+    <l>&amp; immaculate beings. I the miserable &amp; the</l>
+    <l>abandoned am an abortion to be spurned at,</l>
+    <l>&amp; kicked &amp; trampled upon— Even now my bloo<damage/></l>
+    <l>boils at the recollection <mod>
+        <del rend="overwritten"><unclear reason="illegible">t</unclear></del>
+        <add place="intralinear">o</add>
+      </mod>f this injustice.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">But it is true that I am a wretch. I</l>
+    <l>have murdered the lovely &amp; the helpless. I have</l>
+    <l><mod>
+        <del rend="overwritten"><del rend="smear"><unclear reason="illegible">strangled</unclear></del></del>
+        <add place="intralinear">strangled</add>
+      </mod> the innocent as they slept, &amp; grasped</l>
+    <l>to death <del rend="strikethrough">the</del> his throat who never injured me</l>
+    <l><mod>
+        <del rend="overwritten"><unclear reason="illegible">an</unclear></del>
+        <add place="intralinear">or</add>
+      </mod> any other living thing. I have devoted</l>
+    <l>my creator, <del rend="strikethrough">a spec</del> the select specimen of all</l>
+    <l>that <add place="superlinear">is</add> worthy of love &amp; admiration among men,</l>
+    <l>to misery: I have pursued him even to that</l>
+    <l>irremdiable ruin. There he lies, white &amp; cold</l>
+  </p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0057.jp2"/>
+  <p type="pagination"><l>185</l><anchor id="struct191b"/></p>
+  <p><anchor id="struct192a"/> <anchor id="struct192b"/></p>
+  <p type="library"><anchor id="struct193a" subtype="ide"/><l>29</l><anchor id="struct193b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct194a"/>
+    <handShift medium="pen" new="#pbs"/>
+    <l><damage/> death. You hate me but your abhorrence cannot</l>
+    <l><damage/>al that with which I regard myself. I look</l>
+    <l><damage/> the hands which executed that deed, I think</l>
+    <l><damage/> the heart in which the imagination of it was</l>
+    <l><damage/>ncieved, &amp; long for the moment when they will</l>
+    <l><damage/>eet my eyes, when it will haunt my thoughts</l>
+    <l><damage/>o more.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">Fear not that I shall be the
+      instrument of</l>
+    <l><damage/>uture mischief. My work is nearly complete. Neither</l>
+    <l><damage/>ours nor any mans death is needed to consum-</l>
+    <l><damage/>mate the series of my being, &amp; accomplish that</l>
+    <l>which must be done; but it requires my own.</l>
+    <l>Do not fear that I shall be slow to perform</l>
+    <l>this sacrifize. I shall quit your vessel on the</l>
+    <l>ice-raft which brought me hither; &amp; shall</l>
+    <l>seek with rapid steps, the most northern ex-</l>
+    <l>-tremity of the globe. I shall collect my funeral</l>
+    <l>pile, &amp; consume to ashes this miserable frame,</l>
+    <l>that its remains may afford no light to any</l>
+    <l>curious &amp; unhallowed <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#mws" place="superlinear">wretch</add>
+      </mod> who would create such</l>
+    <l>another as I have been. I shall die. I shall</l>
+    <l>no longer feel the agonies which now consume</l>
+  </p>
+      <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0058.jp2"/>
+
+      <p type="pagination"><l>186</l><anchor id="struct194b"/></p>
+      <p type="main"><anchor id="struct195a" subtype="ide"/>
+            <handShift medium="pen" new="#pbs"/>
+            <l/><app id="var807" type="sub"><rdg><l>me, or be the prey of feelings unsatisfied yet</l>
+            <l>unquenched. He is <mod>
+                        <del rend="overwritten">h</del>
+                        <add place="intralinear">d</add>
+                  </mod>ead who called</l></rdg></app><l> me </l><app id="var808" type="sub"><rdg><l>into</l>
+            <l>being <mod>
+                        <del rend="overwritten">w</del>
+                        <add place="intralinear">a</add>
+                  </mod>nd when</l></rdg></app><l> I shall be </l><app id="var809" type="sub"><rdg><l>no more,</l></rdg></app><l> the <mod>
+                        <add place="sublinear"><metamark function="insert"/></add></mod></l><app id="var810" type="sub ort"><rdg><l><mod><add place="sublinear"><metamark function="insert">^</metamark></add>
+                        <add place="superlinear">very</add>
+                  </mod> rem</l></rdg></app><l><damage/></l>
+            <l/><app id="var811" type="sub ort"><rdg><l/><seg><l/></seg><l>-brance</l></rdg></app><l> of </l><app id="var812" type="sub ort"><rdg><l>us both</l></rdg></app><l> will </l><app id="var813" type="sub int"><rdg><l>speedily perish.</l></rdg></app><l> I </l><app id="var814" type="sub"><rdg><l>s</l></rdg></app><l><damage/></l>
+            <l>no longer see the sun </l><app id="var815" type="sub int"><rdg><l/><seg><l>or</l></seg><l> stars,</l></rdg></app><l> or feel the </l><app id="var816" type="ort"><rdg><l>wind</l></rdg></app><l><damage/></l>
+            <l>play on my </l><app id="var817" type="int"><rdg><l>cheeks. Light,</l></rdg></app><l> feeling &amp; sense </l><app id="var818" type="sub"><rdg><l>wi<damage/></l>
+            <l>pass away.</l></rdg></app><l> And in this </l><app id="var819" type="sub"><rdg><l>condition </l><seg><l>must</l></seg><l/></rdg></app><l> I find <damage/></l>
+            <l/><app id="var820" type="sub"><rdg><l/><seg><l>happiness.–</l></seg><l/></rdg></app><l> Some years ago when the images </l><app id="var821" type="sub"><rdg><l>whi<damage/></l>
+            <l/><seg><l>this</l></seg><l/></rdg></app><l> world affords first opened </l><app id="var822" type="ort int"><rdg><l>upon me,</l></rdg></app><l> when I</l>
+            <l>felt the cheering warmth of </l><app id="var823" type="sub"><rdg><l>summer,</l></rdg></app><l> &amp; </l><app id="var824" type="ort"><rdg><l>he</l></rdg></app><l><damage/></l>
+            <l>the rustling of leaves &amp; the <del rend="strikethrough"/></l><app id="var825" type="sub"><rdg><l><del rend="strikethrough">music</del> </l><seg><l>chirping</l></seg><l/></rdg></app><l>
+                  of</l>
+            <l/><app id="var826" type="int"><rdg><l>birds,</l></rdg></app><l> &amp; these were all to </l><app id="var827" type="int"><rdg><l>me,</l></rdg></app><l> I should have </l><app id="var828" type="ort"><rdg><l>wep</l></rdg></app><l><damage/></l>
+            <l>to </l><app id="var829" type="int"><rdg><l>die,</l></rdg></app><l> &amp; now it is my only consolation. </l><app id="var830" type="sub"><rdg><l>Pollut</l></rdg></app><l><damage/></l>
+            <l>by crimes </l><app id="var831" type="ort"><rdg><l>&amp;</l></rdg></app><l> torn by the bitterest remorse where </l><app id="var832" type="ort"><rdg><l>ca</l></rdg></app><l><damage/></l>
+            <l>I find </l><app id="var833" type="sub"><rdg><l/><seg><l>rest</l></seg><l/></rdg></app><l> but in death.</l>
+            <milestone unit="tei:p"/>
+            <l rend="indent1"/><app id="var834" type="int"><rdg><l rend="indent1">Farewell.</l></rdg></app><l rend="indent1"> I leave </l><app id="var835" type="ort int"><rdg><l rend="indent1">you, &amp; in</l></rdg></app><l rend="indent1"> you the last of</l>
+            <l/><app id="var836" type="sub ort"><rdg><l>hum<retrace cause="unclear">an</retrace> kind whom</l></rdg></app><l> these eyes will ever
+                  behold.</l>
+            <l>Farewell, </l><app id="var837" type="sub int"><rdg><l>Frankenstein. If thou wert yet alive</l>
+            <l>&amp; yet cherished a desire of revenge against me,</l>
+            <l>it would be better satiated in my life than my</l>
+            <l>destruction. But it was not so. You sought</l></rdg></app><l/>
+      <anchor id="struct195b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0059.jp2"/>
+  <p type="pagination"><anchor id="struct196a" subtype="ide"/>
+    <l>187</l>
+  <anchor id="struct196b" subtype="ide"/></p>
+  <p type="library"><anchor id="struct197a" subtype="ide"/>
+    <l>30</l>
+  <anchor id="struct197b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct198a" subtype="ide"/>
+    <handShift medium="pen" new="#pbs"/>
+    <l/><app id="var838" type="sub ort"><rdg><l>my extinction <del rend="strikethrough">because</del> that I might not cause</l>
+    <l>greater wretchedness; &amp; if yet <del rend="strikethrough">by</del> in some mode</l>
+    <l>unknown</l></rdg></app><l> to </l><app id="var839" type="sub"><rdg><l>me, <mod>
+        <del rend="strikethrough"/></mod></l><seg><l><mod><del rend="strikethrough">you</del></mod></l></seg><l><mod><del rend="strikethrough"/>
+        <add place="superlinear">thou</add>
+      </mod> haste</l></rdg></app><l> </l><app id="var840" type="sub int"><rdg><l/><seg><l>not</l></seg><l> ceased</l></rdg></app><l> to </l><app id="var841" type="sub"><rdg><l>think</l></rdg></app><l/>
+    <l>&amp; </l><app id="var842" type="sub int"><rdg><l>feel,</l></rdg></app><l> <mod>
+        <del rend="strikethrough">you</del>
+        <add place="superlinear"/></mod></l><app id="var843" type="sub"><rdg><l><mod><add place="superlinear">thou</add>
+      </mod> desirest</l></rdg></app><l> not </l><app id="var844" type="sub"><rdg><l/><seg><l>my</l></seg><l/></rdg></app><l> life for my own</l>
+    <l>misery. </l><app id="var845" type="sub"><rdg><l/><seg><l>Blasted</l></seg><l/></rdg></app><l> as </l><app id="var846" type="ort int"><rdg><l>thou wert,</l></rdg></app><l> my </l><app id="var847" type="sub ort"><rdg><l>agony</l>
+    <l>was still</l></rdg></app><l> superior to </l><app id="var848" type="sub int"><rdg><l>thine:</l></rdg></app><l> for </l><app id="var849" type="sub"><rdg><l/><seg><l>the</l></seg><l/></rdg></app><l> bitter sting</l>
+    <l/><app id="var850" type="sub"><rdg><l>of remorse may not cease to Rankle in my wounds,</l>
+    <l>until death shall close them forever.</l></rdg></app><l/>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">But soon, he cried </l><app id="var851" type="sub"><rdg><l rend="indent1">with sad &amp; solemn enthusi</l>
+    <l>asm,</l></rdg></app><l> I shall </l><app id="var852" type="ort int"><rdg><l>die, &amp;</l></rdg></app><l> what I now feel </l><app id="var853" type="sub"><rdg><l>be</l></rdg></app><l> no</l>
+    <l>longer </l><app id="var854" type="sub"><rdg><l>felt. . . Soon</l></rdg></app><l> these burning miseries will</l>
+    <l>be </l><app id="var855" type="int"><rdg><l>extinct.</l></rdg></app><l> I shall <mod>
+        <add place="sublinear"><metamark function="insert"/></add></mod></l><app id="var856" type="sub"><rdg><l><mod><add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear"><mod>
+            <del rend="strikethrough">moun</del>
+            <add place="superlinear"/></mod></add></mod></l><seg><l><mod><add place="superlinear"><mod><add place="superlinear">ascend</add></mod></add></mod></l></seg><l><mod><add place="superlinear"><mod><add place="superlinear"/></mod></add></mod></l></rdg></app><l><mod><add place="superlinear"><mod><add place="superlinear"/>
+          </mod></add>
+      </mod> my </l><app id="var857" type="sub int"><rdg><l>funeral </l><seg><l>pile</l></seg><l> triumphantly;</l></rdg></app><l/>
+    <l>&amp; </l><app id="var858" type="sub"><rdg><l>exult in the agony of the torturing flames.</l>
+    <l>The light of that conflagration will fade away.</l>
+    <l><del rend="strikethrough"><unclear reason="illegible">I know not</unclear></del> My ashes
+      will be swept into the sea</l>
+    <l>by </l><seg><l>the</l></seg><l> winds. My spirit</l></rdg></app><l> will </l><app id="var859" type="sub int"><rdg><l>sleep in peace;</l></rdg></app><l/>
+    <l>or </l><app id="var860" type="sub"><rdg><l>if it thinks will surely not think thus.</l>
+    <l>Adieu.</l></rdg></app><l/>
+    <milestone unit="tei:p"/>
+    <l rend="indent1">He sprung from the </l><app id="var861" type="sub int"><rdg><l rend="indent1">cabin-window,</l></rdg></app><l rend="indent1"> as he said </l><app id="var862" type="sub int"><rdg><l rend="indent1">this,</l></rdg></app><l rend="indent1"/>
+    <l>upon an ice raft </l><app id="var863" type="sub"><rdg><l>which</l></rdg></app><l> lay close to the </l><app id="var864" type="sub int"><rdg><l>vessel;</l></rdg></app><l/>
+    <l>he was </l><app id="var865" type="sub"><rdg><l>soon borne away by the waves, &amp;</l></rdg></app><l> lost</l>
+    <l rend="indent1"/><app id="var866" type="sub"><rdg><l rend="indent1"/><seg><l rend="indent1">in</l></seg><l rend="indent1"/></rdg></app><l rend="indent1"> the darkness </l><app id="var867" type="ort"><rdg><l rend="indent1">of</l></rdg></app><l rend="indent1"> distance.</l>
+  </p>
+    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0060.jp2"/>
+    <p type="main">
+        <!--Blank Page -->
+    <anchor id="struct198b" subtype="ide"/></p>
+
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0061.jp2"/>
+  <p type="pagination">
+    <l>185</l>
+  </p>
+  
+  
+  <p type="library"><anchor id="struct199a" subtype="ide"/>
+    <l>(W<unclear reason="illegible">m</unclear>.)</l>
+    <l>31</l>
+  <anchor id="struct199b" subtype="ide"/></p>
+  <p type="main"><anchor id="struct200a" subtype="ide"/>
+    <l><del rend="strikethrough"><add hand="#library"/></del></l><app id="var868" type="sub"><rdg><l><del rend="strikethrough"><add hand="#library">A11</add></del></l>
+    <handShift medium="pen" new="#mws"/>
+    <l>whilst</l></rdg></app><l> </l><app id="var869" type="sub"><rdg><l/><seg><l/></seg><l/><seg><l/></seg><l/><seg><l>I</l></seg><l/></rdg></app><l> destroyed his </l><app id="var870" type="int"><rdg><l>hopes,</l></rdg></app><l> I did not </l><app id="var871" type="sub"><rdg><l/><seg><l>satisfy</l></seg><l/></rdg></app><l> my own</l>
+    <l/><app id="var872" type="sub"><rdg><l/><seg><l>desires.</l></seg><l/></rdg></app><l> They were </l><app id="var873" type="sub int"><rdg><l>forever ardent and craving; <del rend="strikethrough">still</del></l></rdg></app><l><del rend="strikethrough"/></l>
+    <l>Still I desired love </l><app id="var874" type="ort int"><rdg><l>and fellowship,</l></rdg></app><l> and I was still</l>
+    <l/><app id="var875" type="sub"><rdg><l>spurned. W<mod>
+        <del rend="overwritten">h</del>
+        <add place="intralinear">a</add>
+      </mod>s</l></rdg></app><l> there no injustice in this? </l><app id="var876" type="sub ort"><rdg><l>Am</l></rdg></app><l> I </l><app id="var877" type="sub"><rdg><l>to</l>
+    <l>be thought </l><seg><l>the</l></seg><l/></rdg></app><l> only criminal </l><app id="var878" type="ort"><rdg><l>when</l></rdg></app><l> all </l><app id="var879" type="ort"><rdg><l>human</l></rdg></app><l/>
+    <l>kind sinned against me? Why do you not hate </l><app id="var880" type="sub ort"><rdg><l>Fe</l>
+    <l>-lix</l></rdg></app><l> who drove his friend from his door </l><app id="var881" type="sub"><rdg><l>with contumely?</l>
+    <l>Why do you not execrate</l></rdg></app><l> the </l><app id="var882" type="sub"><rdg><l>rustic</l></rdg></app><l> who </l><app id="var883" type="sub ort"><rdg><l>sought</l>
+    <l>to destroy</l></rdg></app><l> the saviour of his child? </l><app id="var884" type="ort int"><rdg><l>Nay, these</l></rdg></app><l> are</l>
+    <l>virtuous </l><app id="var885" type="ort"><rdg><l>and</l></rdg></app><l> immalculate </l><app id="var886" type="sub int"><rdg><l>beings! I,</l></rdg></app><l> the miserable</l>
+    <l/><app id="var887" type="sub ort"><rdg><l>and the abandoned</l></rdg></app><l> am </l><app id="var888" type="sub"><rdg><l/><seg><l>an</l></seg><l/></rdg></app><l> abortion to be spurned</l>
+    <l/><app id="var889" type="sub ort"><rdg><l>at and</l></rdg></app><l> kicked </l><app id="var890" type="sub"><rdg><l>and trampled on.</l></rdg></app><l> Even now my</l>
+    <l>blood boils at the </l><app id="var891" type="sub"><rdg><l>recollection</l></rdg></app><l> of this </l><app id="var892" type="int"><rdg><l>injustice.</l></rdg></app><l/>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">But </l><app id="var893" type="sub ort"><rdg><l rend="indent2">i<mod>
+        <del rend="overwritten">s</del>
+        <add place="intralinear">t</add></mod></l></rdg></app><l rend="indent2"><mod><add place="intralinear"/>
+      </mod> is true </l><app id="var894" type="sub"><rdg><l rend="indent2"/><seg><l rend="indent2">that</l></seg><l rend="indent2"/></rdg></app><l rend="indent2"> I am a <del instant="true" rend="strikethrough"/></l><app id="var895" type="sub"><rdg><l rend="indent2"><del instant="true" rend="strikethrough">wrecth</del>
+      </l><seg><l rend="indent2">wretch.</l></seg><l rend="indent2"/></rdg></app><l rend="indent2"/>
+    <l>I have murdered the lovely </l><app id="var896" type="ort"><rdg><l>and</l></rdg></app><l> the helpless. I have</l>
+    <l/><app id="var897" type="sub"><rdg><l>strangled</l></rdg></app><l> the innocent as they slept and grasped</l>
+    <l/><app id="var898" type="sub"><rdg><l>to death </l><seg><l>his</l></seg><l/></rdg></app><l> throat </l><app id="var899" type="sub"><rdg><l/><seg><l>who</l></seg><l/></rdg></app><l> never injured </l><app id="var900" type="sub"><rdg><l>me or any</l></rdg></app><l/>
+  <anchor id="struct200b" subtype="ide"/></p>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0062.jp2"/>
+  <p><anchor id="struct201a"/> <anchor id="struct201b"/></p>
+  <p type="pagination">
+    <l>186</l>
+  </p>
+  <p><anchor id="struct202a"/> <anchor id="struct202b"/></p>
+  <p type="main"><anchor id="struct203a"/>
+    <handShift medium="pen" new="#mws"/>
+    <l>other living thing. I have devoted my creator, the</l>
+    <l>select specimen of all that is worthy of love and</l>
+    <l>admiration among men, to misery<unclear reason="illegible">:</unclear> I have
+      pursued</l>
+    <l>him even to that irremediable ruin. There he</l>
+    <l>lies, white and cold in death. You hate me, but</l>
+    <l>your abhorrence cannot equal that with</l>
+    <l>which I regard myself. I look on the hands which</l>
+    <l>executed the deed, I think on the heart in which the</l>
+    <l>imagination of it was conceived, and long for the</l>
+    <l>moment when they will meet my eyes, when it</l>
+    <l>will haunt my thoughts no <del instant="true" rend="strikethrough">longe</del>
+      more.</l>
+    <milestone unit="tei:p"/>
+    <l rend="indent2">Fear not that I shall be the instrument</l>
+    <l>of future mischief. My work is nearly <del instant="true" rend="strikethrough">finished</del> com-</l>
+    <l>plete. Neither yours nor any mans death is needed to</l>
+    <l>consummate the series of my being, and accomplish</l>
+    <l>that which must be done; but it requires my own.</l>
+    <l>Do not think that I shall be slow to perform this</l>
+  <anchor id="struct203b"/></p>
+  <p><anchor id="struct204a"/> <anchor id="struct204b"/></p>
+  <p><anchor id="struct205a"/> <anchor id="struct205b"/></p>
+  <p><anchor id="struct206a"/> <anchor id="struct206b"/></p>
+  <p><anchor id="struct207a"/> <anchor id="struct207b"/></p>
+  <p><anchor id="struct208a"/> <anchor id="struct208b"/></p>
+  <p><anchor id="struct209a"/> <anchor id="struct209b"/></p>
+  <p><anchor id="struct210a"/> <anchor id="struct210b"/></p>
+  <p><anchor id="struct211a"/> <anchor id="struct211b"/></p>
+  <p><anchor id="struct212a"/> <anchor id="struct212b"/></p>
+  <p><anchor id="struct213a"/> <anchor id="struct213b"/></p>
+</body>
+</text>
+    </sourceDoc>
+</TEI>
