@@ -6,6 +6,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     version="3.0">
     <xsl:mode on-no-match="shallow-copy"/>
+    <!--2017-08-15 ebb: UNFINISHED: This is just a start on an XSLT to flatten the hierarchy and simplify the XML of the SGA notebooks in prep for collation. -->
     
     <xsl:template match="line">
         <xsl:apply-templates/><lb xml:id="{tokenize(ancestor::surface[1]/@xml:id, '_')[last()]}_l{count(.|preceding::line)}"/>

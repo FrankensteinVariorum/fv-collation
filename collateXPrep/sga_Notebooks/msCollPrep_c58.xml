@@ -1,0 +1,1998 @@
+<!--ebb 2017-08-09: This is the original schema line from the SGA GitHub repo. Uncomment this if we want to push it back to our SGA fork. <?xml-model href="../../schemata/shelley_godwin_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><!--<?xml-model href="../../schemata/shelley_godwin_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="sga_schemata/shelley_godwin_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ox-ms_abinger_c58">
+    <teiHeader>
+      <!--2017-08-15 ebb: WORK WITH THIS FILE (the C58 notebook) FOR ADDING NEW PGH-FRANKENSTEIN MARKUP. This file is designed to validate (green square in oXygen) before we add tags to it. The file will validate with the SGA project Schematron rules here. 
+    I've added a respStmt here to indicate this is a new file for our use.
+  -->
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Frankenstein, MS. Abinger C. 58</title>
+                <title type="sub">An electronic transcription</title>
+                <respStmt xml:id="md_editor">
+                    <resp>Metadata editor</resp>
+                    <name xml:id="RV">Raffaele Viglianti</name>
+                </respStmt>
+              <respStmt><resp>Additional markup for Pittsburgh Frankenstein Project, adding markup to designate word boundaries and prepare for automated collation:</resp>
+                <name>Rikk Mulligan</name>
+                <name>Elisa Beshero-Bondar</name>
+                <date when="2017-08">August 2017</date>
+              </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Shelley-Godwin Archive edition, <date>2012-2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Oxford University</distributor>
+                <address>
+                    <addrLine>
+                        <ref target="http://www.shelleygodwinarchive.org/">http://www.shelleygodwinarchive.org/</ref>
+                    </addrLine>
+                </address>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+                        <p>CC0 1.0 Universal.</p>
+                        <p> To the extent possible under law, the creators of the metadata records for the Shelley-Godwin Archive 
+                            have waived all copyright and related or neighboring rights to this work.</p>
+                    </licence>
+                </availability>
+                <pubPlace>Oxford, UK, and College Park, MD</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library, University of Oxford</repository>
+                        <idno type="Bod">MS. Abinger c.58</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="#work">
+                            <bibl status="fair_copy">
+                                <author>Mary Wollstonecraft Shelley</author>
+                                <title>Frankenstein</title>
+                            </bibl>
+                            <msItem class="#volume" n="III" xml:id="ox-frankenstein_volume_iii">
+                                <locusGrp>
+                                    <locus target="#ox-ms_abinger_c58-0001                                         #ox-ms_abinger_c58-0002                                         #ox-ms_abinger_c58-0003                                         #ox-ms_abinger_c58-0004                                         #ox-ms_abinger_c58-0005                                         #ox-ms_abinger_c58-0006                                         #ox-ms_abinger_c58-0007                                         #ox-ms_abinger_c58-0008                                         #ox-ms_abinger_c58-0009                                         #ox-ms_abinger_c58-0010                                         #ox-ms_abinger_c58-0011                                         #ox-ms_abinger_c58-0012                                         #ox-ms_abinger_c58-0013                                         #ox-ms_abinger_c58-0014                                         #ox-ms_abinger_c58-0015                                         #ox-ms_abinger_c58-0016                                         #ox-ms_abinger_c58-0017                                         #ox-ms_abinger_c58-0018                                         #ox-ms_abinger_c58-0019                                         #ox-ms_abinger_c58-0020                                         #ox-ms_abinger_c58-0021                                         #ox-ms_abinger_c58-0022                                         #ox-ms_abinger_c58-0023                                         #ox-ms_abinger_c58-0024                                         #ox-ms_abinger_c58-0025                                         #ox-ms_abinger_c58-0026                                         #ox-ms_abinger_c58-0027                                         #ox-ms_abinger_c58-0028                                         #ox-ms_abinger_c58-0029                                         #ox-ms_abinger_c58-0030                                         #ox-ms_abinger_c58-0031                                         #ox-ms_abinger_c58-0032                                         #ox-ms_abinger_c58-0033                                         #ox-ms_abinger_c58-0034                                         #ox-ms_abinger_c58-0035                                         #ox-ms_abinger_c58-0036                                         #ox-ms_abinger_c58-0038                                         #ox-ms_abinger_c58-0039                                         #ox-ms_abinger_c58-0040                                         #ox-ms_abinger_c58-0041                                         #ox-ms_abinger_c58-0042                                         #ox-ms_abinger_c58-0043                                         #ox-ms_abinger_c58-0044                                         #ox-ms_abinger_c58-0045                                         #ox-ms_abinger_c58-0046                                         #ox-ms_abinger_c58-0047                                         #ox-ms_abinger_c58-0048                                         #ox-ms_abinger_c58-0049                                         #ox-ms_abinger_c58-0050                                         #ox-ms_abinger_c58-0051                                         #ox-ms_abinger_c58-0052                                         #ox-ms_abinger_c58-0053                                         #ox-ms_abinger_c58-0054                                         #ox-ms_abinger_c58-0055                                         #ox-ms_abinger_c58-0056                                         #ox-ms_abinger_c58-0057                                         #ox-ms_abinger_c58-0058                                         #ox-ms_abinger_c58-0059                                         #ox-ms_abinger_c58-0060                                         #ox-ms_abinger_c58-0061                                         #ox-ms_abinger_c58-0062"></locus>
+                                </locusGrp>
+                                <bibl>
+                                    <title>Volume III</title>
+                                    <date notAfter="1817-04" notBefore="1816-12">18 April-[?13] May 1817</date>
+                                </bibl>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <handNote scope="major" xml:id="mws"><persName>Mary Shelley</persName></handNote>
+                            <handNote scope="minor" xml:id="pbs"><persName>Percy Shelley</persName></handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl xml:base="../shared/classDecl.xml">
+    <taxonomy>
+        <category xml:id="work">
+            <catDesc>A work in the Shelley-Godwin Archive, e.g. Frankenstein</catDesc>
+        </category>
+        <category xml:id="work_part">
+            <catDesc>Metadata about a work in the Shelley-Godwin Archive split across multiple manuscripts</catDesc>
+        </category>
+        <category xml:id="notebook">
+            <catDesc>A manuscript notebook containing one or more works in the Shelley-Godwin
+                Archive, e.g. Frankenstein Notebook A</catDesc>
+        </category>
+        <category xml:id="volume">
+            <catDesc>The volume of a work in the Shelley-Godwin Archive, e.g. Frankenstein Vol
+                I</catDesc>
+        </category>
+        <category xml:id="chapter">
+            <catDesc>The chapter in a volume of a work in the Shelley-Godwin Archive, e.g.
+                Frankenstein Vol I, Chapter 1</catDesc>
+        </category>
+        <category xml:id="miscellaneous">
+            <catDesc>A part of a manuscript in the Shelley-Godwin Archive that does not fit in other
+                categories of this taxonomy.</catDesc>
+        </category>
+    </taxonomy>
+</classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <sourceDoc>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="1r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0001.xml" xml:id="ox-ms_abinger_c58-0001">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0001.jp2"></graphic>
+  <zone type="pagination"><line>99</line></zone>
+  <zone type="library"><line>1</line></zone>
+  <zone type="main">
+    <handShift medium="pen" new="#mws"></handShift>
+    <line>satisfied that nothing on earth will have the power</line>
+    <line>to interrupt my tranquility.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">Do not let this letter disturb you; do not</line>
+    <line>answer it tomorrow or the next day or even untill</line>
+    <line>you come if it will give you pain. My uncle will</line>
+    <line>send me news of your health and if I see but</line>
+    <line>one smile on your lips when we meet occasioned</line>
+    <line>by this or any other <del rend="strikethrough">happ</del> exertion of mine I</line>
+    <line>shall need no other happiness;</line>
+    <line rend="right">E<hi rend="underline">liz<hi rend="double-underline">abeth</hi></hi>
+      <hi rend="underline">L<hi rend="double-underline">avenz</hi></hi>a</line>
+    <line>Geneva</line>
+    <line><del instant="true" rend="strikethrough">April</del> May 18<hi rend="underline"><hi rend="sup">th</hi></hi>
+      <hi rend="underline">17—— </hi></line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">This letter revived in my memory what I had</line>
+    <line>before forgotten, the <del rend="strikethrough">tr</del> threat of the fiend.– <hi rend="underline">I will b</hi>e</line>
+    <line><hi rend="underline">with you on your wedding night!</hi> Such was my</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="1v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0002.xml" xml:id="ox-ms_abinger_c58-0002">
+    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0002.jp2"></graphic>
+    <zone type="pagination"><line>100</line></zone>
+    <zone type="main">
+        <line>sentence, and on that night would the dæmon employ</line>
+        <line>every art to destroy me and tear me from the</line>
+        <line><mod>
+                <del rend="strikethrough">p</del>
+                <add><metamark function="insert">^</metamark></add>
+                <add place="superlinear">glimse of</add>
+            </mod> happiness which promised <del rend="strikethrough">to</del> partly to <del rend="strikethrough">so</del> console</line>
+        <line>my sufferings. On that night he had determined</line>
+        <line>to consummate his crimes by my death. Well be it so;</line>
+        <line>a deadly strugle would then assuredly take place</line>
+        <line>where if he <del instant="true" rend="strikethrough">wer</del>
+                <mod><del rend="strikethrough">should be</del>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
+                <add place="superlinear">was</add>
+            </mod> victorious I should be at</line>
+        <line>peace and his power over me be at an end. If </line>
+        <line>he were vanquished I should <add hand="#comp" place="sublinear"><metamark function="insert">^</metamark></add><add hand="#comp" place="superlinear">be</add> a free man. Alas!</line>
+        <line>what freedom; such as the peasant enjoys when</line>
+        <line>his family have been massacred before his</line>
+        <line>eyes, his cottage burnt, his lands <add hand="#comp" place="superlinear">laid</add>
+            waste, and he is</line>
+        <line>turned adrift homeless pennyless and alone, but </line>
+        <line>free. Such would be my liberty except that in</line>
+        <line>my <del rend="strikethrough">libert</del> Elizabeth I possessed a treasure,
+            alas!</line>
+        <line>balanced by the horrors of remorse and guilt</line>
+        <line>which would pursue me untill death.</line>
+        <milestone unit="tei:p"></milestone>
+        <line rend="indent2">Sweet and beloved Elizabeth! I read and re-</line>
+        <line>read her letter and some softened feelings stole</line>
+    </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="2r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0003.xml" xml:id="ox-ms_abinger_c58-0003">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0003.jp2"></graphic>
+  <zone type="pagination"><line>105</line></zone>
+  <zone type="library"><line>2</line></zone>
+  <zone type="main">
+    <line><add hand="#comp"><milestone spanTo="#c58-0003.01" unit="tei:note"></milestone>T.K<anchor xml:id="c58-0003.01"></anchor></add></line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">Soon after my arrival my father spoke</line>
+    <line>of my immediate marriage with my cousin. I</line>
+    <line>remained silent.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">"Have you then some other attachment?"</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">"None on earth; I love Elizabeth and look</line>
+    <line>foward to our union with delight. Let the</line>
+    <line>day therefore be fixed and on it I will consecrate</line>
+    <line>my<mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <del rend="strikethrough"><add place="intralinear">s</add></del>
+      </mod><mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">self in</add>
+      </mod> life or death to the happiness of my cousin.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">My dear Victor do not speak thus. Heavy</line>
+    <line>misfortunes have befallen us, but let us only cling</line>
+    <line>closer to what remains and transfer our love for</line>
+    <line>those whom we have lost <del rend="strikethrough">wh</del> to those who yet</line>
+    <line>live. Our circle will be small but bound close</line>
+    <line>by the ties of affection and mutual misfortune-</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="2v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0004.xml" xml:id="ox-ms_abinger_c58-0004">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0004.jp2"></graphic>
+  <zone type="pagination"><line>106</line></zone>
+  <zone type="main">
+    <line>and when time shall have softened your despair</line>
+    <line>new and dear cares will be <del rend="strikethrough">to</del> born to replace those
+      of</line>
+    <line>whom we have been so cruelly deprived."</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">Such were the lessons of my father; but to</line>
+    <line>me the remembrance of the threat returned nor</line>
+    <line>can you wonder that omnipotent as the fiend</line>
+    <line>had yet been in his deeds of blood I should almost </line>
+    <line>regard him as invincible, and that when <add hand="#comp" place="superlinear">he</add>
+      had</line>
+    <line>pronounced the words, <hi rend="underline">I <del instant="true" rend="strikethrough">will</del> shall be with you</hi></line>
+    <line><hi rend="underline">on your wedding night</hi>, I should regard the </line>
+    <line>threatened fate as unavoidable. But death was </line>
+    <line>no evil to me if the loss of Elizabeth were balanced</line>
+    <line>with it and I therefore with a conten<mod>
+        <del rend="overwritten">d</del>
+        <add place="intralinear">t</add>
+      </mod>ed and even</line>
+    <line>cheerful countenance agreed with my father</line>
+    <line>that if my cousin would consent the ceremony</line>
+    <line>should take place in ten days; and thus put as I</line>
+    <line>imagined the seal to my fate.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">Great God! If for one instant I had though<add place="intralinear">t</add></line>
+    <line>what might be the hellish intention of my fiendish</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="3r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0005.xml" xml:id="ox-ms_abinger_c58-0005">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0005.jp2"></graphic>
+  <zone type="pagination"><line>107</line></zone>
+  <zone type="library"><line>3</line></zone>
+  <zone type="main">
+    <line>adversary I would rather have banished myself for</line>
+    <line>ever from my native country and wandered <mod>
+      <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">a</add>
+      </mod> friend-</line>
+    <line>less outcast over the earth than have consented</line>
+    <line>to this miserable marriage. But as if possessed</line>
+    <line>of magic powers the monster had blinded me to his real</line>
+    <line>intentions and when I thought that I prepared only</line>
+    <line>my own death I hastened that of a far dearer victim.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">As the <del rend="strikethrough">th</del> period fixed for our
+      marriage drew</line>
+    <line>nearer <del instant="true" rend="strikethrough">wh</del>
+      <del instant="true" rend="strikethrough">wh</del> whether from cowardice or a prophetic</line>
+    <line>feeling, I felt my heart sink within me. But I concealed</line>
+    <line>my feelings by <del rend="strikethrough">b</del> an appearance of hilarity that</line>
+    <line>brought smiles and joy to the countenance of my fa-</line>
+    <line>ther but hardly deceived the ever watchful and</line>
+    <line> nicer eye of Elizabeth. She looked forward to our u-</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="3v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0006.xml" xml:id="ox-ms_abinger_c58-0006">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0006.jp2"></graphic>
+  <zone type="pagination"><line>108</line></zone>
+  <zone type="main">
+    <line>nion with placid contentment not unmingled</line>
+    <line>with a little fear, which past misfortune had</line>
+    <line>impressed, that what now appeared certain and</line>
+    <line>tangible happiness might soon dissipate into an</line>
+    <line>airy dream and leave no trace but deep and</line>
+    <line>everlasting regret.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">Preparations were made for the event; congratu-</line>
+    <line>latory were received, and all wore a smiling appear</line>
+    <line>ance. I shut up as well as I could in my own heart</line>
+    <line>the anxiety that preyed there and entered with <del rend="strikethrough">sen</del></line>
+    <line>seeming earnestness into the plans of my father</line>
+    <line><del rend="strikethrough">altho</del> although they might only serve as the decora-</line>
+    <line>tions of my tragedy. A house was purchased for us</line>
+    <line>near Cologny by which we should enjoy the plea-</line>
+    <line>sures of the country and yet be so near Gene<retrace cause="unclear">v</retrace>a</line>
+    <line>as to see my father every day; who would still</line>
+    <line>reside within the walls for the benefit of Ernest that</line>
+    <line>he might follow his studies at the schools.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">In the mean time I took every precaution</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="4r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0007.xml" xml:id="ox-ms_abinger_c58-0007">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0007.jp2"></graphic>
+  <zone type="pagination"><line>109</line></zone>
+  <zone type="library"><line>4</line></zone>
+  <zone type="main">
+    <line>to defend my person in case the fiend should openly</line>
+    <line>attack me. I carried pistols and dagger constantly</line>
+    <line>about me and was ever on the watch to prevent</line>
+    <line>artifice and by these means gain<add place="intralinear">ed</add> a greter degree
+      of</line>
+    <line>tanquillity. Indeed as the <del rend="strikethrough">the</del> period approached
+      the</line>
+    <line>threat appeared more as a delusion not <del rend="strikethrough">bo</del> to be re-</line>
+    <line>garded as worthy to disturb my peace while the</line>
+    <line>happiness I hoped for in my marriage wore</line>
+    <line>a greater appearance of certainty as the day fixed</line>
+    <line>for its solemnization drew nearer and I heard it</line>
+    <line>continully spoken of as an occurrence which no ac</line>
+    <line>cident could possibly prevent.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">Elizabeth seemed happy and this change</line>
+    <line>from mirth to content which she saw come over</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="4v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0008.xml" xml:id="ox-ms_abinger_c58-0008">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0008.jp2"></graphic>
+  <zone type="pagination"><line>110</line></zone>
+  <zone type="main">
+    <line>me. But on the day that was to fulfil my <del rend="strikethrough">wi</del> wishes</line>
+    <line>and my destiny she was melancholy and a presentiment</line>
+    <line>of evil pervaded her; and perhaps also she thought</line>
+    <line>of the dreadful secret which I had promised to</line>
+    <line>reveal to her the following day. My father was in the</line>
+    <line>mean time overjoyed, and, <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">in</add>
+      </mod> the bustle of <del instant="true" rend="strikethrough">pe</del> preparation,</line>
+    <line>only observed in the melancholy of his niece the</line>
+    <line><del rend="strikethrough">a</del> diffidence of a bride.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">After the ceremony was performed a large</line>
+    <line>party assembled at my father's; but it was agreed</line>
+    <line>that Elizabeth and I should pass the afternoon</line>
+    <line>and night at Evian and return to Cologny the</line>
+    <line>next morning. <add hand="#comp" place="superlinear">As</add> The day was fair and the <del rend="strikethrough">the</del></line>
+    <line>wind <del rend="strikethrough">was</del> favourable we resolved to go by water.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">Those were the last moments of my life du</line>
+    <line>ring which I enjoyed the felling of happiness. We</line>
+    <line>passed rapidly along; the sun was hot but we were</line>
+    <line>sheltered <del rend="strikethrough">by</del> from its rays by a kind of canopy
+      while</line>
+    <line>we enjoyed the beauty of the scene; sometimes on</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="5r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0009.xml" xml:id="ox-ms_abinger_c58-0009">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0009.jp2"></graphic>
+  <zone type="pagination"><line>111</line></zone>
+  <zone type="library"><line>5</line></zone>
+  <zone type="main">
+    <line>one side of the lake where we saw Mont Salêve,</line>
+    <line>the pleasant banks of Montalêgre and at a dis</line>
+    <line>tance surmounting all the beeautiful Mont</line>
+    <line>Blânc and the assemblage of snowy mountains</line>
+    <line>that <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">in vain</add>
+      </mod> endeavour <del rend="strikethrough">in va</del> to emulate her; som<add place="intralinear">e</add>times</line>
+    <line>coasting the opposite banks we saw the mighty Jura</line>
+    <line>opposing its dark side to the ambition that would</line>
+    <line>quit its native country and an almost insurmount</line>
+    <line>able barrier to the invader who should wish to</line>
+    <line>enslave it.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">I took the hand of Elizabeth<mod>
+        <del rend="strikethrough">s</del>
+        <add place="intralinear">:</add>
+      </mod> "You are sorrow</line>
+    <line>ful, my love<mod>
+        <del rend="strikethrough">;</del>
+        <add place="intralinear">.</add>
+      </mod> ah! if you knew what I have suffered</line>
+    <line>and what I may yet endure you would endeavour</line>
+    <line>to let me taste the quiet, and freedom from despair</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="5v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0010.xml" xml:id="ox-ms_abinger_c58-0010">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0010.jp2"></graphic>
+  <zone type="pagination"><line>112</line></zone>
+  <zone type="main">
+    <line>that this one day at least permits me to enjoy.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">Be happy, my dear Victor, replied Elizabeth, there</line>
+    <line>is I hope nothing to distress you; and be assured that</line>
+    <line>if a lively joy is not painted in my face my heart is</line>
+    <line>contented. Something whispers to me not to depend</line>
+    <line>too much on the prospect that is opened before us</line>
+    <line>but I will not <del rend="strikethrough">lis</del> listen to such a sinister voice.</line>
+    <line>Observe how fast we move along, and how the clouds</line>
+    <line>which sometimes obscure, and sometimes rise above</line>
+    <line>the dome of Mônt Blânc, under this scene of</line>
+    <line>beauty still more interesting. Look also at the</line>
+    <line>innumerable fish that are <del rend="strikethrough">smi</del> swimming</line>
+    <line>in the clear waters where we can distinguish</line>
+    <line>every pebble that lies at the bottom. What a divine</line>
+    <line>day<mod>
+        <del rend="overwritten">;</del>
+        <add place="intralinear">!</add>
+      </mod> how happy and serene all nature appears!</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">Thus Elizabeth endeavoured to divert her</line>
+    <line>thoughts and mine from all reflection upon</line>
+    <line>melancholy subjects. But her temper was fluc</line>
+    <line>tuating; joy for a few instants shone in her</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="6r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0011.xml" xml:id="ox-ms_abinger_c58-0011">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0011.jp2"></graphic>
+  <zone type="pagination"><line>113</line></zone>
+  <zone type="library"><line>6</line></zone>
+  <zone type="main">
+    <line><del rend="strikethrough">ey</del> eyes but it continually gave place to
+      distraction</line>
+    <line>and reverie.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">The sun sunk lower in the heavens; we</line>
+    <line>passed the river Drance and observed its path</line>
+    <line>through the chasms of the higher and the glens</line>
+    <line>of the lower hills. The <del instant="true" rend="strikethrough">Ap</del> Alps here come closer</line>
+    <line>to the lake and we approached the amphi-</line>
+    <line><del instant="true" rend="strikethrough">thre</del> theatre of mountains which forms the</line>
+    <line>eastern boundary of the lake. The spire of Evian</line>
+    <line>shone <del rend="strikethrough">un<mod>
+          <del rend="overwritten">t</del>
+          <add place="intralinear">d</add>
+        </mod>e</del> under the woods that surrounded</line>
+    <line>it and the range of mountain above mountain</line>
+    <line>by which it was overhung.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">The wind which had hitherto carried us a-</line>
+    <line>long with amazing rapidity sunk at sunset to a</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="6v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0012.xml" xml:id="ox-ms_abinger_c58-0012">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0012.jp2"></graphic>
+  <zone type="pagination"><line>114</line></zone>
+  <zone type="main">
+    <line>light breeze; the light air just ruffled the water</line>
+    <line>and caused a pleasant motion among the trees as</line>
+    <line>we approached the shore it wafted the most de-</line>
+    <line>lightful scent of flowers and hay. The sun sunk be-</line>
+    <line>neath the horizon as we landed, and as I touched</line>
+    <line>the shore I felt those cares and fears revive which</line>
+    <line>soon were to clasp me and cling to me forever.</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="7r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0013.xml" xml:id="ox-ms_abinger_c58-0013">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0013.jp2"></graphic>
+  <zone type="pagination"><line>115</line></zone>
+  <zone type="library"><line>7</line></zone>
+  
+  <zone type="main">
+    <line rend="center"><milestone spanTo="#c58-0013.03" unit="tei:head"></milestone>Chapter VI<anchor xml:id="c58-0013.03"></anchor></line>
+    <milestone unit="tei:p"></milestone><line>It was eight o'clock when we landed; we walk</line>
+    <line>ed for a short time on the shore enjoying the</line>
+    <line>transitory light and then retired to the inn and con</line>
+    <line>templated the lovely scene of waters, woods and mountains</line>
+    <line>obscured in darkness yet still displaying the<mod>
+        <del rend="overwritten">y</del>
+        <add place="intralinear">ir</add>
+      </mod>
+      <del rend="strikethrough"><add place="superlinear">black</add></del></line>
+    <line><mod>
+        <del rend="strikethrough">lovely</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">black <del rend="strikethrough">black</del></add>
+      </mod> outlines. <milestone unit="tei:p"></milestone><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>The wind which had fallen in the</line>
+    <line>south now rose with great violence in the west. The</line>
+    <line>moon had reached her summit in the heavens and</line>
+    <line>was beginning to descend; the clouds swept across</line>
+    <line>it swifter than the flight of the vulture and dim</line>
+    <line>me<mod>
+        <del rend="overwritten">r</del>
+        <add place="intralinear">d</add>
+      </mod> her rays while the lake reflected the scene of the</line>
+    <line>busy heavens <del rend="strikethrough"><unclear reason="illegible">se</unclear></del>
+      rendered still busier <delSpan rend="strikethrough" spanTo="#c58-0013.02"></delSpan>made still</line>
+    <line>busier<anchor xml:id="c58-0013.02"></anchor> by the restless waves that were beginning to</line>
+    <line>rise. Suddenly a heavy storm of rain descended.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">I had been calm during the day but so soon as</line>
+    <line>night obscured the shapes of objects a thousand<del rend="strikethrough">s</del></line>
+    <line>fears arose in my mind. I was anxious at watchful</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="7v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0014.xml" xml:id="ox-ms_abinger_c58-0014">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0014.jp2"></graphic>
+  <zone type="pagination"><line>116</line></zone>
+  <zone type="main">
+    <line>while my right hand grasped a pistol which</line>
+    <line>was hidden in my bosom; every sound terrified</line>
+    <line>me but I <del rend="strikethrough">s</del> resolved that I would sell my life</line>
+    <line><del rend="strikethrough">as</del> dearly <del rend="strikethrough">as possible</del> and
+      not relax the impending</line>
+    <line>conflict untill my own life, or that of my adversa</line>
+    <line>ry were extinguished.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">Elizabeth observed my agitation for some</line>
+    <line>time in timid and fearful silence; at length she</line>
+    <line>said, What is it that agitates you<del rend="strikethrough"><unclear>r</unclear></del>, my
+      dear Victor?</line>
+    <line>What is it you fear?</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">Oh! peace, peace, my love, replied I, this night</line>
+    <line>and all will be safe; but this night is dreadful,</line>
+    <line><unclear>—</unclear>very dreadful.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">I passed an hour in this state of mind when</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><d xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="8r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0015.xml" xml:id="ox-ms_abinger_c58-0015">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0015.jp2"></graphic>
+  <zone type="pagination"><line>117</line></zone>
+  <zone type="library"><line>8</line></zone>
+  <zone type="main">
+    <line>suddenly I reflected how dreadful the combat which I</line>
+    <line>momentarily expected would be to my wife and earnest</line>
+    <line>ly entreated her to retire, resolving not to join her</line>
+    <line>untill I had obtained some knowledge as to the</line>
+    <line>situation of my enemy.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">She left me, and I continued sometime walking</line>
+    <line>up and down the passages of the house and</line>
+    <line>inspecting every corner that might afford a re</line>
+    <line>treat to my adversary. But I discovered no trace</line>
+    <line>of him and was beginning to cons<mod>
+        <del rend="overwritten">ider</del>
+        <add place="intralinear">jecture</add>
+      </mod> that some</line>
+    <line>fortunate chance had intervened to prevent</line>
+    <line>the execution of his menaces; when suddenly I heard</line>
+    <line>a shrill and dreadful scream<mod>
+        <del rend="overwritten">i</del>
+        <add place="intralinear">—</add>
+        <del rend="overwritten">I</del>
+        <add place="intralinear">i</add>
+      </mod>t came from the</line>
+    <line>room into which Elizabeth had retired<mod>
+        <add place="intralinear">.</add>
+        <del rend="strikethrough">,</del>
+        <del rend="overwritten">a</del>
+        <add place="intralinear">A</add>
+      </mod>s I heard</line>
+    <line>it, the whole truth rushed into my mind, my arms</line>
+    <line>dropped, the motion of every muscle and fibre was</line>
+    <line>suspended, I could feel the blood trickling in my veins</line>
+    <line>and tingling in the extremities of my limbs. This state</line>
+    <line>lasted but for an <mod>
+        <del rend="overwritten">o</del>
+        <add place="intralinear">i</add>
+      </mod>nstant; the scream was repeated,</line>
+  </zone>
+</d>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="8v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0016.xml" xml:id="ox-ms_abinger_c58-0016">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0016.jp2"></graphic>
+  <zone type="pagination"><line>118</line></zone>
+  <zone type="main">
+    <line>and I rushed into the room. <milestone unit="tei:p"></milestone><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>Gread God! Why did I not</line>
+    <line>then expire! Why am I here to relate the dustruction</line>
+    <line>of the best hope and the purest creature of earth.</line>
+    <line>She was there, lifeless and inanimate<del rend="strikethrough">;</del> thrown
+      across</line>
+    <line>the bed, her head hanging down and her pale and</line>
+    <line>distorted features half covered by her hair. Every</line>
+    <line>where I turn I see the same figure, her bloodless</line>
+    <line>arms and relaxed form flung by the murderer on</line>
+    <line>its bridal bier. Could I behold this, and live? Alas!</line>
+    <line>life is obstinate and clings closest where it is most</line>
+    <line>hated. For a moment only did I lo<mod>
+        <del rend="overwritten">o</del>
+        <add place="intralinear">s</add>
+      </mod>e recollection;</line>
+    <line>I fainted.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">When I recovered, I found myself surrounded by</line>
+    <line>the people of the inn; their countenances expressed</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="9r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0017.xml" xml:id="ox-ms_abinger_c58-0017">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0017.jp2"></graphic>
+  <zone type="pagination"><line>1<mod><del rend="overwritten">0</del><add place="intralinear">1</add></mod>9</line></zone>
+  <zone type="library"><line>9</line></zone>
+  <zone type="main">
+    <line>a breathless terror but the horror of others appear</line>
+    <line>ed only as a mockery, a shadow of the feelings that op-</line>
+    <line>pressed me. I escaped from them to the room where</line>
+    <line>lay the body of Elizabeth, my love, my wife; so lately</line>
+    <line>living, so dear, so worthy. She had been moved from</line>
+    <line>the posture in which I had first beheld her, <add place="intralinear">and</add></line>
+    <line>now as she lay her head upon her arm, and a</line>
+    <line>handkerchief thrown across her face and neck I</line>
+    <line>might have supposed her asleep. I rushed towards</line>
+    <line>her, and embraced her with adrour but the <del rend="strikethrough">dealthy</del></line>
+    <line>dealthy languour of the limbs told me that what</line>
+    <line>I now held in my arms had ceased to be the Eliza</line>
+    <line>beth whom I had loved and cherished; the <add hand="#comp" place="superlinear"><milestone spanTo="#c58-0017.01" unit="tei:note"></milestone>[Vol. III-G 121]<anchor xml:id="c58-0017.01"></anchor></add>
+      <add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>murder</line>
+    <line>rous mark of the fiend's grasp was on her neck,</line>
+    <line>and the breath had ceased to issue from her lips.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">While I still hung over her in the agony of</line>
+    <line>despair, I happened to look up. The <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">windows of the</add>
+      </mod> room had</line>
+    <line>before been darkened, and I felt a kind of panic on</line>
+    <line>seeing the pale yellow light of the moon illuminate</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="9v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0018.xml" xml:id="ox-ms_abinger_c58-0018">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0018.jp2"></graphic>
+  <zone type="pagination"><line>120</line></zone>
+  <!--first "120" was mispositioned and faintly inked in upper left corner-->
+  
+  <zone type="main">
+    <line>the chamber, the shutters had been thrown back; and,</line>
+    <line>with a sensation of horror not be described, <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">I</add>
+      </mod> saw <del rend="strikethrough">th</del>at</line>
+    <line>the open window a figure the most hidious and</line>
+    <line>abhorred. A grin was <del rend="strikethrough">was</del> on the face <add place="superlinear">of</add> the monster;</line>
+    <line>he seemed to jeer as with his fiendish finger he pointed</line>
+    <line>towards the <del rend="strikethrough">window</del> corpse of my wife. I rushed
+      towards</line>
+    <line>the window, and, drawing a pistol from <del rend="strikethrough">the window
+      and</del></line>
+    <line>my bosom, shot; but he eluded me, leapt from his</line>
+    <line>station, and running with the swiftness of lightning</line>
+    <line>plunged into the lake. <milestone unit="tei:p"></milestone><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark><metamark><hi rend="sup">X</hi></metamark></add>The report of the pistol brought</line>
+    <line>a crowd into the room; I pointed to where he had</line>
+    <line>disappeared and we followed the tract with boats; nets</line>
+    <line>were cast but in vain. After passing <del rend="strikethrough">in the</del> severa<add place="intralinear">l</add></line>
+    <line>hours we returned hopeless, most of my companions</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="10r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0019.xml" xml:id="ox-ms_abinger_c58-0019">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0019.jp2"></graphic>
+  <zone type="pagination"><line>121</line></zone>
+  <zone type="library"><line>10</line></zone>
+  <zone type="main">
+    <line>believing it <mod>
+        <add hand="#comp" place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#comp" place="superlinear">to</add>
+      </mod> have been a form conjured <del rend="strikethrough">my</del> by my</line>
+    <line>fancy. After having landed they proceeded to search the</line>
+    <line>country, parties going in different directions among</line>
+    <line>the woods and vines.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">I did not accompany them; I was exhausted,</line>
+    <line>a film covered my eyes and my skin was parched with</line>
+    <line>the heat of fever. In this state I lay on a bed</line>
+    <line>hardly conscious of what had happened; my eyes</line>
+    <line>wandered round the room as if to seek somthing</line>
+    <line>that I had lost. <milestone unit="tei:p"></milestone><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>At length I remembered that my father</line>
+    <line>would anxiously expect the return of Elizabeth and</line>
+    <line>myself, and that I must return alone. This reflec</line>
+    <line>-tion brought tears into my eyes and I wept for a long</line>
+    <line>time; but my thoughts rambled to various subjects,</line>
+    <line>reflecting on my misfortunes and their cause I was</line>
+    <line>bewildered in a cloud of wonder and horror. The</line>
+    <line>death of William, the execution of Justine, the murder</line>
+    <line>of Clerval and lastly of my wife; even at that mo-</line>
+    <line>ment I knew not that my only remaining friends were</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="10v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0020.xml" xml:id="ox-ms_abinger_c58-0020">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0020.jp2"></graphic>
+  <zone type="pagination"><line>122</line></zone>
+  <zone type="main">
+    <line>safe from the malignity of the <del rend="strikethrough">friend</del> fiend; my
+      father</line>
+    <line>even now might <mod>
+        <add hand="#comp" place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#comp" place="superlinear">be</add>
+      </mod> writhing under his grasp and Er-</line>
+    <line>nest might be dead at his feet. This <del rend="strikethrough">p</del> idea made</line>
+    <line>me shudder and recalled me to action; I started up</line>
+    <line>and resolved to return to Geneva with all possible</line>
+    <line>speed.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">There were no horses to be procured and I must</line>
+    <line>return by the lake; but the wind was unfavourable</line>
+    <line><del rend="strikethrough">amd</del> and the rain fell in torrents. However it was</line>
+    <line>hardly morning and I might reasonably hope to arrive</line>
+    <line>by night. I hired men to row and took an oar myself</line>
+    <line>for I had always experienced relief from mental tor</line>
+    <line>ment in bodily exercise. But the overflowing misery</line>
+    <line>I now felt and the excess of agitation that I endured</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5396" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="11r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0021.xml" xml:id="ox-ms_abinger_c58-0021">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0021.jp2"></graphic>
+  <zone type="pagination"><line>123</line></zone>
+  <zone type="library"><line>11</line></zone>
+  <zone type="main">
+    <line>rendered me incapable of any exertion. I threw</line>
+    <line>down the oar and leaning my head upon my hands</line>
+    <line>gave way to every gloomy idea that arose. If I</line>
+    <line>looked up I saw the scenes which were familiar</line>
+    <line>to me in my happier time and which I had</line>
+    <line>contemplated but the day before in the company</line>
+    <line>of her who was now but a shadow and a recollection.</line>
+    <line>Tears streamed from my eyes, the rain had ceased</line>
+    <line>for a moment and I saw the fish play in the </line>
+    <line>waters as they had done a few hours before; they</line>
+    <line>had then been observed by Elizabeth. Nothing is</line>
+    <line>so painful to the human mind as a great and</line>
+    <line>sudden change. The sun might shine, or the clouds</line>
+    <line>might lour, but nothing could appear to me as it</line>
+    <line>had done the day before. A fiend had snatched</line>
+    <line>from me every hope of future happiness; no crea-</line>
+    <line>ture had ever been so miserable as I was. So fright</line>
+    <line>ful an event was single in the history of man.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">But why should I <del rend="strikethrough">dewe</del> dwell upon
+      the inci</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="11v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0022.xml" xml:id="ox-ms_abinger_c58-0022">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0022.jp2"></graphic>
+  <zone type="pagination"><line>12<mod><del rend="overwritten">2</del><add place="intralinear">4</add></mod></line></zone>
+  <zone type="main">
+    <line>dents that followed this last overwhelming event.</line>
+    <line>Mine has been a tale of horrors, I have <del rend="strikethrough">now</del> reached</line>
+    <line>their acme <del rend="strikethrough">me</del> and what I must now relate can</line>
+    <line>but be <del rend="strikethrough">de</del> tedious to you<mod>
+        <add hand="#comp" place="intralinear">.</add>
+        <del rend="strikethrough">no</del>
+        <add hand="#comp" place="superlinear">Know</add>
+      </mod> that, one by one, my friends</line>
+    <line>were snatched away; I was left desolate. <del rend="strikethrough"><unclear>ow</unclear></del> My own</line>
+    <line>strength is exhausted; and I must tell in few words</line>
+    <line>what remains of my hideous narration.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">I arrived at Geneva. My father and Ernest</line>
+    <line>yet lived; but the former sunk under the tidings</line>
+    <line>that I bore. I see him now, excellent and venerable old</line>
+    <line>man; his eyes wandered in vacancy for they had lost</line>
+    <line>their charm and delight. His neice, his more than daugh</line>
+    <line>-ter whom he doated <mod>
+        <add hand="#comp" place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#comp" place="superlinear">on</add>
+      </mod> with all the affection that a</line>
+    <line>man in the dec<mod>
+        <del rend="overwritten">t</del>
+        <add place="intralinear">l</add>
+      </mod>ine of life having few affections clings</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="12r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0023.xml" xml:id="ox-ms_abinger_c58-0023">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0023.jp2"></graphic>
+  <zone type="pagination"><line>125</line></zone>
+  <zone type="library"><line>12</line></zone>
+  <zone type="main">
+    <line>more earnestly to those that remain. Cursed, Cursed</line>
+    <line>be the fiend that brought <del rend="strikethrough">wretchedn</del> misery <mod>
+        <del rend="strikethrough">of</del>
+        <add place="superlinear">on</add>
+      </mod> his</line>
+    <line>grey hairs and domed him to waste in wretchedness.</line>
+    <line>He could not live under the horrors that were</line>
+    <line>accumulated around him; an approplectic fit was</line>
+    <line>brought on and in a few days he died in my arms.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">What then became of me? I know not; I</line>
+    <line>lost sensation and chains and darkness were the only</line>
+    <line>objects that pressed upon me. Sometimes indeed</line>
+    <line>I dreamt that I wandered in flowery meadows and</line>
+    <line>pleasant vales with the friends of my youth; but I</line>
+    <line>awoke and found myself in a dungeon. Melancholy</line>
+    <line>followed but by degrees. I gained a clear conception</line>
+    <line>of my miseries and situation and was then released</line>
+    <line>from my prison. For they had called me mad</line>
+    <line>and during many months, as I understood, a solita</line>
+    <line>-ry cell had been my habitation. <milestone unit="tei:p"></milestone><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>But liberty had</line>
+    <line>been a useless gift to me had I not <delSpan spanTo="#c58-0023.01"></delSpan>at the same</line>
+    <line>time that<anchor xml:id="c58-0023.01"></anchor> as I awakened to reason at the same</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="12v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0024.xml" xml:id="ox-ms_abinger_c58-0024">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0024.jp2"></graphic>
+  <zone type="pagination"><line>126</line></zone>
+  <zone type="main">
+    <line>time awakened to revenge. As the memory of past</line>
+    <line>misfortunes prest upon me<add hand="#comp" place="intralinear">,</add> I began to <del rend="strikethrough">f</del> reflect</line>
+    <line>on their cause; <mod>
+        <del rend="overwritten">T</del>
+        <add place="intralinear">t</add>
+      </mod>he monster whom I had created, the</line>
+    <line>miserable dæmon whom I had sent <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">abroard</add>
+      </mod> in<del rend="strikethrough">to</del> the world</line>
+    <line>for my destruction. I was possessed by a madening</line>
+    <line>rage when I thought of him and desired and ardently</line>
+    <line><del instant="true" rend="strikethrough">prazed</del> prayed that I might have him
+      within</line>
+    <line>my grasp to wreak a great and signal revenge on</line>
+    <line>his cursed head.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">Nor did my hate long confine itself to use</line>
+    <line>less wishes; I began to reflect on the best means of se</line>
+    <line>-curing him, and for this purpose about a month after</line>
+    <line>my release I repaired to a criminal judge in the town</line>
+    <line>and told him that I had an accusation to make; that</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="13r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0025.xml" xml:id="ox-ms_abinger_c58-0025">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0025.jp2"></graphic>
+  <zone type="pagination"><line>127</line></zone>
+  <zone type="library"><line>13</line></zone>
+  <zone type="main">
+    <line>I knew the destroyer of my family and that I required</line>
+    <line>him to exert his whole authority for the apprehension</line>
+    <line>of the murderer.</line>
+    <line><add hand="#comp"><milestone spanTo="#c58-0025.01" unit="tei:note"></milestone><unclear>KT</unclear></add><anchor xml:id="c58-0025.01"></anchor>
+      <milestone unit="tei:p"></milestone> The magistrate listened to me with attention</line>
+    <line>and kindness. Be assured, sir, said he, no pains or</line>
+    <line>exertions on my part shall be spared to discover</line>
+    <line>the villain.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">I thank you, replied I, listen therefore to the</line>
+    <line>deposition that I have to make. It is indeed a tale</line>
+    <line>so strange that I should fear you would not</line>
+    <line>credit it were there not som<add place="intralinear">e</add>thing in truth which
+      how</line>
+    <line>ever wonderful forces conviction. The story is too con</line>
+    <line>nected to be mistaken for a dream and I have no</line>
+    <line>motive for falsehood. My manner as I thus addressed</line>
+    <line>him was impressive but calm; I had formed in my</line>
+    <line>own heart a resolution to pursue my destroyer to death</line>
+    <line>and th<mod>
+        <del rend="overwritten">e</del>
+        <add place="intralinear">is</add>
+      </mod> purpose quieted my agony and provisonably</line>
+    <line>reconciled me to life. I now related my history briefly but</line>
+    <line>with firmness and precision, marking the dates</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="13v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0026.xml" xml:id="ox-ms_abinger_c58-0026">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0026.jp2"></graphic>
+  <zone type="pagination"><line>128</line></zone>
+  <zone type="main">
+    <line>with accu<mod>
+        <del rend="overwritten">s</del>
+        <add place="intralinear">r</add>
+      </mod>acy, and never deviating into invective or</line>
+    <line>exclamation. <milestone unit="tei:p"></milestone><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>The magistrate appeared at first per-</line>
+    <line>fectly incredulous but as I continued he became more</line>
+    <line>attentive and interrested; I saw him sometimes shud</line>
+    <line>der with horror, at others a lively surprise unmin</line>
+    <line>gled with disbelief was painted on his countenance.</line>
+    <milestone unit="tei:p"></milestone>
+    <line><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>When I had concluded my narration I said:<add hand="#comp" place="intralinear"><metamark>――</metamark></add></line>
+    <line><add hand="#comp" place="intralinear"><metamark>―</metamark></add>This is the being
+      whom I accuse and for whose</line>
+    <line>detection and punishment I call upon you to exert</line>
+    <line>your whole power. It is your duty as a magistrate</line>
+    <line>and I believe and hope that your feelings as a</line>
+    <line>man will not <del rend="strikethrough">revold</del> revolt from the execution of</line>
+    <line>those functions on this occasion."</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">This address caused a considerable change in the</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="14r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0027.xml" xml:id="ox-ms_abinger_c58-0027">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0027.jp2"></graphic>
+  <zone type="pagination"><line>129</line></zone>
+  <zone type="library"><line>14</line></zone>
+  <zone type="main">
+    <line>phisiognomy of my auditor. He had heard my story with</line>
+    <line>that half kind of belief that is given to a tale of spi-</line>
+    <line>rits and supernatural events; but when he was</line>
+    <line>called upon to act officially in consequence the whole</line>
+    <line>tide of his incredulity returned. He however answered</line>
+    <line>mildly, "I would willingly afford you every aid <del rend="strikethrough">in
+      your</del></line>
+    <line>in your persuit; but the creature of whom you</line>
+    <line>speak appears to have powers which would put all</line>
+    <line>my exertions to defiance<unclear reason="illegible">:</unclear> Who can follow an<del rend="strikethrough">d</del> animal</line>
+    <line>which can traverse the sea of ice, and inhabit caves</line>
+    <line>and dens where no man would venture to intrude?</line>
+    <line>Besides some months have elapsed since the commis</line>
+    <line>-sion of his crimes and <del rend="strikethrough">k</del> no one can conjecture to</line>
+    <line>what place he has wandered or what region he may</line>
+    <line>now inhabit."</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">"I do not doubt that he hovers near the spot</line>
+    <line>which I inhabit, and if he has indeed taken refuge</line>
+    <line>in the Alps he may be hunted like the chamois and des-</line>
+    <line>troyed as a beast of prey. But I perceive your thoughts</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="14v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0028.xml" xml:id="ox-ms_abinger_c58-0028">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0028.jp2"></graphic>
+  <zone type="pagination"><line>130</line></zone>
+  <zone type="main">
+    <line>you do not credit my narrative, and do not intend to</line>
+    <line>pursue my enemy with the punishment which</line>
+    <line>is his desert.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">As I spoke rage sparkled in my eyes; the ma-</line>
+    <line>gistrate was intimidated; <mod>
+        <del rend="overwritten">Y</del>
+        <add place="intralinear">y</add>
+      </mod>ou are mistaken, said</line>
+    <line>he, I will exert myself and if it is in my power to</line>
+    <line>seize the monster be assured that he shall suffer</line>
+    <line>punishment proportionate to his crimes. But I</line>
+    <line>fear from what you have yourself described</line>
+    <line>to be his properties that this will prove impracti</line>
+    <line>cable and that, while every proper measure is</line>
+    <line>pursued, you should endeavour to make up your mind</line>
+    <line>to a disappointment.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">That cannot be; but all that I can say will be</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="15r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0029.xml" xml:id="ox-ms_abinger_c58-0029">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0029.jp2"></graphic>
+  <zone type="pagination"><line>131</line></zone>
+  <zone type="library"><line>15</line></zone>
+  <zone type="main">
+    <line>of little avail; my revenge is of no moment to you, yet</line>
+    <line>while I allow it to be a vice I confess that it is the devour</line>
+    <line>-ing and only passion of my soul. My rage is unspeaka</line>
+    <line>ble when I reflect that the murderer whom I have</line>
+    <line>turned loose upon society still exists. You refuse</line>
+    <line>my just demand; I have but one resource and I de-</line>
+    <line>vote myself either in <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">my</add>
+      </mod>life or death to his destruc-</line>
+    <line>tion.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">I trembled with excess of agitation as I said this; there</line>
+    <line>was a frenzy in my manner, and something I doubt not</line>
+    <line>of that haughty fierceness which the martys of old are </line>
+    <line>said to have possessed. But to a Genevan magistrate</line>
+    <line>whose mind was occupied by far other ideas than those</line>
+    <line>of devotion and heroism, this elevation of mind had much the</line>
+    <line>appearance of madness. He endeavoured to soothe me as a</line>
+    <line>nurse does a child and reverted to my tale as the effects of deli</line>
+    <line>rium<add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>. <milestone unit="tei:p"></milestone>"Man, I cried, how ignorant ar<mod>
+        <del rend="overwritten">e</del>
+        <add place="intralinear">t</add>
+      </mod> thou in thy pride of</line>
+    <line>wisdom. Cease, you know not what it is you say.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">I broke from the house <mod>
+        <del rend="strikethrough">ang</del>
+        <add place="sublinear"><metamark function="insert">^ ^</metamark></add>
+        <add place="superlinear">angry and</add>
+      </mod> disturbed and retired to</line>
+    <line>meditate on some other mode of action.</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="15v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0030.xml" xml:id="ox-ms_abinger_c58-0030">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0030.jp2"></graphic>
+  <zone type="pagination"><line>132</line></zone>
+  
+  <zone type="main">
+    <line rend="center"><milestone spanTo="#c58-0030.01" unit="tei:head"></milestone>Chapter <mod><del rend="strikethrough">7</del><add place="intralinear">VII</add></mod><anchor xml:id="c58-0030.01"></anchor></line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">My present situation was one in which all vo-</line>
+    <line>luntary thought was swallowed up and lost. I was hur-</line>
+    <line>ried away by fury; revenge alone endowed me with</line>
+    <line>strength and composure, it modelled my feelings and</line>
+    <line>allowed me to be <del rend="strikethrough">call</del> calculating and calm at
+      periods</line>
+    <line>when otherwise delirium or death would have</line>
+    <line>been my portion. <milestone unit="tei:p"></milestone><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>My first resolution was to quit</line>
+    <line>Geneva for ever; my country, which when I was</line>
+    <line>happy and beloved was dear to me, now in my</line>
+    <line>adversity became <del rend="strikethrough">hurf</del>
+      <del rend="strikethrough">hurtful</del> hateful. I provided</line>
+    <line>myself with a sum of money together with a few</line>
+    <line>jewels which had belonged to my mother and departed.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1"><add hand="#comp" place="intralinear"><metamark function="paragraph">[</metamark></add>And now my wanderings began which are to
+      cease</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="16r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0031.xml" xml:id="ox-ms_abinger_c58-0031">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0031.jp2"></graphic>
+  <zone type="pagination"><line>133</line></zone>
+  <zone type="library"><line>16</line></zone>
+  <zone type="main">
+    <line>but with life. I have traversed a vast portion of the</line>
+    <line>earth and have endured all the har<add hand="#comp" place="superlinear">d</add>ships
+      which</line>
+    <line>travellers in desarts and barbarous countries are wont</line>
+    <line>to meet. How I have lived I hardly know; Many times have</line>
+    <line>I stretched my <del rend="strikethrough">wear</del> failing limbs <del rend="strikethrough">and</del> on the sandy plain</line>
+    <line>and prayed for death. But revenge kept me alive; I</line>
+    <line>dared not die and leave my adversary in being.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">When I quitted Geneva <del rend="strikethrough">I</del> my first
+      labour was</line>
+    <line>to gain some clue <del rend="strikethrough">but</del> by which I might trace the</line>
+    <line>steps of my fiendish enemy. But my plan was unset-</line>
+    <line>tled and I wandered many hours around the confines</line>
+    <line>of the <del rend="strikethrough">tw</del> town uncertain what path I should pursue.</line>
+    <line>As night approached I found myself <mod>
+        <del rend="strikethrough">and</del>
+        <add hand="#comp" place="superlinear">at</add>
+      </mod> the entrance</line>
+    <line>of the cemetary<add hand="#comp" place="superlinear">cemetery</add> where William,
+      Elizabeth and my father</line>
+    <line>reposed. I entered it and approached the tomb which</line>
+    <line>marked their graves. Every thing was silent except the</line>
+    <line>leaves of the trees which were gently agitated by the</line>
+    <line>breeze; the night was nearly dark and the scene</line>
+    <line>would have been solemn and <del rend="strikethrough">in terresting</del> affecting</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="16v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0032.xml" xml:id="ox-ms_abinger_c58-0032">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0032.jp2"></graphic>
+  <zone type="pagination"><line>134</line></zone>
+  <zone type="main">
+    <line>even to an uninterested observer; the spirits of the</line>
+    <line>departed seemed to flit around and to cast a shadow</line>
+    <line>which was felt but seen not around the head of</line>
+    <line>the mourner.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">The deep grief which this scene had at first</line>
+    <line>excited quickly gave way to rage and despair<unclear reason="illegible">.</unclear> They</line>
+    <line>were dead and I lived; their murderer also lived and to</line>
+    <line>destroy him I must drag out my weary existence. I</line>
+    <line>knelt on the earth and with quivering lips exclaimed;</line>
+    <line>"By the sacred earth on which I kneel, by the</line>
+    <line>shades that wander near me, by the deep and eternal</line>
+    <line>grief that I feel, I swear; And by thee, <del rend="strikethrough">oh</del>O Night,
+      and</line>
+    <line>by the spirits that preside over thee, I swear to</line>
+    <line>pursue the dæmon who caused this misery untill</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="17r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0033.xml" xml:id="ox-ms_abinger_c58-0033">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0033.jp2"></graphic>
+  <zone type="pagination"><line>135</line></zone>
+  <zone type="library"><line>17</line></zone>
+  <zone type="main">
+    <line>he or I shall perish in mortal conflict. For this</line>
+    <line>purpose I will preserve my life: to ex<del rend="strikethrough">c</del>e<mod>
+        <del rend="overwritten"><unclear reason="illegible">t</unclear></del>
+        <add place="intralinear">c</add>
+      </mod>ute this</line>
+    <line>dear revenge will I again behold the sun and</line>
+    <line>tread the green herbage of earth which otherwise</line>
+    <line>should vanish from my eyes for ever. And I call</line>
+    <line>on you, spirits of the dead; and on you, wandering</line>
+    <line>ministers of vengeance, to aid and conduct me in</line>
+    <line>my work. Let the cursed and hellish monster drink</line>
+    <line>deep of agony; let him feel the despair that now</line>
+    <line>torments me!</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">I had begun my adjuration with solemnity,</line>
+    <line>and an awe that almost assured me that the shades</line>
+    <line>of my murdered friends heard and approved my devotion.</line>
+    <line>But <mod>
+        <del rend="strikethrough">rage</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">the furies</add>
+      </mod> possessed me as I concluded, and rage choaked</line>
+    <line>my utterance.<add hand="#comp" place="intralinear"><metamark function="paragraph">
+          [</metamark></add>I was answered through the stillness</line>
+    <line>of night by a <del rend="strikethrough">lon</del> loud and fiendish laugh. It rung</line>
+    <line>on my ears long and heavily; the mountains re-echoed</line>
+    <line>it and I felt as if all hell surrounded me with mock</line>
+    <line>ery and laughter. Surely in that moment I should</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5316" lry="6772" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="17v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0034.xml" xml:id="ox-ms_abinger_c58-0034">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0034.jp2"></graphic>
+  <zone type="pagination"><line>136</line></zone>
+  <zone type="main">
+    <line>have been possessed by frenzy and have destroyed my</line>
+    <line>miserable existence, but that my vow was heard</line>
+    <line>and I was reserved for vengeance. The laughter died</line>
+    <line>away when a well known and abhorred voice ap-</line>
+    <line>parently close to my ear, addressed me in an audible</line>
+    <line>whisper; "I am satisfied; <del rend="strikethrough">yo</del> miserable wretch, you</line>
+    <line>have determined to live and I am satisfied."</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">I darted towards the spot from which the</line>
+    <line>sound proceeded but the devil eluded my grasp; sud-</line>
+    <line>denly the broard disk of the moon arose and shone</line>
+    <line>full<del rend="strikethrough">y</del> upon his ghastly and distorted shape as he
+      fled</line>
+    <line>with more than mortal speed.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">I pursued him; and for many months this</line>
+    <line>has been my task. Guided by a slight clue I follow</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="18r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0035.xml" xml:id="ox-ms_abinger_c58-0035">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0035.jp2"></graphic>
+  <zone type="pagination"><line>137</line></zone>
+  <zone type="library"><line>18</line></zone>
+  <zone type="main">
+    <line>ed the windings of the Rhone but vainly; the blue</line>
+    <line>Mediterranean appeared and by a strange chance</line>
+    <line>I saw the fiend enter by night and hide himself</line>
+    <line><add place="superlinear">in a vessel </add>bound for the black sea and took my passage
+      in</line>
+    <line>the same ship but he escaped I know not how;</line>
+    <milestone unit="tei:p"></milestone><line><add hand="#comp" place="intralinear"><metamark>[</metamark></add>Amidst the wilds of Tartary and Russia although</line>
+    <line>he still evaded me I <del rend="strikethrough">e</del> have ever followed in his</line>
+    <line>tract. Sometimes the peasants <add place="intralinear">s</add>cared by <add place="intralinear">t</add>his horrid</line>
+    <line>appar<add place="intralinear">i</add>tion informed me of his path; sometimes</line>
+    <line>he himself, who feared that if I lost all trace I should</line>
+    <line>despair and die, often left some mark to guide</line>
+    <line>me. The snows descended on my head and I saw the prin<add place="intralinear">t</add></line>
+    <line>of his huge step on the white plain. To you <delSpan rend="strikethrough" spanTo="#c58-0034.01"></delSpan>who</line>
+    <line>are<anchor xml:id="c58-0034.01"></anchor> first enterring on life <mod>
+        <del rend="strikethrough">an</del>
+        <add place="superlinear">to whom</add>
+      </mod> care is new <del rend="strikethrough">new</del>
+      <del rend="strikethrough">to you</del></line>
+    <line>and agony unknown; how can you <del rend="strikethrough">de</del> understand what</line>
+    <line>I have felt and still feel. Cold, want and fatigue were</line>
+    <line>the least pains which I was destined to endure; I was</line>
+    <line>cursed by some devil <mod>
+        <add hand="#comp" place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#comp" place="superlinear">carried</add>
+      </mod> about with me my eternal</line>
+    <line>hell; yet still a spirit of good followed and directed</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="18v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0036.xml" xml:id="ox-ms_abinger_c58-0036">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0036.jp2"></graphic>
+  <zone type="pagination"><line>138</line></zone>
+  <zone type="main">
+    <line>my steps and when I most murmured would sud-</line>
+    <line>denly extricate me from my seemingly insurmounta</line>
+    <line>ble difficulties; sometimes when nature over<mod>
+        <del rend="overwritten">s</del>
+        <add place="intralinear">c</add>
+      </mod>ome by</line>
+    <line>hunger sunk under the exhaustion a repast was</line>
+    <line>prepared for me in the desart that restored and</line>
+    <line>insprited me. The fare was indeed coarse, such as</line>
+    <line>the peasants of the country ate, but I may not doubt</line>
+    <line>that it was <del rend="strikethrough">e</del> set there by the <del rend="strikethrough">sprits</del>
+      <del rend="strikethrough">th</del> spirits that</line>
+    <line>I invoked to aid me. Often when all was dry, the hea-</line>
+    <line>vens cloudless and I was parched by thirst, a slight</line>
+    <line>cloud would bedim the sky, shed the few drops that</line>
+    <line>revived me and vanish.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">I followed when I could the courses of the</line>
+    <line>rivers but the dæmon generally avoided these as it</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="19r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0037.xml" xml:id="ox-ms_abinger_c58-0037">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0037.jp2"></graphic>
+  <zone type="pagination"><line>139</line></zone>
+  <zone type="library"><line>19</line></zone>
+  <zone type="main">
+    <handShift medium="pen" new="#mws"></handShift>
+    <line>was here that the population of the country chiefly</line>
+    <line>collected. In other places human beings were seldom seen</line>
+    <line>and I generally subsisted on the wild animals that</line>
+    <line>crossed my path. I had money with me and gained the</line>
+    <line>friendship of the villagers by distributing it or bringing</line>
+    <line>with me some food that I had killed which after</line>
+    <line>taking a small part I always presented to those</line>
+    <line>who had provided me with fire and utensils for</line>
+    <line>cooking. <del rend="strikethrough">My</del>
+      <del rend="strikethrough">My life as it passed thus</del></line>
+    <milestone unit="tei:p"></milestone><line><milestone spanTo="#c58-0037.01" unit="tei:note"></milestone><add hand="#comp" place="intralinear">F.W/</add><anchor xml:id="c58-0037.01"></anchor>My life as it
+      passed thus was indeed hateful to</line>
+    <line>me and it was during sleep alone that I could</line>
+    <line>taste joy. Oh<mod>
+        <del rend="overwritten">,</del>
+        <add place="intralinear">!</add>
+      </mod> blessed sleep! often when most mise</line>
+    <line>rable I sank to repose and my dreams lulled me even</line>
+    <line>to rapture. The spirit that guarded me had provided</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="19v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0038.xml" xml:id="ox-ms_abinger_c58-0038">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0038.jp2"></graphic>
+  <zone type="pagination"><line>140</line></zone>
+  <zone type="main">
+    <line>these moments or rather hours of happiness that I might</line>
+    <line>retain strength to fulfil my pilgrimage. Deprived of</line>
+    <line>this respite I should <mod>
+        <add hand="#comp" place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#comp" place="superlinear">have</add>
+      </mod>sunk under my hardships. Du</line>
+    <line>ring the day I was sustained and inspirited by the hope</line>
+    <line>of night; for in sleep I <mod>
+        <del rend="strikethrough">saw</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">saw</add>
+      </mod> my friends, my wife and</line>
+    <line>my beloved country; again I saw the benevolent coun-</line>
+    <line>tenance of my father, heard the silver tones of my</line>
+    <line>Elizabeth's voice and beheld Clerval enjoying health</line>
+    <line>and youth. Often when wearied by a toilsome march</line>
+    <line>I persuaded myself that I was dreaming untill night</line>
+    <line>should come and that I should then enjoy <del rend="strikethrough"><unclear extent="1" unit="chars"></unclear></del> reality in</line>
+    <line>the arms of my dearest friends. What agonizing fondness</line>
+    <line>did I feel for them, how did I cling to their dear forms</line>
+    <line>as sometimes they haunted even my waking hours,</line>
+    <line>and persuade myself that they still lived. At such</line>
+    <line>moments vengeance that burned within me died</line>
+    <line>in my heart and I pursued my path towards the</line>
+    <line>destruction of the dæmon more as a task <del rend="strikethrough">enjo</del></line>
+    <line>enjoined by heaven, as the mechanical impulse</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="20r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0039.xml" xml:id="ox-ms_abinger_c58-0039">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0039.jp2"></graphic>
+  <zone type="pagination"><line>143</line></zone>
+  <zone type="library"><line>20</line></zone>
+  <zone type="main">
+    <line>words. Prepare! Your toils only begin; wrap yourself up</line>
+    <line>in furs and provide food for we shall soon enter</line>
+    <line>on a journey where your sufferings will satisfy</line>
+    <line>my everlasting hatred.</line>
+    <line><milestone spanTo="#c58-0039.01" unit="tei:note"></milestone><add hand="#comp" place="intralinear">F.W/</add><anchor xml:id="c58-0039.01"></anchor><milestone unit="tei:p"></milestone>My courage and
+      perseverance were invigorated</line>
+    <line>by these scoffing words; I resolved not to fail in my</line>
+    <line>purpose; and calling on heaven to support me I</line>
+    <line>continued with unabated fervour, to traverse im-</line>
+    <line>mense desarts untill the ocean appeared at a</line>
+    <line>distance and formed the utmost boundary of</line>
+    <line>the horizon. Oh! how unlike it was to the blue seas</line>
+    <line>of the south<mod>
+        <add place="intralinear">!</add>
+        <del rend="overwritten">;</del>
+      </mod> Covered with ice it was only to be</line>
+    <line>distinguished from land by its superior wildness and</line>
+    <line>ruggedness. The greeks wept <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">for joy</add>
+      </mod>when they beheld the</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="20v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0040.xml" xml:id="ox-ms_abinger_c58-0040">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0040.jp2"></graphic>
+  <zone type="pagination"><line>144</line></zone>
+  <zone type="main">
+    <line>mediterranean from the hills of Asia; and hailed</line>
+    <line>with rapture the boundary of their toils. I did not weep,</line>
+    <line>but I knelt down and <del rend="strikethrough">thanked my guiding spirit</del> with</line>
+    <line>a full heart thanked my guiding spirit for co<del rend="strikethrough">u</del>nduct-</line>
+    <line>ing me in <del rend="strikethrough">safete</del> safety to the place where I hoped
+      not-</line>
+    <line>withstanding my adversary's gibe, to meet and grap</line>
+    <line>ple with him.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">Some weeks before this period I had procured a</line>
+    <line>sledge and <del rend="strikethrough">go</del> dogs and thus traversed the snows
+      with</line>
+    <line>inconceivable speed. I know not whether the fiend</line>
+    <line>possessed the same advantages but I found that as</line>
+    <line>before I had daily lost ground in the pursuit I now</line>
+    <line>gained on him; so much so that when I first saw</line>
+    <line>the ocean he was but one days <del rend="strikethrough">joury</del> journey in</line>
+    <line>advance and I hoped to intercept him before</line>
+    <line>he should reach the beach. With new courage there</line>
+    <line>fore I pressed on and in two days arrived at a</line>
+    <line>wretched hamlet on the sea shore. I enquired</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="21r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0041.xml" xml:id="ox-ms_abinger_c58-0041">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0041.jp2"></graphic>
+  <zone type="pagination"><line>153</line></zone>
+  <zone type="library"><line>21</line></zone>
+  
+  <zone type="main">
+    <line><milestone spanTo="#c58-0041.01" unit="tei:head"></milestone>Walton, in continuation<anchor xml:id="c58-0041.01"></anchor></line>
+    <line rend="right">August 2<mod>
+        <del rend="overwritten">5</del>
+        <add place="intralinear">6</add>
+      </mod>– 17—</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">You have read this strange and terrific story, Mar</line>
+    <line>geret, and do you not feel your blood congealed with</line>
+    <line>horror like that which even now curdles mine. Some</line>
+    <line>times seized with sudden agony he could not continue</line>
+    <line>his tale, at others his <mod>
+        <del rend="overwritten"><unclear reason="illegible">b</unclear></del>
+        <add place="intralinear">v</add>
+      </mod>oice broken yet piercing uttered</line>
+    <line>with difficulty the words so replete with agony. His fine</line>
+    <line>and lovely eyes were now lighted up with indignation,</line>
+    <line>now subdued to downcast sorrow and infinite wretch</line>
+    <line>edness. Sometimes he commanded his countenance and</line>
+    <line>tones and related the most horrible incidents with a</line>
+    <line>tranquil voice suppressing every mark of agitation,</line>
+    <line>then like a volcano bursting forth his face would</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="21v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0042.xml" xml:id="ox-ms_abinger_c58-0042">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0042.jp2"></graphic>
+  <zone type="pagination"><line>154</line></zone>
+  <zone type="main">
+    <line>suddenly change to an expression of the wildest</line>
+    <line>rage as he shrieked out <del rend="strikethrough">his</del> imprecations on his per</line>
+    <line>-secutor.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">His tale is connected and told with an appearance</line>
+    <line>of <del rend="strikethrough">truth</del> the simplest truth, yet I own to you that</line>
+    <line>the letters of Felix and Safie which he shewed me,</line>
+    <line>and the appar<mod>
+        <del rend="overwritten"><del rend="smear">t</del></del>
+        <add place="intralinear">i</add>
+      </mod>tion of the monster seen from our ship</line>
+    <line>brought to me a greater conviction of the truth of</line>
+    <line>his narrative than his asservations however earnest</line>
+    <line>and connected. Such a monster has then really existence;</line>
+    <line>I cannot doubt it, yet I am lost in surprise and</line>
+    <line>admiration. Sometimes I endeavoured to gain from Fran-</line>
+    <line>kenstein the particulars of his creature's formation, but </line>
+    <line>on this point he was impenetrable. Are you mad, my</line>
+    <line>friend<mod>
+        <del rend="overwritten">,</del>
+        <add place="intralinear">?</add>
+      </mod> said he,<del rend="smear">?</del>
+      <mod>
+        <del rend="overwritten">O</del>
+        <add place="intralinear">o</add>
+      </mod>r whither does your senseless curiosity</line>
+    <line>lead you? Would you also create for yourself and the</line>
+    <line>world a dæmoni<mod>
+        <del rend="overwritten">le</del>
+        <add place="intralinear">a</add>
+      </mod>c<del rend="strikethrough">l</del> enemy? <mod>
+        <del rend="overwritten">o</del>
+        <add place="intralinear">O</add>
+      </mod>r to what do your questions</line>
+    <line>lend? Peace, peace! learn my miseries and do not seek</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="22r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0043.xml" xml:id="ox-ms_abinger_c58-0043">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0043.jp2"></graphic>
+  <zone type="pagination"><line>155</line></zone>
+  <zone type="library"><line>22</line></zone>
+  <zone type="main">
+    <line>to encrease your own.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">Frankenstein discovered <mod>
+        <del rend="strikethrough">or</del>
+        <add hand="#comp" place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#comp" place="superlinear">that I</add>
+      </mod> made notes concern</line>
+    <line>-ing his history; he asked to see them and then</line>
+    <line>himself <del rend="strikethrough">as</del> corrected and augmented them in many</line>
+    <line>places, but principally in giving the life and spirit</line>
+    <line>to the conversations he held with his enemy. Si<retrace cause="unclear">n</retrace>ce</line>
+    <line>you <del rend="strikethrough">y</del> have preserved my narration, said he, I</line>
+    <line>would not that a mutilated one should go down</line>
+    <line>to posterity.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">Thus <del rend="strikethrough">as</del> has a week passed away while I
+      have</line>
+    <line>listened to the strangest tale that ever imagination</line>
+    <line>formed. My thoughts and every feeling of my soul have</line>
+    <line>been drunk up by the interrest for my guest which</line>
+    <line>this tale and his own elevated and gentle manners</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="22v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0044.xml" xml:id="ox-ms_abinger_c58-0044">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0044.jp2"></graphic>
+  <zone type="pagination"><line>156</line></zone>
+  <zone type="main">
+    <line>have created. I wish to soothe him yet can<del rend="strikethrough">not</del>
+      <del rend="strikethrough">o</del> I</line>
+    <line>counsel one so infinitely miserable, so destitute</line>
+    <line>of every hope of consolation to live? Oh, no! The only</line>
+    <line>joy that <add hand="#comp" place="superlinear">he</add> can now know will be when he
+      composes</line>
+    <line>his <del rend="strikethrough">h</del> shattered feelings to peace and death; Yet he</line>
+    <line>enjoys one comfort the offspring of solitude and de-</line>
+    <line>lirium; he believes that when in dreams he holds</line>
+    <line>converse with his friends and derives from that</line>
+    <line>communion consolation for his miseries or ex-</line>
+    <line>citements to his vengeance that they are not the</line>
+    <line>creations of his fancy but the real beings who visit</line>
+    <line>him from the regions of a remote world. This</line>
+    <line>faith gives a solemnity to his reveries that render</line>
+    <line>them to me almost as imposing and inter<del rend="strikethrough">r</del>esting</line>
+    <line>as truth.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">Our conversations are not always confined</line>
+    <line>to his own history and misfortunes. On every</line>
+    <line>point of general literature he displays unbound-</line>
+    <line>ed knowledge and a quick and piercing appre-</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="23r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0045.xml" xml:id="ox-ms_abinger_c58-0045">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0045.jp2"></graphic>
+  <zone type="pagination"><line>167</line></zone>
+  <zone type="library"><line>23</line></zone>
+  <zone type="main">
+    <line>You were hereafter to be hailed as the benefactors</line>
+    <line>of your species; your names adored as belonging</line>
+    <line>to brave men who encountered death for honor,</line>
+    <line>and the benefit of mankind. And now behold!</line>
+    <line>with the first imagination of danger, or, if you</line>
+    <line>will, the first mighty and terrific trial of your</line>
+    <line>courage <del rend="strikethrough">you</del> you shrink away and are content</line>
+    <line>to be handed down as men who had not strength</line>
+    <line>enough to endure cold and peril, and so, poor</line>
+    <line>souls, they were chilly and returned to their warm</line>
+    <line>firesides. <del rend="strikethrough">Y</del> Why that requires not this
+      preparation;</line>
+    <line>Ye need not have come thus far and dragged your</line>
+    <line>captain to the shame of a defeat <del rend="strikethrough">t</del> merely to</line>
+    <line>prove yourselves cowards. Oh! be men, or be more</line>
+    <line>than men. Be steady to your purposes, and firm</line>
+    <line>as rock; this ice is not made of such stuff as your</line>
+    <line>hearts might be; it is mutable, cannot with</line>
+    <line>stand you if you say that it shall not. Do</line>
+    <line>not return to your families with the stigma</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="23v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0046.xml" xml:id="ox-ms_abinger_c58-0046">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0046.jp2"></graphic>
+  <zone type="pagination"><line>168</line></zone>
+  <zone type="main">
+    <line>of disgrace marked on your brows. Return as heroes</line>
+    <line>who have fought and conquered and who know</line>
+    <line>not what it is to turn their backs on the foe.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">He spoke thus with a voice so modulated</line>
+    <line>to the different feelings expressed in his speech,</line>
+    <line>with an eye so full of lofty design and heroism,</line>
+    <line>that can you wonder that these men were</line>
+    <line>moved. They looked at one another and were</line>
+    <line>unable to reply. I spoke; I told them to retire</line>
+    <line>and consider of what had been said. <mod>
+        <del rend="overwritten">t</del>
+        <add place="intralinear">T</add>
+      </mod>hat I would</line>
+    <line>not lead them further north if they strenuously</line>
+    <line>desired the contrary; but that I hoped that</line>
+    <line>with reflection their courage would return.</line>
+    <line>They retired and I turned towards my friend but</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="24r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0047.xml" xml:id="ox-ms_abinger_c58-0047">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0047.jp2"></graphic>
+  <zone type="pagination"><line>175</line></zone>
+  <zone type="library"><line>24</line></zone>
+  <zone type="main">
+    <line>sideration of these points and the well balanc-</line>
+    <line>ing of what you may esteem your duties I leave</line>
+    <line>to you. My judgement and ideas are already</line>
+    <line>disturbed by the near approach of death. I dare</line>
+    <line>not ask you to do what I think right for I</line>
+    <line>may still be misled by passion.</line>
+    <handShift medium="pen" new="#pbs"></handShift>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">That he should live, to be an
+      instrument of</line>
+    <line>mischief disturbs me; in other respects this hour</line>
+    <line>when I momentarily expect my release is the only</line>
+    <line>happy one which I have enjoyed for several</line>
+    <line>years. The forms of the beloved dead flit</line>
+    <line>before me and I hasten to their arms.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">Farewell, Walton. Seek happiness in tranquillity</line>
+    <line>and avoid ambition even if it be only the</line>
+    <line>apparently innocent one of distinguishing yourself</line>
+    <line>in science &amp; discoveries. Yet why do I say this?</line>
+    <line>I have myself been blasted in these hopes,</line>
+    <line>yet another may succeed.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">His voice became fainter as he spoke; &amp;</line>
+    <line>at length exhausted by his effort he sunk</line>
+    <line>into silence. About half an hour afterwards</line>
+    <line>he attempted again to speak, but was unable</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="24v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0048.xml" xml:id="ox-ms_abinger_c58-0048">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0048.jp2"></graphic>
+  <zone type="pagination"><line>176</line></zone>
+  <zone type="main">
+    <handShift medium="pen" new="#pbs"></handShift>
+    <line>— he pressed my hand feebly and his eyes</line>
+    <line>closed forever while the irradiation of a gentle</line>
+    <line>smile past away from his lips.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">Margaret, what comment can I make on the</line>
+    <line>untimely extinction of this glorious sprit? What</line>
+    <line>can I say that will make you understand</line>
+    <line>the depth of my sorrow? All that I should ex</line>
+    <line>-press would be inadequate &amp; feeble. My tears</line>
+    <line>flow- My life is overshadowed with a cloud</line>
+    <line>of dissappointment. But I journey towards</line>
+    <line>England, &amp; I may there find consolation.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">I am interrupted what do these sounds</line>
+    <line>portend? It is midnight. The breeze blows</line>
+    <line>fairly; &amp; the watch on deck scarcely stir—</line>
+    <line>Again there is a sound as of a human voice</line>
+    <line>but hoarser- it comes from the cabin where the</line>
+    <line>remains of Frankenstein still lie. I must</line>
+    <line>arise<del rend="strikethrough"><unclear>s</unclear></del> &amp; examine— Good night
+      my sister- –</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">Great God! What a scene has just taken</line>
+    <line>place- I am yet dizzy with the remem-</line>
+    <line>-brance of it. I hardly know whether I</line>
+    <line>shall have the power to detail it; yet the</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="25r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0049.xml" xml:id="ox-ms_abinger_c58-0049">
+    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0049.jp2"></graphic>
+    <zone type="pagination"><line>177</line></zone>
+    <zone type="library"><line>25</line></zone>
+    <zone type="main">
+        <handShift medium="pen" new="#pbs"></handShift>
+        <line>tale which I have recorded would be incomplete</line>
+        <line>without this final &amp; wonderful catastrophe.</line>
+        <milestone unit="tei:p"></milestone>
+        <line rend="indent1">I entered the cabin where lay the remains <del rend="strikethrough">of
+                my</del></line>
+        <line>of my ill-fated, &amp; admirable friend. Over him</line>
+        <line>hung a form which I cannot find words to</line>
+        <line>describe gigantic in stature, yet uncouth &amp; distor</line>
+        <line>ted in its proportions. As he hung over the</line>
+        <line>coffin his face was hid by long locks of ragged</line>
+        <line>hair– <del rend="strikethrough">but</del> but one vast hand was
+            extended,</line>
+        <line>in colour &amp; apparent texture like that of a</line>
+        <line>mummy. When he heard the sound of my</line>
+        <line>approach; he ceased to utter exclamations of</line>
+        <line>grief &amp; horror, &amp; sprung towards the window.</line>
+        <line>Never did I behold a vision so horrible as his</line>
+        <line>face, of <del rend="strikethrough">h</del> such loathsome yet apalling hideous</line>
+        <line>-ness. I shut my eyes involuntarily, as</line>
+        <line>recollecting what were my duties with respect</line>
+        <line>to this destroyer, I called on him to stay.</line>
+        <line>He paused – Looking on me with wonder, &amp;</line>
+        <line>again turning towards the lifeless form of his</line>
+        <line>creator he seemed to forget <del rend="strikethrough">to</del> my presence;</line>
+        <line><del rend="strikethrough">whi</del> and every feature &amp; gesture seemed
+            instigated</line>
+    </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="25v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0050.xml" xml:id="ox-ms_abinger_c58-0050">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0050.jp2"></graphic>
+  <zone type="pagination"><line>178</line></zone>
+  <zone type="main">
+    <handShift medium="pen" new="#pbs"></handShift>
+    <line>by the wildest rage of some uncontrolable passion</line>
+    <line>— That is also my victim<mod>
+        <del rend="overwritten">,</del>
+        <add place="intralinear">!</add>
+      </mod> he exclaimed In</line>
+    <line>his murder<del rend="strikethrough">e</del> my crimes are consummated — the</line>
+    <line>miserable series of my being is wound to its close!</line>
+    <line>O Frankenstein – generous &amp; self devoted being</line>
+    <line>what does it avail that I ask thee now to</line>
+    <line>pardon me. Wherefore do I seek to perish</line>
+    <line>in thy stead after I have irretrievably des-</line>
+    <line>-troyed thee, by destroying those thou lovedst</line>
+    <line>Alas he is cold.. he <mod>
+        <del rend="overwritten"><del rend="smear">cannot</del></del>
+        <add place="intralinear">may not</add>
+      </mod> answer me.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">His voice seemed suffocated, &amp; my first im</line>
+    <line>-pulses which had suggested to me the duty</line>
+    <line>of obeying the dying request of my friend,</line>
+    <line>in destroying his enemy, now were suspended</line>
+    <line>by a mixture of curiosity &amp; <del rend="strikethrough">pity</del> compassion.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">I approached this tremendous being– I dared</line>
+    <line>no<mod>
+        <del rend="overwritten"><unclear reason="illegible">w</unclear></del>
+        <add place="intralinear">t</add>
+      </mod> again <del rend="strikethrough">to</del> raise my looks upon his face—</line>
+    <line>there was something so scaring &amp; unearth-</line>
+    <line>-ly in his ugliness. I attempted to speak,</line>
+    <line>but his presence was as a burthen which</line>
+    <line>held me dumb, &amp; the words died on my</line>
+    <line>lips—. The monster continued to utter</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="26r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0051.xml" xml:id="ox-ms_abinger_c58-0051">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0051.jp2"></graphic>
+  <zone type="pagination"><line>179</line></zone>
+  <zone type="library"><line>26</line></zone>
+  <zone type="main">
+    <handShift medium="pen" new="#pbs"></handShift>
+    <line>wild &amp; incoherent reproaches.. At length I gathered</line>
+    <line>resolution to speak, in a pause as it were in</line>
+    <line>the tempest of his passion — Your repentance is</line>
+    <line>now superflous: I said, If you had listened to</line>
+    <line>the voice of conscience, &amp; heeded the stings of</line>
+    <line>remorse before you had urged your diabolical</line>
+    <line>vengeance to this extremity; Frankenstein would</line>
+    <line>yet have lived.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">And do you dream — said the Dæmon,
+      do</line>
+    <line>you think that I was then dead to agony &amp;</line>
+    <line>remorse. – He– he <del rend="strikethrough">ex</del> p continued, pointing
+      to</line>
+    <line>the corpse, he suffered not more in consum</line>
+    <line>-mation of the deed; oh not the ten thousandth</line>
+    <line>portion of the anguish that was mine during</line>
+    <line>the lingering detail of its execution. A frigh-</line>
+    <line>-tful selfishness hurried me on, while my heart</line>
+    <line>was poisoned with remorse. Think ye that</line>
+    <line>the groans of Clerval were music to my ear.</line>
+    <line>My heart was fashioned to be susceptible of</line>
+    <line>love &amp; sympathy, &amp; when wrenched by misery</line>
+    <line>to vice &amp; hatred it did not endure the</line>
+    <line>violence of the change without torture</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="26v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0052.xml" xml:id="ox-ms_abinger_c58-0052">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0052.jp2"></graphic>
+  <zone type="pagination"><line>180</line></zone>
+  <zone type="main">
+    <handShift medium="pen" new="#pbs"></handShift>
+    <line>such as you cannot even <mod>
+        <del rend="overwritten"><del rend="smear"><unclear reason="illegible">ing</unclear></del></del>
+        <add place="intralinear">im</add>
+      </mod>agine— After the</line>
+    <line>murder of Clerval I returned to Switzerland</line>
+    <line>heart- broken &amp; overcome - I pitied Frankenstein</line>
+    <line>My pity ammounted to horror – I abhorred myself.</line>
+    <line>But when I discovered that he– the author <del rend="strikethrough">of</del></line>
+    <line>at once of my existence and of all its unspea</line>
+    <line>kable torments dared to hope for happiness —</line>
+    <line>that whilst he accumulated upon me wretchedness</line>
+    <line>&amp; despair, he sought his own enjoyment in</line>
+    <line>feelings &amp; passions from the indulgence of</line>
+    <line>which I was barred— then impotent envy &amp;</line>
+    <line>bitter indignation filled me with an insatiable</line>
+    <line>thirst for vengeance. I recollected my threat</line>
+    <line>&amp; resolved that it should be accomplished. I</line>
+    <line>knew that I was preparing for myselft a deadly</line>
+    <line>torture.. but I was the slave not the master</line>
+    <line>of an impulse which I detested but could not</line>
+    <line>disobey. – Yet when she died! Nay then I</line>
+    <line>was not miserable. I had cast off all feeling,</line>
+    <line>subdued all anguish to riot in the excess of</line>
+    <line>my despair. Evil thenceforth became my good.</line>
+    <line><mod>
+        <del rend="overwritten"><unclear extent="5" unit="chars"></unclear></del>
+        <add place="intralinear">Urged</add>
+      </mod> thus far I had no choice but to adapt</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="27r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0053.xml" xml:id="ox-ms_abinger_c58-0053">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0053.jp2"></graphic>
+  <zone type="pagination"><line>181</line></zone>
+  <zone type="library"><line>27</line></zone>
+  <zone type="main">
+    <handShift medium="pen" new="#pbs"></handShift>
+    <line><damage></damage>nature to an element which <add place="superlinear">I</add> had chosen
+      willingly.</line>
+    <line>The completion of my demoniacal design thencefor-</line>
+    <line>ward became an insatiable pasion— And now</line>
+    <line><damage></damage>t is ended— there is my last victim!"</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">I was <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">at first</add>
+      </mod> touched by the expression of his misery,</line>
+    <line>yet when I called to mind what Frankenstein</line>
+    <line>had said of his powers of eloquence &amp; persua</line>
+    <line>-sion, &amp; when I again cast my eyes on the</line>
+    <line>lifeless form of my friend, indignation was</line>
+    <line>re- kindled within me. — Wretch, I said,</line>
+    <line>it is well that you come here to whine over</line>
+    <line>the desolation which you have made – you</line>
+    <line>throw a torch into a pile of buildings, &amp;</line>
+    <line>when they are consumed you sit among the</line>
+    <line>ruins &amp; lament the fall. Hypocritical</line>
+    <line>fiend! If he whom you lament still lived,</line>
+    <line>still would he be the object, again would he</line>
+    <line>become the prey of your accursed vengeamce.</line>
+    <line>It is not pity that you feel– you lament</line>
+    <line>only because the victim of your malignity</line>
+    <line>is withdrawn from your power.——</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">Oh! it is not thus— not thus –
+      interrupted</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="27v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0054.xml" xml:id="ox-ms_abinger_c58-0054">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0054.jp2"></graphic>
+  <zone type="pagination"><line>182</line></zone>
+  <zone type="main">
+    <handShift medium="pen" new="#pbs"></handShift>
+    <line>the Being=yet such must be the impression</line>
+    <line>conveyed to you by what appears to be the</line>
+    <line>purport of my actions. – Yet, I seek not a</line>
+    <line>fellow-feeling in my misery. No sympathy</line>
+    <line>may I ever find. When I first sought it, it</line>
+    <line>was the love of virtue. I desired that the feelings</line>
+    <line>of happiness &amp; affection with the hope of which</line>
+    <line>my whole "being" once overflowed, should be par</line>
+    <line>-ticipated – But now, that virtue has become</line>
+    <line>to me a shadow, &amp; happiness &amp; affection are</line>
+    <line>turned into bitter &amp; loath<mod>
+        <del rend="overwritten"><unclear reason="illegible">some</unclear></del>
+        <add place="intralinear">ing</add>
+      </mod> despair, in what</line>
+    <line>should I seek for sympathy? I am contented</line>
+    <line>to suffer alone whilst my sufferings shall</line>
+    <line>endure. When I die, I am well satisfied</line>
+    <line>that abhorrence &amp; opprobrium should load</line>
+    <line>my memory. Once my fancy was soothed with</line>
+    <line>dreams of virtue of fame &amp; of enjoyment.</line>
+    <line>Once I falsely hoped to meet with beings</line>
+    <line>who pardoning my outward form would love me</line>
+    <line>for the <mod>
+        <del rend="strikethrough">eminent</del>
+        <add place="superlinear">excellent</add>
+      </mod> qualities which I was so</line>
+    <line>eminently capable of bringing forth. I was</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="28r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0055.xml" xml:id="ox-ms_abinger_c58-0055">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0055.jp2"></graphic>
+  <zone type="pagination"><line>183</line></zone>
+  <zone type="library"><line>28</line></zone>
+  <zone type="main">
+    <handShift medium="pen" new="#pbs"></handShift>
+    <line><damage></damage> nourished with high thoughts of honour &amp;</line>
+    <line><damage></damage>lf devotion. But now vice has degraded me</line>
+    <line><damage></damage>neath the meanest animal. No crimes no</line>
+    <line>mischief, no malignity no misery can be </line>
+    <line>found parallell with mine. When I call over</line>
+    <line>the frightful catalogue of my deeds I cannot</line>
+    <line>believe that I am he, whose thoughts were once</line>
+    <line>filled with sublime &amp; transcendent visions of</line>
+    <line>the beauty &amp; the majesty of goodness – But</line>
+    <line>it is even so – The fallen Angel becomes a</line>
+    <line>malignant devil – Yet even that enemy of</line>
+    <line>God &amp; man had friends &amp; associates in his</line>
+    <line>desolation. I am quite alone.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">You, who call Frankenstein your friend,
+      seem</line>
+    <line>to have a knowledge of my crimes &amp; his</line>
+    <line>misfortunes. But in the detail which he</line>
+    <line>gave you of them he could not sum up the</line>
+    <line>hours &amp; months of misery which I endured</line>
+    <line>wasting in impotent passions. For whilst I</line>
+    <line>destroyed his hopes, I did not satisfy my</line>
+    <line>own desires. They were forever ardent &amp; craving.</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="28v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0056.xml" xml:id="ox-ms_abinger_c58-0056">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0056.jp2"></graphic>
+  <zone type="pagination"><line>184</line></zone>
+  <zone type="main">
+    <handShift medium="pen" new="#pbs"></handShift>
+    <line>Still I desired love &amp; fellowship, &amp; I was stil<damage></damage></line>
+    <line>spurned — Was there no injustice in this?</line>
+    <line>Am I to be thought the only criminal whi<damage></damage></line>
+    <line>all human kind sinned against me? — Why d<damage></damage></line>
+    <line>you not hate <mod>
+        <del rend="overwritten"><del rend="smear"><unclear reason="illegible">Felix</unclear></del></del>
+        <add place="intralinear">Felix</add>
+      </mod> who drove his friend f<damage></damage></line>
+    <line>his door with contumely? Why do you not</line>
+    <line>execrate the rustic who sought to destroy th<damage></damage></line>
+    <line>saviour of his child? Nay, these are virtuo<damage></damage></line>
+    <line>&amp; immaculate beings. I the miserable &amp; the</line>
+    <line>abandoned am an abortion to be spurned at,</line>
+    <line>&amp; kicked &amp; trampled upon— Even now my bloo<damage></damage></line>
+    <line>boils at the recollection <mod>
+        <del rend="overwritten"><unclear reason="illegible">t</unclear></del>
+        <add place="intralinear">o</add>
+      </mod>f this injustice.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">But it is true that I am a wretch. I</line>
+    <line>have murdered the lovely &amp; the helpless. I have</line>
+    <line><mod>
+        <del rend="overwritten"><del rend="smear"><unclear reason="illegible">strangled</unclear></del></del>
+        <add place="intralinear">strangled</add>
+      </mod> the innocent as they slept, &amp; grasped</line>
+    <line>to death <del rend="strikethrough">the</del> his throat who never injured me</line>
+    <line><mod>
+        <del rend="overwritten"><unclear reason="illegible">an</unclear></del>
+        <add place="intralinear">or</add>
+      </mod> any other living thing. I have devoted</line>
+    <line>my creator, <del rend="strikethrough">a spec</del> the select specimen of all</line>
+    <line>that <add place="superlinear">is</add> worthy of love &amp; admiration among men,</line>
+    <line>to misery: I have pursued him even to that</line>
+    <line>irremdiable ruin. There he lies, white &amp; cold</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="29r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0057.xml" xml:id="ox-ms_abinger_c58-0057">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0057.jp2"></graphic>
+  <zone type="pagination"><line>185</line></zone>
+  <zone type="library"><line>29</line></zone>
+  <zone type="main">
+    <handShift medium="pen" new="#pbs"></handShift>
+    <line><damage></damage> death. You hate me but your abhorrence cannot</line>
+    <line><damage></damage>al that with which I regard myself. I look</line>
+    <line><damage></damage> the hands which executed that deed, I think</line>
+    <line><damage></damage> the heart in which the imagination of it was</line>
+    <line><damage></damage>ncieved, &amp; long for the moment when they will</line>
+    <line><damage></damage>eet my eyes, when it will haunt my thoughts</line>
+    <line><damage></damage>o more.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">Fear not that I shall be the
+      instrument of</line>
+    <line><damage></damage>uture mischief. My work is nearly complete. Neither</line>
+    <line><damage></damage>ours nor any mans death is needed to consum-</line>
+    <line><damage></damage>mate the series of my being, &amp; accomplish that</line>
+    <line>which must be done; but it requires my own.</line>
+    <line>Do not fear that I shall be slow to perform</line>
+    <line>this sacrifize. I shall quit your vessel on the</line>
+    <line>ice-raft which brought me hither; &amp; shall</line>
+    <line>seek with rapid steps, the most northern ex-</line>
+    <line>-tremity of the globe. I shall collect my funeral</line>
+    <line>pile, &amp; consume to ashes this miserable frame,</line>
+    <line>that its remains may afford no light to any</line>
+    <line>curious &amp; unhallowed <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#mws" place="superlinear">wretch</add>
+      </mod> who would create such</line>
+    <line>another as I have been. I shall die. I shall</line>
+    <line>no longer feel the agonies which now consume</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="29v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0058.xml" xml:id="ox-ms_abinger_c58-0058">
+      <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0058.jp2"></graphic>
+
+      <zone type="pagination"><line>186</line></zone>
+      <zone type="main">
+            <handShift medium="pen" new="#pbs"></handShift>
+            <line>me, or be the prey of feelings unsatisfied yet</line>
+            <line>unquenched. He is <mod>
+                        <del rend="overwritten">h</del>
+                        <add place="intralinear">d</add>
+                  </mod>ead who called me into</line>
+            <line>being <mod>
+                        <del rend="overwritten">w</del>
+                        <add place="intralinear">a</add>
+                  </mod>nd when I shall be no more, the <mod>
+                        <add place="sublinear"><metamark function="insert">^</metamark></add>
+                        <add place="superlinear">very</add>
+                  </mod> rem<damage></damage></line>
+            <line>-brance of us both will speedily perish. I s<damage></damage></line>
+            <line>no longer see the sun or stars, or feel the wind<damage></damage></line>
+            <line>play on my cheeks. Light, feeling &amp; sense wi<damage></damage></line>
+            <line>pass away. And in this condition must I find <damage></damage></line>
+            <line>happiness.– Some years ago when the images whi<damage></damage></line>
+            <line>this world affords first opened upon me, when I</line>
+            <line>felt the cheering warmth of summer, &amp; he<damage></damage></line>
+            <line>the rustling of leaves &amp; the <del rend="strikethrough">music</del> chirping
+                  of</line>
+            <line>birds, &amp; these were all to me, I should have wep<damage></damage></line>
+            <line>to die, &amp; now it is my only consolation. Pollut<damage></damage></line>
+            <line>by crimes &amp; torn by the bitterest remorse where ca<damage></damage></line>
+            <line>I find rest but in death.</line>
+            <milestone unit="tei:p"></milestone>
+            <line rend="indent1">Farewell. I leave you, &amp; in you the last of</line>
+            <line>hum<retrace cause="unclear">an</retrace> kind whom these eyes will ever
+                  behold.</line>
+            <line>Farewell, Frankenstein. If thou wert yet alive</line>
+            <line>&amp; yet cherished a desire of revenge against me,</line>
+            <line>it would be better satiated in my life than my</line>
+            <line>destruction. But it was not so. You sought</line>
+      </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="30r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0059.xml" xml:id="ox-ms_abinger_c58-0059">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0059.jp2"></graphic>
+  <zone type="pagination">
+    <line>187</line>
+  </zone>
+  <zone type="library">
+    <line>30</line>
+  </zone>
+  <zone type="main">
+    <handShift medium="pen" new="#pbs"></handShift>
+    <line>my extinction <del rend="strikethrough">because</del> that I might not cause</line>
+    <line>greater wretchedness; &amp; if yet <del rend="strikethrough">by</del> in some mode</line>
+    <line>unknown to me, <mod>
+        <del rend="strikethrough">you</del>
+        <add place="superlinear">thou</add>
+      </mod> haste not ceased to think</line>
+    <line>&amp; feel, <mod>
+        <del rend="strikethrough">you</del>
+        <add place="superlinear">thou</add>
+      </mod> desirest not my life for my own</line>
+    <line>misery. Blasted as thou wert, my agony</line>
+    <line>was still superior to thine: for the bitter sting</line>
+    <line>of remorse may not cease to Rankle in my wounds,</line>
+    <line>until death shall close them forever.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">But soon, he cried with sad &amp; solemn enthusi</line>
+    <line>asm, I shall die, &amp; what I now feel be no</line>
+    <line>longer felt. . . Soon these burning miseries will</line>
+    <line>be extinct. I shall <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear"><mod>
+            <del rend="strikethrough">moun</del>
+            <add place="superlinear">ascend</add>
+          </mod></add>
+      </mod> my funeral pile triumphantly;</line>
+    <line>&amp; exult in the agony of the torturing flames.</line>
+    <line>The light of that conflagration will fade away.</line>
+    <line><del rend="strikethrough"><unclear reason="illegible">I know not</unclear></del> My ashes
+      will be swept into the sea</line>
+    <line>by the winds. My spirit will sleep in peace;</line>
+    <line>or if it thinks will surely not think thus.</line>
+    <line>Adieu.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent1">He sprung from the cabin-window, as he said this,</line>
+    <line>upon an ice raft which lay close to the vessel;</line>
+    <line>he was soon borne away by the waves, &amp; lost</line>
+    <line rend="indent1">in the darkness of distance.</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="30v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0060.xml" xml:id="ox-ms_abinger_c58-0060">
+    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0060.jp2"></graphic>
+    <zone type="main">
+        <!--Blank Page -->
+    </zone>
+
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="31r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0061.xml" xml:id="ox-ms_abinger_c58-0061">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0061.jp2"></graphic>
+  <zone type="pagination">
+    <line>185</line>
+  </zone>
+  
+  
+  <zone type="library">
+    <line>(W<unclear reason="illegible">m</unclear>.)</line>
+    <line>31</line>
+  </zone>
+  <zone type="main">
+    <line><del rend="strikethrough"><add hand="#library">A11</add></del></line>
+    <handShift medium="pen" new="#mws"></handShift>
+    <line>whilst I destroyed his hopes, I did not satisfy my own</line>
+    <line>desires. They were forever ardent and craving; <del rend="strikethrough">still</del></line>
+    <line>Still I desired love and fellowship, and I was still</line>
+    <line>spurned. W<mod>
+        <del rend="overwritten">h</del>
+        <add place="intralinear">a</add>
+      </mod>s there no injustice in this? Am I to</line>
+    <line>be thought the only criminal when all human</line>
+    <line>kind sinned against me? Why do you not hate Fe</line>
+    <line>-lix who drove his friend from his door with contumely?</line>
+    <line>Why do you not execrate the rustic who sought</line>
+    <line>to destroy the saviour of his child? Nay, these are</line>
+    <line>virtuous and immalculate beings! I, the miserable</line>
+    <line>and the abandoned am an abortion to be spurned</line>
+    <line>at and kicked and trampled on. Even now my</line>
+    <line>blood boils at the recollection of this injustice.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">But i<mod>
+        <del rend="overwritten">s</del>
+        <add place="intralinear">t</add>
+      </mod> is true that I am a <del instant="true" rend="strikethrough">wrecth</del>
+      wretch.</line>
+    <line>I have murdered the lovely and the helpless. I have</line>
+    <line>strangled the innocent as they slept and grasped</line>
+    <line>to death his throat who never injured me or any</line>
+  </zone>
+</surface>
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="31v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0062.xml" xml:id="ox-ms_abinger_c58-0062">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0062.jp2"></graphic>
+  <zone type="pagination">
+    <line>186</line>
+  </zone>
+  <zone type="main">
+    <handShift medium="pen" new="#mws"></handShift>
+    <line>other living thing. I have devoted my creator, the</line>
+    <line>select specimen of all that is worthy of love and</line>
+    <line>admiration among men, to misery<unclear reason="illegible">:</unclear> I have
+      pursued</line>
+    <line>him even to that irremediable ruin. There he</line>
+    <line>lies, white and cold in death. You hate me, but</line>
+    <line>your abhorrence cannot equal that with</line>
+    <line>which I regard myself. I look on the hands which</line>
+    <line>executed the deed, I think on the heart in which the</line>
+    <line>imagination of it was conceived, and long for the</line>
+    <line>moment when they will meet my eyes, when it</line>
+    <line>will haunt my thoughts no <del instant="true" rend="strikethrough">longe</del>
+      more.</line>
+    <milestone unit="tei:p"></milestone>
+    <line rend="indent2">Fear not that I shall be the instrument</line>
+    <line>of future mischief. My work is nearly <del instant="true" rend="strikethrough">finished</del> com-</line>
+    <line>plete. Neither yours nor any mans death is needed to</line>
+    <line>consummate the series of my being, and accomplish</line>
+    <line>that which must be done; but it requires my own.</line>
+    <line>Do not think that I shall be slow to perform this</line>
+  </zone>
+</surface>
+    </sourceDoc>
+</TEI>
