@@ -1,12 +1,12 @@
 <xml>
-  <anchor type="collate" xml:id="C1"/>
-  <comment>ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi="http://www.w3.org/2001/XInclude", and apply
+  <comment text="ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi='http://www.w3.org/2001/XInclude', and apply
   xi: namespace prefix to include elements in the document.
-  </comment>
+  "/>
   <header>
     <include href="standOff_Includes/1818_header.xml" parse="xml"/>
   </header>
   <text>
+    <anchor type="collate" xml:id="C01"/>
     <milestone unit="volume" n="1"/>
     <div type="frontmatter" n="1">
       <include href="standOff_Includes/1818_frontMatter1.xml" parse="xml"/>
@@ -14,7 +14,7 @@
     <div type="preface">
       <pb xml:id="F1818_v1_007" n="viii"/>
       <head>PREFACE.</head>
-      <comment>rm: centered ornamental </comment>
+      <comment text="rm: centered ornamental "/>
       <p>T<hi rend="smallcaps">HE</hi> event on which this fiction is founded has been supposed, by
         Dr. Darwin, and some of the physiological writers of Germany, as not of impossible
         occurrence. I shall not be supposed as according the remotest degree of serious faith to
@@ -60,13 +60,13 @@
         the Alps, and lost, in the magnificent scenes which they present, all memory of their
         ghostly visions. The following tale is the only one which has been completed.</p>
     </div>
-    <anchor type="collate" xml:id="C2"/>
+    <anchor type="collate" xml:id="C02"/>
     <div type="novel">
       <pb xml:id="F1818_v1_013" />
       <head>FRANKENSTEIN;</head>
       <head><hi rend="smallcaps">OR, THE</hi></head>
       <head><hi rend="italic">MODERN PROMETHEUS.</hi></head>
-      <comment> RM: centered ornamental </comment>
+      <comment text=" RM: centered ornamental "/>
       <div type="letter">
         <head>LETTER I</head>
         <ab rend="center"><hi rend="italic">To Mrs.</hi> S<hi rend="smallcaps">AVILLE</hi>, <hi
@@ -161,7 +161,7 @@
         <p>R. W<hi rend="smallcaps">ALTON</hi>.</p>
         <pb xml:id="F1818_v1_022" n="010"/>
       </div>
-      <anchor type="collate" xml:id="C3"/>
+      <anchor type="collate" xml:id="C03"/>
       <div type="letter">
         <head>LETTER II.</head>
         <ab rend="center"><hi rend="italic">To Mrs.</hi> S<hi rend="smallcaps">AVILLE</hi>, <hi
@@ -190,7 +190,7 @@
           necessity of becoming acquainted with more languages than that of my native country. Now I
           am twenty-eight, and am in reality more illiterate than many school-boys of fifteen. It is
           true that I have thought more, and that my day dreams are more extended and magnificent;
-          but they want (as the painters call it) <hi rend="italic">keeping</hi>; and I greatly need
+          but they want (as the painters call it) <hi rend="italic">keeping;</hi> and I greatly need
           a friend who would have sense enough not to despise me as romantic, and affection <pb
             xml:id="F1818_v1_025" n="013"/>enough for me to endeavour to regulate my mind.</p>
         <p>Well, these are useless complaints; I shall certainly find no friend on the wide ocean,
@@ -244,7 +244,7 @@
         <p>R<hi rend="smallcaps">OBERT</hi> W<hi rend="smallcaps">ALTON</hi>.</p>
         <pb xml:id="F1818_v1_030" n="018"/>
       </div>
-      <anchor type="collate" xml:id="C4"/>
+      <anchor type="collate" xml:id="C04"/>
       <div type="letter">
         <head>LETTER III.</head>
         <ab rend="center"><hi rend="italic">To Mrs.</hi> S<hi rend="smallcaps">AVILLE</hi>, <hi
@@ -273,11 +273,12 @@
         <p>R.W.</p>
         <pb xml:id="F1818_v1_033" n="021"/>
       </div>
-      <anchor type="collate" xml:id="C5"/>
+      <anchor type="collate" xml:id="C05"/>
       <div type="letter">
         <head>LETTER IV.</head>
-        <ab rend="center"><hi rend="italic">To Mrs.</hi> S<hi rend="smallcaps">AVILLE</hi>, <hi
-            rend="italic">England.</hi></ab>
+        <head>
+        	<ab rend="center"><hi rend="italic">To Mrs.</hi> S<hi rend="smallcaps">AVILLE</hi>, <hi rend="italic">England.</hi></ab>
+        </head>
         <p>August 5th, 17—.</p>
         <p>So strange an accident has happened to us, that I cannot forbear recording it, although
           it is very probable that you will see me before these papers can come into your
@@ -305,7 +306,7 @@
           broke, and freed our ship. We, however, lay to until the morning, fearing to encounter in
           the dark those large loose masses which float about after the breaking up of the ice. I
           profited of this time to rest for a few hours.</p>
-        <p>In the morning, however, as soon as it was light, I went upon the deck, and found all the
+        <p>In the morning, however, as soon as it was light, I went upon deck, and found all the
           sailors busy on one side <pb xml:id="F1818_v1_036" n="024"/>of the vessel, apparently
           talking to some one in the sea. It was, in fact, a sledge, like that we had seen before,
           which had drifted towards us in the night, on a large fragment of ice. Only one dog
@@ -383,7 +384,7 @@
           my heart.</p>
         <p>I shall continue my journal concerning the stranger at intervals, should I have any fresh
           incidents to record.</p>
-        <anchor type="collate" xml:id="C6"/>
+        <anchor type="collate" xml:id="C06"/>
         <p>August 13th, 17—.</p>
         <p>My affection for my guest increases every day. He excites at once my admiration and my
           pity to an astonishing degree. How can I see so noble a creature destroyed by misery
@@ -456,11 +457,11 @@
             n="038"/>who know him, and who hear it from his own lips, with what interest and
           sympathy shall I read it in some future day!</p>
         <pb xml:id="F1818_v1_051" n="039"/>
-        <head>
-          <hi rend="italic">FRANKENSTEIN; <hi rend="smallcaps">OR</hi>, THE MODERN PROMETHEUS.</hi>
-        </head>
-        <comment> RM: centered ornamental </comment>
-        <anchor type="collate" xml:id="C7"/>
+        <head>FRANKENSTEIN;</head>
+        <head><hi rend="smallcaps">OR</hi>,</head>
+        <head>THE MODERN PROMETHEUS.</head>
+        <comment text=" RM: centered ornamental "/>
+        <anchor type="collate" xml:id="C07"/>
         <div type="chapter">
           <head>CHAPTER I.</head>
           <p> I <hi rend="smallcaps">AM</hi> by birth a Genevese; and my family is one of the most
@@ -615,7 +616,7 @@
           <p>When I returned home, my first care was to procure the whole works of this author, and
             afterwards of Paracelsus and Albertus Magnus. I read and studied the wild fancies of
             these writers with delight; they appeared to me trea<pb xml:id="F1818_v1_066" n="054"
-            />sures known to few beside myself; and although I have often wished to communicate
+            />sures known to few beside myself; and although I often wished to communicate
             these secret stores of knowledge to my father, yet his indefinite censure of my
             favourite Agrippa always withheld me. I disclosed my discoveries to Elizabeth,
             therefore, under a promise of strict secrecy; but she did not interest herself in the
@@ -624,12 +625,12 @@
             eighteenth century; but our family was not scientifical, and I had not attended any of
             the lectures given at the schools of Geneva. My dreams were therefore undisturbed by
             reality; and I entered with the greatest diligence into the search of the philosopher’s
-            stone and the elixir of life. But the latter obtained my undi<pb xml:id="F1818_v1_067"
+            stone and the elixir of life. But the latter obtained my most undi<pb xml:id="F1818_v1_067"
               n="055"/>vided attention: wealth was an inferior object; but what glory would
             attend the discovery, if I could banish disease from the human frame, and render man
             invulnerable to any but a violent death!</p>
           <p>Nor were these my only visions. The raising of ghosts or devils was a promise liberally
-            accorded by my favourite authors, the fulfillment of which I most eagerly sought; and if
+            accorded by my favourite authors, the fulfilment of which I most eagerly sought; and if
             my incantations were always unsuccessful, I attributed the failure rather to my own
             inexperience and mistake, than to a want of skill or fidelity in my instructors.</p>
           <p>The natural phænomena that take place every day before our eyes did not escape my
@@ -649,7 +650,7 @@
             about twenty yards from our house; and so soon as the dazzling light vanished, the oak
             had disappeared, and nothing remained but a blasted stump. When we visited it the next
             morning, we found the tree shattered in a singular manner. It was not splintered by the
-            shock, but entirely reduced to thin ribbands of wood. I never beheld anything so utterly
+            shock, but entirely reduced to thin ribbands of wood. I never beheld any thing so utterly
             destroyed.</p>
           <p>The catastrophe of this tree excited my extreme astonishment; and I eagerly inquired of
             my father the nature and origin of thunder and lightning. He replied, “Electricity;”
@@ -689,7 +690,7 @@
             heard amongst us; but mutual affection engaged us all to comply with and obey the
             slightest desire of each other.</p>
         </div>
-        <anchor type="collate" xml:id="C8"/>
+        <anchor type="collate" xml:id="C08"/>
         <div type="chapter">
           <pb xml:id="F1818_v1_073" n="061"/>
           <head>CHAPTER II.</head>
@@ -747,7 +748,7 @@
             intending that he should become a partner with him in business, in compliance with his
             favourite theory, that learning was superfluous in the commerce of ordinary life. Henry
             had a refined mind; he had no desire to be idle, and was well pleased to become his
-            father’s partner, but he believed that a man might become a very good trader, and yet
+            father’s partner, but he believed that a man might be a very good trader, and yet
             possess a cultivated understanding.</p>
           <p>We sat late, listening to his complaints, and making many little arrangements for the
             future. The next <pb xml:id="F1818_v1_079" n="067"/>morning early I departed. Tears
@@ -786,7 +787,7 @@
             thousand years old, and as musty as they are ancient? I little expected in this
             enlightened and scientific age to find a disciple of Albertus Magnus and Paracelsus. My
             dear Sir, you must begin your studies entirely anew.”</p>
-          <p>So saying, he stepped aside, and wrote down a list of several books treating of natural
+          <p>So saying, he stept aside, and wrote down a list of several books treating of natural
             philosophy, which he desired me to procure, and dismissed me, after mentioning that in
             the beginning of the following week he intended to commence a course of lectures upon
             natural philosophy in its general relations, and that M. Waldman, a fellow-professor,
@@ -811,7 +812,7 @@
           <p>Partly from curiosity, and partly from idleness, I went into the lecturing room, which
             M. Waldman entered shortly after. This professor was very unlike his colleague. He
             appeared about fifty years of age, but with an aspect expressive of the greatest
-            benevolence; a few grey hairs covered his temples, but those at the back of his head
+            benevolence; a few gray hairs covered his temples, but those at the back of his head
             were nearly black. His person was short, but remarkably erect; and his <pb
               xml:id="F1818_v1_085" n="073"/>voice the sweetest I had ever heard. He began his
             lecture by a recapitulation of the history of chemistry and the various improvements
@@ -838,7 +839,7 @@
             at the names of Cornelius Agrippa, and Paracelsus, but without the contempt that M.
             Krempe had exhibited. He said, that “these were men to whose indefatigable zeal modern
             philosophers were indebted for most of the foundations of their knowledge. They had left
-            to us, as an easier task, to give new names, arrange in connected classifications, the
+            to us, as an easier task, to give new names, and arrange in connected classifications, the
             facts which they in a great degree had been the instruments of bringing to light. The
             labours of men of genius, however erroneously directed, scarcely ever fail in ultimately
             turning to the solid advantage of mankind.” I listened to his statement, which was
@@ -858,9 +859,9 @@
             procure, and promising me the use of his own, when I should have advanced far enough in
             the science not to derange their mechanism. He also gave me the list of books which I
             had requested; and I took my leave.</p>
-          <p>Thus ended a day memorable to me; it decided my future destiny.</p>
+          <p>Thus ended a day memorable to me: it decided my future destiny.</p>
         </div>
-        <anchor type="collate" xml:id="C9"/>
+        <anchor type="collate" xml:id="C09"/>
         <div type="chapter">
           <pb xml:id="F1818_v1_090" n="078"/>
           <head>CHAPTER III.</head>
@@ -871,7 +872,7 @@
             the acquaintance, of the men of science of the university; and I found even in M. Krempe
             a great deal of sound sense and real information, combined, it is true, with a repulsive
             physiognomy and manners, but not on that account the less valuable. In M. Waldman I
-            found <pb xml:id="F1818_v1_091" n="079"/> a true friend. His gentleness was never
+            found <pb xml:id="F1818_v1_091" n="079"/>a true friend. His gentleness was never
             tinged by dogmatism; and his instructions were given with an air of frankness and good
             nature, that banished every idea of pedantry. It was, perhaps, the amiable character of
             this man that inclined me more to that branch of natural philosophy which he professed,
@@ -922,7 +923,7 @@
             how the fine form of man was degraded and wasted; I beheld the corruption of death
             succeed to the blooming cheek of life; I saw how the worm inherited the wonders of the
             eye and brain. I <pb xml:id="F1818_v1_096" n="084"/>paused, examining and analysing
-            all the minutiae of causation, as exemplified in the change from life to death, and
+            all the minutiæ of causation, as exemplified in the change from life to death, and
             death to life, until from the midst of this darkness a sudden light broke in upon me—a
             light so brilliant and wondrous, yet so simple, that while I became dizzy with the
             immensity of the prospect which it illustrated, I was surprised that among so many men
@@ -1029,7 +1030,7 @@
             simple pleasures in which no alloy can possibly mix, then that study is certainly
             unlawful, that is to say, not befitting the human mind. If this rule were always
             observed; if no man allowed any pursuit whatsoever to interfere with the tranquillity of
-            his domestic affections, Greece had not been enslaved; Caesar would have spared his
+            his domestic affections, Greece had not been enslaved; Cæsar would have spared his
             country; America would have been discovered more gradually; and the empires of Mexico
             and Peru had not been destroyed.</p>
           <p>But I forget that I am moralizing in the most interesting part of my tale; and your
@@ -1049,9 +1050,8 @@
             that exercise and amusement would soon drive away such symptoms; and I promised myself
             both of these, when my creation should be complete.</p>
         </div>
-        <anchor type="collate" xml:id="C10"/>
+        <pb xml:id="F1818_v1_109" n="097"/><anchor type="collate" xml:id="C10"/>
         <div type="chapter">
-          <pb xml:id="F1818_v1_109" n="097"/>
           <head>CHAPTER IV.</head>
           <p>I<hi rend="smallcaps">T</hi> was on a dreary night of November, that I beheld the
             accomplishment of my toils. With an anxiety that almost amounted to agony, I collected
@@ -1118,7 +1118,7 @@
             ease the load that weighed upon my mind. I traversed the streets, without any clear
             conception of where I was, or what I was doing. My heart palpitated in the sickness of
             fear; and I hurried on with irregular steps, not daring to look about me:</p>
-          <cit>
+          <p><cit>
             <quote>
               <lg>
                 <l rend="i2">Like one who, on a lonely road,</l>
@@ -1130,10 +1130,9 @@
               </lg>
             </quote>
             <note>* <bibl>Coleridge’s “Ancient Mariner.”</bibl></note>
-          </cit>
+          </cit></p>
           <p>Continuing thus, I came at length opposite to the inn at which the various diligences
-            and carriages usually stopped.</p>
-          <p><pb xml:id="F1818_v1_116" n="104"/>Here I paused, I knew not why; but I remained
+            and carriages usually stopped. <pb xml:id="F1818_v1_116" n="104"/>Here I paused, I knew not why; but I remained
             some minutes with my eyes fixed on a coach that was coming towards me from the other end
             of the street. As it drew nearer, I observed that it was the Swiss diligence: it stopped
             just where I was standing; and, on the door being opened, I perceived Henry Clerval,
@@ -1144,14 +1143,14 @@
             thoughts my father, Elizabeth, and all those scenes of home so dear to my recollection.
             I grasped his hand, and in a moment forgot my horror and misfortune; I felt suddenly,
             and for the first time during many months, <pb xml:id="F1818_v1_117" n="105"/>calm
-            and serene joy. I welcomed my friend therefore, in the most cordial manner, and we
+            and serene joy. I welcomed my friend, therefore, in the most cordial manner, and we
             walked towards my college. Clerval continued talking for some time about our mutual
             friends, and his own good fortune in being permitted to come to Ingolstadt. “You may
             easily believe,” said he, “how great was the difficulty to persuade my father that it
             was not absolutely necessary for a merchant not to understand any thing except
             book-keeping; and, indeed, I believe I left him incredulous to the last, for his
             constant answer to my unwearied entreaties was the same as that of the Dutch
-            school-master in the Vicar of Wakefield: ‘I have ten thousand florins a year without
+            schoolmaster in the Vicar of Wakefield: ‘I have ten thousand florins a year without
             Greek, I eat heartily without Greek.’ But his affection for me at length overcame his
             dislike of learning, and he has permitted me to undertake <pb xml:id="F1818_v1_118"
               n="106"/>a voyage of discovery to the land of knowledge.”</p>
@@ -1235,15 +1234,14 @@
           <p>“Is that all? my dear Henry. How could you suppose that my first thought would not fly
             towards those dear, dear friends whom I love, and who are so deserving of my love.”</p>
           <p>“If this is your present temper, my friend, you will perhaps be glad to see a letter
-            that has been lying here some days for you: it is from your cousin, I believe.”</p>
+            that has been lying here some days for you: it is from your cousin, I believe.”</p><pb xml:id="F1818_v1_126" n="114"/>
         </div>
         <anchor type="collate" xml:id="C11"/>
         <div type="chapter">
-          <pb xml:id="F1818_v1_126" n="114"/>
           <head>CHAPTER V.</head>
           <p>C<hi rend="smallcaps">LERVAL</hi> then put the following letter into my hands.</p>
-          <ab rend="center"><hi rend="italic">To</hi> V. F<hi rend="smallcaps"
-            >RANKENSTEIN</hi>.</ab>
+          <p><ab rend="center"><hi rend="italic">To</hi> V. F<hi rend="smallcaps"
+            >RANKENSTEIN</hi>.</ab></p>
           <p>“<hi rend="smallcaps">MY DEAR COUSIN</hi>,</p>
           <p>“I cannot describe to you the uneasiness we have all felt concerning your health. We
             cannot help imagining that your friend Clerval conceals the extent of your disorder: for
@@ -1304,7 +1302,7 @@
               <pb xml:id="F1818_v1_132" n="120"/>greatest attention to every gesture of my aunt.
             She thought her the model of all excellence, and endeavoured to imitate her phraseology
             and manners, so that even now she often reminds me of her.</p>
-          <p>“When my dearest aunt died, everyone was too much occupied in their own grief to notice
+          <p>“When my dearest aunt died, every one was too much occupied in their own grief to notice
             poor Justine, who had attended her during her illness with the most anxious affection.
             Poor Justine was very ill; but other trials were reserved for her.</p>
           <p>“One by one, her brothers and sister died; and her mother, with the exception of her
@@ -1320,7 +1318,7 @@
             She sometimes begged Justine to forgive her unkindness, but much oftener accused her of
             having caused the deaths of her brothers and sister. Perpetual fretting at length threw
             Madame Moritz into a decline, which at first increased her irritability, but she is now
-            at peace forever. She died on the first approach of cold wea<pb xml:id="F1818_v1_134"
+            at peace for ever. She died on the first approach of cold wea<pb xml:id="F1818_v1_134"
               n="122"/>ther, at the beginning of this last winter. Justine has returned to us;
             and I assure you I love her tenderly. She is very clever and gentle, and extremely
             pretty; as I mentioned before, her mien and her expressions continually remind me of my
@@ -1346,7 +1344,7 @@
             happy; or——I cannot bear to think of the other side of the question; my tears already
             flow. Adieu, my dearest cousin.</p>
           <p>“E<hi rend="smallcaps">LIZABETH</hi> L<hi rend="smallcaps">AVENZA</hi>.</p>
-          <p>“<hi rend="italic">Geneva, March 18th, 17—</hi>.”</p>
+          <p>“Geneva, March 18th, 17—.”</p>
           <anchor type="collate" xml:id="C12"/>
           <p>“Dear, dear Elizabeth!” I exclaimed when I had read her letter, “I will write
             instantly, and relieve them from the anxiety they must feel.” I wrote, and this exertion
@@ -1387,15 +1385,15 @@
             down, we shall all be out of countenance.—Aye, aye,” continued he, ob<pb
               xml:id="F1818_v1_140" n="128"/>serving my face expressive of suffering, “M.
             Frankenstein is modest; an excellent quality in a young man. Young men should be
-            diffident of themselves, you know, M. Clerval; I was myself when young; but that wears
+            diffident of themselves, you know, M. Clerval; I was myself when young: but that wears
             out in a very short time.”</p>
           <p>M. Krempe had now commenced an eulogy on himself, which happily turned the conversation
             from a subject that was so annoying to me.</p>
-          <p>Clerval was no natural philosopher. His imagination was too vivid for the minutiae of
-            science. Languages were his principal study; and he sought, but acquiring their
+          <p>Clerval was no natural philosopher. His imagination was too vivid for the minutæ of
+            science. Languages were his principal study; and he sought, by acquiring their
             elements, to open a field for self-instruction on his return to Geneva. Persian, Arabic,
             and Hebrew, gained his attention, after he had made himself perfectly master of Greek
-            and Latin. For my own part, idleness had ever been irksome to me, and now that I wished
+            and Latin. For my own part, idleness had ever been irksome to me; and now that I wished
               <pb xml:id="F1818_v1_141" n="129"/>to fly from reflection, and hated my former
             studies, I felt great relief in being the fellow-pupil with my friend, and found not
             only instruction but consolation in the works of the orientalists. Their melancholy is
@@ -1406,8 +1404,7 @@
             and Rome.</p>
           <p>Summer passed away in these occupations, and my return to Geneva was fixed for the
             latter end of autumn; but being delayed by several accidents, winter and snow arrived,
-            the roads were deemed impassable, and my journey was retarded until the ensuing spring.
-              <pb xml:id="F1818_v1_142" n="130"/>I felt this delay very bitterly; for I longed to
+            the roads were deemed impassable, and my journey was retarded until the ensuing spring. <pb xml:id="F1818_v1_142" n="130"/>I felt this delay very bitterly; for I longed to
             see my native town, and my beloved friends. My return had only been delayed so long from
             an unwillingness to leave Clerval in a strange place, before he had become acquainted
             with any of its inhabitants. The winter, however, was spent cheerfully; and although the
@@ -1418,8 +1415,8 @@
             Ingolstadt that I might bid a personal farewell to the country I had so long inhabited.
             I acceded with pleasure to this proposition: I was fond of exercise, and Clerval had
             always been my favourite companion in the rambles of this nature that I had <pb
-              xml:id="F1818_v1_143" n="131"/> taken among the scenes of my native country.</p>
-          <p>We passed a fortnight in these perambulations; my health and spirits had long been
+              xml:id="F1818_v1_143" n="131"/>taken among the scenes of my native country.</p>
+          <p>We passed a fortnight in these perambulations: my health and spirits had long been
             restored, and they gained additional strength from the salubrious air I breathed, the
             natural incidents of our progress, and the conversation of my friend. Study had before
             secluded me from the intercourse of my fellow-creatures, and rendered me unsocial; but
@@ -1445,12 +1442,12 @@
           <p>We returned to our college on a Sunday afternoon: the peasants were dancing, and every
             one we met appeared gay and happy. My own spirits were high, and I bounded along with
             feelings of unbridled joy and hilarity.</p>
+            <pb xml:id="F1818_v1_146" n="134"/>
         </div>
         <anchor type="collate" xml:id="C13"/>
         <div type="chapter">
-          <pb xml:id="F1818_v1_146" n="134"/>
           <head>CHAPTER VI.</head>
-          <p> O<hi rend="smallcaps">N</hi> my return, I found the following letter from my
+          <p>O<hi rend="smallcaps">N</hi> my return, I found the following letter from my
             father:—</p>
           <ab rend="center"><hi rend="italic">”To</hi> V. F<hi rend="smallcaps"
             >RANKENSTEIN</hi>.</ab>
@@ -1487,7 +1484,7 @@
           <p>“He was conveyed home, and the anguish that was visible in my countenance betrayed the
             secret to Elizabeth. She was very earnest to see the corpse. At first I attempted to
             prevent her; but she persisted, and entering the room where it lay, hastily examined the
-            neck of the victim, and clasping her hands, exclaimed, ‘O God! I have murdered my
+            neck of the victim, and clasping her hands exclaimed, ‘O God! I have murdered my
             darling infant!’</p>
           <p>“She fainted, and was restored with extreme difficulty. When she again lived, it was
             only to weep and sigh. <pb xml:id="F1818_v1_150" n="138"/>She told me, that that same
@@ -1507,7 +1504,7 @@
             kindness and affection for those who love you, and not with hatred for your enemies.</p>
           <p>“Your affectionate and afflicted father,</p>
           <p>A<hi rend="smallcaps">LPHONSE</hi> F<hi rend="smallcaps">RANKENSTEIN</hi>.</p>
-          <p>“<hi rend="italic">Geneva, May 12th, 17—</hi>.”</p>
+          <p>“Geneva, May 12th, 17—.”</p>
           <p>Clerval, who had watched my countenance as I read this letter, was surprised to observe
             the despair that succeeded to the joy I at first expressed on receiving news from my
             friends. I threw the letter on the table, and covered my face with my hands.</p>
@@ -1556,7 +1553,7 @@
             circumstances; but they were days of comparative happiness, and I think of them with
             pleasure. My <pb xml:id="F1818_v1_156" n="144"/>country, my beloved country! who but
             a native can tell the delight I took in again beholding thy streams, thy mountains, and,
-            more than all, thy lovely lake!</p>
+            more than all, thy lovely lake.</p>
           <p>Yet, as I drew nearer home, grief and fear again overcame me. Night also closed around;
             and when I could hardly see the dark mountains, I felt still more gloomily. The picture
             appeared a vast and dim scene of evil, and I foresaw obscurely that I was destined to
@@ -1577,7 +1574,7 @@
             minute, and the thunder burst with a terrific crash over my head. It was echoed from
             Salêve, the <pb xml:id="F1818_v1_158" n="146"/>Juras, and the Alps of Savoy; vivid
             flashes of lightning dazzled my eyes, illuminating the lake, making it appear like a
-            vast sheet of fire; then for an instant everything seemed of a pitchy darkness, until
+            vast sheet of fire; then for an instant every thing seemed of a pitchy darkness, until
             the eye recovered itself from the preceding flash. The storm, as is often the case in
             Switzerland, appeared at once in various parts of the heavens. The most violent storm
             hung exactly north of the town, over that part of the lake which lies between the
@@ -1592,7 +1589,7 @@
             could not be mistaken. A flash of lightning illuminated the object, and discovered its
             shape plainly to me; its gigantic stature, and the deformity of its aspect, more hideous
             than belongs to humanity, instantly informed me that it was the wretch, the filthy
-            dæmon, to whom I had given life. What did he there? Could he be (I shuddered at the
+            dæmon to whom I had given life. What did he there? Could he be (I shuddered at the
             conception) the murderer of my brother? No sooner did that idea cross my imagination,
             than I became convinced of its truth; my teeth chattered, and I was forced to lean
             against a tree for support. The figure passed me quickly, and I lost <pb
@@ -1605,7 +1602,7 @@
           <p>I remained motionless. The thunder ceased; but the rain still continued, and the scene
             was enveloped in an impenetrable darkness. I revolved in my mind the events which I had
             until now sought to forget: the whole train of my progress towards the creation; the
-            appearance of the work of my own hands alive at my bed-side; its depar<pb
+            appearance of the work of my own hands alive at my bed side; its depar<pb
               xml:id="F1818_v1_161" n="149"/>ture. Two years had now nearly elapsed since the
             night on which he first received life; and was this his first crime? Alas! I had turned
             loose into the world a depraved wretch, whose delight was in carnage and misery; had he
@@ -1657,7 +1654,7 @@
             brother, and that made her very wretched. But since the murderer has been
             discovered—”</p>
           <p>“The murderer discovered! Good God! how can that be? who could attempt to pursue him?
-            it is impossible; one might as well try to overtake the winds, or confine a
+            It is impossible; one might as well try to overtake the winds, or confine a
             mountain-stream with a straw.”</p>
           <p>“I do not know what you mean; but we were all very unhappy when <pb
               xml:id="F1818_v1_166" n="154"/>she was discovered. No one would believe it at
@@ -1697,8 +1694,7 @@
             had no fear, therefore, that any circumstantial evidence could be brought forward strong
             enough to convict her; and, in this assurance, I calmed myself, expecting the trial with
             eagerness, but without prognosticating an evil result.</p>
-          <p>We were soon joined by Elizabeth. Time had made great alterations in her form since I
-            had last beheld her. Six years before she had been a pretty, good-humoured girl, whom
+          <p>We were soon joined by Elizabeth. Time had made great alterations in her form since I had last beheld her. Six years before she had been a pretty, good-humoured girl, whom
             every one loved and caressed. She was now a woman in stature and expression of
             countenance, which was uncommonly lovely. An open and capacious forehead gave
             indications of a good understanding, joined to great frankness of disposition. Her eyes
@@ -1721,12 +1717,12 @@
           <p>“Sweet niece,” said my father, “dry your tears. If she is, as you believe, innocent,
             rely on the justice of our judges, and the activity with which I shall prevent the
             slightest shadow of partiality.”</p>
+        <pb xml:id="F1818_v1_172" n="160"/>
         </div>
         <anchor type="collate" xml:id="C14"/>
         <div type="chapter">
-          <pb xml:id="F1818_v1_172" n="160"/>
           <head>CHAPTER VII.</head>
-          <p> W<hi rend="smallcaps">E</hi> passed a few sad hours, until eleven o’clock, when the
+          <p>W<hi rend="smallcaps">E</hi> passed a few sad hours, until eleven o’clock, when the
             trial was to commence. My father and the rest of the family being obliged to attend as
             witnesses, I accompanied them to the court. During the whole of this wretched mockery of
             justice, I suffered living torture. It was to be decided, whether the result of my
@@ -1825,13 +1821,13 @@
             had earnestly desired it, I should have willingly given it to her; so much do I esteem
             and value her.”</p>
           <p>Excellent Elizabeth! A murmur of approbation was heard; but it was excited by her
-            generous interference, and not in favor of poor Justine, on whom <pb
+            generous interference, and not in favour of poor Justine, on whom <pb
               xml:id="F1818_v1_182" n="170"/>the public indignation was turned with renewed
             violence, charging her with the blackest ingratitude. She herself wept as Elizabeth
             spoke, but she did not answer. My own agitation and anguish was extreme during the whole
             trial. I believed in her innocence; I knew it. Could the dæmon, who had (I did not for a
             minute doubt) murdered my brother, also in his hellish sport have betrayed the innocent
-            to death and ignominy? I could not sustain the horror of my situation; and when I
+            to death and ignominy. I could not sustain the horror of my situation; and when I
             perceived that the popular voice, and the countenances of the judges, had already
             condemned my unhappy victim, I rushed out of the court in agony. The tortures of the
             accused did not equal mine; she was sustained by innocence, but the fangs of remorse
@@ -1866,7 +1862,7 @@
             further end; her hands were manacled, and her head rested on her knees. She rose on
             seeing us enter; and when we were left alone with her, she threw herself at the feet of
             Elizabeth, weeping bitterly. My cousin wept also.</p>
-          <p>“Oh, Justine!” said she, “why did you rob me of my last consolation? I relied on your
+          <p>“Oh, Justine!” said she, “why did you rob me of my last consolation. I relied on your
             innocence; and although I was then very wretched, I was not so miserable as I am
             now.”</p>
           <p>“And do you also believe that I am so very, very wicked? Do you also <pb
@@ -1915,7 +1911,7 @@
             learn the lesson that <pb xml:id="F1818_v1_190" n="178"/>you would teach me. Talk of
             something else, something that will bring peace, and not increase of misery.”</p>
           <p>During this conversation I had retired to a corner of the prison-room, where I could
-            conceal the horrid anguish that possessed me. Despair! Who dared talked of that? The
+            conceal the horrid anguish that possessed me. Despair! Who dared talk of that? The
             poor victim, who on the morrow was to pass the dreary boundary between life and death,
             felt not as I did, such deep and bitter agony. I gnashed my teeth, and ground them
             together, uttering a groan that came from my inmost soul. Justine started. When she saw
@@ -1948,7 +1944,7 @@
             reliance on her. For the moment that I did believe her guilty, I felt an anguish that I
             could not have long sustained. Now my heart is lightened. The innocent suffers; but she
             whom I thought amiable and good has not betrayed the trust I reposed in her, and I am
-            consoled.”</p>
+            consoled.<comment text="RM: sic close quote missing ”"/></p>
           <p>Amiable cousin! such were your thoughts, mild and gentle as your own dear eyes and
             voice. But I—I was a wretch, and none ever conceived of the misery that I then
             endured.</p>
@@ -1979,7 +1975,7 @@
           <p>This state of mind preyed upon my health, which had entirely recovered <pb
               xml:id="F1818_v2_007" n="003"/>from the first shock it had sustained. I shunned the
             face of man; all sound of joy or complacency was torture to me; solitude was my only
-            consolation——deep, dark, death-like solitude.</p>
+            consolation—deep, dark, death-like solitude.</p>
           <p>My father observed with pain the alteration perceptible in my disposition and habits,
             and endeavoured to reason with me on the folly of giving way to immoderate grief. “Do
             you think, Victor,” said he, “that I do not suffer also? No one could love a child more
@@ -2015,7 +2011,7 @@
             evils; and I lived in daily fear, lest the monster whom I had created should perpetrate
             some new wickedness. I had an obscure feeling that all was not over, and that he would
             still commit some signal crime, which by its enormity should almost efface the
-            recollection of the past. There was always scope for fear, so long as anything I loved
+            recollection of the past. There was always scope for fear, so long as any thing I loved
             remained behind. My abhorrence of this fiend cannot be conceived. When I thought of him,
             I gnashed my teeth, my eyes became inflamed, and I ardently wished to extinguish that
             life which I had so thoughtlessly bestowed. When I reflected on his crimes and malice,
@@ -2029,7 +2025,7 @@
             her ordinary occupations; all pleasure seemed to her sacrilege toward the dead; eternal
             woe and tears she then thought was the just tribute she should pay to innocence so
             blasted and destroyed. She was no longer that happy creature, who in earlier youth
-            wandered with me on the banks of the lake, and talked with ecstasy of our future
+            wandered with me on the banks of the lake, and talked with ecstacy of our future
             prospects. She <pb xml:id="F1818_v2_012" n="008"/>had become grave, and often
             conversed of the inconstancy of fortune, and the instability of human life.</p>
           <p>“When I reflect, my dear cousin,” said she, “on the miserable death of Justine Moritz,
@@ -2046,7 +2042,7 @@
             human being; but certainly I should have thought such a creature unfit to remain in the
             society of men. Yet she was innocent. I know, I feel she was innocent; you are of the
             same opinion, and that confirms me. Alas! Victor, when falsehood can look so like the
-            truth, who can assure themselves of certain happiness? I feel if I were walking on the
+            truth, who can assure themselves of certain happiness? I feel as if I were walking on the
             edge of a precipice, towards which thousands are crowding, and endeavouring to plunge me
             into the abyss. William and Justine were assassinated, and the murderer escapes; he
             walks about the world free, and perhaps respected. But even if I were condemned to
@@ -2081,7 +2077,7 @@
             valley through which we wound, and which was formed by the river Arve, whose course we
             followed, closed in upon us by degrees; and when the sun had set, we beheld immense
             mountains and precipices overhanging us on every side, and heard the sound of the river
-            raging among rocks, and the dashing of waterfalls around.</p>
+            raging among rocks, and the dashing of water-falls around.</p>
           <p><pb xml:id="F1818_v2_017" n="013"/>The next day we pursued our journey upon mules;
             and as we ascended still higher, the valley assumed a more magnificent and astonishing
             character. Ruined castles hanging on the precipices of piny mountains; the impetuous
@@ -2116,13 +2112,13 @@
         <div type="chapter">
           <pb xml:id="F1818_v2_020" n="016"/>
           <head>CHAPTER II.</head>
-          <p> T<hi rend="smallcaps">HE</hi> next day, contrary to the prognostications of our
+          <p>T<hi rend="smallcaps">HE</hi> next day, contrary to the prognostications of our
             guides, was fine, although clouded. We visited the source of the Arveiron, and rode
             about the valley until evening. These sublime and magnificent scenes afforded me the
             greatest consolation that I was capable of receiving. They elevated me from all
             littleness of feeling; and although they did not remove my grief, they subdued and
             tranquillized it. In some degree, also, they diverted my mind from the thoughts over
-            which it had <pb xml:id="F1818_v2_021" n="017"/> brooded for the last month. I
+            which it had <pb xml:id="F1818_v2_021" n="017"/>brooded for the last month. I
             returned in the evening, fatigued, but less unhappy, and conversed with my family with
             more cheerfulness than had been my custom for some time. My father was pleased, and
             Elizabeth overjoyed. “My dear cousin,” said she, “you see what happiness you diffuse
@@ -2136,7 +2132,7 @@
             inured myself to rain, moisture, and cold, I resolved to go alone to the summit of
             Montanvert. I remembered the effect that the view of the tremendous and ever-moving
             glacier had produced upon my mind when I first saw it. It had then filled me with a
-            sublime ecstasy that gave wings to the soul, and allowed it to soar from the obscure
+            sublime ecstacy that gave wings to the soul, and allowed it to soar from the obscure
             world to light and joy. The sight of the awful and majestic in nature had indeed always
             the effect of solemnizing my mind, and causing me to forget the passing cares of life. I
             determined to go alone, for I was well acquainted with the path, and the presence of
@@ -2225,7 +2221,7 @@
             creature, and I will be even mild and docile to my natural <pb xml:id="F1818_v2_030"
               n="026"/>lord and king, if thou wilt also perform thy part, the which thou owest
             me. Oh, Frankenstein, be not equitable to every other, and trample upon me alone, to
-            whom thy justice, and even thy clemency and affection, is most due. Remember that I am
+            whom thy justice, and even thy clemency and affection, is most due. Remember, that I am
             thy creature: I ought to be thy Adam; but I am rather the fallen angel, whom thou
             drivest from joy for no misdeed. Every where I see bliss, from which I alone am
             irrevocably excluded. I was benevolent and good; misery made me a fiend. Make me happy,
@@ -2267,7 +2263,7 @@
             fine sensations; come to the hut upon the mountain. The sun is yet high in the heavens;
             before it descends to hide itself behind yon snowy precipices, and illuminate another
             world, you will have heard my story, and can decide. On you it rests, whether I quit
-            forever the neighbourhood of man, and lead a harmless life, or become the scourge of
+            for ever the neighbourhood of man, and lead a harmless life, or become the scourge of
             your fellow-creatures, and the author of your own speedy ruin.”</p>
           <p>As he said this, he led the way across the ice: I followed. My heart was full, and I
             did not answer him; but, as I proceeded, I weighed the various arguments that he had
@@ -2386,8 +2382,8 @@
             exquisite and divine a retreat as Pandæmonium appeared to the dæmons of hell after their
             sufferings in the lake of fire. I greedily devoured the remnants of the shepherd’s
             breakfast, which consisted of bread, cheese, milk, and wine; the latter, however, I did
-            not like. <pb xml:id="F1818_v2_046" n="042"/><comment> the word 'Then' does not
-              appear on the PDF source, but was in the base converted text </comment>overcome by
+            not like. <pb xml:id="F1818_v2_046" n="042"/><comment text=" the word 'Then' does not
+              appear on the PDF source, but was in the base converted text "/>overcome by
             fatigue, I lay down among some straw, and fell asleep.</p>
           <p>“It was noon when I awoke; and, allured by the warmth of the sun, which shone brightly
             on the white ground, I determined to recommence my travels; and, depositing the remains
@@ -2458,7 +2454,7 @@
             of which the old man took no notice, until she sobbed audibly; he then pronounced a few
             sounds, and the fair creature, leaving her work, knelt at his feet. He raised her, and
             smiled with such kindness and affection, that I felt sensations of a peculiar and
-            over-powering nature: they were a mixture of pain and pleasure, such as I had never
+            overpowering nature: they were a mixture of pain and pleasure, such as I had never
             before experienced, either from hunger or cold, warmth or food; and I <pb
               xml:id="F1818_v2_053" n="049"/>withdrew from the window, unable to bear these
             emotions.</p>
@@ -2528,7 +2524,7 @@
             at first unable to solve these questions; but perpetual attention, and time, explained
             to me many appearances which were at first enigmatic.</p>
           <p><pb xml:id="F1818_v2_060" n="056"/>“A considerable period elapsed before I
-            discovered one of the causes of the uneasiness of this amiable family; it was poverty;
+            discovered one of the causes of the uneasiness of this amiable family; it was poverty:
             and they suffered that evil in a very distressing degree. Their nourishment consisted
             entirely of the vegetables of their garden, and the milk of one cow, who gave very
             little during the winter, when its masters could scarcely procure food to support it.
@@ -2564,7 +2560,7 @@
             the words <hi rend="italic">fire</hi>, <hi rend="italic">milk</hi>, <hi rend="italic"
               >bread</hi>, and <hi rend="italic">wood</hi>. I learned also the names of the
             cottagers themselves. The youth and his companion had each of them several names, but
-            the old man had only one, which was <hi rend="italic">father</hi>. The girl was called
+            the old man had only one, which was <hi rend="italic">father</hi>. The girl was called 
               <hi rend="italic">sister</hi>, or <hi rend="italic">Agatha</hi>; and the youth <hi
               rend="italic">Felix</hi>, <hi rend="italic">brother</hi>, or <hi rend="italic"
               >son</hi>. I cannot describe the delight I felt when I learned the ideas appropriated
@@ -2572,7 +2568,7 @@
             words, without being able as yet to understand or apply them; such as <hi rend="italic"
               >good</hi>, <hi rend="italic">dearest</hi>, <hi rend="italic">unhappy</hi>.</p>
           <p>“I spent the winter in this manner. The gentle manners and beauty of the <pb
-              xml:id="F1818_v2_064" n="060"/>cottagers greatly endeared them to me; when they
+              xml:id="F1818_v2_064" n="060"/>cottagers greatly endeared them to me: when they
             were unhappy, I felt depressed; when they rejoiced, I sympathized in their joys. I saw
             few human beings beside them; and if any other happened to enter the cottage, their
             harsh manners and rude gait only enhanced to me the superior accomplishments of my
@@ -2630,7 +2626,7 @@
             remainder of the day was spent in observing my friends. When they had retired to rest,
             if there was any moon, or the night was star-light, I went into the woods, and collected
             my own food and fuel for the cottage. When I returned, as often as it was necessary, I
-            cleared their path of the snow, and performed those offices that I had seen done by
+            cleared their path from the snow, and performed those offices that I had seen done by
             Felix. I afterwards found that these labours, performed by an invisible hand, greatly
             astonished them; and once or twice I heard them, on these <pb xml:id="F1818_v2_070"
               n="066"/>occasions, utter the words <hi rend="italic">good spirit</hi>, <hi
@@ -2647,9 +2643,9 @@
             and conciliating <pb xml:id="F1818_v2_071" n="067"/>words, I should first win their
             favour, and afterwards their love.</p>
           <p>“These thoughts exhilarated me, and led me to apply with fresh ardour to the acquiring
-            the art of language. My organs were indeed harsh, but supple: and although my voice was
+            the art of language. My organs were indeed harsh, but supple; and although my voice was
             very unlike the soft music of their tones, yet I pronounced such words as I understood
-            with tolerable ease. It was as the ass and the lap-dog; yet surely the gentle ass whose
+            with tolerable ease. It was as the ass and the lap-dog; yet surely the gentle ass, whose
             intentions were affectionate, although his manners were rude, deserved better treatment
             than blows and execration.</p>
           <p>“The pleasant showers and genial warmth of spring greatly altered the aspect of the
@@ -3760,8 +3756,8 @@
             overflowed with ardent affections, and his friendship was of that devoted and wondrous
             nature that the worldy-minded teach us to look for only in the imagination. But even
             human sympathies were not sufficient to satisfy his eager mind. The scenery of external
-            nature, which others regard only with admiration, he loved with ardour: <comment>
-              following poetry block is 2 points smaller than base text </comment>
+            nature, which others regard only with admiration, he loved with ardour: <comment text="
+              following poetry block is 2 points smaller than base text "/>
             <cit><quote><lg><l>——— “The sounding cataract</l>
                   <l>Haunted <hi rend="italic">him</hi> like a passion: the tall rock,</l>
                   <l>The mountain, and the deep and gloomy wood,</l>
@@ -3789,10 +3785,10 @@
             the white cliffs of Britain. The banks of the Thames presented a new scene; they were
             flat, but fertile, and almost every town was marked by the remembrance of some story. We
             saw Tilbury Fort, and remembered the Spanish armada; Gravesend, Woolwich, and Greenwich,
-            places which I had heard of even in my country.<comment><note type="editor" resp="rm"
-                >Mary Shelley’s text gives a date DECEMBER that cannot be reconciled with OCTOBER on
+            places which I had heard of even in my country.<comment elem="note" type="editor" resp="rm"
+                text="Mary Shelley’s text gives a date DECEMBER that cannot be reconciled with OCTOBER on
                 page 24. Text-base from original editors displays SEPTEMBER. Revised to match
-                original edition in PDF source.</note></comment></p>
+                original edition in PDF source."/></p>
           <p>At length, we saw the numerous steeples of London, St. Paul’s towering above all, and
             the Tower famed in English history.</p>
         </div><anchor type="collate" xml:id="C25"/>
@@ -4552,10 +4548,9 @@
             this for ever chained my tongue, when I would have given the whole world to have
             confided the fatal secret.</p>
           <p>
-            <comment><note type="editor" resp="rm">This block is NOT in the 1818 PDF. </note> rm:
-              Yet still words like those I have recorded would burst uncontrollably from me. I could
+            <comment elem="note" type="editor" resp="rm" text="This block at this point in the PAEE is NOT in the 1818 PDF. rm: Yet still words like those I have recorded would burst uncontrollably from me. I could
               offer no explanation of them; but their truth in part relieved the burden of my
-              mysterious woe.</comment>
+              mysterious woe."/>
           </p>
           <p>Upon this occasion my father said, with an expression of unbounded wonder, “What do you
             mean, Victor? <pb xml:id="F1818_v3_098" n="094"/>are you mad? My dear son, I entreat
@@ -5369,8 +5364,8 @@
         <p>It is past; I am returning to England. I have lost my hopes of utility and glory;—I have
           lost my friend. But I will endeavour to detail these bitter circumstances to you, my dear
           sister; and, while I am wafted towards England, and towards you, I will not despond.</p>
-        <p>September 19th, <comment><note type="editor" resp="rm">PDF displays 19 but correct date
-              should be SEPTEMBER 9</note></comment> the ice began to move, and roarings like
+        <p>September 19th, <comment elem="note" type="editor" resp="rm" text="PDF displays 19 but correct date
+              should be SEPTEMBER 9"/> the ice began to move, and roarings like
           thunder were heard at a distance, as the islands split and cracked in every direction. We
           were in the most imminent peril; but, as we could only remain passive, my chief attention
           was occupied by my unfortunate guest, whose illness increased in such a degree, that he
@@ -5582,5 +5577,5 @@
       <include href="standOff_Includes/1818_backMatter.xml" parse="xml"/>
     </div>
 
-  </text><anchor type="collate" xml:id="C34"/>
+  </text>
 </xml>
