@@ -48,14 +48,12 @@
 
           <specGrp xml:base="shelley-godwin-page.odd" xml:id="modules">
                         <moduleRef key="tei"></moduleRef>
-                        
-                        
                         <moduleRef except="am ex fw supplied surplus redo undo" key="transcr"></moduleRef>
                         <moduleRef key="gaiji"></moduleRef>
                         <moduleRef except="ab altGrp timeline" key="linking"></moduleRef>
-                        
                         <moduleRef include="figure figDesc" key="figures"></moduleRef>
-                        
+              <!--2017-08-15 ebb: Adding the w element for use in marking word boundaries. -->
+                        <moduleRef include="w" key="analysis"/>
                         
                         <elementRef key="c"></elementRef>
                     </specGrp>
@@ -227,7 +225,6 @@
                             <attDef ident="flipping" mode="delete"></attDef>
                         </attList>
                     </elementSpec>
-
                     
                     <elementSpec ident="line" mode="change" module="transcr">
                         <content>
@@ -251,6 +248,8 @@
                                 <elementRef key="handShift"></elementRef>
                                 <elementRef key="mod"></elementRef>
                                 <elementRef key="retrace"></elementRef>
+                                <!--2017-08-15 ebb: adding the w element here for marking portions of words -->
+                                <elementRef key="w"></elementRef>
                             </alternate>
                             
                         </content>
@@ -268,6 +267,19 @@
                                 as &lt;sic&gt;, and &lt;reg&gt;</p>
                         </remarks>
                     </elementSpec>
+              
+              <elementSpec ident="w" mode="change" module="analysis">
+                  <content/>
+                  <attList><attDef ident="ana" mode="add" usage="opt">
+                      <valList mode="add" type="closed">
+                          <valItem ident="start"/>
+                          <valItem ident="end"/>
+                      </valList>
+                  </attDef></attList>
+                  <remarks>
+                      <p>This was added by Elisa Beshero-Bondar for the Pittsburgh Frankenstein project in August 2017 in order to mark word boundaries for the purposes of collating the notebook text with the print editions. w should be a self-closing element.</p>
+                  </remarks>
+              </elementSpec>
 
                     <elementSpec ident="damage" mode="change" module="transcr">
                         <attList>
