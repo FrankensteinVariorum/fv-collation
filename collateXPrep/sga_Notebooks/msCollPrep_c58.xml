@@ -1,5 +1,6 @@
 <!--ebb 2017-08-09: This is the original schema line from the SGA GitHub repo. Uncomment this if we want to push it back to our SGA fork. <?xml-model href="../../schemata/shelley_godwin_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><!--<?xml-model href="../../schemata/shelley_godwin_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<?xml-model href="sga_schemata/shelley_godwin_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="sga_schemata/shelley_godwin_Pgh_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="sga_schemata/shelley_godwin_Pgh_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ox-ms_abinger_c58">
     <teiHeader>
       <!--2017-08-15 ebb: WORK WITH THIS FILE (the C58 notebook) FOR ADDING NEW PGH-FRANKENSTEIN MARKUP. This file is designed to validate (green square in oXygen) before we add tags to it. The file will validate with the SGA project Schematron rules here. 
@@ -13,10 +14,9 @@
                     <resp>Metadata editor</resp>
                     <name xml:id="RV">Raffaele Viglianti</name>
                 </respStmt>
-              <respStmt><resp>Additional markup for Pittsburgh Frankenstein Project, adding markup to designate word boundaries and prepare for automated collation:</resp>
+              <respStmt><resp><date when="2017-08">August 2017</date> Additional markup for Pittsburgh Frankenstein Project, adding markup to designate word boundaries and prepare for automated collation:</resp>
                 <name>Rikk Mulligan</name>
                 <name>Elisa Beshero-Bondar</name>
-                <date when="2017-08">August 2017</date>
               </respStmt>
             </titleStmt>
             <editionStmt>
@@ -503,7 +503,7 @@
     <line rend="indent2">I passed an hour in this state of mind when</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><d xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="8r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0015.xml" xml:id="ox-ms_abinger_c58-0015">
+        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5410" lry="6660" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="8r" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0015.xml" xml:id="ox-ms_abinger_c58-0015">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0015.jp2"></graphic>
   <zone type="pagination"><line>117</line></zone>
   <zone type="library"><line>8</line></zone>
@@ -545,7 +545,7 @@
         <add place="intralinear">i</add>
       </mod>nstant; the scream was repeated,</line>
   </zone>
-</d>
+</surface>
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5408" lry="6680" partOf="#ox-frankenstein_volume_iii" ulx="0" uly="0" mith:folio="8v" mith:shelfmark="MS. Abinger c. 58" xml:base="ox-ms_abinger_c58/ox-ms_abinger_c58-0016.xml" xml:id="ox-ms_abinger_c58-0016">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0016.jp2"></graphic>
   <zone type="pagination"><line>118</line></zone>
