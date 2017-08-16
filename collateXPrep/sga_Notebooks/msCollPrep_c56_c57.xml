@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><!--2017-08-09 ebb: This is the original schema line from the SGA GitHub repo. Uncomment this if we want to push it back to our SGA fork. <?xml-model href="../../schemata/shelley_godwin_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="sga_schemata/shelley_godwin_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ox-ms_abinger_c56">
+<?xml version="1.0" encoding="UTF-8"?><!--2017-08-09 ebb: This is the original schema line from the SGA GitHub repo. Uncomment this if we want to push it back to our SGA fork. <?xml-model href="../../schemata/shelley_godwin_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="sga_schemata/shelley_godwin_Pgh_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="sga_schemata/shelley_godwin_Pgh_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ox-ms_abinger_c56">
   
   <!--2017-08-15 ebb: WORK WITH THIS FILE (the C56-C57 notebook) FOR ADDING NEW PGH-FRANKENSTEIN MARKUP. This file is designed to validate (green square in oXygen) before we add tags to it. We're using the SGA project Schematron rules here, and I've commented out some empty <mod> elements that were raising validation errors so they don't get in the way of our work.
     I've added a respStmt here to indicate this is a new file for our use.
@@ -12,10 +14,9 @@
                     <resp>Metadata editor</resp>
                     <name xml:id="RV">Raffaele Viglianti</name>
                 </respStmt>
-              <respStmt><resp>Additional markup for Pittsburgh Frankenstein Project, adding markup to designate word boundaries and prepare for automated collation:</resp>
+              <respStmt><resp><date when="2017-08">August 2017</date> Additional markup for Pittsburgh Frankenstein Project, adding markup to designate word boundaries and prepare for automated collation:</resp>
               <name>Rikk Mulligan</name>
                 <name>Elisa Beshero-Bondar</name>
-                <date when="2017-08">August 2017</date>
               </respStmt>
             </titleStmt>
             <editionStmt>
@@ -3621,7 +3622,7 @@
   
   <zone corresp="#c56-0051.02" type="left_margin">
     <addSpan spanTo="#c56-0051.03"/>
-    <line>"<!--mod--><restore type="smear_strikethrough"><del rend="strikethrough">a year</del></restore><!--/mod--><del rend="smear"><add place="superlinear">y<hi rend="sup">r</hi>.</add></del> with</line>
+    <line>"<mod><restore type="smear_strikethrough"><del rend="strikethrough">a year</del></restore></mod><del rend="smear"><add place="superlinear">y<hi rend="sup">r</hi>.</add></del> with</line>
     <line>"out greek –I</line>
     <line>"eat heartily</line>
     <line>"without greek</line>
@@ -7274,7 +7275,7 @@
         <del rend="strikethrough">which</del>
         <add place="superlinear">&amp;</add>
       </mod> for a while</line>
-    <line><!--mod--><restore type="smear_strikethrough"><del rend="strikethrough">hi</del></restore><!--/mod-->des but
+    <line><mod><restore type="smear_strikethrough"><del rend="strikethrough">hi</del></restore></mod>des but
       cannot <mod>
         <del rend="strikethrough">disturb</del>
         <add hand="#pbs" place="superlinear">destroy</add>
@@ -8325,7 +8326,7 @@
       </mod>. For some time I</line>
     <line>sat upon the <del rend="strikethrough">the</del> rock that overlooks</line>
     <line>the sea of ice. A mist covered both</line>
-    <line>that and the surrounding <!--mod--><restore type="smear_strikethrough"><del rend="strikethrough">mo</del></restore><!--/mod-->untains</line>
+    <line>that and the surrounding <mod><restore type="smear_strikethrough"><del rend="strikethrough">mo</del></restore></mod>untains</line>
     <line>Presently a breeze dissipated the mist</line>
     <!--ligatured "ss" overlays "s" in "dissipated-->
     <line>and I descended on the <mod>
@@ -13304,7 +13305,7 @@
     <line>situations of the different countries</line>
     <line><anchor xml:id="c57-0057.02"/>You had mentioned Geneva as</line>
     <line>the name of your native town</line>
-    <line>&amp; to<!--mod--><restore type="stetdots"><del rend="strikethrough">wards</del></restore><!--/mod--> this
+    <line>&amp; to<mod><restore type="stetdots"><del rend="strikethrough">wards</del></restore></mod> this
       place I resolved to</line>
     <line rend="indent3">proceed.</line>
   </zone>
@@ -15187,8 +15188,8 @@
     <line>out to me the shifting colours <del rend="strikethrough"><unclear>l</unclear></del> of
       the</line>
     <line>landscape &amp; the appearances of the</line>
-    <line>sky. <!--mod--><restore type="smear_strikethrough"><del rend="strikethrough">"</del></restore><!--/mod-->This
-      is what it is to live<!--mod--><restore type="smear_strikethrough"><del rend="strikethrough">"</del></restore><!--/mod-->, he cried,</line>
+    <line>sky. <mod><restore type="smear_strikethrough"><del rend="strikethrough">"</del></restore></mod>This
+      is what it is to live<mod><restore type="smear_strikethrough"><del rend="strikethrough">"</del></restore></mod>, he cried,</line>
     <line>now I enjoy existence. But you, my</line>
     <line>dear Frankenstein, <mod>
         <del rend="strikethrough">are</del>
@@ -15763,7 +15764,7 @@
         <add place="superlinear">crown</add>
       </mod> of distant white alps</line>
     <line>which always attend on the piny <!--mod  spanTo="#c57-0096.05"--><del rend="strikethrough">hills</del></line>
-    <line><!--mod--><restore hand="#pbs" type="underline"><del rend="strikethrough">mountains</del></restore><!--/mod--><anchor xml:id="c57-0096.05"/> of our country. We visited</line>
+    <line><mod><restore hand="#pbs" type="underline"><del rend="strikethrough">mountains</del></restore></mod><anchor xml:id="c57-0096.05"/> of our country. We visited</line>
     <line>the wondrous cave &amp; the <del rend="strikethrough">the</del> little cabinets</line>
     <line>of natural history where the curiosities</line>
     <line>are disposed in the same manner</line>
@@ -16329,7 +16330,7 @@
         <add place="intralinear">n</add>
       </mod> me;</line>
     <line>I shud<del rend="strikethrough">d</del>ered to think that future ages might</line>
-    <line>curse me as their pest whose <!--mod--><restore type="smear_strikethrough"><del rend="strikethrough">selfishness</del></restore><!--/mod--></line>
+    <line>curse me as their pest whose <mod><restore type="smear_strikethrough"><del rend="strikethrough">selfishness</del></restore></mod></line>
     <line>had not hesitated to buy its own peace at</line>
     <line>the price perhaps of the <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
@@ -17105,8 +17106,8 @@
     <line><del rend="strikethrough">The sun &amp; ea</del> I must pause <del rend="strikethrough">for the</del></line>
     <line><del rend="unmarked">sc</del><del rend="strikethrough">ene which I shall now
         relate</del><add hand="#pbs" place="superlinear">for it</add> requires</line>
-    <line><!--mod--><restore type="smear_strikethrough"><del rend="strikethrough">all my
-        fortitude</del></restore><!--/mod-->
+    <line><mod><restore type="smear_strikethrough"><del rend="strikethrough">all my
+        fortitude</del></restore></mod>
       <delSpan rend="strikethrough" spanTo="#c57-0116.01"/>&amp; strength to suffer</line>
     <line>me<anchor xml:id="c57-0116.01"/> to recall <mod>
         <del rend="overwritten">its</del>
@@ -19029,8 +19030,8 @@
     <line>that this one day at least permits me</line>
     <line>to enjoy.</line>
     <milestone unit="tei:p"/>
-    <line rend="indent2">Be happy, my dear Victor, <!--mod--><restore next="#c57-0145.01" type="stetdots"><del next="#c57-0145.02" rend="strikethrough">replied Eliza</del></restore><!--/mod--></line>
-    <line><!--mod--><restore type="stetdots" xml:id="c57-0145.01"><del rend="strikethrough" xml:id="c57-0145.02">beth</del></restore><!--/mod--> — there is I hope nothing to distress
+    <line rend="indent2">Be happy, my dear Victor, <mod><restore next="#c57-0145.01" type="stetdots"><del next="#c57-0145.02" rend="strikethrough">replied Eliza</del></restore></mod></line>
+    <line><mod><restore type="stetdots" xml:id="c57-0145.01"><del rend="strikethrough" xml:id="c57-0145.02">beth</del></restore></mod> — there is I hope nothing to distress
       you;</line>
     <line>and be assured that if a lively joy is not</line>
     <line>painted in my face my heart is content.</line>
@@ -20126,7 +20127,7 @@
     <line>heard &amp; approved my <mod>
         <del rend="strikethrough">oath</del>
         <add place="superlinear">devotion</add>
-      </mod> – But the <!--mod--><restore type="smear_strikethrough"><del rend="strikethrough">furies</del></restore><!--/mod--></line>
+      </mod> – But the <mod><restore type="smear_strikethrough"><del rend="strikethrough">furies</del></restore></mod></line>
     <line>possessed me as I concluded it &amp; <mod>
         <del rend="strikethrough">I was</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
@@ -20853,7 +20854,7 @@
     <line>conception that vessels ever came so</line>
     <line>far north &amp; was astounded the sight.</line>
     <line><del rend="strikethrough">bu and</del>
-      <!--mod--><restore type="smear_strikethrough"><del rend="strikethrough">I quic</del></restore><!--/mod-->kly destroy<mod>
+      <mod><restore type="smear_strikethrough"><del rend="strikethrough">I quic</del></restore></mod>kly destroy<mod>
         <del rend="overwritten">in</del>
         <add place="intralinear">ed</add>
         <del rend="strikethrough">g</del>
