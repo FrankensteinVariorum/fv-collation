@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!--2017-08-09 ebb: This is the original schema line from the SGA GitHub repo. Uncomment this if we want to push it back to our SGA fork. <?xml-model href="../../schemata/shelley_godwin_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="sga_schemata/shelley_godwin_Pgh_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="sga_schemata/shelley_godwin_Pgh_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><!--2017-08-09 ebb: This is the original schema line from the SGA GitHub repo. Uncomment this if we want to push it back to our SGA fork. <?xml-model href="../../schemata/shelley_godwin_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="sga_schemata/shelley-godwin-Pgh.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="sga_schemata/shelley-godwin-Pgh.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ox-ms_abinger_c56">
   
   <!--2017-08-15 ebb amended 2017-09-11: WORK WITH THIS FILE (the C57 notebook) FOR ADDING NEW PGH-FRANKENSTEIN MARKUP. This file is designed to validate (green square in oXygen) before we add tags to it. We're using the SGA project Schematron rules here, and I've commented out some empty <mod> elements that were raising validation errors so they don't get in the way of our work.
@@ -145,8 +145,8 @@
     <line>sensation <del rend="strikethrough">sea</del> seized me <del rend="strikethrough">and a it
         appeared</del></line>
     <line>I saw, felt heard and smelt at the same</line>
-    <line>time and it was indeed a long time be</line>
-    <line>fore I learned to distinguish between the</line>
+    <line>time and it was indeed a long time <w ana="start"/>be</line>
+    <line>fore<w ana="end"/> I learned to distinguish between the</line>
     <line><anchor xml:id="c57-0002.01"/><del rend="unmarked"><retrace cause="unclear"><unclear>op</unclear></retrace></del>operations of my various senses. By degrees</line>
     <line>I remember a stronger light pressed upon</line>
     <line>my nerves <del rend="strikethrough">and</del> so that I was obliged to close</line>
@@ -278,20 +278,20 @@
                 <del rend="strikethrough">anih</del>
                 <add hand="#pbs" place="superlinear">winged</add>
             </mod></line>
-        <line>a<mod>
+        <line><w ana="start"/>a<mod>
                 <del rend="overwritten">m</del>
                 <add place="intralinear">ni</add>
-            </mod>mals who often intercepted the light</line>
+            </mod>mals<w ana="end"/> who often intercepted the light</line>
         <line>from my eyes. I began also to see <del rend="strikethrough">an</del></line>
         <line>with <del rend="strikethrough">forms</del> greater accuracy the forms</line>
         <line>that surrounded me and to perceive</line>
         <line>the boundaries of the radiant light which</line>
-        <line><del rend="strikethrough">overspeaed my dwelling</del> canopied me.–some</line>
-        <line>times I tried to imitate <add place="superlinear">the</add> pleasant songs of</line>
+        <line><del rend="strikethrough">overspeaed my dwelling</del> canopied me.–<w ana="start"/>some</line>
+        <line>times<w ana="end"/> I tried to imitate <add place="superlinear">the</add> pleasant songs of</line>
         <line>the birds but was unable— Sometimes I</line>
         <line><del rend="strikethrough">also</del> wished to express my sensations in</line>
-        <line>my own mode but <add hand="#pbs" place="superlinear">the</add> unco<add hand="#pbs" place="superlinear">u</add>th and innarticu</line>
-        <line>late sound <add hand="#pbs" place="superlinear">which</add> broke from me <del rend="strikethrough">which</del> frightened</line>
+        <line>my own mode but <add hand="#pbs" place="superlinear">the</add> unco<add hand="#pbs" place="superlinear">u</add>th and <w ana="start"/>innarticu</line>
+        <line>late<w ana="end"/> sound <add hand="#pbs" place="superlinear">which</add> broke from me <del rend="strikethrough">which</del> frightened</line>
         <line>me into silence again.</line>
         <milestone unit="tei:p"/>
         <line><space extent="5" unit="chars"/>The moon had dissapeared from the night, &amp;</line>
@@ -312,18 +312,20 @@
                 <add place="superlinear">ideas.</add>
             </mod> My eyes</line>
         <line>became accustomed to the light and to</line>
-        <line>perceive objects in their right forms; I distin</line>
+        <line>perceive objects in their right forms; I <w ana="start"/>distin</line>
     </zone>
     
-</surface>
+</surface><!--2017-09-24 ebb: PROBLEM: the marginal additions on the following page (and presumably elsewhere) are coded at the end of the page. 
+PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequential location.
+-->
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="3r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0005.xml" xml:id="ox-ms_abinger_c57-0005">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0005.jp2"/>
   <zone rend="bordered" type="pagination"><line>4</line></zone>
   <zone type="library"><line>3</line></zone>
-  <zone type="main">
+     <zone type="main"><zone corresp="#c57-0005.01" type="left_margin"><line><add>guished<w ana="end"/> the</add></line></zone>
     <line><anchor xml:id="c57-0005.01"/><del rend="strikethrough">insect</del> insect from the herb,
-      and by de</line>
-    <line>grees one herb from <del rend="strikethrough">a</del> another – I found</line>
+      and by <w ana="start"/>de</line>
+    <line>grees<w ana="end"/> one herb from <del rend="strikethrough">a</del> another – I found</line>
     <line>that the sparrow uttered none but harsh</line>
     <line>notes <mod>
         <del rend="strikethrough">and</del>
@@ -338,14 +340,26 @@
     <line>and enticing. <del rend="strikethrough">I had <unclear>le</unclear></del> one day when I
       was</line>
     <line>oppressed by cold I found a fire that</line>
-    <line>had been left by some wandering beg</line>
-    <line>gars and was over come with delight<mod>
+    <line>had been left by some wandering <w ana="start"/>beg</line>
+    <line>gars<w ana="end"/> and was over come with delight<mod>
         <del rend="overwritten">.</del>
         <add place="intralinear"><metamark function="displacement" xml:id="c57-0005.02">X</metamark></add>
       </mod></line>
+    <zone corresp="#c57-0005.02" type="left_margin">
+      <addSpan hand="#pbs" spanTo="#c57-0005.03"/>
+      <line><metamark function="displacement">X</metamark></line>
+      <line> at the warmth</line>
+      <line>which I ex-</line>
+      <line>perienced from</line>
+      <line>it.</line>
+      <anchor xml:id="c57-0005.03"/>
+    </zone>
     <line>In my joy I thrust my hand into the</line>
     <line>live embers but quickly drew it away <!--mod  spanTo="#c57-0005.04"--><add place="superlinear">with a cry</add>
       <del rend="strikethrough">in</del></line>
+    <zone corresp="#c57.0005.05" type="left_margin">
+      <line><add>of </add></line>
+    </zone>
     <line><anchor xml:id="c57-0005.05"/><anchor xml:id="c57-0005.04"/>pain– How strange, I
       thought, that the</line>
     <line>same cause should at once produce</line>
@@ -363,10 +377,13 @@
         <del rend="strikethrough">became dy dry</del>
         <add place="superlinear">dried,</add>
       </mod> and itself <del rend="strikethrough">became</del> became</line>
+    
     <line><mod>
         <del rend="strikethrough">hot</del>
-        <anchor xml:id="c57-0005.06"/>
-      </mod> I reflected on this, and by touching</line>
+      <anchor xml:id="c57-0005.06"/>
+    </mod><zone corresp="#c57-0005.06" type="left_margin">
+      <line><add>inflamed.</add></line>
+    </zone> I reflected on this, and by touching</line>
     <line>the various branches I discovered the cause</line>
     <line>and busied myself in collecti<mod>
         <del rend="overwritten">on</del>
@@ -387,29 +404,6 @@
     <line>and leaves &amp; then placed upon that wet</line>
     <line>branches and then spreading my cloak I <del rend="strikethrough">la</del></line>
   </zone>
-
-  <zone corresp="#c57-0005.01" type="left_margin">
-    <line><add>guished the </add></line>
-  </zone>
-
-  <zone corresp="#c57-0005.02" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c57-0005.03"/>
-    <line><metamark function="displacement">X</metamark></line>
-    <line> at the warmth</line>
-    <line>which I ex-</line>
-    <line>perienced from</line>
-    <line>it.</line>
-    <anchor xml:id="c57-0005.03"/>
-  </zone>
-
-  <zone corresp="#c57.0005.05" type="left_margin">
-    <line><add>of </add></line>
-  </zone>
-  
-  <zone corresp="#c57-0005.06" type="left_margin">
-    <line><add>inflamed.</add></line>
-  </zone>
-
 </surface>
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="3v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0006.xml" xml:id="ox-ms_abinger_c57-0006">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0006.jp2"/>
@@ -423,15 +417,15 @@
     <line>when I<anchor xml:id="c57-0006.01"/> It was morning when I awoke &amp; my</line>
     <line>first care was to visit the fire –I uncovered</line>
     <line>it and <del rend="strikethrough">th</del> a gentle breeze quickly fanned it</line>
-    <line>into a flame I observed this also and contri</line>
-    <line>ved a fan of branches which roused the</line>
+    <line>into a flame I observed this also and <w ana="start"/>contri</line>
+    <line>ved<w ana="end"/> a fan of branches which roused the</line>
     <line>embers when thy were nearly extinguished.</line>
-    <line>When night again came I found with plea</line>
-    <line>sure that the fire gave light as well</line>
+    <line>When night again came I found with <w ana="start"/>plea</line>
+    <line>sure<w ana="end"/> that the fire gave light as well</line>
     <line>as heat <del rend="strikethrough">and I often</del> and the discovery of this</line>
     <line>element was useful to me also in my food–</line>
-    <line>for I found some of offals that the travel</line>
-    <line>lers had left had been roasted and tasted</line>
+    <line>for I found some of offals that the <w ana="start"/>travel</line>
+    <line>lers<w ana="end"/> had left had been roasted and tasted</line>
     <line>much more savoury than the berries</line>
     <line>I gathered; I tried therefore to dress my food</line>
     <line>in the same manner, placing them</line>
@@ -446,8 +440,8 @@
     <line><mod>
         <del rend="strikethrough">a place</del>
         <add place="superlinear">one</add>
-      </mod> where the few wants I expe</line>
-    <line>rienced would be more easily satisfied.</line>
+      </mod> where the few wants I <w ana="start"/>expe</line>
+    <line>rienced<w ana="end"/> would be more easily satisfied.</line>
     <line>In this emigration I <mod>
         <del rend="strikethrough">extremely</del>
         <add place="superlinear">exceedingly</add>
@@ -458,12 +452,10 @@
     <line><mod>
         <del rend="strikethrough">This</del>
         <anchor xml:id="c57-0006.02"/>
-      </mod> obtained my serious consideration for</line>
+    </mod> <zone corresp="#c57-0006.02" type="left_margin">
+      <line><add hand="#pbs">this deficiency</add></line>
+    </zone> obtained my serious consideration for</line>
     <line>several hours but I was obliged to <del rend="strikethrough">leave it</del></line>
-  </zone>
-
-  <zone corresp="#c57-0006.02" type="left_margin">
-    <line><add hand="#pbs">this deficiency</add></line>
   </zone>
 </surface>
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="4r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0007.xml" xml:id="ox-ms_abinger_c57-0007">
@@ -3600,7 +3592,7 @@
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">for many months</add></del>
       </mod> unknown to them been</line>
-    <line><anchor xml:id="c57-0002.03"/>in the habits of daily kindness towards them,</line>
+    <line><anchor xml:id="c57-0048.03"/>in the habits of daily kindness towards them,</line>
     <line>but they believe that I wish to injure</line>
     <line>them and it is that prejudice which</line>
     <line>I wish to over come.</line>
