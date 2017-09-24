@@ -275,6 +275,9 @@
                           <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:w">
                               <sch:report test="not(@ana)">The w element must carry an ana attribute to designate whether it comes before the "start" or after the "end" of a word.</sch:report>
                           </sch:rule>
+                          <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:w">
+                              <sch:report test="@ana = following::tei:w[1]/@ana">The w element that follows this must NOT have the same value for @ana. "Start" w's must be followed by "end" w's, and vice versa.</sch:report>
+                              </sch:rule>
                       </constraint>
                   </constraintSpec>
                   <attList><attDef ident="ana" mode="add" usage="req">
@@ -283,7 +286,6 @@
                           <valItem ident="end"/>
                       </valList>
                   </attDef></attList>
-                  
                   <remarks>
                       <p>This was added by Elisa Beshero-Bondar for the Pittsburgh Frankenstein project in August 2017 in order to mark word boundaries for the purposes of collating the notebook text with the print editions. w should be a self-closing element.</p>
                   </remarks>
@@ -625,7 +627,7 @@
                     </specGrp>
           
           <specGrpRef target="#modules"></specGrpRef>
-          <moduleRef except="abbr analytic biblScope biblStruct              binaryObject cb choice cit distinct divGen editor email expan gb gloss              head headItem headLabel imprint l label lb listBibl lg measure              meeting mentioned monogr pb postBox postCode publisher              q quote said series soCalled sp street teiCorpus textLang time sic corr reg orig" key="core"></moduleRef>
+          <moduleRef except="abbr analytic biblScope biblStruct binaryObject cb choice cit distinct divGen editor email expan gb gloss head headItem headLabel imprint l label lb listBibl lg measure meeting mentioned monogr pb postBox postCode publisher q quote said series soCalled sp street teiCorpus textLang time sic corr reg orig" key="core"></moduleRef>
           <moduleRef key="header"></moduleRef>
           <moduleRef key="textstructure"></moduleRef>
           <moduleRef key="msdescription"></moduleRef>
