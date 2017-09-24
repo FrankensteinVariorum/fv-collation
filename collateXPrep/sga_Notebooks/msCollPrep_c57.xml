@@ -461,7 +461,13 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="4r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0007.xml" xml:id="ox-ms_abinger_c57-0007">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0007.jp2"/>
   <zone rend="bordered" type="pagination"><line>6</line></zone>
-  <zone type="main">
+          <zone type="main"> <zone corresp="#c57-0007.01" type="left_margin">
+            <addSpan hand="#pbs" spanTo="#c57-0007.02"/>
+            <line>relinquish all</line>
+            <line>attempts to</line>
+            <line>supply it, </line>
+            <anchor xml:id="c57-0007.02"/>
+          </zone>
     <line><anchor xml:id="c57-0007.01"/>and wrapp<mod>
         <del rend="overwritten"><unclear>r</unclear></del>
         <add place="intralinear">i</add>
@@ -484,8 +490,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       been</line>
     <line>built for the convenience of <del rend="strikethrough">the</del></line>
     <line>some sheph<add place="intralinear">e</add>ard. This was a new sight</line>
-    <line>to me and I examined the <del rend="strikethrough">stu</del> struc</line>
-    <line>ture of it with great curiosity. <del rend="strikethrough">and</del></line>
+    <line>to me and I examined the <del rend="strikethrough">stu</del> <w ana="start"/>struc</line>
+    <line>ture<w ana="end"/> of it with great curiosity. <del rend="strikethrough">and</del></line>
     <line>finding the door open I entered. An old</line>
     <line>man sat <del rend="strikethrough">it</del> in it, near a fire <mod>
         <del rend="strikethrough">on</del>
@@ -495,7 +501,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>which he was preparing his breakfast</line>
     <line>he turned <del rend="strikethrough">of</del> on hearing a noise <del rend="strikethrough">&amp;</del>
       <del rend="strikethrough">on</del></line>
-    <line><anchor xml:id="c57-0007.03"/>perceiving <add place="superlinear">me</add>
+            <line><zone corresp="#c57-0007.03" type="left_margin">
+              <line><add>and </add></line>
+            </zone><anchor xml:id="c57-0007.03"/>perceiving <add place="superlinear">me</add>
       shrieked loudly and quiting</line>
     <line>the hut ran across the fields with</line>
     <line>a speed <del rend="strikethrough">little</del> of which his debilitated form</line>
@@ -511,28 +519,23 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <del rend="strikethrough">appeared</del>
         <add place="superlinear">presented</add>
       </mod> to me then</line>
-    <line>as <del rend="strikethrough">heavenly and divine</del> exquisite &amp; di</line>
+    <line>as <del rend="strikethrough">heavenly and divine</del> exquisite &amp; <w ana="start"/>di</line>
   </zone>
 
-  <zone corresp="#c57-0007.01" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c57-0007.02"/>
-    <line>relinquish all</line>
-    <line>attempts to</line>
-    <line>supply it, </line>
-    <anchor xml:id="c57-0007.02"/>
-  </zone>
-
-  <zone corresp="#c57-0007.03" type="left_margin">
-    <line><add>and </add></line>
-  </zone>
+  
 </surface>
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="4v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0008.xml" xml:id="ox-ms_abinger_c57-0008">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0008.jp2"/>
   <zone rend="bordered" type="pagination"><line>7</line></zone>
   <zone type="main">
-    <line>vine a retreat as Pandemonium appeared</line>
+    <line>vine<w ana="end"/> a retreat as Pandemonium appeared</line>
     <line>to the <del rend="strikethrough"><unclear>tr</unclear></del> dominions of Hell<del rend="unmarked">.</del>
-      <add hand="#pbs" place="superlinear">after thier suffocation in the </add><anchor xml:id="c57-0008.01"/> I greedily</line>
+      <add hand="#pbs" place="superlinear"> after thier suffocation in the </add><anchor xml:id="c57-0008.01"/> <zone corresp="#c57-0008.01" type="left_margin">
+        <addSpan hand="#pbs" spanTo="#c57-0008.02"/>
+        <line>lake of</line>
+        <line>fire. </line>
+        <anchor xml:id="c57-0008.02"/>
+      </zone> I greedily</line>
     <line>devoured the rem<mod>
         <del rend="overwritten">m</del>
         <add place="intralinear">n</add>
@@ -544,22 +547,24 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>&amp; fell asleep.</line>
     <milestone unit="tei:p"/>
     <line rend="indent2">It was noon when I awoke and allured</line>
-    <line>by the <del rend="strikethrough">warth</del> warmth of the sun I deter</line>
-    <line>mined to recommence my travels–&amp;<mod>
+    <line>by the <del rend="strikethrough">warth</del> warmth of the sun I <w ana="start"/>deter</line>
+    <line>mined<w ana="end"/> to recommence my travels–&amp;<mod>
         <del rend="strikethrough">wrapping</del>
         <del rend="strikethrough"><add place="superlinear">dep</add></del>
         <anchor xml:id="c57-0008.03"/></mod></line>
-    <line>the <mod>
+    <line><zone corresp="#c57-0008.03" type="left_margin">
+      <line><add>depositing</add></line>
+    </zone> the <mod>
         <del rend="strikethrough">rest</del>
         <add place="superlinear">remains</add>
-      </mod> of the <del rend="strikethrough">herds bre</del> peasants break</line>
-    <line>fast in a wallet I found, I proceeded</line>
+      </mod> of the <del rend="strikethrough">herds bre</del> peasants <w ana="start"/>break</line>
+    <line>fast<w ana="end"/> in a wallet I found, I proceeded</line>
     <line>across the fields for several hours, untill</line>
     <line>at sunset I <mod>
         <del rend="strikethrough">came to</del>
         <add hand="#pbs" place="superlinear">arrived at</add>
-      </mod> a village. How mira</line>
-    <line>culous did this appear. The huts the neater</line>
+      </mod> a village. How <w ana="start"/>mira</line>
+    <line>culous<w ana="end"/> did this appear. The huts the neater</line>
     <line>cottages &amp; stat<mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">e</add>
@@ -577,8 +582,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <del rend="strikethrough">inside</del>
         <add hand="#pbs" place="superlinear">within</add>
       </mod> the door before the</line>
-    <line>children shrieked and one of the <delSpan rend="strikethrough" spanTo="#c57-0008.04"/>child</line>
-    <line>ren<anchor xml:id="c57-0008.04"/> women fainted, the village was roused</line>
+    <line>children shrieked and one of the <delSpan rend="strikethrough" spanTo="#c57-0008.04"/><w ana="start"/>child</line>
+    <line>ren<w ana="end"/><anchor xml:id="c57-0008.04"/> women fainted, the village was roused</line>
     <line>some fled,—some attacked me untill</line>
     <line>grievously bruised by <mod>
         <del rend="strikethrough">sticks</del>
@@ -586,17 +591,6 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add place="superlinear">stones</add>
       </mod> and <del rend="strikethrough">all</del></line>
     <line>many other kinds of missile weapon I</line>
-  </zone>
-
-  <zone corresp="#c57-0008.01" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c57-0008.02"/>
-    <line>lake of</line>
-    <line>fire. </line>
-    <anchor xml:id="c57-0008.02"/>
-  </zone>
-
-  <zone corresp="#c57-0008.03" type="left_margin">
-    <line><add>depositing</add></line>
   </zone>
 </surface>
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="5r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0009.xml" xml:id="ox-ms_abinger_c57-0009">
@@ -622,15 +616,19 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>I dared not enter it. My place of refuge<add place="superlinear"><metamark function="displacement" xml:id="c57-0009.04">X</metamark></add></line>
     <line><delSpan rend="vertical_line" spanTo="#c57-0009.01"/><del rend="strikethrough">was the
         tool house and had not been</del></line>
-    <line><anchor xml:id="c57-0009.02"/>used <del rend="strikethrough">for</del> by the
-      inhabitants of the ad</line>
-    <line>joining dwelling and was entirely shut</line>
+    <line><anchor xml:id="c57-0009.02"/><zone corresp="#c57-0009.02" type="left_margin">
+      <add>was not </add>
+    </zone>used <del rend="strikethrough">for</del> by the
+      inhabitants of the <w ana="start"/>ad</line>
+    <line>joining<w ana="end"/> dwelling and was entirely shut</line>
     <line>out from view by a pigstye on one</line>
     <line>side and a dunghill &amp; small <del rend="strikethrough">s</del>pool</line>
     <line>on <del rend="strikethrough">the</del> another – the two others were</line>
     <line>formed by the wall of the cottage<unclear>.</unclear><anchor xml:id="c57-0009.01"/>
       Here</line>
-    <line><anchor xml:id="c57-0009.03"/>I retreated and lay down happy to have</line>
+    <line><anchor xml:id="c57-0009.03"/><zone corresp="#c57-0009.03" type="left_margin">
+      <add>then </add>
+    </zone>I retreated and lay down happy to have</line>
     <line>found a shelter from the inclemency</line>
     <line>of the season &amp; still more from the</line>
     <line>barbarity of man</line>
@@ -652,17 +650,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>&amp; rain</line>
     <anchor xml:id="c57-0009.05"/>
   </zone>
-
-  <zone corresp="#c57-0009.02" type="left_margin">
-    <add>was not </add>
-  </zone>
-
-  <zone corresp="#c57-0009.03" type="left_margin">
-    <add>then </add>
-  </zone>
-
-
 </surface>
+<!--2017-09-24 ebb: ALTERED FOR COLLATION TO HERE. -->
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="5v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0010.xml" xml:id="ox-ms_abinger_c57-0010">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0010.jp2"/>
   <zone rend="bordered" type="pagination"><line>9</line></zone>
