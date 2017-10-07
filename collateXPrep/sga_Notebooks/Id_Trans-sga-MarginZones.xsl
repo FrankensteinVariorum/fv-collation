@@ -9,11 +9,17 @@
     
     <!-- -->
   
-  <xsl:template match="*[@xml:id = //zone[@type='left_margin']/substring-after(@corresp, '#')]">
-      <xsl:copy-of select="current()"/><xsl:copy-of select="//zone[@type='left_margin'][substring-after(@corresp, '#') = current()/@xml:id]"/>
+<xsl:template match="*[@xml:id = //zone[@type='left_margin']/substring-after(@corresp, '#')]">
+      <xsl:copy-of select="current()"/>
+    <xsl:variable name="leftMarginMatch" select="//zone[@type='left_margin'][substring-after(@corresp, '#') = current()/@xml:id]"/>   
+    <xsl:for-each select="$leftMarginMatch">
+    <xsl:copy-of select="."/>
+    </xsl:for-each>
   </xsl:template>  
     
-  <xsl:template match="zone[@type='left_margin'][@corresp]"/><!--2017-09-26 ebb: PROBLEM: This is eliminating 2 zone elements. There are 172 left margin zones, and 170 in the output. -->
+  <!--<xsl:template match="zone[@type='left_margin'][@corresp][substring-after(@corresp, '#') = //@xml:id]"/>-->
+  
+  <!--2017-09-26 ebb: PROBLEM: This is eliminating 2 zone elements in c56. There are 172 left margin zones, and 170 in the output. -->
     <!--2017-09-25 ebb: Activating this would remove all the ?xml-model processing instruction lines at the head of each page of code in the sga file.
   <xsl:template match="processing-instruction('xml-model')"/>
      -->
