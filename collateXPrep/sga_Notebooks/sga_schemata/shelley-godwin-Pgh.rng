@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-10-08T20:51:09Z. .
+Schema generated from ODD source 2017-10-08T23:51:53Z. .
 TEI Edition: Version 3.2.0. Last updated on
 	10th July 2017, revision 0fcf651
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.2.0/
@@ -3496,6 +3496,9 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                <text/>
                <ref name="sgazone"/>
                <ref name="sgaw"/>
+               <ref name="sgaretrace"/>
+               <ref name="sgaptr"/>
+               <ref name="sgamilestone"/>
                <ref name="sgametamark"/>
                <ref name="sgaadd"/>
                <ref name="sgadel"/>
