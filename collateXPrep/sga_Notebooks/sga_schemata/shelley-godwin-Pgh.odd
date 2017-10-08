@@ -329,6 +329,7 @@
                           <alternate maxOccurs="unbounded" minOccurs="0">
                            <textNode></textNode>
                           <elementRef key="zone"></elementRef>
+                          <elementRef key="w"></elementRef>
                           <elementRef key="metamark"></elementRef>
                           <elementRef key="add"></elementRef>
                           <elementRef key="del"></elementRef>
