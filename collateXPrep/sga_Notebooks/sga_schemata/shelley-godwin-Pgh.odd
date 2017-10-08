@@ -325,6 +325,21 @@
                     </elementSpec>
 
                     <elementSpec ident="add" mode="change" module="core">
+                      <content>
+                          <alternate maxOccurs="unbounded" minOccurs="0">
+                           <textNode></textNode>
+                          <elementRef key="zone"></elementRef>
+                          <elementRef key="metamark"></elementRef>
+                          <elementRef key="add"></elementRef>
+                          <elementRef key="del"></elementRef>
+                          <elementRef key="unclear"></elementRef>
+                          <elementRef key="note"></elementRef>
+                          <elementRef key="space"></elementRef>
+                          <elementRef key="anchor"></elementRef>
+                          <elementRef key="mod"></elementRef>
+                          <elementRef key="hi"></elementRef>
+                         </alternate>
+                      </content>
                         <attList>
                             <attDef ident="place" mode="replace">
                                 <valList mode="replace" type="closed">
@@ -530,6 +545,7 @@
                                 <classRef key="model.phrase"></classRef>
                                 <classRef key="model.inter"></classRef>
                                 <classRef key="model.global"></classRef>
+                                <elementRef key="zone"></elementRef>
                             </alternate>
                         </content>
                         <constraintSpec ident="modContents" scheme="isoschematron">
