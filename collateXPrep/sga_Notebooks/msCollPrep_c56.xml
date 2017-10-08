@@ -175,8 +175,8 @@
   <zone type="main">
     <handShift medium="pen" new="#mws"/>
     <line rend="center"><milestone spanTo="#c56-0005.06" unit="tei:head"/>Chapt. 2<anchor xml:id="c56-0005.06"/></line>
-    <line>Those events which materially influence our fu</line>
-    <line>ture destinies <del rend="strikethrough">are</del> often <mod>
+    <line>Those events which materially influence our <w ana="start"/>fu</line>
+    <line>ture<w ana="end"/> destinies <del rend="strikethrough">are</del> often <mod>
         <del rend="strikethrough">caused</del>
         <del rend="strikethrough">by slight or</del>
         <add hand="#pbs" place="superlinear">derive thier origin from a</add>
@@ -252,6 +252,7 @@
     <line>your time upon this – it is sad trash.</line>
     <line>If instead of this remark or rather <w ana="start"/>excla</line>
     <line>mation<w ana="end"/> my father had taken the pains to</line>
+    <!-- Q: RM 10/08/2017: how do we wrap a word when the edits give it to separate endings? -->
     <line>exp<mod>
         <del rend="strikethrough">ound</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
@@ -314,7 +315,7 @@
         <del rend="strikethrough">discover</del>
         <add hand="#pbs" place="superlinear">communicate</add>
       </mod> these secret stores</line>
-    <line>of knowledge <del rend="strikethrough">from</del> to my father yet his in</line>
+    <line>of knowledge <del rend="strikethrough">from</del> to my father yet his <w ana="start"/>in</line>
   </zone>
 </surface>
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="2r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0007.xml" xml:id="ox-ms_abinger_c56-0007">
@@ -323,7 +324,7 @@
   <zone type="library"><line>2</line></zone>
 
   <zone type="main">
-    <line>definite censure of my favorite Agrippa,</line>
+    <line>definite<w ana="end"/> censure of my favorite Agrippa,</line>
     <line>always withheld me. <del rend="strikethrough">I let</del> I disclosed my secret</line>
     <line>to Elizabeth therefore, under a strict promise</line>
     <line>of secrecy; but she did not interest herself</line>
@@ -449,10 +450,11 @@
         <del rend="strikethrough">cocc</del>
         <add hand="#pbs" place="superlinear">should</add>
       </mod></line>
-    <line>occup<mod>
+    <!-- Q RM 10/08/2017: so many variances - do we tag or not? the word will render as occup/ie/y/d ? -->
+    <line><w ana="start"/>occup<mod>
         <del rend="overwritten">ie</del>
         <add hand="#pbs" place="intralinear">y</add>
-      </mod>d their place<mod>
+    </mod>d<w ana="end"/> their place<mod>
         <del rend="overwritten">.</del>
         <add hand="#pbs" place="intralinear">,</add>
       </mod>
@@ -509,9 +511,9 @@
     <line>M<hi rend="sup">r</hi> — was lef at<anchor xml:id="c56-0009.03"/> met M. <del rend="strikethrough">O P</del> a proficient</line>
     <line>in Chemistry who left the company at</line>
     <line>an early hour to <del rend="strikethrough">h</del> give his lecture upon</line>
-    <line>tha<mod>
+    <line><w ana="start"/>tha<mod>
         <del rend="overwritten">n</del>
-        <add place="intralinear">t</add>
+      <add place="intralinear">t<w ana="end"/></add>
       </mod> science enquiring as he went out<anchor xml:id="c56-0009.01"/></line>
   </zone>
 </surface>
@@ -637,7 +639,7 @@
       amusements</line>
     <line>were studying old books of chemistry</line>
     <line>and natural magic those of Elizabeth were</line>
-    <line>dra wing &amp; music.<space extent="3" unit="char"/><anchor xml:id="c56-0011.12"/><add hand="#pbs" place="superlinear"><metamark function="displacement" xml:id="c56-0011.13">X</metamark></add><anchor xml:id="c56-0011.11"/></line>
+    <line>drawing &amp; music.<space extent="3" unit="char"/><anchor xml:id="c56-0011.12"/><add hand="#pbs" place="superlinear"><metamark function="displacement" xml:id="c56-0011.13">X</metamark></add><anchor xml:id="c56-0011.11"/></line>
     <milestone unit="tei:p"/>
     <line rend="indent1"><del instant="true" rend="strikethrough">When I</del>
       <del instant="true" rend="strikethrough">I had</del> My brothers were <w ana="start"/>consi</line>
@@ -689,8 +691,8 @@
     <line rend="right"><metamark>X</metamark> yet</line>
     <line>there was an</line>
     <line>harmony in</line>
-    <line>that very diss</line>
-    <line>imilitude–</line>
+    <line>that very <w ana="start"/>diss</line>
+    <line>imilitude<w ana="end"/>–</line>
     <line><metamark function="separate">_____________</metamark></line>
     <anchor xml:id="c56-0011.10"/>
   </zone>
@@ -722,8 +724,8 @@
     <line>poets.– The</line>
     <line>world was to me</line>
     <line>a secret which</line>
-    <line>I desired to disco</line>
-    <line>-ver,–to her it</line>
+    <line>I desired to <w ana="start"/>disco</line>
+    <line>-ver<w ana="end"/>,–to her it</line>
     <line>was a <del instant="true" rend="strikethrough">haven</del></line>
     <line>vacancy which</line>
     <line>she sought to</line>
@@ -781,6 +783,7 @@
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">r</add>
       </mod>ough</line>
+    <!-- Q RM 10/08/2017 - do we manually set this? -->
     <line>punishment, we loved application</line>
     <line>and our amusements <mod>
         <del rend="strikethrough">were</del>
@@ -819,9 +822,9 @@
     <line><add hand="#pbs" place="superlinear"><metamark function="displacement">X</metamark></add>In <mod>
         <del rend="strikethrough">this</del>
         <add hand="#pbs" place="superlinear">the</add>
-      </mod> descrip</line>
-    <line>tion of our do</line>
-    <line>mestic circle</line>
+    </mod> <w ana="start"/>descrip</line>
+    <line>tion<w ana="end"/> of our <w ana="start"/>do</line>
+    <line>mestic<w ana="end"/> circle</line>
     <line>I include</line>
     <anchor xml:id="c56-0012.06"/>
   </zone>
@@ -846,18 +849,18 @@
     <delSpan rend="vertical_line" spanTo="#c56-0013.01"/>
     <delSpan rend="strikethrough" spanTo="#c56-0013.02"/>
     <line rend="indent1">In this account of my early</line>
-    <line>youth I wish particularly to <!--mod  spanTo="#c56-0013.03"-->men</line>
-    <line>tion <anchor xml:id="c56-0013.04"/><anchor xml:id="c56-0013.03"/> those
+    <line>youth I wish particularly to <!--mod  spanTo="#c56-0013.03"--><w ana="start"/>men</line>
+    <line>tion<w ana="end"/> <anchor xml:id="c56-0013.04"/><anchor xml:id="c56-0013.03"/> those
         circumstances<anchor xml:id="c56-0013.02"/> which</line>
     <line>led to and nourished my taste</line>
     <line>for that science which was</line>
     <line>the principal amusement of my</line>
     <line>boyish days and in <delSpan rend="strikethrough" spanTo="#c56-0013.05"/>the end
-      deci</line>
-    <line>ded my destiny<anchor xml:id="c56-0013.05"/>. I mentioned before</line>
-    <line>my taste for old books of chemist</line>
-    <line>ry and natural magic and I remem</line>
-    <line>ber very well that I learned latin</line>
+      <w ana="start"/>deci</line>
+    <line>ded<w ana="end"/> my destiny<anchor xml:id="c56-0013.05"/>. I mentioned before</line>
+    <line>my taste for old books of <w ana="start"/>chemist</line>
+    <line>ry<w ana="end"/> and natural magic and I <w ana="start"/>remem</line>
+    <line>ber<w ana="end"/> very well that I learned latin</line>
     <line>principally that I might read</line>
     <line>Pliny's Natural History my father</line>
     <line>refusing to allow me to read a</line>
@@ -943,8 +946,8 @@
         <line>reduced to thin ribands of wood. <del rend="strikethrough">The</del></line>
         <line><del rend="strikethrough">C</del> I never saw any thing so utterly</line>
         <line>destroyed. The catastrophe of the</line>
-        <line>tree excited my extreme astonish</line>
-        <line>ment <delSpan rend="vertical_line" spanTo="#c56-0014.11"/><del next="#c56-0014.12" rend="strikethrough">and</del><mod>
+      <line>tree excited my extreme <w ana="start"/>astonish</line>
+      <line>ment<w ana="end"/> <delSpan rend="vertical_line" spanTo="#c56-0014.11"/><del next="#c56-0014.12" rend="strikethrough">and</del><mod>
                 <del next="#c56-0014.13" rend="strikethrough" xml:id="c56-0014.12">caused</del>
                 <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear">induced</add>
@@ -956,8 +959,8 @@
         <line><mod>
                 <del rend="strikethrough">chemistry</del>
                 <add hand="#pbs" place="superlinear">natural philosophy</add>
-            </mod> which promised an ex-</line>
-        <line><del rend="strikethrough">clamatio</del> planation of th<mod>
+        </mod> which promised an <w ana="start"/>ex</line>
+      <line><del rend="strikethrough">clamatio</del> planation<w ana="end"/> of th<mod>
                 <del rend="overwritten">e</del>
                 <add place="intralinear">i</add>
             </mod>se sort of<anchor xml:id="c56-0014.11"/></line>
@@ -1032,8 +1035,8 @@
     <line>and <del rend="strikethrough">affectionate</del> endearing manners</line>
     <line>inspired the tenderest affection. Such</line>
     <line>was our domestic circle from which</line>
-    <line>care and pain seemed for ever banish</line>
-    <line>ed. <del rend="strikethrough">f</del> My father directed our studies</line>
+    <line>care and pain seemed for ever <w ana="start"/>banish</line>
+    <line>ed<w ana="end"/>. <del rend="strikethrough">f</del> My father directed our studies</line>
     <line>and my mother partook of our</line>
     <line>enjoyments. <mod>
         <del rend="strikethrough">we were all equal</del>
@@ -1096,8 +1099,8 @@
                 <delSpan rend="strikethrough" spanTo="#c56-0017.03"/>if</line>
         <line>I should prosecute my journey.<anchor xml:id="c56-0017.03"/></line>
         <milestone unit="tei:p"/>
-        <line rend="indent2">&gt;Elizabeth had caught the scar</line>
-        <line>let fever but <del rend="strikethrough"><unclear extent="1" unit="chars"/></del> her
+      <line rend="indent2">&gt;Elizabeth had caught the <w ana="start"/>scar</line>
+      <line>let<w ana="end"/> fever but <del rend="strikethrough"><unclear extent="1" unit="chars"/></del> her
             illness was</line>
         <line>not severe and she quickly recovered.</line>
         <line>During her confinement <mod>
@@ -1763,13 +1766,13 @@
         <del rend="strikethrough">kind</del>
         <del rend="strikethrough">of</del>
         <anchor xml:id="c56-0027.01"/>
-      </mod> history of chemistry and <delSpan rend="strikethrough" spanTo="#c56-0027.03"/>remark-</line>
-    <line>ed<anchor xml:id="c56-0027.03"/> the various improvements <mod>
+      </mod> history of chemistry and <delSpan rend="strikethrough" spanTo="#c56-0027.03"/><w ana="start"/>remark-</line>
+    <line>ed<w ana="end"/><anchor xml:id="c56-0027.03"/> the various improvements <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">&amp; discoveries</add></del>
       </mod>
-      <delSpan rend="strikethrough" spanTo="#c56-0027.04"/>diffe</line>
-    <line>rent<anchor xml:id="c56-0027.04"/><anchor xml:id="c56-0027.05"/> men <mod>
+      <delSpan rend="strikethrough" spanTo="#c56-0027.04"/>diffe<w ana="start"/></line>
+    <line>rent<w ana="end"/><anchor xml:id="c56-0027.04"/><anchor xml:id="c56-0027.05"/> men <mod>
         <del rend="strikethrough">had made</del>
         <add place="superlinear">of learning</add>
       </mod> pronoucing</line>
@@ -1790,12 +1793,12 @@
     <line>preparatory experiments <mod>
         <del rend="strikethrough">and</del>
         <add hand="#pbs" place="superlinear">he</add>
-      </mod> conclu</line>
-    <line>ded with a panegyric upon <mod>
+    </mod> <w ana="start"/>conclu</line>
+    <line>ded<w ana="end"/> with a panegyric upon <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">modern</add>
-      </mod> chemist</line>
-    <line>ry the words of which I shall never</line>
+    </mod> <w ana="start"/>chemist</line>
+    <line>ry<w ana="end"/> the words of which I shall never</line>
     <line>forget.</line>
     <milestone unit="tei:p"/>
     <line rend="indent1">"The ancient teachers of this science"</line>
@@ -1817,8 +1820,8 @@
     <line>"nature and show how she works</line>
   </zone>
   <zone corresp="#c56-0027.01" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c56-0027.02"/><line>by a recapitu</line>
-    <line>lation of the</line><anchor xml:id="c56-0027.02"/>
+    <addSpan hand="#pbs" spanTo="#c56-0027.02"/><line>by a <w ana="start"/>recapitu</line>
+    <line>lation<w ana="end"/> of the</line><anchor xml:id="c56-0027.02"/>
   </zone>
   <zone corresp="#c56-0027.05" type="left_margin">
     <add>made by various</add>
