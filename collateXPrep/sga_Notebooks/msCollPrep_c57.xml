@@ -313,9 +313,7 @@
         <line>perceive objects in their right forms; I <w ana="start"/>distin</line>
     </zone>
     
-</surface><!--2017-09-24 ebb: PROBLEM: the marginal additions on the following page (and presumably elsewhere) are coded at the end of the page. 
-PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequential location.
--->
+</surface>
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="3r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0005.xml" xml:id="ox-ms_abinger_c57-0005">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0005.jp2"/>
   <zone rend="bordered" type="pagination"><line>4</line></zone>
@@ -682,8 +680,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add place="intralinear">l</add>
       </mod>ear pool of water one</line>
     <line>part was open and by that I had crept</line>
-    <line>in but now <del rend="strikethrough">with stones and wood</del> I cover</line>
-    <line>ed every crevice <add corresp="#c57-0010.01" place="superlinear">with stones &amp;
+    <line>in but now <del rend="strikethrough">with stones and wood</del> I <w ana="start"/>cover</line>
+    <line>ed<w ana="end"/> every crevice <add corresp="#c57-0010.01" place="superlinear">with stones &amp;
         wood</add> by which I might be</line>
     <line>discovered <add place="sublinear"><metamark function="displacement" xml:id="c57-0010.01">^</metamark></add> yet in such a manner</line>
     <line>that I could move the<mod>
@@ -691,8 +689,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add place="intralinear">m</add>
       </mod> on an occasion</line>
     <line>to pass out; all the light I enjoyed came</line>
-    <line>through the stye and that was suffi</line>
-    <line>cient for me.</line>
+    <line>through the stye and that was <w ana="start"/>suffi</line>
+    <line>cient<w ana="end"/> for me.</line>
     <milestone unit="tei:p"/>
     <line rend="indent1">Having thus arranged my dwelling &amp;</line>
     <line><del rend="strikethrough">spr</del> carpeted it with clean straw, I retired</line>
@@ -705,8 +703,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>before <del rend="strikethrough">not</del> to trust myself in his</line>
     <line>power. I had first however provided</line>
     <line>for my sustenance for that day <del rend="strikethrough">by mean</del></line>
-    <line>by a loaf of <del rend="strikethrough">bro</del> coarse bread which I pur</line>
-    <line>loined and a cup <mod>
+    <line>by a loaf of <del rend="strikethrough">bro</del> coarse bread which I <w ana="start"/>pur</line>
+    <line>loined<w ana="end"/> and a cup <mod>
         <del rend="strikethrough">w</del>
         <del rend="strikethrough">by</del>
         <add place="superlinear">with</add>
@@ -755,8 +753,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>tolerably warm. <del rend="strikethrough">And</del>
       <mod>
         <del rend="overwritten">b</del>
-        <add place="intralinear">B</add>
-      </mod>eing thus provided</line>
+        <w ana="start"/><add place="intralinear">B</add>
+      </mod>eing<w ana="end"/> thus provided</line>
     <line>I determined to reside in this hovel</line>
     <line>untill <del rend="strikethrough">o</del> something should occur which</line>
     <line>might alter my determination. It</line>
@@ -775,14 +773,14 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>a step and looking through a small</line>
     <line>chink a beheld a young creature</line>
     <line>with a pail on her head passing</line>
-    <line>before my hovel. The girl was youn<mod>
+    <line>before my hovel. The girl was <w ana="start"/>youn<mod>
         <del rend="overwritten"><del rend="strikethrough">d</del></del>
         <add place="intralinear">g</add>
-      </mod></line>
+      </mod><w ana="end"/></line>
     <line>and of gentle demænour unlike what</line>
     <line>I have since found Cottagers and farm</line>
-    <line>house servants to be – Yet she was mean</line>
-    <line>ly dressed – a <del rend="strikethrough">blue</del> coarse <mod>
+    <line>house servants to be – Yet she was <w ana="start"/>mean</line>
+    <line>ly<w ana="end"/> dressed – a <del rend="strikethrough">blue</del> coarse <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">blue</add>
       </mod> petticoat and a</line>
@@ -803,13 +801,13 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
   <zone rend="bordered" type="pagination"><line>11</line></zone>
   <zone type="main">
     <line>a young man met her whose countenance</line>
-    <line>expressed a deeper desponc<mod>
+    <line>expressed a deeper <w ana="start"/>desponc<mod>
         <del rend="overwritten"><unclear extent="1" unit="chars"/></del>
         <add place="intralinear">e</add>
       </mod>ns<mod>
         <del rend="overwritten">des</del>
         <add place="intralinear">ces</add>
-      </mod>ly; <del rend="strikethrough">than her</del></line>
+      </mod>ly<w ana="end"/>; <del rend="strikethrough">than her</del></line>
     <line>uttering a few <mod>
         <del rend="strikethrough">words</del>
         <add place="superlinear">sounds</add>
@@ -818,7 +816,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>and bore it into the cottage himself. She</line>
     <line>followed <del rend="strikethrough">wiping</del>
       <del rend="strikethrough">dry my her tears whi</del>, and they</line>
-    <line>diasppeared – Presently I saw the young man</line>
+    <!--EB 2017-10-08: After comparison to ms view, corrected sga mistranscription from diasppeared to disappeared in the next line: -->
+    <line>disappeared – Presently I saw the young man</line>
     <line>again with some tools in his hand cross the</line>
     <line>field opposite the cottage and the girl was</line>
     <line>also busied someti<mod>
@@ -860,8 +859,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
           <add hand="#pbs" place="superlinear">sate</add>
         </mod>
       </mod> an old man <del rend="strikethrough">sitting</del> leaning</line>
-    <line>his head on his hand <del rend="smear">–</del> in a disconslate atti</line>
-    <line>tude — <add place="superlinear"><metamark function="displacement" xml:id="c57-0012.01">X</metamark><zone corresp="#c57-0012.01" type="left_margin">
+    <line>his head on his hand <del rend="smear">–</del> in a disconslate <w ana="start"/>atti</line>
+    <line>tude<w ana="end"/> — <add place="superlinear"><metamark function="displacement" xml:id="c57-0012.01">X</metamark><zone corresp="#c57-0012.01" type="left_margin">
     <delSpan rend="strikethrough" spanTo="#c57-0012.03"/>
     <addSpan spanTo="#c57-0012.02"/>
     <line>his hair</line>
@@ -883,10 +882,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>to play and to produce sounds sweeter than</line>
     <line>the voice of the thrush or nightingale.</line>
   </zone>
-
-  
-
-  <zone type="left_margin">
+ <!--EB 2017-10-08 commenting this margin note out b/c it's a note about drafting; not part of the running stream of novel text.
+   
+   <zone type="left_margin">
     <milestone spanTo="#c57-0012.05" unit="tei:note"/>
     <addSpan hand="#pbs" spanTo="#c57-0012.04"/>
     <line>This chapter is</line>
@@ -894,7 +892,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>short</line>
     <anchor xml:id="c57-0012.04"/>
     <anchor xml:id="c57-0012.05"/>
-  </zone>
+  </zone>-->
 </surface>
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="7r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0013.xml" xml:id="ox-ms_abinger_c57-0013">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0013.jp2"/>
