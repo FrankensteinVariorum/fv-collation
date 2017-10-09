@@ -313,7 +313,9 @@
         <line>perceive objects in their right forms; I <w ana="start"/>distin</line>
     </zone>
     
-</surface>
+</surface><!--2017-09-24 ebb: PROBLEM: the marginal additions on the following page (and presumably elsewhere) are coded at the end of the page. 
+PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequential location.
+-->
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="3r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0005.xml" xml:id="ox-ms_abinger_c57-0005">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0005.jp2"/>
   <zone rend="bordered" type="pagination"><line>4</line></zone>
@@ -680,8 +682,8 @@
         <add place="intralinear">l</add>
       </mod>ear pool of water one</line>
     <line>part was open and by that I had crept</line>
-    <line>in but now <del rend="strikethrough">with stones and wood</del> I <w ana="start"/>cover</line>
-    <line>ed<w ana="end"/> every crevice <add corresp="#c57-0010.01" place="superlinear">with stones &amp;
+    <line>in but now <del rend="strikethrough">with stones and wood</del> I cover</line>
+    <line>ed every crevice <add corresp="#c57-0010.01" place="superlinear">with stones &amp;
         wood</add> by which I might be</line>
     <line>discovered <add place="sublinear"><metamark function="displacement" xml:id="c57-0010.01">^</metamark></add> yet in such a manner</line>
     <line>that I could move the<mod>
@@ -689,8 +691,8 @@
         <add place="intralinear">m</add>
       </mod> on an occasion</line>
     <line>to pass out; all the light I enjoyed came</line>
-    <line>through the stye and that was <w ana="start"/>suffi</line>
-    <line>cient<w ana="end"/> for me.</line>
+    <line>through the stye and that was suffi</line>
+    <line>cient for me.</line>
     <milestone unit="tei:p"/>
     <line rend="indent1">Having thus arranged my dwelling &amp;</line>
     <line><del rend="strikethrough">spr</del> carpeted it with clean straw, I retired</line>
@@ -703,8 +705,8 @@
     <line>before <del rend="strikethrough">not</del> to trust myself in his</line>
     <line>power. I had first however provided</line>
     <line>for my sustenance for that day <del rend="strikethrough">by mean</del></line>
-    <line>by a loaf of <del rend="strikethrough">bro</del> coarse bread which I <w ana="start"/>pur</line>
-    <line>loined<w ana="end"/> and a cup <mod>
+    <line>by a loaf of <del rend="strikethrough">bro</del> coarse bread which I pur</line>
+    <line>loined and a cup <mod>
         <del rend="strikethrough">w</del>
         <del rend="strikethrough">by</del>
         <add place="superlinear">with</add>
@@ -753,8 +755,8 @@
     <line>tolerably warm. <del rend="strikethrough">And</del>
       <mod>
         <del rend="overwritten">b</del>
-        <w ana="start"/><add place="intralinear">B</add>
-      </mod>eing<w ana="end"/> thus provided</line>
+        <add place="intralinear">B</add>
+      </mod>eing thus provided</line>
     <line>I determined to reside in this hovel</line>
     <line>untill <del rend="strikethrough">o</del> something should occur which</line>
     <line>might alter my determination. It</line>
@@ -773,14 +775,14 @@
     <line>a step and looking through a small</line>
     <line>chink a beheld a young creature</line>
     <line>with a pail on her head passing</line>
-    <line>before my hovel. The girl was <w ana="start"/>youn<mod>
+    <line>before my hovel. The girl was youn<mod>
         <del rend="overwritten"><del rend="strikethrough">d</del></del>
         <add place="intralinear">g</add>
-      </mod><w ana="end"/></line>
+      </mod></line>
     <line>and of gentle demænour unlike what</line>
     <line>I have since found Cottagers and farm</line>
-    <line>house servants to be – Yet she was <w ana="start"/>mean</line>
-    <line>ly<w ana="end"/> dressed – a <del rend="strikethrough">blue</del> coarse <mod>
+    <line>house servants to be – Yet she was mean</line>
+    <line>ly dressed – a <del rend="strikethrough">blue</del> coarse <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">blue</add>
       </mod> petticoat and a</line>
@@ -801,13 +803,13 @@
   <zone rend="bordered" type="pagination"><line>11</line></zone>
   <zone type="main">
     <line>a young man met her whose countenance</line>
-    <line>expressed a deeper <w ana="start"/>desponc<mod>
+    <line>expressed a deeper desponc<mod>
         <del rend="overwritten"><unclear extent="1" unit="chars"/></del>
         <add place="intralinear">e</add>
       </mod>ns<mod>
         <del rend="overwritten">des</del>
         <add place="intralinear">ces</add>
-      </mod>ly<w ana="end"/>; <del rend="strikethrough">than her</del></line>
+      </mod>ly; <del rend="strikethrough">than her</del></line>
     <line>uttering a few <mod>
         <del rend="strikethrough">words</del>
         <add place="superlinear">sounds</add>
@@ -816,8 +818,7 @@
     <line>and bore it into the cottage himself. She</line>
     <line>followed <del rend="strikethrough">wiping</del>
       <del rend="strikethrough">dry my her tears whi</del>, and they</line>
-    <!--EB 2017-10-08: After comparison to ms view, corrected sga mistranscription from diasppeared to disappeared in the next line: -->
-    <line>disappeared – Presently I saw the young man</line>
+    <line>diasppeared – Presently I saw the young man</line>
     <line>again with some tools in his hand cross the</line>
     <line>field opposite the cottage and the girl was</line>
     <line>also busied someti<mod>
@@ -859,8 +860,8 @@
           <add hand="#pbs" place="superlinear">sate</add>
         </mod>
       </mod> an old man <del rend="strikethrough">sitting</del> leaning</line>
-    <line>his head on his hand <del rend="smear">–</del> in a disconslate <w ana="start"/>atti</line>
-    <line>tude<w ana="end"/> — <add place="superlinear"><metamark function="displacement" xml:id="c57-0012.01">X</metamark><zone corresp="#c57-0012.01" type="left_margin">
+    <line>his head on his hand <del rend="smear">–</del> in a disconslate atti</line>
+    <line>tude — <add place="superlinear"><metamark function="displacement" xml:id="c57-0012.01">X</metamark><zone corresp="#c57-0012.01" type="left_margin">
     <delSpan rend="strikethrough" spanTo="#c57-0012.03"/>
     <addSpan spanTo="#c57-0012.02"/>
     <line>his hair</line>
@@ -882,9 +883,10 @@
     <line>to play and to produce sounds sweeter than</line>
     <line>the voice of the thrush or nightingale.</line>
   </zone>
- <!--EB 2017-10-08 commenting this margin note out b/c it's a note about drafting; not part of the running stream of novel text.
-   
-   <zone type="left_margin">
+
+  
+
+  <zone type="left_margin">
     <milestone spanTo="#c57-0012.05" unit="tei:note"/>
     <addSpan hand="#pbs" spanTo="#c57-0012.04"/>
     <line>This chapter is</line>
@@ -892,7 +894,7 @@
     <line>short</line>
     <anchor xml:id="c57-0012.04"/>
     <anchor xml:id="c57-0012.05"/>
-  </zone>-->
+  </zone>
 </surface>
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="7r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0013.xml" xml:id="ox-ms_abinger_c57-0013">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0013.jp2"/>
@@ -900,7 +902,8 @@
   <zone type="library"><line>7</line></zone>
   <zone type="main">
     <line>It was a lovely sight even to me poor</line>
-    <line><del instant="true" rend="strikethrough">whec</del> wretch who had never beheld aught</line>
+    <line><del instant="true" rend="strikethrough">whec</del> wretch who had never beheld
+      aught</line>
     <line>beautiful before. <mod>
         <del rend="strikethrough">his</del>
         <add place="superlinear">the</add>
@@ -933,8 +936,7 @@
     <line>she sobbed audibly – He <del instant="true" rend="strikethrough">the</del> then
       pronounced</line>
     <line>a few sounds and the poor creature leaving</line>
-    <!--EB 2017-10-08 On comparison to ms image, corrected SGA transcription in next line: rasied to raised.-->
-    <line>her work knelt at his feet he raised her</line>
+    <line>her work knelt at his feet he rasied her</line>
     <line>and smiled with such <del rend="strikethrough">grace</del> kindness &amp;</line>
     <line>love that I felt <!--mod  spanTo="#c57-0013.02"--><del next="#c57-0013.03" rend="strikethrough">my own hard nerves</del><retrace cause="fix" hand="#mws"><add hand="#pbs" next="#c57-0013.04" place="superlinear">sensations of a peculiar &amp;
         overpowering</add></retrace></line>
@@ -1002,8 +1004,7 @@
       </mod></line>
     <line>the young man went into the <del instant="true" rend="strikethrough">pa</del>
       garden</line>
-    <!--EB 2017-10-08: Commenting out the fragmentary word below for the purposes of collation b/c it is completed on the next page as "pulling". -->
-    <line>and appeared busily employed in digging &amp; <!--pul--></line>
+    <line>and appeared busily employed in digging &amp; pul</line>
   </zone>
 
   
@@ -1022,10 +1023,10 @@
     <line>thus about <del rend="strikethrough">hal</del> an hour the young woman</line>
     <line>joined him, &amp; they returned to the cottage</line>
     <line>together – The old man in the mean time</line>
-    <line>had been <w ana="start"/>pe<mod>
+    <line>had been pe<mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">n</add>
-      </mod>sive<w ana="end"/> but on the approach</line>
+      </mod>sive but on the approach</line>
     <line> of <mod>
         <del rend="strikethrough">the others</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
@@ -1042,34 +1043,34 @@
       </mod> the young woman was</line>
     <line>again occupied in arranging the cottage the</line>
     <line>old man walked before the door in the</line>
-    <line>sun<add place="superlinear"> for a few minutes</add>, leaning on the arm of the <w ana="start"/>you<mod>
+    <line>sun<add place="superlinear"> for a few minutes</add>, leaning on the arm of the you<mod>
         <del rend="overwritten">ng</del>
         <add place="intralinear">th</add>
-      </mod><w ana="end"/>
+      </mod>
       <del rend="strikethrough">man</del></line>
     <line>Nothing could exceed in beauty the contrast</line>
     <line>between these two <del rend="strikethrough">love</del>
       <del rend="strikethrough">excl</del> excellent</line>
     <line>creatures One was old, with silver hairs</line>
-    <line>and a countenance beaming with <w ana="start"/>bene</line>
-    <line>volence<w ana="end"/> &amp; love; the younger was <w ana="start"/>sli<mod>
+    <line>and a countenance beaming with bene</line>
+    <line>volence &amp; love; the younger was sli<mod>
         <del rend="overwritten">m</del>
         <add place="intralinear">ght</add>
-      </mod><w ana="end"/></line>
+      </mod></line>
     <line>and graceful in his <del rend="strikethrough">fu</del> figure and</line>
     <line>his feautures were moulded with the</line>
     <line>finest <mod>
         <del rend="strikethrough">simetry</del>
         <add hand="#pbs" place="superlinear">symmetry</add>
       </mod> – yet his eyes &amp; attitude</line>
-    <line>expressed the utmost sadness and <w ana="start"/>despon</line>
-    <line>dencency<w ana="end"/>— The old man returned to the</line>
+    <line>expressed the utmost sadness and despon</line>
+    <line>dencency— The old man returned to the</line>
     <line>cottage; and the youth with tools different</line>
     <line>from those <add hand="#pbs" place="superlinear">which</add> he had used in the
       morning,</line>
     <line>directed his steps across the fields– Night</line>
-    <line>quickly shut in but to my extreme <w ana="start"/>won</line>
-    <line>der<w ana="end"/> I found that the cottagers had a</line>
+    <line>quickly shut in but to my extreme won</line>
+    <line>der I found that the cottagers had a</line>
     <line>means of prolonging light by the use of tapers</line>
     <line>and was pleased to find that <del rend="strikethrough">end</del> setting</line>
     <line>of the sun did not put an end <del rend="strikethrough">I had</del> to</line>
@@ -1089,8 +1090,8 @@
                 <del rend="strikethrough">that</del>
                 <add hand="#pbs" place="superlinear">which</add>
             </mod> I did not then understand, &amp; the</line>
-        <line>old man again took that <w ana="start"/>instru</line>
-        <line>ment<w ana="end"/> which produced th<mod>
+        <line>old man again took that instru</line>
+        <line>ment which produced th<mod>
                 <del rend="overwritten">o</del>
                 <add place="intralinear">e</add>
                 <del rend="strikethrough">se</del>
@@ -1100,24 +1101,26 @@
                 <del rend="strikethrough">and</del>
                 <del rend="strikethrough"><del rend="overwritten">w</del><add hand="#pbs" place="intralinear">W</add>hen</del>
                 <add hand="#pbs" place="superlinear">So soon as</add>
-            </mod> he had <w ana="start"/>finish</line>
-        <line>ed<w ana="end"/> the youth began,– not to play<add hand="#pbs" place="intralinear">,</add>– but</line>
+            </mod> he had finish</line>
+        <line>-ed the youth began,– not to play<add hand="#pbs" place="intralinear">,</add>– but</line>
         <line><mod>
                 <del rend="strikethrough">he</del>
                 <add hand="#pbs" place="superlinear">to</add>
-            </mod> utter<del rend="strikethrough">ed</del> sounds which were <w ana="start"/>monoto</line>
-        <line>nous<w ana="end"/> <del rend="strikethrough">and</del> and <mod>
+            </mod> utter<del rend="strikethrough">ed</del> sounds which were monoto</line>
+        <line>nous <del rend="strikethrough">and</del> and <mod>
                 <del rend="strikethrough">far from</del>
                 <add place="superlinear">neither resembling</add>
             </mod> the harmony</line>
         <line>of the old mans instrument or the</line>
         <line>songs of the birds I since found that</line>
-        <line>he read <add hand="#pbs" place="superlinear">aloud</add><add place="superlinear">,</add> but <add place="superlinear">at that time</add> I knew nothing of the</line>
+        <line>he read <add hand="#pbs" place="superlinear">aloud</add><add place="superlinear">,</add> but <add place="superlinear">at that time</add> I knew nothing of
+            the</line>
         <line>science of words or letters. <delSpan rend="strikethrough" spanTo="#c57-0015.01"/>a<mod>
                 <del rend="overwritten"><unclear extent="1" unit="chars"/></del>
                 <add place="intralinear">t</add>
             </mod> that</line>
-        <line>time<anchor xml:id="c57-0015.01"/><del rend="unmarked">.</del> The family soon extinguished</line>
+        <line>time<anchor xml:id="c57-0015.01"/><del rend="unmarked">.</del> The family soon
+            extinguished</line>
         <line>their lights and retired, as I conjectured,</line>
         <line>to <del rend="strikethrough">sleep</del>. rest</line>
         <milestone unit="tei:p"/>
@@ -1133,7 +1136,8 @@
             </mod></line>
         <line>the barbarous villagers and resolved</line>
         <line>whatever <!--mod  spanTo="#c57-0015.02"--><del rend="strikethrough">I</del>
-            <del next="#c57-0015.03" rend="strikethrough">should</del><add place="sublinear"><metamark function="insert">^</metamark></add><add place="superlinear">course of conduct I might</add>
+            <del next="#c57-0015.03" rend="strikethrough">should</del><add place="sublinear"><metamark function="insert">^</metamark></add><add place="superlinear">course of conduct I
+                might</add>
             <del rend="strikethrough" xml:id="c57-0015.03">afterwards</del>
             <del next="#c57-0015.04" rend="strikethrough">think it</del><add next="#c57-0015.05" place="superlinear">hereafter consider</add></line>
         <line><del rend="strikethrough" xml:id="c57-0015.04">right to do</del><add place="superlinear" xml:id="c57-0015.05">it proper to pursue that</add><anchor xml:id="c57-0015.02"/> for the present I would</line>
@@ -1183,8 +1187,8 @@
         <del rend="strikethrough">love</del>
         <add hand="#pbs" place="superlinear">affection</add>
       </mod> &amp; duty with gentleness;</line>
-    <line>and he rewarded them by his <w ana="start"/>benevo</line>
-    <line>lent<w ana="end"/> smiles. <del rend="strikethrough">B</del></line>
+    <line>and he rewarded them by his benevo</line>
+    <line>lent smiles. <del rend="strikethrough">B</del></line>
     <milestone unit="tei:p"/>
     <line><space extent="6" unit="chars"/>They were not however entirely</line>
     <line>happy–The <del rend="strikethrough">youth</del> young<del rend="strikethrough">er</del> man<del rend="strikethrough">d</del> &amp; his</line>
@@ -1222,9 +1226,9 @@
     <line>luxury. they had a fire to warm</line>
     <line>them when chill and delicious <add place="intralinear">viands</add></line>
     <line>when hungry– they were dressed</line>
-    <line><del rend="strikethrough">in clothes that kept t</del> in <w ana="start"/>excel</line>
-    <line>lent<w ana="end"/> clothes and still more they <w ana="start"/>enjoy</line>
-    <line>ed<w ana="end"/> one anothers company <add place="superlinear">&amp; speech</add> — and <del rend="strikethrough">saw</del></line>
+    <line><del rend="strikethrough">in clothes that kept t</del> in excel</line>
+    <line>lent clothes and still more they enjoy</line>
+    <line>ed one anothers company <add place="superlinear">&amp; speech</add> — and <del rend="strikethrough">saw</del></line>
     <line><anchor xml:id="c57-0017.02"/><zone corresp="#c57-0017.02" type="left_margin">
     <line><add>interchanged </add></line>
   </zone>each day looks of affection &amp; kindness–</line>
@@ -1232,14 +1236,17 @@
     <line>really express pain? I was at first</line>
     <line>unable to solve these questions but</line>
     <line>perpetual attention and time</line>
-    <line>explained to me many of the <w ana="start"/>appear</line>
-    <line>ances<w ana="end"/> which at first seemed</line>
+    <line>explained to me many of the appear</line>
+    <line>ances which at first seemed</line>
     <line><mod>
         <del rend="strikethrough">igmmatic</del>
         <add hand="#pbs" place="superlinear">enigmatic</add>
-      </mod>. <!--EB 2017-10-08 Commenting out this little note from Percy from Mary for the purposes of collation: not part of the novel: 
-        <milestone spanTo="#c57-0017.03" unit="tei:note"/><add hand="#pbs" place="intralinear">o you pretty Pecksie!</add><anchor xml:id="c57-0017.03"/>--></line>
+      </mod>. <milestone spanTo="#c57-0017.03" unit="tei:note"/><add hand="#pbs" place="intralinear">o you pretty Pecksie!</add><anchor xml:id="c57-0017.03"/></line>
   </zone>
+
+  
+
+  
 
 </surface>
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="9v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0018.xml" xml:id="ox-ms_abinger_c57-0018">
@@ -1263,8 +1270,8 @@
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">It</add>
       </mod> was poverty– and they suffered</line>
-    <line>that evil in a very distressing degree– <delSpan rend="strikethrough" spanTo="#c57-0018.02"/><w ana="start"/>Dur</line>
-    <line>ring<w ana="end"/> the winter<anchor xml:id="c57-0018.02"/>
+    <line>that evil in a very distressing degree– <delSpan rend="strikethrough" spanTo="#c57-0018.02"/>Dur</line>
+    <line>ring the winter<anchor xml:id="c57-0018.02"/>
       <del rend="strikethrough">They often had hardly any</del></line>
     <line>their nourishment consisted entirely of bread</line>
     <line><del rend="strikethrough">and –</del> the vegetables of their garden and the</line>
@@ -1284,8 +1291,8 @@
         <del rend="strikethrough">of</del>
       </mod> food for it.</line>
     <line><del rend="strikethrough">This state of poverty</del> They often I believe<del rend="strikethrough">d</del></line>
-    <line>suffered the pangs of hunger very <w ana="start"/>poi</line>
-    <line>gnantly<w ana="end"/> especially the <add hand="#pbs" place="superlinear">two</add> young<mod>
+    <line>suffered the pangs of hunger very poi</line>
+    <line>gnantly especially the <add hand="#pbs" place="superlinear">two</add> young<mod>
         <add place="sublinear">er</add>
         <del rend="strikethrough">er part</del>
         <!--smeared and canceled ?letters below "er part" could possibly be ?Cottagers-->
@@ -1304,8 +1311,8 @@
     <line>to steal a part of their store for my</line>
     <line>own consumption; but when I found</line>
     <line>that in doing this I inflicted pain on the</line>
-    <line>cottagers, I abstained, and satisfied <w ana="start"/>my</line>
-    <line>self<w ana="end"/> with berries nuts and roots which</line>
+    <line>cottagers, I abstained, and satisfied my</line>
+    <line>self with berries nuts and roots which</line>
     <line>I <mod>
         <del rend="strikethrough">found</del>
         <del rend="strikethrough">in</del>
@@ -1338,16 +1345,15 @@
       <del rend="strikethrough">f</del>o<mod>
         <del rend="overwritten">r</del>
         <add place="intralinear">f</add>
-      </mod> <w ana="start"/>seve</line>
-    <line>ral<w ana="end"/> days– <milestone unit="tei:p"/><!--EB 2017-10-08: Commenting out this metamark since we have an element tag to indicate the paragraph for the purposes of the collated edition. 
-      <metamark function="paragraph">[</metamark>-->I
+      </mod> seve</line>
+    <line>ral days– <milestone unit="tei:p"/><metamark function="paragraph">[</metamark>I
       remember the first time <add hand="#pbs" place="superlinear">that</add> I</line>
     <line>did this, the young woman who opened</line>
     <line>the door in the morning <mod>
         <del rend="strikethrough">was</del>
         <add hand="#pbs" place="superlinear">appeared</add>
-      </mod> greatly <!--mod  spanTo="#c57-0019.01"--><delSpan rend="strikethrough" spanTo="#c57-0019.02"/><w ana="start"/>sur</line>
-    <line>prised<w ana="end"/><anchor xml:id="c57-0019.02"/><add hand="#pbs" place="superlinear">astonished</add><anchor xml:id="c57-0019.01"/> to see a great pile of wood on</line>
+      </mod> greatly <!--mod  spanTo="#c57-0019.01"--><delSpan rend="strikethrough" spanTo="#c57-0019.02"/>sur</line>
+    <line>prised<anchor xml:id="c57-0019.02"/><add hand="#pbs" place="superlinear">astonished</add><anchor xml:id="c57-0019.01"/> to see a great pile of wood on</line>
     <line>the outside – she said some words in a</line>
     <line>loud voice, &amp; presently the youth joined</line>
     <line>her who also appeared astonished. <del rend="strikethrough">and</del></line>
@@ -1399,8 +1405,8 @@
     <line>the words the<retrace cause="unclear">y</retrace> spoke <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">sometimes</add>
-      </mod> produced <w ana="start"/>plea</line>
-    <line>sure<w ana="end"/> pain, smiles or sadness in the</line>
+      </mod> produced plea</line>
+    <line>sure pain, smiles or sadness in the</line>
     <line><anchor xml:id="c57-0019.07"/><zone corresp="#c57-0019.07" type="left_margin">
     <line><add>minds &amp; </add></line>
   </zone>countenances of the hear<mod>
@@ -1423,6 +1429,11 @@
       <del rend="strikethrough">had</del> no<add place="intralinear">t</add> having</line>
   </zone>
 
+  
+
+  
+
+  
 </surface>
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="10v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0020.xml" xml:id="ox-ms_abinger_c57-0020">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0020.jp2"/>
@@ -1452,10 +1463,10 @@
       <hi rend="underline">mil</hi>k</line>
     <line><hi rend="underline">bread</hi> &amp; <hi rend="underline">wood</hi> I learned also the
       names</line>
-    <line>of the cottagers <w ana="start"/>themsel<mod>
+    <line>of the cottagers themsel<mod>
         <del rend="overwritten">f</del>
         <add place="intralinear">v</add>
-      </mod>es<w ana="end"/>– <del rend="strikethrough">but as</del></line>
+      </mod>es– <del rend="strikethrough">but as</del></line>
     <line>the<mod>
         <del rend="strikethrough">y</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
@@ -1530,11 +1541,12 @@
     <line><anchor xml:id="c57-0021.01"/><zone corresp="#c57-0021.01" type="left_margin">
     <line><add>even on me; </add></line>
   </zone>Agatha listened with respect– her eyes</line>
-    <line><del rend="strikethrough">f</del> somethimes filled with tears which</line>
+    <!--EB 2017-10-08: Correction to SGA transcription after comparison to ms image: somethimes to sometimes-->
+    <line><del rend="strikethrough">f</del> sometimes filled with tears which</line>
     <line><metamark function="displacement" xml:id="c57-0021.02"/><zone corresp="#c57-0021.02" type="left_margin">
     <line><add>she endeavoured <hi rend="sup">to</hi></add></line>
-  </zone>wipe<del rend="strikethrough">d</del> away unpercieved but I <w ana="start"/>general</line>
-    <line>ly<w ana="end"/> found that her manners and tone</line>
+  </zone>wipe<del rend="strikethrough">d</del> away unpercieved but I general</line>
+    <line>ly found that her manners and tone</line>
     <line>were more cheerful after having listen</line>
     <line>end to <del rend="strikethrough">the</del> the exhortations of her father</line>
     <line>It was not thus with Felix. He was</line>
