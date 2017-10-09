@@ -1545,10 +1545,10 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line><del rend="strikethrough">f</del> sometimes filled with tears which</line>
     <line><metamark function="displacement" xml:id="c57-0021.02"/><zone corresp="#c57-0021.02" type="left_margin">
     <line><add>she endeavoured <hi rend="sup">to</hi></add></line>
-  </zone>wipe<del rend="strikethrough">d</del> away unpercieved but I general</line>
-    <line>ly found that her manners and tone</line>
-    <line>were more cheerful after having listen</line>
-    <line>end to <del rend="strikethrough">the</del> the exhortations of her father</line>
+  </zone>wipe<del rend="strikethrough">d</del> away unpercieved but I <w ana="start"/>general</line>
+    <line>ly<w ana="end"/> found that her manners and tone</line>
+    <line>were more cheerful after having <w ana="start"/>listen</line>
+    <line>end<w ana="end"/> to <del rend="strikethrough">the</del> the exhortations of her father</line>
     <line>It was not thus with Felix. He was</line>
     <line>always the saddest of the groupe And</line>
     <line>even to my unpractised senses he</line>
@@ -1562,13 +1562,6 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>addressed the old man—</line>
   </zone>
 
-  
-
-  
-
-  
-
-  
 </surface>
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="11v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0022.xml" xml:id="ox-ms_abinger_c57-0022">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0022.jp2"/>
@@ -1577,7 +1570,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
   </zone>
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line rend="indent1">I could mention innumberable instances</line>
+    <!--EB 2017-10-08: On comparing with ms image, corrected SGA transcription of innumberable to innumerable in the line below. -->
+    <line rend="indent1">I could mention innumerable instances</line>
+    <!--EB 2017-10-08: WORD BOUNDARY MARKUP TO HERE. -->
     <line>which although slight marked the <mod>
         <del rend="strikethrough">heart</del>
         <add place="superlinear">dispositions</add>
