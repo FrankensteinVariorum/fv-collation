@@ -8,8 +8,9 @@ We are working on preparing a new digital edition of the novel _Frankenstein_ in
 
 * [Pitt-Greensburg classroom edition](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818_classEd.html) (a copy of the same) for use in annotation assignments.
 
-### About our variorum project:
-To learn more about our project, please see 
+### About *Frankenstein* and our variorum project:
+
+* [*Frankenstein* and Text Genetics](http://bit.ly/FrankenTextGen): an introduction to the novel and its contexts, and our project's connection with the Shelley-Godwin Archive
 
 * a slide presentation by Elisa Beshero-Bondar and Raffaele Viglianti for the 2017 NASSR Conference on 11 August 2017: [http://bit.ly/NASSR_BicFrank](http://bit.ly/NASSR_BicFrank) 
 
