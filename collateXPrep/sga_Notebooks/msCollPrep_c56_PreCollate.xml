@@ -1,172 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><!--2017-08-09 ebb: This is the original schema line from the SGA GitHub repo. Uncomment this if we want to push it back to our SGA fork. <?xml-model href="../../schemata/shelley_godwin_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="sga_schemata/shelley-godwin-Pgh.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="sga_schemata/shelley-godwin-Pgh.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ox-ms_abinger_c56">
-  
-  <!--2017-08-15 ebb amended 2017-09-11: WORK WITH THIS FILE (the C56 notebook) FOR ADDING NEW PGH-FRANKENSTEIN MARKUP. This file is designed to validate (green square in oXygen) before we add tags to it. We're using the SGA project Schematron rules here, and I've commented out some empty <mod> elements that were raising validation errors so they don't get in the way of our work.
-    I've added a respStmt here to indicate this is a new file for our use.\ UPDATE 2017-09-11: I've split the C56-C57 witness into two parts to faciliate Rikk and I working together on roughly half of each part. This is the C56 portion. The two split files share the same TEI header representing the single C56-C57 witness to the novel.
-    \UPDATE 2017-10-23: Working with Raff and documentation on the sequencing of the C56 notebook pages, I've reorganized the surface elements, and represented surfaces 9, 13, and 15 multiple times using <gap reason="resequencing" unit="lines" quantity="n"> elements to signal where material on these surfaces flows in the sequence of chapters in the ms notebooks. (Also, removed 256 schema lines prefacing each surface.)
-  -->
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="main">Frankenstein, MS. Abinger C. 56</title>
-                <title type="sub">An electronic transcription</title>
-                <respStmt xml:id="md_editor">
-                    <resp>Metadata editor</resp>
-                    <name xml:id="RV">Raffaele Viglianti</name>
-                </respStmt>
-              <respStmt><resp><date when="2017-08">August 2017</date> Additional markup for Pittsburgh Frankenstein Project, adding markup to designate word boundaries and prepare for automated collation:</resp>
-              <name>Rikk Mulligan</name>
-                <name>Elisa Beshero-Bondar</name>
-              </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>Shelley-Godwin Archive edition, <date>2012-2016</date>
-                </edition>
-            </editionStmt>
-            <publicationStmt>
-                <distributor>Oxford University</distributor>
-                <address>
-                    <addrLine>
-                        <ref target="http://www.shelleygodwinarchive.org/">http://www.shelleygodwinarchive.org/</ref>
-                    </addrLine>
-                </address>
-                <availability status="free">
-                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
-                        <p>CC0 1.0 Universal.</p>
-                        <p> To the extent possible under law, the creators of the metadata records for the Shelley-Godwin Archive 
-                            have waived all copyright and related or neighboring rights to this work.</p>
-                    </licence>
-                </availability>
-                <pubPlace>Oxford, UK, and College Park, MD</pubPlace>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <settlement>Oxford</settlement>
-                        <repository>Bodleian Library, University of Oxford</repository>
-                        <idno type="Bod">MS. Abinger c.56</idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem class="#work">
-                            <bibl status="draft">
-                                <author>Mary Shelley</author>
-                                <title>Frankenstein</title>
-                            </bibl>
-                            <msItem class="#volume" n="I" xml:id="ox-frankenstein_volume_i">
-                                <locusGrp>
-                                    <locus target="#ox-ms_abinger_c56-0001                                         #ox-ms_abinger_c56-0002                                         #ox-ms_abinger_c56-0003                                         #ox-ms_abinger_c56-0004                                         #ox-ms_abinger_c56-0005                                         #ox-ms_abinger_c56-0006                                         #ox-ms_abinger_c56-0007                                         #ox-ms_abinger_c56-0008                                         #ox-ms_abinger_c56-0009                                         #ox-ms_abinger_c56-0010                                         #ox-ms_abinger_c56-0011                                         #ox-ms_abinger_c56-0012                                         #ox-ms_abinger_c56-0013                                         #ox-ms_abinger_c56-0014                                         #ox-ms_abinger_c56-0015                                         #ox-ms_abinger_c56-0016                                         #ox-ms_abinger_c56-0017                                         #ox-ms_abinger_c56-0018                                         #ox-ms_abinger_c56-0019                                         #ox-ms_abinger_c56-0020                                         #ox-ms_abinger_c56-0021                                         #ox-ms_abinger_c56-0022                                         #ox-ms_abinger_c56-0023                                         #ox-ms_abinger_c56-0024                                         #ox-ms_abinger_c56-0025                                         #ox-ms_abinger_c56-0026                                         #ox-ms_abinger_c56-0027                                         #ox-ms_abinger_c56-0028                                         #ox-ms_abinger_c56-0029                                         #ox-ms_abinger_c56-0030                                         #ox-ms_abinger_c56-0031                                         #ox-ms_abinger_c56-0032                                         #ox-ms_abinger_c56-0033                                         #ox-ms_abinger_c56-0034                                         #ox-ms_abinger_c56-0035                                         #ox-ms_abinger_c56-0036                                         #ox-ms_abinger_c56-0037                                         #ox-ms_abinger_c56-0038                                         #ox-ms_abinger_c56-0039                                         #ox-ms_abinger_c56-0040                                         #ox-ms_abinger_c56-0041                                         #ox-ms_abinger_c56-0042                                         #ox-ms_abinger_c56-0043                                         #ox-ms_abinger_c56-0044                                         #ox-ms_abinger_c56-0045                                         #ox-ms_abinger_c56-0046                                         #ox-ms_abinger_c56-0047                                         #ox-ms_abinger_c56-0048                                         #ox-ms_abinger_c56-0049                                         #ox-ms_abinger_c56-0050                                         #ox-ms_abinger_c56-0051                                         #ox-ms_abinger_c56-0052                                         #ox-ms_abinger_c56-0053                                         #ox-ms_abinger_c56-0054                                         #ox-ms_abinger_c56-0055                                         #ox-ms_abinger_c56-0056                                         #ox-ms_abinger_c56-0057                                         #ox-ms_abinger_c56-0058                                         #ox-ms_abinger_c56-0059                                         #ox-ms_abinger_c56-0060                                         #ox-ms_abinger_c56-0061                                         #ox-ms_abinger_c56-0062                                         #ox-ms_abinger_c56-0063                                         #ox-ms_abinger_c56-0064                                         #ox-ms_abinger_c56-0065                                         #ox-ms_abinger_c56-0066                                         #ox-ms_abinger_c56-0067                                         #ox-ms_abinger_c56-0068                                         #ox-ms_abinger_c56-0069                                         #ox-ms_abinger_c56-0070                                         #ox-ms_abinger_c56-0071                                         #ox-ms_abinger_c56-0072                                         #ox-ms_abinger_c56-0073                                         #ox-ms_abinger_c56-0074                                         #ox-ms_abinger_c56-0075                                         #ox-ms_abinger_c56-0076                                         #ox-ms_abinger_c56-0077                                         #ox-ms_abinger_c56-0078                                         #ox-ms_abinger_c56-0079                                         #ox-ms_abinger_c56-0080                                         #ox-ms_abinger_c56-0081                                         #ox-ms_abinger_c56-0082                                         #ox-ms_abinger_c56-0083                                         #ox-ms_abinger_c56-0084                                         #ox-ms_abinger_c56-0085                                         #ox-ms_abinger_c56-0086                                         #ox-ms_abinger_c56-0087                                         #ox-ms_abinger_c56-0088                                         #ox-ms_abinger_c56-0089                                         #ox-ms_abinger_c56-0090                                         #ox-ms_abinger_c56-0091                                         #ox-ms_abinger_c56-0092                                         #ox-ms_abinger_c56-0093                                         #ox-ms_abinger_c56-0094                                         #ox-ms_abinger_c56-0095                                         #ox-ms_abinger_c56-0096                                         #ox-ms_abinger_c56-0097                                         #ox-ms_abinger_c56-0098                                         #ox-ms_abinger_c56-0099                                         #ox-ms_abinger_c56-0100                                         #ox-ms_abinger_c56-0101                                         #ox-ms_abinger_c56-0102                                         #ox-ms_abinger_c56-0103                                         #ox-ms_abinger_c56-0104                                         #ox-ms_abinger_c56-0105                                         #ox-ms_abinger_c56-0106                                         #ox-ms_abinger_c56-0107                                         #ox-ms_abinger_c56-0108                                         #ox-ms_abinger_c56-0109                                         #ox-ms_abinger_c56-0110                                         #ox-ms_abinger_c56-0111                                         #ox-ms_abinger_c56-0112                                         #ox-ms_abinger_c56-0113                                         #ox-ms_abinger_c56-0114                                         #ox-ms_abinger_c56-0115                                         #ox-ms_abinger_c56-0116                                         #ox-ms_abinger_c56-0117                                         #ox-ms_abinger_c56-0118                                         #ox-ms_abinger_c56-0119                                         #ox-ms_abinger_c56-0120                                         #ox-ms_abinger_c56-0121                                         #ox-ms_abinger_c56-0122                                         #ox-ms_abinger_c56-0123                                         #ox-ms_abinger_c56-0124                                         #ox-ms_abinger_c56-0125                                         #ox-ms_abinger_c56-0126                                         #ox-ms_abinger_c56-0127                                         #ox-ms_abinger_c56-0128                                         #ox-ms_abinger_c56-0129                                         #ox-ms_abinger_c56-0130                                         #ox-ms_abinger_c56-0131                                         #ox-ms_abinger_c56-0132                                         #ox-ms_abinger_c56-0133                                         #ox-ms_abinger_c56-0134"/>
-                                </locusGrp>
-                                <bibl>
-                                    <title>Volume I</title>
-                                    <date notAfter="1816-12" notBefore="1816-08">[August or September]-[?December] 1816</date>
-                                </bibl>
-                            </msItem>
-                        </msItem>
-                      <msItem class="#work">
-                        <bibl status="draft">
-                          <author>Mary Wollstonecraft Shelley</author>
-                          <title>Frankenstein</title>
-                        </bibl>                            
-                        <msItem class="#volume" n="II" xml:id="ox-frankenstein_volume_ii">
-                          <locusGrp>
-                            <locus target="#ox-ms_abinger_c57-0001                                         #ox-ms_abinger_c57-0002                                         #ox-ms_abinger_c57-0003                                         #ox-ms_abinger_c57-0004                                         #ox-ms_abinger_c57-0005                                         #ox-ms_abinger_c57-0006                                         #ox-ms_abinger_c57-0007                                         #ox-ms_abinger_c57-0008                                         #ox-ms_abinger_c57-0009                                         #ox-ms_abinger_c57-0010                                         #ox-ms_abinger_c57-0011                                         #ox-ms_abinger_c57-0012                                         #ox-ms_abinger_c57-0013                                         #ox-ms_abinger_c57-0014                                         #ox-ms_abinger_c57-0015                                         #ox-ms_abinger_c57-0016                                         #ox-ms_abinger_c57-0017                                         #ox-ms_abinger_c57-0018                                         #ox-ms_abinger_c57-0019                                         #ox-ms_abinger_c57-0020                                         #ox-ms_abinger_c57-0021                                         #ox-ms_abinger_c57-0022                                         #ox-ms_abinger_c57-0023                                         #ox-ms_abinger_c57-0024                                         #ox-ms_abinger_c57-0025                                         #ox-ms_abinger_c57-0026                                         #ox-ms_abinger_c57-0027                                         #ox-ms_abinger_c57-0028                                         #ox-ms_abinger_c57-0029                                         #ox-ms_abinger_c57-0030                                         #ox-ms_abinger_c57-0031                                         #ox-ms_abinger_c57-0032                                         #ox-ms_abinger_c57-0033                                         #ox-ms_abinger_c57-0034                                         #ox-ms_abinger_c57-0035                                         #ox-ms_abinger_c57-0036                                         #ox-ms_abinger_c57-0038                                         #ox-ms_abinger_c57-0039                                         #ox-ms_abinger_c57-0040                                         #ox-ms_abinger_c57-0041                                         #ox-ms_abinger_c57-0042                                         #ox-ms_abinger_c57-0043                                         #ox-ms_abinger_c57-0044                                         #ox-ms_abinger_c57-0045                                         #ox-ms_abinger_c57-0046                                         #ox-ms_abinger_c57-0047                                         #ox-ms_abinger_c57-0048                                         #ox-ms_abinger_c57-0049                                         #ox-ms_abinger_c57-0050                                         #ox-ms_abinger_c57-0051                                         #ox-ms_abinger_c57-0052                                         #ox-ms_abinger_c57-0053                                         #ox-ms_abinger_c57-0054                                         #ox-ms_abinger_c57-0055                                         #ox-ms_abinger_c57-0056                                         #ox-ms_abinger_c57-0057                                         #ox-ms_abinger_c57-0058                                         #ox-ms_abinger_c57-0059                                         #ox-ms_abinger_c57-0060                                         #ox-ms_abinger_c57-0061                                         #ox-ms_abinger_c57-0062                                         #ox-ms_abinger_c57-0063                                         #ox-ms_abinger_c57-0064                                         #ox-ms_abinger_c57-0065                                         #ox-ms_abinger_c57-0066                                         #ox-ms_abinger_c57-0067                                         #ox-ms_abinger_c57-0068                                         #ox-ms_abinger_c57-0069                                         #ox-ms_abinger_c57-0070                                         #ox-ms_abinger_c57-0071                                         #ox-ms_abinger_c57-0072                                         #ox-ms_abinger_c57-0073                                         #ox-ms_abinger_c57-0074                                         #ox-ms_abinger_c57-0075                                         #ox-ms_abinger_c57-0076                                         #ox-ms_abinger_c57-0077                                         #ox-ms_abinger_c57-0078                                         #ox-ms_abinger_c57-0079                                         #ox-ms_abinger_c57-0080                                         #ox-ms_abinger_c57-0081                                         #ox-ms_abinger_c57-0082                                         #ox-ms_abinger_c57-0083                                         #ox-ms_abinger_c57-0084                                         #ox-ms_abinger_c57-0085                                         #ox-ms_abinger_c57-0086                                         #ox-ms_abinger_c57-0087                                         #ox-ms_abinger_c57-0088                                         #ox-ms_abinger_c57-0089                                         #ox-ms_abinger_c57-0090                                         #ox-ms_abinger_c57-0091                                         #ox-ms_abinger_c57-0092                                         #ox-ms_abinger_c57-0093                                         #ox-ms_abinger_c57-0094                                         #ox-ms_abinger_c57-0095                                         #ox-ms_abinger_c57-0096                                         #ox-ms_abinger_c57-0097                                         #ox-ms_abinger_c57-0098                                         #ox-ms_abinger_c57-0099                                         #ox-ms_abinger_c57-0100                                         #ox-ms_abinger_c57-0101                                         #ox-ms_abinger_c57-0102                                         #ox-ms_abinger_c57-0103                                         #ox-ms_abinger_c57-0104                                         #ox-ms_abinger_c57-0105                                         #ox-ms_abinger_c57-0106                                         #ox-ms_abinger_c57-0107                                         #ox-ms_abinger_c57-0108                                         #ox-ms_abinger_c57-0109                                         #ox-ms_abinger_c57-0110                                         #ox-ms_abinger_c57-0111                                         #ox-ms_abinger_c57-0112                                         #ox-ms_abinger_c57-0113                                         #ox-ms_abinger_c57-0114                                         #ox-ms_abinger_c57-0115                                         #ox-ms_abinger_c57-0116                                         #ox-ms_abinger_c57-0117                                         #ox-ms_abinger_c57-0118                                         #ox-ms_abinger_c57-0119                                         #ox-ms_abinger_c57-0120                                         #ox-ms_abinger_c57-0121                                         #ox-ms_abinger_c57-0122                                         #ox-ms_abinger_c57-0123                                         #ox-ms_abinger_c57-0124                                         #ox-ms_abinger_c57-0125                                         #ox-ms_abinger_c57-0126                                         #ox-ms_abinger_c57-0127                                         #ox-ms_abinger_c57-0128                                         #ox-ms_abinger_c57-0129                                         #ox-ms_abinger_c57-0130                                         #ox-ms_abinger_c57-0131                                         #ox-ms_abinger_c57-0132                                         #ox-ms_abinger_c57-0133                                         #ox-ms_abinger_c57-0134                                         #ox-ms_abinger_c57-0135                                         #ox-ms_abinger_c57-0136                                         #ox-ms_abinger_c57-0137                                         #ox-ms_abinger_c57-0138                                         #ox-ms_abinger_c57-0139                                         #ox-ms_abinger_c57-0140                                         #ox-ms_abinger_c57-0141                                         #ox-ms_abinger_c57-0142                                         #ox-ms_abinger_c57-0143                                         #ox-ms_abinger_c57-0144                                         #ox-ms_abinger_c57-0145                                         #ox-ms_abinger_c57-0146                                         #ox-ms_abinger_c57-0147                                         #ox-ms_abinger_c57-0148                                         #ox-ms_abinger_c57-0149                                         #ox-ms_abinger_c57-0150                                         #ox-ms_abinger_c57-0151                                         #ox-ms_abinger_c57-0152                                         #ox-ms_abinger_c57-0153                                         #ox-ms_abinger_c57-0154                                         #ox-ms_abinger_c57-0155                                         #ox-ms_abinger_c57-0156                                         #ox-ms_abinger_c57-0157                                         #ox-ms_abinger_c57-0158                                         #ox-ms_abinger_c57-0159                                         #ox-ms_abinger_c57-0160                                         #ox-ms_abinger_c57-0161                                         #ox-ms_abinger_c57-0162                                         #ox-ms_abinger_c57-0163                                         #ox-ms_abinger_c57-0164                                         #ox-ms_abinger_c57-0165                                         #ox-ms_abinger_c57-0166                                         #ox-ms_abinger_c57-0167                                         #ox-ms_abinger_c57-0168                                         #ox-ms_abinger_c57-0169                                         #ox-ms_abinger_c57-0170                                         #ox-ms_abinger_c57-0171                                         #ox-ms_abinger_c57-0172                                         #ox-ms_abinger_c57-0173                                         #ox-ms_abinger_c57-0174                                         #ox-ms_abinger_c57-0175                                         #ox-ms_abinger_c57-0176                                         #ox-ms_abinger_c57-0177                                         #ox-ms_abinger_c57-0178                                         #ox-ms_abinger_c57-0179                                         #ox-ms_abinger_c57-0180                                         #ox-ms_abinger_c57-0181                                         #ox-ms_abinger_c57-0182                                         #ox-ms_abinger_c57-0183                                         #ox-ms_abinger_c57-0184                                         #ox-ms_abinger_c57-0185                                         #ox-ms_abinger_c57-0186                                         #ox-ms_abinger_c57-0187                                         #ox-ms_abinger_c57-0188                                         #ox-ms_abinger_c57-0189                                         #ox-ms_abinger_c57-0190"/>
-                          </locusGrp>
-                          <bibl>
-                            <title>Volume II</title>
-                            <date notAfter="1817-04" notBefore="1816-12">[?December] 1816-April 1817</date>
-                          </bibl>
-                        </msItem>
-                      </msItem>
-                    </msContents>
-                    <physDesc>
-                        <handDesc>
-                            <handNote scope="major" xml:id="mws"><persName>Mary Shelley</persName></handNote>
-                            <handNote scope="minor" xml:id="pbs"><persName>Percy Shelley</persName></handNote>
-                        </handDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl xml:base="../shared/classDecl.xml">
-    <taxonomy>
-        <category xml:id="work">
-            <catDesc>A work in the Shelley-Godwin Archive, e.g. Frankenstein</catDesc>
-        </category>
-        <category xml:id="work_part">
-            <catDesc>Metadata about a work in the Shelley-Godwin Archive split across multiple manuscripts</catDesc>
-        </category>
-        <category xml:id="notebook">
-            <catDesc>A manuscript notebook containing one or more works in the Shelley-Godwin
-                Archive, e.g. Frankenstein Notebook A</catDesc>
-        </category>
-        <category xml:id="volume">
-            <catDesc>The volume of a work in the Shelley-Godwin Archive, e.g. Frankenstein Vol
-                I</catDesc>
-        </category>
-        <category xml:id="chapter">
-            <catDesc>The chapter in a volume of a work in the Shelley-Godwin Archive, e.g.
-                Frankenstein Vol I, Chapter 1</catDesc>
-        </category>
-        <category xml:id="miscellaneous">
-            <catDesc>A part of a manuscript in the Shelley-Godwin Archive that does not fit in other
-                categories of this taxonomy.</catDesc>
-        </category>
-    </taxonomy>
-</classDecl>
-        </encodingDesc>
-    </teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
     <sourceDoc>
-      <!----> <!--<surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5078" lry="7304" ulx="0" uly="0" mith:folio="i recto" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0001.xml" xml:id="ms_abinger_c56-0001">
- <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0001.jp2"/>
-  <zone type="main">
-    <addSpan hand="#library" spanTo="#c56-0001.01"/>
-    <line rend="indent3"><del rend="strikethrough">A12</del></line>
-    <line rend="center">A 11</line>
-    <line rend="center"><unclear extent="1" unit="chars"/> Autograph</line>
-    <line rend="center"><metamark function="separate">__________</metamark></line>
-    <line rend="center">Part of the MS of</line>
-    <line rend="center">Frankenstein</line>
-    <line rend="center"><metamark function="separate">__________</metamark></line>
-    <line rend="center">pp 64-172 (of vol I.?)</line>
-    <line rend="center">ch. 6-17</line>
-    <line rend="center">vol. II. pp 1-150</line>
-    <line rend="center">ch I-XIV</line>
-    <line rend="center">Corrections in another</line>
-    <line rend="center">hand</line>
-    <line rend="center">Dep. c. 477/1</line>
-    <anchor xml:id="c56-0001.01"/>
-  </zone>
-</surface>
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5078" lry="7304" ulx="0" uly="0" mith:folio="i verso" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0002.xml" xml:id="ox-ms_abinger_c56-0002">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0002.jp2"/>
-  <zone type="main">
-    <!-\-blank page-\->
-  </zone>
-</surface>
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7248" ulx="0" uly="0" mith:folio="ii recto" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0003.xml" xml:id="ox-ms_abinger_c56-0003">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0003.jp2"/>
-  <zone type="library"><line>ii (<unclear extent="2" unit="chars"/>)</line></zone>
-  <zone type="main">
-    <addSpan hand="#library" spanTo="#c56-0003.01"/>
-    <line>The first fragment contains</line>
-    <line>pp. 24-97 of the Standard</line>
-    <line>Novel edition.</line>
-    <milestone unit="tei:p"/>
-    <line>The second pp. 104-202, with</line>
-    <line>a slight interruption.</line>
-    <milestone unit="tei:p"/>
-    <line>The third pp. 168-202, with</line>
-    <line>many imperfections.</line>
-    <anchor xml:id="c56-0003.01"/>
-  </zone>
-</surface>
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5342" lry="7220" ulx="0" uly="0" mith:folio="ii verso" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0004.xml" xml:id="ox-ms_abinger_c56-0004">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0004.jp2"/>
-  <zone type="main">
-    <!-\-blank page-\->
-  </zone>
-</surface>-->
-      
+      <anchor type="collate" xml:id="C07"/>
  <!--2017-10-23 ebb: vol 1 in C56 when resequenced opens in the middle chapter 1 of Victor's narration, mid-sentence. -->     
       <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="4r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0011.xml" xml:id="ox-ms_abinger_c56-0011">
         <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0011.jp2"/>
@@ -1158,9 +992,8 @@
     <line>obey the slightest desire of each</line>
     <line>other.</line>
   </zone>
-  
 </surface>
-      <!-- COLLATION CHUNK POINT UNIT C07 RM 10/09/2017 -->
+      <anchor type="collate" xml:id="C08"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="7r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0017.xml" xml:id="ox-ms_abinger_c56-0017">
     <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0017.jp2"/>
     <zone rend="#bordered" type="pagination"><line>47</line></zone>
@@ -2136,7 +1969,7 @@
     <line>destiny.</line>
   </zone>
 </surface>
-      <!-- COLLATION CHUNK POINT UNIT C08 RM 10/09/2017 -->
+      <anchor type="collate" xml:id="C09"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="14r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0031.xml" xml:id="ox-ms_abinger_c56-0031">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0031.jp2"/>
   
@@ -3261,7 +3094,7 @@
     <line>family find eve</line><anchor xml:id="c56-0044.01"/>
   </zone>
 </surface>
-      <!-- COLLATION CHUNK POINT UNIT C09 RM 10/09/2017 -->
+      <anchor type="collate" xml:id="C10"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="3847" lry="5342" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="21r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml" xml:id="ox-ms_abinger_c56-0045">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0045.jp2"/>
   <zone rend="bordered" type="pagination"><line>75</line></zone>
@@ -3999,7 +3832,7 @@
     <line>"<del rend="strikethrough">ly</del> lying<del rend="strikethrough">e</del> here some
         day<add hand="#pbs" place="intralinear">s</add> it is from your</line>
     <line>"cousin I believe."</line>
-    <!-- COLLATION CHUNK POINT UNIT C10 RM 10/09/2017 -->
+    <anchor type="collate" xml:id="C11"/>
     <line rend="center"><milestone spanTo="#c56-0057.02" unit="tei:head"/><add place="interlinear">Ch V– 113</add><anchor xml:id="c56-0057.02"/></line>
     <milestone unit="tei:p"/>
     <line rend="indent2">He then put the following letter</line>
@@ -4549,7 +4382,7 @@
 
 
 </surface>
-      <!-- COLLATION CHUNK POINT UNIT C12 RM 10/09/2017 -->
+      <anchor type="collate" xml:id="C12"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="30r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0065.xml" xml:id="ox-ms_abinger_c56-0065">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0065.jp2"/>
   <zone rend="bordered" type="pagination"><line>95</line></zone>
@@ -5115,14 +4948,9 @@
     
     <line><add><metamark function="count">20</metamark></add></line>
     <line><add><metamark function="count">15</metamark></add></line>
-  </zone>
-          <!-- COLLATION CHUNK POINT UNIT C12 RM 10/09/2017 -->         
-
-  
-
-  
-  
+  </zone>     
 </surface>
+      <anchor type="collate" xml:id="C13"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="34r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0073.xml" xml:id="ox-ms_abinger_c56-0073">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0073.jp2"/>
   <zone rend="bordered" type="pagination"><line>103</line></zone>
@@ -6524,9 +6352,8 @@
       <line>which I shall prevent the slightest shadow of partiality.</line>
     <anchor xml:id="c56-0091.04"/>
       <anchor xml:id="c56-0091.07"/>
-    
-    <!-- COLLATION CHUNK POINT UNIT C13 RM 10/09/2017 -->
-    
+
+    <anchor type="collate" xml:id="C14"/>
     <milestone unit="tei:p"/>
     <line rend="indent1">We passed a few sad hours untill eleven</line>
     <line>o'clock when the trial was to <mod>
@@ -7479,9 +7306,8 @@
   
     
   
-</surface>
-      <!-- COLLATION CHUNK POINT UNIT C14 RM 10/09/2017 --> 
-      
+</surface> 
+ <anchor type="collate" xml:id="C15"/>     
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="51v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0108.xml" xml:id="ox-ms_abinger_c56-0108">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0108.jp2"/>
   <zone rend="bordered" type="pagination"><line>138</line></zone>
@@ -8205,8 +8031,7 @@
     <line>ran before my window.</line>
   </zone>
 </surface>
-      <!-- COLLATION CHUNK POINT UNIT C15 RM 10/09/2017 -->
-      
+    <anchor type="collate" xml:id="C16"/>  
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="57r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0119.xml" xml:id="ox-ms_abinger_c56-0119">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0119.jp2"/>
   <zone rend="bordered" type="pagination"><line>149</line></zone>
@@ -9065,10 +8890,4 @@
     <line>lighted he thus <del rend="strikethrough">began</del> began his tale.</line>
   </zone>
 </surface>
-      <!-- COLLATION CHUNK POINT UNIT C16 RM 10/09/2017 -->
-      <!-- CHALDEA / INDIA SCIENCES FRAGMENT saved as msCollPrep_c56_ChaldeaFrag.xml 
-        Q RM 2017-10-08 do we delete the rest for collation? This does not appear in the novel -->
-      <!-- A EB 2017-10-08 Yes. We'd better remove this or at least comment it all out.NOTE: for counting/checking purposes, no left margin zones after this point.  -->
-    
     </sourceDoc>
-</TEI>
