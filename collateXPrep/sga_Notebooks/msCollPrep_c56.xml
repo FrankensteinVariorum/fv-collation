@@ -2,7 +2,7 @@
   
   <!--2017-08-15 ebb amended 2017-09-11: WORK WITH THIS FILE (the C56 notebook) FOR ADDING NEW PGH-FRANKENSTEIN MARKUP. This file is designed to validate (green square in oXygen) before we add tags to it. We're using the SGA project Schematron rules here, and I've commented out some empty <mod> elements that were raising validation errors so they don't get in the way of our work.
     I've added a respStmt here to indicate this is a new file for our use.\ UPDATE 2017-09-11: I've split the C56-C57 witness into two parts to faciliate Rikk and I working together on roughly half of each part. This is the C56 portion. The two split files share the same TEI header representing the single C56-C57 witness to the novel.
-    \UPDATE 2017-10-23: Working with Raff and documentation on the sequencing of the C56 notebook pages, I've reorganized the surface elements, and represented surfaces 9, 13, and 15 multiple times using <gap reason="resequencing" unit="lines" quantity="n"> elements to signal where material on these surfaces flows in the sequence of chapters in the ms notebooks.
+    \UPDATE 2017-10-23: Working with Raff and documentation on the sequencing of the C56 notebook pages, I've reorganized the surface elements, and represented surfaces 9, 13, and 15 multiple times using <gap reason="resequencing" unit="lines" quantity="n"> elements to signal where material on these surfaces flows in the sequence of chapters in the ms notebooks. (Also, removed 256 schema lines prefacing each surface.)
   -->
     <teiHeader>
         <fileDesc>
