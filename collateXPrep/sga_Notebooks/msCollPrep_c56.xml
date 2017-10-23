@@ -2,6 +2,7 @@
   
   <!--2017-08-15 ebb amended 2017-09-11: WORK WITH THIS FILE (the C56 notebook) FOR ADDING NEW PGH-FRANKENSTEIN MARKUP. This file is designed to validate (green square in oXygen) before we add tags to it. We're using the SGA project Schematron rules here, and I've commented out some empty <mod> elements that were raising validation errors so they don't get in the way of our work.
     I've added a respStmt here to indicate this is a new file for our use.\ UPDATE 2017-09-11: I've split the C56-C57 witness into two parts to faciliate Rikk and I working together on roughly half of each part. This is the C56 portion. The two split files share the same TEI header representing the single C56-C57 witness to the novel.
+    \UPDATE 2017-10-23: Working with Raff and documentation on the sequencing of the C56 notebook pages, I've reorganized the surface elements, and represented surfaces 9, 13, and 15 multiple times using <gap reason="resequencing" unit="lines" quantity="n"> elements to signal where material on these surfaces flows in the sequence of chapters in the ms notebooks.
   -->
     <teiHeader>
         <fileDesc>
@@ -115,7 +116,7 @@
         </encodingDesc>
     </teiHeader>
     <sourceDoc>
-      <!--<?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--> <!--<surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5078" lry="7304" ulx="0" uly="0" mith:folio="i recto" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0001.xml" xml:id="ms_abinger_c56-0001">
+      <!----> <!--<surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5078" lry="7304" ulx="0" uly="0" mith:folio="i recto" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0001.xml" xml:id="ms_abinger_c56-0001">
  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0001.jp2"/>
   <zone type="main">
     <addSpan hand="#library" spanTo="#c56-0001.01"/>
@@ -136,13 +137,13 @@
     <anchor xml:id="c56-0001.01"/>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5078" lry="7304" ulx="0" uly="0" mith:folio="i verso" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0002.xml" xml:id="ox-ms_abinger_c56-0002">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5078" lry="7304" ulx="0" uly="0" mith:folio="i verso" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0002.xml" xml:id="ox-ms_abinger_c56-0002">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0002.jp2"/>
   <zone type="main">
     <!-\-blank page-\->
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7248" ulx="0" uly="0" mith:folio="ii recto" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0003.xml" xml:id="ox-ms_abinger_c56-0003">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7248" ulx="0" uly="0" mith:folio="ii recto" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0003.xml" xml:id="ox-ms_abinger_c56-0003">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0003.jp2"/>
   <zone type="library"><line>ii (<unclear extent="2" unit="chars"/>)</line></zone>
   <zone type="main">
@@ -159,7 +160,7 @@
     <anchor xml:id="c56-0003.01"/>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5342" lry="7220" ulx="0" uly="0" mith:folio="ii verso" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0004.xml" xml:id="ox-ms_abinger_c56-0004">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5342" lry="7220" ulx="0" uly="0" mith:folio="ii verso" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0004.xml" xml:id="ox-ms_abinger_c56-0004">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0004.jp2"/>
   <zone type="main">
     <!-\-blank page-\->
@@ -303,7 +304,7 @@
           <line>her own.</line><anchor xml:id="c56-0011.14"/>
         </zone>
       </surface>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="4v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0012.xml" xml:id="ox-ms_abinger_c56-0012">
+      <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="4v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0012.xml" xml:id="ox-ms_abinger_c56-0012">
         <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0012.jp2"/>
         <zone rend="bordered" type="pagination"><line>42</line></zone>
         <zone type="main">
@@ -401,7 +402,70 @@
         
         
       </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="1r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0005.xml" xml:id="ox-ms_abinger_c56-0005">
+      
+      <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="5r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0013.xml" xml:id="ox-ms_abinger_c56-0013">
+        <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0013.jp2"/>
+        <zone rend="bordered" type="pagination"><line>43</line></zone>
+        <zone type="library"><line>5</line></zone>
+        <zone type="main">
+          <line>being an only child, and <w ana="start"/>desti</line>
+          <line>tute<w ana="end"/> of companions at home, h<mod>
+            <del rend="overwritten"><unclear>is</unclear></del>
+            <add hand="#pbs" place="intralinear">is</add>
+          </mod></line>
+          <line><del rend="strikethrough"><unclear>to</unclear></del> father was pleased that he</line>
+          <line>should find associates at our</line>
+          <line>house and we were never <w ana="start"/>com</line>
+          <line>pletely<w ana="end"/> happy when Clerval was</line>
+          <line>absent.</line>
+          <milestone unit="tei:p"/>
+          <delSpan rend="vertical_line" spanTo="#c56-0013.01"/>
+          <delSpan rend="strikethrough" spanTo="#c56-0013.02"/>
+          <line rend="indent1">In this account of my early</line>
+          <line>youth I wish particularly to <!--mod  spanTo="#c56-0013.03"--><w ana="start"/>men</line>
+          <line>tion<w ana="end"/> <anchor xml:id="c56-0013.04"/><zone corresp="#c56-0013.04" type="left_margin">
+            <line><del rend="strikethrough"><add>record </add></del></line></zone><anchor xml:id="c56-0013.03"/> those
+            circumstances<anchor xml:id="c56-0013.02"/> which</line>
+          <line>led to and nourished my taste</line>
+          <line>for that science which was</line>
+          <line>the principal amusement of my</line>
+          <line>boyish days and in <delSpan rend="strikethrough" spanTo="#c56-0013.05"/>the end
+            <w ana="start"/>deci</line>
+          <line>ded<w ana="end"/> my destiny<anchor xml:id="c56-0013.05"/>. I mentioned before</line>
+          <line>my taste for old books of <w ana="start"/>chemist</line>
+          <line>ry<w ana="end"/> and natural magic and I <w ana="start"/>remem</line>
+          <line>ber<w ana="end"/> very well that I learned latin</line>
+          <line>principally that I might read</line>
+          <line>Pliny's Natural History my father</line>
+          <line>refusing to allow me to read a</line>
+          <line>translation. I used when very young</line>
+          <line>to attend lectures of chemistry</line>
+          <line>given in Geneva and athough</line>
+          <line>I did not understand them the</line>
+          <line>experiments never failed to</line>
+          <line>attract my attention.<anchor xml:id="c56-0013.01"/><del next="#c56-0013.06" rend="strikethrough">I reme<mod><add place="sublinear"><metamark function="insert">^</metamark></add><add hand="#pbs" place="superlinear">m</add></mod>ber</del></line>
+          <line><del rend="strikethrough" xml:id="c56-0013.06">also</del><gap unit="words" quantity="6"/></line>
+          <!--2017-10-23 Note the deleted word also is part of the next line that we're including in the gap, but it seems part of the sequence running to here in chapter 1. -->
+      <gap reason="resequencing" unit="lines" quantity="4"/><!--ebb: The last 4 lines are part of Chapter 2. -->
+          
+          <!--<line><del rend="strikethrough" xml:id="c56-0013.06">also</del><milestone unit="tei:p"/><metamark function="paragraph"> [</metamark><mod>
+            <del rend="overwritten">w</del>
+            <add place="intralinear">W</add>
+          </mod>hen I was about <mod>
+            <del rend="strikethrough">twelve</del>
+            <add place="superlinear">fourteen</add>
+          </mod> years</line>
+          <line>old we were at our house near</line>
+          <line>Belrive when we witnessed <del rend="strikethrough">the</del> a</line>
+          <line>violent <mod>
+            <del rend="strikethrough">at</del>
+            <add hand="#pbs" place="superlinear">and</add>
+          </mod> terrible thunder storm</line>-->
+        </zone>
+        
+      </surface>
+      
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="1r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0005.xml" xml:id="ox-ms_abinger_c56-0005">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0005.jp2"/>
   <zone type="library"><line>1</line></zone>
 
@@ -493,7 +557,7 @@
       <add place="superlinear">lain</add></mod><w ana="end"/> to me that the principles of</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="1v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0006.xml" xml:id="ox-ms_abinger_c56-0006">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="1v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0006.xml" xml:id="ox-ms_abinger_c56-0006">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0006.jp2"/>
   <zone type="main">
     <line>Agrippa had been entirely exploded. <del rend="strikethrough">And</del></line>
@@ -552,7 +616,7 @@
     <line>of knowledge <del rend="strikethrough">from</del> to my father yet his <w ana="start"/>in</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="2r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0007.xml" xml:id="ox-ms_abinger_c56-0007">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="2r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0007.xml" xml:id="ox-ms_abinger_c56-0007">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0007.jp2"/>
 
   <zone type="library"><line>2</line></zone>
@@ -599,7 +663,7 @@
   </zone>
 
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="2v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0008.xml" xml:id="ox-ms_abinger_c56-0008">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="2v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0008.xml" xml:id="ox-ms_abinger_c56-0008">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0008.jp2"/>
   <zone type="main">
     <line><mod>
@@ -665,7 +729,7 @@
     <damage/>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="3r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0009.xml" xml:id="ox-ms_abinger_c56-0009">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="3r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0009.xml" xml:id="ox-ms_abinger_c56-0009">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0009.jp2"/>
   <zone type="library"><line>3</line></zone>
   <zone type="main">
@@ -694,7 +758,8 @@
         <add hand="#pbs" place="intralinear">,</add>
       </mod>
       <unclear extent="1" unit="chars"/> in my mind–</line>
-    <milestone unit="tei:p"/>
+    <gap reason="resequencing" unit="lines" quantity="25"/>
+   <!-- <milestone unit="tei:p"/>
     <line rend="indent3"><mod>
         <del rend="strikethrough">An</del>
         <del rend="unmarked">d</del>
@@ -749,10 +814,213 @@
     <line><w ana="start"/>tha<mod>
         <del rend="overwritten">n</del>
       <add place="intralinear">t<w ana="end"/></add>
-      </mod> science enquiring as he went out<anchor xml:id="c56-0009.01"/></line>
+      </mod> science enquiring as he went out<anchor xml:id="c56-0009.01"/></line>-->
   </zone>
-</surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="3v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0010.xml" xml:id="ox-ms_abinger_c56-0010">
+        </surface>
+
+      <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="5r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0013.xml" xml:id="ox-ms_abinger_c56-0013">
+        <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0013.jp2"/>
+        <zone rend="bordered" type="pagination"><line>43</line></zone>
+        <zone type="library"><line>5</line></zone>
+        <zone type="main">
+          <gap reason="resequencing" unit="lines" quantity="28"/>
+        <!-- ebb: LONG SECTION HERE APPEARS EARLIER IN SEQUENCE. 
+          LOOK AT THIS PART: The deleted word "also" in the first line following this seems to belong to the earlier portion in sequence.
+          
+          <line>experiments never failed to</line>
+          <line>attract my attention.<anchor xml:id="c56-0013.01"/><del next="#c56-0013.06" rend="strikethrough">I reme<mod><add place="sublinear"><metamark function="insert">^</metamark></add><add hand="#pbs" place="superlinear">m</add></mod>ber</del></line>-->
+          <line><del rend="strikethrough" xml:id="c56-0013.06">also</del><milestone unit="tei:p"/><metamark function="paragraph"> [</metamark><mod>
+            <del rend="overwritten">w</del>
+            <add place="intralinear">W</add>
+          </mod>hen I was about <mod>
+            <del rend="strikethrough">twelve</del>
+            <add place="superlinear">fourteen</add>
+          </mod> years</line>
+          <line>old we were at our house near</line>
+          <line>Belrive when we witnessed <del rend="strikethrough">the</del> a</line>
+          <line>violent <mod>
+            <del rend="strikethrough">at</del>
+            <add hand="#pbs" place="superlinear">and</add>
+          </mod> terrible thunder storm</line>
+        </zone>
+        
+      </surface>
+      <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="5v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0014.xml" xml:id="ox-ms_abinger_c56-0014">
+        <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0014.jp2"/>
+        <zone rend="bordered" type="pagination"><line>44</line></zone>
+        <zone type="main">
+          <line>it advanced from behind Jura <delSpan rend="strikethrough" spanTo="#c56-0014.01"/>and</line>
+          <line>the<anchor xml:id="c56-0014.01"/> and the thunder <delSpan rend="strikethrough" spanTo="#c56-0014.02"/>was heard at</line>
+          <line>once from<anchor xml:id="c56-0014.02"/>
+            <del rend="strikethrough">the <unclear>d</unclear></del>
+            <delSpan spanTo="#c56-0014.03"/><del rend="strikethrough">several quarte</del><del rend="unmarked">rs</del></line>
+          <line>of the heavens and<anchor xml:id="c56-0014.03"/> burst <add place="superlinear">at
+            once</add> with <del rend="strikethrough">and</del></line>
+          <line>frightful loudness.<mod>
+            <add place="sublinear"><metamark function="insert">^</metamark></add>
+            <add place="superlinear">from various quarters of the heavens</add>
+          </mod> I <delSpan rend="strikethrough" spanTo="#c56-0014.04"/>witnessed th<mod>
+            <del rend="overwritten">is</del>
+            <add place="intralinear">e</add>
+          </mod></line>
+          <line>elemental<anchor xml:id="c56-0014.04"/>
+            <del rend="strikethrough">storm with pleasure</del></line>
+          <line>and remain<add place="intralinear">ed</add> while <mod>
+            <del rend="strikethrough">it</del>
+            <add hand="#pbs" place="superlinear">the storm</add>
+          </mod> lasted <!--mod  spanTo="#c56-0014.05"--><del next="#c56-0014.06" rend="strikethrough">at</del><add place="superlinear">watching its</add><anchor xml:id="c56-0014.07"/><zone corresp="#c56-0014.07" type="left_margin">
+            <addSpan spanTo="#c56-0014.08"/>
+            <line> its progress</line>
+            <line>with curiosity</line>
+            <line> &amp; delight</line>
+            <anchor xml:id="c56-0014.08"/>
+          </zone></line>
+          <line><del rend="strikethrough" xml:id="c56-0014.06">the door</del>
+            <del rend="strikethrough">watchin</del><del rend="unmarked">g</del><anchor xml:id="c56-0014.05"/>. <!--mod  spanTo="#c56-0014.09"--><del next="#c56-0014.10" rend="strikethrough">When it was most</del><add hand="#pbs" next="#c56-0014.15" place="superlinear">As I stood at the door</add></line>
+          <line><del rend="strikethrough" xml:id="c56-0014.10">violent</del>,<add hand="#pbs" place="superlinear" xml:id="c56-0014.15">on a sudden</add><anchor xml:id="c56-0014.09"/> I
+            beheld <mod>
+              <del rend="strikethrough">the</del>
+              <add place="sublinear"><metamark function="insert">^</metamark></add>
+              <add hand="#pbs" place="superlinear">a stream of</add>
+            </mod> fire issue</line>
+          <line>from an old <del rend="strikethrough">be</del> and beautiful</line>
+          <line>oak about <del rend="strikethrough">wh</del> twenty y<retrace cause="unclear" hand="#pbs">a</retrace>rds from</line>
+          <line>our house and <mod>
+            <del rend="strikethrough">when</del>
+            <add hand="#pbs" place="superlinear">so soon as</add>
+          </mod> the <del rend="strikethrough">dazz</del></line>
+          <line>dazzling light <del rend="strikethrough">had</del>
+            <del rend="strikethrough">dissa</del>
+            <del rend="strikethrough">dissappeared</del></line>
+          <line><del rend="strikethrough">the</del>
+            <del rend="strikethrough"><unclear>pa</unclear></del> vanished, the oak <del rend="strikethrough">hand</del></line>
+          <line>had dissappeared <mod>
+            <del rend="strikethrough">an</del>
+            <add hand="#pbs" place="superlinear">&amp;</add>
+          </mod> nothing<add place="superlinear">remained</add> but a</line>
+          <line><mod>
+            <del rend="strikethrough">rent</del>
+            <add place="sublinear"><metamark function="insert">^</metamark></add>
+            <add place="superlinear">blasted</add>
+          </mod> stump. <del rend="strikethrough">remained</del>. When we</line>
+          <line>visited it the next morning we found</line>
+          <line>the <del rend="strikethrough">trea</del> tree shattered in a</line>
+          <line>singular manner. It was not <w ana="start"/>splin</line>
+          <line>tered<w ana="end"/> by the shock, but entirely</line>
+          <line>reduced to thin ribands of wood. <del rend="strikethrough">The</del></line>
+          <line><del rend="strikethrough">C</del> I never saw any thing so utterly</line>
+          <line>destroyed. The catastrophe of the</line>
+          <line>tree excited my extreme <w ana="start"/>astonish</line>
+          <line>ment<w ana="end"/> <delSpan rend="vertical_line" spanTo="#c56-0014.11"/><del next="#c56-0014.12" rend="strikethrough">and</del><mod>
+            <del next="#c56-0014.13" rend="strikethrough" xml:id="c56-0014.12">caused</del>
+            <add place="sublinear"><metamark function="insert">^</metamark></add>
+            <add place="superlinear">induced</add>
+          </mod>
+            <del next="#c56-0014.14" rend="strikethrough" xml:id="c56-0014.13">me to aply
+              wi</del><del rend="unmarked">ith</del></line>
+          <line><del rend="strikethrough" xml:id="c56-0014.14">fresh di</del>ligence to the study
+            of</line>
+          <line><mod>
+            <del rend="strikethrough">chemistry</del>
+            <add hand="#pbs" place="superlinear">natural philosophy</add>
+          </mod> which promised an <w ana="start"/>ex</line>
+          <line><del rend="strikethrough">clamatio</del> planation<w ana="end"/> of th<mod>
+            <del rend="overwritten">e</del>
+            <add place="intralinear">i</add>
+          </mod>se sort of<anchor xml:id="c56-0014.11"/></line>
+        </zone>
+        
+        
+      </surface>
+      <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="6r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0015.xml" xml:id="ox-ms_abinger_c56-0015">
+        <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0015.jp2"/>
+        <zone rend="bordered" type="pagination"><line>45</line></zone>
+        <zone type="library"><line>6</line></zone>
+        <zone type="main">
+          <delSpan rend="vertical_line" spanTo="#c56-0015.01"/>
+          <line>phænonema. On Elizabeth and</line>
+          <line>Clerval it produced a <del rend="strikethrough">di</del> very different</line>
+          <line>effect. They admired the beauty</line>
+          <line>of the storm without wishing to</line>
+          <line>analyze its causes. Henry said that</line>
+          <line>the Fairies and giants were at</line>
+          <line>war and Elizabeth attempted</line>
+          <line>a picture of it.</line><anchor xml:id="c56-0015.01"/>
+          <milestone unit="tei:p"/>
+          <delSpan rend="vertical_line" spanTo="#c56-0015.02"/>
+          <line rend="indent1">As I grew older my attempts</line>
+          <line>in science were of a higher nature.</line>
+          <line>I <del rend="strikethrough">endeavou</del> produced little earthquakes</line>
+          <line>and tried every kind of combination</line>
+          <line>of gasses <del rend="strikethrough">to</del> and elements to ascertain</line>
+          <line>the results.</line><anchor xml:id="c56-0015.02"/>
+     <gap reason="resequencing" unit="lines" quantity="16"/>     
+  
+        </zone>
+      </surface>
+      <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="3r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0009.xml" xml:id="ox-ms_abinger_c56-0009">
+          <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0009.jp2"/>
+          <zone type="library"><line>3</line></zone>
+          <zone type="main">
+        <gap reason="resequencing" unit="lines" quantity="3"/>        <milestone unit="tei:p"/>
+            <line rend="indent3"><mod>
+              <del rend="strikethrough">An</del>
+              <del rend="unmarked">d</del>
+              <add place="sublinear"><metamark function="insert">^</metamark></add>
+              <add hand="#pbs" place="superlinear">Among other questions suggested by natural
+                objects</add>
+            </mod> I <del rend="strikethrough">as</del> eagerly enquired of my father</line>
+            <line><mod>
+              <del rend="strikethrough">what</del>
+              <add place="sublinear"><metamark function="insert">^</metamark></add>
+              <add hand="#pbs" place="superlinear">the nature <space extent="3" unit="chars"/> &amp; the
+                origin of</add>
+            </mod> thunder and lightening. <del rend="strikethrough">was.</del> He</line>
+            <line>replied, electricity; describing at the same</line>
+            <line>time the effect of that power. He <mod>
+              <del rend="strikethrough">made</del>
+              <add hand="#pbs" place="superlinear">constructed</add>
+            </mod></line>
+            <line>a small electrical machine and <w ana="start"/>exhi</line>
+            <line>bited<w ana="end"/> a few experiments and made a</line>
+            <line>kite with a wire <add hand="#pbs" place="intralinear">&amp;</add> string <mod>
+              <del rend="strikethrough">and</del>
+              <add hand="#pbs" place="superlinear">which</add>
+            </mod> drew down</line>
+            <line>that fluid from the clouds.</line>
+            <milestone unit="tei:p"/>
+            <line rend="indent2">This last <del rend="strikethrough">blow</del>
+              <del rend="strikethrough">st</del> stroke compleated</line>
+            <line>the overthrow of Cornelius Agrippa, Albertus</line>
+            <line>Magnus and Paracelsus, who had so long</line>
+            <line>reigned the lords of my imagination. But</line>
+            <line>by some fatality I did not feel enclined to</line>
+            <line>commence any modern system and this</line>
+            <line><mod>
+              <del rend="strikethrough">inclination</del>
+              <add hand="#pbs" place="superlinear">disinclination</add>
+            </mod> was influenced by the following</line>
+            <line>circumstance.</line>
+            <milestone unit="tei:p"/>
+            <line rend="indent2">My father expressed a wish that I</line>
+            <line>should attend a course of lectures upon</line>
+            <line>natural philosophy, to which I <mod>
+              <add place="sublinear"><metamark function="insert">^</metamark></add>
+              <add hand="#pbs" place="superlinear">cheerfully</add>
+            </mod>consented <delSpan rend="strikethrough" spanTo="#c56-0009.02"/>and</line>
+            <line><delSpan rend="vertical_line" spanTo="#c56-0009.01"/>one evening<anchor xml:id="c56-0009.02"/> that I spent in town at the</line>
+            <line>house of Clerval's father I <delSpan rend="strikethrough" spanTo="#c56-0009.03"/>heard
+              that</line>
+            <line>M<hi rend="sup">r</hi> — was lef at<anchor xml:id="c56-0009.03"/> met M. <del rend="strikethrough">O P</del> a proficient</line>
+            <line>in Chemistry who left the company at</line>
+            <line>an early hour to <del rend="strikethrough">h</del> give his lecture upon</line>
+            <line><w ana="start"/>tha<mod>
+              <del rend="overwritten">n</del>
+              <add place="intralinear">t<w ana="end"/></add>
+            </mod> science enquiring as he went out<anchor xml:id="c56-0009.01"/></line>
+          </zone>
+        </surface>
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="3v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0010.xml" xml:id="ox-ms_abinger_c56-0010">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0010.jp2"/>
   <zone type="library"><line>3<hi rend="sup">v</hi></line></zone>
 
@@ -833,173 +1101,14 @@
     <line> of this various literature.</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="5r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0013.xml" xml:id="ox-ms_abinger_c56-0013">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0013.jp2"/>
-  <zone rend="bordered" type="pagination"><line>43</line></zone>
-  <zone type="library"><line>5</line></zone>
-  <zone type="main">
-    <line>being an only child, and <w ana="start"/>desti</line>
-    <line>tute<w ana="end"/> of companions at home, h<mod>
-        <del rend="overwritten"><unclear>is</unclear></del>
-        <add hand="#pbs" place="intralinear">is</add>
-      </mod></line>
-    <line><del rend="strikethrough"><unclear>to</unclear></del> father was pleased that he</line>
-    <line>should find associates at our</line>
-    <line>house and we were never <w ana="start"/>com</line>
-    <line>pletely<w ana="end"/> happy when Clerval was</line>
-    <line>absent.</line>
-    <milestone unit="tei:p"/>
-    <delSpan rend="vertical_line" spanTo="#c56-0013.01"/>
-    <delSpan rend="strikethrough" spanTo="#c56-0013.02"/>
-    <line rend="indent1">In this account of my early</line>
-    <line>youth I wish particularly to <!--mod  spanTo="#c56-0013.03"--><w ana="start"/>men</line>
-    <line>tion<w ana="end"/> <anchor xml:id="c56-0013.04"/><zone corresp="#c56-0013.04" type="left_margin">
-    <line><del rend="strikethrough"><add>record </add></del></line></zone><anchor xml:id="c56-0013.03"/> those
-        circumstances<anchor xml:id="c56-0013.02"/> which</line>
-    <line>led to and nourished my taste</line>
-    <line>for that science which was</line>
-    <line>the principal amusement of my</line>
-    <line>boyish days and in <delSpan rend="strikethrough" spanTo="#c56-0013.05"/>the end
-      <w ana="start"/>deci</line>
-    <line>ded<w ana="end"/> my destiny<anchor xml:id="c56-0013.05"/>. I mentioned before</line>
-    <line>my taste for old books of <w ana="start"/>chemist</line>
-    <line>ry<w ana="end"/> and natural magic and I <w ana="start"/>remem</line>
-    <line>ber<w ana="end"/> very well that I learned latin</line>
-    <line>principally that I might read</line>
-    <line>Pliny's Natural History my father</line>
-    <line>refusing to allow me to read a</line>
-    <line>translation. I used when very young</line>
-    <line>to attend lectures of chemistry</line>
-    <line>given in Geneva and athough</line>
-    <line>I did not understand them the</line>
-    <line>experiments never failed to</line>
-    <line>attract my attention.<anchor xml:id="c56-0013.01"/><del next="#c56-0013.06" rend="strikethrough">I reme<mod><add place="sublinear"><metamark function="insert">^</metamark></add><add hand="#pbs" place="superlinear">m</add></mod>ber</del></line>
-    <line><del rend="strikethrough" xml:id="c56-0013.06">also</del><milestone unit="tei:p"/><metamark function="paragraph"> [</metamark><mod>
-        <del rend="overwritten">w</del>
-        <add place="intralinear">W</add>
-      </mod>hen I was about <mod>
-        <del rend="strikethrough">twelve</del>
-        <add place="superlinear">fourteen</add>
-      </mod> years</line>
-    <line>old we were at our house near</line>
-    <line>Belrive when we witnessed <del rend="strikethrough">the</del> a</line>
-    <line>violent <mod>
-        <del rend="strikethrough">at</del>
-        <add hand="#pbs" place="superlinear">and</add>
-      </mod> terrible thunder storm</line>
-  </zone>
-  
-</surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="5v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0014.xml" xml:id="ox-ms_abinger_c56-0014">
-    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0014.jp2"/>
-    <zone rend="bordered" type="pagination"><line>44</line></zone>
-    <zone type="main">
-        <line>it advanced from behind Jura <delSpan rend="strikethrough" spanTo="#c56-0014.01"/>and</line>
-        <line>the<anchor xml:id="c56-0014.01"/> and the thunder <delSpan rend="strikethrough" spanTo="#c56-0014.02"/>was heard at</line>
-        <line>once from<anchor xml:id="c56-0014.02"/>
-            <del rend="strikethrough">the <unclear>d</unclear></del>
-            <delSpan spanTo="#c56-0014.03"/><del rend="strikethrough">several quarte</del><del rend="unmarked">rs</del></line>
-        <line>of the heavens and<anchor xml:id="c56-0014.03"/> burst <add place="superlinear">at
-                once</add> with <del rend="strikethrough">and</del></line>
-        <line>frightful loudness.<mod>
-            <add place="sublinear"><metamark function="insert">^</metamark></add>
-                <add place="superlinear">from various quarters of the heavens</add>
-            </mod> I <delSpan rend="strikethrough" spanTo="#c56-0014.04"/>witnessed th<mod>
-                <del rend="overwritten">is</del>
-                <add place="intralinear">e</add>
-            </mod></line>
-        <line>elemental<anchor xml:id="c56-0014.04"/>
-            <del rend="strikethrough">storm with pleasure</del></line>
-        <line>and remain<add place="intralinear">ed</add> while <mod>
-                <del rend="strikethrough">it</del>
-                <add hand="#pbs" place="superlinear">the storm</add>
-            </mod> lasted <!--mod  spanTo="#c56-0014.05"--><del next="#c56-0014.06" rend="strikethrough">at</del><add place="superlinear">watching its</add><anchor xml:id="c56-0014.07"/><zone corresp="#c56-0014.07" type="left_margin">
-        <addSpan spanTo="#c56-0014.08"/>
-        <line> its progress</line>
-        <line>with curiosity</line>
-        <line> &amp; delight</line>
-        <anchor xml:id="c56-0014.08"/>
-    </zone></line>
-        <line><del rend="strikethrough" xml:id="c56-0014.06">the door</del>
-            <del rend="strikethrough">watchin</del><del rend="unmarked">g</del><anchor xml:id="c56-0014.05"/>. <!--mod  spanTo="#c56-0014.09"--><del next="#c56-0014.10" rend="strikethrough">When it was most</del><add hand="#pbs" next="#c56-0014.15" place="superlinear">As I stood at the door</add></line>
-        <line><del rend="strikethrough" xml:id="c56-0014.10">violent</del>,<add hand="#pbs" place="superlinear" xml:id="c56-0014.15">on a sudden</add><anchor xml:id="c56-0014.09"/> I
-            beheld <mod>
-                <del rend="strikethrough">the</del>
-                <add place="sublinear"><metamark function="insert">^</metamark></add>
-                <add hand="#pbs" place="superlinear">a stream of</add>
-            </mod> fire issue</line>
-        <line>from an old <del rend="strikethrough">be</del> and beautiful</line>
-        <line>oak about <del rend="strikethrough">wh</del> twenty y<retrace cause="unclear" hand="#pbs">a</retrace>rds from</line>
-        <line>our house and <mod>
-                <del rend="strikethrough">when</del>
-                <add hand="#pbs" place="superlinear">so soon as</add>
-            </mod> the <del rend="strikethrough">dazz</del></line>
-        <line>dazzling light <del rend="strikethrough">had</del>
-            <del rend="strikethrough">dissa</del>
-            <del rend="strikethrough">dissappeared</del></line>
-        <line><del rend="strikethrough">the</del>
-            <del rend="strikethrough"><unclear>pa</unclear></del> vanished, the oak <del rend="strikethrough">hand</del></line>
-        <line>had dissappeared <mod>
-                <del rend="strikethrough">an</del>
-                <add hand="#pbs" place="superlinear">&amp;</add>
-            </mod> nothing<add place="superlinear">remained</add> but a</line>
-        <line><mod>
-                <del rend="strikethrough">rent</del>
-                <add place="sublinear"><metamark function="insert">^</metamark></add>
-                <add place="superlinear">blasted</add>
-            </mod> stump. <del rend="strikethrough">remained</del>. When we</line>
-        <line>visited it the next morning we found</line>
-        <line>the <del rend="strikethrough">trea</del> tree shattered in a</line>
-      <line>singular manner. It was not <w ana="start"/>splin</line>
-      <line>tered<w ana="end"/> by the shock, but entirely</line>
-        <line>reduced to thin ribands of wood. <del rend="strikethrough">The</del></line>
-        <line><del rend="strikethrough">C</del> I never saw any thing so utterly</line>
-        <line>destroyed. The catastrophe of the</line>
-      <line>tree excited my extreme <w ana="start"/>astonish</line>
-      <line>ment<w ana="end"/> <delSpan rend="vertical_line" spanTo="#c56-0014.11"/><del next="#c56-0014.12" rend="strikethrough">and</del><mod>
-                <del next="#c56-0014.13" rend="strikethrough" xml:id="c56-0014.12">caused</del>
-                <add place="sublinear"><metamark function="insert">^</metamark></add>
-                <add place="superlinear">induced</add>
-            </mod>
-            <del next="#c56-0014.14" rend="strikethrough" xml:id="c56-0014.13">me to aply
-                wi</del><del rend="unmarked">ith</del></line>
-        <line><del rend="strikethrough" xml:id="c56-0014.14">fresh di</del>ligence to the study
-            of</line>
-        <line><mod>
-                <del rend="strikethrough">chemistry</del>
-                <add hand="#pbs" place="superlinear">natural philosophy</add>
-        </mod> which promised an <w ana="start"/>ex</line>
-      <line><del rend="strikethrough">clamatio</del> planation<w ana="end"/> of th<mod>
-                <del rend="overwritten">e</del>
-                <add place="intralinear">i</add>
-            </mod>se sort of<anchor xml:id="c56-0014.11"/></line>
-    </zone>
-
-    
-</surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="6r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0015.xml" xml:id="ox-ms_abinger_c56-0015">
+       
+       
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="6r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0015.xml" xml:id="ox-ms_abinger_c56-0015">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0015.jp2"/>
   <zone rend="bordered" type="pagination"><line>45</line></zone>
   <zone type="library"><line>6</line></zone>
   <zone type="main">
-    <delSpan rend="vertical_line" spanTo="#c56-0015.01"/>
-    <line>phænonema. On Elizabeth and</line>
-    <line>Clerval it produced a <del rend="strikethrough">di</del> very different</line>
-    <line>effect. They admired the beauty</line>
-    <line>of the storm without wishing to</line>
-    <line>analyze its causes. Henry said that</line>
-    <line>the Fairies and giants were at</line>
-    <line>war and Elizabeth attempted</line>
-    <line>a picture of it.</line><anchor xml:id="c56-0015.01"/>
-    <milestone unit="tei:p"/>
-    <delSpan rend="vertical_line" spanTo="#c56-0015.02"/>
-    <line rend="indent1">As I grew older my attempts</line>
-    <line>in science were of a higher nature.</line>
-    <line>I <del rend="strikethrough">endeavou</del> produced little earthquakes</line>
-    <line>and tried every kind of combination</line>
-    <line>of gasses <del rend="strikethrough">to</del> and elements to ascertain</line>
-    <line>the results.</line><anchor xml:id="c56-0015.02"/>
+    <gap reason="resequencing" unit="lines" quantity="14"/>
     <milestone unit="tei:p"/>
     <line rend="indent1"><delSpan rend="strikethrough" spanTo="#c56-0015.03"/>As I
       before mentioned my brothers</line>
@@ -1032,7 +1141,7 @@
     <line>world, his lively blue eyes dimpled cheeks</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="6v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0016.xml" xml:id="ox-ms_abinger_c56-0016">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="6v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0016.xml" xml:id="ox-ms_abinger_c56-0016">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0016.jp2"/>
   <zone rend="bordered" type="pagination"><line>46</line></zone>
   <zone type="main">
@@ -1065,7 +1174,7 @@
   
 </surface>
       <!-- COLLATION CHUNK POINT UNIT C07 RM 10/09/2017 -->
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="7r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0017.xml" xml:id="ox-ms_abinger_c56-0017">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="7r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0017.xml" xml:id="ox-ms_abinger_c56-0017">
     <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0017.jp2"/>
     <zone rend="#bordered" type="pagination"><line>47</line></zone>
     
@@ -1144,7 +1253,7 @@
     
     
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="7v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml" xml:id="ox-ms_abinger_c56-0018">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="7v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml" xml:id="ox-ms_abinger_c56-0018">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0018.jp2"/>
 
   <zone rend="bordered" type="pagination"><line>48</line></zone>
@@ -1191,7 +1300,7 @@
     <line>I need not describe the feelings of those</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="8r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0019.xml" xml:id="ox-ms_abinger_c56-0019">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="8r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0019.xml" xml:id="ox-ms_abinger_c56-0019">
     <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0019.jp2"/>
 
     <zone rend="#bordered" type="pagination"><line>49</line></zone>
@@ -1265,7 +1374,7 @@
 
     
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="8v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0020.xml" xml:id="ox-ms_abinger_c56-0020">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="8v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0020.xml" xml:id="ox-ms_abinger_c56-0020">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0020.jp2"/>
   <zone rend="bordered" type="pagination"><line>50</line></zone>
   <zone type="main">
@@ -1346,7 +1455,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="9r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0021.xml" xml:id="ox-ms_abinger_c56-0021">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="9r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0021.xml" xml:id="ox-ms_abinger_c56-0021">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0021.jp2"/>
   <zone rend="bordered" type="pagination"><line>51</line></zone>
   <zone type="library"><line>9</line></zone>
@@ -1441,7 +1550,7 @@
 
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="9v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0022.xml" xml:id="ox-ms_abinger_c56-0022">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="9v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0022.xml" xml:id="ox-ms_abinger_c56-0022">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0022.jp2"/>
   <zone rend="bordered" type="pagination"><line>53</line></zone>
   <zone type="main">
@@ -1509,7 +1618,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="10r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0023.xml" xml:id="ox-ms_abinger_c56-0023">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="10r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0023.xml" xml:id="ox-ms_abinger_c56-0023">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0023.jp2"/>
   <zone rend="bordered" type="pagination"><line>54</line></zone>
   <zone type="library"><line>10</line></zone>
@@ -1523,7 +1632,7 @@
     <line>evening as I pleased.</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="10v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml" xml:id="ox-ms_abinger_c56-0024">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="10v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml" xml:id="ox-ms_abinger_c56-0024">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0024.jp2"/>
   <zone rend="bordered" type="pagination"><line>55</line></zone>
   
@@ -1590,7 +1699,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="11r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0025.xml" xml:id="ox-ms_abinger_c56-0025">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="11r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0025.xml" xml:id="ox-ms_abinger_c56-0025">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0025.jp2"/>
   <zone rend="#bordered" type="pagination"><line>56</line></zone>
   <zone type="library"><line>11</line></zone>
@@ -1646,7 +1755,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="11v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0026.xml" xml:id="ox-ms_abinger_c56-0026">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="11v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0026.xml" xml:id="ox-ms_abinger_c56-0026">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0026.jp2"/>
   <zone rend="bordered" type="pagination"><line>57</line></zone>
 
@@ -1755,7 +1864,7 @@
   
 
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="12r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0027.xml" xml:id="ox-ms_abinger_c56-0027">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="12r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0027.xml" xml:id="ox-ms_abinger_c56-0027">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0027.jp2"/>
 
   <zone rend="#bordered" type="pagination"><line>58</line></zone>
@@ -1838,7 +1947,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="12v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml" xml:id="ox-ms_abinger_c56-0028">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="12v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml" xml:id="ox-ms_abinger_c56-0028">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0028.jp2"/>
   <zone rend="bordered" type="pagination"><line>58</line></zone>
   <zone type="main">
@@ -1951,7 +2060,7 @@
 
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="13r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0029.xml" xml:id="ox-ms_abinger_c56-0029">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="13r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0029.xml" xml:id="ox-ms_abinger_c56-0029">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0029.jp2"/>
   <zone rend="bordered" type="pagination"><line>59</line></zone>
   <zone type="library"><line>13</line></zone>
@@ -2018,7 +2127,7 @@
 
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="13v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0030.xml" xml:id="ox-ms_abinger_c56-0030">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="13v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0030.xml" xml:id="ox-ms_abinger_c56-0030">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0030.jp2"/>
   <zone rend="bordered" type="pagination"><line>60</line></zone>
   <zone type="main">
@@ -2041,7 +2150,7 @@
   </zone>
 </surface>
       <!-- COLLATION CHUNK POINT UNIT C08 RM 10/09/2017 -->
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="14r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0031.xml" xml:id="ox-ms_abinger_c56-0031">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="14r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0031.xml" xml:id="ox-ms_abinger_c56-0031">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0031.jp2"/>
   
   <zone rend="bordered" type="pagination"><line>61</line></zone>
@@ -2133,7 +2242,7 @@
 
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="14v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0032.xml" xml:id="ox-ms_abinger_c56-0032">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="14v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0032.xml" xml:id="ox-ms_abinger_c56-0032">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0032.jp2"/>
   <zone rend="bordered" type="pagination"><line>62</line></zone>
   <zone type="main">
@@ -2221,7 +2330,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="15r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0033.xml" xml:id="ox-ms_abinger_c56-0033">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="15r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0033.xml" xml:id="ox-ms_abinger_c56-0033">
     <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0033.jp2"/>
     <zone rend="bordered" type="pagination"><line>63</line></zone>
     <zone type="library"><line>15</line></zone>
@@ -2284,7 +2393,7 @@
     
     
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="15v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0034.xml" xml:id="ox-ms_abinger_c56-0034">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="15v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0034.xml" xml:id="ox-ms_abinger_c56-0034">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0034.jp2"/>
   <zone rend="bordered" type="pagination"><line>64</line></zone>
   <zone type="main">
@@ -2376,7 +2485,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="16r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0035.xml" xml:id="ox-ms_abinger_c56-0035">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="16r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0035.xml" xml:id="ox-ms_abinger_c56-0035">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0035.jp2"/>
   <zone rend="bordered" type="pagination"><line>65</line></zone>
   <zone type="library"><line>16</line></zone>
@@ -2456,7 +2565,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="16v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0036.xml" xml:id="ox-ms_abinger_c56-0036">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="16v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0036.xml" xml:id="ox-ms_abinger_c56-0036">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0036.jp2"/>
 
   <zone rend="bordered" type="pagination"><line>66</line></zone>
@@ -2544,7 +2653,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="17r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0037.xml" xml:id="ox-ms_abinger_c56-0037">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="17r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0037.xml" xml:id="ox-ms_abinger_c56-0037">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0037.jp2"/>
   <zone rend="bordered" type="pagination"><line>67</line></zone>
   <zone type="library">17</zone>
@@ -2559,7 +2668,7 @@
     <line>nature <del rend="strikethrough">allows.</del> will allow.</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="17v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0038.xml" xml:id="ox-ms_abinger_c56-0038">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="17v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0038.xml" xml:id="ox-ms_abinger_c56-0038">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0038.jp2"/>
   <zone rend="bordered" type="pagination"><line>68</line></zone>
   
@@ -2696,7 +2805,7 @@
 
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="18r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0039.xml" xml:id="ox-ms_abinger_c56-0039">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="18r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0039.xml" xml:id="ox-ms_abinger_c56-0039">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0039.jp2"/>
   <zone rend="bordered" type="pagination"><line><mod><del rend="overwritten"><unclear>7</unclear></del><add place="intralinear">6</add></mod>9</line></zone>
   <zone type="library"><line>18</line></zone>
@@ -2819,7 +2928,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="18v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0040.xml" xml:id="ox-ms_abinger_c56-0040">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="18v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0040.xml" xml:id="ox-ms_abinger_c56-0040">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0040.jp2"/>
   <zone rend="bordered" type="pagination"><line>70</line></zone>
   <zone type="main">
@@ -2900,7 +3009,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="19r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0041.xml" xml:id="ox-ms_abinger_c56-0041">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="19r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0041.xml" xml:id="ox-ms_abinger_c56-0041">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0041.jp2"/>
   <zone rend="bordered" type="pagination"><line>71</line></zone>
   <zone type="library"><line>19</line></zone>
@@ -2977,7 +3086,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="19v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0042.xml" xml:id="ox-ms_abinger_c56-0042">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="19v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0042.xml" xml:id="ox-ms_abinger_c56-0042">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0042.jp2"/>
   <zone rend="bordered" type="pagination"><line>72</line></zone>
   <zone type="main">
@@ -3056,7 +3165,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="20r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0043.xml" xml:id="ox-ms_abinger_c56-0043">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="20r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0043.xml" xml:id="ox-ms_abinger_c56-0043">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0043.jp2"/>
   <zone type="pagination"><line>73</line></zone>
   <zone type="library"><line>20</line></zone>
@@ -3114,7 +3223,7 @@
       </mod> my</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="20v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0044.xml" xml:id="ox-ms_abinger_c56-0044">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="20v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0044.xml" xml:id="ox-ms_abinger_c56-0044">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0044.jp2"/>
   <zone rend="bordered" type="pagination"><line>74</line></zone>
   <zone type="main">
@@ -3166,7 +3275,7 @@
   </zone>
 </surface>
       <!-- COLLATION CHUNK POINT UNIT C09 RM 10/09/2017 -->
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="3847" lry="5342" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="21r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml" xml:id="ox-ms_abinger_c56-0045">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="3847" lry="5342" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="21r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml" xml:id="ox-ms_abinger_c56-0045">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0045.jp2"/>
   <zone rend="bordered" type="pagination"><line>75</line></zone>
   <zone type="library"><line>21</line></zone>
@@ -3251,7 +3360,7 @@
 
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="3844" lry="5404" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="21v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml" xml:id="ox-ms_abinger_c56-0046">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="3844" lry="5404" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="21v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml" xml:id="ox-ms_abinger_c56-0046">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0046.jp2"/>
   <zone rend="bordered" type="pagination"><line>76</line></zone>
   <zone type="main">
@@ -3302,7 +3411,7 @@
     <line>the hue of death; her features appeared</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="22r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml" xml:id="ox-ms_abinger_c56-0047">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="22r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml" xml:id="ox-ms_abinger_c56-0047">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0047.jp2"/>
   <zone type="pagination"><line>77</line></zone>
   <zone type="library"><line>22</line></zone>
@@ -3387,7 +3496,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="22v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml" xml:id="ox-ms_abinger_c56-0048">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="22v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml" xml:id="ox-ms_abinger_c56-0048">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0048.jp2"/>
   <zone rend="bordered" type="pagination"><line>78</line></zone>
   <zone type="main">
@@ -3451,7 +3560,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="23r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml" xml:id="ox-ms_abinger_c56-0049">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="23r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml" xml:id="ox-ms_abinger_c56-0049">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0049.jp2"/>
   <zone rend="bordered" type="pagination"><line>79</line></zone>
   <zone type="library"><line>23</line></zone>
@@ -3521,7 +3630,7 @@
     
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="23v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml" xml:id="ox-ms_abinger_c56-0050">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="23v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml" xml:id="ox-ms_abinger_c56-0050">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0050.jp2"/>
   <zone rend="bordered" type="pagination"><line>80</line></zone>
   <zone type="main">
@@ -3574,7 +3683,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="24r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml" xml:id="ox-ms_abinger_c56-0051">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="24r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml" xml:id="ox-ms_abinger_c56-0051">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0051.jp2"/>
   <zone rend="bordered" type="pagination"><line>81</line></zone>
   <zone type="library"><line>24</line></zone>
@@ -3646,7 +3755,7 @@
 
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="24v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml" xml:id="ox-ms_abinger_c56-0052">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="24v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml" xml:id="ox-ms_abinger_c56-0052">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0052.jp2"/>
   <zone rend="bordered" type="pagination"><line>82</line></zone>
   <zone type="main">
@@ -3693,7 +3802,7 @@
     <line>hideous guest. I could hardly <del rend="strikethrough">belief</del></line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="25r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml" xml:id="ox-ms_abinger_c56-0053">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="25r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml" xml:id="ox-ms_abinger_c56-0053">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0053.jp2"/>
   <zone rend="bordered" type="pagination"><line>83</line></zone>
   <zone type="library"><line>25</line></zone>
@@ -3739,7 +3848,7 @@
     <line>I saw <hi rend="underline">the spectre</hi> glide into the</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="25v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0054.xml" xml:id="ox-ms_abinger_c56-0054">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="25v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0054.xml" xml:id="ox-ms_abinger_c56-0054">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0054.jp2"/>
   <zone rend="bordered" type="pagination"><line>84</line></zone>
   <zone type="main">
@@ -3761,7 +3870,7 @@
     <line>senses for <del rend="strikethrough">several</del> a long, long time.</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="26r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml" xml:id="ox-ms_abinger_c56-0055">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="26r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml" xml:id="ox-ms_abinger_c56-0055">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0055.jp2"/>
   <zone rend="bordered" type="pagination"><line>85</line></zone>
   <zone type="library"><line>26</line></zone>
@@ -3809,7 +3918,7 @@
     <line>nually<w ana="end"/> recurred to the same subject</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="26v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml" xml:id="ox-ms_abinger_c56-0056">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="26v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml" xml:id="ox-ms_abinger_c56-0056">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0056.jp2"/>
   <zone rend="bordered" type="pagination"><line>86</line></zone>
   <zone type="main">
@@ -3856,7 +3965,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="27r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml" xml:id="ox-ms_abinger_c56-0057">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="27r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml" xml:id="ox-ms_abinger_c56-0057">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0057.jp2"/>
   <zone rend="bordered" type="pagination"><line>87</line></zone>
   <zone type="library"><line>27</line></zone>
@@ -3922,7 +4031,7 @@
   
 
   </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="27v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0058.xml" xml:id="ox-ms_abinger_c56-0058">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="27v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0058.xml" xml:id="ox-ms_abinger_c56-0058">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0058.jp2"/>
   <zone rend="bordered" type="pagination"><line>88</line></zone>
   <zone type="main">
@@ -4007,7 +4116,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="28a recto" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0059.xml" xml:id="ox-ms_abinger_c56-0059">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="28a recto" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0059.xml" xml:id="ox-ms_abinger_c56-0059">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0059.jp2"/>
   <zone rend="bordered" type="pagination"><line>89</line></zone>
   <zone type="library"><line>28<add>a</add></line></zone>
@@ -4088,7 +4197,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="28a verso" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0060.xml" xml:id="ox-ms_abinger_c56-0060">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="28a verso" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0060.xml" xml:id="ox-ms_abinger_c56-0060">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0060.jp2"/>
   <zone rend="bordered" type="pagination"><line>90</line></zone>
   <zone type="main">
@@ -4206,7 +4315,7 @@
   <!-- This is the beginning of a left-margin zone that crosses two pages-->
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="28b recto" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0061.xml" xml:id="ox-ms_abinger_c56-0061">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="28b recto" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0061.xml" xml:id="ox-ms_abinger_c56-0061">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0061.jp2"/>
   <zone rend="bordered" type="pagination"><line>91</line></zone>
   <zone type="library"><line>28b</line></zone>
@@ -4275,7 +4384,7 @@
     <line>one was too much occupied in their</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="28b verso" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0062.xml" xml:id="ox-ms_abinger_c56-0062">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="28b verso" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0062.xml" xml:id="ox-ms_abinger_c56-0062">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0062.jp2"/>
   <zone rend="bordered" type="pagination"><line>92</line></zone>
   <zone type="main">
@@ -4326,7 +4435,7 @@
     <line>Justine to forgive her unkindness</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="29r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0063.xml" xml:id="ox-ms_abinger_c56-0063">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="29r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0063.xml" xml:id="ox-ms_abinger_c56-0063">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0063.jp2"/>
   <zone rend="bordered" type="pagination"><line>93</line></zone>
   <zone type="library"><line>29</line></zone>
@@ -4400,7 +4509,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="29v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0064.xml" xml:id="ox-ms_abinger_c56-0064">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="29v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0064.xml" xml:id="ox-ms_abinger_c56-0064">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0064.jp2"/>
   <zone rend="bordered" type="pagination"><line>94</line></zone>
   <zone type="main">
@@ -4454,7 +4563,7 @@
 
 </surface>
       <!-- COLLATION CHUNK POINT UNIT C12 RM 10/09/2017 -->
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="30r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0065.xml" xml:id="ox-ms_abinger_c56-0065">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="30r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0065.xml" xml:id="ox-ms_abinger_c56-0065">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0065.jp2"/>
   <zone rend="bordered" type="pagination"><line>95</line></zone>
   <zone type="library"><line>30</line></zone>
@@ -4485,7 +4594,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="30v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0066.xml" xml:id="ox-ms_abinger_c56-0066">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="30v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0066.xml" xml:id="ox-ms_abinger_c56-0066">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0066.jp2"/>
   <zone rend="bordered" type="pagination"><line>96</line></zone>
   
@@ -4566,7 +4675,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="31r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0067.xml" xml:id="ox-ms_abinger_c56-0067">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="31r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0067.xml" xml:id="ox-ms_abinger_c56-0067">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0067.jp2"/>
   <zone rend="bordered" type="pagination"><line>97</line></zone>
   <zone type="library"><line>31</line></zone>
@@ -4638,7 +4747,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="31v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml" xml:id="ox-ms_abinger_c56-0068">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="31v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml" xml:id="ox-ms_abinger_c56-0068">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0068.jp2"/>
   <zone type="pagination"><line>98</line></zone>
   <zone type="main">
@@ -4707,7 +4816,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="32r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0069.xml" xml:id="ox-ms_abinger_c56-0069">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="32r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0069.xml" xml:id="ox-ms_abinger_c56-0069">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0069.jp2"/>
   <zone rend="bordered" type="pagination"><line>99</line></zone>
   <zone type="library"><line>32</line></zone>
@@ -4802,7 +4911,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="32v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0070.xml" xml:id="ox-ms_abinger_c56-0070">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="32v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0070.xml" xml:id="ox-ms_abinger_c56-0070">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0070.jp2"/>
   <zone rend="bordered" type="pagination"><line>100</line></zone>
   <zone type="main">
@@ -4878,7 +4987,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="33r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0071.xml" xml:id="ox-ms_abinger_c56-0071">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="33r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0071.xml" xml:id="ox-ms_abinger_c56-0071">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0071.jp2"/>
   <zone rend="bordered" type="pagination"><line>101</line></zone>
   <zone type="library"><line>33</line></zone>
@@ -4975,7 +5084,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="33v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0072.xml" xml:id="ox-ms_abinger_c56-0072">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="33v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0072.xml" xml:id="ox-ms_abinger_c56-0072">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0072.jp2"/>
   <zone rend="bordered" type="pagination"><line>102</line>
   </zone>
@@ -5027,7 +5136,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="34r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0073.xml" xml:id="ox-ms_abinger_c56-0073">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="34r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0073.xml" xml:id="ox-ms_abinger_c56-0073">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0073.jp2"/>
   <zone rend="bordered" type="pagination"><line>103</line></zone>
   <zone type="library"><line>34</line></zone>
@@ -5105,7 +5214,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="34v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0074.xml" xml:id="ox-ms_abinger_c56-0074">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="34v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0074.xml" xml:id="ox-ms_abinger_c56-0074">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0074.jp2"/>
   <zone rend="bordered" type="pagination"><line>104</line></zone>
   <zone type="main">
@@ -5170,7 +5279,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="35r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0075.xml" xml:id="ox-ms_abinger_c56-0075">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="35r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0075.xml" xml:id="ox-ms_abinger_c56-0075">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0075.jp2"/>
   <zone rend="bordered" type="pagination"><line>105</line></zone>
   <zone type="library"><line>35</line></zone>
@@ -5238,7 +5347,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="35v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0076.xml" xml:id="ox-ms_abinger_c56-0076">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="35v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0076.xml" xml:id="ox-ms_abinger_c56-0076">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0076.jp2"/>
   <zone rend="bordered" type="pagination"><line>106</line></zone>
   <zone type="main">
@@ -5304,7 +5413,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="36r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0077.xml" xml:id="ox-ms_abinger_c56-0077">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="36r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0077.xml" xml:id="ox-ms_abinger_c56-0077">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0077.jp2"/>
   <zone rend="bordered" type="pagination"><line>107</line></zone>
   <zone type="library"><line>36</line></zone>
@@ -5372,7 +5481,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="36v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0078.xml" xml:id="ox-ms_abinger_c56-0078">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="36v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0078.xml" xml:id="ox-ms_abinger_c56-0078">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0078.jp2"/>
   <zone rend="bordered" type="pagination"><line>108</line></zone>
   <zone type="main">
@@ -5441,7 +5550,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="37r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0079.xml" xml:id="ox-ms_abinger_c56-0079">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="37r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0079.xml" xml:id="ox-ms_abinger_c56-0079">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0079.jp2"/>
   <zone rend="bordered" type="pagination"><line>109</line></zone>
   <zone type="library"><line>37</line></zone>
@@ -5513,7 +5622,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="37v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0080.xml" xml:id="ox-ms_abinger_c56-0080">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="37v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0080.xml" xml:id="ox-ms_abinger_c56-0080">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0080.jp2"/>
   <zone rend="bordered" type="pagination"><line>1<mod><del rend="overwritten">0</del><add place="intralinear">1</add></mod>0</line></zone>
   <zone type="main">
@@ -5542,7 +5651,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="38r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0081.xml" xml:id="ox-ms_abinger_c56-0081">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="38r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0081.xml" xml:id="ox-ms_abinger_c56-0081">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0081.jp2"/>
   <zone rend="bordered" type="pagination"><line>111</line></zone>
   <zone type="library"><line>38</line></zone>
@@ -5629,7 +5738,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="38v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0082.xml" xml:id="ox-ms_abinger_c56-0082">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="38v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0082.xml" xml:id="ox-ms_abinger_c56-0082">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0082.jp2"/>
   <zone rend="bordered" type="pagination"><line>112</line></zone>
   <zone type="main">
@@ -5721,7 +5830,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="39r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0083.xml" xml:id="ox-ms_abinger_c56-0083">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="39r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0083.xml" xml:id="ox-ms_abinger_c56-0083">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0083.jp2"/>
   <zone rend="bordered" type="pagination"><line>113</line></zone>
   <zone type="library"><line>39</line></zone>
@@ -5846,7 +5955,7 @@
 
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="39v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0084.xml" xml:id="ox-ms_abinger_c56-0084">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="39v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0084.xml" xml:id="ox-ms_abinger_c56-0084">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0084.jp2"/>
   <zone rend="bordered" type="pagination"><line>114</line></zone>
   <zone type="main">
@@ -5952,7 +6061,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="40r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0085.xml" xml:id="ox-ms_abinger_c56-0085">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="40r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0085.xml" xml:id="ox-ms_abinger_c56-0085">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0085.jp2"/>
   <zone rend="bordered" type="pagination"><line>115</line></zone>
   <zone type="library"><line>40</line></zone>
@@ -6026,7 +6135,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="40v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0086.xml" xml:id="ox-ms_abinger_c56-0086">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="40v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0086.xml" xml:id="ox-ms_abinger_c56-0086">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0086.jp2"/>
   <zone rend="bordered" type="pagination"><line>116</line></zone>
   <zone type="main">
@@ -6094,7 +6203,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="41r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0087.xml" xml:id="ox-ms_abinger_c56-0087">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="41r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0087.xml" xml:id="ox-ms_abinger_c56-0087">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0087.jp2"/>
   <zone rend="bordered" type="pagination"><line>117</line></zone>
   <zone type="library"><line>41</line></zone>
@@ -6191,7 +6300,7 @@
 
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="41v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0088.xml" xml:id="ox-ms_abinger_c56-0088">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="41v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0088.xml" xml:id="ox-ms_abinger_c56-0088">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0088.jp2"/>
   <zone rend="bordered" type="pagination"><line>118</line></zone>
   <zone type="main">
@@ -6269,7 +6378,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="42r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0089.xml" xml:id="ox-ms_abinger_c56-0089">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="42r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0089.xml" xml:id="ox-ms_abinger_c56-0089">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0089.jp2"/>
   <zone rend="bordered" type="pagination"><line>119</line></zone>
   <zone type="library"><line>42</line></zone>
@@ -6311,7 +6420,7 @@
   <!--"he" in left margin was probably abandoned in favor of superlinear addition. -->
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="42v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0090.xml" xml:id="ox-ms_abinger_c56-0090">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="42v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0090.xml" xml:id="ox-ms_abinger_c56-0090">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0090.jp2"/>
   <zone rend="bordered" type="pagination"><line>120</line></zone>
   
@@ -6394,7 +6503,7 @@
     <line>whom I sincerely love, is to be torn</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="43r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0091.xml" xml:id="ox-ms_abinger_c56-0091">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="43r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0091.xml" xml:id="ox-ms_abinger_c56-0091">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0091.jp2"/>
   <zone rend="bordered" type="pagination"><line>121</line></zone>
   <zone type="library"><line>43</line></zone>
@@ -6457,7 +6566,7 @@
 
 
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="43v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0092.xml" xml:id="ox-ms_abinger_c56-0092">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="43v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0092.xml" xml:id="ox-ms_abinger_c56-0092">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0092.jp2"/>
   <zone rend="bordered" type="pagination"><line>122</line></zone>
   <zone type="main">
@@ -6505,7 +6614,7 @@
     <line>tranquil yet her tranquillity was evident</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="44r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0093.xml" xml:id="ox-ms_abinger_c56-0093">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="44r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0093.xml" xml:id="ox-ms_abinger_c56-0093">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0093.jp2"/>
   <zone rend="bordered" type="pagination"><line>123</line></zone>
   <zone type="library"><line>44</line></zone>
@@ -6580,7 +6689,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="44v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0094.xml" xml:id="ox-ms_abinger_c56-0094">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="44v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0094.xml" xml:id="ox-ms_abinger_c56-0094">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0094.jp2"/>
   <zone rend="bordered" type="pagination"><line>124</line></zone>
   <zone type="main">
@@ -6629,7 +6738,7 @@
       </mod> appears</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="45r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0095.xml" xml:id="ox-ms_abinger_c56-0095">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="45r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0095.xml" xml:id="ox-ms_abinger_c56-0095">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0095.jp2"/>
   <zone rend="bordered" type="pagination"><line>125</line></zone>
   <zone type="library"><line>45</line></zone>
@@ -6698,7 +6807,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="45v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0096.xml" xml:id="ox-ms_abinger_c56-0096">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="45v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0096.xml" xml:id="ox-ms_abinger_c56-0096">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0096.jp2"/>
   <zone rend="bordered" type="pagination"><line>126</line></zone>
   <zone type="main">
@@ -6765,7 +6874,7 @@
     <line>ble<w ana="end"/> dispositions &amp; conduct, about to fail</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="46r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0097.xml" xml:id="ox-ms_abinger_c56-0097">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="46r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0097.xml" xml:id="ox-ms_abinger_c56-0097">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0097.jp2"/>
   <zone rend="bordered" type="pagination"><line>127</line></zone>
   <zone type="library"><line>46</line></zone>
@@ -6842,7 +6951,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="46v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0098.xml" xml:id="ox-ms_abinger_c56-0098">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="46v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0098.xml" xml:id="ox-ms_abinger_c56-0098">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0098.jp2"/>
   <zone rend="bordered" type="pagination"><line>12<mod><del rend="overwritten"><unclear>6</unclear></del><add place="intralinear">8</add></mod></line></zone>
   <zone type="main">
@@ -6898,7 +7007,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="47r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0099.xml" xml:id="ox-ms_abinger_c56-0099">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="47r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0099.xml" xml:id="ox-ms_abinger_c56-0099">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0099.jp2"/>
   <zone rend="bordered" type="pagination"><line>12<mod><del rend="overwritten">7</del><add place="intralinear">9</add></mod></line></zone>
   <zone type="library"><line>47</line></zone>
@@ -6936,7 +7045,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="47v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0100.xml" xml:id="ox-ms_abinger_c56-0100">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="47v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0100.xml" xml:id="ox-ms_abinger_c56-0100">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0100.jp2"/>
   
   <zone rend="bordered" type="pagination"><line>130</line></zone>
@@ -6995,7 +7104,7 @@
     <line>only to betray– her mild eyes seemed <w ana="start"/>inca</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="48r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0101.xml" xml:id="ox-ms_abinger_c56-0101">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="48r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0101.xml" xml:id="ox-ms_abinger_c56-0101">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0101.jp2"/>
   <zone rend="bordered" type="pagination"><line>131</line></zone>
   <zone type="library"><line>48</line></zone>
@@ -7049,7 +7158,7 @@
     <line>"why do you kneel if you are innocen<damage type="tear">t</damage></line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="48v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0102.xml" xml:id="ox-ms_abinger_c56-0102">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="48v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0102.xml" xml:id="ox-ms_abinger_c56-0102">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0102.jp2"/>
   <zone rend="bordered" type="pagination"><line>132</line></zone>
   <zone type="main">
@@ -7085,7 +7194,7 @@
     <line>that you should <del rend="strikethrough">sho</del> believe that</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="49r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0103.xml" xml:id="ox-ms_abinger_c56-0103">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="49r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0103.xml" xml:id="ox-ms_abinger_c56-0103">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0103.jp2"/>
   <zone rend="bordered" type="pagination"><line>133</line></zone>
   <zone type="library"><line>49</line></zone>
@@ -7138,7 +7247,7 @@
     <line>er "I will try to comfort you," said she<unclear>,</unclear></line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="49v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml" xml:id="ox-ms_abinger_c56-0104">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="49v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0104.xml" xml:id="ox-ms_abinger_c56-0104">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0104.jp2"/>
   <zone rend="bordered" type="pagination"><line>134</line></zone>
   <zone type="main">
@@ -7220,7 +7329,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="50r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0105.xml" xml:id="ox-ms_abinger_c56-0105">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="50r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0105.xml" xml:id="ox-ms_abinger_c56-0105">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0105.jp2"/>
   <zone rend="bordered" type="pagination"><line>135</line></zone>
   <zone type="library"><line>50</line></zone>
@@ -7272,7 +7381,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="50v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0106.xml" xml:id="ox-ms_abinger_c56-0106">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="50v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0106.xml" xml:id="ox-ms_abinger_c56-0106">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0106.jp2"/>
   <zone rend="bordered" type="pagination"><line>136</line></zone>
   <zone type="main">
@@ -7344,7 +7453,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="51r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0107.xml" xml:id="ox-ms_abinger_c56-0107">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="51r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0107.xml" xml:id="ox-ms_abinger_c56-0107">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0107.jp2"/>
   <zone rend="bordered" type="pagination"><line>137</line></zone>
   <zone type="library"><line>51</line></zone>
@@ -7386,7 +7495,7 @@
 </surface>
       <!-- COLLATION CHUNK POINT UNIT C14 RM 10/09/2017 --> 
       
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="51v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0108.xml" xml:id="ox-ms_abinger_c56-0108">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="51v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0108.xml" xml:id="ox-ms_abinger_c56-0108">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0108.jp2"/>
   <zone rend="bordered" type="pagination"><line>138</line></zone>
  
@@ -7462,7 +7571,7 @@
 
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="52r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0109.xml" xml:id="ox-ms_abinger_c56-0109">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="52r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0109.xml" xml:id="ox-ms_abinger_c56-0109">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0109.jp2"/>
   <zone rend="bordered" type="pagination"><line>139</line></zone>
   <zone type="library"><line>52</line></zone>
@@ -7553,7 +7662,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="52v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0110.xml" xml:id="ox-ms_abinger_c56-0110">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="52v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0110.xml" xml:id="ox-ms_abinger_c56-0110">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0110.jp2"/>
   <zone rend="bordered" type="pagination"><line>140</line></zone>
   <zone type="main">
@@ -7613,7 +7722,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="53r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0111.xml" xml:id="ox-ms_abinger_c56-0111">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="53r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0111.xml" xml:id="ox-ms_abinger_c56-0111">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0111.jp2"/>
   <zone rend="bordered" type="pagination"><line>141</line></zone>
   <zone type="library"><line>53</line></zone>
@@ -7682,7 +7791,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="53v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0112.xml" xml:id="ox-ms_abinger_c56-0112">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="53v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0112.xml" xml:id="ox-ms_abinger_c56-0112">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0112.jp2"/>
   <zone rend="bordered" type="pagination"><line>142</line></zone>
   <zone type="main">
@@ -7745,7 +7854,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5428" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="54r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0113.xml" xml:id="ox-ms_abinger_c56-0113">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5428" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="54r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0113.xml" xml:id="ox-ms_abinger_c56-0113">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0113.jp2"/>
   <zone rend="bordered" type="pagination"><line>143</line></zone>
   <zone type="library"><line>54</line></zone>
@@ -7841,7 +7950,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="54v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0114.xml" xml:id="ox-ms_abinger_c56-0114">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="54v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0114.xml" xml:id="ox-ms_abinger_c56-0114">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0114.jp2"/>
   <zone rend="bordered" type="pagination"><line>144</line></zone>
   <zone type="main">
@@ -7904,7 +8013,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5428" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="55r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0115.xml" xml:id="ox-ms_abinger_c56-0115">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5428" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="55r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0115.xml" xml:id="ox-ms_abinger_c56-0115">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0115.jp2"/>
   <zone rend="bordered" type="pagination"><line>1<mod><del rend="overwritten">3</del><add place="intralinear">4</add></mod>5</line></zone>
   <zone type="library"><line>55</line></zone>
@@ -7969,7 +8078,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="55v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0116.xml" xml:id="ox-ms_abinger_c56-0116">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="55v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0116.xml" xml:id="ox-ms_abinger_c56-0116">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0116.jp2"/>
   <zone rend="bordered" type="pagination"><line>146</line></zone>
   <zone type="main">
@@ -8022,7 +8131,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5428" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="56r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0117.xml" xml:id="ox-ms_abinger_c56-0117">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5428" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="56r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0117.xml" xml:id="ox-ms_abinger_c56-0117">
     <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0117.jp2"/>
     <zone rend="bordered" type="pagination"><line>147</line></zone>
     <zone type="library"><line>56</line></zone>
@@ -8067,7 +8176,7 @@
     
     
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="56v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0118.xml" xml:id="ox-ms_abinger_c56-0118">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="56v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0118.xml" xml:id="ox-ms_abinger_c56-0118">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0118.jp2"/>
 
   <zone rend="bordered" type="pagination"><line>148</line></zone>
@@ -8111,7 +8220,7 @@
 </surface>
       <!-- COLLATION CHUNK POINT UNIT C15 RM 10/09/2017 -->
       
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="57r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0119.xml" xml:id="ox-ms_abinger_c56-0119">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="57r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0119.xml" xml:id="ox-ms_abinger_c56-0119">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0119.jp2"/>
   <zone rend="bordered" type="pagination"><line>149</line></zone>
   <zone type="library"><line>57</line></zone>
@@ -8175,7 +8284,7 @@
     <line>that day at the inn and as I had</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="57v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0120.xml" xml:id="ox-ms_abinger_c56-0120">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="57v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0120.xml" xml:id="ox-ms_abinger_c56-0120">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0120.jp2"/>
   <zone rend="bordered" type="pagination"><line>150</line></zone>
   <zone type="main">
@@ -8257,7 +8366,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="58r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0121.xml" xml:id="ox-ms_abinger_c56-0121">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="58r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0121.xml" xml:id="ox-ms_abinger_c56-0121">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0121.jp2"/>
   <zone rend="bordered" type="pagination"><line>151</line></zone>
   <zone type="library"><line>58</line></zone>
@@ -8328,7 +8437,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="58v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0122.xml" xml:id="ox-ms_abinger_c56-0122">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="58v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0122.xml" xml:id="ox-ms_abinger_c56-0122">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0122.jp2"/>
   <zone rend="bordered" type="pagination"><line>152</line></zone>
 
@@ -8390,7 +8499,7 @@
   </zone>
 
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="59r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0123.xml" xml:id="ox-ms_abinger_c56-0123">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="59r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0123.xml" xml:id="ox-ms_abinger_c56-0123">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0123.jp2"/>
   <zone rend="bordered" type="pagination"><line>153</line></zone>
   <zone type="library"><line>59</line></zone>
@@ -8464,7 +8573,7 @@
   </zone>
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="59v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0124.xml" xml:id="ox-ms_abinger_c56-0124">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="59v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0124.xml" xml:id="ox-ms_abinger_c56-0124">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0124.jp2"/>
   <zone rend="bordered" type="pagination"><line>154</line></zone>
   <zone type="main">
@@ -8532,7 +8641,7 @@
     <line><del rend="strikethrough">my</del> my creator hate me and spurn me</line>
   </zone>
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="60r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0125.xml" xml:id="ox-ms_abinger_c56-0125">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="60r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0125.xml" xml:id="ox-ms_abinger_c56-0125">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0125.jp2"/>
   <zone type="pagination"><line>155</line></zone>
   
@@ -8598,7 +8707,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="60v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0126.xml" xml:id="ox-ms_abinger_c56-0126">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="60v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0126.xml" xml:id="ox-ms_abinger_c56-0126">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0126.jp2"/>
   <zone type="pagination"><line>156</line></zone>
   <zone type="main">
@@ -8692,7 +8801,7 @@
 
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="61r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0127.xml" xml:id="ox-ms_abinger_c56-0127">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="61r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0127.xml" xml:id="ox-ms_abinger_c56-0127">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0127.jp2"/>
   <zone rend="bordered" type="pagination"><line>157</line></zone>
   <zone type="library"><line>61</line></zone>
@@ -8817,7 +8926,7 @@
 
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="61v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0128.xml" xml:id="ox-ms_abinger_c56-0128">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="61v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0128.xml" xml:id="ox-ms_abinger_c56-0128">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0128.jp2"/>
   <zone rend="bordered" type="pagination"><line>158</line></zone>
   <zone type="main">
@@ -8888,7 +8997,7 @@
 
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="62r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0129.xml" xml:id="ox-ms_abinger_c56-0129">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="62r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0129.xml" xml:id="ox-ms_abinger_c56-0129">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0129.jp2"/>
   <zone rend="bordered" type="pagination"><line>159</line></zone>
   <zone type="library"><line>62</line></zone>
@@ -8955,7 +9064,7 @@
   
   
 </surface>
-        <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="62v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0130.xml" xml:id="ox-ms_abinger_c56-0130">
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="62v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0130.xml" xml:id="ox-ms_abinger_c56-0130">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0130.jp2"/>
   <zone type="pagination">
     <line>160</line>
