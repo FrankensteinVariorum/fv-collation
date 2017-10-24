@@ -103,7 +103,7 @@ for name in glob.glob('c56_collationChunks/msColl_c56_*'):
             open('c56_collationChunks/1818_fullFlat_' + matchString, 'rb') as f1818file, \
             open('c56_collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
             open('c56_collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
-            open('c56_textTableOutput/collation_' + matchStr + '.txt', 'w') as outputFile:
+            open('c56_NORM_textTableOutput/collation_' + matchStr + '.txt', 'w') as outputFile:
         fMSc56_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc56file))).split('\n')
         f1818_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1818file))).split('\n')
         f1823_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1823file))).split('\n')
