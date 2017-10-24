@@ -20,6 +20,7 @@ regexEmptyTag = re.compile(r'/>$')
 regexBlankLine = re.compile(r'\n{2,}')
 regexLeadingBlankLine = re.compile(r'^\n')
 regexPageBreak = re.compile(r'<pb.+?/>')
+RE_MARKUP = re.compile(r'<.+?>')
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
 # Tags to ignore, with content to keep: xml, comment, anchor
@@ -80,11 +81,13 @@ def extract(input_xml):
     return output
 
 
-# def normalize(inputText):
+def normalize(inputText):
+    return RE_MARKUP.sub('', inputText)
 #    return regexPageBreak('',inputText)
 
+
 def processToken(inputText):
-    return {"t": inputText + ' ', "n": inputText}
+    return {"t": inputText + ' ', "n": normalize(inputText)}
 
 
 def processWitness(inputWitness, id):

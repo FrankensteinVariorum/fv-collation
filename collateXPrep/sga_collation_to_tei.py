@@ -34,10 +34,10 @@ regexPageBreak = re.compile(r'<pb.+?/>')
 # 2017-05-30 ebb: collated but the tags are not). Decision to make the comments into self-closing elements with text
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
-ignore = ['xml', 'pb', 'comment']
-inlineEmpty = ['milestone', 'anchor', 'include']
-inlineContent = ['hi']
-blockElement = ['p', 'div', 'lg', 'l', 'head', 'note', 'ab', 'cit', 'quote', 'bibl', 'header']
+ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'zone', 'w', 'mod']
+inlineEmpty = ['milestone', 'anchor', 'include', 'lb', 'delSpan', 'addSpan', 'gap', 'handShift', 'damage', 'restore']
+inlineContent = ['hi', 'add', 'del', 'metamark', 'unclear', 'retrace', 'damage', 'restore']
+blockElement = ['p', 'div', 'lg', 'l', 'head', 'note', 'ab', 'cit', 'quote', 'bibl', 'header', 'surface', 'graphic']
 # ebb: removed 'comment', from blockElement list above, because we don't want these to be collated.
 
 def normalizeSpace(inText):
