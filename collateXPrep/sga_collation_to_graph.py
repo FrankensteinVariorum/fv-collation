@@ -105,7 +105,7 @@ for name in glob.glob('c56_collationChunks/1818_fullFlat_*'):
             open('c56_collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
             open('c56_collationChunks/msColl_c56_' + matchString, 'rb') as fMSc56file, \
             open('c56_collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
-            open('sga_jsonOutput/collation_' + matchStr + '.json', 'w') as outputFile:
+            open('sga_XMLOutput/collation_' + matchStr + '.xml', 'w') as outputFile:
         fMSc56_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc56file))).split('\n')
         f1818_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1818file))).split('\n')
         f1823_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1823file))).split('\n')
@@ -115,8 +115,8 @@ for name in glob.glob('c56_collationChunks/1818_fullFlat_*'):
         fMSc56_tokenlist = processWitness(fMSc56_tokens, 'fMSc56')
         f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
         collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, fMSc56_tokenlist, f1831_tokenlist]}
-        table = collate(collation_input, output='json', segmentation=True)
+        table = collate(collation_input, output='xml', segmentation=True)
         # table = collate(collation_input, segmentation=True, layout='vertical')
-        # print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
+        print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
 
 
