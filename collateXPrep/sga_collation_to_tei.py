@@ -20,6 +20,7 @@ regexEmptyTag = re.compile(r'/>$')
 regexBlankLine = re.compile(r'\n{2,}')
 regexLeadingBlankLine = re.compile(r'^\n')
 regexPageBreak = re.compile(r'<pb.+?/>')
+RE_MARKUP = re.compile(r'<.+?>')
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
 # Tags to ignore, with content to keep: xml, comment, anchor
@@ -38,7 +39,9 @@ ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'zone', 'w', 'mod']
 inlineEmpty = ['milestone', 'anchor', 'include', 'lb', 'delSpan', 'addSpan', 'gap', 'handShift', 'damage', 'restore']
 inlineContent = ['hi', 'add', 'del', 'metamark', 'unclear', 'retrace', 'damage', 'restore']
 blockElement = ['p', 'div', 'lg', 'l', 'head', 'note', 'ab', 'cit', 'quote', 'bibl', 'header', 'surface', 'graphic']
-# ebb: removed 'comment', from blockElement list above, because we don't want these to be collated.
+# ebb: Tried removing 'comment', from blockElement list above, because we don't want these to be collated.
+
+# 10-23-2017 ebb rv:
 
 def normalizeSpace(inText):
     """Replaces all whitespace spans with single space characters"""
@@ -80,30 +83,38 @@ def extract(input_xml):
     return output
 
 
-# def normalize(inputText):
+def normalize(inputText):
+    return RE_MARKUP.sub('', inputText)
 #    return regexPageBreak('',inputText)
 
+
 def processToken(inputText):
-    return {"t": inputText + ' ', "n": inputText}
+    return {"t": inputText + ' ', "n": normalize(inputText)}
 
 
 def processWitness(inputWitness, id):
     return {'id': id, 'tokens': [processToken(token) for token in inputWitness]}
 
 
-for name in glob.glob('collationChunks/1818_fullFlat_*'):
+for name in glob.glob('c56_collationChunks/1818_fullFlat_*'):
     matchString = name.split("fullFlat_", 1)[1]
+    # ebb: above gets C30.xml for example
+    matchStr = matchString.split(".", 1)[0]
+    # ebb: above strips off the file extension
     with open(name, 'rb') as f1818file, \
-            open('collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
-            open('collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
-            open('teiOutput/collation_' + matchString, 'w') as outputFile:
+            open('c56_collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
+            open('c56_collationChunks/msColl_c56_' + matchString, 'rb') as fMSc56file, \
+            open('c56_collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
+            open('sga_teiOutput/collation_' + matchStr + '.txt', 'w') as outputFile:
+        fMSc56_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc56file))).split('\n')
         f1818_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1818file))).split('\n')
         f1823_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1823file))).split('\n')
         f1831_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1831file))).split('\n')
         f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
         f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
+        fMSc56_tokenlist = processWitness(fMSc56_tokens, 'fMSc56')
         f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
-        collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, f1831_tokenlist]}
+        collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, fMSc56_tokenlist, f1831_tokenlist]}
         table = collate(collation_input, output='tei', segmentation=True)
         # table = collate(collation_input, segmentation=True, layout='vertical')
         print('<!-- ' + nowStr + ' -->' + table, file=outputFile)

@@ -41,6 +41,8 @@ inlineContent = ['hi', 'add', 'del', 'metamark', 'unclear', 'retrace', 'damage',
 blockElement = ['p', 'div', 'lg', 'l', 'head', 'note', 'ab', 'cit', 'quote', 'bibl', 'header', 'surface', 'graphic']
 # ebb: Tried removing 'comment', from blockElement list above, because we don't want these to be collated.
 
+# 10-23-2017 ebb rv:
+
 def normalizeSpace(inText):
     """Replaces all whitespace spans with single space characters"""
     if regexNonWhitespace.search(inText):
@@ -94,29 +96,27 @@ def processWitness(inputWitness, id):
     return {'id': id, 'tokens': [processToken(token) for token in inputWitness]}
 
 
-for name in glob.glob('c56_collationChunks/msColl_c56_*'):
-    matchString = name.split("msColl_c56_", 1)[1]
+for name in glob.glob('c56_collationChunks/1818_fullFlat_*'):
+    matchString = name.split("fullFlat_", 1)[1]
     # ebb: above gets C30.xml for example
     matchStr = matchString.split(".", 1)[0]
     # ebb: above strips off the file extension
-    with open(name, 'rb') as fMSc56file, \
-            open('c56_collationChunks/1818_fullFlat_' + matchString, 'rb') as f1818file, \
+    with open(name, 'rb') as f1818file, \
             open('c56_collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
+            open('c56_collationChunks/msColl_c56_' + matchString, 'rb') as fMSc56file, \
             open('c56_collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
             open('1818-1823-c56_textTableOutput/collation_' + matchStr + '.txt', 'w') as outputFile:
         fMSc56_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc56file))).split('\n')
         f1818_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1818file))).split('\n')
         f1823_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1823file))).split('\n')
         f1831_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1831file))).split('\n')
-        fMSc56_tokenlist = processWitness(fMSc56_tokens, 'fMSc56')
         f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
         f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
+        fMSc56_tokenlist = processWitness(fMSc56_tokens, 'fMSc56')
         f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
-        collation_input = {"witnesses": [fMSc56_tokenlist, f1818_tokenlist, f1823_tokenlist, f1831_tokenlist]}
-        # table = collate(collation_input, output='tei', segmentation=True)
-        table = collate(collation_input, segmentation=True, layout='vertical')
-        # print(nowStr + '\n' + table, file=outputFile)
-        # This yields a TypeError: "Can't convert 'AlignmentTable' object to str implicitly
-        print(table, file=outputFile)
+        collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, fMSc56_tokenlist, f1831_tokenlist]}
+        table = collate(collation_input, output='tei', segmentation=True)
+        # table = collate(collation_input, segmentation=True, layout='vertical')
+        print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
 
 
