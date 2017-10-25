@@ -96,16 +96,16 @@ def processWitness(inputWitness, id):
     return {'id': id, 'tokens': [processToken(token) for token in inputWitness]}
 
 
-for name in glob.glob('c56_collationChunks/1818_fullFlat_*'):
+for name in glob.glob('c56_FlagcollationChunks/1818_fullFlat_*'):
     matchString = name.split("fullFlat_", 1)[1]
     # ebb: above gets C30.xml for example
     matchStr = matchString.split(".", 1)[0]
     # ebb: above strips off the file extension
     with open(name, 'rb') as f1818file, \
-            open('c56_collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
-            open('c56_collationChunks/msColl_c56_' + matchString, 'rb') as fMSc56file, \
-            open('c56_collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
-            open('sga_XMLOutput/collation_' + matchStr + '.xml', 'w') as outputFile:
+            open('c56_FlagcollationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
+            open('c56_FlagcollationChunks/msColl_c56Flagged_' + matchString, 'rb') as fMSc56file, \
+            open('c56_FlagcollationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
+            open('sga_FlagXMLOutput/collation_' + matchStr + '.xml', 'w') as outputFile:
         fMSc56_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc56file))).split('\n')
         f1818_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1818file))).split('\n')
         f1823_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1823file))).split('\n')
