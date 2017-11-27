@@ -16,14 +16,14 @@
     <xsl:variable name="witnesses" select="distinct-values(//app/rdg/tokenize(@wit, ' '))"/>
     
 <xsl:template match="/">
-    <xsl:text>1818: </xsl:text><xsl:text> &#x9;</xsl:text> <xsl:text> 1823: </xsl:text><xsl:text>&#10;</xsl:text>
-    <xsl:apply-templates select="$f1818_1823Coll/descendant::app[not(@type='invariant')]"/> 
+    <xsl:text>1818: </xsl:text><xsl:text> &#x9;</xsl:text> <xsl:text> 1831: </xsl:text><xsl:text>&#10;</xsl:text>
+    <xsl:apply-templates select="$f1818_1831Coll/descendant::app[not(@type='invariant')]"/> 
 </xsl:template>
     
 <xsl:template match="app[not(@type='invariant')]">
-    <xsl:apply-templates select="rdg[contains(@wit, '#f1818') and not(contains(@wit, '#f1823'))]"/>
+    <xsl:apply-templates select="rdg[contains(@wit, '#f1818') and not(contains(@wit, '#f1831'))]"/>
 </xsl:template>
-    <xsl:template match="rdg[contains(@wit, '#f1818') and not(contains(@wit, '#f1823'))]">
+    <xsl:template match="rdg[contains(@wit, '#f1818') and not(contains(@wit, '#f1831'))]">
         <xsl:variable name="simpleTextBefore">
             <xsl:analyze-string select="." regex="^(.+?)&lt;">
                 <xsl:matching-substring>
@@ -85,13 +85,13 @@
        <xsl:if test="$simpleTextAfter != $otherMarkedUp and string-length($simpleTextAfter) gt 0"> <xsl:text>AFTER</xsl:text><xsl:value-of select="$simpleTextAfter"/><xsl:text>AFTER</xsl:text></xsl:if>
           -->
         <xsl:text>&#x9;</xsl:text>
-        <!--PROCESS 1818-->
+        <!--PROCESS NEXT-->
         
-        <xsl:choose><xsl:when test="./parent::app/rdg[contains(@wit, '#f1823')]"> <xsl:analyze-string select="./parent::app/rdg[contains(@wit, '#f1823')]" regex="&lt;.+?&gt;">
+        <xsl:choose><xsl:when test="./parent::app/rdg[contains(@wit, '#f1831')]"> <xsl:analyze-string select="./parent::app/rdg[contains(@wit, '#f1831')]" regex="&lt;.+?&gt;">
             <xsl:non-matching-substring><xsl:text> </xsl:text><xsl:value-of select="."/></xsl:non-matching-substring>
         </xsl:analyze-string></xsl:when>
        <xsl:otherwise>
-           <xsl:text>[NO 1823 VARIANT]</xsl:text>
+           <xsl:text>[NO 1831 VARIANT]</xsl:text>
        </xsl:otherwise>
        </xsl:choose>
 <xsl:text>&#10;</xsl:text>
