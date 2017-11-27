@@ -11,7 +11,7 @@
     <xsl:variable name="f1818_1823Coll" select="collection('../collateXPrep/f1818_1823_FlagXMLOutput')"/>  
     <xsl:variable name="f1818_1831Coll" select="collection('../collateXPrep/f1818_1831_FlagXMLOutput')"/> 
     <xsl:variable name="f1823_1831Coll" select="collection('../collateXPrep/f1823_1831_FlagXMLOutput')"/> 
- <!--2017-11-26 ebb: This XSLT can produce TSV outputs to compare each edition to each of the others one at a time. I've output simple collation files that collate the editions in pairs. Edit TWO xsl:text lines in the XSLT and change the collection variable in the document node template to produce the desired TSV file, and BE CAREFUL to rename the output TSV file appropriately when processing!--> 
+ <!--2017-11-26 ebb: This XSLT can produce TSV outputs to compare each edition to each of the others one at a time. I've output simple collation files that collate the editions in pairs. This version is set to compare the MS to 1818.--> 
 
     <xsl:variable name="witnesses" select="distinct-values(//app/rdg/tokenize(@wit, ' '))"/>
     

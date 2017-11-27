@@ -11,19 +11,19 @@
     <xsl:variable name="f1818_1823Coll" select="collection('../collateXPrep/f1818_1823_FlagXMLOutput')"/>  
     <xsl:variable name="f1818_1831Coll" select="collection('../collateXPrep/f1818_1831_FlagXMLOutput')"/> 
     <xsl:variable name="f1823_1831Coll" select="collection('../collateXPrep/f1823_1831_FlagXMLOutput')"/> 
- <!--2017-11-26 ebb: This XSLT can produce TSV outputs to compare each edition to each of the others one at a time. I've output simple collation files that collate the editions in pairs. Edit TWO xsl:text lines in the XSLT and change the collection variable in the document node template to produce the desired TSV file, and BE CAREFUL to rename the output TSV file appropriately when processing!--> 
+ <!--2017-11-26 ebb: This XSLT can produce TSV outputs to compare each edition to each of the others one at a time. I've output simple collation files that collate the editions in pairs. This version is set to compare the MS to 1831.--> 
 
     <xsl:variable name="witnesses" select="distinct-values(//app/rdg/tokenize(@wit, ' '))"/>
     
 <xsl:template match="/">
-    <xsl:text>MS: </xsl:text><xsl:text> &#x9;</xsl:text> <xsl:text> 1818: </xsl:text><xsl:text>&#10;</xsl:text>
-    <xsl:apply-templates select="$MS_1818Coll/descendant::app[not(@type='invariant')]"/> 
+    <xsl:text>MS: </xsl:text><xsl:text> &#x9;</xsl:text> <xsl:text> 1831: </xsl:text><xsl:text>&#10;</xsl:text>
+    <xsl:apply-templates select="$MS_1831Coll/descendant::app[not(@type='invariant')]"/> 
 </xsl:template>
     
 <xsl:template match="app[not(@type='invariant')]">
-    <xsl:apply-templates select="rdg[contains(@wit, '#fMSc56') and not(contains(@wit, '#f1818'))]"/>
+    <xsl:apply-templates select="rdg[contains(@wit, '#fMSc56') and not(contains(@wit, '#f1831'))]"/>
 </xsl:template>
-    <xsl:template match="rdg[contains(@wit, '#fMSc56') and not(contains(@wit, '#f1818'))]">
+    <xsl:template match="rdg[contains(@wit, '#fMSc56') and not(contains(@wit, '#f1831'))]">
         <xsl:variable name="simpleTextBefore">
             <xsl:analyze-string select="." regex="^(.+?)&lt;">
                 <xsl:matching-substring>
@@ -87,11 +87,11 @@
         <xsl:text>&#x9;</xsl:text>
         <!--PROCESS 1818-->
         
-        <xsl:choose><xsl:when test="./parent::app/rdg[contains(@wit, '#f1818')]"> <xsl:analyze-string select="./parent::app/rdg[contains(@wit, '#f1818')]" regex="&lt;.+?&gt;">
+        <xsl:choose><xsl:when test="./parent::app/rdg[contains(@wit, '#f1831')]"> <xsl:analyze-string select="./parent::app/rdg[contains(@wit, '#f1831')]" regex="&lt;.+?&gt;">
             <xsl:non-matching-substring><xsl:text> </xsl:text><xsl:value-of select="."/></xsl:non-matching-substring>
         </xsl:analyze-string></xsl:when>
        <xsl:otherwise>
-           <xsl:text>[NO 1818 VARIANT]</xsl:text>
+           <xsl:text>[NO 1831 VARIANT]</xsl:text>
        </xsl:otherwise>
        </xsl:choose>
 <xsl:text>&#10;</xsl:text>
