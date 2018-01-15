@@ -9,6 +9,7 @@ We are working on preparing a new digital edition of the novel _Frankenstein_ in
 * [Pitt-Greensburg classroom edition](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818_classEd.html) (a copy of the same) for use in annotation assignments.
 
 ### About *Frankenstein* and our variorum project:
+* [Bicentennial Bits and Bytes: The Pittsburgh Digital Frankenstein Project](http://slides.com/elisabeshero-bondar/mla_bicentfrank): MLA 2018 panel presentation on our variorum edition project, reconciling previous digital editions, ongoing stylometric research, and annotation development. 
 
 * [*Frankenstein* and Text Genetics](http://bit.ly/FrankenTextGen): an introduction to the novel and its contexts, and our project's connection with the Shelley-Godwin Archive
 
