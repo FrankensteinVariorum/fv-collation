@@ -5,22 +5,22 @@
 |    type="collate"    |    type="collate"    |    type="collate"    |
 |    xml:id="C29"/>    |    xml:id="C29"/>    |    xml:id="C29"/>    |
 +----------------------+----------------------+----------------------+
-|         <p>          |        <head>        |          -           |
+|         <p>          |        <head>        |          -           |RM: fix <p> in 1823
 +----------------------+----------------------+----------------------+
 | “<hi rend="italic">T | “<hi rend="italic">T |          -           |
 |        o</hi>        |        o</hi>        |                      |
 +----------------------+----------------------+----------------------+
 | V<hi rend="smallcaps | Victor Frankenstein. |          -           |
 | ">ICTOR</hi> F<hi re |       </head>        |                      |
-| nd="smallcaps">RANKE |                      |                      |
+| nd="smallcaps">RANKE |                      |                      |RM: fix 1823
 |  NSTEIN</hi>. </p>   |                      |                      |
 +----------------------+----------------------+----------------------+
 |         <p>          |         <p>          |         <p>          |
 +----------------------+----------------------+----------------------+
 |         “<hi         |         “<hi         |   “My dear Friend,   |
-| rend="smallcaps">MY  | rend="smallcaps">MY  |                      |
+| rend="smallcaps">MY  | rend="smallcaps">MY  |                      |RM: ver 1831
 +----------------------+----------------------+----------------------+
-|       DEAREST        |         DEAR         |          -           |
+|       DEAREST        |         DEAR         |          -           |RM: ver 1823
 +----------------------+----------------------+----------------------+
 |     FRIEND</hi>,     |     FRIEND</hi>,     |          -           |
 +----------------------+----------------------+----------------------+
@@ -52,13 +52,13 @@
 | find that your heart | find that your heart | find that your heart |
 |    is not totally    |    is not totally    |    is not totally    |
 +----------------------+----------------------+----------------------+
-|        devoid        |         void         |         void         |
+|        devoid        |         void         |         void         |RM: 1818 ver
 +----------------------+----------------------+----------------------+
 |    of comfort and    |    of comfort and    |    of comfort and    |
 |  tranquillity. </p>  |  tranquillity. </p>  |  tranquillity. </p>  |
 |         <p>          |         <p>          |         <p>          |
 +----------------------+----------------------+----------------------+
-|         “Yet         |         "Yet         |         “Yet         |
+|         “Yet         |         "Yet         |         “Yet         |RM: 1823 “ fixed
 +----------------------+----------------------+----------------------+
 | I fear that the same | I fear that the same | I fear that the same |
 |  feelings now exist  |  feelings now exist  |  feelings now exist  |
@@ -86,7 +86,7 @@
 |   my questions are   |   my questions are   |   my questions are   |
 |    answered, and     |    answered, and     |    answered, and     |
 +----------------------+----------------------+----------------------+
-| I have no more to do | I have no more to do |    all my doubts     |
+| I have no more to do | I have no more to do |    all my doubts     |RM: 1831 ver
 | than to sign myself  | than to sign myself  |      satisfied.      |
 |  your affectionate   |  your affectionate   |                      |
 |       cousin.        |       cousin.        |                      |
@@ -114,7 +114,7 @@
 | of your parents ever | of your parents ever | of your parents ever |
 |      since our       |      since our       |      since our       |
 +----------------------+----------------------+----------------------+
-|       infancy.       |      intimacy.       |       infancy.       |
+|       infancy.       |      intimacy.       |       infancy.       |RM: 1823 error ver
 +----------------------+----------------------+----------------------+
 |  We were told this   |  We were told this   |  We were told this   |
 |   when young, and    |   when young, and    |   when young, and    |
@@ -160,12 +160,12 @@
 |    that you might    |    that you might    |    that you might    |
 |      regret our      |      regret our      |      regret our      |
 +----------------------+----------------------+----------------------+
-|     connection,      |      connexion,      |     connection,      |
+|     connection,      |      connexion,      |     connection,      |RM: 1818 fixed x
 +----------------------+----------------------+----------------------+
 | and believe yourself | and believe yourself | and believe yourself |
 |  bound in honour to  |  bound in honour to  |  bound in honour to  |
 +----------------------+----------------------+----------------------+
-|       fulfill        |        fulfil        |        fulfil        |
+|       fulfill        |        fulfil        |        fulfil        |RM: 1818 fulfil
 +----------------------+----------------------+----------------------+
 |  the wishes of your  |  the wishes of your  |  the wishes of your  |
 |  parents, although   |  parents, although   |  parents, although   |
@@ -176,7 +176,7 @@
 | reasoning. I confess | reasoning. I confess | reasoning. I confess |
 |      to you, my      |      to you, my      |      to you, my      |
 +----------------------+----------------------+----------------------+
-|       cousin,        |       cowsin,        |       friend,        |
+|       cousin,        |       cowsin,        |       friend,        |RM: 1823 fixed
 +----------------------+----------------------+----------------------+
 | that I love you, and | that I love you, and | that I love you, and |
 |   that in my airy    |   that in my airy    |   that in my airy    |
@@ -198,7 +198,7 @@
 |  borne down as you   |  borne down as you   |  borne down as you   |
 |      are by the      |      are by the      |      are by the      |
 +----------------------+----------------------+----------------------+
-|      cruellest       |       cruelest       |      cruellest       |
+|      cruellest       |       cruelest       |      cruellest       |RM: 1818 fixed
 +----------------------+----------------------+----------------------+
 | misfortunes, you may | misfortunes, you may | misfortunes, you may |
 | stifle, by the word  | stifle, by the word  | stifle, by the word  |
@@ -209,22 +209,22 @@
 | would alone restore  | would alone restore  | would alone restore  |
 |        you to        |        you to        |        you to        |
 +----------------------+----------------------+----------------------+
-|      yourself.       |       yourself       |      yourself.       |
+|      yourself.       |       yourself       |      yourself.       |RM: fixed 1823
 +----------------------+----------------------+----------------------+
 |    I, who have so    |    I, who have so    |    I, who have so    |
 +----------------------+----------------------+----------------------+
-|      interested      |      interested      |    disinterested     |
+|      interested      |      interested      |    disinterested     |RM: 1831 ver
 +----------------------+----------------------+----------------------+
 |   an affection for   |   an affection for   |   an affection for   |
 |  you, may increase   |  you, may increase   |  you, may increase   |
 |    your miseries     |    your miseries     |    your miseries     |
 +----------------------+----------------------+----------------------+
-|       ten-fold       |       tenfold,       |       tenfold,       |
+|       ten-fold       |       tenfold,       |       tenfold,       |RM: 1818 ver , fixed
 +----------------------+----------------------+----------------------+
 | by being an obstacle | by being an obstacle | by being an obstacle |
 |   to your wishes.    |   to your wishes.    |   to your wishes.    |
 +----------------------+----------------------+----------------------+
-|         Ah,          |         Ah,          |         Ah!          |
+|         Ah,          |         Ah,          |         Ah!          |RM: 1831 ver
 +----------------------+----------------------+----------------------+
 |  Victor, be assured  |  Victor, be assured  |  Victor, be assured  |
 | that your cousin and | that your cousin and | that your cousin and |
@@ -245,9 +245,9 @@
 | this letter disturb  | this letter disturb  | this letter disturb  |
 |  you; do not answer  |  you; do not answer  |  you; do not answer  |
 +----------------------+----------------------+----------------------+
-|          -           |          it          |      tomorrow,       |
+|          -           |          it          |      tomorrow,       |RM: fix 1818
 +----------------------+----------------------+----------------------+
-|      to-morrow,      |      to-morrow,      |          -           |
+|      to-morrow,      |      to-morrow,      |          -           |RM: ver
 +----------------------+----------------------+----------------------+
 | or the next day, or  | or the next day, or  | or the next day, or  |
 | even until you come, | even until you come, | even until you come, |
@@ -275,12 +275,12 @@
 |    threat of the     |    threat of the     |    threat of the     |
 +----------------------+----------------------+----------------------+
 |      fiend—“<hi      |      fiend—“<hi      |      fiend—<hi       |
-|   rend="italic">I    |   rend="italic">I    |   rend="italic">”I   |
+|   rend="italic">I    |   rend="italic">I    |   rend="italic">”I   |RM: 1831 fixed
 +----------------------+----------------------+----------------------+
 | will be with you on  | will be with you on  | will be with you on  |
 |         your         |         your         |         your         |
 +----------------------+----------------------+----------------------+
-| wedding-night!</hi>” | wedding-night!</hi>” | wedding night!”</hi> |
+| wedding-night!</hi>” | wedding-night!</hi>” | wedding night!”</hi> |RM: 1831 fixed
 +----------------------+----------------------+----------------------+
 |     Such was my      |     Such was my      |     Such was my      |
 |   sentence, and on   |   sentence, and on   |   sentence, and on   |
@@ -302,9 +302,9 @@
 | take place, in which | take place, in which | take place, in which |
 |        if he         |        if he         |        if he         |
 +----------------------+----------------------+----------------------+
-|         was          |         were         |         were         |
+|         was          |         were         |         were         |RM: 1818 ver
 +----------------------+----------------------+----------------------+
-|     victorious,      |     victorious,      |      victorious      |
+|     victorious,      |     victorious,      |      victorious      |RM: 1831 ver
 +----------------------+----------------------+----------------------+
 |    I should be at    |    I should be at    |    I should be at    |
 | peace, and his power | peace, and his power | peace, and his power |
@@ -323,7 +323,7 @@
 |  is turned adrift,   |  is turned adrift,   |  is turned adrift,   |
 |      homeless,       |      homeless,       |      homeless,       |
 +----------------------+----------------------+----------------------+
-|      pennyless,      |      pennyless,      |      penniless,      |
+|      pennyless,      |      pennyless,      |      penniless,      |RM: 1831 ver
 +----------------------+----------------------+----------------------+
 | and alone, but free. | and alone, but free. | and alone, but free. |
 |   Such would be my   |   Such would be my   |   Such would be my   |
@@ -332,7 +332,7 @@
 |     possessed a      |     possessed a      |     possessed a      |
 |   treasure; alas!    |   treasure; alas!    |   treasure; alas!    |
 +----------------------+----------------------+----------------------+
-|      balancedby      |     balanced by      |     balanced by      |
+|      balancedby      |     balanced by      |     balanced by      |RM: 1818 fixed
 +----------------------+----------------------+----------------------+
 |   those horrors of   |   those horrors of   |   those horrors of   |
 |  remorse and guilt,  |  remorse and guilt,  |  remorse and guilt,  |
@@ -346,7 +346,7 @@
 | stole into my heart, | stole into my heart, | stole into my heart, |
 | and dared to whisper | and dared to whisper | and dared to whisper |
 +----------------------+----------------------+----------------------+
-|     paradisaical     |     paradisaical     |     paradisiacal     |
+|     paradisaical     |     paradisaical     |     paradisiacal     |RM: 1831 ver
 +----------------------+----------------------+----------------------+
 |  dreams of love and  |  dreams of love and  |  dreams of love and  |
 |  joy; but the apple  |  joy; but the apple  |  joy; but the apple  |
@@ -363,7 +363,7 @@
 | whether my marriage  | whether my marriage  | whether my marriage  |
 |     would hasten     |     would hasten     |     would hasten     |
 +----------------------+----------------------+----------------------+
-|          my          |          -           |          my          |
+|          my          |          -           |          my          |RM: fix 1823
 +----------------------+----------------------+----------------------+
 | fate. My destruction | fate. My destruction | fate. My destruction |
 | might indeed arrive  | might indeed arrive  | might indeed arrive  |
@@ -386,24 +386,24 @@
 |  as binding him to   |  as binding him to   |  as binding him to   |
 |     peace in the     |     peace in the     |     peace in the     |
 +----------------------+----------------------+----------------------+
-|      mean time;      |      meantime;       |      mean time;      |
+|      mean time;      |      meantime;       |      mean time;      |RM: 1823 ver
 +----------------------+----------------------+----------------------+
 |    for, as if to     |    for, as if to     |    for, as if to     |
 +----------------------+----------------------+----------------------+
-|         shew         |         show         |         show         |
+|         shew         |         show         |         show         |RM: 1818 ver
 +----------------------+----------------------+----------------------+
 |  me that he was not  |  me that he was not  |  me that he was not  |
 |  yet satiated with   |  yet satiated with   |  yet satiated with   |
 |        blood,        |        blood,        |        blood,        |
 +----------------------+----------------------+----------------------+
-|          he          |          be          |          he          |
+|          he          |          be          |          he          |RM: fix 1823
 +----------------------+----------------------+----------------------+
 | had murdered Clerval | had murdered Clerval | had murdered Clerval |
 |  immediately after   |  immediately after   |  immediately after   |
 |  the enunciation of  |  the enunciation of  |  the enunciation of  |
 |         his          |         his          |         his          |
 +----------------------+----------------------+----------------------+
-|       threats.       |       threats,       |       threats.       |
+|       threats.       |       threats,       |       threats.       |RM: 1823 fixed
 +----------------------+----------------------+----------------------+
 |     I resolved,      |     I resolved,      |     I resolved,      |
 |  therefore, that if  |  therefore, that if  |  therefore, that if  |
@@ -411,7 +411,7 @@
 | with my cousin would | with my cousin would | with my cousin would |
 |  conduce either to   |  conduce either to   |  conduce either to   |
 +----------------------+----------------------+----------------------+
-|        her’s         |         hers         |         hers         |
+|        her’s         |         hers         |         hers         |RM: 1818 ver
 +----------------------+----------------------+----------------------+
 |    or my father’s    |    or my father’s    |    or my father’s    |
 |    happiness, my     |    happiness, my     |    happiness, my     |
@@ -432,7 +432,7 @@
 | I may one day enjoy  | I may one day enjoy  | I may one day enjoy  |
 |          is          |          is          |          is          |
 +----------------------+----------------------+----------------------+
-|     concentered      |       centred        |       centred        |
+|     concentered      |       centred        |       centred        |RM: 1818 ver
 +----------------------+----------------------+----------------------+
 |  in you. Chase away  |  in you. Chase away  |  in you. Chase away  |
 | your idle fears; to  | your idle fears; to  | your idle fears; to  |
@@ -474,7 +474,7 @@
 |    we returned to    |    we returned to    |    we returned to    |
 |       Geneva.        |       Geneva.        |       Geneva.        |
 +----------------------+----------------------+----------------------+
-|      My cousin       |      My cousin       |    The sweet girl    |
+|      My cousin       |      My cousin       |    The sweet girl    |RM: 1831 ver
 +----------------------+----------------------+----------------------+
 |   welcomed me with   |   welcomed me with   |   welcomed me with   |
 | warm affection; yet  | warm affection; yet  | warm affection; yet  |
@@ -508,14 +508,14 @@
 |  furious, and burnt  |  furious, and burnt  |  furious, and burnt  |
 |         with         |         with         |         with         |
 +----------------------+----------------------+----------------------+
-|        rage;         |        rage,         |        rage;         |
+|        rage;         |        rage,         |        rage;         |RM: 1818 fix ,
 +----------------------+----------------------+----------------------+
 |  sometimes low and   |  sometimes low and   |  sometimes low and   |
 |    despondent. I     |    despondent. I     |    despondent. I     |
 |       neither        |       neither        |       neither        |
 +----------------------+----------------------+----------------------+
 |   spoke or looked,   | spoke, nor looked at | spoke, nor looked at |
-|                      |       any one,       |       any one,       |
+|                      |       any one,       |       any one,       |RM: 1818 ver
 +----------------------+----------------------+----------------------+
 | but sat motionless,  | but sat motionless,  | but sat motionless,  |
 |  bewildered by the   |  bewildered by the   |  bewildered by the   |
@@ -551,13 +551,13 @@
 |  of grief. </p> <p>  |  of grief. </p> <p>  |  of grief. </p> <p>  |
 |    Soon after my     |    Soon after my     |    Soon after my     |
 +----------------------+----------------------+----------------------+
-|       arrival        |       arrival,       |       arrival,       |
+|       arrival        |       arrival,       |       arrival,       |RM: 1818 ver
 +----------------------+----------------------+----------------------+
 |  my father spoke of  |  my father spoke of  |  my father spoke of  |
 |     my immediate     |     my immediate     |     my immediate     |
 |    marriage with     |    marriage with     |    marriage with     |
 +----------------------+----------------------+----------------------+
-|      my cousin.      |      my cousin.      |      Elizabeth.      |
+|      my cousin.      |      my cousin.      |      Elizabeth.      |RM: 1831 ver
 +----------------------+----------------------+----------------------+
 |  I remained silent.  |  I remained silent.  |  I remained silent.  |
 | </p> <p> “Have you,  | </p> <p> “Have you,  | </p> <p> “Have you,  |
@@ -579,7 +579,7 @@
 |  Heavy misfortunes   |  Heavy misfortunes   |  Heavy misfortunes   |
 |    have befallen     |    have befallen     |    have befallen     |
 +----------------------+----------------------+----------------------+
-|         us;          |         us,          |         us;          |
+|         us;          |         us,          |         us;          |RM: fix 1823
 +----------------------+----------------------+----------------------+
 |   but let us only    |   but let us only    |   but let us only    |
 | cling closer to what | cling closer to what | cling closer to what |
@@ -588,7 +588,7 @@
 |  for those whom we   |  for those whom we   |  for those whom we   |
 |         have         |         have         |         have         |
 +----------------------+----------------------+----------------------+
-|         lost         |         lost         |        lost,         |
+|         lost         |         lost         |        lost,         |RM: 1831 ver
 +----------------------+----------------------+----------------------+
 |   to those who yet   |   to those who yet   |   to those who yet   |
 |   live. Our circle   |   live. Our circle   |   live. Our circle   |
@@ -616,7 +616,7 @@
 | been in his deeds of | been in his deeds of | been in his deeds of |
 |       blood, I       |       blood, I       |       blood, I       |
 +----------------------+----------------------+----------------------+
-|        should        |        shouid        |        should        |
+|        should        |        shouid        |        should        |RM: 1823 fixed
 +----------------------+----------------------+----------------------+
 | almost regard him as | almost regard him as | almost regard him as |
 | invincible; and that | invincible; and that | invincible; and that |
@@ -624,8 +624,8 @@
 |    pronounced the    |    pronounced the    |    pronounced the    |
 |        words,        |        words,        |        words,        |
 +----------------------+----------------------+----------------------+
-| “<hi rend="italic">I | “<hi rend="italic">I |          “I          |
-+----------------------+----------------------+----------------------+
+| “<hi rend="italic">I | “<hi rend="italic">I |          “I          |RM: ver
++----------------------+----------------------+----------------------+1831 no Italics
 | shall be with you on | shall be with you on | shall be with you on |
 |         your         |         your         |         your         |
 +----------------------+----------------------+----------------------+
@@ -673,7 +673,7 @@
 |  and when I thought  |  and when I thought  |  and when I thought  |
 |        that I        |        that I        |        that I        |
 +----------------------+----------------------+----------------------+
-|          -           |          -           |         had          |
+|          -           |          -           |         had          |RM: 1831 ver
 +----------------------+----------------------+----------------------+
 | prepared only my own | prepared only my own | prepared only my own |
 |  death, I hastened   |  death, I hastened   |  death, I hastened   |
@@ -733,17 +733,17 @@
 |       tragedy.       |       tragedy.       |       tragedy.       |
 +----------------------+----------------------+----------------------+
 |          -           |          A.          | Through my father’s  |
-|                      |                      | exertions, a part of |
+|                      |                      | exertions, a part of |RM: 1823 fixed
 |                      |                      |  the inheritance of  |
 |                      |                      |  Elizabeth had been  |
 |                      |                      |  restored to her by  |
 |                      |                      |     the Austrian     |
 |                      |                      |     government.      |
 +----------------------+----------------------+----------------------+
-|          A           |          -           |          A           |
+|          A           |          -           |          A           |RM: fixed
 +----------------------+----------------------+----------------------+
 | house was purchased  | house was purchased  | small possession on  |
-| for us near Cologny, | for us near Cologny, |  the shores of Como  |
+| for us near Cologny, | for us near Cologny, |  the shores of Como  |RM: ver
 |       by which       |       by which       | belonged to her. It  |
 |                      |                      |   was agreed that,   |
 |                      |                      |  immediately after   |
@@ -752,7 +752,7 @@
 |      we should       |      we should       |      we should       |
 +----------------------+----------------------+----------------------+
 | enjoy the pleasures  | enjoy the pleasures  |   proceed to Villa   |
-| of the country, and  | of the country, and  |  Lavenza, and spend  |
+| of the country, and  | of the country, and  |  Lavenza, and spend  |RM: ver 1831
 |    yet be so near    |    yet be so near    |    our first days    |
 | Geneva as to see my  | Geneva as to see my  |                      |
 |  father every day;   |  father every day;   |                      |
@@ -764,7 +764,7 @@
 |          of          |          of          |          of          |
 +----------------------+----------------------+----------------------+
 |   Ernest, that he    |   Ernest, that he    | happiness beside the |
-|   might follow his   |   might follow his   | beautiful lake near  |
+|   might follow his   |   might follow his   | beautiful lake near  |RM: 1831 ver
 |    studies at the    |    studies at the    |   which it stood.    |
 |       schools.       |       schools.       |                      |
 +----------------------+----------------------+----------------------+
@@ -797,7 +797,7 @@
 |  certainty, as the   |  certainty, as the   |  certainty, as the   |
 |  day fixed for its   |  day fixed for its   |  day fixed for its   |
 +----------------------+----------------------+----------------------+
-|    solemnization     |    solemnization     |    solemnisation     |
+|    solemnization     |    solemnization     |    solemnisation     |RM: 1831 ver
 +----------------------+----------------------+----------------------+
 |  drew nearer, and I  |  drew nearer, and I  |  drew nearer, and I  |
 | heard it continually | heard it continually | heard it continually |
@@ -813,7 +813,7 @@
 | But on the day that  | But on the day that  | But on the day that  |
 |        was to        |        was to        |        was to        |
 +----------------------+----------------------+----------------------+
-|       fulfill        |        fulfil        |        fulfil        |
+|       fulfill        |        fulfil        |        fulfil        |RM: 1818 fixed
 +----------------------+----------------------+----------------------+
 |   my wishes and my   |   my wishes and my   |   my wishes and my   |
 |   destiny, she was   |   destiny, she was   |   destiny, she was   |
@@ -824,23 +824,23 @@
 |    thought of the    |    thought of the    |    thought of the    |
 |       dreadful       |       dreadful       |       dreadful       |
 +----------------------+----------------------+----------------------+
-|       secret,        |       secret,        |        secret        |
+|       secret,        |       secret,        |        secret        |RM: 1831 ver
 +----------------------+----------------------+----------------------+
 | which I had promised | which I had promised | which I had promised |
 |   to reveal to her   |   to reveal to her   |   to reveal to her   |
 +----------------------+----------------------+----------------------+
-|          on          |          -           |          on          |
+|          on          |          -           |          on          |RM: fix 1818 
 +----------------------+----------------------+----------------------+
 |  the following day.  |  the following day.  |  the following day.  |
 | My father was in the | My father was in the | My father was in the |
 |      mean time       |      mean time       |      mean time       |
 +----------------------+----------------------+----------------------+
-|      overjoyed;      |      overjoyed,      |      overjoyed,      |
+|      overjoyed;      |      overjoyed,      |      overjoyed,      |RM: 1818 ver
 +----------------------+----------------------+----------------------+
 |  and, in the bustle  |  and, in the bustle  |  and, in the bustle  |
 | of preparation, only | of preparation, only | of preparation, only |
 +----------------------+----------------------+----------------------+
-|       observed       |      recognised      |      recognised      |
+|       observed       |      recognised      |      recognised      |RM: 1818 ver
 +----------------------+----------------------+----------------------+
 | in the melancholy of | in the melancholy of | in the melancholy of |
 |    his niece the     |    his niece the     |    his niece the     |
@@ -855,13 +855,13 @@
 |   Elizabeth and I    |   Elizabeth and I    |   Elizabeth and I    |
 |        should        |        should        |        should        |
 +----------------------+----------------------+----------------------+
-|  pass the afternoon  |  pass the afternoon  | commence our journey |
+|  pass the afternoon  |  pass the afternoon  | commence our journey |RM: 181 ver
 |         and          |         and          |  by water, sleeping  |
 |                      |                      |         that         |
 +----------------------+----------------------+----------------------+
 | night at Evian, and  | night at Evian, and  | night at Evian, and  |
 +----------------------+----------------------+----------------------+
-|  return to Cologny   |  return to Cologny   |    continuing our    |
+|  return to Cologny   |  return to Cologny   |    continuing our    |RM: 1831 ver
 | the next morning. As | the next morning. As |    voyage on the     |
 |         the          |         the          |  following day. The  |
 +----------------------+----------------------+----------------------+
@@ -871,9 +871,9 @@
 +----------------------+----------------------+----------------------+
 | the wind favourable, | the wind favourable, | the wind favourable, |
 +----------------------+----------------------+----------------------+
-| we resolved to go by | we resolved to go by |  all smiled on our   |
-|        water.        |        water.        | nuptial embarkation. |
-+----------------------+----------------------+----------------------+
+| we resolved to go by | we resolved to go by |  all smiled on our   |RM: ver 1831
+|        water.        |        water.        | nuptial embarkation. |(wonder, post-
++----------------------+----------------------+----------------------+Percy's death
 | </p> <p> Those were  | </p> <p> Those were  | </p> <p> Those were  |
 | the last moments of  | the last moments of  | the last moments of  |
 | my life during which | my life during which | my life during which |
@@ -884,7 +884,7 @@
 | sun was hot, but we  | sun was hot, but we  | sun was hot, but we  |
 |         were         |         were         |         were         |
 +----------------------+----------------------+----------------------+
-|      sheltered       |      Sheltered       |      sheltered       |
+|      sheltered       |      Sheltered       |      sheltered       |RM: 1823 fixed
 +----------------------+----------------------+----------------------+
 |  from its rays by a  |  from its rays by a  |  from its rays by a  |
 |   kind of canopy,    |   kind of canopy,    |   kind of canopy,    |
@@ -896,13 +896,13 @@
 | Salêve, the pleasant | Salêve, the pleasant | Salêve, the pleasant |
 |       banks of       |       banks of       |       banks of       |
 +----------------------+----------------------+----------------------+
-|     Montalêgre,      |     Montalêgre,      |     Montalègre,      |
+|     Montalêgre,      |     Montalêgre,      |     Montalègre,      |RM: 1831 ver
 +----------------------+----------------------+----------------------+
 |  and at a distance,  |  and at a distance,  |  and at a distance,  |
 | surmounting all, the | surmounting all, the | surmounting all, the |
 |    beautiful Mont    |    beautiful Mont    |    beautiful Mont    |
 +----------------------+----------------------+----------------------+
-|        Blânc,        |        Blanc,        |        Blanc,        |
+|        Blânc,        |        Blanc,        |        Blanc,        |RM: 1818 ver
 +----------------------+----------------------+----------------------+
 |  and the assemblage  |  and the assemblage  |  and the assemblage  |
 |  of snowy mountains  |  of snowy mountains  |  of snowy mountains  |
@@ -931,7 +931,7 @@
 |  would endeavour to  |  would endeavour to  |  would endeavour to  |
 |   let me taste the   |   let me taste the   |   let me taste the   |
 +----------------------+----------------------+----------------------+
-|        quiet,        |        quiet         |        quiet         |
+|        quiet,        |        quiet         |        quiet         |RM: 1818 ver
 +----------------------+----------------------+----------------------+
 |   and freedom from   |   and freedom from   |   and freedom from   |
 |  despair, that this  |  despair, that this  |  despair, that this  |
@@ -942,7 +942,7 @@
 |   Victor,” replied   |   Victor,” replied   |   Victor,” replied   |
 |      Elizabeth;      |      Elizabeth;      |      Elizabeth;      |
 +----------------------+----------------------+----------------------+
-|        “there        |        there         |        “there        |
+|        “there        |        there         |        “there        |RM: 1823 fixed
 +----------------------+----------------------+----------------------+
 | is, I hope, nothing  | is, I hope, nothing  | is, I hope, nothing  |
 | to distress you; and | to distress you; and | to distress you; and |
@@ -962,17 +962,17 @@
 | move along, and how  | move along, and how  | move along, and how  |
 |         the          |         the          |         the          |
 +----------------------+----------------------+----------------------+
-|        clouds        |        clouds        |       clouds,        |
+|        clouds        |        clouds        |       clouds,        |RM: 1831 ver
 +----------------------+----------------------+----------------------+
 |   which sometimes    |   which sometimes    |   which sometimes    |
 +----------------------+----------------------+----------------------+
-|       obscure,       |       obscure,       |       obscure        |
+|       obscure,       |       obscure,       |       obscure        |RM: 1831 ver
 +----------------------+----------------------+----------------------+
 |  and sometimes rise  |  and sometimes rise  |  and sometimes rise  |
 |  above the dome of   |  above the dome of   |  above the dome of   |
 |         Mont         |         Mont         |         Mont         |
 +----------------------+----------------------+----------------------+
-|        Blânc,        |        Blanc,        |        Blanc,        |
+|        Blânc,        |        Blanc,        |        Blanc,        |RM: 1818 ver
 +----------------------+----------------------+----------------------+
 | render this scene of | render this scene of | render this scene of |
 |  beauty still more   |  beauty still more   |  beauty still more   |
@@ -1004,7 +1004,7 @@
 |  and reverie. </p>   |  and reverie. </p>   |  and reverie. </p>   |
 |     <p> The sun      |     <p> The sun      |     <p> The sun      |
 +----------------------+----------------------+----------------------+
-|         sunk         |         sunk         |         sank         |
+|         sunk         |         sunk         |         sank         |RM: fix 1831
 +----------------------+----------------------+----------------------+
 |     lower in the     |     lower in the     |     lower in the     |
 |  heavens; we passed  |  heavens; we passed  |  heavens; we passed  |
@@ -1032,7 +1032,7 @@
 | <p> The wind, which  | <p> The wind, which  | <p> The wind, which  |
 |     had hitherto     |     had hitherto     |     had hitherto     |
 +----------------------+----------------------+----------------------+
-|       carried        |        earned        |       carried        |
+|       carried        |        earned        |       carried        |RM: 1823 fixed
 +----------------------+----------------------+----------------------+
 |    us along with     |    us along with     |    us along with     |
 |  amazing rapidity,   |  amazing rapidity,   |  amazing rapidity,   |
