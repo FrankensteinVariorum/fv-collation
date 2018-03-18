@@ -1575,7 +1575,6 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <milestone unit="tei:p"/>
     <!--EB 2017-10-08: On comparing with ms image, corrected SGA transcription of innumberable to innumerable in the line below. -->
     <line rend="indent1">I could mention innumerable instances</line>
-    <!--EB 2017-10-08: WORD BOUNDARY MARKUP TO HERE. -->
     <line>which although slight marked the <mod>
         <del rend="strikethrough">heart</del>
         <add place="superlinear">dispositions</add>
@@ -1754,8 +1753,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
                                 <del rend="strikethrough">writing</del>
                                 <del rend="strikethrough">his</del>
                                 <add place="superlinear">the</add>
-                        </mod> lang</line>
-                <line>uage of her lover by the aid of <del rend="strikethrough">he</del> an old
+                        </mod> <w ana="start"/>lang</line>
+                <line>uage<w ana="end"/> of her lover by the aid of <del rend="strikethrough">he</del> an old
                         man</line>
                 <line>a servant of her Fathers who understood</line>
                 <line>french. She thanked him in the most</line>
@@ -1821,8 +1820,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <del rend="strikethrough">submit</del>
         <del rend="strikethrough"><add place="superlinear">to which</add></del>
         <add hand="#pbs" place="superlinear">reduced.</add>
-      </mod>. She instructed he<add place="sublinear">r</add> daugh</line>
-    <line>ter in the tenets of her religion &amp; taught her</line>
+      </mod>. She instructed he<add place="sublinear">r</add> <w ana="start"/>daugh</line>
+    <line>ter<w ana="end"/> in the tenets of her religion &amp; taught her</line>
     <line>to aspire to higher powers of intellect &amp; an</line>
     <line>independance of spir<add place="intralinear">i</add>t forbidden to the female</line>
     <line>followers of Mahomet. <del rend="strikethrough">Amina sickened</del> This</line>
@@ -1842,12 +1841,12 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       <del rend="strikethrough">&amp;</del> allowed only to</line>
     <line>occupy herself with puerile amusements</line>
     <line>ill-suited to the temper of her soul now</line>
-    <line>accustomed to grand ideas &amp; a noble emu-</line>
-    <line>lation for <del rend="strikethrough">vi</del> virtue. The <del rend="strikethrough">pr</del> prospect of</line>
+    <line>accustomed to grand ideas &amp; a noble <w ana="start"/>emu</line>
+    <line>lation<w ana="end"/> for <del rend="strikethrough">vi</del> virtue. The <del rend="strikethrough">pr</del> prospect of</line>
     <line>marrying a Christian and remaining</line>
     <line>in a country where women were allowed</line>
-    <line>to take a rank in society was enchan</line>
-    <line>ting to her. <del rend="strikethrough">Yet she requested Felix not to</del></line>
+    <line>to take a rank in society was <w ana="start"/>enchan</line>
+    <line>ting<w ana="end"/> to her. <del rend="strikethrough">Yet she requested Felix not to</del></line>
     <milestone unit="tei:p"/>
     <line rend="indent1">The day for the execution of the Turk was</line>
     <line>fixed but <del rend="strikethrough">the he</del> on the night <mod>
@@ -1891,21 +1890,21 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod> wait a favourable<del rend="smear"><add hand="#pbs" place="superlinear">safe</add></del> opportunity of passing</line>
     <zone type="pagination"><line><del rend="smear">61</del></line></zone>
     <line>over to Africa <del rend="strikethrough">The</del>
-      <del rend="strikethrough">H</del> He could not deny hi<mod>
+      <del rend="strikethrough">H</del> He could not deny <w ana="start"/>hi<mod>
         <del rend="overwritten">s</del>
         <add place="intralinear">m</add>
       </mod></line>
-    <line>self the pleasure of remaining a <del instant="true" rend="strikethrough">short</del>
+    <line>self<w ana="end"/> the pleasure of remaining a <del instant="true" rend="strikethrough">short</del>
       few</line>
     <line>days in the <mod>
         <del rend="strikethrough">company</del>
         <add place="superlinear">society</add>
-      </mod> of the Arabian who exhi</line>
-    <line>bited towards him the simplest &amp; tenderest</line>
+      </mod> of the Arabian who <w ana="start"/>exhi</line>
+    <line>bited<w ana="end"/> towards him the simplest &amp; tenderest</line>
     <line>affection<unclear>.</unclear> They conversed with one another</line>
     <line>by the aid of an interpreter &amp; Safie sang</line>
-    <line>to him the divine airs of her native coun</line>
-    <line>try. The Turk allowed this intimacy to</line>
+    <line>to him the divine airs of her native <w ana="start"/>coun</line>
+    <line>try<w ana="end"/>. The Turk allowed this intimacy to</line>
     <line>take place and encouraged the hopes of </line>
     <line><del rend="strikethrough">Th</del>the <mod>
         <del rend="strikethrough">Christian</del>
@@ -1923,21 +1922,22 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod> power <mod>
         <del rend="overwritten">i</del>
         <add place="intralinear">o</add>
-      </mod>f his <del rend="strikethrough">former</del> deli</line>
-    <line>ver<add hand="#pbs" place="intralinear">er</add> if he should <mod>
+      </mod>f his <del rend="strikethrough">former</del> <w ana="start"/>deli</line>
+    <line>ver<add hand="#pbs" place="intralinear">er</add><w ana="end"/> if he should <mod>
         <del rend="strikethrough">deliver</del>
         <add place="superlinear">choose to betray</add>
       </mod> him <del rend="strikethrough">up</del> to the</line>
     <line><damage type="tear"/>Italian state which they at</line>
     <line><damage type="tear"/>that time imhabited.</line>
-    <line><damage type="tear"/>He revolved a thou</line>
-    <line><damage type="tear"/>sand plans by</line>
+    <line><damage type="tear"/>He revolved a <w ana="start"/>thou</line>
+    <line><damage type="tear"/>sand<w ana="end"/> plans by</line>
     <line><damage type="tear"/>which he <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">should</add>
       </mod></line>
   </zone>
 </surface>
+      <!--EB 2018-03-18: WORD BOUNDARY MARKUP TO HERE. -->
         <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="14r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0027.xml" xml:id="ox-ms_abinger_c57-0027">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0027.jp2"/>
   <zone type="pagination"><line>62</line></zone>
@@ -2043,7 +2043,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <del rend="strikethrough">hearing</del>
         <add hand="#pbs" place="superlinear">discovering</add>
       </mod>
-      <del next="#c57-0030.04" rend="strikethrough">that he was a</del><add hand="#pbs" place="superlinear" xml:id="c57-0030.05">was thus</add></line>
+      <del next="#c57-0030.04" rend="strikethrough">that he was a</del></line>
     <line><del rend="strikethrough" xml:id="c57-0030.04">beggar had</del>
       <del rend="strikethrough">w</del> that his deliver<add place="intralinear">er</add>
       <mod>
@@ -2052,9 +2052,11 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <anchor corresp="#c57-0030.05"/>
       </mod>
       <del next="#c57-0030.07" rend="strikethrough">poor &amp;</del>
+      <add hand="#pbs" place="superlinear" xml:id="c57-0030.05">was thus</add>
       <add hand="#pbs" next="#c57-0030.08" place="superlinear"> reduced to</add></line>
     <!--Tricky bit here. "had been" was struck out and replaced with "was thus" above the previous line
     Line reads "that his deliverer was thus reduced to poverty & impotence"-->
+    <!--2018-03-18 ebb: For the purposes of collation, I've just moved the <add>reduced to</add> into its sequential position here. -->
     <line>
       <del rend="strikethrough" xml:id="c57-0030.07">harmless</del><add hand="#pbs" place="superlinear" xml:id="c57.0030.08">poverty &amp; impotence</add><anchor xml:id="c57.0030.06"/>
       <del rend="strikethrough">forgot</del>
@@ -2068,8 +2070,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod> quitted <del rend="strikethrough">his</del> Italy with</line>
     <line>his daughter insultingly sending Felix a</line>
     <line><del rend="strikethrough">miserable</del> pittance of money to aid him,</line>
-    <line>as he said, in some plan of future main</line>
-    <line>tenance.</line>
+    <line>as he said, in some plan of future <w ana="start"/>main</line>
+    <line>tenance<w ana="end"/>.</line>
     <milestone unit="tei:p"/>
     <line rend="indent1">Such were the events that <del instant="true" rend="strikethrough">sprea</del> preyed</line>
     <line>on the heart of Felix and rendered him when</line>
@@ -2087,8 +2089,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>gloried in it. But the ingratitude of the</line>
     <line>Turk &amp; the loss of his beloved Safie <delSpan rend="strikethrough" spanTo="#c57-0030.09"/>preyed on</line>
     <line>his heart<anchor xml:id="c57-0030.09"/>
-      <del instant="true" rend="strikethrough">were misfortunes</del> were misfor</line>
-    <line><damage type="tear"/>tunes more bitter &amp; irreperable.</line>
+      <del instant="true" rend="strikethrough">were misfortunes</del> were <w ana="start"/>misfor</line>
+    <line><damage type="tear"/>tunes<w ana="end"/> more bitter &amp; irreperable.</line>
     <line><damage type="tear"/><del rend="strikethrough">But</del><mod>
         <del rend="overwritten">t</del>
         <add place="intralinear">T</add>
@@ -2128,8 +2130,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add hand="#pbs" place="superlinear">on</add>
       </mod> my</line>
     <line>mind unfolding as it did a number of</line>
-    <line>circumstances each inter<del rend="strikethrough">r</del>esting &amp; wonder</line>
-    <line>ful to one so utterly inexperienced as I</line>
+    <line>circumstances each inter<del rend="strikethrough">r</del>esting &amp; <w ana="start"/>wonder</line>
+    <line>ful<w ana="end"/> to one so utterly inexperienced as I</line>
     <line>was. <del rend="vertical_line"><unclear>2</unclear></del></line>
     <milestone unit="tei:p"/>
     <line rend="indent1">The name of the old man was De Lacey.</line>
@@ -2137,8 +2139,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>untill very lately had lived<anchor xml:id="c57-0031.06"/> where for many years</line>
     <line>he had lived in affluence respected by his superiors</line>
     <line>&amp; beloved by his equals. <delSpan rend="strikethrough" spanTo="#c57-0031.07"/>His two
-      children Felix &amp; Aga</line>
-    <line>tha<anchor xml:id="c57-0031.07"/> His son was bred <mod>
+      children Felix &amp; <w ana="start"/>Aga</line>
+    <line>tha<w ana="end"/><anchor xml:id="c57-0031.07"/> His son was bred <mod>
         <del rend="overwritten">t</del>
         <add place="intralinear">i</add>
       </mod>n the service of his country</line>
@@ -2154,17 +2156,16 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       <add hand="#pbs" place="superlinear">before</add>
     </line>
     <line><del rend="strikethrough" xml:id="c57-0031.09">to</del><anchor xml:id="c57-0031.08"/> my
-      arrival they had lived in a large &amp; lux</line>
-    <line>urious city called Paris, surrounded by friends</line>
+      arrival they had lived in a large &amp; <w ana="start"/>lux</line>
+    <line>urious<w ana="end"/> city called Paris, surrounded by friends</line>
     <line>&amp; possessed of every enjoyment that <mod>
         <del rend="strikethrough">that</del>
         <add hand="#pbs" place="superlinear">which</add>
       </mod> virtue <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add hand="#pbs" next="#c57-0031.10" place="superlinear">&amp; refin</add>
-      </mod> ac</line>
-    <line><add hand="#pbs" place="superlinear" xml:id="c57-0031.10">ement of intellect &amp; taste,
-      </add>companied with a competent fortune could</line>
+        <add hand="#pbs" next="#c57-0031.10" place="superlinear">&amp; refinement of intellect &amp; taste,</add>
+      </mod> <w ana="start"/>ac</line>
+    <line>companied<w ana="end"/> with a competent fortune could</line>
     <line>afford.</line>
     <milestone unit="tei:p"/>
     <line rend="indent1">The father of Safie <mod>
@@ -2184,10 +2185,10 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <del rend="strikethrough">for some</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear">for some reason which I could not learn</add>
-      </mod> obnoxious to the govern</line>
-    <line>ment– He was seized and cast into prison</line>
-    <line>the very day that Safie arrived from Constan</line>
-    <line>tinople to join him. He was tried &amp; condemned</line>
+      </mod> obnoxious to the <w ana="start"/>govern</line>
+    <line>ment<w ana="end"/>– He was seized and cast into prison</line>
+    <line>the very day that Safie arrived from <w ana="start"/>Constan</line>
+    <line>tinople<w ana="end"/> to join him. He was tried &amp; condemned</line>
     <line>to death. The injustice of his sentence was very</line>
     <line>flagrant All Paris were indignant &amp; it</line>
     <line>was judged that his relig<del rend="strikethrough">i</del>ion and wealth </line>
@@ -2231,8 +2232,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
          </mod> He made at that moment a solemn</line>
       <line>vow to deliver him &amp; then looked around</line>
       <line>for the means. After many fruitless</line>
-      <line>attempts to gain admittance to the <delSpan rend="strikethrough" spanTo="#c57-0032.04"/>pri</line>
-      <line>son<anchor xml:id="c57-0032.04"/>
+      <line>attempts to gain admittance to the <delSpan rend="strikethrough" spanTo="#c57-0032.04"/><w ana="start"/>pri</line>
+      <line>son<w ana="end"/><anchor xml:id="c57-0032.04"/>
          <mod>
             <del rend="strikethrough">goal</del>
             <add hand="#pbs" place="superlinear">prison</add>
@@ -2248,8 +2249,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
          <del instant="true" rend="strikethrough">illuminated</del> lighted the dungeon</line>
       <line>of the unfortunate Mahometan, who</line>
       <line>loaded with chains waited in despair</line>
-      <line>the execution of the barbarous sen</line>
-      <line>tence. Felix visited the grate at night</line>
+      <line>the execution of the barbarous <w ana="start"/>sen</line>
+      <line>tence<w ana="end"/>. Felix visited the grate at night</line>
       <line><del rend="strikethrough">h</del> and made know<add place="sublinear">n</add> to the
          prisoner his</line>
       <line>intentions in his favour. The Turk</line>
@@ -2274,8 +2275,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
          </mod> would fully reward his</line>
       <line>toil &amp; hazard.</line>
       <milestone unit="tei:p"/>
-      <line rend="indent1">The Turk quickly perceived the im</line>
-      <line>pression that his daughter had made on</line>
+      <line rend="indent1">The Turk quickly perceived the <w ana="start"/>im</line>
+      <line>pression<w ana="end"/> that his daughter had made on</line>
    </zone>
 
    
@@ -2342,13 +2343,13 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod> but to</line>
     <line>repare to return to her native country</line>
     <line>with him.–The generous nature of Safie</line>
-    <line>was outraged by this command –She attempt</line>
-    <line>ed to expostulate with her father but</line>
+    <line>was outraged by this command –She <w ana="start"/>attempt</line>
+    <line>ed<w ana="end"/> to expostulate with her father but</line>
     <line>he left<del rend="strikethrough">er</del> her angrily <del rend="strikethrough">re</del>
       reiterating his</line>
-    <line>tyrannical <hi rend="underline"><del rend="strikethrough">command</del>.</hi>
+    <line>tyrannical <hi rend="underline">command.</hi>
       <del rend="strikethrough">orders.</del></line>
-    <!--the underline below "command" either questions it or possibly restores it after deletion of "orders"-->
+    <!--the underline below "command" either questions it or possibly restores it after deletion of "orders"--><!--2018-03-18: Responding to preceding comment, for Pittsburgh Bridge collation purposes, I am removing the <del> tag around command. -->
     <milestone unit="tei:p"/>
     <line rend="indent2">A few days after the Turk entered</line>
     <line>his daughters appartment and told her</line>

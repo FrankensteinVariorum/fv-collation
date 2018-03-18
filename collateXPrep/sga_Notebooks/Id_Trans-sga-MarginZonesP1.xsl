@@ -7,7 +7,7 @@
     version="3.0">
     <xsl:mode on-no-match="shallow-copy"/>
   
-  <!--2017-10-08 ebb: This is the first of a "pipeline" series of 3 stylesheets designed to be run in sequence, with the goal of moving left_margin zone elements to sit in sequence next to their insertion points. We need a pipeline process because there are left_margin zone insertions indicated *inside* two left_margin zones, leading these to be improperly processed if we attempt the migration of these zones in one stylesheet process. (See comment of 2017-09-26 describing the problem.).
+  <!--2017-10-08 ebb: This is the first of a "pipeline" series of 3 stylesheets designed to be run in sequence, with the goal of moving left_margin zone elements to sit in sequence next to their insertion points. We need a pipeline process because there are left_margin zone insertions indicated *inside* two left_margin zones, leading these to be improperly processed if we attempt the migration of these zones in one stylesheet process. (See GitHub issue of 2017-09-26 describing the problem: https://github.com/ebeshero/Pittsburgh_Frankenstein/issues/29 ).
   FIRST, with this transformation, we only move the left_margin zones that are to be inserted into other left_margin zones.
   -->
    

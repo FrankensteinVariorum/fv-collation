@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
    
     version="3.0">
-
+<!--ebb: This XSLT adds xml:ids to every lb element, to prepare the files we are calling "flagged" such that each line-break element contains a flag indicating its specific location in its manuscript page.  -->
     <xsl:mode on-no-match="shallow-copy"/>
     
  <xsl:template match="lb">
