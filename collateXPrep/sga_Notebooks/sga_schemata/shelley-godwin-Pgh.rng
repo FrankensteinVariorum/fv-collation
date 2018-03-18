@@ -5,10 +5,10 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-10-08T23:51:53Z. .
-TEI Edition: Version 3.2.0. Last updated on
-	10th July 2017, revision 0fcf651
-TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.2.0/
+Schema generated from ODD source 2018-03-18T05:35:13Z. .
+TEI Edition: Version 3.3.0. Last updated on
+	31st January 2018, revision f4d8439
+TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
   
 --><!--This code was updated by Elisa Beshero-Bondar, building on work copyrighted by Trevor Muñoz, Raffaele Viglianti, and Maryland Institute for Technology in the Humanities and licensed under a Creative Commons Attribution 3.0 Unported License.-->
    <define name="sgamacro.paraContent">
@@ -215,7 +215,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.2.0/
       <optional>
          <attribute name="unit">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">names the unit used for the measurement
-Suggested values include: 1] cm(centimetres) ; 2] mm(millimetres) ; 3] in(inches) ; 4] lines; 5] chars(characters) </a:documentation>
+Suggested values include: 1] cm (centimetres) ; 2] mm (millimetres) ; 3] in (inches) ; 4] lines; 5] chars (characters) </a:documentation>
             <choice>
                <value>cm</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(centimetres) </a:documentation>
@@ -470,27 +470,27 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="shelley_godwin_odd-att.datable.w3c-att-datable-w3c-when-constraint-rule-1">
-      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
                 context="tei:*[@when]">
         <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="shelley_godwin_odd-att.datable.w3c-att-datable-w3c-from-constraint-rule-2">
-      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
                 context="tei:*[@from]">
         <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="shelley_godwin_odd-att.datable.w3c-att-datable-w3c-to-constraint-rule-3">
-      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
                 context="tei:*[@to]">
         <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
       </sch:rule>
@@ -512,9 +512,9 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="shelley_godwin_odd-att.datable-calendar-calendar-constraint-rule-4">
-      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
                 context="tei:*[@calendar]">
             <sch:assert test="string-length(.) gt 0">
 @calendar indicates the system or calendar to which the date represented by the content of this element
@@ -693,7 +693,6 @@ Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] 
       </optional>
    </define>
    <define name="sgaatt.editLike.attributes">
-      <ref name="sgaatt.dimensions.attributes"/>
       <ref name="sgaatt.editLike.attribute.evidence"/>
       <ref name="sgaatt.editLike.attribute.instant"/>
    </define>
@@ -1035,7 +1034,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
       <optional>
          <attribute name="unit">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the units used for the measurement, usually using the standard symbol for the desired units.
-Suggested values include: 1] m(metre) ; 2] kg(kilogram) ; 3] s(second) ; 4] Hz(hertz) ; 5] Pa(pascal) ; 6] Ω(ohm) ; 7] L(litre) ; 8] t(tonne) ; 9] ha(hectare) ; 10] Å(ångström) ; 11] mL(millilitre) ; 12] cm(centimetre) ; 13] dB(decibel) ; 14] kbit(kilobit) ; 15] Kibit(kibibit) ; 16] kB(kilobyte) ; 17] KiB(kibibyte) ; 18] MB(megabyte) ; 19] MiB(mebibyte) </a:documentation>
+Suggested values include: 1] m (metre) ; 2] kg (kilogram) ; 3] s (second) ; 4] Hz (hertz) ; 5] Pa (pascal) ; 6] Ω (ohm) ; 7] L (litre) ; 8] t (tonne) ; 9] ha (hectare) ; 10] Å (ångström) ; 11] mL (millilitre) ; 12] cm (centimetre) ; 13] dB (decibel) ; 14] kbit (kilobit) ; 15] Kibit (kibibit) ; 16] kB (kilobyte) ; 17] KiB (kibibyte) ; 18] MB (megabyte) ; 19] MiB (mebibyte) </a:documentation>
             <choice>
                <value>m</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(metre) SI base unit of length</a:documentation>
@@ -1141,6 +1140,19 @@ Suggested values include: 1] m(metre) ; 2] kg(kilogram) ; 3] s(second) ; 4] Hz(h
          </attribute>
       </optional>
    </define>
+   <define name="sgaatt.notated.attributes">
+      <ref name="sgaatt.notated.attribute.notation"/>
+   </define>
+   <define name="sgaatt.notated.attribute.notation">
+      <optional>
+         <attribute name="notation">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">names the notation used for the content of the element.</a:documentation>
+            <data type="token">
+               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
    <define name="sgaatt.placement.attributes">
       <ref name="sgaatt.placement.attribute.place"/>
    </define>
@@ -1207,9 +1219,9 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="shelley_godwin_odd-att.typed-subtypeTyped-constraint-rule-5">
-      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
                 context="tei:*[@subtype]">
         <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
       </sch:rule>
@@ -1235,9 +1247,9 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="shelley_godwin_odd-att.pointing-targetLang-targetLang-constraint-rule-6">
-      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
                 context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
             <sch:assert test="@target">@targetLang should only be used on <sch:name/> if @target is specified.</sch:assert>
           </sch:rule>
@@ -1380,9 +1392,9 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="shelley_godwin_odd-att.spanning-spanTo-spanTo-2-constraint-rule-7">
-      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
                 context="tei:*[@spanTo]">
             <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]">
 The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>
@@ -1422,9 +1434,9 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="shelley_godwin_odd-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-rule-8">
-      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
                 context="tei:*[@schemeVersion]">
             <sch:assert test="@scheme and not(@scheme = 'free')">
               @schemeVersion can only be used if @scheme is specified.
@@ -1519,9 +1531,9 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
                <value>part</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the element identifies a part of a book or collection.</a:documentation>
                <value>column</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the element identifies an entry number or label in a list of entries.</a:documentation>
-               <value>entry</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the element identifies a column.</a:documentation>
+               <value>entry</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the element identifies an entry number or label in a list of entries.</a:documentation>
                <data type="token">
                   <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                </data>
@@ -3321,18 +3333,20 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.5. Speech Contents]</a:documentation>
          <ref name="sgamacro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="shelley_godwin_odd-p-abstractModel-p-constraint-report-4">
+                  id="shelley_godwin_odd-p-abstractModel-structure-p-constraint-report-4">
             <rule context="tei:p">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       test="not(ancestor::floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )">
-        Abstract model violation: Paragraphs may not contain other paragraphs or ab elements.
+               <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )">
+        Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.
       </report>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-p-abstractModel-structure-l-constraint-report-5">
             <rule context="tei:p">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+               <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="ancestor::tei:l[not(.//tei:note//tei:p[. = current()])]">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab.
       </report>
@@ -3441,6 +3455,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.timed.attributes"/>
          <ref name="sgaatt.editLike.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <optional>
             <attribute name="reason">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the reason for omission
@@ -3468,12 +3483,6 @@ Suggested values include: 1] cancelled; 2] deleted; 3] editorial; 4] illegible; 
                      </choice>
                   </oneOrMore>
                </list>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="hand">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in the case of text omitted from the transcription because of deliberate deletion by an identifiable hand, indicates the hand which made the deletion.</a:documentation>
-               <data type="anyURI"/>
             </attribute>
          </optional>
          <optional>
@@ -3529,6 +3538,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          <ref name="sgaatt.global.source.attribute.source"/>
          <ref name="sgaatt.transcriptional.attributes"/>
          <ref name="sgaatt.typed.attribute.subtype"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <optional>
             <attribute name="place">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -3580,17 +3590,8 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          <ref name="sgaatt.transcriptional.attribute.seq"/>
          <ref name="sgaatt.editLike.attribute.evidence"/>
          <ref name="sgaatt.editLike.attribute.instant"/>
-         <ref name="sgaatt.dimensions.attribute.unit"/>
-         <ref name="sgaatt.dimensions.attribute.quantity"/>
-         <ref name="sgaatt.dimensions.attribute.extent"/>
-         <ref name="sgaatt.dimensions.attribute.precision"/>
-         <ref name="sgaatt.dimensions.attribute.scope"/>
-         <ref name="sgaatt.ranging.attribute.atLeast"/>
-         <ref name="sgaatt.ranging.attribute.atMost"/>
-         <ref name="sgaatt.ranging.attribute.min"/>
-         <ref name="sgaatt.ranging.attribute.max"/>
-         <ref name="sgaatt.ranging.attribute.confidence"/>
          <ref name="sgaatt.typed.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <optional>
             <attribute name="rend">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -3619,22 +3620,30 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          <ref name="sgamacro.paraContent"/>
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.editLike.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <optional>
             <attribute name="reason">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates why the material is hard to transcribe.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates why the material is hard to transcribe.
+Suggested values include: 1] illegible; 2] inaudible; 3] faded; 4] background_noise; 5] eccentric_ductus</a:documentation>
                <list>
                   <oneOrMore>
-                     <data type="token">
-                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
-                     </data>
+                     <choice>
+                        <value>illegible</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>inaudible</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>faded</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>background_noise</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>eccentric_ductus</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <data type="token">
+                           <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                        </data>
+                     </choice>
                   </oneOrMore>
                </list>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="hand">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Where the difficulty in transcription arises from action (partial deletion, etc.) assignable to an identifiable hand, signifies the hand responsible for the action.</a:documentation>
-               <data type="anyURI"/>
             </attribute>
          </optional>
          <optional>
@@ -3776,6 +3785,7 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.datable.attributes"/>
          <ref name="sgaatt.editLike.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <ref name="sgaatt.typed.attributes"/>
          <empty/>
       </element>
@@ -3787,7 +3797,9 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-ptr-ptrAtts-constraint-report-6">
             <rule context="tei:ptr">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0" test="@target and @cRef">Only one of the
+               <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="@target and @cRef">Only one of the
 attributes @target and @cRef may be supplied on <name/>.</report>
             </rule>
          </pattern>
@@ -3806,7 +3818,9 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-ref-refAtts-constraint-report-7">
             <rule context="tei:ref">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0" test="@target and @cRef">Only one of the
+               <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="@target and @cRef">Only one of the
 	attributes @target' and @cRef' may be supplied on <name/>
                </report>
             </rule>
@@ -3888,9 +3902,9 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-list-gloss-list-must-have-labels-constraint-rule-9">
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:list[@type='gloss']">
 	              <sch:assert test="tei:label">The content of a "gloss" list should include a sequence of one or more pairs of a label element followed by an item element</sch:assert>
             </sch:rule>
@@ -4136,7 +4150,7 @@ Elements]</a:documentation>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classifies the title according to some convenient typology.
-Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) </a:documentation>
+Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] short; 5] desc (descriptive) </a:documentation>
                <data type="token">
                   <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                </data>
@@ -4217,9 +4231,9 @@ Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] sho
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-relatedItem-targetorcontent1-constraint-report-8">
             <rule context="tei:relatedItem">
-               <sch:report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+               <sch:report xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns="http://www.tei-c.org/ns/1.0"
                            test="@target and count( child::* ) &gt; 0">
 If the @target attribute on <sch:name/> is used, the
 relatedItem element must be empty</sch:report>
@@ -4228,9 +4242,9 @@ relatedItem element must be empty</sch:report>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-relatedItem-targetorcontent1-constraint-assert-7">
             <rule context="tei:relatedItem">
-               <sch:assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+               <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns="http://www.tei-c.org/ns/1.0"
                            test="@target or child::*">A relatedItem element should have either a 'target' attribute
         or a child element to indicate the related bibliographic item</sch:assert>
             </rule>
@@ -4629,18 +4643,18 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-addSpan-spanTo-constraint-assert-8">
             <rule context="tei:addSpan">
-               <sch:assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+               <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns="http://www.tei-c.org/ns/1.0"
                            test="@spanTo">The @spanTo attribute of <sch:name/> is required.</sch:assert>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-addSpan-spanTo_fr-constraint-assert-9">
             <rule context="tei:addSpan">
-               <sch:assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+               <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns="http://www.tei-c.org/ns/1.0"
                            test="@spanTo">L'attribut spanTo est requis.</sch:assert>
             </rule>
          </pattern>
@@ -4649,6 +4663,7 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
          <ref name="sgaatt.placement.attributes"/>
          <ref name="sgaatt.typed.attributes"/>
          <ref name="sgaatt.spanning.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <empty/>
       </element>
    </define>
@@ -4698,14 +4713,18 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-damageSpan-spanTo-constraint-assert-10">
             <rule context="tei:damageSpan">
-               <assert xmlns:rng="http://relaxng.org/ns/structure/1.0" test="@spanTo">
+               <assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="@spanTo">
 The @spanTo attribute of <name/> is required.</assert>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-damageSpan-spanTo_fr-constraint-assert-11">
             <rule context="tei:damageSpan">
-               <assert xmlns:rng="http://relaxng.org/ns/structure/1.0" test="@spanTo">L'attribut spanTo est requis.</assert>
+               <assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="@spanTo">L'attribut spanTo est requis.</assert>
             </rule>
          </pattern>
          <ref name="sgaatt.global.attributes"/>
@@ -4722,18 +4741,23 @@ The @spanTo attribute of <name/> is required.</assert>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-delSpan-spanTo-constraint-assert-12">
             <rule context="tei:delSpan">
-               <assert xmlns:rng="http://relaxng.org/ns/structure/1.0" test="@spanTo">The @spanTo attribute of <name/> is required.</assert>
+               <assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="@spanTo">The @spanTo attribute of <name/> is required.</assert>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-delSpan-spanTo_fr-constraint-assert-13">
             <rule context="tei:delSpan">
-               <assert xmlns:rng="http://relaxng.org/ns/structure/1.0" test="@spanTo">L'attribut spanTo est requis.</assert>
+               <assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="@spanTo">L'attribut spanTo est requis.</assert>
             </rule>
          </pattern>
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.typed.attributes"/>
          <ref name="sgaatt.spanning.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <empty/>
       </element>
    </define>
@@ -4787,6 +4811,7 @@ The @spanTo attribute of <name/> is required.</assert>
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.transcriptional.attributes"/>
          <ref name="sgaatt.typed.attribute.subtype"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -4868,7 +4893,8 @@ The @spanTo attribute of <name/> is required.</assert>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-subst-substContents1-constraint-assert-14">
             <rule context="tei:subst">
-               <assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
+               <assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="child::tei:add and child::tei:del">
                   <name/> must have at least one child add and at least one child del</assert>
             </rule>
@@ -4877,16 +4903,7 @@ The @spanTo attribute of <name/> is required.</assert>
          <ref name="sgaatt.transcriptional.attribute.seq"/>
          <ref name="sgaatt.editLike.attribute.evidence"/>
          <ref name="sgaatt.editLike.attribute.instant"/>
-         <ref name="sgaatt.dimensions.attribute.unit"/>
-         <ref name="sgaatt.dimensions.attribute.quantity"/>
-         <ref name="sgaatt.dimensions.attribute.extent"/>
-         <ref name="sgaatt.dimensions.attribute.precision"/>
-         <ref name="sgaatt.dimensions.attribute.scope"/>
-         <ref name="sgaatt.ranging.attribute.atLeast"/>
-         <ref name="sgaatt.ranging.attribute.atMost"/>
-         <ref name="sgaatt.ranging.attribute.min"/>
-         <ref name="sgaatt.ranging.attribute.max"/>
-         <ref name="sgaatt.ranging.attribute.confidence"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <optional>
             <attribute name="cause">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -4926,6 +4943,7 @@ The @spanTo attribute of <name/> is required.</assert>
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.pointing.attributes"/>
          <ref name="sgaatt.transcriptional.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <empty/>
       </element>
    </define>
@@ -4935,6 +4953,7 @@ The @spanTo attribute of <name/> is required.</assert>
          <ref name="sgamacro.paraContent"/>
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.editLike.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <optional>
             <attribute name="reason">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">one or more words indicating why this text has been secluded, e.g. interpolated etc.</a:documentation>
@@ -5127,9 +5146,9 @@ Suggested values include: 1] line; 2] short_line; 3] wavey_short_line; 4] left_b
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-mod-modContents-constraint-rule-10">
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:mod">
                                     <sch:report test="not(@spanTo) and not(tei:restore) and not(count(node()) gt 1)">The mod element is
                                         intended to group a series of related changes to the
@@ -5158,6 +5177,7 @@ Suggested values include: 1] line; 2] short_line; 3] wavey_short_line; 4] left_b
          <ref name="sgaatt.transcriptional.attributes"/>
          <ref name="sgaatt.typed.attribute.subtype"/>
          <ref name="sgaatt.spanning.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <optional>
             <attribute name="xml:space">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -5188,6 +5208,7 @@ Suggested values include: 1] line; 2] short_line; 3] wavey_short_line; 4] left_b
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.spanning.attributes"/>
          <ref name="sgaatt.transcriptional.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <empty/>
       </element>
    </define>
@@ -5443,9 +5464,9 @@ Suggested values include: 1] line; 2] short_line; 3] wavey_short_line; 4] left_b
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-link-linkTargets3-constraint-assert-15">
             <rule context="tei:link">
-               <sch:assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+               <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns="http://www.tei-c.org/ns/1.0"
                            test="contains(normalize-space(@target),' ')">You must supply at least two values for @target or  on <sch:name/>
                </sch:assert>
             </rule>
@@ -5487,6 +5508,7 @@ Suggested values include: 1] line; 2] short_line; 3] wavey_short_line; 4] left_b
          <ref name="sgaatt.segLike.attributes"/>
          <ref name="sgaatt.typed.attribute.subtype"/>
          <ref name="sgaatt.written.attributes"/>
+         <ref name="sgaatt.notated.attributes"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -5511,7 +5533,8 @@ Suggested values include: 1] line; 2] short_line; 3] wavey_short_line; 4] left_b
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-join-joinTargets3-constraint-assert-16">
             <rule context="tei:join">
-               <assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
+               <assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="contains(@target,' ')">
 You must supply at least two values for @target on <name/>
                </assert>
@@ -5644,24 +5667,82 @@ You must supply at least two values for @target on <name/>
          <empty/>
       </element>
    </define>
+   <define name="sgaatt.linguistic.attributes">
+      <ref name="sgaatt.linguistic.attribute.lemma"/>
+      <ref name="sgaatt.linguistic.attribute.lemmaRef"/>
+      <ref name="sgaatt.linguistic.attribute.pos"/>
+      <ref name="sgaatt.linguistic.attribute.msd"/>
+      <ref name="sgaatt.linguistic.attribute.join"/>
+   </define>
+   <define name="sgaatt.linguistic.attribute.lemma">
+      <optional>
+         <attribute name="lemma">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a lemma (base form) for the word, typically uninflected and serving both as an identifier (e.g. in dictionary contexts, as a headword), and as a basis for potential inflections.</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="sgaatt.linguistic.attribute.lemmaRef">
+      <optional>
+         <attribute name="lemmaRef">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a pointer to a definition of the lemma for the word, for example in an online lexicon.</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="sgaatt.linguistic.attribute.pos">
+      <optional>
+         <attribute name="pos">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(part of speech) indicates the part of speech assigned to a token (i.e. information on whether it is a noun, adjective, or verb), usually according to some official reference vocabulary (e.g. for German: STTS, for English: CLAWS, for Polish: NKJP, etc.).</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="sgaatt.linguistic.attribute.msd">
+      <optional>
+         <attribute name="msd">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(morphosyntactic description) supplies morphosyntactic information for a token, usually according to some official reference vocabulary (e.g. for German: STTS-large tagset; for a feature description system designed as (pragmatically) universal, see Universal Features).</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="sgaatt.linguistic.attribute.join">
+      <optional>
+         <attribute name="join">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">when present, it provides information on whether the token in question is adjacent to another, and if so, on which side. The definition of this attribute is adapted from ISO MAF (Morpho-syntactic Annotation Framework), ISO 24611:2012.</a:documentation>
+            <choice>
+               <value>no</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(the token is not adjacent to another) </a:documentation>
+               <value>left</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(there is no whitespace on the left side of the token) </a:documentation>
+               <value>right</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(there is no whitespace on the right side of the token) </a:documentation>
+               <value>both</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(there is no whitespace on either side of the token) </a:documentation>
+               <value>overlap</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(the token overlaps with another; other devices (specifying the extent and the area of overlap) are needed to more precisely locate this token in the character stream) </a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
    <define name="sgaw">
       <element name="w">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(word) represents a grammatical (not necessarily orthographic) word. [17.1. Linguistic Segment Categories]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-w-w_ana-constraint-rule-11">
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:w">
                               <sch:report test="not(@ana)">The w element must carry an ana attribute to designate whether it comes before the "start" or after the "end" of a word.</sch:report>
                           </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-w-w_ana-constraint-rule-12">
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:w">
                               <sch:report test="@ana = following::tei:w[1]/@ana">The w element that follows this must NOT have the same value for @ana. "Start" w's must be followed by "end" w's, and vice versa.</sch:report>
                               </sch:rule>
@@ -5669,6 +5750,8 @@ You must supply at least two values for @target on <name/>
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.segLike.attributes"/>
          <ref name="sgaatt.typed.attributes"/>
+         <ref name="sgaatt.linguistic.attributes"/>
+         <ref name="sgaatt.notated.attributes"/>
          <attribute name="ana">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <choice>
@@ -5678,18 +5761,6 @@ You must supply at least two values for @target on <name/>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             </choice>
          </attribute>
-         <optional>
-            <attribute name="lemma">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a lemma for the word, such as an uninflected dictionary entry form.</a:documentation>
-               <data type="string"/>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="lemmaRef">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a pointer to a definition of the lemma for the word, for example in an online lexicon.</a:documentation>
-               <data type="anyURI"/>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -5927,7 +5998,7 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                   <value>ESTC</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">English Short-Title Catalogue number: an identifying number assigned to a document in English printed in the British Isles or North America before 1801.</a:documentation>
                   <value>OCLC</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">union catalog number in WorldCat representing a resource held by one or more of the member libraries in the global cooperative Online Computer Library Center.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OCLC control number (record number) for the union catalog record in WorldCat, a union catalog for member libraries in the Online Computer Library Center global cooperative.</a:documentation>
                   <data type="token">
                      <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                   </data>
@@ -5949,17 +6020,15 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.declarable.attributes"/>
          <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="status"
-                       a:defaultValue="unknown">
-               <a:documentation>supplies a code identifying the current availability of the text.</a:documentation>
+            <attribute name="status">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a code identifying the current availability of the text.</a:documentation>
                <choice>
                   <value>free</value>
-                  <a:documentation>the text is freely available.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the text is freely available.</a:documentation>
                   <value>unknown</value>
-                  <a:documentation>the status of the text is unknown.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the status of the text is unknown.</a:documentation>
                   <value>restricted</value>
-                  <a:documentation>the text is not freely available.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the text is not freely available.</a:documentation>
                </choice>
             </attribute>
          </optional>
@@ -6163,19 +6232,17 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.declarable.attributes"/>
          <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="status"
-                       a:defaultValue="unknown">
-               <a:documentation>indicates the degree of correction applied to the text.</a:documentation>
+            <attribute name="status">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the degree of correction applied to the text.</a:documentation>
                <choice>
                   <value>high</value>
-                  <a:documentation>the text has been thoroughly checked and proofread.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the text has been thoroughly checked and proofread.</a:documentation>
                   <value>medium</value>
-                  <a:documentation>the text has been checked at least once.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the text has been checked at least once.</a:documentation>
                   <value>low</value>
-                  <a:documentation>the text has not been checked.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the text has not been checked.</a:documentation>
                   <value>unknown</value>
-                  <a:documentation>the correction status of the text is unknown.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the correction status of the text is unknown.</a:documentation>
                </choice>
             </attribute>
          </optional>
@@ -6229,6 +6296,7 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                   id="shelley_godwin_odd-quotation-quotationContents-constraint-report-12">
             <rule context="tei:quotation">
                <report xmlns:xi="http://www.w3.org/2001/XInclude"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="not(@marks) and not (tei:p)">
 On <name/>, either the @marks attribute should be used, or a paragraph of description provided</report>
@@ -6336,12 +6404,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          </optional>
          <optional>
             <attribute name="placement">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether punctation marks have been captured inside or outside of an adjacent element.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the positioning of punctuation marks that are associated with marked up text as being encoded within the element surrounding the text or immediately before or after it.</a:documentation>
                <choice>
                   <value>internal</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">punctuation marks are captured inside adjacent elements</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">punctuation marks found at the start or end of a marked up text component are included within its surrounding element;</a:documentation>
                   <value>external</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">punctuation marks are captured outside adjacent elements</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">punctuation marks found at the start or end of a marked up text component appear immediately before or after the surrounding element</a:documentation>
                </choice>
             </attribute>
          </optional>
@@ -6643,7 +6711,7 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
                        name="datum"
                        a:defaultValue="WGS84">
                <a:documentation>supplies a commonly used code name for the datum employed.
-Suggested values include: 1] WGS84(World Geodetic System) ; 2] MGRS(Military Grid Reference System) ; 3] OSGB36(ordnance survey great britain) ; 4] ED50(European Datum coordinate system) </a:documentation>
+Suggested values include: 1] WGS84 (World Geodetic System) ; 2] MGRS (Military Grid Reference System) ; 3] OSGB36 (ordnance survey great britain) ; 4] ED50 (European Datum coordinate system) </a:documentation>
                <choice>
                   <value>WGS84</value>
                   <a:documentation>(World Geodetic System) a pair of numbers to be interpreted as latitude followed by longitude according to the World Geodetic System.</a:documentation>
@@ -7062,7 +7130,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          <ref name="sgaatt.typed.attributes"/>
          <optional>
             <attribute name="version">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the major version number of the TEI Guidelines against which this document is valid.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the version number of the TEI Guidelines against which this document is valid.</a:documentation>
                <data type="token">
                   <param name="pattern">[\d]+(\.[\d]+){0,2}</param>
                </data>
@@ -7440,7 +7508,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-div-abstractModel-structure-l-constraint-report-13">
             <rule context="tei:div">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0" test="ancestor::tei:l">
+               <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="ancestor::tei:l">
         Abstract model violation: Lines may not contain higher-level structural elements such as div.
       </report>
             </rule>
@@ -7448,7 +7518,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-div-abstractModel-structure-p-constraint-report-14">
             <rule context="tei:div">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+               <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="ancestor::tei:p or ancestor::tei:ab and not(ancestor::tei:floatingText)">
         Abstract model violation: p and ab may not contain higher-level structural elements such as div.
       </report>
@@ -8232,7 +8303,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                        name="type"
                        a:defaultValue="main">
                <a:documentation>specifies the role of this subdivision of the title.
-Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) </a:documentation>
+Suggested values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] short; 5] desc (descriptive) </a:documentation>
                <choice>
                   <value>main</value>
                   <a:documentation>main title of the work</a:documentation>
@@ -8455,17 +8526,15 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
    </define>
    <define name="sgaatt.msExcerpt.attribute.defective">
       <optional>
-         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                    name="defective"
-                    a:defaultValue="false">
-            <a:documentation>indicates whether the passage being quoted is defective, i.e. incomplete through loss or damage.</a:documentation>
+         <attribute name="defective">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether the passage being quoted is defective, i.e. incomplete through loss or damage.</a:documentation>
             <choice>
                <data type="boolean"/>
                <choice>
                   <value>unknown</value>
-                  <a:documentation/>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>inapplicable</value>
-                  <a:documentation/>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
             </choice>
          </attribute>
@@ -8536,9 +8605,9 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-catchwords-catchword_in_msDesc-constraint-assert-17">
             <rule context="tei:catchwords">
-               <sch:assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+               <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns="http://www.tei-c.org/ns/1.0"
                            test="ancestor::tei:msDesc"
                            role="nonfatal">WARNING: deprecated use of element — The <sch:name/> element will not be allowed outside of msDesc as of 2018-10-01.</sch:assert>
             </rule>
@@ -8559,7 +8628,9 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-dimensions-duplicateDim-constraint-report-15">
             <rule context="tei:dimensions">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0" test="count(tei:width)&gt; 1">
+               <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="count(tei:width)&gt; 1">
 The element <name/> may appear once only
       </report>
             </rule>
@@ -8567,7 +8638,9 @@ The element <name/> may appear once only
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-dimensions-duplicateDim-constraint-report-16">
             <rule context="tei:dimensions">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0" test="count(tei:height)&gt; 1">
+               <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="count(tei:height)&gt; 1">
 The element <name/> may appear once only
       </report>
             </rule>
@@ -8575,7 +8648,9 @@ The element <name/> may appear once only
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-dimensions-duplicateDim-constraint-report-17">
             <rule context="tei:dimensions">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0" test="count(tei:depth)&gt; 1">
+               <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="count(tei:depth)&gt; 1">
 The element <name/> may appear once only
       </report>
             </rule>
@@ -8725,6 +8800,7 @@ Sample values include: 1] leaves; 2] ruled; 3] pricked; 4] written; 5] miniature
          </zeroOrMore>
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.datable.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <ref name="sgaatt.editLike.attributes"/>
          <ref name="sgaatt.typed.attributes"/>
          <empty/>
@@ -8749,9 +8825,9 @@ Sample values include: 1] leaves; 2] ruled; 3] pricked; 4] written; 5] miniature
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-secFol-secFol_in_msDesc-constraint-assert-18">
             <rule context="tei:secFol">
-               <sch:assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+               <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns="http://www.tei-c.org/ns/1.0"
                            test="ancestor::tei:msDesc"
                            role="nonfatal">WARNING: deprecated use of element — The <sch:name/> element will not be allowed outside of msDesc as of 2018-10-01.</sch:assert>
             </rule>
@@ -8767,9 +8843,9 @@ Sample values include: 1] leaves; 2] ruled; 3] pricked; 4] written; 5] miniature
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-signatures-signatures_in_msDesc-constraint-assert-19">
             <rule context="tei:signatures">
-               <sch:assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+               <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns="http://www.tei-c.org/ns/1.0"
                            test="ancestor::tei:msDesc"
                            role="nonfatal">WARNING: deprecated use of element — The <sch:name/> element will not be allowed outside of msDesc as of 2018-10-01.</sch:assert>
             </rule>
@@ -8855,7 +8931,8 @@ Sample values include: 1] leaves; 2] ruled; 3] pricked; 4] written; 5] miniature
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-msIdentifier-msId_minimal-constraint-report-18">
             <rule context="tei:msIdentifier">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+               <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="not(parent::tei:msPart) and       (local-name(*[1])='idno' or       local-name(*[1])='altIdentifier' or       normalize-space(.)='')">An msIdentifier must contain either a repository or location of some type, or a manuscript name</report>
             </rule>
          </pattern>
@@ -9321,7 +9398,7 @@ Sample values include: 1] leaves; 2] ruled; 3] pricked; 4] written; 5] miniature
          <optional>
             <attribute name="material">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a short project-defined name for the material composing the majority of the support
-Suggested values include: 1] paper; 2] parch(parchment) ; 3] mixed</a:documentation>
+Suggested values include: 1] paper; 2] parch (parchment) ; 3] mixed</a:documentation>
                <choice>
                   <value>paper</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -10406,6 +10483,7 @@ Suggested values include: 1] paper; 2] parch(parchment) ; 3] mixed</a:documentat
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.naming.attributes"/>
          <ref name="sgaatt.typed.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <empty/>
       </element>
    </define>
@@ -10430,6 +10508,7 @@ Suggested values include: 1] paper; 2] parch(parchment) ; 3] mixed</a:documentat
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.naming.attributes"/>
          <ref name="sgaatt.typed.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <empty/>
       </element>
    </define>
@@ -10462,10 +10541,11 @@ Sample values include: 1] sponsor; 2] recommend; 3] discredit; 4] pledged</a:doc
          <ref name="sgaatt.editLike.attributes"/>
          <ref name="sgaatt.datable.attributes"/>
          <ref name="sgaatt.typed.attribute.subtype"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.
-Sample values include: 1] western; 2] sui; 3] subjective; 4] objective; 5] inWorld(in world) ; 6] chronological; 7] biological; 8] psychological; 9] functional</a:documentation>
+Sample values include: 1] western; 2] sui; 3] subjective; 4] objective; 5] inWorld (in world) ; 6] chronological; 7] biological; 8] psychological; 9] functional</a:documentation>
                <data type="token">
                   <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                </data>
@@ -10487,12 +10567,13 @@ Sample values include: 1] western; 2] sui; 3] subjective; 4] objective; 5] inWor
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.editLike.attributes"/>
          <ref name="sgaatt.datable.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <ref name="sgaatt.naming.attributes"/>
          <ref name="sgaatt.typed.attribute.subtype"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.
-Sample values include: 1] caesarean(caesarean section) ; 2] vaginal(vaginal delivery) ; 3] exNihilo(ex nihilo) ; 4] incorporated; 5] founded; 6] established</a:documentation>
+Sample values include: 1] caesarean (caesarean section) ; 2] vaginal (vaginal delivery) ; 3] exNihilo (ex nihilo) ; 4] incorporated; 5] founded; 6] established</a:documentation>
                <data type="token">
                   <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                </data>
@@ -10555,9 +10636,10 @@ Sample values include: 1] caesarean(caesarean section) ; 2] vaginal(vaginal deli
       <element name="death">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains information about a person's death, such as its date and place. [15.2.2. The Participant Description]</a:documentation>
          <ref name="sgamacro.phraseSeq"/>
-         <ref name="sgaatt.global.attributes"/>
-         <ref name="sgaatt.editLike.attributes"/>
          <ref name="sgaatt.datable.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
+         <ref name="sgaatt.editLike.attributes"/>
+         <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.naming.attributes"/>
          <ref name="sgaatt.typed.attribute.subtype"/>
          <optional>
@@ -10676,6 +10758,7 @@ Sample values include: 1] practicing; 2] clandestine; 3] patrilineal; 4] matrili
          <ref name="sgamacro.phraseSeq"/>
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.datable.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <ref name="sgaatt.editLike.attributes"/>
          <empty/>
       </element>
@@ -10797,27 +10880,18 @@ Sample values include: 1] listening; 2] speaking; 3] reading; 4] writing</a:docu
       <element name="listEvent">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of events) contains a list of descriptions, each of which provides information about an identifiable event. [13.3.1. Basic Principles]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <ref name="sgamodel.headLike"/>
             </zeroOrMore>
-      
-      
             <oneOrMore>
-               <choice>
-                  <ref name="sgaevent"/>
-                  <ref name="sgalistEvent"/>
-               </choice>
+               <ref name="sgamodel.eventLike"/>
             </oneOrMore>
-      
-      
             <zeroOrMore>
                <choice>
                   <ref name="sgarelation"/>
                   <ref name="sgalistRelation"/>
                </choice>
             </zeroOrMore>
-      
          </group>
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.typed.attributes"/>
@@ -11289,52 +11363,37 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains information about the population of a place. [13.3.4.3. States, Traits, and Events]</a:documentation>
          <group>
       
-         
-      
-      
             <zeroOrMore>
                <ref name="sgamodel.headLike"/>
             </zeroOrMore>
-      
             <optional>
                <group>
                   <choice>
-          
-            
                      <oneOrMore>
                         <ref name="sgamodel.pLike"/>
                      </oneOrMore>
-            
-          
-          
-            
                      <oneOrMore>
                         <ref name="sgamodel.labelLike"/>
                      </oneOrMore>
-            
-          
                   </choice>
-        
                   <zeroOrMore>
                      <choice>
                         <ref name="sgamodel.noteLike"/>
                         <ref name="sgamodel.biblLike"/>
                      </choice>
                   </zeroOrMore>
-        
                </group>
             </optional>
-      
             <zeroOrMore>
                <ref name="sgapopulation"/>
             </zeroOrMore>
-      
          </group>
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.datable.attributes"/>
          <ref name="sgaatt.editLike.attributes"/>
          <ref name="sgaatt.naming.attributes"/>
          <ref name="sgaatt.typed.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <empty/>
       </element>
    </define>
@@ -11347,21 +11406,25 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-relation-reforkeyorname-constraint-assert-20">
             <rule context="tei:relation">
-               <assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
+               <assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="@ref or @key or @name">One of the attributes  'name', 'ref' or 'key' must be supplied</assert>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-relation-activemutual-constraint-report-19">
             <rule context="tei:relation">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0" test="@active and @mutual">Only one of the attributes
+               <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="@active and @mutual">Only one of the attributes
 @active and @mutual may be supplied</report>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="shelley_godwin_odd-relation-activepassive-constraint-report-20">
             <rule context="tei:relation">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+               <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="@passive and not(@active)">the attribute 'passive'
 	may be supplied only if the attribute 'active' is
 	supplied</report>
@@ -11506,46 +11569,32 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
       <element name="state">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a description of some status or quality attributed to a person, place, or organization often at some specific time or for a specific date range. [13.3.1. Basic Principles 13.3.2.1. Personal Characteristics]</a:documentation>
          <group>
-        
-           
-        
+      
             <choice>
-           
-              <oneOrMore>
+               <oneOrMore>
                   <ref name="sgastate"/>
                </oneOrMore>
-           
                <group>
-              
-                 <zeroOrMore>
+                  <zeroOrMore>
                      <ref name="sgamodel.headLike"/>
                   </zeroOrMore>
-              
-              
-                 <oneOrMore>
+                  <oneOrMore>
                      <ref name="sgamodel.pLike"/>
                   </oneOrMore>
-              
-              
-                 <zeroOrMore>
+                  <zeroOrMore>
                      <choice>
                         <ref name="sgamodel.noteLike"/>
                         <ref name="sgamodel.biblLike"/>
                      </choice>
                   </zeroOrMore>
-              
                </group>
-           
-              
-                 <zeroOrMore>
+               <zeroOrMore>
                   <choice>
-                    <ref name="sgamodel.labelLike"/>
-                    <ref name="sgamodel.noteLike"/>
-                    <ref name="sgamodel.biblLike"/>
-                 </choice>
+                     <ref name="sgamodel.labelLike"/>
+                     <ref name="sgamodel.noteLike"/>
+                     <ref name="sgamodel.biblLike"/>
+                  </choice>
                </zeroOrMore>
-              
-           
             </choice>
          </group>
          <ref name="sgaatt.global.attributes"/>
@@ -11553,6 +11602,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
          <ref name="sgaatt.editLike.attributes"/>
          <ref name="sgaatt.typed.attributes"/>
          <ref name="sgaatt.naming.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <empty/>
       </element>
    </define>
@@ -11610,46 +11660,32 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
       <element name="trait">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a description of some status or quality attributed to a person, place, or organization typically, but not necessarily, independent of the volition or action of the holder and usually not at some specific time or for a specific date range. [13.3.1. Basic Principles 13.3.2.1. Personal Characteristics]</a:documentation>
          <group>
-       
-          
-       
+      
             <choice>
-          
                <oneOrMore>
                   <ref name="sgatrait"/>
                </oneOrMore>
-          
                <group>
-             
                   <zeroOrMore>
                      <ref name="sgamodel.headLike"/>
                   </zeroOrMore>
-             
-             
                   <oneOrMore>
                      <ref name="sgamodel.pLike"/>
                   </oneOrMore>
-             
-             
                   <zeroOrMore>
                      <choice>
                         <ref name="sgamodel.noteLike"/>
                         <ref name="sgamodel.biblLike"/>
                      </choice>
                   </zeroOrMore>
-             
                </group>
-          
-             
-                <zeroOrMore>
+               <zeroOrMore>
                   <choice>
                      <ref name="sgamodel.labelLike"/>
                      <ref name="sgamodel.noteLike"/>
                      <ref name="sgamodel.biblLike"/>
                   </choice>
                </zeroOrMore>
-             
-          
             </choice>
          </group>
          <ref name="sgaatt.global.attributes"/>
@@ -11657,6 +11693,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
          <ref name="sgaatt.editLike.attributes"/>
          <ref name="sgaatt.naming.attributes"/>
          <ref name="sgaatt.typed.attributes"/>
+         <ref name="sgaatt.dimensions.attributes"/>
          <empty/>
       </element>
    </define>
@@ -11742,6 +11779,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
          <ref name="sgaatt.global.attributes"/>
          <ref name="sgaatt.segLike.attributes"/>
          <ref name="sgaatt.typed.attributes"/>
+         <ref name="sgaatt.notated.attributes"/>
          <empty/>
       </element>
    </define>

@@ -1,7 +1,10 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+    xmlns:rng="http://relaxng.org/ns/structure/1.0"
+    version="2.9.1"
+    xml:lang="en">
   
   <teiHeader>
     <fileDesc>
@@ -186,7 +189,7 @@
                             </sequence>
                         </content>
                         
-                        <constraintSpec ident="add-ns-for-schema-fragment" scheme="isoschematron">
+                        <constraintSpec ident="add-ns-for-schema-fragment" scheme="schematron">
                             <constraint>
                                 <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron" prefix="tei" uri="http://www.tei-c.org/ns/1.0"></sch:ns>
                             </constraint>
@@ -270,7 +273,7 @@
               
               <elementSpec ident="w" mode="change" module="analysis">
                   <content/>
-                  <constraintSpec ident="w_ana" scheme="isoschematron">
+                  <constraintSpec ident="w_ana" scheme="schematron">
                       <constraint>
                           <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:w">
                               <sch:report test="not(@ana)">The w element must carry an ana attribute to designate whether it comes before the "start" or after the "end" of a word.</sch:report>
@@ -552,7 +555,7 @@
                                 <elementRef key="zone"></elementRef>
                             </alternate>
                         </content>
-                        <constraintSpec ident="modContents" scheme="isoschematron">
+                        <constraintSpec ident="modContents" scheme="schematron">
                             <constraint>
                                 <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:mod">
                                     <sch:report test="not(@spanTo) and not(tei:restore) and not(count(node()) gt 1)">The mod element is
