@@ -2,19 +2,58 @@
 <!--2017-08-09 ebb: This is the original schema line from the SGA GitHub repo. Uncomment this if we want to push it back to our SGA fork. <?xml-model href="../../schemata/shelley_godwin_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="sga_schemata/shelley-godwin-Pgh.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="sga_schemata/shelley-godwin-Pgh.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
    xml:id="ox-ms_abinger_c56">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title type="main">Excerpt from MS on Chaldean and Indian sciences, at the end of
+               Frankenstein, MS. Abinger C. 56</title>
+            <title type="sub">An electronic transcription</title>
+            <respStmt xml:id="md_editor">
+               <resp>Metadata editor</resp>
+               <name xml:id="RV">Raffaele Viglianti</name>
+            </respStmt>
+            <respStmt>
+               <resp><date when="2017-03-18">March 2018</date> This created as a separate
+                  document. Additional markup for Pittsburgh Frankenstein Project, adding
+                  markup to designate word boundaries and prepare for automated
+                  collation with other versions of Frankenstein:</resp>
+               <name>Rikk Mulligan</name>
+               <name>Elisa Beshero-Bondar</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition>Shelley-Godwin Archive edition, <date>2012-2016</date>
+            </edition>
+         </editionStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <distributor>Oxford University</distributor>
+            <address>
+               <addrLine>
+                  <ref target="http://www.shelleygodwinarchive.org/"
+                     >http://www.shelleygodwinarchive.org/</ref>
+               </addrLine>
+            </address>
+            <availability status="free">
+               <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+                  <p>CC0 1.0 Universal.</p>
+                  <p> To the extent possible under law, the creators of the metadata records
+                     for the Shelley-Godwin Archive have waived all copyright and related or
+                     neighboring rights to this work.</p>
+               </licence>
+            </availability>
+            <pubPlace>Oxford, UK, and College Park, MD</pubPlace>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library, University of Oxford</repository>
+                  <idno type="Bod">MS. Abinger c.56</idno>
+               </msIdentifier>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
  <sourceDoc>
          <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="94v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0188.xml" xml:id="ox-ms_abinger_c57-0188">
             <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0188.jp2"/>
