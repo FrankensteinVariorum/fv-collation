@@ -7,14 +7,18 @@
         omit-xml-declaration="yes"/>
     <xsl:template match="/">
         <html lang="en">
-            <head><title>Frankenstein (1818)</title>
+            <head><title>Frankenstein (<xsl:value-of select="substring-before(tokenize(base-uri(), '/')[last()], '_')"/>)</title>
                 <link rel="stylesheet" type="text/css" href="frankenStyle.css"/>
             </head>
         <body>
     <h1><xsl:apply-templates select="//header/title"/></h1>
             <h2><xsl:apply-templates select="//edition"/></h2>
-            <div id="editIntro"><xsl:apply-templates select="//div[@type='editIntro']"/></div>
+            
+            <div id="editIntro"><xsl:apply-templates select="//div[@type='editIntro']"/>
+            <p>The XML version of this edition is in a simplified but consistent format optimized for automated collation, and is on its way to becoming TEI. View <a href="{tokenize(base-uri(), '/')[last()]}">the source XML here on our GitHub repository</a>.</p>
+            </div>
             <xsl:apply-templates select="//text"/>
+            
             <p class="boilerplate"><span><strong>Maintained by: </strong> Elisa E. Beshero-Bondar
                 (ebb8 at pitt.edu)   <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a> <xsl:text>  </xsl:text><strong>Last modified:
                 </strong><xsl:value-of select="format-dateTime(current-dateTime(), '[h1]:[m01] [P] on [MNn] [D] [z]')"/>.</span></p>	
@@ -32,7 +36,7 @@
         <p><xsl:apply-templates/></p>
     </xsl:template>
    <xsl:template match="cit | lg[not(parent::cit)]">
-       <xsl:choose><xsl:when test="parent::epigraph"><div class="epi_cit"><xsl:apply-templates/></div></xsl:when><xsl:otherwise><div class="cit"><xsl:apply-templates/></div></xsl:otherwise></xsl:choose>
+       <xsl:choose><xsl:when test="parent::epigraph"><div class="epi_cit"><xsl:apply-templates/></div></xsl:when><xsl:otherwise><span class="cit"><xsl:apply-templates/></span></xsl:otherwise></xsl:choose>
    </xsl:template>
     <xsl:template match="l">
         <xsl:choose>
