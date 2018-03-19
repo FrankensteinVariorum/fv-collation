@@ -1,7 +1,7 @@
 # Pittsburgh Bicentennial Frankenstein Project
 
 Welcome to our GitHub Page!
-We are working on preparing a new digital edition of the novel _Frankenstein_ in its first three editions in time for the bicentennial of its first publication in 1818, and collating it with MITH's Shelley-Godwin Archive edition of _Frankenstein_'s manuscript notebooks.
+We are working on preparing a new digital edition of the novel _Frankenstein_ in its first three editions for the bicentennial of its first publication in 1818. Our edition is a digital collation of five distinct versions of the novel produced between 1816 and 1831.
 
 ### "Beta editions" ready for reading: 
 * [1818 publication of _Frankenstein_](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html). 
