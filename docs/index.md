@@ -3,10 +3,20 @@
 Welcome to our GitHub Page!
 We are working on preparing a new digital edition of the novel _Frankenstein_ in its first three editions in time for the bicentennial of its first publication in 1818, and collating it with MITH's Shelley-Godwin Archive edition of _Frankenstein_'s manuscript notebooks.
 
-### Ready for reading: 
-* our ["Beta edition" of the 1818 publication of _Frankenstein_](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html). 
+### "Beta editions" ready for reading: 
+* 1818 publication of _Frankenstein_](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html). 
 
-* [Pitt-Greensburg classroom edition](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818_classEd.html) (a copy of the same) for use in annotation assignments.
+* [1823 publication of _Frankenstein_ (supervised by William Godwin)](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1823.html).
+
+* [1831 publication of _Frankenstein_](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html).
+
+### Teaching copy:
+* [Pitt-Greensburg classroom edition of the 1818 text](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818_classEd.html) (a copy of the same) for use in annotation assignments.
+
+### Coming soon: 
+* The Thomas text (an edition representing Mary Shelley's edits handwritten on and 1818 edition of the novel).
+* Collated editions of the 1816 draft notebooks (based on Shelley-Godwin Archive documents), 1818, Thomas text, 1823, and 1831 versions.
+
 
 ### About *Frankenstein* and our variorum project:
 * [Bicentennial Bits and Bytes: The Pittsburgh Digital Frankenstein Project](http://slides.com/elisabeshero-bondar/mla_bicentfrank): MLA 2018 panel presentation on our variorum edition project, reconciling previous digital editions, ongoing stylometric research, and annotation development. 
