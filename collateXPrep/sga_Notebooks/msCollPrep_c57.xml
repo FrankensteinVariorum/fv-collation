@@ -5190,8 +5190,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>of the glaciers &amp; hide himself from <w ana="start"/>per</line>
     <line>suit<w ana="end"/> in <add place="superlinear">the ridges</add> inaccessible precepieces was</line>
   </zone>
-  
-          <!--EB 2018-03-28: WORD BOUNDARY MARKUP TO HERE. -->     
+      
   
 </surface>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="36r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0071.xml" xml:id="ox-ms_abinger_c57-0071">
@@ -5258,8 +5257,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
   <zone type="library"><line>B</line></zone>
   <zone type="main">
     <line>in darkness. But my heart was heavy, and</line>
-    <line>mys steps slow. The labour of winding a</line>
-    <line>mong the little paths and fixing my feet</line>
+    <line>my steps slow. The labour of winding <w ana="start"/>a</line>
+    <line>mong<w ana="end"/> the little paths and fixing my feet</line>
     <line>firmly <del rend="strikethrough">a</del> as I advanced teazed me occupied</line>
     <line>as I was by the feelings <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
@@ -5283,7 +5282,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>a scene of wonderful solemnity &amp; <delSpan rend="strikethrough" spanTo="#c57-0072.01"/>moved</line>
     <line>me<anchor xml:id="c57-0072.01"/> stirred strange thoughts within</line>
     <line>me. I wept bitterly and clasping my</line>
-    <line>hands in agony I exclaimed– Oh stars,</line>
+    <line>hands in agony I exclaimed— Oh stars,</line>
     <line><anchor xml:id="c57-0072.02"/><zone corresp="#c57-0072.02" type="left_margin">
     <line><add>&amp; clouds, </add></line>
   </zone>and wind ye are all about <del rend="strikethrough">ye</del>
@@ -5327,8 +5326,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>for the excess of misery I appeared to</line>
     <line>suffer he hastened to return home</line>
     <line>hoping that the quiet &amp; calm of a domestic</line>
-    <line>life would by degrees alleviate my suf-</line>
-    <line>ferings from whatsoever cause they</line>
+    <line>life would by degrees alleviate my <w ana="start"/>suf</line>
+    <line>ferings<w ana="end"/> from whatsoever cause they</line>
     <line>might spring.</line>
     <milestone unit="tei:p"/>
     <line rend="indent2">For myself I was passive in all</line>
@@ -5338,15 +5337,15 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>depth of my despair. The promise I</line>
     <line>had made to the dæmon weighed</line>
     <line>upon my mind like Dante's iron</line>
-    <line>cowl on the head of the hellish hypo</line>
-    <line>crites. all pleasures of earth or sky</line>
+    <line>cowl on the head of the hellish <w ana="start"/>hypo</line>
+    <line>crites<w ana="end"/>. all pleasures of earth or sky</line>
     <line>passed before me as a dream &amp; that</line>
     <line>one thought only had to me the</line>
     <line>reality of life. Can <unclear reason="case">y</unclear>ou wonder that</line>
     <line>sometimes a kind of insanity possessed</line>
     <line>me or that I saw about me a</line>
-    <line>multitude of filthy animals inflic</line>
-    <line>ting on me incessant torture that</line>
+    <line>multitude of filthy animals <w ana="start"/>inflic</line>
+    <line>ting<w ana="end"/> on me incessant torture that</line>
     <line>often extorted <del rend="strikethrough">from</del> screams &amp;</line>
     <line>bitter groans.</line>
     <milestone unit="tei:p"/>
@@ -5393,8 +5392,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod>hod of</line>
     <line>eradicating the remains of my melancholy–</line>
     <line>which every now and then would return</line>
-    <line>by fits &amp; with a devouring blackness over</line>
-    <line>cast the approaching <mod>
+    <line>by fits &amp; with a devouring blackness <w ana="start"/>over</line>
+    <line>cast<w ana="end"/> the approaching <mod>
         <del rend="strikethrough">day</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">sunshine</add>
@@ -5420,8 +5419,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod></line>
     <line>of the waves, silent &amp; listless. But the fresh</line>
     <line>air and bright sun seldom failed <add hand="#pbs" place="intralinear">to</add></line>
-    <line>restore me to some degree of compo-</line>
-    <line>sure &amp; <del rend="strikethrough">I</del> on my return I met the</line>
+    <line>restore me to some degree of <w ana="start"/>compo</line>
+    <line>sure<w ana="end"/> &amp; <del rend="strikethrough">I</del> on my return I met the</line>
     <line><del rend="strikethrough">smi</del> salutations of my friends with a</line>
     <line>readier smile, &amp; <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
@@ -5484,28 +5483,12 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add hand="#pbs" place="superlinear">every</add>
       </mod> pretence of delay &amp; could</line>
     <line><damage type="tear"/>not resolve to interrupt my return</line>
-    <line><damage type="tear"/>ing tran<mod>
-        <del rend="overwritten"><unclear extent="1" unit="chars"/></del>
-        <add place="intralinear">q</add>
-      </mod>uillity</line>
+    <line><damage type="tear"/>ing tranquillity</line>
     <anchor xml:id="c57-0075.02"/>
   </zone>
 
 </surface>
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="7230" lry="5034" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="38v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0076.xml" xml:id="ox-ms_abinger_c57-0076">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0076.jp2"/>
-
-  <zone type="main">
-    <line>M</line>
-  
-  
-    <line rend="center">Un bon<unclear reason="illegible">s</unclear></line>
-    <line rend="center">nel</line>
-  </zone>
-
-  
-  <!--Add editorial description of this slip of paper. -->
-</surface>
+        <!--2018-03-28 ebb: I removed a fragmentary surface here (0076) that appears to have nothing to do with the novel. -->
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="39r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0077.xml" xml:id="ox-ms_abinger_c57-0077">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0077.jp2"/>
   <zone rend="bordered" type="pagination">
@@ -5593,11 +5576,11 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">experienced</add>
       </mod>. If you feel thus we</line>
-    <line>shall assuredly be happy however pre</line>
-    <line>sent events may cast a gloom over us.<add place="superlinear"><metamark>X</metamark></add></line>
+    <line>shall assuredly be happy however <w ana="start"/>pre</line>
+    <line>sent<w ana="end"/> events may cast a gloom over us.<add place="superlinear"><metamark>X</metamark></add></line>
     <line><delSpan rend="vertical_line" spanTo="#c57-0078.01"/><del rend="strikethrough">But tell me
-        then what it is that occa</del></line>
-    <line>sions your present discomfort. Are</line>
+        then what it is that <w ana="start"/>occa</del></line>
+    <line>sions<w ana="end"/> your present discomfort. Are</line>
     <line>you<del rend="strikethrough">r</del> weary of your slothful life &amp;</line>
     <line>do you wish while you are yet young</line>
     <line>to travel &amp; treasure recollections &amp;</line>
@@ -5639,8 +5622,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>the journey</line>
     <line>to England</line>
     <line>ought to be</line>
-    <line><hi rend="underline">Victor's</hi> propo</line>
-    <line>-sal.– that he</line>
+    <line><hi rend="underline">Victor's</hi> <w ana="start"/>propo</line>
+    <line>sal<w ana="end"/>.– that he</line>
     <line>ought to go</line>
     <line>for the purpose of</line>
     <line>collecting</line>
@@ -5650,8 +5633,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>He ought to</line>
     <line>lead his father to</line>
     <line>this in</line>
-    <line>the conversa</line>
-    <line>tions–the</line>
+    <line>the <w ana="start"/>conversa</line>
+    <line>tions<w ana="end"/>–the</line>
     <line>conversation</line>
     <line><hi rend="underline">commences</hi></line>
     <line>right enough</line>
@@ -5679,8 +5662,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       <del rend="strikethrough">&amp;</del> my friends</line>
     <line>unconscious of the existence of their</line>
     <line>enemy &amp; unprotected from his attacks</line>
-    <line>exasperated as he might be by my depar</line>
-    <line>ture – But then he had promised to</line>
+    <line>exasperated as he might be by my <w ana="start"/>depar</line>
+    <line>ture<w ana="end"/> – But then he had promised to</line>
     <line>follow me every where &amp; might</line>
     <line>he not accompany me to England–the</line>
     <line>thought was dreadful in itself but</line>
@@ -5695,8 +5678,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <anchor xml:id="c57-0079.03"/>
   </zone></add></del> The thoughts
       occurred</line>
-    <line>rapidly to me &amp; I answered my fa</line>
-    <line>ther with eagerness that I should</line>
+    <line>rapidly to me &amp; I answered my <w ana="start"/>fa</line>
+    <line>ther<w ana="end"/> with eagerness that I should</line>
     <line>be delighted to visit <del instant="true" rend="strikethrough">Engl</del> England</line>
     <line>with Clerval and that <del rend="strikethrough">travel</del> the</line>
     <line>idea of travelling was inchanting to</line>
@@ -5717,12 +5700,12 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>together.<del rend="strikethrough"><add place="superlinear"><unclear reason="illegible">tow</unclear></add></del> Some short time would</line>
     <line>be spent in the towns of Holland</line>
     <line>&amp; many months in England. We were</line>
-    <line>to return by france &amp; it was sup</line>
-    <line>posed that this tour would occupy</line>
+    <line>to return by france &amp; it was <w ana="start"/>sup</line>
+    <line>posed<w ana="end"/> that this tour would occupy</line>
     <line>the space of two years. My father</line>
     <line>pleased himself with the reflection</line>
-    <line>that I should be united to Eliza</line>
-    <line>beth immediately on my return</line>
+    <line>that I should be united to <w ana="start"/>Eliza</line>
+    <line>beth<w ana="end"/> immediately on my return</line>
     <anchor xml:id="c57-0079.01"/>
   </zone>
   <zone type="left_margin">
@@ -5773,8 +5756,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>that I departed to pass two years of exile.</line>
     <line><del type="strikethrough">M</del> Elizabeth approved of the reasons of my</line>
     <line>departure and only regretted that she</line>
-    <line>had not the same opportunities of enlarg</line>
-    <line>ing her experience &amp; cultivating her</line>
+    <line>had not the same opportunities of <w ana="start"/>enlarg</line>
+    <line>ing<w ana="end"/> her experience &amp; cultivating her</line>
     <line>understanding –She wept however as she</line>
     <line>bade me farewell and entreated to return</line>
     <line>happy &amp; tranquil. We all, said she, depend</line>
@@ -5787,7 +5770,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <del rend="strikethrough">where</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">whither</add>
-      </mod> I was going &amp; carless of</line>
+      </mod> I was going &amp; careless of</line>
     <line>what was passing around. I remembered</line>
     <line>only, and it was with a bitter anguish</line>
     <line>that I reflected on it, to order that my</line>
@@ -5808,18 +5791,18 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>101</line>
   </zone>
   <zone type="library"><line>41</line></zone>
-
+<!--2018-03-28 ebb: From here (c57-0081) to c57-0086 is a rewrite of pages c57-0077 to c57-0080. Treat as a separate witness, like the closing passage(s) of c58?  -->
   <zone type="main">
     <line>But it is this gloom which appears to have taken</line>
-    <line>too strong a hold of your mind that I wish to dissi</line>
-    <line>pate. Tell me therefore whether you object to an imme</line>
-    <line>diate solemnization of the marriage. We have been unfor</line>
-    <line><del rend="smear">tunate</del></line>
-    <line>tunate, and recent events have drawn us from that</line>
+    <line>too strong a hold of your mind that I wish to <w ana="start"/>dissi</line>
+    <line>pate<w ana="end"/>. Tell me therefore whether you object to an <w ana="start"/>imme</line>
+    <line>diate<w ana="end"/> solemnization of the marriage. We have been <w ana="start"/>unfor</line>
+   <line><del rend="smear">tunate</del></line>
+    <line>tunate<w ana="end"/>, and recent events have drawn us from that</line>
     <line>every day tranquillity <del rend="strikethrough">so necess</del> befitting my years
       and</line>
-    <line>infirmities. You are younger yet I do not suppose, possess</line>
-    <line>ed as you are of a competent fortune that an early</line>
+    <line>infirmities. You are younger yet I do not suppose, <w ana="start"/>possess</line>
+    <line>ed<w ana="end"/> as you are of a competent fortune that an early</line>
     <line>marriage would at all interfere with any future plans</line>
     <line>of honour and utility<mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
@@ -5830,8 +5813,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>delay on your part would cause me any <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear">serious</add>
-      </mod> uneasi</line>
-    <line>ness; Interp<mod>
+      </mod> <w ana="start"/>uneasi</line>
+    <line>ness<w ana="end"/>; Interp<mod>
         <del rend="overwritten">er</del>
         <add place="intralinear">e</add>
       </mod>et my words with candour and answer</line>
@@ -5850,9 +5833,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>to me the idea of an immediate union with my</line>
     <line>cousin was one of horror and dismay. I was bound by</line>
     <line>a solemn promise which I had not yet fufilled and</line>
-    <line>dared not break; or if I did what manifold mise</line>
-    <line>ries might not impend over me and my devo</line>
-    <line>ted family! <del rend="strikethrough">And</del> could I enter into a festival with</line>
+    <line>dared not break; or if I did what manifold <w ana="start"/>mise</line>
+    <line>ries<w ana="end"/> might not impend over me and <w ana="start"/>my devo</line>
+    <line>ted<w ana="end"/> family! <del rend="strikethrough">And</del> could I enter into a festival with</line>
     <line>this deadly weight yet hanging round my neck and</line>
     <line>bowing me to the ground. <!--mod  spanTo="#c57-0081.01"--><delSpan rend="strikethrough" spanTo="#c57-0081.02"/>No, <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
@@ -5863,6 +5846,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>ment and let the monster depart with his mate</line>
   </zone>
 </surface>
+      
+      <!--EB 2018-03-29: WORD BOUNDARY MARKUP TO HERE. --> 
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="41v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0082.xml" xml:id="ox-ms_abinger_c57-0082">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0082.jp2"/>
   <zone rend="bordered" type="pagination">
