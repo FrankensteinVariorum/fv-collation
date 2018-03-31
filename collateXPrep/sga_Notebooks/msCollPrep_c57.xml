@@ -178,13 +178,12 @@
       </mod> untill I felt tormented by</line>
     <line>hunger and thirst. This roused me from my nearly</line>
   </zone>
-  
-  <zone type="left_margin">
+ <!--NOTE RESP="#PBS" <zone type="left_margin">
     <milestone spanTo="#c57-0002.06" unit="tei:note"/>
     <line><add hand="#pbs">or<metamark>]</metamark></add></line>
     <anchor xml:id="c57-0002.06"/>
-    <!-- The marginal addition "or" indicates that PBS is giving MWS a choice between "perceive" or "recieve" (sic)-->
-  </zone>
+    <!-\- The marginal addition "or" indicates that PBS is giving MWS a choice between "perceive" or "recieve" (sic)-\->
+  </zone>-->
 </surface>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="2r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0003.xml" xml:id="ox-ms_abinger_c57-0003">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0003.jp2"/>
@@ -884,9 +883,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>the voice of the thrush or nightingale.</line>
   </zone>
 
-  
+  <note resp="#pbs">This chapter is too short</note>
 
-  <zone type="left_margin">
+  <!--NOTE RESP="#PBS"<zone type="left_margin">
     <milestone spanTo="#c57-0012.05" unit="tei:note"/>
     <addSpan hand="#pbs" spanTo="#c57-0012.04"/>
     <line>This chapter is</line>
@@ -894,7 +893,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>short</line>
     <anchor xml:id="c57-0012.04"/>
     <anchor xml:id="c57-0012.05"/>
-  </zone>
+  </zone>-->
 </surface>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="7r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0013.xml" xml:id="ox-ms_abinger_c57-0013">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0013.jp2"/>
@@ -1244,12 +1243,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line><mod>
         <del rend="strikethrough">igmmatic</del>
         <add hand="#pbs" place="superlinear">enigmatic</add>
-      </mod>. <!--EB 2017-10-09 Commenting this out as it's not part of the flow of text in the edition: <milestone spanTo="#c57-0017.03" unit="tei:note"/><add hand="#pbs" place="intralinear">o you pretty Pecksie!</add><anchor xml:id="c57-0017.03"/>--></line>
+      </mod>. <!--NOTE RESP="#PBS" EB 2017-10-09 Commenting this out as it's not part of the flow of text in the edition: <milestone spanTo="#c57-0017.03" unit="tei:note"/><add hand="#pbs" place="intralinear">o you pretty Pecksie!</add><anchor xml:id="c57-0017.03"/>--></line>
   </zone>
-
-  
-
-  
+<note resp="#pbs">o you pretty Pecksie!</note>
 
 </surface>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="9v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0018.xml" xml:id="ox-ms_abinger_c57-0018">
@@ -1663,454 +1659,15 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       <!-- COLLATION CHUNK POINT UNIT C18 RM 10/09/2017 -->
       <!-- RM 10/09/2017 collation ends in the middle of C18 because skips to a different section of the story  -->
       <!-- skip C19 -->
-      <!--See Charlie Robinson's Intro: Draft Notebook A: Note that we jump from number page 21 to page 57 here. -->
+      <!--See Charlie Robinson's Intro: Draft Notebook A: Note that we jump from number page 21 to page 57 here.  -->
       <!-- BEGIN COLLATION CHUNK UNIT C20 EB 03/18/2018 -->
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="12r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0023.xml" xml:id="ox-ms_abinger_c57-0023">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0023.jp2"/>
-  <zone rend="bordered" type="pagination"><line>57</line></zone>
-  <zone type="main">
-    <delSpan rend="vertical-strike" spanTo="#c57-0023.01"/>
-    <line><del rend="strikethrough">It</del> Some time elapsed before I learned the</line>
-    <line>history of my friends. It was one that could not fail</line>
-    <line>to impress itself on my mind unfolding as it did</line>
-    <line>a number of circumstances each interresting</line>
-    <line>&amp; wonderful to one so utterly inexperienced as</line>
-    <line>I was.</line>
-    <milestone unit="tei:p"/>
-    <line rend="indent1">The name of the old man was De Lacey<mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear"> he was</add>
-      </mod> descended</line>
-    <line>of a good family in France and had but recently</line>
-    <line>left his country when he been deprived of</line>
-    <line>a competent fortune which he <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">had</add>
-      </mod> before enjoyed</line>
-    <line><del rend="strikethrough">They had</del>
-      <mod>
-        <del rend="overwritten">b</del>
-        <add place="intralinear">B</add>
-      </mod>ut a few months before my arrival <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">they had</add>
-      </mod>
-    </line>
-    <line>resided in a large &amp; luxurious city called Paris</line>
-    <line>surrounded by friends &amp; possessed of every comfort</line>
-    <line>that could add to their happiness. The father</line>
-    <line>of the Arabian had been the cause of their</line>
-    <line>misfortunes. He had been unjustly imprisoned</line>
-    <line>and sentenced to die. The cause I understood was</line>
-    <line>very flagrant and it was visible to every impartial</line>
-    <line>spectator that he had been <add place="superlinear">rather</add> condemned <!--mod  spanTo="#c57-0023.02"--><delSpan rend="strikethrough" spanTo="#c57-0023.03"/>more</line>
-    <line>on account of<anchor xml:id="c57-0023.03"/><add place="superlinear">for</add><anchor xml:id="c57-0023.02"/> his religion &amp; wealth than for</line>
-    <line>the crime of which he was accused. All the</line>
-    <line>spectators of the trial were shocked at the</line>
-    <line>injustice <del rend="strikethrough">th</del> of the court but the indignation</line>
-    <line>of Felix was uncontrolable. He made a solemn </line>
-    <line>vow to deliver him &amp; then looked around for the</line>
-    <line>means. After many fruitless attempts to gain</line>
-    <line>admittance into the prison –he found a strongly</line>
-    <line>grated window in an unguarded part of the</line>
-    <line>prison which lighted the dungeon of the</line>
-    <line>unfortunate Mahometan who loaded with</line>
-    <anchor xml:id="c57-0023.01"/>
-  </zone>
-</surface>
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="12v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0024.xml" xml:id="ox-ms_abinger_c57-0024">
-        <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0024.jp2"/>
-
-        <zone type="pagination">59</zone>
-
-        <zone type="main">
-                <delSpan rend="strikethrough" spanTo="#c57-0024.01"/>
-                <line>chains expected in despair the execution of</line>
-                <line>the barbarous sentence. Felix visited the grate at</line>
-                <line>night and made known to the prisoner his</line>
-                <line>intentions in his favour.</line><anchor xml:id="c57-0024.01"/>
-                <line rend="center"><metamark function="separate">______________</metamark></line>
-                <milestone unit="tei:p"/>
-                <line rend="indent1"><del rend="strikethrough">For</del> During the ensueing days
-                                <add place="superlinear">while the</add> preparations were</line>
-                <line><mod>
-                                <del rend="strikethrough">made</del>
-                                <add place="superlinear">going forward</add>
-                        </mod> for the escape of the merchant. <del rend="strikethrough">And</del>
-                        the</line>
-                <line>zeal of Felix was warmed by several letters</line>
-                <line>that he received from th<mod>
-                                <del rend="overwritten">e</del>
-                                <add place="intralinear">is</add>
-                        </mod> lovely <mod>
-                                <del rend="strikethrough">Amina</del>
-                                <add place="sublinear"><metamark function="insert">^</metamark></add>
-                                <add place="superlinear">girl</add>
-                        </mod> Who</line>
-                <line><del rend="strikethrough">ardently thanked him for the</del> found
-                        means</line>
-                <line>to express her thoughts in <mod>
-                                <del rend="strikethrough">writing</del>
-                                <del rend="strikethrough">his</del>
-                                <add place="superlinear">the</add>
-                        </mod> <w ana="start"/>lang</line>
-                <line>uage<w ana="end"/> of her lover by the aid of <del rend="strikethrough">he</del> an old
-                        man</line>
-                <line>a servant of her Fathers who understood</line>
-                <line>french. She thanked him in the most</line>
-                <line>ardent terms for his intended kindness,</line>
-                <line>and at the same time she gently deplored</line>
-                <line>her own fate. I have copies of these letters</line>
-                <line>for I found means during <mod>
-                                <add place="sublinear"><metamark function="insert">^</metamark></add>
-                                <add place="superlinear">my</add>
-                        </mod> residence in the</line>
-                <line>hovel to procure the <mod>
-                                <del rend="strikethrough">means</del>
-                                <add place="superlinear">implements</add>
-                        </mod> of writing</line>
-                <line>and the<mod>
-                                <del rend="overwritten">s</del>
-                                <add place="intralinear">y</add>
-                                <del rend="strikethrough">e</del>
-                                <del rend="strikethrough">letters</del>
-                        </mod> were often in the hands of</line>
-                <line><del rend="strikethrough">A</del> Felix or Agatha. <add place="superlinear"><metamark function="displacement" xml:id="c57-0024.02">X</metamark></add>
-                        <mod>
-                                <del rend="strikethrough">Amina</del>
-                                <add place="superlinear">Safie</add>
-                        </mod> related that her</line>
-                <line>Mother was a Christian Arab seized and</line>
-                <line>made a slave by the <mod>
-                                <del rend="overwritten">t</del>
-                                <add place="intralinear">T</add>
-                        </mod>urks. <del rend="strikethrough">&amp;</del> recommended by</line>
-                <line>her beauty she had won the heart of</line>
-                <line>the <del rend="strikethrough">pr</del> father of <mod>
-                                <del rend="strikethrough">Amina</del>
-                                <add place="superlinear">Safie</add>
-                        </mod> who married her.</line>
-                <line>The young girl spoke in high &amp; enthusiastic</line>
-                <addSpan corresp="#c57-0024.02" spanTo="#c57-0024.03"/>
-                <line><metamark function="separate">__________________________________________________________</metamark></line>
-                <line><metamark function="displacement">X</metamark>before I depart I will give them
-                        to you they</line>
-                <line>will prove to you the truth of my tale <del rend="strikethrough">&amp;</del>
-                        but at</line>
-                <line>present as the sun already begins to decline I shall only have</line>
-                <line>time to repeat the substance to you</line>
-                <anchor xml:id="c57-0024.03"/>
-        </zone>
-</surface>
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="13r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0025.xml" xml:id="ox-ms_abinger_c57-0025">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0025.jp2"/>
-  <zone type="pagination"><line>60</line></zone>
-  
-  <zone type="library"><line>13</line></zone>
-  <zone type="main">
-    <line>terms of her <hi rend="sup">60</hi> Mother who born in freedom</line>
-    <line>spurned the bondage <mod>
-        <del rend="strikethrough">that</del>
-        <add place="superlinear">to which</add>
-      </mod> she was now</line>
-    <line><mod>
-        <del rend="strikethrough">obliged</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <del rend="strikethrough">to</del>
-        <del rend="strikethrough">submit</del>
-        <del rend="strikethrough"><add place="superlinear">to which</add></del>
-        <add hand="#pbs" place="superlinear">reduced.</add>
-      </mod>. She instructed he<add place="sublinear">r</add> <w ana="start"/>daugh</line>
-    <line>ter<w ana="end"/> in the tenets of her religion &amp; taught her</line>
-    <line>to aspire to higher powers of intellect &amp; an</line>
-    <line>independance of spir<add place="intralinear">i</add>t forbidden to the female</line>
-    <line>followers of Mahomet. <del rend="strikethrough">Amina sickened</del> This</line>
-    <line>Lady died, but her lessons were indelibly</line>
-    <line>impressed in the mind of <mod>
-        <del rend="strikethrough">Maimouna</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <del rend="strikethrough"><add place="superlinear">Amina</add></del>
-        <add place="superlinear">Safie</add>
-      </mod></line>
-    <line>who sickened at the prospect of again</line>
-    <line>returning to <mod>
-        <del rend="strikethrough"><hi rend="underline">Turkey</hi></del>
-        <add hand="#pbs" place="superlinear">Asia</add>
-      </mod> and the being immurred</line>
-    <line>in walls of a haram <del rend="strikethrough">occupy</del>
-      <del rend="strikethrough">&amp;</del> allowed only to</line>
-    <line>occupy herself with puerile amusements</line>
-    <line>ill-suited to the temper of her soul now</line>
-    <line>accustomed to grand ideas &amp; a noble <w ana="start"/>emu</line>
-    <line>lation<w ana="end"/> for <del rend="strikethrough">vi</del> virtue. The <del rend="strikethrough">pr</del> prospect of</line>
-    <line>marrying a Christian and remaining</line>
-    <line>in a country where women were allowed</line>
-    <line>to take a rank in society was <w ana="start"/>enchan</line>
-    <line>ting<w ana="end"/> to her. <del rend="strikethrough">Yet she requested Felix not to</del></line>
-    <milestone unit="tei:p"/>
-    <line rend="indent1">The day for the execution of the Turk was</line>
-    <line>fixed but <del rend="strikethrough">the he</del> on the night <mod>
-        <del rend="strikethrough">before</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">previous to it</add>
-      </mod></line>
-    <line>he had quitted prison &amp; before morning was <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">distant</add>
-      </mod></line>
-    <line>many leagues from Paris. Felix has procurred</line>
-    <line>passports in the name of his</line><damage type="tear"/>
-    <line>father sister &amp; himself.</line><damage type="tear"/>
-    <line>He communicated hi<damage type="tear"/></line>
-    <line>plan to the former<damage type="tear"/></line>
-    <line>who aided the</line>
-  </zone>
-</surface>
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="13v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0026.xml" xml:id="ox-ms_abinger_c57-0026">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0026.jp2"/>
-  <zone type="pagination"><line>61</line></zone>
-  <zone type="main">
-    <line>deceit by quitting his house under the pretence</line>
-    <line>of a journey &amp; conceal<mod>
-        <del rend="overwritten">in</del>
-        <add place="intralinear">ed</add>
-        <del rend="strikethrough">g</del>
-      </mod> himself with his daughter</line>
-    <line>in an obscure part of Paris. <unclear extent="1" unit="chars"/> Felix conducted</line>
-    <line>the fugitives <mod>
-        <del rend="strikethrough">across</del>
-        <add place="superlinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">through</add>
-      </mod> France to Lyons &amp; <add place="superlinear">across</add> Mount Cenis</line>
-    <line>when he arrived at Leghorn where the merchant</line>
-    <line><mod>
-        <del rend="unmarked">w</del>
-        <del rend="strikethrough">as to</del>
-        <add hand="#pbs" place="superlinear">had decided to</add>
-      </mod> wait a favourable<del rend="smear"><add hand="#pbs" place="superlinear">safe</add></del> opportunity of passing</line>
-    <zone type="pagination"><line><del rend="smear">61</del></line></zone>
-    <line>over to Africa <del rend="strikethrough">The</del>
-      <del rend="strikethrough">H</del> He could not deny <w ana="start"/>hi<mod>
-        <del rend="overwritten">s</del>
-        <add place="intralinear">m</add>
-      </mod></line>
-    <line>self<w ana="end"/> the pleasure of remaining a <del instant="true" rend="strikethrough">short</del>
-      few</line>
-    <line>days in the <mod>
-        <del rend="strikethrough">company</del>
-        <add place="superlinear">society</add>
-      </mod> of the Arabian who <w ana="start"/>exhi</line>
-    <line>bited<w ana="end"/> towards him the simplest &amp; tenderest</line>
-    <line>affection<unclear>.</unclear> They conversed with one another</line>
-    <line>by the aid of an interpreter &amp; Safie sang</line>
-    <line>to him the divine airs of her native <w ana="start"/>coun</line>
-    <line>try<w ana="end"/>. The Turk allowed this intimacy to</line>
-    <line>take place and encouraged the hopes of </line>
-    <line><del rend="strikethrough">Th</del>the <mod>
-        <del rend="strikethrough">Christian</del>
-        <add place="superlinear">youthful</add>
-      </mod> lovers, while in his heart</line>
-    <line>he had formed far other plans. He loathed</line>
-    <line>the idea that his daughter should be</line>
-    <line>united to a Christian <del rend="strikethrough">and</del>
-      <del rend="strikethrough">and</del> but he</line>
-    <line>feared the resentment of Felix if he should</line>
-    <line>appear lukewarm for he<del rend="strikethrough">w</del> knew that he</line>
-    <line> was still in <mod>
-        <del rend="strikethrough">his</del>
-        <add place="superlinear">the</add>
-      </mod> power <mod>
-        <del rend="overwritten">i</del>
-        <add place="intralinear">o</add>
-      </mod>f his <del rend="strikethrough">former</del> <w ana="start"/>deli</line>
-    <line>ver<add hand="#pbs" place="intralinear">er</add><w ana="end"/> if he should <mod>
-        <del rend="strikethrough">deliver</del>
-        <add place="superlinear">choose to betray</add>
-      </mod> him <del rend="strikethrough">up</del> to the</line>
-    <line><damage type="tear"/>Italian state which they at</line>
-    <line><damage type="tear"/>that time imhabited.</line>
-    <line><damage type="tear"/>He revolved a <w ana="start"/>thou</line>
-    <line><damage type="tear"/>sand<w ana="end"/> plans by</line>
-    <line><damage type="tear"/>which he <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">should</add>
-      </mod></line>
-  </zone>
-</surface>
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="14r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0027.xml" xml:id="ox-ms_abinger_c57-0027">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0027.jp2"/>
-  <zone type="pagination"><line>62</line></zone>
-  <zone type="library"><line>14</line></zone>
-  <zone type="main">
-    <line>be enabled to <mod>
-        <del rend="strikethrough">carry on</del>
-        <add place="superlinear">prolong</add>
-      </mod> the deceit untill it</line>
-    <line>was no longer necessary; and then <add hand="#pbs" place="superlinear">to</add> carry
-      his</line>
-    <line>daughter to Africa with him. <del rend="strikethrough">And</del>
-      <mod>
-        <del rend="overwritten">h</del>
-        <add place="intralinear">H</add>
-      </mod>is</line>
-    <line>plans were greatly facillitated by the news</line>
-    <line><mod>
-        <del rend="strikethrough">that</del>
-        <add hand="#pbs" place="superlinear">which</add>
-      </mod> arrived from Paris.</line>
-    <milestone unit="tei:p"/>
-    <line rend="indent2">The government of France were greatly</line>
-    <line>enraged at the escape of their victim and spared</line>
-    <line>no pains to discover and punish his deliverer<unclear>.</unclear></line>
-    <line>The plot of Felix was quickly discovered &amp;</line>
-    <line>De Lacey &amp; Agathat were thrown intto prison</line>
-    <line><delSpan rend="strikethrough" spanTo="#c57-0027.01"/>This news reached the youth and
-      awakened</line>
-    <line>him from the blissful dream that he enjoyed.<anchor xml:id="c57-0027.01"/></line>
-    <line>The news reached Felix and roused him from</line>
-    <line>his dream of pleasure. His blind <mod>
-        <del rend="strikethrough">&amp; <unclear>in</unclear></del>
-        <add place="superlinear">&amp; aged</add>
-      </mod> father and</line>
-    <line>his gentle sister lay in a noisome dungeon</line>
-    <line>while he enjoyed the free air &amp; the society of</line>
-    <line>her he loved. This idea was torture to him – He</line>
-    <line>arranged with the Turk <mod>
-        <del rend="strikethrough">that</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">if the latter should find a favourable opportunity for escape
-          before Felix could return <add place="sublinear">to Italy</add></add>
-      </mod> Safie should</line>
-    <line>remain as <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">a</add>
-      </mod> boarder in a convent at Leghorn</line>
-    <line><delSpan spanTo="#c57-0027.02"/>If a favourable opportunity for the fathers escape</line>
-    <line>should occur before <mod>
-        <del rend="strikethrough">Felix</del>
-        <add place="superlinear">he</add>
-      </mod> could return to Italy<anchor xml:id="c57-0027.02"/></line>
-    <line>and then quitting the lovely Arabian, he hastened</line>
-    <line>to Paris &amp; delivered himself up to the vengeance</line>
-    <line>of <del rend="strikethrough">For</del> the law hoping <del rend="strikethrough">by this
-        pr</del> to free De Lacey</line>
-    <line>&amp; Agatha by this proceeding.</line>
-    <milestone unit="tei:p"/>
-    <line rend="indent2">He did not succeed <del rend="strikethrough">for</del>
-      <del rend="strikethrough">three</del><del rend="strikethrough"><add place="superlinear">five</add></del>
-      <del rend="strikethrough">months</del></line>
-    <line>they remained confined <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">for five months</add>
-      </mod> before the trial took</line>
-    <line>place the result of which deprived them</line>
-  </zone>
-</surface>
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="14v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0028.xml" xml:id="ox-ms_abinger_c57-0028">
-    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0028.jp2"/>
-<zone type="main">
-    <!--BLANK PAGE-->
-</zone>
-</surface>
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="15r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0029.xml" xml:id="ox-ms_abinger_c57-0029">
-<graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0029.jp2"/>
-
-<zone type="main">
-    <damage type="tear"/>
-    <!--LOWER RIGHT CORNER OF PAGE TORN AWAY-->
-</zone>
-</surface>
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="15v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0030.xml" xml:id="ox-ms_abinger_c57-0030">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0030.jp2"/>
-  <zone type="pagination"><line>63</line></zone>
-  <zone type="main">
-    <line>of their fortune and <!--mod  spanTo="#c57-0030.01"-->
-      <del next="#c57-0030.02" rend="strikethrough"/>exiled them for ever <add hand="#pbs" next="#c57-0030.03" place="superlinear">condemned them to a</add></line>
-    <line><del rend="strikethrough" xml:id="c57-0030.02">from</del>
-      <add hand="#pbs" place="sublinear" xml:id="c57-0030.03">perpetual exile from</add><anchor xml:id="c57-0030.01"/> their native country.</line>
-    <milestone unit="tei:p"/>
-    <line rend="indent2">They found a miserable assylum in</line>
-    <line>the cottage in Germany where I found them<damage type="tear"/></line>
-    <line>Felix <mod>
-        <del rend="strikethrough">heard</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">learned</add>
-      </mod> that the treacherous Turk for whom</line>
-    <line>he and his family <del instant="true" rend="strikethrough">suf</del> endured such
-      unheard</line>
-    <line>of oppression, on <mod>
-        <del rend="strikethrough">hearing</del>
-        <add hand="#pbs" place="superlinear">discovering</add>
-      </mod>
-      <del next="#c57-0030.04" rend="strikethrough">that he was a</del></line>
-    <line><del rend="strikethrough" xml:id="c57-0030.04">beggar had</del>
-      <del rend="strikethrough">w</del> that his deliver<add place="intralinear">er</add>
-      <mod>
-        <del rend="strikethrough">was</del>
-        <del rend="strikethrough"><add hand="#pbs" place="superlinear">had been</add></del>
-        <anchor corresp="#c57-0030.05"/>
-      </mod>
-      <del next="#c57-0030.07" rend="strikethrough">poor &amp;</del>
-      <add hand="#pbs" place="superlinear" xml:id="c57-0030.05">was thus</add>
-      <add hand="#pbs" next="#c57-0030.08" place="superlinear"> reduced to</add></line>
-    <!--Tricky bit here. "had been" was struck out and replaced with "was thus" above the previous line
-    Line reads "that his deliverer was thus reduced to poverty & impotence"-->
-    <!--2018-03-18 ebb: For the purposes of collation, I've just moved the <add>reduced to</add> into its sequential position here. -->
-    <line>
-      <del rend="strikethrough" xml:id="c57-0030.07">harmless</del><add hand="#pbs" place="superlinear" xml:id="c57.0030.08">poverty &amp; impotence</add><anchor xml:id="c57.0030.06"/>
-      <del rend="strikethrough">forgot</del>
-      <del rend="strikethrough"><unclear>his</unclear> prom</del> beca<mod>
-        <del rend="strikethrough">ming</del>
-        <add place="sublinear">me</add>
-      </mod> a traitor</line>
-    <line>to good feeling &amp; honour <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">&amp; had</add>
-      </mod> quitted <del rend="strikethrough">his</del> Italy with</line>
-    <line>his daughter insultingly sending Felix a</line>
-    <line><del rend="strikethrough">miserable</del> pittance of money to aid him,</line>
-    <line>as he said, in some plan of future <w ana="start"/>main</line>
-    <line>tenance<w ana="end"/>.</line>
-    <milestone unit="tei:p"/>
-    <line rend="indent1">Such were the events that <del instant="true" rend="strikethrough">sprea</del> preyed</line>
-    <line>on the heart of Felix and rendered him when</line>
-    <line>I first saw him, the most miserable</line>
-    <line>of his family. He could have endured poverty</line>
-    <line>and when <mod>
-        <del rend="strikethrough">it</del>
-        <del rend="strikethrough"><add place="superlinear">this</add></del>
-        <del rend="strikethrough">had been</del>
-      </mod> this distress had</line>
-    <line>been the meed of <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">his</add>
-      </mod> virtue he would have</line>
-    <line>gloried in it. But the ingratitude of the</line>
-    <line>Turk &amp; the loss of his beloved Safie <delSpan rend="strikethrough" spanTo="#c57-0030.09"/>preyed on</line>
-    <line>his heart<anchor xml:id="c57-0030.09"/>
-      <del instant="true" rend="strikethrough">were misfortunes</del> were <w ana="start"/>misfor</line>
-    <line><damage type="tear"/>tunes<w ana="end"/> more bitter &amp; irreperable.</line>
-    <line><damage type="tear"/><del rend="strikethrough">But</del><mod>
-        <del rend="overwritten">t</del>
-        <add place="intralinear">T</add>
-      </mod>he arrival of the Arrabian</line>
-    <line><damage type="tear"/><mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <del rend="strikethrough">had</del>
-        <add hand="#pbs" place="superlinear">now</add>
-      </mod> infused new life into his soul.</line>
-    <line><damage type="tear"/><milestone unit="tei:p"/><metamark function="paragraph">[</metamark>When the news <mod>
-        <del rend="strikethrough">had arrived</del>
-        <add hand="#pbs" place="superlinear">reached her</add>
-      </mod> that</line>
-    <line><damage type="tear"/>Felix was deprived of his wealth</line>
-  </zone>
-</surface>
+        
+      <!--2018-03-31 ebb: I have removed into a separate collation witness a preceding passage that recounts the DeLacey history a little differently before this point, but is left unfinished. The next page seems to begin the DeLacey history all over again and appears to be complete: I am leaving it in this continuous witness.-->  
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="16r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml" xml:id="ox-ms_abinger_c57-0031">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0031.jp2"/>
   <zone rend="bordered" type="pagination"><line>57</line></zone>
   <zone type="library"><line>16</line></zone>
-  
+
   <zone type="main">
     <line rend="center"><milestone spanTo="#c57-0031.11" unit="tei:head"/><add hand="#pbs">another Chapter</add><anchor xml:id="c57-0031.11"/></line>
     <line>Sometime elapsed before I <!--mod  spanTo="#c57-0031.01"--><del next="#c57-0031.02" rend="strikethrough">became informed</del></line>
@@ -2348,7 +1905,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       reiterating his</line>
     <line>tyrannical <hi rend="underline">command.</hi>
       <del rend="strikethrough">orders.</del></line>
-    <!--the underline below "command" either questions it or possibly restores it after deletion of "orders"--><!--2018-03-18 ebb: Responding to preceding comment, for Pittsburgh Bridge collation purposes, I am removing the <del> tag around  the word command. -->
+    <!--the underline below "command" either questions it or possibly restores it after deletion of "orders"--><!--2018-03-18 ebb: Responding to preceding comment, for Pittsburgh Bridge collation purposes, I am removing the <del> tag around the word "command". -->
     <milestone unit="tei:p"/>
     <line rend="indent2">A few days after the Turk entered</line>
     <line>his daughters appartment and told her</line>
@@ -5609,8 +5166,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>place to destroy him &amp; put an end</line>
     <anchor xml:id="c57-0078.01"/>
   </zone>
-
-  <zone type="left_margin">
+          <note resp="#pbs">I think the journey to England ought to be <hi rend="underline">Victor's</hi> proposal.– that he ought to go for the purpose of collecting knowledge, for the formation of a female. He ought to lead his father to this in the conversations–the conversation <hi rend="underline">commences</hi> right enough</note>
+  <!--NOTE RESP="#PBS" <zone type="left_margin">
     <line><add><metamark function="sequence">2</metamark></add></line>
   </zone>
 
@@ -5641,7 +5198,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <anchor xml:id="c57-0078.04"/>
     <anchor xml:id="c57-0078.03"/>
     <anchor xml:id="c57-0078.02"/>
-  </zone>
+  </zone>-->
 </surface>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="40r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0079.xml" xml:id="ox-ms_abinger_c57-0079">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0079.jp2"/>
@@ -6426,15 +5983,14 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>this as much as possible that I might not</line>
     <line>debar him from the pleasures natural</line>
     <line>to one who was entering on a new scene</line>
-    <line>of life, undisturbed by any care or <del rend="smear"><add hand="#pbs" place="superlinear">the</add></del> bitter</line>
+    <line>of life, undisturbed by any care or <del rend="smear"><add hand="#pbs" place="superlinear">the</add></del> <w ana="start"/>bitter</line>
     <line><anchor xml:id="c57-0093.02"/><zone corresp="#c57-0093.02" type="left_margin">
-    <line><del rend="smear"><add hand="#pbs">ness of </add></del></line>
+    <line><del rend="smear"><add hand="#pbs">ness<w ana="end"/> of </add></del></line>
   </zone>recollection. I often refused to accompany</line>
     <line>him alledging another engagement that</line>
     <line>I might remain a alone; I now also</line>
     <line>began to collect the materials necessary</line>
-    <line>for my <del instant="true" rend="strikethrough">work</del> new creation &amp; this was
-        <del rend="strikethrough">a</del> to</line>
+    <line>for my <del instant="true" rend="strikethrough">work</del> new creation &amp; this was <del rend="strikethrough">a</del> to</line>
     <line>me like the torture of single drops of</line>
     <line>water continually falling on the head;</line>
     <line>Every thought that was devoted to it</line>
@@ -6447,8 +6003,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>London we received a letter from a</line>
     <line>person in Scotland who had formerly</line>
     <line>been <del rend="strikethrough">an</del> our visitor at Geneva. He</line>
-    <line>mentioned the beauties of his native coun</line>
-    <line>try &amp; asked us if those were not sufficient</line>
+    <line>mentioned the beauties of his native <w ana="start"/>coun</line>
+    <line>try<w ana="end"/> &amp; asked us if those were not sufficient</line>
     <line>allurements to induce us to prolong our</line>
     <line>journey as far <del rend="strikethrough">noth</del> north as Perth</line>
     <line>where he resided. Cl<mod>
@@ -6475,8 +6031,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">at</add>
       </mod> the beginning</line>
-    <line>of October and it was now february; we according</line>
-    <line>ly determined to commence our journey</line>
+    <line>of October and it was now february; we <w ana="start"/>according</line>
+    <line>ly<w ana="end"/> determined to commence our journey</line>
     <line>towards the north at <del rend="strikethrough">ex</del> at the expiration of</line>
     <line>another month. In this expedition we did</line>
     <line>not intend to follow the great road to Edinburgh</line>
@@ -6484,8 +6040,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>Cumberland lakes resolving to arrive at the</line>
     <line>completion of this tour about the end of</line>
     <line>July. I packed my chemical instruments</line>
-    <line>&amp; the materials which I had collected resolv-</line>
-    <line>ing to finish my labours in some obscure</line>
+    <line>&amp; the materials which I had collected <w ana="start"/>resolv</line>
+    <line>ing<w ana="end"/> to finish my labours in some obscure</line>
     <line>nook in the country.</line>
     <milestone unit="tei:p"/>
     <line rend="indent2">We quitted London on the 27 of</line>
@@ -6495,17 +6051,16 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod>d a few days at Windsor</line>
     <line>rambling in its beautiful forest. This was</line>
     <line>a new scene to us mountaineers; The <!--mod  spanTo="#c57-0094.01"--><del next="#c57-0094.02" rend="strikethrough">beauti</del><add place="sublinear"><metamark function="insert">^</metamark></add><add place="superlinear">majectic</add></line>
-    <line><del xml:id="c57-0094.02">ful</del><anchor xml:id="c57-0094.01"/> oaks the quantity of
-      game &amp; the <delSpan rend="strikethrough" spanTo="#c57-0094.03"/>beau</line>
-    <line>tiful<anchor xml:id="c57-0094.03"/> flock<add place="intralinear">s</add> of <mod>
+    <line><del xml:id="c57-0094.02">ful</del><anchor xml:id="c57-0094.01"/> oaks the quantity of game &amp; the <delSpan rend="strikethrough" spanTo="#c57-0094.03"/><w ana="start"/>beau</line>
+    <line>tiful<w ana="end"/><anchor xml:id="c57-0094.03"/> flock<add place="intralinear">s</add> of <mod>
         <del rend="strikethrough">beautiful</del>
         <add place="superlinear">lovely</add>
       </mod> deer were all novelties</line>
     <line>to us. From thence we proceeded to Oxford.</line>
     <line>We were charmed with the appearance</line>
     <line>of the town. The colledges are antient and</line>
-    <line>picturesque, the streets broard &amp; the lands</line>
-    <line>cape rendered perfect by the lovely Isis<unclear>.</unclear></line>
+    <line>picturesque, the streets broard &amp; the <w ana="start"/>lands</line>
+    <line>cape<w ana="end"/> rendered perfect by the lovely Isis<unclear>.</unclear></line>
     <line>which <del rend="strikethrough">near here</del> spreads into broard &amp;</line>
     <line>placid expance of water &amp; runs south</line>
     <line>of the town. We had <del rend="strikethrough">seve</del> letter<add place="intralinear">s</add> to several</line>
@@ -6519,8 +6074,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>politeness &amp; <del rend="strikethrough">cord</del> cordiality. We found that the</line>
     <line>regulations of this university were much</line>
     <line>improved since the days of Gibbon; But</line>
-    <line>there is still <del rend="strikethrough"><unclear>pr</unclear></del> in fashion a great
-      deal</line>
+    <line>there is still <del rend="strikethrough"><unclear>pr</unclear></del> in fashion a great deal</line>
     <line>of bigotry &amp; devotion to established rules that</line>
     <line>constrains the mind of the students &amp; leads</line>
     <line>to slavish &amp; narrow principles of action.</line>
@@ -6541,8 +6095,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line><anchor xml:id="c57-0095.01"/><zone corresp="#c57-0095.01" type="left_margin">
     <line><add>world of the </add></line>
   </zone>university as matters of the utmost</line>
-    <line>consequence. Some of the gentlemen obsti</line>
-    <line>nately wore light coloured pantaloons</line>
+    <line>consequence. Some of the gentlemen <w ana="start"/>obsti</line>
+    <line>nately<w ana="end"/> wore light coloured pantaloons</line>
     <line>when it was the rule of the colledge to</line>
     <line>wear dark: <mod>
         <del rend="overwritten">T</del>
@@ -6564,8 +6118,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add place="intralinear">r</add>
       </mod>eatened severity</line>
     <line>caused a considerable change in the</line>
-    <line>costume of the gentlemen for seve</line>
-    <line>ral days.</line>
+    <line>costume of the gentlemen for <w ana="start"/>seve</line>
+    <line>ral<w ana="end"/> days.</line>
     <milestone unit="tei:p"/>
     <line rend="indent2">Such, to our infinite astonishment,</line>
     <line>we found to be the principal topic</line>
@@ -6648,11 +6202,11 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod> had</line>
     <line>inhabited and which, as it was predicted,</line>
     <line>would fall in when a man wiser than</line>
-    <line>that philosopher should enter it. A <mod>
+    <line>that philosopher should enter it.<note resp="#pbs">no sweet Pecksie–'twas f<hi rend="double-underline">ria</hi>r Bacon the discoverer of gunpowder.</note> A <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a short, round faced prating</add>
-      </mod> profes</line>
-    <line>sor who accompanied us<del rend="strikethrough">e</del> refused to pass</line>
+      </mod> <w ana="start"/>profes</line>
+    <line>sor<w ana="end"/> who accompanied us<del rend="strikethrough">e</del> refused to pass</line>
     <line>the threshold; although we ventured inside</line>
     <line>in perfect <del rend="strikethrough">safety</del>. security <anchor xml:id="c57-0096.03"/><zone corresp="#c57-0096.03" type="left_margin">
     <addSpan hand="#pbs" spanTo="#c57-0096.04"/>
@@ -6663,7 +6217,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
   </zone></line>
     <milestone unit="tei:p"/>
     <line rend="indent2">Matlock, which was our next</line>
-    <line>place of rest, resembled to agreat<del rend="strikethrough">er</del> degree</line>
+    <line>place of rest, resembled to a great<del rend="strikethrough">er</del> degree</line>
     <line>the scenery of Switzerland; But every thing</line>
     <line>is on a lower scale &amp; the green <mod>
         <del rend="strikethrough">mountains</del>
@@ -6679,8 +6233,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>the wondrous cave &amp; the <del rend="strikethrough">the</del> little cabinets</line>
     <line>of natural history where the curiosities</line>
     <line>are disposed in the same manner</line>
-    <line>as in the collections at Servox &amp; Chamou</line>
-    <line>-nix. The latter mame made me tremble</line>
+    <line>as in the collections at Servox &amp; <w ana="start"/>Chamou</line>
+    <line>nix<w ana="end"/>. The latter mame made me tremble</line>
     <line>when pronounced by Henry &amp; I hastened</line>
     <line>to quit Matlock where the scenes were</line>
     <line>thus a<mod>
@@ -6704,7 +6258,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line><damage type="inkblot">to</damage> me. Here also we made some aquain</line>
   </zone>
 
-  <zone type="left_margin">
+  <!--NOTE RESP="#PBS" <zone type="left_margin">
     <milestone spanTo="#c57-0096.01" unit="tei:note"/>
     <addSpan hand="#pbs" spanTo="#c57-0096.02"/>
     <line>no sweet</line>
@@ -6714,7 +6268,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>of gunpowder.</line>
     <anchor xml:id="c57-0096.02"/>
     <anchor xml:id="c57-0096.01"/>
-  </zone>
+  </zone>-->
 
   
 </surface>
@@ -7138,8 +6692,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod> completion yet</line>
     <line>freedom from the curse I endured was</line>
     <line>a joy I never dared promise myself—</line>
-    <line><milestone spanTo="#c57-0102.04" unit="tei:note"/><add place="interlinear">Finish Chap. 2
-        here</add><anchor xml:id="c57-0102.04"/></line>
+    <line>
+      <note resp="#mws">Finish Chap. 2 here</note>  
+     <!--NOTE RESP="#MWS" <milestone spanTo="#c57-0102.04" unit="tei:note"/><add place="interlinear">Finish Chap. 2 here</add><anchor xml:id="c57-0102.04"/>--></line>
 <!-- COLLATION CHUNK POINT UNIT C25 ends EBB 03/18/2018 -->    
 
     <milestone unit="tei:p"/>
