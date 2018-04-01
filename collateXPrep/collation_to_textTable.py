@@ -97,9 +97,9 @@ for name in glob.glob('collationChunks/1818_fullFlat_*'):
     matchStr = matchString.split(".", 1)[0]
     # ebb: above strips off the file extension
     with open(name, 'rb') as f1818file, \
-            open('collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
+            open('collationChunks/Thomas_fullFlat_' + matchString, 'rb') as fThomasfile, \
             open('collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
-            open('textTableOutput/collation_' + matchStr + '.txt', 'w') as outputFile:
+            open('textTableOutputTEST/collation_' + matchStr + '.txt', 'w') as outputFile:
         f1818_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1818file))).split('\n')
         f1823_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1823file))).split('\n')
         f1831_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1831file))).split('\n')

@@ -20,7 +20,6 @@ regexEmptyTag = re.compile(r'/>$')
 regexBlankLine = re.compile(r'\n{2,}')
 regexLeadingBlankLine = re.compile(r'^\n')
 regexPageBreak = re.compile(r'<pb.+?/>')
-RE_MARKUP = re.compile(r'<.+?>')
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
 # Tags to ignore, with content to keep: xml, comment, anchor
@@ -35,13 +34,11 @@ RE_MARKUP = re.compile(r'<.+?>')
 # 2017-05-30 ebb: collated but the tags are not). Decision to make the comments into self-closing elements with text
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
-ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod']
-inlineEmpty = ['milestone', 'anchor', 'include', 'lb', 'delSpan', 'addSpan', 'gap', 'handShift', 'damage', 'restore']
-inlineContent = ['hi', 'add', 'del', 'metamark', 'unclear', 'retrace', 'damage', 'restore', 'zone']
-blockElement = ['p', 'div', 'lg', 'l', 'head', 'note', 'ab', 'cit', 'quote', 'bibl', 'header', 'surface', 'graphic']
+ignore = ['xml', 'pb', 'comment']
+inlineEmpty = ['milestone', 'anchor', 'include']
+inlineContent = ['hi']
+blockElement = ['p', 'div', 'lg', 'l', 'head', 'note', 'ab', 'cit', 'quote', 'bibl', 'header']
 # ebb: Tried removing 'comment', from blockElement list above, because we don't want these to be collated.
-
-# 10-23-2017 ebb rv:
 
 def normalizeSpace(inText):
     """Replaces all whitespace spans with single space characters"""
@@ -83,13 +80,11 @@ def extract(input_xml):
     return output
 
 
-def normalize(inputText):
-    return RE_MARKUP.sub('', inputText)
+# def normalize(inputText):
 #    return regexPageBreak('',inputText)
 
-
 def processToken(inputText):
-    return {"t": inputText + ' ', "n": normalize(inputText)}
+    return {"t": inputText + ' ', "n": inputText}
 
 
 def processWitness(inputWitness, id):
@@ -104,41 +99,18 @@ for name in glob.glob('collationChunks/1818_fullFlat_*'):
         # ebb: above strips off the file extension
         with open(name, 'rb') as f1818file, \
                 open('collationChunks/Thomas_fullFlat_' + matchString, 'rb') as fThomasfile, \
-                open('collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
-                open('collationChunks/msColl_c56_' + matchString, 'rb') as fMSc56file, \
-                open('collationChunks/msColl_c57_' + matchString, 'rb') as fMSc57file, \
-                open('collationChunks/msColl_c58_' + matchString, 'rb') as fMSc58file, \
-                open('collationChunks/msColl_c57Frag_' + matchString, 'rb') as fMSc57Fragfile, \
-                open('collationChunks/msColl_c58Frag_' + matchString, 'rb') as fMSc58Fragfile, \
-                open('collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
-                open('Full_TableOutput/collation_' + matchStr + '.txt', 'w') as outputFile:
-            print(fThomasfile.readlines())
-            fMSc56_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc56file))).split('\n')
-            fMSc57_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc57file))).split('\n')
-            fMSc58_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc58file))).split('\n')
-            fMSc57Frag_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc57Fragfile))).split('\n')
-            fMSc58Frag_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc58Fragfile))).split('\n')
+                open('textTableOutputTEST/collation_' + matchStr + '.txt', 'w') as outputFile:
             f1818_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1818file))).split('\n')
             fThomas_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fThomasfile))).split('\n')
-            f1823_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1823file))).split('\n')
-            f1831_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1831file))).split('\n')
             f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
             fThomas_tokenlist = processWitness(fThomas_tokens, 'fThomas')
-            f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
-            fMSc56_tokenlist = processWitness(fMSc56_tokens, 'fMSc56')
-            fMSc57_tokenlist = processWitness(fMSc57_tokens, 'fMSc57')
-            fMSc58_tokenlist = processWitness(fMSc58_tokens, 'fMSc58')
-            fMSc57Frag_tokenlist = processWitness(fMSc57Frag_tokens, 'fMSc57Frag')
-            fMSc58Frag_tokenlist = processWitness(fMSc58Frag_tokens, 'fMSc58Frag')
-            f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
-            collation_input = {"witnesses": [f1818_tokenlist, fThomas_tokenlist, f1823_tokenlist, fMSc56_tokenlist, fMSc57_tokenlist, fMSc58_tokenlist, fMSc57Frag_tokenlist, fMSc58Frag_tokenlist, f1831_tokenlist]}
+            collation_input = {"witnesses": [f1818_tokenlist, fThomas_tokenlist]}
             # table = collate(collation_input, output='tei', segmentation=True)
             table = collate(collation_input, segmentation=True, layout='vertical')
-            # table = collate(collation_input, output='xml', segmentation=True)
-            # print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
+            # print(nowStr + '\n' + table, file=outputFile)
+            # This yields a TypeError: "Can't convert 'AlignmentTable' object to str implicitly
             print(table, file=outputFile)
-    except IOError:
+    except:
         pass
-
 
 
