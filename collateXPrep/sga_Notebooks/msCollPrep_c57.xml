@@ -10905,10 +10905,10 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>oppressed me I wept aloud.</line>
     <milestone unit="tei:p"/>
     <line rend="indent2">But this was not the time for delay</line>
-    <line>I disincumbered the<del rend="strikethrough">ir</del> dogs of their dead compa</line>
-    <line>nion <del rend="strikethrough">and</del> gave them a plentiful portion of</line>
-    <line>food and after an hours repose which was abso</line>
-    <line>lutely necessary &amp; yet which was bitterly irksome</line>
+    <line>I disincumbered the<del rend="strikethrough">ir</del> dogs of their dead <w ana="start"/>compa</line>
+    <line>nion<w ana="end"/> <del rend="strikethrough">and</del> gave them a plentiful portion of</line>
+    <line>food and after an hours repose which was <w ana="start"/>abso</line>
+    <line>lutely<w ana="end"/> necessary &amp; yet which was bitterly irksome</line>
     <line>to me I continued my path — The sledge was</line>
     <line>still visible nor did I again lose sight of it</line>
     <line>except at the moments when for a short time</line>
@@ -10923,8 +10923,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>gained on <mod>
         <del rend="strikethrough">it.</del>
         <add hand="#pbs" place="superlinear">the object of my pursuit.</add>
-      </mod> And after about <del rend="strikethrough">amo</del> ano</line>
-    <line>ther <mod>
+      </mod> And after about <del rend="strikethrough">amo</del> <w ana="start"/>ano</line>
+    <line>ther<w ana="end"/> <mod>
         <del rend="strikethrough">weeks</del>
         <add hand="#pbs" place="superlinear">days</add>
       </mod> journey I beheld myself at no</line>
@@ -10962,8 +10962,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod>t &amp; cracked with a <del instant="true" rend="strikethrough">crash</del>
       tremendus</line>
     <line>and overwhelming sound — The work was</line>
-    <line>soon finished in a few minutes a migh</line>
-    <line>ty ocean rolled between me &amp; my enemy.</line>
+    <line>soon finished in a few minutes a <w ana="start"/>migh</line>
+    <line>ty<w ana="end"/> ocean rolled between me &amp; my enemy.</line>
     <line>And I was left difting on a scattered piece</line>
     <line>that was every moment lessening</line>
     <line>and thus preparing for me a hideous</line>
@@ -10988,8 +10988,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>to me hopes of succour &amp; life. I had no</line>
     <line>conception that vessels ever came so</line>
     <line>far north &amp; was astounded the sight.</line>
-    <line><del rend="strikethrough">bu and</del>
-      <mod><restore type="smear_strikethrough"><del rend="strikethrough">I quic</del></restore></mod>kly destroy<mod>
+    <line><del rend="strikethrough">bu and</del> <!--<mod><restore type="smear_strikethrough"><del rend="strikethrough">-->I quic<!--</del></restore></mod>-->kly destroy<mod>
         <del rend="overwritten">in</del>
         <add place="intralinear">ed</add>
         <del rend="strikethrough">g</del>
@@ -11029,7 +11028,6 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>uncheered but by the hope of freedom</line>
     <line>when freed from my task of vengeance<anchor xml:id="c57-0166.02"/></line>
   </zone>
-  
 
   <zone rotate="90" type="left_margin">
     <delSpan spanTo="#c57-0166.05"/>
@@ -11051,14 +11049,14 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       <add place="sublinear"><metamark function="insert">^</metamark></add>
       <add place="superlinear">h</add>
     </mod>austed &amp; <del rend="strikethrough">death would soon have</del></line>
-    <line>I should soon have sunk under my multi</line>
-    <line>plied hardships to a death <add hand="#pbs" place="superlinear">which I still</add>
+    <line>I should soon have sunk under my <w ana="start"/>multi</line>
+    <line>plied<w ana="end"/> hardships to a death <add hand="#pbs" place="superlinear">which I still</add>
       dread<del rend="strikethrough">ed</del> for my</line>
     <line>task is unfu<mod>
       <add place="sublinear"><metamark function="insert">^</metamark></add>
       <add place="superlinear">l</add>
-    </mod>filled. Oh when will my gui</line>
-    <line>ding <del rend="strikethrough">Oh! When s</del> spirit in conducting me</line>
+    </mod>filled. Oh when will my <w ana="start"/>gui</line>
+    <line>ding<w ana="end"/> <del rend="strikethrough">Oh! When s</del> spirit in conducting me</line>
     <line>to him allow <mod>
       <add place="sublinear"><metamark function="insert">^</metamark></add>
       <add place="superlinear">me</add>
@@ -11068,8 +11066,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>that you will seek him &amp; satisfy my</line>
     <line>vengeance in his death. Yet do I dare</line>
     <line>ask you to undertake my pilgrimage to</line>
-    <line>endure the hardships that I have un</line>
-    <line>dergone. No I am not so selfish– yet</line>
+    <line>endure the hardships that I have <w ana="start"/>un</line>
+    <line>dergone<w ana="end"/>. No I am not so selfish– yet</line>
     <line><unclear reason="case">W</unclear>hen I am dead if he should appear</line>
     <!--"When" could be "when"-->
     <line>if the ministers of vengeance should</line>
@@ -11077,9 +11075,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       that</line>
     <line>you would<anchor xml:id="c57-0167.01"/> Swear that he shall</line>
     <line>not live – Swear that <del rend="strikethrough">the accumu</del></line>
-    <line>he shall not triumph over my accu</line>
-    <line>mulated miseries &amp; live to make a</line>
-    <line>nother such a wretch as I am – Oh he</line>
+    <line>he shall not triumph over my <w ana="start"/>accu</line>
+    <line>mulated<w ana="end"/> miseries &amp; live to make <w ana="start"/>a</line>
+    <line>nother<w ana="end"/> such a wretch as I am – Oh he</line>
     <line>is eloquent &amp; persuasive and once</line>
     <line>his words had even power over</line>
     <line>my heart but trust him not– His soul</line>
@@ -11095,8 +11093,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       <add place="superlinear">ce</add>
     </mod>– hear him not, call on the</line>
     <line>manes of William, Justine, Clerval</line>
-    <line>Elizabeth, my father and of the Whretch-</line>
-    <line>ed Victor &amp; thrust your <mod>
+    <line>Elizabeth, my father and of the <w ana="start"/>Whretch</line>
+    <line>ed<w ana="end"/> Victor &amp; thrust your <mod>
       <del rend="strikethrough">dagger</del>
       <add hand="#pbs" place="superlinear">sword</add>
     </mod>
@@ -11140,8 +11138,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod>ret and <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">do</add>
-      </mod> not you feel your blood con</line>
-    <line>gealed with horror <!--mod  spanTo="#c57-0168.03"--><delSpan rend="strikethrough" spanTo="#c57-0168.04"/>Mine of<add place="sublinear">ten</add>did as he</line>
+      </mod> not you feel your blood <w ana="start"/>con</line>
+    <line>gealed<w ana="end"/> with horror <!--mod  spanTo="#c57-0168.03"--><delSpan rend="strikethrough" spanTo="#c57-0168.04"/>Mine of<add place="sublinear">ten</add>did as he</line>
     <line>related it<anchor xml:id="c57-0168.04"/><anchor xml:id="c57-0168.05"/><zone corresp="#c57-0168.05" type="left_margin">
     <addSpan hand="#pbs" spanTo="#c57-0168.06"/>
     <line> like that</line>
@@ -11188,9 +11186,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>mark of <del instant="true" rend="strikethrough">indi</del> agitation – <mod>
         <del rend="strikethrough">and</del>
         <add hand="#pbs" place="superlinear">then</add>
-      </mod> like a vol</line>
-    <line>cano bursting forth his face would sud</line>
-    <line>denly change to an expression of the</line>
+      </mod> like a <w ana="start"/>vol</line>
+    <line>cano<w ana="end"/> bursting forth his face would <w ana="start"/>sud</line>
+    <line>denly<w ana="end"/> change to an expression of the</line>
     <line>wildest rage as he shrieked <!--mod  spanTo="#c57-0168.11"--><del rend="strikethrough">forth</del></line>
     <line><anchor xml:id="c57-0168.12"/><zone corresp="#c57-0168.12" type="left_margin">
     <line><add hand="#pbs">out </add></line>
@@ -11236,8 +11234,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod> lost in surpri<mod>
         <del rend="overwritten">z</del>
         <add place="intralinear">s</add>
-      </mod>e &amp; admira</line>
-    <line>tion. Sometimes I endeavoured to gain from</line>
+      </mod>e &amp; <w ana="start"/>admira</line>
+    <line>tion<w ana="end"/>. Sometimes I endeavoured to gain from</line>
   </zone>
 
   
@@ -11255,8 +11253,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>but on this point he was impenetrable. Are you</line>
     <line>mad, my friend, said he, or whither does your</line>
     <line>senseless curiosity lead you –Would you also</line>
-    <line>create for yourself &amp; <add hand="#pbs" place="superlinear">for</add> the world a
-        dæmonic<add place="sublinear">al</add></line>
+    <line>create for yourself &amp; <add hand="#pbs" place="superlinear">for</add> the world a dæmonic<add place="sublinear">al</add></line>
     <line>ene<mod>
         <del rend="overwritten">n</del>
         <add place="intralinear">m</add>
@@ -11264,15 +11261,15 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>tend. Peace, peace; learn my miseries &amp;</line>
     <line>do not seek to encrease your own.</line>
     <milestone unit="tei:p"/>
-    <line rend="indent2">Frankenstein discovered that I detail</line>
-    <line>ed or made notes concerning his history he</line>
+    <line rend="indent2">Frankenstein discovered that I <w ana="start"/>detail</line>
+    <line>ed<w ana="end"/> or made notes concerning his history he</line>
     <line>asked to see them &amp; himself corrected <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">and augmented</add>
       </mod> them</line>
     <line>in many places but principally in <del rend="strikethrough">guv</del></line>
-    <line>giving the life &amp; spirit of the <del rend="strikethrough">the</del> conver</line>
-    <line>sations he held with his enemies–Since</line>
+    <line>giving the life &amp; spirit of the <del rend="strikethrough">the</del> <w ana="start"/>conver</line>
+    <line>sations<w ana="end"/> he held with his enemies–Since</line>
     <line>you have made an account <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">said he</add>
@@ -11297,8 +11294,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>which this</line>
     <line><metamark function="displacement">x</metamark> tale, &amp; his</line>
     <line>own elevated</line>
-    <line>&amp; gentle man</line>
-    <line>-ners have</line>
+    <line>&amp; gentle <w ana="start"/>man</line>
+    <line>ners<w ana="end"/> have</line>
     <line>created</line>
     <anchor xml:id="c57-0169.02"/>
   </zone></add> I wish<del rend="strikethrough">ed</del> to soothe him</line>
@@ -11372,8 +11369,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <del rend="strikethrough">were</del>
         <add hand="#pbs" place="superlinear">are</add>
       </mod> not the creations of his</line>
-    <line>fancy but the real beings <!--mod  spanTo="#c57-0170.06"--><del rend="strikethrough">that
-        he</del>
+    <line>fancy but the real beings <!--mod  spanTo="#c57-0170.06"--><del rend="strikethrough">that he</del>
       <del rend="strikethrough">saw</del></line>
     <line><anchor xml:id="c57-0170.01"/><zone corresp="#c57-0170.01" type="left_margin">
     <line><del rend="strikethrough"><add>beheld </add></del></line>
@@ -11388,14 +11384,14 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
   </zone><anchor xml:id="c57-0170.06"/> –This <add hand="#pbs" place="superlinear">faith</add> g<mod>
         <del rend="overwritten">a</del>
         <add hand="#pbs" place="intralinear">i</add>
-      </mod>ve<add hand="#pbs" place="intralinear">s</add> a solemni</line>
-    <line>ty to his reveries that <mod>
+      </mod>ve<add hand="#pbs" place="intralinear">s</add> a <w ana="start"/>solemni</line>
+    <line>ty<w ana="end"/> to his reveries that <mod>
         <del rend="strikethrough">made</del>
         <add place="superlinear">render<del rend="smear">ed</del></add>
       </mod> them <!--mod  spanTo="#c57-0170.07"--><del rend="strikethrough">peculiar</del><del rend="unmarked">ly</del></line>
     <line><del rend="strikethrough">interresting.</del>
-      <add hand="#pbs" place="intralinear">to me, almost as imposing &amp; inte</add></line>
-    <line><add hand="#pbs" place="interlinear">resting as truth.</add><anchor xml:id="c57-0170.07"/></line>
+      <add hand="#pbs" place="intralinear">to me, almost as imposing &amp; <w ana="start"/>inte</add></line>
+    <line><add hand="#pbs" place="interlinear">resting<w ana="end"/> as truth.</add><anchor xml:id="c57-0170.07"/></line>
     <milestone unit="tei:p"/>
     <line rend="indent2">Our conversations <mod>
         <del rend="strikethrough">have</del>
@@ -11411,24 +11407,23 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>displays unbounded knowledge and a quick</line>
     <line>&amp; piercing apprehension. His eloquence is</line>
     <line>forcible &amp; touching nor can I hear him when</line>
-    <line>he narrates a pathetic incident or endea</line>
-    <line>vours to move the passions <add hand="#pbs" place="superlinear">of</add> pity &amp; love
+    <line>he narrates a pathetic incident or <w ana="start"/>endea</line>
+    <line>vours<w ana="end"/> to move the passions <add hand="#pbs" place="superlinear">of</add> pity &amp; love
       without</line>
-    <line>tears. What a glorious creature must <del instant="true" rend="strikethrough">this</del>
-      he</line>
+    <line>tears. What a glorious creature must <del instant="true" rend="strikethrough">this</del> he</line>
     <line>have been in his days of prosperity when</line>
     <line>he is thus noble &amp; godlike in ruin – He seems</line>
     <line>to feel his own worth &amp; the greatness of</line>
     <line>his fall. <del rend="strikethrough">I have felt, said he, great &amp;</del></line>
-    <line>When younger, said he, I felt as if I was destin</line>
-    <line>ed for some great enterprize. My feelings</line>
-    <line>are profound but I possess<add place="sublinear">ed</add> a coolness of judge</line>
-    <line>ment that fitted me for <!--mod  spanTo="#c57-0170.08"--><delSpan rend="strikethrough" spanTo="#c57-0170.09"/>gr<mod>
+    <line>When younger, said he, I felt as if I was <w ana="start"/>destin</line>
+    <line>ed<w ana="end"/> for some great enterprize. My feelings</line>
+    <line>are profound but I possess<add place="sublinear">ed</add> a coolness of <w ana="start"/>judge</line>
+    <line>ment<w ana="end"/> that fitted me for <!--mod  spanTo="#c57-0170.08"--><delSpan rend="strikethrough" spanTo="#c57-0170.09"/>gr<mod>
         <del rend="overwritten">an</del>
         <add hand="#pbs" place="intralinear">eat</add>
         <del rend="strikethrough">d</del>
-      </mod> enter</line>
-    <line>prises<anchor xml:id="c57-0170.09"/><anchor xml:id="c57-0170.04"/><zone corresp="#c57-0170.04" type="left_margin">
+      </mod> <w ana="start"/>enter</line>
+    <line>prises<w ana="end"/> <anchor xml:id="c57-0170.09"/><anchor xml:id="c57-0170.04"/><zone corresp="#c57-0170.04" type="left_margin">
     <addSpan hand="#pbs" spanTo="#c57-0170.05"/>
     <line>illustrious</line>
     <line>atchievements</line>
@@ -11436,13 +11431,13 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
   </zone><anchor xml:id="c57-0170.08"/>. This sentiment of the worth of my</line>
     <line>nature supported me when others <add place="intralinear">would</add></line>
     <line>have sunk for I deemed it criminal</line>
-    <line>to throw away in useless grief; those ta</line>
-    <line>lents that might be useful to my</line>
+    <line>to throw away in useless grief; those <w ana="start"/>ta</line>
+    <line>lents<w ana="end"/> that might be useful to my</line>
     <line>fellow creatures – When I reflected on the</line>
     <line>work that I had compleated, no less a one</line>
     <line>than the creation of a sensitive &amp;</line>
-    <line>rational animal I could not rank my</line>
-    <line>self with the herd of common projectors.</line>
+    <line>rational animal I could not rank <w ana="start"/>my</line>
+    <line>self<w ana="end"/> with the herd of common projectors.</line>
     <line>But this feeling which supported me <del rend="strikethrough">only</del></line>
     <line>now serves <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
@@ -11471,11 +11466,10 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>my speculations &amp; hopes are as nothing and like the</line>
     <line>Archangel who aspired to omnipotence I am <del rend="strikethrough">now</del></line>
     <line>chained in an eternal hell. My imagination</line>
-    <line>was vivid yet my <del rend="strikethrough">app</del> powers of application were in-</line>
-    <line>tense – by the union of these qualities I <del rend="strikethrough">ex</del>
+    <line>was vivid yet my <del rend="strikethrough">app</del> powers of application were <w ana="start"/>in</line>
+    <line>tense<w ana="end"/> – by the union of these qualities I <del rend="strikethrough">ex</del>
       conceived</line>
-    <line>the idea and executed the <del instant="true" rend="strikethrough">desig</del> creation of
-      a man–</line>
+    <line>the idea and executed the <del instant="true" rend="strikethrough">desig</del> creation of a man–</line>
     <line>Even now I cannot recollect without passion</line>
     <line>my reveries while the work was incomplete –I</line>
     <line>trod heaven in my thoughts – now exulting</line>
@@ -11496,8 +11490,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">state of <del instant="true" rend="strikethrough">dgr</del>
           degradation</add>
-      </mod> Despon</line>
-    <line>dancy rarely visited my heart a high destiny</line>
+      </mod> <w ana="start"/>Despon</line>
+    <line>dancy<w ana="end"/> rarely visited my heart a high destiny</line>
     <line>seemed to bear me on, untill I fe<mod>
         <del rend="overwritten">e</del>
         <add place="intralinear">l</add>
@@ -11512,8 +11506,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">admirable being</add>
       </mod>? I have</line>
-    <line>longed for a friend, <add hand="#pbs" place="superlinear">I have sought</add> one who
-      would sympathize</line>
+    <line>longed for a friend, <add hand="#pbs" place="superlinear">I have sought</add> one who would sympathize</line>
     <line>with &amp; love me. Behold on these desart seas</line>
     <line>I have found <mod>
         <del rend="strikethrough">one</del>
@@ -11537,17 +11530,17 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <del rend="unmarked">.</del>
         <add hand="#pbs" place="superlinear">which are gone?</add>
       </mod> Can any man</line>
-    <line>be to me as Clerval was or any woman ano</line>
-    <line>ther Elizabeth. Even where the affections are</line>
-    <line>not strongly moved by any superior excel</line>
-    <line>lence the companions of our childhood al</line>
+    <line>be to me as Clerval was or any woman <w ana="start"/>ano</line>
+    <line>ther<w ana="end"/> Elizabeth. Even where the affections are</line>
+    <line>not strongly moved by any superior <w ana="start"/>excel</line>
+    <line>lence<w ana="end"/> the companions of our childhood <w ana="start"/>al</line>
   </zone>
 </surface>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5148" lry="7030" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="86v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0172.xml" xml:id="ox-ms_abinger_c57-0172">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0172.jp2"/>
   <zone rend="bordered" type="pagination"><line>188</line></zone>
   <zone type="main">
-    <line>ways possess a certain power over our mind</line>
+    <line>ways<w ana="end"/> possess a certain power over our mind</line>
     <line>that hardly any other later friend can</line>
     <line>obtain. They know our infantine feelings</line>
     <line>which however they may be afterwards</line>
@@ -11557,10 +11550,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       <add place="superlinear">eradicated</add>
     </mod> and they</line>
     <line>can judge of our actions with greater</line>
-    <line>certainty – A sister or brother can never, un</line>
-    <line>less indeed such symtoms have been shewn</line>
-    <line>early suspect the other <add hand="#pbs" place="superlinear">of</add> fraud or
-      false</line>
+    <line>certainty – A sister or brother can never, <w ana="start"/>un</line>
+    <line>less<w ana="end"/> indeed such symtoms have been shewn</line>
+    <line>early suspect the other <add hand="#pbs" place="superlinear">of</add> fraud or false</line>
     <line>dealing when another friend however</line>
     <line>strongly he may be attatched may <mod>
       <del rend="strikethrough">feel</del>
@@ -11570,8 +11562,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>But I enjoyed friends dear not only by</line>
     <line>association but for their<del rend="strikethrough">e</del> own sake –and</line>
     <line>wherever I am the soothing voice of my</line>
-    <line>Eliszabeth or the conversation of Cler</line>
-    <line>val will be ever whispered <mod>
+    <line>Eliszabeth or the conversation of <w ana="start"/>Cler</line>
+    <line>val<w ana="end"/> will be ever whispered <mod>
       <del rend="strikethrough">to</del>
       <add place="sublinear"><metamark function="insert">^</metamark></add>
       <add hand="#pbs" place="superlinear">in</add>
@@ -11589,8 +11581,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add hand="#pbs" place="superlinear">persuade me to preserve my life</add>
       </mod>. If I</line>
     <line>w<del rend="strikethrough">h</del>ere engaged in any high undertaking</line>
-    <line>or design fraught with extensive uti</line>
-    <line>lity to my fellow creatures then could I</line>
+    <line>or design fraught with extensive <w ana="start"/>uti</line>
+    <line>lity<w ana="end"/> to my fellow creatures then could I</line>
     <line>live to fulfil it—But such is not my</line>
     <line>destiny –I must pursue &amp; destroy the</line>
     <line><mod>
@@ -11625,19 +11617,18 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0173.jp2"/>
   <zone rend="bordered" type="pagination"><line>189</line></zone>
   <zone type="main">
-    <line>crush my vessel. The brave fellows whom I persua</line>
-    <line>ded to be my companions look at me for aid</line>
+    <line>crush my vessel. The brave fellows whom I <w ana="start"/>persua</line>
+    <line>ded<w ana="end"/> to be my companions look at me for aid</line>
     <line>but I have none <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">to bestow.</add>
-      </mod> There is somthing terribly appall</line>
-    <line>ing in our situation Yet my courage &amp; hopes do</line>
+      </mod> There is somthing terribly <w ana="start"/>appall</line>
+    <line>ing<w ana="end"/> in our situation Yet my courage &amp; hopes do</line>
     <line>not desert me — We may survive &amp; if we do not –</line>
     <line>I will repeat the lessons of my Seneca &amp; die with a</line>
     <line>good heart.</line>
     <milestone unit="tei:p"/>
-    <line rend="indent1">Yet what, Mar<damage type="inkblot">gar</damage>et, will
-      be your state – You</line>
+    <line rend="indent1">Yet what, Mar<!--<damage type="inkblot">-->gar<!--</damage>-->et, will be your state – You</line>
     <line>will not hear of my destruction and you will</line>
     <line>anxiously awai<mod>
         <del rend="overwritten">d</del>
@@ -11656,22 +11647,22 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>me with the tenderest compassion – He</line>
     <line><del rend="strikethrough">fills</del> endeavours to fill me with hope – And</line>
     <line>talks as if life were a thing which he loved</line>
-    <line>He reminds me how often the same acci</line>
-    <line>dents have happened to other navigators,</line>
+    <line>He reminds me how often the same <w ana="start"/>acci</line>
+    <line>dents<w ana="end"/> have happened to other navigators,</line>
     <line>who have attempted the same sea. In</line>
     <line>spite of myself he fills me with cheerful</line>
     <line>augu<del rend="strikethrough">i</del>ries. Even the sailors feel the benefit</line>
     <line>of his eloquence – when he speaks they</line>
-    <line>no longer despair – he rouzes their ener</line>
-    <line>gies &amp; they believe <del rend="smear"><mod>
+    <line>no longer despair – he rouzes their <w ana="start"/>ener</line>
+    <line>gies<w ana="end"/> &amp; they believe <del rend="smear"><mod>
           <add place="sublinear"><metamark function="insert">^</metamark></add>
           <add hand="#pbs" place="superlinear">when</add>
         </mod></del> these vast mountains</line>
     <line>of ice <mod>
         <del rend="strikethrough">and</del>
         <add hand="#pbs" place="superlinear">are</add>
-      </mod> mole hills which will va</line>
-    <line>nish before the resolution<add place="intralinear">s</add> of man.</line>
+      </mod> mole hills which will <w ana="start"/>va</line>
+    <line>nish<w ana="end"/> before the resolution<add place="intralinear">s</add> of man.</line>
     <line><del rend="strikethrough">But</del> this is but transitory and each</line>
     <line>days expectation delayed, fills them fear &amp;</line>
     <line rend="indent3">I almost dread <add hand="#pbs" place="superlinear">the</add> mutiny <add hand="#pbs" place="intralinear">of despair</add></line>
@@ -11685,8 +11676,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>A scene has just passed of such <mod>
         <del rend="strikethrough">curious</del>
         <add hand="#pbs" place="superlinear">uncommon</add>
-      </mod> inter</line>
-    <line>rest that although it is highly probable that</line>
+      </mod> <w ana="start"/>inter</line>
+    <line>rest<w ana="end"/> that although it is highly probable that</line>
     <line>the papers may never reach you, my dear</line>
     <line>Margeret, yet I cannot forbear recording it.</line>
     <line>We are still surrounded by <mod>
@@ -11694,17 +11685,16 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add hand="#pbs" place="superlinear">mountains of</add>
       </mod> ice still in <mod>
         <del rend="overwritten">e</del>
-        <add place="intralinear">i</add>
+        <w ana="start"/><add place="intralinear">i</add>
       </mod>m</line>
-    <line>minent danger <add hand="#pbs" place="superlinear">of being crushed in their
-        conflict.</add>— The cold is excessive &amp;</line>
+    <line>minent<w ana="end"/> danger <add hand="#pbs" place="superlinear">of being crushed in their conflict.</add>— The cold is excessive &amp;</line>
     <line><anchor xml:id="c57-0174.01"/><zone corresp="#c57-0174.01" type="left_margin">
     <line><add>many of </add></line>
   </zone>my unfortunate comrades have already</line>
     <line>found a grave admidst this scene of</line>
     <line>desolation. Frankenstein has declined daily</line>
-    <line><del rend="strikethrough">his</del> in health a feverish fire still glim</line>
-    <line>mers in his eyes but he is ex<mod>
+    <line><del rend="strikethrough">his</del> in health a feverish fire still <w ana="start"/>glim</line>
+    <line>mers<w ana="end"/> in his eyes but he is ex<mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear">h</add>
       </mod>austed &amp;</line>
@@ -11717,32 +11707,32 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line rend="indent2">I mentioned my last letter the fears</line>
     <line>I had of mutiny. This morning as I sat</line>
     <line>watching the <add place="superlinear">wan</add> countenance of my friend his</line>
-    <line>eyes half closed and his limbs hanging list</line>
-    <line>lessly I was rouzed by half a dozen of the</line>
-    <line>sailors who desired admission into the ca</line>
-    <line>bin they enter<del rend="strikethrough">r</del>ed &amp; their leader adressed</line>
-    <line>me. He told me that he &amp; his compani</line>
-    <line>ons had been chosen by the other sailors</line>
+    <line>eyes half closed and his limbs hanging <w ana="start"/>list</line>
+    <line>lessly<w ana="end"/> I was rouzed by half a dozen of the</line>
+    <line>sailors who desired admission into the <w ana="start"/>ca</line>
+    <line>bin<w ana="end"/> they enter<del rend="strikethrough">r</del>ed &amp; their leader adressed</line>
+    <line>me. He told me that he &amp; his <w ana="start"/>compani</line>
+    <line>ons<w ana="end"/> had been chosen by the other sailors</line>
     <line>to come in deputation to me to make</line>
     <line>a demand which in justice I could not</line>
     <line>refuse. We were immured by ice &amp;</line>
     <line>would probably never escape but they</line>
     <line>feared that if, as was possible the ice</line>
     <line>should be dissipated and a free passage</line>
-    <line>opened I should be rash enough to conti</line>
-    <line>nue my voyage &amp; lead them to fresh</line>
+    <line>opened I should be rash enough to <w ana="start"/>conti</line>
+    <line>nue<w ana="end"/> my voyage &amp; lead them to fresh</line>
     <line>dang<damage type="inkblot">e</damage>rs after they <mod>
         <del rend="strikethrough">had</del>
         <add hand="#pbs" place="superlinear">might</add>
         <del rend="strikethrough">so</del>
-      </mod> happily <add hand="#pbs" place="superlinear">have</add> sur</line>
-    <line>mounted <mod>
+      </mod> happily <add hand="#pbs" place="superlinear">have</add> <w ana="start"/>sur</line>
+    <line>mounted<w ana="end"/> <mod>
         <del rend="strikethrough">this</del>
         <del rend="unmarked">.</del>
         <add hand="#pbs" place="superlinear">this.</add>
       </mod> They desired therefore that</line>
     <line>I should make a solemn promise <delSpan rend="strikethrough" spanTo="#c57-0174.02"/>that</line>
-    <line>when<anchor xml:id="c57-0174.02"/> if the vess<damage type="inkblot">e</damage>l s<damage type="inkblot">houl</damage>d be freed, <mod>
+    <line>when<anchor xml:id="c57-0174.02"/> if the vess<!--<damage type="inkblot">-->e<!--</damage>-->l s<!--<damage type="inkblot">-->houl<!--</damage>-->d be freed, <mod>
         <add place="sublinear"><metamark>^</metamark></add>
         <add hand="#pbs" place="superlinear">that</add>
       </mod> I</line>
@@ -11759,8 +11749,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
   </zone>
 
   <zone type="main">
-    <line>would instantly direct my course to <!--mod  spanTo="#c57-0175.01"--><delSpan spanTo="#c57-0175.02"/>En</line>
-    <line>gland.<anchor xml:id="c57-0175.02"/>
+    <line>would instantly direct my course to <!--mod  spanTo="#c57-0175.01"--><delSpan spanTo="#c57-0175.02"/><w ana="start"/>En</line>
+    <line>gland<w ana="end"/>.<anchor xml:id="c57-0175.02"/>
       <add hand="#pbs" place="intralinear">Archangel.</add><anchor xml:id="c57-0175.01"/></line>
     <milestone unit="tei:p"/>
     <line rend="indent1">This speech tro<mod>
@@ -11782,8 +11772,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       <mod>
         <del rend="strikethrough">men</del>
         <add hand="#pbs" place="superlinear">demand</add>
-      </mod>. I hesitated be-</line>
-    <line>fore I answered <add place="superlinear">when</add> Frankenstein who had</line>
+      </mod>. I hesitated <w ana="start"/>be</line>
+    <line>fore<w ana="end"/> I answered <add place="superlinear">when</add> Frankenstein who had</line>
     <line><del rend="strikethrough">hitherto</del> at first been silent &amp; indeed</line>
     <line><anchor xml:id="c57-0175.03"/><zone corresp="#c57-0175.03" type="left_margin">
     <line><add>appeared </add></line>
@@ -11793,8 +11783,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <del rend="overwritten"><unclear reason="illegible">y</unclear></del>
         <add place="intralinear">d</add>
       </mod> his cheek flushed <add hand="#pbs" place="superlinear">was</add> with momentary</line>
-    <line>vigo<add place="intralinear">u</add>r. <del rend="strikethrough">and</del> Turning to the
-      men he</line>
+    <line>vigo<add place="intralinear">u</add>r. <del rend="strikethrough">and</del> Turning to the men he</line>
     <line>said; What do you mean? What do</line>
     <line>you demand of your captain? Are</line>
     <line>you then so easily turned from your</line>
@@ -11817,19 +11806,19 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>your fortitude was to be called forth &amp; your</line>
     <line>courage exhibited– Because death &amp; danger</line>
     <line>surrounded you &amp; these you were to</line>
-    <line>brave &amp; overcome. For this was it a glori</line>
-    <line>ous; for this was it <mod>
+    <line>brave &amp; overcome. For this was it a <w ana="start"/>glori</line>
+    <line>ous<w ana="end"/>; for this was it <mod>
         <del rend="strikethrough">&amp;</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">an</add>
-      </mod> honorable under</line>
-    <line>taking. You were to <mod>
+      </mod> honorable <w ana="start"/>under</line>
+    <line>taking<w ana="end"/>. You were to <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">be</add>
       </mod> hereafter hailed</line>
     <line>as <add place="superlinear">the</add> benefactors of your species – <unclear reason="case">Y</unclear>our names</line>
-    <line>adored as the brave men who encoun</line>
-    <line>tered death for honor &amp; <mod>
+    <line>adored as the brave men who <w ana="start"/>encoun</line>
+    <line>tered<w ana="end"/> death for honor &amp; <mod>
         <del rend="strikethrough">glory</del>
         <add hand="#pbs" place="superlinear">the benefit of mankind.</add>
       </mod> – And now</line>
@@ -11859,10 +11848,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>not <del rend="strikethrough">co</del> have come thus far &amp; dragged <del rend="strikethrough">to</del> your</line>
     <line>Captain to the shame of a defeat to prove</line>
     <line>yourselves cowards. Oh be men or be <del rend="strikethrough">for</del></line>
-    <line>more than men – be steady to your pur</line>
-    <line>poses &amp; fir<retrace cause="unclear">m</retrace> as rock. this ice is not made</line>
-    <line>of such stuff <add hand="#pbs" place="superlinear">as your hearts might be.</add> it is
-      mutable &amp; cannot</line>
+    <line>more than men – be steady to your <w ana="start"/>pur</line>
+    <line>poses<w ana="end"/> &amp; fir<retrace cause="unclear">m</retrace> as rock. this ice is not made</line>
+    <line>of such stuff <add hand="#pbs" place="superlinear">as your hearts might be.</add> it is mutable &amp; cannot</line>
     <line>withand you if you say that it shall</line>
     <line>not. Do not return to your famil<add place="intralinear">i</add>es</line>
     <line>with <del rend="strikethrough">s</del> the stigma of disgrace marked on</line>
@@ -11870,8 +11858,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>fought &amp; conquered &amp; who know not what</line>
     <line>it is to turn their backs on the foe<del rend="strikethrough">s</del>.</line>
     <milestone unit="tei:p"/>
-    <line rend="indent2">He spoke thus with a voice so mo</line>
-    <line>dulated to the different feelings expressed</line>
+    <line rend="indent2">He spoke thus with a voice so <w ana="start"/>mo</line>
+    <line>dulated<w ana="end"/> to the different feelings expressed</line>
     <line>in his speech – with an eye so full of</line>
     <line>high design &amp; heroism that can you</line>
     <line>wonder that the<del rend="strikethrough">n</del> men were moved –They</line>
@@ -11915,8 +11903,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
   <zone rend="bordered" type="pagination"><line>193</line></zone>
   <zone type="library"><line>89</line></zone>
   <zone type="main">
-    <line>and honor can<del rend="strikethrough">d</del> never willingly continue to en</line>
-    <line>dure their present hardships.</line>
+    <line>and honor can<del rend="strikethrough">d</del> never willingly continue to <w ana="start"/>en</line>
+    <line>dure<w ana="end"/> their present hardships.</line>
     <milestone unit="tei:p"/>
     <line rend="right"><milestone spanTo="#c57-0177.01" unit="tei:date"/>September 7<hi rend="underline"><hi rend="sup">th</hi></hi><anchor xml:id="c57-0177.01"/></line>
     <line>The die is cast. I have consented to return if we</line>
@@ -11964,12 +11952,12 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod> split</line>
     <line>&amp; cracked in every direction. We were</line>
     <line>in the most eminent peril – But as we</line>
-    <line>could only remain passive my chief at</line>
-    <line>tention was <del rend="strikethrough">co</del> occupied by my unfor</line>
-    <line>tunate guest whose illness encreased to</line>
+    <line>could only remain passive my chief <w ana="start"/>at</line>
+    <line>tention<w ana="end"/> was <del rend="strikethrough">co</del> occupied by my <w ana="start"/>unfor</line>
+    <line>tunate<w ana="end"/> guest whose illness encreased to</line>
     <line>such a degree that <del rend="strikethrough">to</del> he was entirely</line>
-    <line>confined to his bed. The ice cracked be</line>
-    <line>hind us and was driven with force</line>
+    <line>confined to his bed. The ice cracked <w ana="start"/>be</line>
+    <line>hind<w ana="end"/> us and was driven with force</line>
     <line>towards the north – a bree<mod>
         <del rend="overwritten">h</del>
         <add place="intralinear">z</add>
@@ -11999,8 +11987,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add place="intralinear">d</add>
       </mod>e &amp; asked the reason <add hand="#pbs" place="superlinear">of the
       tumult</add>– I was unable to</line>
-    <line>reply. He asked again – They shout I said be</line>
-    <line>cause they will soon return to England.</line>
+    <line>reply. He asked again – They shout I said <w ana="start"/>be</line>
+    <line>cause<w ana="end"/> they will soon return to England.</line>
     <milestone unit="tei:p"/>
     <line rend="indent2">Do you then really return.</line>
     <milestone unit="tei:p"/>
@@ -12013,16 +12001,14 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <milestone unit="tei:p"/>
     <line rend="indent2">Do so if you will, <del rend="strikethrough">said my
         friend,</del> but</line>
-    <line>I will not. You may give up your pur</line>
-    <line>pose but mine is assigned to b<mod>
+    <line>I will not. You may give up your <w ana="start"/>pur</line>
+    <line>pose<w ana="end"/> but mine is assigned to b<mod>
         <del rend="overwritten">e</del>
         <add place="intralinear">y</add>
       </mod> heaven</line>
-    <line>and I dare not. I am weak, <delSpan rend="strikethrough" spanTo="#c57-0178.01"/>continued
-      he</line>
-    <line>sinking down<del rend="strikethrough">g</del> again<anchor xml:id="c57-0178.01"/> but
-      surely the <!--mod  spanTo="#c57-0178.02"--><delSpan rend="strikethrough" spanTo="#c57-0178.03"/>minis</line>
-    <line>ters<anchor xml:id="c57-0178.03"/><anchor xml:id="c57-0178.04"/><zone corresp="#c57-0178.04" type="left_margin">
+    <line>and I dare not. I am weak, <delSpan rend="strikethrough" spanTo="#c57-0178.01"/>continued he</line>
+    <line>sinking down<del rend="strikethrough">g</del> again<anchor xml:id="c57-0178.01"/> but surely the <!--mod  spanTo="#c57-0178.02"--><delSpan rend="strikethrough" spanTo="#c57-0178.03"/><w ana="start"/>minis</line>
+    <line>ters<w ana="end"/> <anchor xml:id="c57-0178.03"/><anchor xml:id="c57-0178.04"/><zone corresp="#c57-0178.04" type="left_margin">
     <line><add>spirits</add></line>
   </zone><anchor xml:id="c57-0178.02"/> who assist my vengeance will endow</line>
     <line>me with sufficient strength – Saying</line>
@@ -12074,8 +12060,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
   <zone rend="bordered" type="pagination"><line>195</line></zone>
   <zone type="library"><line>90</line></zone>
   <zone type="main">
-    <line>shall soon die and he my enemy &amp; perse</line>
-    <line>cutor may still be in being. Think not, Walton,</line>
+    <line>shall soon die and he my enemy &amp; <w ana="start"/>perse</line>
+    <line>cutor<w ana="end"/> may still be in being. Think not, Walton,</line>
     <line>than in the last moments of my existence</line>
     <line>I feel that burning hatred &amp; ardent desire</line>
     <line>of revenge that I once expressed but I feel</line>
@@ -12087,12 +12073,12 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <del rend="strikethrough">an</del>
         <add place="superlinear">nor</add>
       </mod> do I find it blamable.</line>
-    <line><del rend="strikethrough">In</del> In a fit of enthusiastic madness I crea</line>
-    <line>ted a rational creature &amp; was bound</line>
+    <line><del rend="strikethrough">In</del> In a fit of enthusiastic madness I <w ana="start"/>crea</line>
+    <line>ted<w ana="end"/> a rational creature &amp; was bound</line>
     <line><del rend="strikethrough">by</del> towards him to assure as far as in me</line>
     <line>lay his happiness &amp; well being– this was</line>
-    <line>my duty– but there was one still para</line>
-    <line>mount to this. <del rend="strikethrough">It</del>
+    <line>my duty– but there was one still <w ana="start"/>para</line>
+    <line>mount<w ana="end"/> to this. <del rend="strikethrough">It</del>
       <del rend="strikethrough">was</del> My duties towards</line>
     <line>my fellow creatures had greater claims</line>
     <line>because they <mod>
@@ -12113,12 +12099,12 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>sensations – happiness &amp; wisdom<anchor xml:id="c57-0179.03"/>
       <milestone spanTo="#c57-0179.05" unit="tei:seg" xml:id="c57-0179.04"/>he</line>
     <line>devoted to destruction<anchor xml:id="c57-0179.05"/>
-      <listTranspose>
+     <!-- <listTranspose>
         <transpose>
           <ptr target="#c57-0179.04"/>
           <ptr target="#c57-0179.02"/>
         </transpose>
-      </listTranspose> <unclear reason="case">N</unclear>or do I know</line>
+      </listTranspose> --><unclear reason="case">N</unclear>or do I know</line>
     <!--"Nor" could be "nor"-->
     <line><unclear reason="case">W</unclear>here this thirst for <del rend="strikethrough">g</del> vengeance</line>
     <!--"Where" could be "where"-->
@@ -12132,9 +12118,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add place="intralinear">e</add>
       </mod> task of</line>
     <line>his destruction was mine but I have</line>
-    <line>failed. <del rend="strikethrough">In</del> Once <del rend="strikethrough">I demanded</del>
-      when actua</line>
-    <line>ted by selfish and vicious motives I</line>
+    <line>failed. <del rend="strikethrough">In</del> Once <del rend="strikethrough">I demanded</del> when <w ana="start"/>actua</line>
+    <line>ted<w ana="end"/> by selfish and vicious motives I</line>
     <line>asked you to undertake my unfinished</line>
     <line>work and I renew this request now when</line>
   </zone>
@@ -12183,9 +12168,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add place="superlinear">several</add>
       </mod> years. The forms of the beloved</line>
     <line>dead flit before me and I hasten to</line>
-    <line>their arms. Farewell Walton. Seek hap</line>
-    <line>piness in tranquillity and avoid ambi</line>
-    <line>tion even if <del rend="strikethrough">the</del> it be only the apparently</line>
+    <line>their arms. Farewell Walton. Seek <w ana="start"/>hap</line>
+    <line>piness<w ana="end"/> in tranquillity and avoid <w ana="start"/>ambi</line>
+    <line>tion<w ana="end"/> even if <del rend="strikethrough">the</del> it be only the apparently</line>
     <line>innocent one of shining in science &amp;</line>
     <line>discoveries. Yet <del rend="strikethrough">I</del> why do I say this? I have</line>
     <line>myself been blasted in these hopes but</line>
@@ -12203,8 +12188,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>silen<mod>
         <del rend="overwritten">t</del>
         <add place="intralinear">ce</add>
-      </mod>– About half an hour after</line>
-    <line>wards he endeavoured to speak, but</line>
+      </mod>– About half an hour <w ana="start"/>after</line>
+    <line>wards<w ana="end"/> he endeavoured to speak, but</line>
     <line>was unable – he pressed my hand feebly</line>
     <line>and his eyes closed while a gentle smile</line>
     <line>played on his lips.</line>
@@ -12255,8 +12240,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line rend="indent2">I entered the cabin where lay the</line>
     <line>remains of my miserable guest. Over him</line>
     <line>hung a form – which I cannot find words</line>
-    <line>to describe, gigantic in stature – yet un</line>
-    <line>couth &amp; distorted – his face was hid as he</line>
+    <line>to describe, gigantic in stature – yet <w ana="start"/>un</line>
+    <line>couth<w ana="end"/> &amp; distorted – his face was hid as he</line>
     <line>hung over the coffin by long lo<mod>
         <del rend="overwritten">n</del>
         <add place="intralinear">c</add>
@@ -12270,10 +12255,10 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>any thing so hideous as <mod>
         <del rend="overwritten"><unclear extent="1" unit="chars"/></del>
         <add place="intralinear">h</add>
-      </mod>is face so disgus</line>
-    <line>ting yet apalling – I shut my eyes involun</line>
-    <line>tarily while I called on him to stay. He pau</line>
-    <line>sed. Looking at me with wonder &amp; then</line>
+      </mod>is face so <w ana="start"/>disgus</line>
+    <line>ting<w ana="end"/> yet apalling – I shut my eyes <w ana="start"/>involun</line>
+    <line>tarily<w ana="end"/> while I called on him to stay. He <w ana="start"/>pau</line>
+    <line>sed<w ana="end"/>. Looking at me with wonder &amp; then</line>
   </zone>
 </surface>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="91v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0182.xml" xml:id="ox-ms_abinger_c57-0182">
@@ -12296,8 +12281,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <del rend="strikethrough">you</del>
         <add hand="#pbs" place="superlinear">thee</add>
       </mod> to</line>
-    <line>pardon me – I who destroyed thee by des</line>
-    <line>troying those <mod>
+    <line>pardon me – I who destroyed thee by <w ana="start"/>des</line>
+    <line>troying<w ana="end"/> those <mod>
         <del rend="strikethrough">thou</del>
         <del rend="strikethrough">you</del>
         <add hand="#pbs" place="superlinear">thou</add>
@@ -12312,15 +12297,15 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <del rend="strikethrough">away</del>
         <add hand="#pbs" place="superlinear">was overwhelmed</add>
       </mod> in</line>
-    <line>a mixture of curiosity &amp; pity. I approach</line>
-    <line>ed him – yet I dared not look on him</line>
+    <line>a mixture of curiosity &amp; pity. I <w ana="start"/>approach</line>
+    <line>ed<w ana="end"/> him – yet I dared not look on him</line>
     <line>there was somthing so <milestone spanTo="#c57-0182.04" unit="tei:seg" xml:id="c57.0182.02"/>unearthly<anchor xml:id="c57-0182.04"/><add hand="#pbs" place="superlinear"><metamark function="transpose" target="#c57-0182.02">2</metamark></add> &amp; <milestone spanTo="#c57-0182.05" unit="tei:seg" xml:id="c57.0182.03"/>scaring<anchor xml:id="c57-0182.05"/><add hand="#pbs" place="sublinear"><metamark function="insert">^</metamark></add><add hand="#pbs" place="superlinear"><metamark function="transpose" target="#c57-0182.03"><mod><del rend="overwritten">2</del><add hand="#pbs" place="intralinear">1</add></mod></metamark></add>
-      <listTranspose>
+     <!-- <listTranspose>
         <transpose>
           <ptr target="#c57-0182.03"/>
           <ptr target="#c57-0182.02"/>
         </transpose>
-      </listTranspose></line>
+      </listTranspose>--></line>
     <line>in his ugliness. I attempted to speak but</line>
     <line>the words died away on my lips – The Monster</line>
     <line>continued to utter wild &amp; incoherent</line>
@@ -12334,8 +12319,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
             <del rend="strikethrough">its</del>
             <add hand="#pbs" place="superlinear">this</add>
           </mod> extremity</add>
-      </mod> Fran</line>
-    <line>kenstein would yet have live<add place="intralinear">d</add></line>
+      </mod> <w ana="start"/>Fran</line>
+    <line>kenstein<w ana="end"/> would yet have live<add place="intralinear">d</add></line>
     <milestone unit="tei:p"/>
     <line rend="indent1">And do you think, said the dæmon</line>
     <line>that <hi rend="underline">I</hi> was then dead to anguish and</line>
@@ -12356,20 +12341,19 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>not that the groans of Clerval were music</line>
     <line>to my <del rend="strikethrough">ye</del> ear. My heart was made for love &amp;</line>
     <line>sympathy and when wrenched <del rend="strikethrough">to</del> by misery to</line>
-    <line>vice &amp; hatred it did not not endure the vio</line>
-    <line>lence of the change without torture <add hand="#pbs" place="superlinear">such as
+    <line>vice &amp; hatred it did not not endure the <w ana="start"/>vio</line>
+    <line>lence<w ana="end"/> of the change without torture <add hand="#pbs" place="superlinear">such as
           you<metamark function="displacement" xml:id="c57-0183.01">X</metamark><zone corresp="#c57-0183.01" type="left_margin">
     <addSpan hand="#pbs" spanTo="#c57-0183.04"/>
     <line><metamark function="displacement">X</metamark></line>
     <line> cannot</line>
-    <line>even im</line>
-    <line>agine</line>
+    <line>even <w ana="start"/>im</line>
+    <line>agine<w ana="end"/></line>
     <anchor xml:id="c57-0183.04"/>
   </zone></add> –
       When</line>
     <line>Clerval died I returned to Switzerland <delSpan rend="strikethrough" spanTo="#c57-0183.02"/><unclear>how</unclear></line>
-    <line>many <unclear>ti</unclear><anchor xml:id="c57-0183.02"/> heart broken &amp; overcome
-      –I pitied</line>
+    <line>many <unclear>ti</unclear><anchor xml:id="c57-0183.02"/> heart broken &amp; overcome –I pitied</line>
     <line>Frankenstein and his bitter sufferings – my</line>
     <line>pity amounted to horror – I abhorred my</line>
     <line>self – But when I saw that <mod>
@@ -12383,31 +12367,31 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>for ever barred – I was again rouzed to</line>
     <line>indignation &amp; revenge. I remembered my</line>
     <line>threat &amp; resolved to execute it—Yet when</line>
-    <line>she died— Nay then I <del rend="strikethrough">d</del> was not misera</line>
-    <line>ble –I cast off all feeling &amp; all anguish</line>
+    <line>she died— Nay then I <del rend="strikethrough">d</del> was not <w ana="start"/>misera</line>
+    <line>ble<w ana="end"/> –I cast off all feeling &amp; all anguish</line>
     <line>I rioted in the extent of my despair</line>
     <line>&amp; being urged thus far – I resolved to</line>
     <line>finish my demoniacal design. And</line>
     <line>it is now <mod>
         <del rend="strikethrough">finished</del>
         <add place="superlinear">ended</add>
-      </mod> – There is my last vic</line>
-    <line>tim.</line>
+      </mod> – There is my last <w ana="start"/>vic</line>
+    <line>tim<w ana="end"/>.</line>
     <milestone unit="tei:p"/>
     <line rend="indent1">I was touched by the expressions of his</line>
     <line>misery <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">yet</add>
       </mod> I remembered what Frankenstein</line>
-    <line>had said of his eloquence &amp; persua</line>
-    <line>sion – &amp; when I again cast my eyes on</line>
+    <line>had said of his eloquence &amp; <w ana="start"/>persua</line>
+    <line>sion<w ana="end"/> – &amp; when I again cast my eyes on</line>
     <line><add place="sublinear"><metamark function="displacement" xml:id="c57-0183.03">^</metamark><zone corresp="#c57-0183.03" type="left_margin">
     <line><add>the form of </add></line>
   </zone></add>my friend<del rend="erased">s</del>
       <del rend="strikethrough">form</del> my indignation was</line>
     <line>kindled – Wretch I said, It is well that</line>
-    <line>you come here to whine over the mise</line>
-    <line>ry you have created – you throw a torch</line>
+    <line>you come here to whine over the <w ana="start"/>mise</line>
+    <line>ry<w ana="end"/> you have created – you throw a torch</line>
     <line>among a pile of buildings &amp; when they</line>
   </zone>
   
@@ -12443,16 +12427,16 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a fellow feeling</add>
       </mod> in</line>
-    <line>my misery–I feel it deeply &amp; truly &amp; for sy</line>
-    <line>mpathy that I may never find. When</line>
+    <line>my misery–I feel it deeply &amp; truly &amp; for <w ana="start"/>sy</line>
+    <line>mpathy<w ana="end"/> that I may never find. When</line>
     <line>I first sought it– it was <mod>
         <del rend="strikethrough">in</del>
         <add place="superlinear">the</add>
       </mod> love of virtue,</line>
     <line>it was <del rend="strikethrough">in</del> feelings of happiness &amp; content</line>
     <line>that I wished to be participated. But</line>
-    <line>now that virtue is to me merely a sha</line>
-    <line>dow and happiness &amp; content <mod>
+    <line>now that virtue is to me merely a <w ana="start"/>sha</line>
+    <line>dow<w ana="end"/> and happiness &amp; content <mod>
         <del rend="strikethrough">and</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">are</add>
@@ -12491,8 +12475,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod></line>
     <line>has <add place="intralinear">s</add>unk me below the meanest <del rend="strikethrough">of</del></line>
     <line>animal– no crimes can equal mine</line>
-    <line>&amp; when I call over the frightful cata</line>
-    <line>logue I cannot believe that I am he</line>
+    <line>&amp; when I call over the frightful <w ana="start"/>cata</line>
+    <line>logue<w ana="end"/> I cannot believe that I am he</line>
     <line><damage extent="4" type="inkblot" unit="chars"/>whose thoughts were once filled with</line>
   </zone>
   
@@ -12503,8 +12487,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
   <zone rend="bordered" type="pagination"><line><damage type="tear">201</damage></line></zone>
   <zone type="main">
     <line>sublime &amp; transcendant visions of loveliness.</line>
-    <line>But it is even so – The fallen Angel becomes a ma</line>
-    <line>lignant devil—Yet he even he Mans enemy had</line>
+    <line>But it is even so – The fallen Angel becomes a <w ana="start"/>ma</line>
+    <line>lignant<w ana="end"/> devil—Yet he even he Mans enemy had</line>
     <line>friends &amp; associate<mod>
         <del rend="overwritten"><unclear extent="1" unit="chars"/></del>
         <add place="intralinear">s</add>
@@ -12528,8 +12512,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         died– her destru</del></line>
     <line>Still I desired love &amp; fellowship and I was still</line>
     <line>spurned – Was there no injustice in this? And</line>
-    <line>am I the only criminal while all man</line>
-    <line>kind sinned against me? Why do you not</line>
+    <line>am I the only criminal while all <w ana="start"/>man</line>
+    <line>kind<w ana="end"/> sinned against me? Why do you not</line>
     <line>hate Felix who drove his friend from his door</line>
     <line>or the man who would have destroyed</line>
     <line>the saviour of his child? Nay they are</line>
@@ -12553,13 +12537,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>murdered the lovely &amp; the helpless. I have</line>
     <line>seized the innocent as they slept and grasped</line>
     <line>his throat to death who never injured me.</line>
-    <line>I devoted my creator to misery &amp; have follow</line>
-    <line>ed <add place="superlinear">him</add> even to his <del rend="strikethrough">death</del>
-      destruction – You hate</line>
-    <line>me but your a<mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">b</add>
-      </mod>horrence cannot equal</line>
+    <line>I devoted my creator to misery &amp; have <w ana="start"/>follow</line>
+    <line>ed<w ana="end"/> <add place="superlinear">him</add> even to his <del rend="strikethrough">death</del> destruction – You hate</line>
+    <line>me but your a<mod><add place="sublinear"><metamark function="insert">^</metamark></add><add place="superlinear">b</add></mod>horrence cannot equal</line>
     <line>mine for myself–I look on my hands that</line>
     <line>executed the deed<del rend="strikethrough">s</del> I think of the heart that</line>
     <line>formed the plans &amp; I loathe myself.</line>
@@ -12597,8 +12577,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>no longer feel the anguish that now</line>
     <line>consumes me or be the prey of feelings</line>
     <line>unsatisfied yet unquenched. He is dead</line>
-    <line>who created me and when I die the remem-</line>
-    <line>brance of me will be lost for ever. <del rend="strikethrough">Yet</del></line>
+    <line>who created me and when I die the <w ana="start"/>remem</line>
+    <line>brance<w ana="end"/> of me will be lost for ever. <del rend="strikethrough">Yet</del></line>
     <line><del rend="strikethrough">Strange</del> I shall no longer see the sun</line>
     <line><mod>
         <del rend="strikethrough">and</del>
@@ -12640,8 +12620,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <del rend="strikethrough">d</del>
       </mod></line>
     <line>to you in death it would be better satisfied in</line>
-    <line>my life than in my destruction – <del rend="strikethrough">B</del> But it
-      was</line>
+    <line>my life than in my destruction – <del rend="strikethrough">B</del> But it was</line>
     <line>not so. You wished for my extinction that I</line>
     <line>might not cause greater <mod>
         <del rend="strikethrough">misery</del>
@@ -12685,8 +12664,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">&amp;</del>
         <add place="superlinear">&amp;</add>
-      </mod> pushing him</line>
-    <line>self off he was carried away by the</line>
+      </mod> pushing <w ana="start"/>him</line>
+    <line>self<w ana="end"/> off he was carried away by the</line>
     <line>waves and I soon lost sight of him</line>
     <line>in the darkness &amp; distance.</line>
   </zone>
