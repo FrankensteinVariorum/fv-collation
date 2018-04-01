@@ -5,8 +5,9 @@
     version="3.0">
 
    <xsl:template match="/">
-       <xsl:for-each-group select="//anchor[@type='collate']/following-sibling::*" group-starting-with="anchor[@type='collate']">
-       <xsl:result-document href="c57_FlagcollationChunks/{substring-before(tokenize(base-uri(), '/')[last()], '.')}_{current()/@xml:id}.xml" method="xml" indent="yes">
+       <xsl:for-each-group select="//anchor[@type='collate']/following::*" group-starting-with="anchor[@type='collate']">
+           <!--2018-04-01 ebb: CHANGE THE FILE DIRECTORY BELOW for c56, c57, or c58 as needed. -->
+       <xsl:result-document href="c58_FlagcollationChunks/{substring-before(tokenize(ancestor::xml/base-uri(), '/')[last()], '.')}_{current()/@xml:id}.xml" method="xml" indent="yes">
            <xml>
                <xsl:apply-templates select="current-group()"/>
            </xml>
