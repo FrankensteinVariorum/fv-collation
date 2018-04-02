@@ -100,6 +100,7 @@ for name in glob.glob('collationChunks/1818_fullFlat_*'):
         with open(name, 'rb') as f1818file, \
                 open('collationChunks/Thomas_fullFlat_' + matchString, 'rb') as fThomasfile, \
                 open('textTableOutputTEST/collation_' + matchStr + '.txt', 'w') as outputFile:
+            print(fThomasfile.readlines())
             f1818_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1818file))).split('\n')
             fThomas_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fThomasfile))).split('\n')
             f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
@@ -110,7 +111,7 @@ for name in glob.glob('collationChunks/1818_fullFlat_*'):
             # print(nowStr + '\n' + table, file=outputFile)
             # This yields a TypeError: "Can't convert 'AlignmentTable' object to str implicitly
             print(table, file=outputFile)
-    except:
+    except IOError:
         pass
 
 
