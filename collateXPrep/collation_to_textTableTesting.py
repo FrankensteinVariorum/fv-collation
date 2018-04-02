@@ -92,25 +92,26 @@ def processWitness(inputWitness, id):
 
 
 for name in glob.glob('collationChunks/1818_fullFlat_*'):
-    matchString = name.split("fullFlat_", 1)[1]
-    # ebb: above gets C30.xml for example
-    matchStr = matchString.split(".", 1)[0]
-    # ebb: above strips off the file extension
-    with open(name, 'rb') as f1818file, \
-            open('collationChunks/Thomas_fullFlat_' + matchString, 'rb') as fThomasfile, \
-            open('collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
-            open('textTableOutputTEST/collation_' + matchStr + '.txt', 'w') as outputFile:
-        f1818_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1818file))).split('\n')
-        f1823_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1823file))).split('\n')
-        f1831_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1831file))).split('\n')
-        f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
-        f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
-        f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
-        collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist, f1831_tokenlist]}
-        # table = collate(collation_input, output='tei', segmentation=True)
-        table = collate(collation_input, segmentation=True, layout='vertical')
-        # print(nowStr + '\n' + table, file=outputFile)
-        # This yields a TypeError: "Can't convert 'AlignmentTable' object to str implicitly
-        print(table, file=outputFile)
+    try:
+        matchString = name.split("fullFlat_", 1)[1]
+        # ebb: above gets C30.xml for example
+        matchStr = matchString.split(".", 1)[0]
+        # ebb: above strips off the file extension
+        with open(name, 'rb') as f1818file, \
+                open('collationChunks/Thomas_fullFlat_' + matchString, 'rb') as fThomasfile, \
+                open('textTableOutputTEST/collation_' + matchStr + '.txt', 'w') as outputFile:
+            print(fThomasfile.readlines())
+            f1818_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1818file))).split('\n')
+            fThomas_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fThomasfile))).split('\n')
+            f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
+            fThomas_tokenlist = processWitness(fThomas_tokens, 'fThomas')
+            collation_input = {"witnesses": [f1818_tokenlist, fThomas_tokenlist]}
+            # table = collate(collation_input, output='tei', segmentation=True)
+            table = collate(collation_input, segmentation=True, layout='vertical')
+            # print(nowStr + '\n' + table, file=outputFile)
+            # This yields a TypeError: "Can't convert 'AlignmentTable' object to str implicitly
+            print(table, file=outputFile)
+    except IOError:
+        pass
 
 

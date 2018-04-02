@@ -132,6 +132,7 @@ for name in glob.glob('collationChunks/1818_fullFlat_*'):
         collation_input = {"witnesses": [f1818_tokenlist, fThomas_tokenlist, f1823_tokenlist, fMSc56_tokenlist, fMSc57_tokenlist, fMSc58_tokenlist, fMSc57Frag_tokenlist, fMSc58Frag_tokenlist, f1831_tokenlist]}
         table = collate(collation_input, output='tei', segmentation=True)
         # table = collate(collation_input, segmentation=True, layout='vertical')
+        # table = collate(collation_input, output='xml', segmentation=True)
         print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
 
 
