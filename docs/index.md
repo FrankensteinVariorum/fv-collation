@@ -19,6 +19,8 @@ We are working on preparing a new digital edition of the novel _Frankenstein_ in
 
 
 ### About *Frankenstein* and our variorum project:
+* [The Pittsburgh Digital Frankenstein Project: Reassembling Textual Bodies](http://slides.com/elisabeshero-bondar/pghpitt_frankenstein): Presentation for the Humanities Center at the University of Pittsburgh, Cathedral of Learning on 2 April 2018. Explanation of the project and range of collaborating people and institutions. Updated with material on latest full collation of manuscript notebooks, Thomas edition, and 1818, 1823, and 1831 published editions. 
+
 * [Bicentennial Bits and Bytes: The Pittsburgh Digital Frankenstein Project](http://slides.com/elisabeshero-bondar/mla_bicentfrank): MLA 2018 panel presentation on our variorum edition project, reconciling previous digital editions, ongoing stylometric research, and annotation development. 
 
 * [*Frankenstein* and Text Genetics](http://bit.ly/FrankenTextGen): an introduction to the novel and its contexts, and our project's connection with the Shelley-Godwin Archive
