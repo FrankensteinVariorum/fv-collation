@@ -6,17 +6,18 @@
     exclude-result-prefixes="xs math pitt"
     version="3.0">
     
+    <xsl:mode on-no-match="shallow-copy"/>
     <xsl:output indent="yes"/>    
     <xsl:strip-space elements="*"/>
     <xsl:param name="sga_loc" select="'https://github.com/umd-mith/sga/tree/master/data/tei/ox/'"/>
     
     <xsl:function name="pitt:getLbPointer">
         <xsl:param name="str"/>
-        <xsl:analyze-string select="$str" regex="&lt;lb n=&quot;([^&quot;]+)&quot;\s*/&gt;">
+        <xsl:analyze-string select="$str" regex="&lt;lb n=&quot;([^&quot;]+?)&quot;\s*/&gt;">
             <xsl:matching-substring>
                 <xsl:variable name="ms-rest" select="tokenize(regex-group(1), '-')"/>
                 <xsl:variable name="ms" select="$ms-rest[1]"/>
-                <xsl:variable name="parts" select="tokenize($ms-rest[2], '_')"/>
+                <xsl:variable name="parts" select="tokenize($ms-rest[2], '__')"/>
                 <xsl:variable name="surface" select="$parts[1]"/>
                 <xsl:variable name="zone" select="$parts[2]"/>
                 <xsl:variable name="line" select="$parts[3]"/>
@@ -41,6 +42,7 @@
                 <rdg wit="#fMS">
                     <xsl:choose>
                         <xsl:when test="contains(., 'lb n=&quot;')">
+                            <xsl:message><xsl:value-of select="."/></xsl:message>
                             <xsl:variable name="pointer_start">
                                 <xsl:value-of select="pitt:getLbPointer(.)"/>
                             </xsl:variable>
