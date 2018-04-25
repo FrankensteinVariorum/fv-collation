@@ -96,41 +96,39 @@ def processWitness(inputWitness, id):
     return {'id': id, 'tokens': [processToken(token) for token in inputWitness]}
 
 
-for name in glob.glob('collChunkFrags/1818_fullFlat_*'):
+for name in glob.glob('collChunkFrags_c57/1818_fullFlat_*'):
     try:
         matchString = name.split("fullFlat_", 1)[1]
         # ebb: above gets C30.xml for example
         matchStr = matchString.split(".", 1)[0]
         # ebb: above strips off the file extension
         with open(name, 'rb') as f1818file, \
-                open('collChunkFrags/Thomas_fullFlat_' + matchString, 'rb') as fThomasfile, \
-                open('collChunkFrags/1823_fullFlat_' + matchString, 'rb') as f1823file, \
-                open('collChunkFrags/1831_fullFlat_' + matchString, 'rb') as f1831file, \
-                open('collChunkFrags/msColl_' + matchString, 'rb') as fMSfile, \
+                open('collChunkFrags_c57/Thomas_fullFlat_' + matchString, 'rb') as fThomasfile, \
+                open('collChunkFrags_c57/1823_fullFlat_' + matchString, 'rb') as f1823file, \
+                open('collChunkFrags_c57/1831_fullFlat_' + matchString, 'rb') as f1831file, \
+                open('collChunkFrags_c57/msColl_' + matchString, 'rb') as fMSfile, \
                 open('collationChunks/msColl_c57Frag_' + matchString, 'rb') as fMSc57Fragfile, \
-                open('collationChunks/msColl_c58_' + matchString, 'rb') as fMSc58file, \
-                open('collationChunks/msColl_c58Frag_' + matchString, 'rb') as fMSc58Fragfile, \
-                open('Full_xmlOutput_FragWits/collation_' + matchStr + '.xml', 'w') as outputFile:
+                open('Full_xmlOutput/msFrags/collation_' + matchStr + '.xml', 'w') as outputFile:
+                # open('collationChunks/msColl_c58_' + matchString, 'rb') as fMSc58file, \
+                # open('collationChunks/msColl_c58Frag_' + matchString, 'rb') as fMSc58Fragfile, \
+            # fMSc58_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc58file))).split('\n')
+            # fMSc58Frag_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc58Fragfile))).split('\n')
+            fMSc57Frag_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc57Fragfile))).split('\n')
             f1818_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1818file))).split('\n')
             fThomas_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fThomasfile))).split('\n')
             f1823_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1823file))).split('\n')
             f1831_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1831file))).split('\n')
             fMS_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSfile))).split('\n')
-            fMSc57Frag_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc57Fragfile))).split(
-                '\n')
-            fMSc58_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc58file))).split('\n')
-            fMSc58Frag_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc58Fragfile))).split(
-                '\n')
             f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
             fThomas_tokenlist = processWitness(fThomas_tokens, 'fThomas')
             f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
             f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
             fMS_tokenlist = processWitness(fMS_tokens, 'fMS')
             fMSc57Frag_tokenlist = processWitness(fMSc57Frag_tokens, 'fMSc57Frag')
-            fMSc58_tokenlist = processWitness(fMSc58_tokens, 'fMSc58')
-            fMSc58Frag_tokenlist = processWitness(fMSc58Frag_tokens, 'fMSc58Frag')
+            # fMSc58_tokenlist = processWitness(fMSc58_tokens, 'fMSc58')
+            # fMSc58Frag_tokenlist = processWitness(fMSc58Frag_tokens, 'fMSc58Frag')
 
-            collation_input = {"witnesses": [f1818_tokenlist, fThomas_tokenlist, f1823_tokenlist, f1831_tokenlist, fMS_tokenlist, fMSc57Frag_tokenlist, fMSc58_tokenlist, fMSc58Frag_tokenlist]}
+            collation_input = {"witnesses": [f1818_tokenlist, fThomas_tokenlist, f1823_tokenlist, f1831_tokenlist, fMS_tokenlist, fMSc57Frag_tokenlist]}
             # table = collate(collation_input, output='tei', segmentation=True)
             # table = collate(collation_input, segmentation=True, layout='vertical')
             table = collate(collation_input, output='xml', segmentation=True)
