@@ -96,7 +96,7 @@ def processWitness(inputWitness, id):
     return {'id': id, 'tokens': [processToken(token) for token in inputWitness]}
 
 
-name = 'collationChunks/1818_fullFlat_C15.xml'
+name = 'collationChunks/1818_fullFlat_C32.xml'
 matchString = name.split("fullFlat_", 1)[1]
 # ebb: above gets C30.xml for example
 matchStr = matchString.split(".", 1)[0]
@@ -106,7 +106,7 @@ with open(name, 'rb') as f1818file, \
         open('collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
         open('collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
         open('collationChunks/msColl_' + matchString, 'rb') as fMSfile, \
-        open('Full_xmlOutput_C15/collation_' + matchStr + '.xml', 'w') as outputFile:
+        open('Full_xmlOutput/collation_' + matchStr + '.xml', 'w') as outputFile:
         # open('collationChunks/msColl_c56_' + matchString, 'rb') as fMSc56file, \
         # open('collationChunks/msColl_c58_' + matchString, 'rb') as fMSc58file, \
         # open('collationChunks/msColl_c57Frag_' + matchString, 'rb') as fMSc57Fragfile, \
