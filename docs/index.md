@@ -1,3 +1,6 @@
+---
+redirect_from: "https://ebeshero.github.io/Pittsburgh_Frankenstein/"
+---
 # Pittsburgh Bicentennial Frankenstein Project
 
 Welcome to our GitHub Page!
