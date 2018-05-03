@@ -22,6 +22,8 @@ We are working on preparing a new digital edition of the novel _Frankenstein_ in
 
 
 ### About *Frankenstein* and our variorum project:
+
+#### Presentations
 * [The Pittsburgh Digital Frankenstein Project: Reassembling Textual Bodies](http://slides.com/elisabeshero-bondar/pghpitt_frankenstein): Presentation for the Humanities Center at the University of Pittsburgh, Cathedral of Learning on 2 April 2018. Explanation of the project and range of collaborating people and institutions. Updated with material on latest full collation of manuscript notebooks, Thomas edition, and 1818, 1823, and 1831 published editions. 
 
 * [Bicentennial Bits and Bytes: The Pittsburgh Digital Frankenstein Project](http://slides.com/elisabeshero-bondar/mla_bicentfrank): MLA 2018 panel presentation on our variorum edition project, reconciling previous digital editions, ongoing stylometric research, and annotation development. 
@@ -31,5 +33,18 @@ We are working on preparing a new digital edition of the novel _Frankenstein_ in
 * a slide presentation by Elisa Beshero-Bondar and Raffaele Viglianti for the 2017 NASSR Conference on 11 August 2017: [http://bit.ly/NASSR_BicFrank](http://bit.ly/NASSR_BicFrank) 
 
 * Balisage Proceedings for the Symposium on Up-Conversion and Up-Translation (31 July 2017): [Rebuilding a digital Frankenstein by 2018: Towards a theory of losses and gains in up-translation](https://www.balisage.net/Proceedings/vol20/html/Beshero-Bondar01/BalisageVol20-Beshero-Bondar01.html)
+
+#### Contributors (alphabetically)
+* Elisa Eileen Beshero-Bondar
+
+* Jon Klancher
+
+* Matthew Lavin
+
+* Rikk Mulligan
+
+* Raff Viglianti
+
+* Scott B. Weingart
 
 More resources, including editions of the 1823 and 1831 versions of the novel, will become available here as our project develops. 
