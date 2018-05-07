@@ -35,7 +35,7 @@ We are working on preparing a new digital edition of the novel _Frankenstein_ in
 * Balisage Proceedings for the Symposium on Up-Conversion and Up-Translation (31 July 2017): [Rebuilding a digital Frankenstein by 2018: Towards a theory of losses and gains in up-translation](https://www.balisage.net/Proceedings/vol20/html/Beshero-Bondar01/BalisageVol20-Beshero-Bondar01.html)
 
 #### Contributors (alphabetically)
-* Elisa Eileen Beshero-Bondar
+* Elisa E. Beshero-Bondar
 
 * Jon Klancher
 
@@ -43,8 +43,14 @@ We are working on preparing a new digital edition of the novel _Frankenstein_ in
 
 * Rikk Mulligan
 
-* Raff Viglianti
+* John Quirk
+
+* Emma Slayton
+
+* Raffaele Viglianti
 
 * Scott B. Weingart
+
+* Avery Wiscombe
 
 More resources, including editions of the 1823 and 1831 versions of the novel, will become available here as our project develops. 
