@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><xml><xml>
+<?xml version="1.0" encoding="UTF-8"?><xml><comment text="ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi='http://www.w3.org/2001/XInclude', and apply
+   xi: namespace prefix to include elements in the document.
+   "/>
+   <header>
+      <include href="standOff_Includes/1818_header.xml" parse="xml"/>
+   </header>
+   <text>
+   <anchor type="collate" xml:id="C01"/>
    <milestone unit="volume" n="1"/>
    <div type="frontmatter" n="1">
    <include href="standOff_Includes/1818_frontMatter1.xml" parse="xml"/>
@@ -48,7 +55,7 @@
         the Alps, and lost, in the magnificent scenes which they present, all memory of their
         ghostly visions. The following tale is the only one which has been completed.</p>
    </div>
-</xml>
+
    <anchor type="collate" xml:id="C02"/>
    <div type="novel" n="1">
    <pb xml:id="F1818_v1_013"/>
@@ -5447,4 +5454,5 @@
    <div type="backmatter" n="1">
    <include href="standOff_Includes/1818_backMatter.xml" parse="xml"/>
    </div>
+   </text>
 </xml>
