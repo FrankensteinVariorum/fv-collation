@@ -10,15 +10,14 @@
         <xsl:variable name="locationFlag">
             <xsl:for-each select="ancestor::div">
                 <xsl:value-of select="@type"/>
-                <xsl:value-of select="count(current()/preceding-sibling::div[@type=current()/@type]) + 1"/>
-                <xsl:text>_</xsl:text>
+                <xsl:value-of select="count(current()/preceding-sibling::div) + 1"/>
+                <xsl:text>__</xsl:text>
             </xsl:for-each>
-            <xsl:text>p</xsl:text>
-            <xsl:value-of select="count(preceding::p) + 1"/><xsl:text>__</xsl:text>
         </xsl:variable>
         <xsl:copy>
             <xsl:attribute name="loc">
-                <xsl:value-of select="$locationFlag"/>
+                <xsl:value-of select="$locationFlag"/><xsl:text>p</xsl:text>
+                <xsl:value-of select="count(preceding::p) + 1"/><xsl:text>__</xsl:text>
                 <xsl:text>Start</xsl:text>
             </xsl:attribute>
         </xsl:copy>
