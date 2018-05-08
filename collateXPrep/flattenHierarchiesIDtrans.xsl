@@ -6,6 +6,30 @@
 
     <xsl:mode on-no-match="shallow-copy"/>
     
+    <xsl:template match="p">
+        <xsl:variable name="locationFlag">
+            <xsl:for-each select="ancestor::div">
+                <xsl:value-of select="@type"/>
+                <xsl:value-of select="count(current()/preceding-sibling::div) + 1"/>
+                <xsl:text>__</xsl:text>
+            </xsl:for-each>
+        </xsl:variable>
+        <xsl:copy>
+            <xsl:attribute name="loc">
+                <xsl:value-of select="$locationFlag"/>
+                <xsl:text>Start</xsl:text>
+            </xsl:attribute>
+        </xsl:copy>
+       
+   <xsl:apply-templates/>
+        <xsl:copy>
+            <xsl:attribute name="loc">
+                <xsl:value-of select="$locationFlag"/>
+                <xsl:text>End</xsl:text>
+            </xsl:attribute>
+        </xsl:copy>
+    </xsl:template>
+    
     <xsl:template match="div">
         <milestone unit="{@type}" type="start">
             <xsl:choose><xsl:when test="@n">
