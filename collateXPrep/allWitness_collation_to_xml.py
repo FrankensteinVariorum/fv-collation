@@ -36,9 +36,9 @@ RE_MARKUP = re.compile(r'<.+?>')
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
 ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod']
-inlineEmpty = ['milestone', 'anchor', 'include', 'lb', 'delSpan', 'addSpan', 'gap', 'handShift', 'damage', 'restore']
-inlineContent = ['hi', 'add', 'del', 'metamark', 'unclear', 'retrace', 'damage', 'restore', 'zone']
-blockElement = ['p', 'div', 'lg', 'l', 'head', 'note', 'ab', 'cit', 'quote', 'bibl', 'header', 'surface', 'graphic']
+inlineEmpty = ['milestone', 'anchor', 'include', 'lb', 'delSpan', 'addSpan', 'gap', 'handShift', 'damage', 'restore', 'zone', 'add', 'del', 'p', 'div', 'surface', 'graphic']
+inlineContent = ['hi', 'metamark', 'unclear', 'retrace', 'damage', 'restore']
+blockElement = ['lg', 'l', 'head', 'note', 'ab', 'cit', 'quote', 'bibl', 'header']
 # ebb: Tried removing 'comment', from blockElement list above, because we don't want these to be collated.
 
 # 10-23-2017 ebb rv:
