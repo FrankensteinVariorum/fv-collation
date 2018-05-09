@@ -29,9 +29,7 @@
     
 <!--ebb: To reduce collation "noise" from miniscule del/adds, look inside mod elements and remove del elements of 2 characters or less. -->
 <xsl:template match="mod//del[string-length() le 2]"/>
-    
-<!--ebb: CONSIDER removing any del elements of 2 characters or less regardless of location.-->
- 
+
  <!--ebb: Removing elements irrelevant to collation. -->
   <xsl:template match="space"/>
   
