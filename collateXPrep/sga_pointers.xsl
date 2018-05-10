@@ -15,7 +15,6 @@
         <xsl:param name="str"/>
         <xsl:analyze-string select="$str" regex="^=&quot;([^&quot;]+?)&quot;\s*?/&gt;">
             <xsl:matching-substring>
-                <!--<xsl:message>+++<xsl:value-of select="regex-group(1)"/>+++</xsl:message>-->
                 <xsl:variable name="ms-rest" select="tokenize(regex-group(1), '-')"/>
                 <xsl:variable name="ms" select="$ms-rest[1]"/>
                 <xsl:variable name="parts" select="tokenize($ms-rest[2], '__')"/>
@@ -23,11 +22,11 @@
                 <xsl:variable name="zone" select="$parts[2]"/>
                 <xsl:variable name="line" select="$parts[3]"/>
                 <xsl:value-of select="concat('ox-ms_abinger_', $ms, '/ox-ms_abinger_', $ms, '-', $surface, '.xml', '#')"/>
-                <xsl:text>xpath(//zone[@type='</xsl:text>
+                <xsl:text>string-range(//zone[@type='</xsl:text>
                 <xsl:value-of select="$zone"/>
                 <xsl:text>']//line[</xsl:text>
                 <xsl:value-of select="$line"/>
-                <xsl:text>])</xsl:text>
+                <xsl:text>]</xsl:text>
             </xsl:matching-substring>
         </xsl:analyze-string>        
     </xsl:function>
@@ -42,19 +41,39 @@
             <xsl:when test="@wit='#fMS'">
                 <rdg wit="#fMS">
                     <xsl:choose>
-                        <xsl:when test="contains(., 'lb n=&quot;')">
-                            <xsl:for-each select="tokenize(., '&lt;lb\s+n')">
+                        <xsl:when test="contains(normalize-space(.), 'lb n=&quot;')">
+                            <xsl:for-each select="tokenize(normalize-space(.), '&lt;lb\s+n')">                                
                                 <xsl:variable name="pointer">
-                                    <xsl:value-of select="pitt:getLbPointer(current())"/>
+                                    <xsl:value-of select="pitt:getLbPointer(normalize-space(current()))"/>
                                 </xsl:variable>
                                 <xsl:if test="not($pointer = '')">
-                                    <ptr target="{pitt:getLbPointer(current())}"/>
+                                    <xsl:variable name="text" select="
+                                        replace(
+                                        replace(
+                                        normalize-space(current()), '&lt;.*?&gt;', ''
+                                        ),
+                                        '^=&quot;[^&quot;]+?&quot;\s*?/&gt;', ''
+                                        )"/>
+                                    <ptr target="{pitt:getLbPointer(normalize-space(current()))},0,{string-length($text)})"/>
+                                    <line_text>
+                                        <xsl:value-of select="$text"/>                                        
+                                    </line_text>
                                 </xsl:if>                                
                             </xsl:for-each>
                         </xsl:when>
                         <xsl:otherwise>
-                            <otherwise/>
-                            <ptr target="{pitt:getLbPointer(preceding::rdg[@wit='#fMS'][contains(., 'lb n=&quot;')][1])}"/>
+                            <xsl:variable name="str" select="tokenize(normalize-space(string-join(preceding::rdg[@wit='#fMS'])), '&lt;lb\s+n')[last()]"/>
+                            <xsl:variable name="pointer">
+                                <xsl:value-of select="pitt:getLbPointer(normalize-space(tokenize(preceding::rdg[@wit='#fMS'][contains(normalize-space(.), 'lb n=&quot;')][1], '&lt;lb\s+n')[last()]))"/>
+                            </xsl:variable>
+                            <xsl:if test="not($pointer = '')">
+                                <xsl:variable name="pre_text" select="replace(replace($str, '&lt;.*?&gt;', ''), '^=&quot;[^&quot;]+?&quot;\s*?/&gt;', '')"/>
+                                <xsl:variable name="cur_text" select="replace(normalize-space(.), '&lt;.*?&gt;', '')"/>
+                                <ptr target="{$pointer},{string-length($pre_text)},{string-length($cur_text)+1}"/> <!-- +1 accounts for a normalized white space between pre_text and cur_text -->
+                                <line_text>
+                                    <xsl:value-of select="concat('(', $pre_text, ') ', $cur_text)"/>
+                                </line_text>
+                            </xsl:if>               
                         </xsl:otherwise>
                     </xsl:choose>
                 </rdg>
