@@ -69,7 +69,7 @@
                             <xsl:if test="not($pointer = '')">
                                 <xsl:variable name="pre_text" select="replace(replace($str, '&lt;.*?&gt;', ''), '^=&quot;[^&quot;]+?&quot;\s*?/&gt;', '')"/>
                                 <xsl:variable name="cur_text" select="replace(normalize-space(.), '&lt;.*?&gt;', '')"/>
-                                <ptr target="{$pointer},{string-length($pre_text)},{string-length($cur_text)+1})"/> <!-- +1 accounts for a normalized white space between pre_text and cur_text -->
+                                <ptr target="{$pointer},{string-length($pre_text)},{string-length($pre_text)+string-length($cur_text)+1})"/> <!-- +1 accounts for a normalized white space between pre_text and cur_text -->
                                 <line_text>
                                     <xsl:value-of select="concat('(', $pre_text, ') ', $cur_text)"/>
                                 </line_text>
