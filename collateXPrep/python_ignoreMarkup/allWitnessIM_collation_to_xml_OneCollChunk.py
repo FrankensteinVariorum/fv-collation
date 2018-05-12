@@ -22,7 +22,10 @@ regexLeadingBlankLine = re.compile(r'^\n')
 regexPageBreak = re.compile(r'<pb.+?/>')
 RE_MARKUP = re.compile(r'<.+?>')
 RE_PARA = re.compile(r'<p\s.+?/>')
-RE_MSPARA = re.compile(r'<<milestone unit="tei:p"/>')
+RE_MILESTONE = re.compile(r'<milestone.+?/>')
+RE_AMP_NSB = re.compile(r'\S&amp;')
+RE_AMP_NSE = re.compile(r'&amp;\S')
+RE_AMP = re.compile(r'&amp;')
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
 # Tags to ignore, with content to keep: xml, comment, anchor
@@ -37,8 +40,9 @@ RE_MSPARA = re.compile(r'<<milestone unit="tei:p"/>')
 # 2017-05-30 ebb: collated but the tags are not). Decision to make the comments into self-closing elements with text
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
-ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'milestone', 'anchor', 'include', 'lb', 'delSpan', 'addSpan', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore', 'hi', 'head', 'header']
-inlineEmpty = ['gap', 'add', 'del', 'p', 'div']
+ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 'lb', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore', 'hi', 'head', 'header']
+inlineEmpty = ['gap', 'del', 'p', 'div', 'milestone']
+# 2018-05-12 ebb: I'm setting a white space on either side of the inlineEmpty elements in line 76
 inlineContent = ['metamark']
 blockElement = ['lg', 'l', 'note', 'ab', 'cit', 'quote', 'bibl']
 # ebb: Tried removing 'comment', from blockElement list above, because we don't want these to be collated.
@@ -49,11 +53,12 @@ def normalizeSpace(inText):
     """Replaces all whitespace spans with single space characters"""
     if regexNonWhitespace.search(inText):
         return regexWhitespace.sub('\n', inText)
-    if RE_PARA.search(inText) or RE_MSPARA.search(inText):
-        return ' ' + inText
+    elif RE_AMP_NSB.search(inText):
+        return RE_AMP.sub(' ' + RE_AMP, inText)
+    elif RE_AMP_NSE.search(inText):
+        return RE_AMP.sub(RE_AMP + ' ', inText)
     else:
         return ''
-
 
 def extract(input_xml):
     """Process entire input XML document, firing on events"""
@@ -70,7 +75,7 @@ def extract(input_xml):
             output += node.toxml()
         # empty inline elements: pb, milestone
         elif event == pulldom.START_ELEMENT and node.localName in inlineEmpty:
-            output += node.toxml()
+            output += ' ' + node.toxml() + ' '
         # non-empty inline elements: note, hi, head, l, lg, div, p, ab, 
         elif event == pulldom.START_ELEMENT and node.localName in inlineContent:
             output += regexEmptyTag.sub('>', node.toxml())
@@ -90,6 +95,8 @@ def extract(input_xml):
 def normalize(inputText):
     if RE_MARKUP.search(inputText):
         return RE_MARKUP.sub('', inputText)
+    elif RE_AMP.search(inputText):
+        return RE_AMP.sub('and', inputText)
     else:
         return inputText.lower()
 

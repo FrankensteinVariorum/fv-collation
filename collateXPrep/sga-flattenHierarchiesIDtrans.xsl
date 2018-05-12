@@ -5,7 +5,7 @@
     xmlns:mith="http://mith.umd.edu/sc/ns1#"    
     exclude-result-prefixes="xs #default"
     version="3.0">
-   
+   <xsl:output method="xml" indent="no"/>
     <xsl:template match="@* | node()">
         <xsl:copy copy-namespaces="no">
             <xsl:apply-templates select="@* | node()"/>
@@ -31,14 +31,14 @@
       </xsl:variable>  
         <xsl:copy copy-namespaces="no">
             <xsl:attribute name="loc">
- <xsl:value-of select="$locFlag"/>            <xsl:text>__Start</xsl:text>
+ <xsl:value-of select="$locFlag"/><xsl:text>__Start</xsl:text>
             </xsl:attribute>     
         </xsl:copy>
         
         <xsl:apply-templates/>
         <xsl:copy copy-namespaces="no">
             <xsl:attribute name="loc">
-                <xsl:value-of select="$locFlag"/>            <xsl:text>__End</xsl:text>
+                <xsl:value-of select="$locFlag"/><xsl:text>__End</xsl:text>
             </xsl:attribute>    
         </xsl:copy>
     </xsl:template>
