@@ -1,3 +1,5 @@
+from typing import Pattern
+
 from collatex import *
 from xml.dom import pulldom
 import string
@@ -11,7 +13,10 @@ regexEmptyTag = re.compile(r'/>$')
 regexBlankLine = re.compile(r'\n{2,}')
 regexLeadingBlankLine = re.compile(r'^\n')
 regexPageBreak = re.compile(r'<pb.+?/>')
-
+RE_MARKUP = re.compile(r'<.+?>')
+RE_AMP = re.compile(r'&amp;')
+RE_AND = re.compile(r'and')
+RE_mOrning = re.compile(r'mOrning')
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
 # Tags to ignore, with content to keep: xml, comment, anchor
 # Structural elements: div, p, lg, l
@@ -64,21 +69,26 @@ def extract(input_xml):
             continue
     return output
 
+# def normalize(inputText):
+#   return regexPageBreak.sub('',inputText)
+
+
 def normalize(inputText):
-    return regexPageBreak.sub('',inputText)
+   return RE_AMP.sub('and', inputText).lower()
 
 def processToken(inputText):
-    return {"t": inputText + ' ', "n": normalize(inputText=inputText)}
+    return {"t": inputText + ' ', "n": normalize(inputText)}
 
 def processWitness(inputWitness, id):
     return {'id': id, 'tokens' : [processToken(token) for token in inputWitness]}
 
-f1818_input = '''<p>The following morning the rain poured down in torrents, and thick mists hid the summits
+
+f1818_input = '''<p>The following morning the rain poured down in torrents, &amp; thick mists hid the summits
             of the mountains. I rose early, but felt unusually melancholy. The rain depressed me; my
             old feelings recurred, and I was miserable. I knew how disappointed my father would be
             at this sudden change, and I wished to avoid him until I had recovered myself so far as
             to be enabled to conceal those feelings that overpowered me. I knew that they would
-            remain that day at the inn; <pb xml:id="F1818_v2_022" n="v2_018"/>and as I had ever
+            remain that day at the inn; <pb xml:id="F1818_v2_022" n="v2_018"/> &amp; as I had ever
             inured myself to rain, moisture, and cold, I resolved to go alone to the summit of
             Montanvert. I remembered the effect that the view of the tremendous and ever-moving
             glacier had produced upon my mind when I first saw it. It had then filled me with a
@@ -109,5 +119,6 @@ f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
 collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist]}
 table = collate(collation_input, segmentation=True, output="xml")
 # table = collate(collation_input, segmentation=True, layout='vertical')
-print(table)
+test = normalize(f1818_input)
+print(test, table)
 

@@ -48,15 +48,10 @@ blockElement = ['lg', 'l', 'note', 'ab', 'cit', 'quote', 'bibl']
 # ebb: Tried removing 'comment', from blockElement list above, because we don't want these to be collated.
 
 # 10-23-2017 ebb rv:
-
 def normalizeSpace(inText):
     """Replaces all whitespace spans with single space characters"""
     if regexNonWhitespace.search(inText):
         return regexWhitespace.sub('\n', inText)
-    elif RE_AMP_NSB.search(inText):
-        return RE_AMP.sub(' ' + RE_AMP, inText)
-    elif RE_AMP_NSE.search(inText):
-        return RE_AMP.sub(RE_AMP + ' ', inText)
     else:
         return ''
 
@@ -93,12 +88,8 @@ def extract(input_xml):
 
 
 def normalize(inputText):
-    if RE_MARKUP.search(inputText):
-        return RE_MARKUP.sub('', inputText)
-    elif RE_AMP.search(inputText):
-        return RE_AMP.sub('and', inputText)
-    else:
-        return inputText.lower()
+   return RE_AMP.sub('and',\
+          RE_MARKUP.sub('', inputText)).lower()
 
 
 def processToken(inputText):
@@ -147,7 +138,8 @@ with open(name, 'rb') as f1818file, \
     # table = collate(collation_input, output='tei', segmentation=True)
     # table = collate(collation_input, segmentation=True, layout='vertical')
     table = collate(collation_input, output='xml', segmentation=True)
-    print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
+    # print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
+    print(fMS_tokenlist, file=outputFile)
     # print(table, file=outputFile)
 
 
