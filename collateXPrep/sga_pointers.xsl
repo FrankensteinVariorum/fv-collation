@@ -3,13 +3,14 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math"
     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-    exclude-result-prefixes="xs math pitt"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    exclude-result-prefixes="xs math pitt tei"
     version="3.0">
     
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:output indent="yes"/>    
     <xsl:strip-space elements="*"/>
-    <xsl:param name="sga_loc" select="'https://github.com/umd-mith/sga/tree/master/data/tei/ox/'"/>
+    <xsl:param name="sga_loc" select="'https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/'"/>
     
     <xsl:function name="pitt:getLbPointer" as="item()*">
         <xsl:param name="str"/>
@@ -21,20 +22,39 @@
                 <xsl:variable name="surface" select="$parts[1]"/>
                 <xsl:variable name="zone" select="$parts[2]"/>
                 <xsl:variable name="line" select="$parts[3]"/>
-                <xsl:value-of select="concat('ox-ms_abinger_', $ms, '/ox-ms_abinger_', $ms, '-', $surface, '.xml', '#')"/>
-                <xsl:text>string-range(//zone[@type='</xsl:text>
+                <xsl:value-of select="concat($sga_loc, 'ox-ms_abinger_', $ms, '/ox-ms_abinger_', $ms, '-', $surface, '.xml', '#')"/>
+                <xsl:text>string-range(//tei:zone[@type='</xsl:text>
                 <xsl:value-of select="$zone"/>
-                <xsl:text>']//line[</xsl:text>
+                <xsl:text>']//tei:line[</xsl:text>
                 <xsl:value-of select="$line"/>
                 <xsl:text>]</xsl:text>
             </xsl:matching-substring>
         </xsl:analyze-string>        
     </xsl:function>
     
-    <!--<xsl:function name="pitt:removeTags">
-        <xsl:param name="str"/>
-        <xsl:value-of select="replace($str, '&lt;[^&gt;]+&gt;', '')"/>
-    </xsl:function>-->
+    <xsl:function name="pitt:resolvePointer">
+        <xsl:param name="pointer"/>
+        <xsl:variable name="filename" select="substring-before($pointer, '#')"/>
+        <xsl:variable name="string_range" select="tokenize(tokenize($pointer, 'string-range\(')[2],',')"/>
+        <xsl:variable name="xpath" select="concat('doc(&quot;', $filename,'&quot;)', $string_range[1])"/>
+        <xsl:variable name="line">
+            <xsl:evaluate xpath="$xpath"/>
+        </xsl:variable>        
+        <xsl:variable name="text" select="substring-before(substring($line, number($string_range[2])), 
+            substring(normalize-space($line), number(substring-before($string_range[3], ')'))))"/>
+        <!--<xsl:message>
+            <xsl:value-of select="$text"/>
+        </xsl:message>-->
+        <xsl:choose>
+            <xsl:when test="$text = ''">
+                <!-- If there's no match, it means the second substring is empty (end of line) -->
+                <xsl:value-of select="substring(normalize-space($line), number($string_range[2]))"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$text"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
     
     <xsl:template match="rdg">
         <xsl:choose>
@@ -54,10 +74,14 @@
                                         ),
                                         '^=&quot;[^&quot;]+?&quot;\s*?/&gt;', ''
                                         )"/>
-                                    <ptr target="{pitt:getLbPointer(normalize-space(current()))},0,{string-length($text)})"/>
+                                    <xsl:variable name="full_pointer" select="concat(string-join(pitt:getLbPointer(normalize-space(current()))),',0,',string-length($text)+1, ')')"/>
+                                    <ptr target="{$full_pointer}"/>
                                     <line_text>
                                         <xsl:value-of select="$text"/>                                        
                                     </line_text>
+                                    <resolved_text>
+                                        <xsl:value-of select="pitt:resolvePointer($full_pointer)"/>
+                                    </resolved_text>
                                 </xsl:if>                                
                             </xsl:for-each>
                         </xsl:when>
@@ -69,10 +93,14 @@
                             <xsl:if test="not($pointer = '')">
                                 <xsl:variable name="pre_text" select="replace(replace($str, '&lt;.*?&gt;', ''), '^=&quot;[^&quot;]+?&quot;\s*?/&gt;', '')"/>
                                 <xsl:variable name="cur_text" select="replace(normalize-space(.), '&lt;.*?&gt;', '')"/>
-                                <ptr target="{$pointer},{string-length($pre_text)},{string-length($pre_text)+string-length($cur_text)+1})"/> <!-- +1 accounts for a normalized white space between pre_text and cur_text -->
+                                <xsl:variable name="full_pointer" select="concat($pointer,',',string-length($pre_text)+1,',',string-length($pre_text)+string-length($cur_text)+2, ')')"/> <!-- "2" accounts for needed extra space and index number -->
+                                <ptr target="{$full_pointer}"/>
                                 <line_text>
                                     <xsl:value-of select="concat('(', $pre_text, ') ', $cur_text)"/>
                                 </line_text>
+                                <resolved_text>
+                                    <xsl:value-of select="pitt:resolvePointer($full_pointer)"/>
+                                </resolved_text>
                             </xsl:if>               
                         </xsl:otherwise>
                     </xsl:choose>
