@@ -25,7 +25,7 @@ RE_PARA = re.compile(r'<p\s.+?/>')
 RE_MILESTONE = re.compile(r'<milestone.+?/>')
 RE_AMP_NSB = re.compile(r'\S&amp;')
 RE_AMP_NSE = re.compile(r'&amp;\S')
-RE_AMP = re.compile(r'&amp;')
+RE_AMP = re.compile(r'&')
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
 # Tags to ignore, with content to keep: xml, comment, anchor
@@ -138,8 +138,8 @@ with open(name, 'rb') as f1818file, \
     # table = collate(collation_input, output='tei', segmentation=True)
     # table = collate(collation_input, segmentation=True, layout='vertical')
     table = collate(collation_input, output='xml', segmentation=True)
-    # print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
-    print(fMS_tokenlist, file=outputFile)
+    print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
+#   print(fMS_tokenlist, file=outputFile)
     # print(table, file=outputFile)
 
 
