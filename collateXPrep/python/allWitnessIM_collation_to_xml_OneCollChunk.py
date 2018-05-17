@@ -40,8 +40,8 @@ RE_AMP = re.compile(r'&')
 # 2017-05-30 ebb: collated but the tags are not). Decision to make the comments into self-closing elements with text
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
-ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 'lb', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore', 'hi', 'head', 'header']
-inlineEmpty = ['gap', 'del', 'p', 'div', 'milestone']
+ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore', 'hi', 'head', 'header']
+inlineEmpty = ['lb', 'gap', 'del', 'p', 'div', 'milestone']
 # 2018-05-12 ebb: I'm setting a white space on either side of the inlineEmpty elements in line 76
 inlineContent = ['metamark']
 blockElement = ['lg', 'l', 'note', 'ab', 'cit', 'quote', 'bibl']
@@ -110,7 +110,7 @@ with open(name, 'rb') as f1818file, \
         open('../collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
         open('../collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
         open('../collationChunks/msColl_' + matchString, 'rb') as fMSfile, \
-        open('../LessMarkup_C10_xmlOutput/collationTEI_' + matchStr + '.xml', 'w') as outputFile:
+        open('../C10_xmlOutput/collation' + matchStr + '.xml', 'w') as outputFile:
         # open('collationChunks/msColl_c56_' + matchString, 'rb') as fMSc56file, \
         # open('collationChunks/msColl_c58_' + matchString, 'rb') as fMSc58file, \
         # open('collationChunks/msColl_c57Frag_' + matchString, 'rb') as fMSc57Fragfile, \
@@ -135,13 +135,9 @@ with open(name, 'rb') as f1818file, \
     # fMSc58Frag_tokenlist = processWitness(fMSc58Frag_tokens, 'fMSc58Frag')
 
     collation_input = {"witnesses": [f1818_tokenlist, fThomas_tokenlist, f1823_tokenlist, f1831_tokenlist, fMS_tokenlist]}
-    table = collate(collation_input, output='tei', segmentation=True)
+    # table = collate(collation_input, output='tei', segmentation=True)
     # table = collate(collation_input, segmentation=True, layout='vertical')
-    # table = collate(collation_input, output='xml', segmentation=True)
+    table = collate(collation_input, output='xml', segmentation=True)
     print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
 #   print(fMS_tokenlist, file=outputFile)
     # print(table, file=outputFile)
-
-
-
-

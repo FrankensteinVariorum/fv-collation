@@ -74,7 +74,8 @@ def extract(input_xml):
 
 
 def normalize(inputText):
-   return RE_AMP.sub('and', inputText).lower()
+   return RE_AMP.sub('and',\
+          RE_MARKUP.sub('', inputText)).lower()
 
 def processToken(inputText):
     return {"t": inputText + ' ', "n": normalize(inputText)}
@@ -120,5 +121,6 @@ collation_input = {"witnesses": [f1818_tokenlist, f1823_tokenlist]}
 table = collate(collation_input, segmentation=True, output="xml")
 # table = collate(collation_input, segmentation=True, layout='vertical')
 test = normalize(f1818_input)
-print(test, table)
+# print(test, table)
+print(f1818_tokenlist)
 

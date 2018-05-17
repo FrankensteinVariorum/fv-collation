@@ -21,6 +21,11 @@ regexBlankLine = re.compile(r'\n{2,}')
 regexLeadingBlankLine = re.compile(r'^\n')
 regexPageBreak = re.compile(r'<pb.+?/>')
 RE_MARKUP = re.compile(r'<.+?>')
+RE_PARA = re.compile(r'<p\s.+?/>')
+RE_MILESTONE = re.compile(r'<milestone.+?/>')
+RE_AMP_NSB = re.compile(r'\S&amp;')
+RE_AMP_NSE = re.compile(r'&amp;\S')
+RE_AMP = re.compile(r'&')
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
 # Tags to ignore, with content to keep: xml, comment, anchor
@@ -35,8 +40,9 @@ RE_MARKUP = re.compile(r'<.+?>')
 # 2017-05-30 ebb: collated but the tags are not). Decision to make the comments into self-closing elements with text
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
-ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'milestone', 'anchor', 'include', 'lb', 'delSpan', 'addSpan', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore', 'hi', 'head', 'header']
-inlineEmpty = ['gap', 'add', 'del', 'p', 'div']
+ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore', 'hi', 'head', 'header']
+inlineEmpty = ['lb', 'gap', 'del', 'p', 'div', 'milestone']
+# 2018-05-12 ebb: I'm setting a white space on either side of the inlineEmpty elements in line 76
 inlineContent = ['metamark']
 blockElement = ['lg', 'l', 'note', 'ab', 'cit', 'quote', 'bibl']
 # ebb: Tried removing 'comment', from blockElement list above, because we don't want these to be collated.
@@ -84,10 +90,8 @@ def extract(input_xml):
 
 
 def normalize(inputText):
-    if RE_MARKUP.search(inputText):
-        return RE_MARKUP.sub('', inputText)
-    else:
-        return inputText.lower()
+   return RE_AMP.sub('and',\
+          RE_MARKUP.sub('', inputText)).lower()
 #    return regexPageBreak('',inputText)
 
 
@@ -110,7 +114,7 @@ for name in glob.glob('../collationChunks/1818_fullFlat_*'):
                 open('../collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
                 open('../collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
                 open('../collationChunks/msColl_' + matchString, 'rb') as fMSfile, \
-                open('../LessMarkupV2_xmlOutput/collation_' + matchStr + '.xml', 'w') as outputFile:
+                open('../Full_xmlOutput/collation_' + matchStr + '.xml', 'w') as outputFile:
                 # open('collationChunks/msColl_c56_' + matchString, 'rb') as fMSc56file, \
                 # open('collationChunks/msColl_c58_' + matchString, 'rb') as fMSc58file, \
                 # open('collationChunks/msColl_c57Frag_' + matchString, 'rb') as fMSc57Fragfile, \
