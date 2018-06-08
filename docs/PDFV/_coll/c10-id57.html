@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Collation unit 10 app ID 57</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="../_css/pdfv_styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- app from XML for mock-up -->
+<!-- original XML code 
+<app id="057">
+        <rdg wit="#f1818">beautiful. Beautiful!—Great </rdg>
+        <rdg wit="#f1823">beautiful. Beautiful!—Great </rdg>
+        <rdg wit="#f1831">beautiful. Beautiful!—Great </rdg>
+        <rdg wit="#fMS">&lt;lb n="c56-0045__main__23"/&gt;&lt;del
+            loc="c56-0045__main__d1e8529__Start"/&gt;handsome&lt;del
+            loc="c56-0045__main__d1e8529__End"/&gt;&lt;lb n="c56-0045__left_margin__1"/&gt;&lt;del
+            loc="c56-0045__left_margin__d1e8539__Start"/&gt;handsome&lt;del
+            loc="c56-0045__left_margin__d1e8539__End"/&gt;beautiful.&lt;del
+            loc="c56-0045__main__d1e8549__Start"/&gt;Handsome&lt;del
+            loc="c56-0045__main__d1e8549__End"/&gt;Beautiful; Great </rdg>
+        <rdg wit="#fThomas">beautiful. Beautiful!—Great </rdg>
+    </app> end original xml -->
+<!-- for mock-up use -->
+	<div class="app" id="057">
+        <div class="rdg f1818">beautiful. Beautiful!—Great </div>
+        <div class="rdg f1823">beautiful. Beautiful!—Great </div>
+        <div class="rdg f1831">beautiful. Beautiful!—Great </div>
+        <div class="rdg fMS"><!-- &lt;lb n="c56-0045__main__23"/&gt; -->
+			<!-- &lt;del loc="c56-0045__main__d1e8529__Start"/&gt; -->
+			<span class="delete">handsome</span><br>
+			<!-- &lt;del loc="c56-0045__main__d1e8529__End"/&gt; -->
+			<!-- &lt;lb n="c56-0045__left_margin__1"/&gt; -->
+			<!-- &lt;del loc="c56-0045__left_margin__d1e8539__Start"/&gt; -->
+			<span class="delete">handsome</span><br>
+			<!-- &lt;del loc="c56-0045__left_margin__d1e8539__End"/&gt; -->
+			beautiful.
+			<!-- &lt;del loc="c56-0045__main__d1e8549__Start"/&gt; -->
+			<span class="delete">Handsome</span>
+			<!-- &lt;del loc="c56-0045__main__d1e8549__End"/&gt; -->
+			Beautiful; Great </div>
+        <div class="rdg fThomas">beautiful. Beautiful!—Great </div>
+    </div>
+	</body>
+</html>

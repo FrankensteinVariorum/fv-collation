@@ -1,0 +1,100 @@
+/* RM 06/02/2018 for testing and visulization */
+/* need to convert [T] to small caps */
+/* need pop-up style for variant tables */
+/* need two style; one for single character, one for words */
+body p {
+    line-height: 1.5em;
+}
+h1 {
+	font-size: 2.0em;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.25em;
+	color: #060;
+}
+h2.source::before {
+	content: "Source Edition: ";
+	font-weight: 600;
+}
+div.variant_table {
+    text: highlight;
+}
+.variant_display_single {
+    display: inline;
+	border: 1px dashed #206040;
+	padding: 1px;
+    background-color: #d9f2e6;
+}
+.variant_display_mult {
+    border: 1px dashed #206040;
+    display: inline;
+	padding: 1px;
+    background-color: #66cc99;
+}
+.smcap {
+    font-variant: small-caps;
+}
+blockquote.poem {
+	text-align: right;
+	max-width: 50%;
+}
+blockquote.poem note {
+	font-size: 80%;
+	padding-top: 1.5em;
+}
+div.container-fluid {
+	margin-right: 10px;
+	margin-left: 10px;	
+}
+.app, .rdg {
+	display:block;
+	margin: 1px;
+	padding: 2px;
+	border: 1px dashed #ccc;	
+}
+.f1818::before {
+	content: "1818: ";
+	font-weight: 600;
+}
+.f1823::before {
+	content: "1823: ";
+	font-weight: 600;
+}
+.f1831::before {
+	content: "1831: ";
+	font-weight: 600;
+}
+.fMS::before {
+	content: "MS: ";
+	font-weight: 600;
+}
+.fThomas::before {
+	content: "Thomas: ";
+	font-weight: 600;
+}
+.delete {
+	text-decoration: line-through;
+	color: #999;
+	background-color: #f0f5f5;
+}
+footer {
+	margin-top: 10px;
+}
+iframe#witness-1, iframe#witness-2 {
+	border: 1px solid #999;
+	border-radius: 10px; 
+	padding: 0; 
+	margin: 0;
+}
+iframe#variations {
+	border: none; 
+	padding: 0; 
+	margin: 0;
+}
+/* error check and visualization testing styles to delete or modify */
+/* div.row {border: 1px solid blue;} */
+/* div.navbar-header a {border:1px solid #060; padding:2px 3px 2px 3px; font-size: 12px;}
+ul.nav li a {border:1px solid #060; padding: 2px;} */

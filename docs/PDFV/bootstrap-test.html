@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Variorum</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="_css/pdfv_styles.css" rel="stylesheet" type="text/css">
+    <style>
+        div {border: 1px solid blue;}
+        div.row {border: 1px dotted #333;}
+        div.navbar-header a {border:1px solid red; padding:2px 3px 2px 3px; font-size: 12px;}
+        ul.nav li a {border:1px solid red; padding: 2px;}
+        iframe {border: none; padding: 0; margin: 0;}
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">PDFV</a>
+            </div>
+            <ul class="nav navbar-nav">
+            <li class="active"><a href="intro.htm" title="home">home</a></li>
+            <li><a href="reader.htm" title="Read Editions">Reader</a></li>
+            <li><a href="compare.htm" title="Compare Editions">Compare</a></li>
+            <li><a href="about.htm" title="About the project">About</a></li>
+            <li><a href="team.htm" title="Project Team">Team</a></li>
+            <li><a href="next.htm" title="Next steps">Next steps</a></li>
+        </ul>
+        </div>
+    </nav>
+  <h1>Frankenstein Variorum</h1>
+  <p>Introduction and contextual information.</p>
+    <div class="row">
+        <div class="col-sm-5">
+            <h1>Frankenstein 1818</h1>
+            <iframe src="1818-v1-ch4.html" width="100%" height="400px">
+            </iframe>
+        </div>
+        <div class="col-sm-5">
+            <h1>Frankenstein 1831</h1>
+            <iframe src="1831-v1-ch5.html" width="100%" height="400px">
+            </iframe>
+        </div>
+        <div class="col-sm-2">
+            <p>Annotations</p>        
+        </div>
+    </div>
+    <footer>
+        CC-BY-NR | GitHub: 
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Variorum: Compare Texts</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="_css/pdfv_styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- <a class="navbar-brand" href="#"><img src="_imgs/dFV.png" title"logo" height="90px" legnth="90px"></a> -->
+				<img src="_imgs/dFV.png" title"logo" height="50px" length="50px">
+            </div>
+            <ul class="nav navbar-nav">
+            	<li><a href="index.html" title="home">home</a></li>
+            	<li><a href="reader-one-witness.html" title="Read Editions">Reader</a></li>
+            	<li class="active"><a href="#" title="Compare Editions">Compare Texts</a></li>
+            	<li><a href="about.html" title="About the project">About</a></li>
+            	<li><a href="team.html" title="Project Team">Team</a></li>
+            	<li><a href="#" title="Next steps">Next steps</a></li>
+        	</ul>
+        </div>
+    </nav>
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<div class="row"> <!-- open page row two -->
+					<h1>Frankenstein Variorum: Reader</h1>
+        			<div class="col-sm-4"> <!-- display first source text -->
+						<h2 class="source">Frankenstein 1818</h2>
+            			<iframe id="witness-1" src="1818-v1-ch4.html" width="100%" height="400px">
+            			</iframe>
+        			</div>
+					<div class="col-sm-4"> <!-- display second source text -->
+						<h2 class="source">Frankenstein 1831</h2>
+            			<iframe id="witness-1" src="1831-v1-ch5.html" width="100%" height="400px">
+            			</iframe>
+        			</div>
+					<div class="col-sm-4"> <!-- open right side column -->						
+						<div class="row"> <!-- for variorum content -->
+							<p>This is the reader interface. You may view one chapter of one text. Highlighted text indicates words or passages that vary across texts. Click on a highlighted selection to view these variations below. Relevant annotations will also appear in the lower right window.</p>
+            				<div class="panel panel-default">
+								<div class="panel-heading">Variations</div>
+								<div class="panel-body">
+									<iframe id="variations" src="_coll/c10-id57.html" width="100%" height="200px">
+            						</iframe>
+								</div>
+							</div>
+						</div> <!-- close variorum content -->
+						<div class="row"> <!-- display annotation content -->
+            				<div class="panel panel-default">
+								<div class="panel-heading">Annotations</div>
+								<div class="panel-body">
+									<p>There are no annotations in this group.</p>
+								</div>
+							</div>
+						</div> <!-- close annotation row -->
+        			</div> <!-- close right side column -->
+    			</div> <!-- close page row -->
+			</div> <!-- close panel-body -->
+		</div> <!-- close panel -->
+    	<footer>
+			<p>CC-BY-NR | GitHub: <a href="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein">https://github.com/PghFrankenstein/Pittsburgh_Frankenstein</a></p>
+    	</footer>
+	</div> <!-- close container-fluid -->
+</body>
+</html>
