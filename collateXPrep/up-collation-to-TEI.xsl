@@ -4,19 +4,17 @@
     exclude-result-prefixes="xs"
     version="3.0">
     
-<!--2018-06-17 ebb: Run this over the collection of collated XML files to pull them into a teiCorpus, and build this up with an xsl:for-each to generate an internal TEI element for each collation unit.  -->
-    
 <xsl:output method="xml" indent="yes"/>    
-<xsl:mode on-no-match="shallow-copy"/>
+<!--<xsl:mode on-no-match="shallow-copy"/>-->
     <xsl:variable name="collUnit" as="xs:string" select="substring-before(substring-after(tokenize(base-uri(.), '/')[last()], '_'), '.')"/>
-  
+    <xsl:variable name="witnesses" as="xs:string+" select="distinct-values(//@wit)"/>
    <xsl:template match="root">
-    <!--   <xsl:param name="app" select="descendant::app" xmlns="http://www.tei-c.org/ns/1.0" as="element()+" tunnel="yes"/>-->
-        <teiCorpus>
+       <xsl:param name="app" select="descendant::app" as="element()+" tunnel="yes"/>
+       <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Frankenstein variorum collation <xsl:value-of select="$collUnit"/></title>
+                        <title>Frankenstein variorum project: Collation unit <xsl:value-of select="$collUnit"/></title>
                        <!--Flesh out editor / collaboration info. -->
                     </titleStmt>
                     <publicationStmt>
@@ -28,11 +26,13 @@
                 </fileDesc>
             </teiHeader>
                       
-           <TEI xml:id="{$collUnit}">
+       
+       <xsl:for-each select="$witnesses"> 
+           <TEI xml:id="{$collUnit}-{substring-after(current(), '#')}">
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Collation unit <xsl:value-of select="$collUnit"/></title>
+                        <title>Collation unit <xsl:value-of select="$collUnit"/><xsl:text>-</xsl:text><xsl:value-of select="substring-after(current(), '#')"/></title>
                     </titleStmt>
                     <publicationStmt>
                         <p>Publication Information</p>
@@ -43,24 +43,16 @@
                 </fileDesc>
             </teiHeader>
             <text>
-             <body><xsl:apply-templates/>
-             </body> 
+             <xsl:apply-templates  select="$app/rdg[@wit=current()]">
+                 <xsl:with-param name="currWit" select="current()" as="xs:string" tunnel="yes"/>
+             </xsl:apply-templates>            
             </text>
         </TEI>
-        
+        </xsl:for-each>
         </teiCorpus>
     </xsl:template> 
-    <xsl:template match="app">
-        <xsl:choose>
-            <xsl:when test="@type">
-                <app type="{@type}"><xsl:apply-templates/></app>
-            </xsl:when>
-            <xsl:otherwise><app><xsl:apply-templates/></app></xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-    <xsl:template match="rdg">
-        <rdg wit="{@wit}"><xsl:apply-templates/></rdg>
-    </xsl:template>
-       
+  
+
+    
     
 </xsl:stylesheet>
