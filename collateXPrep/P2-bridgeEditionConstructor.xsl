@@ -12,7 +12,7 @@
       <xsl:param name="rdgs"/>
        <xsl:choose>
            <!--2018-06-21 ebb: TROUBLE WITH SETTING UP THIS TEST. Cardinality/Context problem. Don't use for $i on the parameter to do this. -->
-           <xsl:when test="not(for $i in $rdgs return $i[matches(current(), '&lt;.+?/&gt;')])">
+           <xsl:when test="not(for $i in $rdgs return $i[matches(., '&lt;.+?/&gt;')])">
                <xsl:for-each select="$rdgs[not(. = parent::app/rdg[last()])]">
     <xsl:value-of select="current()/string() eq current()/following-sibling::rdg[1]/string()"/>
 </xsl:for-each>             
