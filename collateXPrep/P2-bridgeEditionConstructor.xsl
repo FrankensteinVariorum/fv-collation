@@ -55,17 +55,8 @@
                     <titleStmt>
                         <title>Bridge Phase 2: Collation unit <xsl:value-of select="$chunk"/></title>
                     </titleStmt>
-                    <publicationStmt>
-                        <authority>Frankenstein Variorum Project</authority>
-                        <date>2018</date>
-                        <availability>
-                            <licence>Distributed under a Creative Commons
-                                Attribution-ShareAlike 3.0 Unported License</licence>
-                        </availability>
-                    </publicationStmt>
-                    <sourceDesc>
-                        <p>Produced from collation output:<xsl:value-of select="./../comment()"/></p>
-                    </sourceDesc>
+                    <xsl:copy-of select="descendant::publicationStmt"/>
+                    <xsl:copy-of select="descendant::sourceDesc"/>
                 </fileDesc>
             </teiHeader>
             <text>
