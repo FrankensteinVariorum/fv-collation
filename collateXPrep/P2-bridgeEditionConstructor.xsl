@@ -4,7 +4,10 @@
     xmlns="http://www.tei-c.org/ns/1.0"    xmlns:xs="http://www.w3.org/2001/XMLSchema"   
     exclude-result-prefixes="xs"
     version="3.0">
-<!--2018-06-21 ebb: Bridge Edition Constructor Part 2: This second phase consumes the <app> and and <rdg> elements to replace them with <seg> elements that hold the identifiers of their apps and indication of whether they are portions.-->
+<!--2018-06-21 ebb: Bridge Edition Constructor Part 2: This second phase: 
+        * begins building the output Bridge editions by consuming the <app> and and <rdg> elements to replace them with <seg> elements that hold the identifiers of their apps and indication of whether they are portions,
+        * reconstructs the Backbone as fully Standoff by replacing text content of the <rdg> elements with <ref><ptr target="/absolute/path/to/finished/edition/file/#{xml:id}"/></ref>      
+    -->
 <xsl:output method="xml" indent="yes"/>    
     <xsl:variable name="bridge-P1Files" as="document-node()+" select="collection('bridge-P1')"/>
     <xsl:variable name="witnesses" as="xs:string+" select="distinct-values($bridge-P1Files//@wit)"/>
