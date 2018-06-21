@@ -3,7 +3,7 @@
     xmlns="http://www.tei-c.org/ns/1.0"    xmlns:xs="http://www.w3.org/2001/XMLSchema"   
     exclude-result-prefixes="xs"
     version="3.0">
-<!--2018-06-17 ebb: This is a false start but it begins to address the flattened markup. Save this for outputting HTML, and rewrite it to output HTML, too. Use xsl:analyze-string to unpack the flattened elements and address them. 
+<!--2018-06-17 ebb: This is a false start but it begins to address the flattened markup. Use xsl:analyze-string to unpack the flattened elements and address them. 
         Spans for the "hotspot" variant passages will have to be folded in, perhaps in a separate process. -->    
 <xsl:output method="xml" indent="yes"/>    
 <!--<xsl:mode on-no-match="shallow-copy"/>-->

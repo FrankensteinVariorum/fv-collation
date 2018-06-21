@@ -1,51 +1,72 @@
-<!-- 2018-05-17 09:45:57.032761 -->
-<root>
-    <app>
-        <rdg wit="#f1818">&lt;milestone n="1" type="start" unit="novel"/&gt;FRANKENSTEIN;OR,
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="bridgeP1-collation_C02">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C02</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output: 2018-05-17 09:45:57.032761 </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="collation">
+            <app xml:id="C02_app1">
+               <rdg wit="#f1818">&lt;milestone n="1" type="start" unit="novel"/&gt;FRANKENSTEIN;OR,
             THEMODERN </rdg>
-        <rdg wit="#f1823">&lt;milestone n="1" type="start" unit="novel"/&gt;FRANKENSTEIN;OR,THE
+               <rdg wit="#f1823">&lt;milestone n="1" type="start" unit="novel"/&gt;FRANKENSTEIN;OR,THE
             MODERN </rdg>
-        <rdg wit="#f1831">&lt;milestone n="1" type="start" unit="novel"/&gt;FRANKENSTEIN;OR,THE
+               <rdg wit="#f1831">&lt;milestone n="1" type="start" unit="novel"/&gt;FRANKENSTEIN;OR,THE
             MODERN </rdg>
-        <rdg wit="#fThomas">&lt;milestone n="1" type="start" unit="novel"/&gt;FRANKENSTEIN;OR,
+               <rdg wit="#fThomas">&lt;milestone n="1" type="start" unit="novel"/&gt;FRANKENSTEIN;OR,
             THEMODERN </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">PROMETHEUS.&lt;milestone n="1" type="start" unit="letter"/&gt;LETTER </rdg>
-        <rdg wit="#f1823">PROMETHEUS.&lt;milestone n="1" type="start" unit="letter"/&gt;LETTER </rdg>
-        <rdg wit="#f1831">PROMETHEUS.&lt;milestone n="1" type="start" unit="letter"/&gt;LETTER </rdg>
-        <rdg wit="#fThomas">PROMETHEUS.&lt;milestone n="1" type="start" unit="letter"/&gt;LETTER
+            </app>
+            <app xml:id="C02_app2">
+               <rdg wit="#f1818">PROMETHEUS.&lt;milestone n="1" type="start" unit="letter"/&gt;LETTER </rdg>
+               <rdg wit="#f1823">PROMETHEUS.&lt;milestone n="1" type="start" unit="letter"/&gt;LETTER </rdg>
+               <rdg wit="#f1831">PROMETHEUS.&lt;milestone n="1" type="start" unit="letter"/&gt;LETTER </rdg>
+               <rdg wit="#fThomas">PROMETHEUS.&lt;milestone n="1" type="start" unit="letter"/&gt;LETTER
         </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">I </rdg>
-        <rdg wit="#f1823">I.To </rdg>
-        <rdg wit="#f1831">I.To </rdg>
-        <rdg wit="#fThomas">I </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">&lt;ab&gt; </rdg>
-        <rdg wit="#fMS"> </rdg>
-        <rdg wit="#fThomas">&lt;ab&gt; </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">To </rdg>
-        <rdg wit="#fThomas">To </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">Mrs. SAVILLE, </rdg>
-        <rdg wit="#f1823">Mrs. SAVILLE, </rdg>
-        <rdg wit="#f1831">Mrs. Saville, </rdg>
-        <rdg wit="#fThomas">Mrs. SAVILLE, </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">England. &lt;/ab&gt;&lt;p loc="novel1_letter1_p6__Start"/&gt;St. </rdg>
-        <rdg wit="#f1823">England.&lt;p loc="novel1_letter1_p6__Start"/&gt; St. </rdg>
-        <rdg wit="#f1831">England.&lt;p loc="novel1_letter1_p7__Start"/&gt;St. </rdg>
-        <rdg wit="#fThomas">England. &lt;/ab&gt;&lt;p loc="novel1_letter1_p6__Start"/&gt;St. </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">Petersburgh, Dec. 11th, 17—.&lt;p loc="novel1_letter1_p6__End"/&gt;&lt;p
+            </app>
+            <app xml:id="C02_app3">
+               <rdg wit="#f1818">I </rdg>
+               <rdg wit="#f1823">I.To </rdg>
+               <rdg wit="#f1831">I.To </rdg>
+               <rdg wit="#fThomas">I </rdg>
+            </app>
+            <app xml:id="C02_app4">
+               <rdg wit="#f1818">&lt;ab&gt; </rdg>
+               <rdg wit="#fMS"> </rdg>
+               <rdg wit="#fThomas">&lt;ab&gt; </rdg>
+            </app>
+            <app xml:id="C02_app5">
+               <rdg wit="#f1818">To </rdg>
+               <rdg wit="#fThomas">To </rdg>
+            </app>
+            <app xml:id="C02_app6">
+               <rdg wit="#f1818">Mrs. SAVILLE, </rdg>
+               <rdg wit="#f1823">Mrs. SAVILLE, </rdg>
+               <rdg wit="#f1831">Mrs. Saville, </rdg>
+               <rdg wit="#fThomas">Mrs. SAVILLE, </rdg>
+            </app>
+            <app xml:id="C02_app7">
+               <rdg wit="#f1818">England. &lt;/ab&gt;&lt;p loc="novel1_letter1_p6__Start"/&gt;St. </rdg>
+               <rdg wit="#f1823">England.&lt;p loc="novel1_letter1_p6__Start"/&gt; St. </rdg>
+               <rdg wit="#f1831">England.&lt;p loc="novel1_letter1_p7__Start"/&gt;St. </rdg>
+               <rdg wit="#fThomas">England. &lt;/ab&gt;&lt;p loc="novel1_letter1_p6__Start"/&gt;St. </rdg>
+            </app>
+            <app xml:id="C02_app8">
+               <rdg wit="#f1818">Petersburgh, Dec. 11th, 17—.&lt;p loc="novel1_letter1_p6__End"/&gt;&lt;p
             loc="novel1_letter1_p7__Start"/&gt;YOU will rejoice to hear that no disaster has
             accompanied the commencement of an enterprise which you have regarded with such evil
             forebodings. I arrived here yesterday; and my first task is to assure my dear sister of
@@ -58,7 +79,7 @@
             promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that
             the pole is the seat of frost and desolation; it ever presents itself to my imagination
             as the region of beauty and delight. There, Margaret, the sun is </rdg>
-        <rdg wit="#f1823">Petersburgh, Dec. 11th, 17—.&lt;p loc="novel1_letter1_p6__End"/&gt;&lt;p
+               <rdg wit="#f1823">Petersburgh, Dec. 11th, 17—.&lt;p loc="novel1_letter1_p6__End"/&gt;&lt;p
             loc="novel1_letter1_p7__Start"/&gt;YOU will rejoice to hear that no disaster has
             accompanied the commencement of an enterprise which you have regarded with such evil
             forebodings. I arrived here yesterday; and my first task is to assure my dear sister of
@@ -71,7 +92,7 @@
             promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that
             the pole is the seat of frost and desolation; it ever presents itself to my imagination
             as the region of beauty and delight. There, Margaret, the sun is </rdg>
-        <rdg wit="#f1831">Petersburgh, Dec. 11th, 17—.&lt;p loc="novel1_letter1_p7__End"/&gt;&lt;p
+               <rdg wit="#f1831">Petersburgh, Dec. 11th, 17—.&lt;p loc="novel1_letter1_p7__End"/&gt;&lt;p
             loc="novel1_letter1_p8__Start"/&gt;YOU will rejoice to hear that no disaster has
             accompanied the commencement of an enterprise which you have regarded with such evil
             forebodings. I arrived here yesterday; and my first task is to assure my dear sister of
@@ -84,7 +105,7 @@
             promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that
             the pole is the seat of frost and desolation; it ever presents itself to my imagination
             as the region of beauty and delight. There, Margaret, the sun is </rdg>
-        <rdg wit="#fThomas">Petersburgh, Dec. 11th, 17—.&lt;p loc="novel1_letter1_p6__End"/&gt;&lt;p
+               <rdg wit="#fThomas">Petersburgh, Dec. 11th, 17—.&lt;p loc="novel1_letter1_p6__End"/&gt;&lt;p
             loc="novel1_letter1_p7__Start"/&gt;YOU will rejoice to hear that no disaster has
             accompanied the commencement of an enterprise which you have regarded with such evil
             forebodings. I arrived here yesterday; and my first task is to assure my dear sister of
@@ -97,70 +118,70 @@
             promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that
             the pole is the seat of frost and desolation; it ever presents itself to my imagination
             as the region of beauty and delight. There, Margaret, the sun is </rdg>
-    </app>
-    <app>
-        <rdg wit="#fThomas">&lt;del rend="strikethrough"/&gt;for everconstantly visible </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">for </rdg>
-        <rdg wit="#f1823">for </rdg>
-        <rdg wit="#f1831">for </rdg>
-        <rdg wit="#fThomas">for </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">ever visible; </rdg>
-        <rdg wit="#f1823">ever visible; </rdg>
-        <rdg wit="#f1831">ever visible; </rdg>
-        <rdg wit="#fThomas">more than half the year; </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">its broad disk just skirting the horizon, and diffusing a perpetual
+            </app>
+            <app xml:id="C02_app9">
+               <rdg wit="#fThomas">&lt;del rend="strikethrough"/&gt;for everconstantly visible </rdg>
+            </app>
+            <app xml:id="C02_app10">
+               <rdg wit="#f1818">for </rdg>
+               <rdg wit="#f1823">for </rdg>
+               <rdg wit="#f1831">for </rdg>
+               <rdg wit="#fThomas">for </rdg>
+            </app>
+            <app xml:id="C02_app11">
+               <rdg wit="#f1818">ever visible; </rdg>
+               <rdg wit="#f1823">ever visible; </rdg>
+               <rdg wit="#f1831">ever visible; </rdg>
+               <rdg wit="#fThomas">more than half the year; </rdg>
+            </app>
+            <app xml:id="C02_app12">
+               <rdg wit="#f1818">its broad disk just skirting the horizon, and diffusing a perpetual
             splendour. There—for with your leave, my sister, I will put some trust in preceding
             navigators—there snow and frost are banished; and, sailing over a calm sea, we may be
             wafted to a land surpassing in wonders and in beauty every region hitherto discovered on
             the habitable globe. Its productions and features may be without example, as the </rdg>
-        <rdg wit="#f1823">its broad disk just skirting the horizon, and diffusing a perpetual
+               <rdg wit="#f1823">its broad disk just skirting the horizon, and diffusing a perpetual
             splendour. There—for with your leave, my sister, I will put some trust in preceding
             navigators—there snow and frost are banished; and, sailing over a calm sea, we may be
             wafted to a land surpassing in wonders and in beauty every region hitherto discovered on
             the habitable globe. Its productions and features may be without example, as the </rdg>
-        <rdg wit="#f1831">its broad disk just skirting the horizon, and diffusing a perpetual
+               <rdg wit="#f1831">its broad disk just skirting the horizon, and diffusing a perpetual
             splendour. There—for with your leave, my sister, I will put some trust in preceding
             navigators—there snow and frost are banished; and, sailing over a calm sea, we may be
             wafted to a land surpassing in wonders and in beauty every region hitherto discovered on
             the habitable globe. Its productions and features may be without example, as the </rdg>
-        <rdg wit="#fThomas">its broad disk just skirting the horizon, and diffusing a perpetual
+               <rdg wit="#fThomas">its broad disk just skirting the horizon, and diffusing a perpetual
             splendour. There—for with your leave, my sister, I will put some trust in preceding
             navigators—there snow and frost are banished; and, sailing over a calm sea, we may be
             wafted to a land surpassing in wonders and in beauty every region hitherto discovered on
             the habitable globe. Its productions and features may be without example, as the </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">phænomena </rdg>
-        <rdg wit="#f1823">phenomena </rdg>
-        <rdg wit="#f1831">phenomena </rdg>
-        <rdg wit="#fThomas">phænomena </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">of the heavenly bodies undoubtedly are in those undiscovered solitudes.
+            </app>
+            <app xml:id="C02_app13">
+               <rdg wit="#f1818">phænomena </rdg>
+               <rdg wit="#f1823">phenomena </rdg>
+               <rdg wit="#f1831">phenomena </rdg>
+               <rdg wit="#fThomas">phænomena </rdg>
+            </app>
+            <app xml:id="C02_app14">
+               <rdg wit="#f1818">of the heavenly bodies undoubtedly are in those undiscovered solitudes.
             What may not be expected in a country of eternal </rdg>
-        <rdg wit="#f1823">of the heavenly bodies undoubtedly are in those undiscovered solitudes.
+               <rdg wit="#f1823">of the heavenly bodies undoubtedly are in those undiscovered solitudes.
             What may not be expected in a country of eternal </rdg>
-        <rdg wit="#f1831">of the heavenly bodies undoubtedly are in those undiscovered solitudes.
+               <rdg wit="#f1831">of the heavenly bodies undoubtedly are in those undiscovered solitudes.
             What may not be expected in a country of eternal </rdg>
-        <rdg wit="#fThomas">of the heavenly bodies undoubtedly are in those undiscovered solitudes.
+               <rdg wit="#fThomas">of the heavenly bodies undoubtedly are in those undiscovered solitudes.
             What may not be expected in a country &lt;del rend="strikethrough"/&gt;of eternal </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">light? </rdg>
-        <rdg wit="#f1823">light? </rdg>
-        <rdg wit="#f1831">light? </rdg>
-        <rdg wit="#fThomas">light?ruled by different laws and in which numerous circumstances
+            </app>
+            <app xml:id="C02_app15">
+               <rdg wit="#f1818">light? </rdg>
+               <rdg wit="#f1823">light? </rdg>
+               <rdg wit="#f1831">light? </rdg>
+               <rdg wit="#fThomas">light?ruled by different laws and in which numerous circumstances
             enforce a belief that the aspect of nature differs essentially from anything of which we
             have any experience. </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">I may there discover the wondrous power which attracts the needle; and may
+            </app>
+            <app xml:id="C02_app16">
+               <rdg wit="#f1818">I may there discover the wondrous power which attracts the needle; and may
             regulate a thousand celestial observations, that require only this voyage to render
             their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity
             with the sight of a part of the world never before visited, and may tread a land never
@@ -176,7 +197,7 @@
             loc="novel1_letter1_p9__Start"/&gt;These reflections have dispelled the agitation with
             which I began my letter, and I feel my heart glow with an enthusiasm which elevates me
             to heaven; for nothing contributes so much to </rdg>
-        <rdg wit="#f1823">I may there discover the wondrous power which attracts the needle; and may
+               <rdg wit="#f1823">I may there discover the wondrous power which attracts the needle; and may
             regulate a thousand celestial observations, that require only this voyage to render
             their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity
             with the sight of a part of the world never before visited, and may tread a land never
@@ -192,7 +213,7 @@
             loc="novel1_letter1_p9__Start"/&gt;These reflections have dispelled the agitation with
             which I began my letter, and I feel my heart glow with an enthusiasm which elevates me
             to heaven; for nothing contributes so much to </rdg>
-        <rdg wit="#f1831">I may there discover the wondrous power which attracts the needle; and may
+               <rdg wit="#f1831">I may there discover the wondrous power which attracts the needle; and may
             regulate a thousand celestial observations, that require only this voyage to render
             their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity
             with the sight of a part of the world never before visited, and may tread a land never
@@ -208,7 +229,7 @@
             loc="novel1_letter1_p10__Start"/&gt;These reflections have dispelled the agitation with
             which I began my letter, and I feel my heart glow with an enthusiasm which elevates me
             to heaven; for nothing contributes so much to </rdg>
-        <rdg wit="#fThomas">I may there discover the wondrous power which attracts the needle; and
+               <rdg wit="#fThomas">I may there discover the wondrous power which attracts the needle; and
             may regulate a thousand celestial observations, that require only this voyage to render
             their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity
             with the sight of a part of the world never before visited, and may tread a land never
@@ -224,15 +245,15 @@
             loc="novel1_letter1_p9__Start"/&gt;These reflections have dispelled the agitation with
             which I began my letter, and I feel my heart glow with an enthusiasm which elevates me
             to heaven; for nothing contributes so much to </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">tranquillize </rdg>
-        <rdg wit="#f1823">tranquillize </rdg>
-        <rdg wit="#f1831">tranquillise </rdg>
-        <rdg wit="#fThomas">tranquillize </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">the mind as a steady purpose,—a point on which the soul may fix its
+            </app>
+            <app xml:id="C02_app17">
+               <rdg wit="#f1818">tranquillize </rdg>
+               <rdg wit="#f1823">tranquillize </rdg>
+               <rdg wit="#f1831">tranquillise </rdg>
+               <rdg wit="#fThomas">tranquillize </rdg>
+            </app>
+            <app xml:id="C02_app18">
+               <rdg wit="#f1818">the mind as a steady purpose,—a point on which the soul may fix its
             intellectual eye. This expedition has been the favourite dream of my early years. I have
             read with ardour the accounts of the various voyages which have been made in the
             prospect of arriving at the North Pacific Ocean through the seas which surround the
@@ -241,7 +262,7 @@
             was passionately fond of reading. These volumes were my study day and night, and my
             familiarity with them increased that regret which I had felt, as a child, on learning
             that my father’s dying injunction had forbidden my uncle to allow me to embark in a </rdg>
-        <rdg wit="#f1823">the mind as a steady purpose,—a point on which the soul may fix its
+               <rdg wit="#f1823">the mind as a steady purpose,—a point on which the soul may fix its
             intellectual eye. This expedition has been the favourite dream of my early years. I have
             read with ardour the accounts of the various voyages which have been made in the
             prospect of arriving at the North Pacific Ocean through the seas which surround the
@@ -250,7 +271,7 @@
             was passionately fond of reading. These volumes were my study day and night, and my
             familiarity with them increased that regret which I had felt, as a child, on learning
             that my father’s dying injunction had forbidden my uncle to allow me to embark in a </rdg>
-        <rdg wit="#f1831">the mind as a steady purpose,—a point on which the soul may fix its
+               <rdg wit="#f1831">the mind as a steady purpose,—a point on which the soul may fix its
             intellectual eye. This expedition has been the favourite dream of my early years. I have
             read with ardour the accounts of the various voyages which have been made in the
             prospect of arriving at the North Pacific Ocean through the seas which surround the
@@ -259,7 +280,7 @@
             was passionately fond of reading. These volumes were my study day and night, and my
             familiarity with them increased that regret which I had felt, as a child, on learning
             that my father’s dying injunction had forbidden my uncle to allow me to embark in a </rdg>
-        <rdg wit="#fThomas">the mind as a steady purpose,—a point on which the soul may fix its
+               <rdg wit="#fThomas">the mind as a steady purpose,—a point on which the soul may fix its
             intellectual eye. This expedition has been the favourite dream of my early years. I have
             read with ardour the accounts of the various voyages which have been made in the
             prospect of arriving at the North Pacific Ocean through the seas which surround the
@@ -269,43 +290,43 @@
             familiarity with them increased that regret which I had felt, as a child, on learning
             that my father’s dying injunction had forbidden my uncle to allow me to embark in a
         </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">sea-faring </rdg>
-        <rdg wit="#f1823">sea-faring </rdg>
-        <rdg wit="#f1831">seafaring </rdg>
-        <rdg wit="#fThomas">sea-faring </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">life.&lt;p loc="novel1_letter1_p9__End"/&gt;&lt;p
+            </app>
+            <app xml:id="C02_app19">
+               <rdg wit="#f1818">sea-faring </rdg>
+               <rdg wit="#f1823">sea-faring </rdg>
+               <rdg wit="#f1831">seafaring </rdg>
+               <rdg wit="#fThomas">sea-faring </rdg>
+            </app>
+            <app xml:id="C02_app20">
+               <rdg wit="#f1818">life.&lt;p loc="novel1_letter1_p9__End"/&gt;&lt;p
             loc="novel1_letter1_p10__Start"/&gt;These visions faded when I perused, for the first
             time, those poets whose effusions entranced my soul, and lifted it to heaven. I also
             became a poet, and for one year lived in a Paradise of my own creation; I imagined that
             I also might obtain a niche in the temple where the names of Homer and </rdg>
-        <rdg wit="#f1823">life.&lt;p loc="novel1_letter1_p9__End"/&gt;&lt;p
+               <rdg wit="#f1823">life.&lt;p loc="novel1_letter1_p9__End"/&gt;&lt;p
             loc="novel1_letter1_p10__Start"/&gt;These visions faded when I perused, for the first
             time, those poets whose effusions entranced my soul, and lifted it to heaven. I also
             became a poet, and for one year lived in a Paradise of my own creation; I imagined that
             I also might obtain a niche in the temple where the names of Homer and </rdg>
-        <rdg wit="#f1831">life.&lt;p loc="novel1_letter1_p10__End"/&gt;&lt;p
+               <rdg wit="#f1831">life.&lt;p loc="novel1_letter1_p10__End"/&gt;&lt;p
             loc="novel1_letter1_p11__Start"/&gt;These visions faded when I perused, for the first
             time, those poets whose effusions entranced my soul, and lifted it to heaven. I also
             became a poet, and for one year lived in a Paradise of my own creation; I imagined that
             I also might obtain a niche in the temple where the names of Homer and </rdg>
-        <rdg wit="#fThomas">life.&lt;p loc="novel1_letter1_p9__End"/&gt;&lt;p
+               <rdg wit="#fThomas">life.&lt;p loc="novel1_letter1_p9__End"/&gt;&lt;p
             loc="novel1_letter1_p10__Start"/&gt;These visions faded when I perused, for the first
             time, those poets whose effusions entranced my soul, and lifted it to heaven. I also
             became a poet, and for one year lived in a Paradise of my own creation; I imagined that
             I also might obtain a niche in the temple where the names of Homer and </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">Shakespeare </rdg>
-        <rdg wit="#f1823">Shakspeare </rdg>
-        <rdg wit="#f1831">Shakspeare </rdg>
-        <rdg wit="#fThomas">Shakespeare </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">are consecrated. You are well acquainted with my failure, and how heavily
+            </app>
+            <app xml:id="C02_app21">
+               <rdg wit="#f1818">Shakespeare </rdg>
+               <rdg wit="#f1823">Shakspeare </rdg>
+               <rdg wit="#f1831">Shakspeare </rdg>
+               <rdg wit="#fThomas">Shakespeare </rdg>
+            </app>
+            <app xml:id="C02_app22">
+               <rdg wit="#f1818">are consecrated. You are well acquainted with my failure, and how heavily
             I bore the disappointment. But just at that time I inherited the fortune of my cousin,
             and my thoughts were turned into the channel of their earlier bent.&lt;p
             loc="novel1_letter1_p10__End"/&gt;&lt;p loc="novel1_letter1_p11__Start"/&gt;Six years
@@ -326,7 +347,7 @@
             encouraging voice would answer in the affirmative! My courage and my resolution is firm;
             but my hopes fluctuate, and my spirits are often depressed. I am about to proceed on a
             long and difficult </rdg>
-        <rdg wit="#f1823">are consecrated. You are well acquainted with my failure, and how heavily
+               <rdg wit="#f1823">are consecrated. You are well acquainted with my failure, and how heavily
             I bore the disappointment. But just at that time I inherited the fortune of my cousin,
             and my thoughts were turned into the channel of their earlier bent.&lt;p
             loc="novel1_letter1_p10__End"/&gt;&lt;p loc="novel1_letter1_p11__Start"/&gt;Six years
@@ -347,7 +368,7 @@
             encouraging voice would answer in the affirmative! My courage and my resolution is firm;
             but my hopes fluctuate, and my spirits are often depressed. I am about to proceed on a
             long and difficult </rdg>
-        <rdg wit="#f1831">are consecrated. You are well acquainted with my failure, and how heavily
+               <rdg wit="#f1831">are consecrated. You are well acquainted with my failure, and how heavily
             I bore the disappointment. But just at that time I inherited the fortune of my cousin,
             and my thoughts were turned into the channel of their earlier bent.&lt;p
             loc="novel1_letter1_p11__End"/&gt;&lt;p loc="novel1_letter1_p12__Start"/&gt;Six years
@@ -368,7 +389,7 @@
             encouraging voice would answer in the affirmative! My courage and my resolution is firm;
             but my hopes fluctuate, and my spirits are often depressed. I am about to proceed on a
             long and difficult </rdg>
-        <rdg wit="#fThomas">are consecrated. You are well acquainted with my failure, and how
+               <rdg wit="#fThomas">are consecrated. You are well acquainted with my failure, and how
             heavily I bore the disappointment. But just at that time I inherited the fortune of my
             cousin, and my thoughts were turned into the channel of their earlier bent.&lt;p
             loc="novel1_letter1_p10__End"/&gt;&lt;p loc="novel1_letter1_p11__Start"/&gt;Six years
@@ -389,71 +410,71 @@
             encouraging voice would answer in the affirmative! My courage and my resolution is firm;
             but my hopes fluctuate, and my spirits are often depressed. I am about to proceed on a
             long and difficult </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">voyage; </rdg>
-        <rdg wit="#f1823">voyage; </rdg>
-        <rdg wit="#f1831">voyage, </rdg>
-        <rdg wit="#fThomas">voyage; </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">the emergencies of which will demand all my fortitude: I am required not
+            </app>
+            <app xml:id="C02_app23">
+               <rdg wit="#f1818">voyage; </rdg>
+               <rdg wit="#f1823">voyage; </rdg>
+               <rdg wit="#f1831">voyage, </rdg>
+               <rdg wit="#fThomas">voyage; </rdg>
+            </app>
+            <app xml:id="C02_app24">
+               <rdg wit="#f1818">the emergencies of which will demand all my fortitude: I am required not
             only to raise the spirits of others, but sometimes to sustain my own, when </rdg>
-        <rdg wit="#f1823">the emergencies of which will demand all my fortitude: I am required not
+               <rdg wit="#f1823">the emergencies of which will demand all my fortitude: I am required not
             only to raise the spirits of others, but sometimes to sustain my own, when </rdg>
-        <rdg wit="#f1831">the emergencies of which will demand all my fortitude: I am required not
+               <rdg wit="#f1831">the emergencies of which will demand all my fortitude: I am required not
             only to raise the spirits of others, but sometimes to sustain my own, when </rdg>
-        <rdg wit="#fThomas">the emergencies of which will demand all my fortitude: I am required not
+               <rdg wit="#fThomas">the emergencies of which will demand all my fortitude: I am required not
             only to raise the spirits of others, but sometimes to sustain my own, when </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">their’s </rdg>
-        <rdg wit="#f1823">their’s </rdg>
-        <rdg wit="#f1831">theirs </rdg>
-        <rdg wit="#fThomas">their’s </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">are failing.&lt;p loc="novel1_letter1_p12__End"/&gt;&lt;p
+            </app>
+            <app xml:id="C02_app25">
+               <rdg wit="#f1818">their’s </rdg>
+               <rdg wit="#f1823">their’s </rdg>
+               <rdg wit="#f1831">theirs </rdg>
+               <rdg wit="#fThomas">their’s </rdg>
+            </app>
+            <app xml:id="C02_app26">
+               <rdg wit="#f1818">are failing.&lt;p loc="novel1_letter1_p12__End"/&gt;&lt;p
             loc="novel1_letter1_p13__Start"/&gt;This is the most favourable period for travelling in
             Russia. They fly quickly over the snow in their sledges; the motion is pleasant, and, in
             my opinion, far more agreeable than that of an English stage-coach. The cold is not
             excessive, if you are </rdg>
-        <rdg wit="#f1823">are failing.&lt;p loc="novel1_letter1_p12__End"/&gt;&lt;p
+               <rdg wit="#f1823">are failing.&lt;p loc="novel1_letter1_p12__End"/&gt;&lt;p
             loc="novel1_letter1_p13__Start"/&gt;This is the most favourable period for travelling in
             Russia. They fly quickly over the snow in their sledges; the motion is pleasant, and, in
             my opinion, far more agreeable than that of an English stage-coach. The cold is not
             excessive, if you are </rdg>
-        <rdg wit="#f1831">are failing.&lt;p loc="novel1_letter1_p13__End"/&gt;&lt;p
+               <rdg wit="#f1831">are failing.&lt;p loc="novel1_letter1_p13__End"/&gt;&lt;p
             loc="novel1_letter1_p14__Start"/&gt;This is the most favourable period for travelling in
             Russia. They fly quickly over the snow in their sledges; the motion is pleasant, and, in
             my opinion, far more agreeable than that of an English stage-coach. The cold is not
             excessive, if you are </rdg>
-        <rdg wit="#fThomas">are failing.&lt;p loc="novel1_letter1_p12__End"/&gt;&lt;p
+               <rdg wit="#fThomas">are failing.&lt;p loc="novel1_letter1_p12__End"/&gt;&lt;p
             loc="novel1_letter1_p13__Start"/&gt;This is the most favourable period for travelling in
             Russia. They fly quickly over the snow in their sledges; the motion is pleasant, and, in
             my opinion, far more agreeable than that of an English stage-coach. The cold is not
             excessive, if you are </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">wrapt </rdg>
-        <rdg wit="#f1823">wrapt </rdg>
-        <rdg wit="#f1831">wrapped </rdg>
-        <rdg wit="#fThomas">wrapt </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">in </rdg>
-        <rdg wit="#f1823">in </rdg>
-        <rdg wit="#f1831">in </rdg>
-        <rdg wit="#fThomas">in </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">furs, a </rdg>
-        <rdg wit="#f1823">furs, a </rdg>
-        <rdg wit="#f1831">furs,—a </rdg>
-        <rdg wit="#fThomas">furs, a </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">dress which I have already adopted; for there is a great difference
+            </app>
+            <app xml:id="C02_app27">
+               <rdg wit="#f1818">wrapt </rdg>
+               <rdg wit="#f1823">wrapt </rdg>
+               <rdg wit="#f1831">wrapped </rdg>
+               <rdg wit="#fThomas">wrapt </rdg>
+            </app>
+            <app xml:id="C02_app28">
+               <rdg wit="#f1818">in </rdg>
+               <rdg wit="#f1823">in </rdg>
+               <rdg wit="#f1831">in </rdg>
+               <rdg wit="#fThomas">in </rdg>
+            </app>
+            <app xml:id="C02_app29">
+               <rdg wit="#f1818">furs, a </rdg>
+               <rdg wit="#f1823">furs, a </rdg>
+               <rdg wit="#f1831">furs,—a </rdg>
+               <rdg wit="#fThomas">furs, a </rdg>
+            </app>
+            <app xml:id="C02_app30">
+               <rdg wit="#f1818">dress which I have already adopted; for there is a great difference
             between walking the deck and remaining seated motionless for hours, when no exercise
             prevents the blood from actually freezing in your veins. I have no ambition to lose my
             life on the post-road between St. Petersburgh and Archangel.&lt;p
@@ -462,7 +483,7 @@
             ship there, which can easily be done by paying the insurance for the owner, and to
             engage as many sailors as I think necessary among those who are accustomed to the
             whale-fishing. I do not intend to sail until the month of </rdg>
-        <rdg wit="#f1823">dress which I have already adopted; for there is a great difference
+               <rdg wit="#f1823">dress which I have already adopted; for there is a great difference
             between walking the deck and remaining seated motionless for hours, when no exercise
             prevents the blood from actually freezing in your veins. I have no ambition to lose my
             life on the post-road between St. Petersburgh and Archangel.&lt;p
@@ -471,7 +492,7 @@
             ship there, which can easily be done by paying the insurance for the owner, and to
             engage as many sailors as I think necessary among those who are accustomed to the
             whale-fishing. I do not intend to sail until the month of </rdg>
-        <rdg wit="#f1831">dress which I have already adopted; for there is a great difference
+               <rdg wit="#f1831">dress which I have already adopted; for there is a great difference
             between walking the deck and remaining seated motionless for hours, when no exercise
             prevents the blood from actually freezing in your veins. I have no ambition to lose my
             life on the post-road between St. Petersburgh and Archangel.&lt;p
@@ -480,7 +501,7 @@
             ship there, which can easily be done by paying the insurance for the owner, and to
             engage as many sailors as I think necessary among those who are accustomed to the
             whale-fishing. I do not intend to sail until the month of </rdg>
-        <rdg wit="#fThomas">dress which I have already adopted; for there is a great difference
+               <rdg wit="#fThomas">dress which I have already adopted; for there is a great difference
             between walking the deck and remaining seated motionless for hours, when no exercise
             prevents the blood from actually freezing in your veins. I have no ambition to lose my
             life on the post-road between St. Petersburgh and Archangel.&lt;p
@@ -489,66 +510,69 @@
             ship there, which can easily be done by paying the insurance for the owner, and to
             engage as many sailors as I think necessary among those who are accustomed to the
             whale-fishing. I do not intend to sail until the month of </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">June: </rdg>
-        <rdg wit="#f1823">June; </rdg>
-        <rdg wit="#f1831">June: </rdg>
-        <rdg wit="#fThomas">June: </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">and when shall I return? Ah, dear sister, how can I answer this question?
+            </app>
+            <app xml:id="C02_app31">
+               <rdg wit="#f1818">June: </rdg>
+               <rdg wit="#f1823">June; </rdg>
+               <rdg wit="#f1831">June: </rdg>
+               <rdg wit="#fThomas">June: </rdg>
+            </app>
+            <app xml:id="C02_app32">
+               <rdg wit="#f1818">and when shall I return? Ah, dear sister, how can I answer this question?
             If I succeed, many, many months, perhaps years, will pass before you and I may meet. If
             I fail, you will see me again soon, or never.&lt;p
             loc="novel1_letter1_p14__End"/&gt;&lt;p loc="novel1_letter1_p15__Start"/&gt;Farewell, my
             dear, </rdg>
-        <rdg wit="#f1823">and when shall I return? Ah, dear sister, how can I answer this question?
+               <rdg wit="#f1823">and when shall I return? Ah, dear sister, how can I answer this question?
             If I succeed, many, many months, perhaps years, will pass before you and I may meet. If
             I fail, you will see me again soon, or never.&lt;p
             loc="novel1_letter1_p14__End"/&gt;&lt;p loc="novel1_letter1_p15__Start"/&gt;Farewell, my
             dear, </rdg>
-        <rdg wit="#f1831">and when shall I return? Ah, dear sister, how can I answer this question?
+               <rdg wit="#f1831">and when shall I return? Ah, dear sister, how can I answer this question?
             If I succeed, many, many months, perhaps years, will pass before you and I may meet. If
             I fail, you will see me again soon, or never.&lt;p
             loc="novel1_letter1_p15__End"/&gt;&lt;p loc="novel1_letter1_p16__Start"/&gt;Farewell, my
             dear, </rdg>
-        <rdg wit="#fThomas">and when shall I return? Ah, dear sister, how can I answer this
+               <rdg wit="#fThomas">and when shall I return? Ah, dear sister, how can I answer this
             question? If I succeed, many, many months, perhaps years, will pass before you and I may
             meet. If I fail, you will see me again soon, or never.&lt;p
             loc="novel1_letter1_p14__End"/&gt;&lt;p loc="novel1_letter1_p15__Start"/&gt;Farewell, my
             dear, </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">excellent, </rdg>
-        <rdg wit="#f1823">excellent, </rdg>
-        <rdg wit="#f1831">excellent </rdg>
-        <rdg wit="#fThomas">excellent, </rdg>
-    </app>
-    <app>
-        <rdg wit="#f1818">Margaret. Heaven shower down blessings on you, and save me, that I may
+            </app>
+            <app xml:id="C02_app33">
+               <rdg wit="#f1818">excellent, </rdg>
+               <rdg wit="#f1823">excellent, </rdg>
+               <rdg wit="#f1831">excellent </rdg>
+               <rdg wit="#fThomas">excellent, </rdg>
+            </app>
+            <app xml:id="C02_app34">
+               <rdg wit="#f1818">Margaret. Heaven shower down blessings on you, and save me, that I may
             again and again testify my gratitude for all your love and kindness.&lt;p
             loc="novel1_letter1_p15__End"/&gt;&lt;p loc="novel1_letter1_p16__Start"/&gt;Your
             affectionate brother,&lt;p loc="novel1_letter1_p16__End"/&gt;&lt;p
             loc="novel1_letter1_p17__Start"/&gt;R. WALTON.&lt;p
             loc="novel1_letter1_p17__End"/&gt;&lt;milestone n="1" type="end" unit="letter"/&gt; </rdg>
-        <rdg wit="#f1823">Margaret. Heaven shower down blessings on you, and save me, that I may
+               <rdg wit="#f1823">Margaret. Heaven shower down blessings on you, and save me, that I may
             again and again testify my gratitude for all your love and kindness.&lt;p
             loc="novel1_letter1_p15__End"/&gt;&lt;p loc="novel1_letter1_p16__Start"/&gt;Your
             affectionate brother,&lt;p loc="novel1_letter1_p16__End"/&gt;&lt;p
             loc="novel1_letter1_p17__Start"/&gt;R. WALTON.&lt;p
             loc="novel1_letter1_p17__End"/&gt;&lt;milestone n="1" type="end" unit="letter"/&gt; </rdg>
-        <rdg wit="#f1831">Margaret. Heaven shower down blessings on you, and save me, that I may
+               <rdg wit="#f1831">Margaret. Heaven shower down blessings on you, and save me, that I may
             again and again testify my gratitude for all your love and kindness.&lt;p
             loc="novel1_letter1_p16__End"/&gt;&lt;p loc="novel1_letter1_p17__Start"/&gt;Your
             affectionate brother,&lt;p loc="novel1_letter1_p17__End"/&gt;&lt;p
             loc="novel1_letter1_p18__Start"/&gt;R. WALTON.&lt;p
             loc="novel1_letter1_p18__End"/&gt;&lt;milestone n="1" type="end" unit="letter"/&gt; </rdg>
-        <rdg wit="#fThomas">Margaret. Heaven shower down blessings on you, and save me, that I may
+               <rdg wit="#fThomas">Margaret. Heaven shower down blessings on you, and save me, that I may
             again and again testify my gratitude for all your love and kindness.&lt;p
             loc="novel1_letter1_p15__End"/&gt;&lt;p loc="novel1_letter1_p16__Start"/&gt;Your
             affectionate brother,&lt;p loc="novel1_letter1_p16__End"/&gt;&lt;p
             loc="novel1_letter1_p17__Start"/&gt;R. WALTON.&lt;p
             loc="novel1_letter1_p17__End"/&gt;&lt;milestone n="1" type="end" unit="letter"/&gt;
         </rdg>
-    </app>
-</root>
+            </app>
+         </div>
+      </body>
+   </text>
+</TEI>
