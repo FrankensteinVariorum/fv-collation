@@ -20,7 +20,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="collation">
+         <ab type="alignmentChunk">
             <app xml:id="C02_app1">
                <rdg wit="#f1818">&lt;milestone n="1" type="start" unit="novel"/&gt;FRANKENSTEIN;OR,
             THEMODERN </rdg>
@@ -572,7 +572,7 @@
             loc="novel1_letter1_p17__End"/&gt;&lt;milestone n="1" type="end" unit="letter"/&gt;
         </rdg>
             </app>
-         </div>
+         </ab>
       </body>
    </text>
 </TEI>

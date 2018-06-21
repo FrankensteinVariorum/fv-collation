@@ -33,11 +33,11 @@
             </teiHeader>
             <text>
            <body> 
-        <div type="collation">
+        <ab type="alignmentChunk">
             <xsl:apply-templates  select="descendant::app">
                  <xsl:with-param name="chunk" select="$chunk" tunnel="yes"/>
              </xsl:apply-templates>
-               </div>
+            </ab>
            </body>
                     
             </text>

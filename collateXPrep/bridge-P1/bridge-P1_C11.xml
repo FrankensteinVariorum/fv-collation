@@ -20,7 +20,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="collation">
+         <ab type="alignmentChunk">
             <app xml:id="C11_app1">
                <rdg wit="#f1818">&lt;milestone n="5" type="start" unit="chapter"/&gt;CHAPTER </rdg>
                <rdg wit="#f1823">&lt;milestone n="5" type="start" unit="chapter"/&gt;CHAPTER </rdg>
@@ -4984,7 +4984,7 @@
             <app xml:id="C11_app794">
                <rdg wit="#fThomas">&lt;note&gt; This letter ought to be re-written. &lt;/note&gt; </rdg>
             </app>
-         </div>
+         </ab>
       </body>
    </text>
 </TEI>

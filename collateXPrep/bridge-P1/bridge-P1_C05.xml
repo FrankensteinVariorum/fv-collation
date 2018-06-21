@@ -20,7 +20,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="collation">
+         <ab type="alignmentChunk">
             <app xml:id="C05_app1">
                <rdg wit="#f1818">&lt;milestone n="4" type="start" unit="letter"/&gt;LETTER </rdg>
                <rdg wit="#f1823">&lt;milestone n="4" type="start" unit="letter"/&gt;LETTER </rdg>
@@ -664,7 +664,7 @@
             continue my journal concerning the stranger at intervals, should I have any fresh
             incidents to record.&lt;p loc="novel1_letter4_p59__End"/&gt; </rdg>
             </app>
-         </div>
+         </ab>
       </body>
    </text>
 </TEI>

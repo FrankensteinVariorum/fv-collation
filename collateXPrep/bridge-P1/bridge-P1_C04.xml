@@ -20,7 +20,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="collation">
+         <ab type="alignmentChunk">
             <app xml:id="C04_app1">
                <rdg wit="#f1818">&lt;milestone n="3" type="start" unit="letter"/&gt;LETTER </rdg>
                <rdg wit="#f1823">&lt;milestone n="3" type="start" unit="letter"/&gt;LETTER </rdg>
@@ -301,7 +301,7 @@
             loc="novel1_letter3_p35__End"/&gt;&lt;milestone n="3" type="end" unit="letter"/&gt;
         </rdg>
             </app>
-         </div>
+         </ab>
       </body>
    </text>
 </TEI>
