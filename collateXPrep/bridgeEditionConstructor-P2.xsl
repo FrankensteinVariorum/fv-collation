@@ -73,7 +73,13 @@
           <xsl:apply-templates mode="invariant"/>
       </xsl:when>
       <xsl:when test="count($rdg) eq 4">
-        <xsl:value-of select="pitt:compareWits($rdg)"/>
+      <xsl:choose><xsl:when test="contains(string(pitt:compareWits($rdg)), 'false')">  <xsl:message>Strings do not match! </xsl:message>
+      <xsl:apply-templates mode="variant"/>
+      </xsl:when>
+      <xsl:otherwise>
+          
+      </xsl:otherwise>
+      </xsl:choose>
         
       </xsl:when>
       <xsl:otherwise>
