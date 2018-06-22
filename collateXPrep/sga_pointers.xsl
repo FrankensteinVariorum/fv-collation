@@ -14,9 +14,6 @@
     
     <xsl:function name="pitt:getLbPointer" as="item()*">
         <xsl:param name="str"/>
-        <xsl:message>
-            <xsl:value-of select="$str"/>
-        </xsl:message>
         <xsl:analyze-string select="$str" regex="^=&quot;([^&quot;]+?)&quot;\s*?/&gt;">
             <xsl:matching-substring>
                 <xsl:variable name="ms-rest" select="tokenize(regex-group(1), '-')"/>
@@ -42,8 +39,8 @@
         <xsl:variable name="xpath" select="concat('doc(&quot;', $filename,'&quot;)', $string_range[1])"/>
         <xsl:variable name="line">
             <xsl:evaluate xpath="$xpath"/>
-        </xsl:variable>        
-        <xsl:variable name="text" select="substring-before(substring($line, number($string_range[2])), 
+        </xsl:variable>
+        <xsl:variable name="text" select="substring-before(substring(normalize-space($line), number($string_range[2])), 
             substring(normalize-space($line), number(substring-before($string_range[3], ')'))))"/>
         <xsl:choose>
             <xsl:when test="$text = ''">
@@ -68,28 +65,33 @@
                                 <xsl:choose>
                                     <!-- EDGE CASE: the first token belongs to a previous line, in which case the previous line will need to be located -->
                                     <!-- Each token after an LB will start with '=', so check whether it's missing -->
-                                    <xsl:when test="starts-with(., '=')">
-                                        <xsl:variable name="pointer">
-                                            <xsl:value-of select="pitt:getLbPointer(normalize-space(current()))"/>
-                                        </xsl:variable>
-                                        <xsl:if test="not($pointer = '')">
-                                            <xsl:variable name="text" select="
-                                                replace(
-                                                replace(
-                                                normalize-space(current()), '&lt;.*?&gt;', ''
-                                                ),
-                                                '^=&quot;[^&quot;]+?&quot;\s*?/&gt;', ''
-                                                )"/>
-                                            <xsl:variable name="full_pointer" select="concat(string-join(pitt:getLbPointer(normalize-space(current()))),',0,',string-length($text)+1, ')')"/>
-                                            <ptr target="{$full_pointer}"/>
-                                            <line_text>
-                                                <xsl:value-of select="$text"/>                                        
-                                            </line_text>
-                                            <resolved_text>
-                                                <xsl:value-of select="pitt:resolvePointer($full_pointer)"/>
-                                            </resolved_text>
-                                        </xsl:if>     
+                                    <xsl:when test="starts-with(normalize-space(.), '=')">
+                                        <!-- Only process it if there's content after the lb -->
+                                        <xsl:if test="string-length(substring-after(normalize-space(.), '/&gt;')) > 0">
+                                            <xsl:variable name="pointer">
+                                                <xsl:value-of select="pitt:getLbPointer(normalize-space(current()))"/>                                                
+                                            </xsl:variable>
+                                            <xsl:if test="not($pointer = '')">
+                                                <xsl:variable name="text" select="
+                                                    replace(
+                                                    replace(
+                                                    normalize-space(current()), '&lt;.*?&gt;', ''
+                                                    ),
+                                                    '^=&quot;[^&quot;]+?&quot;\s*?/&gt;', ''
+                                                    )"/>
+                                                <xsl:variable name="full_pointer" select="concat(string-join(pitt:getLbPointer(normalize-space(current()))),',0,',string-length($text)+1, ')')"/>
+                                                <ptr target="{$full_pointer}"/>
+                                                <line_text>
+                                                    <xsl:value-of select="$text"/>                                        
+                                                </line_text>
+                                                <resolved_text>
+                                                    <xsl:value-of select="pitt:resolvePointer($full_pointer)"/>
+                                                </resolved_text>
+                                            </xsl:if> 
+                                        </xsl:if>
                                     </xsl:when>
+                                    <!-- Skip space-only or empty string nodes -->
+                                    <xsl:when test="normalize-space(.) = ' ' or normalize-space(.)  = ''"/>
                                     <xsl:otherwise>
                                         <xsl:call-template name="lookback">
                                             <xsl:with-param name="rdg" select="$rdg"/>
