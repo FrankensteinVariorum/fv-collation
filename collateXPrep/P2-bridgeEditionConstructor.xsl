@@ -116,24 +116,24 @@
     <xsl:message>From the template on app: the currentWit: <xsl:value-of select="$currentWit"/> And the parameter rdgs: <xsl:value-of select="$rdgs"/></xsl:message>
   <xsl:choose>
       <xsl:when test="@type='invariant'">
-          <xsl:apply-templates mode="invariant"><xsl:with-param name="currentWit" select="$currentWit" as="xs:string"  tunnel="yes"/></xsl:apply-templates>
+          <xsl:apply-templates select="rdg[@wit=$currentWit]" mode="invariant"><xsl:with-param name="currentWit" select="$currentWit" as="xs:string"  tunnel="yes"/></xsl:apply-templates>
       </xsl:when>
       <xsl:when test="count($rdgs) eq 4">
       <xsl:choose><xsl:when test="contains(string(pitt:compareWits($rdgs)), 'false')">  <xsl:message>Strings do not match! </xsl:message>
-      <xsl:apply-templates mode="variant">
+          <xsl:apply-templates select="rdg[@wit=$currentWit]" mode="variant">
           <xsl:with-param name="currentWit" select="$currentWit" as="xs:string" tunnel="yes"/>
       </xsl:apply-templates>
       </xsl:when>
           <xsl:when test="contains(string(pitt:compareWits($rdgs)), 'true')">
               <xsl:message>Strings Match! but we're missing a witness.</xsl:message>
-              <xsl:apply-templates mode="invariant-MissingWit">
+              <xsl:apply-templates select="rdg[@wit=$currentWit]" mode="invariant-MissingWit">
                   <xsl:with-param name="currentWit" select="$currentWit" as="xs:string" tunnel="yes"/>
               </xsl:apply-templates>
       </xsl:when>
       </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
-          <xsl:apply-templates mode="variant">
+          <xsl:apply-templates select="rdg[@wit=$currentWit]" mode="variant">
               <xsl:with-param name="currentWit" select="$currentWit" as="xs:string" tunnel="yes"/>
           </xsl:apply-templates>
       </xsl:otherwise>
@@ -145,13 +145,13 @@
     </xsl:template>
     <xsl:template match="rdg" mode="variant">
         <xsl:param name="currentWit" tunnel="yes"/>
-        <xsl:if test=".[@wit=$currentWit]"> <seg xml:id="{parent::app/@xml:id}-{$currentWit}_start"/>
-        <xsl:apply-templates select=".[@wit=$currentWit]"/><seg xml:id="{parent::app/@xml:id}-{$currentWit}_end"/> </xsl:if>
+        <xsl:if test=".[@wit=$currentWit]"> <seg xml:id="{parent::app/@xml:id}-{substring-after($currentWit, '#')}_start"/>
+            <xsl:apply-templates select=".[@wit=$currentWit]"/><seg xml:id="{parent::app/@xml:id}-{substring-after($currentWit, '#')}_end"/> </xsl:if>
     </xsl:template>
     <xsl:template match="rdg" mode="invariant-MissingWit">
         <xsl:param name="currentWit" tunnel="yes"/>
         <xsl:message>found a missing witness! but the others agree.</xsl:message>
-        <xsl:if test=".[@wit=$currentWit]"><seg type="invariant-MissingWit" xml:id="{parent::app/@xml:id}-{$currentWit}_start"/><xsl:apply-templates select=".[@wit=$currentWit]"/><seg xml:id="{parent::app/@xml:id}-{$currentWit}_end"/></xsl:if>
+        <xsl:if test=".[@wit=$currentWit]"><seg type="invariant-MissingWit" xml:id="{parent::app/@xml:id}-{substring-after($currentWit, '#')}_start"/><xsl:apply-templates select=".[@wit=$currentWit]"/><seg xml:id="{parent::app/@xml:id}-{substring-after($currentWit, '#')}_end"/></xsl:if>
     </xsl:template>
     <xsl:template match="app" mode="spinePtrs">
         <xsl:param name="rdgs" select="rdg" as="element()+" tunnel="yes"/>
