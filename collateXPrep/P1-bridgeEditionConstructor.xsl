@@ -10,13 +10,13 @@
     <xsl:variable name="witnesses" as="xs:string+" select="distinct-values($collFiles//@wit)"/>
    <xsl:template match="/">    
        <xsl:for-each select="$collFiles//root"> 
-           <xsl:variable name="chunk" as="xs:string" select="substring-before(tokenize(base-uri(), '/')[last()], '.')"/>
-           <xsl:result-document method="xml" indent="yes" href="bridge-P1/bridge-P1_{substring-after($chunk, '_')}.xml">
+           <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>
+           <xsl:result-document method="xml" indent="yes" href="bridge-P1/bridge-P1_{$chunk}.xml">
            <TEI xml:id="bridgeP1-{$chunk}">
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Bridge Phase 1: Collation unit <xsl:value-of select="substring-after($chunk, '_')"/></title>
+                        <title>Bridge Phase 1: Collation unit <xsl:value-of select="$chunk"/></title>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Frankenstein Variorum Project</authority>
@@ -49,9 +49,9 @@
   
 <xsl:template match="app">
     <xsl:param name="chunk" tunnel="yes"/>
-   <xsl:choose><xsl:when test="@type"> <app type="{@type}" xml:id="{substring-after($chunk, '_')}_app{count(preceding::app) + 1}"><xsl:apply-templates/></app></xsl:when>
+   <xsl:choose><xsl:when test="@type"> <app type="{@type}" xml:id="{$chunk}_app{count(preceding::app) + 1}"><xsl:apply-templates/></app></xsl:when>
    <xsl:otherwise>
-       <app xml:id="{substring-after($chunk, '_')}_app{count(preceding::app) + 1}"><xsl:apply-templates select="rdg"/></app>
+       <app xml:id="{$chunk}_app{count(preceding::app) + 1}"><xsl:apply-templates select="rdg"/></app>
    </xsl:otherwise>
    </xsl:choose>
 </xsl:template>

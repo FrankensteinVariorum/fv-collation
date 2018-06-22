@@ -8,7 +8,8 @@
         * begins building the output Bridge editions by consuming the <app> and and <rdg> elements to replace them with <seg> elements that hold the identifiers of their apps and indication of whether they are portions,
         * reconstructs the Backbone as fully Standoff by replacing text content of the <rdg> elements with <ref><ptr target="/absolute/path/to/finished/edition/file/#{xml:id}"/></ref>      
     -->
-<xsl:output method="xml" indent="yes"/>    
+<xsl:output method="xml" indent="yes"/>  
+
     <xsl:variable name="bridge-P1Files" as="document-node()+" select="collection('bridge-P1')"/>
     <xsl:variable name="witnesses" as="xs:string+" select="distinct-values($bridge-P1Files//@wit)"/>
     <xsl:function name="pitt:compareWits" as="xs:boolean">
@@ -51,6 +52,33 @@
    <xsl:template match="/">    
        <xsl:for-each select="$bridge-P1Files//TEI"> 
            <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>
+           <xsl:result-document method="xml" indent="yes" href="standoff_Spine/spine_{$chunk}.xml">
+               <TEI xml:id="spine-{$chunk}">
+                   <teiHeader>
+                       <fileDesc>
+                           <titleStmt>
+                               <title>Standoff Spine: Collation unit <xsl:value-of select="$chunk"/></title>
+                           </titleStmt>
+                           <xsl:copy-of select="descendant::publicationStmt"/>
+                           <xsl:copy-of select="descendant::sourceDesc"/>
+                       </fileDesc>
+                   </teiHeader>
+                   <text>
+                       <body> 
+                           <ab type="alignmentChunk" xml:id="spine_{$chunk}">
+                               <xsl:apply-templates  select="descendant::app" mode="spinePtrs">
+                                   <xsl:with-param name="chunk" select="$chunk" tunnel="yes"></xsl:with-param>
+                               </xsl:apply-templates>
+                               
+                           </ab>
+                       </body>
+                       
+                   </text>
+               </TEI>
+               
+               
+           </xsl:result-document>
+           
            <xsl:result-document method="xml" indent="yes" href="bridge-P2/bridge-P2_{$chunk}.xml">
            <TEI xml:id="bridgeP2-{$chunk}">
             <teiHeader>
@@ -111,4 +139,45 @@
         <xsl:message>found a missing witness! but the others agree.</xsl:message>
         <seg xml:id="{parent::app/@xml:id}-{@wit}_start"/><xsl:apply-templates/><seg xml:id="{parent::app/@xml:id}-{@wit}_end"/>
     </xsl:template>
+    <xsl:template match="app" mode="spinePtrs">
+        <xsl:param name="chunk" tunnel="yes"/>
+        <xsl:choose><xsl:when test="@type"> <app type="{@type}" xml:id="{@xml:id}"><xsl:apply-templates mode="spinePtrs"/></app></xsl:when>
+            <xsl:otherwise>
+                <app xml:id="{@xml:id}"><xsl:apply-templates select="rdg" mode="spinePtrs">
+                    <xsl:with-param name="chunk" select="$chunk" tunnel="yes"></xsl:with-param>
+                </xsl:apply-templates></app>
+            </xsl:otherwise>
+        </xsl:choose>
+      </xsl:template>
+    <xsl:template match="rdg" mode="spinePtrs">
+        <xsl:param name="chunk" tunnel="yes"/>
+        <rdg wit="{@wit}"><ref><ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridgeEd/{substring-after(@wit, '#')}_{$chunk}.xml{@wit}-{parent::app/@xml:id}"/>
+        <pitt:line_text><xsl:value-of select="string-join(tokenize(., '&lt;.+?/&gt;'))"/></pitt:line_text>
+        <pitt:resolved_text>
+            <!--2018-06-21 ebb: This is mythical right now, and will almost certainly need to be modified. -->
+            <xsl:variable name="pointerFilePath"> <xsl:text>https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridgeEd/</xsl:text><xsl:value-of select="substring-after(@wit, '#')"/><xsl:text>_</xsl:text><xsl:value-of select="$chunk"/><xsl:text>.xml</xsl:text>
+            </xsl:variable>
+            <xsl:variable name="pointerHead">
+                <xsl:value-of select="@wit"/><xsl:text>-</xsl:text><xsl:value-of select="parent::app/@xml:id"/>
+            </xsl:variable>
+            <xsl:variable name="testResolve" as="xs:string">
+               <xsl:value-of select="$pointerFilePath//$pointerHead"/>
+                <!--<xsl:choose> <xsl:when test="doc($pointerFilePath)//$pointerHead">
+                   <xsl:text>The link resolves.</xsl:text>
+                </xsl:when>
+               <xsl:otherwise>
+                   <xsl:text>The link doesn't resolve.</xsl:text>
+               </xsl:otherwise>
+               </xsl:choose>-->
+            </xsl:variable>
+            <!--<xsl:variable name="pointedDoc" select="doc($pointerFilePath)" as="document-node()"/>-->
+         <!--   <xsl:evaluate xpath="doc($pointerFilePath)//$pointerHead"/>
+            </xsl:variable> -->
+            <xsl:value-of select="$testResolve"/>
+        </pitt:resolved_text>
+        </ref>
+        
+        </rdg>
+    </xsl:template>
+    
 </xsl:stylesheet>
