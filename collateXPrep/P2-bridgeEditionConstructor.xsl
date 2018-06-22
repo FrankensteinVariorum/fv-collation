@@ -145,13 +145,13 @@
     </xsl:template>
     <xsl:template match="rdg" mode="variant">
         <xsl:param name="currentWit" tunnel="yes"/>
-      <seg xml:id="{parent::app/@xml:id}-{$currentWit}_start"/>
-        <xsl:apply-templates select=".[@wit=$currentWit]"/><seg xml:id="{parent::app/@xml:id}-{$currentWit}_end"/> 
+        <xsl:if test=".[@wit=$currentWit]"> <seg xml:id="{parent::app/@xml:id}-{$currentWit}_start"/>
+        <xsl:apply-templates select=".[@wit=$currentWit]"/><seg xml:id="{parent::app/@xml:id}-{$currentWit}_end"/> </xsl:if>
     </xsl:template>
     <xsl:template match="rdg" mode="invariant-MissingWit">
         <xsl:param name="currentWit" tunnel="yes"/>
         <xsl:message>found a missing witness! but the others agree.</xsl:message>
-        <seg type="invariant-MissingWit" xml:id="{parent::app/@xml:id}-{$currentWit}_start"/><xsl:apply-templates select=".[@wit=$currentWit]"/><seg xml:id="{parent::app/@xml:id}-{$currentWit}_end"/>
+        <xsl:if test=".[@wit=$currentWit]"><seg type="invariant-MissingWit" xml:id="{parent::app/@xml:id}-{$currentWit}_start"/><xsl:apply-templates select=".[@wit=$currentWit]"/><seg xml:id="{parent::app/@xml:id}-{$currentWit}_end"/></xsl:if>
     </xsl:template>
     <xsl:template match="app" mode="spinePtrs">
         <xsl:param name="rdgs" select="rdg" as="element()+" tunnel="yes"/>
