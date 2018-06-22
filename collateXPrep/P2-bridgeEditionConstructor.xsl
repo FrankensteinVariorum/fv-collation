@@ -17,7 +17,7 @@
         <xsl:message>This function is firing, and the value of $rdgs is <xsl:value-of select="$rdgs"/></xsl:message>
        <xsl:choose>
            <xsl:when test="not(matches(string-join($rdgs/string()), '&lt;'))">
-               <xsl:message>This test checking for rdgs without flattened tags, is responding, and the value of $rdgs is <xsl:value-of select="$rdgs"/></xsl:message>
+               <xsl:message>This test checking for rdgs without flattened tags is responding, and the value of $rdgs is <xsl:value-of select="$rdgs"/></xsl:message>
                <xsl:variable name="comparableRdgs" as="element()+" select="for $i in $rdgs return $i[following-sibling::rdg]"/>
                <xsl:message>Here's the value of $comparableRdgs: <xsl:value-of select="$comparableRdgs"/></xsl:message>
                <xsl:variable name="untaggedTestSequence" as="xs:string+"><xsl:for-each select="$comparableRdgs">
@@ -49,10 +49,11 @@
        </xsl:choose>
    </xsl:function> 
     
-   <xsl:template match="/">    
+   <xsl:template match="/">
        <xsl:for-each select="$bridge-P1Files//TEI"> 
-           <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>
-           <xsl:result-document method="xml" indent="yes" href="standoff_Spine/spine_{$chunk}.xml">
+           <xsl:variable name="currentP1File" as="element()" select="current()"/>
+           <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>          
+  <xsl:result-document method="xml" indent="yes" href="standoff_Spine/spine_{$chunk}.xml">
                <TEI xml:id="spine-{$chunk}">
                    <teiHeader>
                        <fileDesc>
@@ -74,26 +75,29 @@
                        </body>
                        
                    </text>
-               </TEI>
-               
-               
+               </TEI> 
            </xsl:result-document>
+       
            
-           <xsl:result-document method="xml" indent="yes" href="bridge-P2/bridge-P2_{$chunk}.xml">
-           <TEI xml:id="bridgeP2-{$chunk}">
+         <xsl:for-each select="$witnesses">
+
+             <xsl:result-document method="xml" indent="yes" href="bridge-P2/{substring-after(current(), '#')}_{$chunk}.xml">
+                 <TEI xml:id="{substring-after(current(), '#')}_{$chunk}">
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Bridge Phase 2: Collation unit <xsl:value-of select="$chunk"/></title>
+                        <title>Bridge Phase 2: Witness <xsl:value-of select="substring-after(current(), '#')"/>, Collation unit <xsl:value-of select="$chunk"/></title>
                     </titleStmt>
-                    <xsl:copy-of select="descendant::publicationStmt"/>
-                    <xsl:copy-of select="descendant::sourceDesc"/>
+                    <xsl:copy-of select="$currentP1File//publicationStmt"/>
+                    <xsl:copy-of select="$currentP1File//sourceDesc"/>
                 </fileDesc>
             </teiHeader>
             <text>
            <body> 
         <ab type="alignmentChunk" xml:id="{$chunk}">
-            <xsl:apply-templates  select="descendant::app"/>
+            <xsl:apply-templates  select="$currentP1File//app">
+                <xsl:with-param name="currentWit" as="xs:string" select="current()" tunnel="yes"/>
+            </xsl:apply-templates>
                 
                </ab>
            </body>
@@ -101,47 +105,63 @@
             </text>
         </TEI>
            </xsl:result-document>
+         </xsl:for-each>
         </xsl:for-each>
   
     </xsl:template> 
   
 <xsl:template match="app">
+    <xsl:param name="currentWit" tunnel="yes"/>
     <xsl:param name="rdgs" select="rdg" as="element()+" tunnel="yes"/>
-    <xsl:message>From the template on app: I'm the parameter rdgs: <xsl:value-of select="$rdgs"/></xsl:message>
+    <xsl:message>From the template on app: the currentWit: <xsl:value-of select="$currentWit"/> And the parameter rdgs: <xsl:value-of select="$rdgs"/></xsl:message>
   <xsl:choose>
       <xsl:when test="@type='invariant'">
-          <xsl:apply-templates mode="invariant"/>
+          <xsl:apply-templates mode="invariant"><xsl:with-param name="currentWit" select="$currentWit" as="xs:string"  tunnel="yes"/></xsl:apply-templates>
       </xsl:when>
       <xsl:when test="count($rdgs) eq 4">
       <xsl:choose><xsl:when test="contains(string(pitt:compareWits($rdgs)), 'false')">  <xsl:message>Strings do not match! </xsl:message>
-      <xsl:apply-templates mode="variant"/>
+      <xsl:apply-templates mode="variant">
+          <xsl:with-param name="currentWit" select="$currentWit" as="xs:string" tunnel="yes"/>
+      </xsl:apply-templates>
       </xsl:when>
           <xsl:when test="contains(string(pitt:compareWits($rdgs)), 'true')">
-          <rdgGrp type="invariant">
               <xsl:message>Strings Match! but we're missing a witness.</xsl:message>
-              <xsl:apply-templates mode="invariant-MissingWit"/></rdgGrp>
+              <xsl:apply-templates mode="invariant-MissingWit">
+                  <xsl:with-param name="currentWit" select="$currentWit" as="xs:string" tunnel="yes"/>
+              </xsl:apply-templates>
       </xsl:when>
       </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
-          <xsl:apply-templates mode="variant"/>
+          <xsl:apply-templates mode="variant">
+              <xsl:with-param name="currentWit" select="$currentWit" as="xs:string" tunnel="yes"/>
+          </xsl:apply-templates>
       </xsl:otherwise>
   </xsl:choose>
 </xsl:template>
     <xsl:template match="rdg" mode="invariant">
-        <xsl:apply-templates/>
+        <xsl:param name="currentWit" tunnel="yes"/>
+        <xsl:apply-templates select=".[@wit=$currentWit]"/>
     </xsl:template>
     <xsl:template match="rdg" mode="variant">
-      <seg xml:id="{parent::app/@xml:id}-{@wit}_start"/>
-        <xsl:apply-templates/><seg xml:id="{parent::app/@xml:id}-{@wit}_end"/> 
+        <xsl:param name="currentWit" tunnel="yes"/>
+      <seg xml:id="{parent::app/@xml:id}-{$currentWit}_start"/>
+        <xsl:apply-templates select=".[@wit=$currentWit]"/><seg xml:id="{parent::app/@xml:id}-{$currentWit}_end"/> 
     </xsl:template>
     <xsl:template match="rdg" mode="invariant-MissingWit">
+        <xsl:param name="currentWit" tunnel="yes"/>
         <xsl:message>found a missing witness! but the others agree.</xsl:message>
-        <seg xml:id="{parent::app/@xml:id}-{@wit}_start"/><xsl:apply-templates/><seg xml:id="{parent::app/@xml:id}-{@wit}_end"/>
+        <seg type="invariant-MissingWit" xml:id="{parent::app/@xml:id}-{$currentWit}_start"/><xsl:apply-templates select=".[@wit=$currentWit]"/><seg xml:id="{parent::app/@xml:id}-{$currentWit}_end"/>
     </xsl:template>
     <xsl:template match="app" mode="spinePtrs">
+        <xsl:param name="rdgs" select="rdg" as="element()+" tunnel="yes"/>
         <xsl:param name="chunk" tunnel="yes"/>
         <xsl:choose><xsl:when test="@type"> <app type="{@type}" xml:id="{@xml:id}"><xsl:apply-templates mode="spinePtrs"/></app></xsl:when>
+            <xsl:when test="contains(string(pitt:compareWits($rdgs)), 'true')">
+                <rdgGrp type="invariant">
+                   <xsl:apply-templates mode="spinePtrs"/> 
+                </rdgGrp>
+            </xsl:when>
             <xsl:otherwise>
                 <app xml:id="{@xml:id}"><xsl:apply-templates select="rdg" mode="spinePtrs">
                     <xsl:with-param name="chunk" select="$chunk" tunnel="yes"></xsl:with-param>
