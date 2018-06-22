@@ -18,9 +18,9 @@
        <xsl:choose>
            <xsl:when test="not(matches(string-join($rdgs/string()), '&lt;'))">
                <xsl:message>This test checking for rdgs without flattened tags is responding, and the value of $rdgs is <xsl:value-of select="$rdgs"/></xsl:message>
-               <xsl:variable name="comparableRdgs" as="element()+" select="for $i in $rdgs return $i[following-sibling::rdg]"/>
+               <xsl:variable name="comparableRdgs" as="element()*" select="for $i in $rdgs return $i[following-sibling::rdg]"/>
                <xsl:message>Here's the value of $comparableRdgs: <xsl:value-of select="$comparableRdgs"/></xsl:message>
-               <xsl:variable name="untaggedTestSequence" as="xs:string+"><xsl:for-each select="$comparableRdgs">
+               <xsl:variable name="untaggedTestSequence" as="xs:string*"><xsl:for-each select="$comparableRdgs">
                    <xsl:message>The for-each loop in this function is running over this value: <xsl:value-of select="current()"/></xsl:message>
     <xsl:value-of select="current()/string() eq current()/following-sibling::rdg[1]/string()"/>
 </xsl:for-each>   </xsl:variable>  
@@ -31,8 +31,8 @@
            </xsl:when>
            <xsl:otherwise>
                <xsl:message>Now we're seeing FLATTENED TAGS!</xsl:message>
-               <xsl:variable name="comparableTaggedRdgs" as="element()+" select="for $i in $rdgs return $i[following-sibling::rdg]"/>
-         <xsl:variable name="taggedTestSequence" as="xs:string+">
+               <xsl:variable name="comparableTaggedRdgs" as="element()*" select="for $i in $rdgs return $i[following-sibling::rdg]"/>
+         <xsl:variable name="taggedTestSequence" as="xs:string*">
                <xsl:for-each select="$comparableTaggedRdgs">
                    <xsl:variable name="nonTagPieces" as="xs:string+">
                        <xsl:value-of select="tokenize(current(), '&lt;.+?/&gt;')"/> 
