@@ -11,8 +11,10 @@
    <xsl:template match="/">
        <xsl:for-each select="$P2-BridgeColl//TEI">
            <xsl:variable name="currentP2File" as="element()" select="current()"/>
-           <xsl:variable name="filename" select="tokenize(base-uri(), '/')[last()]"/>
-           <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>          
+           <xsl:variable name="filename">
+              <xsl:text>P3-</xsl:text><xsl:value-of select="tokenize(base-uri(), '/')[last()]"/>
+           </xsl:variable>
+         <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>          
            <xsl:result-document method="xml" indent="yes" href="bridge-P3/{$filename}">
            <xsl:apply-templates select="descendant::ab"/>
            </xsl:result-document>
