@@ -8,7 +8,17 @@
     <xsl:variable name="P2-BridgeColl" as="document-node()+" select="collection('bridge-P2-noMS')"/>
     <xsl:variable name="testerDoc" as="document-node()" select="doc('bridge-P2-noMS/f1818_C10.xml')"/>
 <!--In Bridge Construction Phase 3, we are up-converting the text-converted tags in the edition files into self-closed elements. -->    
-   
+   <xsl:template match="/">
+       <xsl:for-each select="$P2-BridgeColl//TEI">
+           <xsl:variable name="currentP2File" as="element()" select="current()"/>
+           <xsl:variable name="filename" select="tokenize(base-uri(), '/')[last()]"/>
+           <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>          
+           <xsl:result-document method="xml" indent="yes" href="bridge-P3/{$filename}">
+           <xsl:apply-templates select="descendant::ab"/>
+           </xsl:result-document>
+       </xsl:for-each>
+       
+   </xsl:template>
     
    <xsl:template match="ab">
        <!--2018-06-22: ebb: We can't use <ab> for top-level structures once we start regenerating <p> elements, since <ab> isn't allowed to contain <p>. -->
