@@ -66,7 +66,7 @@
                    <xsl:variable name="flattenedTagContents" select="substring-after(., '&lt;') ! substring-before(., '/&gt;')"/>
                    <xsl:variable name="elementName" select="tokenize($flattenedTagContents, ' ')[1]"/>
                    <xsl:element name="{$elementName}">
-          <xsl:for-each select="tokenize($flattenedTagContents, ' ')[position() gt 1]">
+          <xsl:for-each select="tokenize($flattenedTagContents, '\s+')[position() gt 1]">
               <xsl:attribute name="{substring-before(current(), '=')}">
                   <xsl:value-of select="substring-after(current(), '=&#34;') ! substring-before(current(), '&#34;')"/>
               </xsl:attribute>
@@ -76,14 +76,22 @@
                <xsl:non-matching-substring>
                    <xsl:analyze-string select="." regex="&lt;.*\n*.+?/&gt;">
                        <xsl:matching-substring>
-                           <xsl:variable name="flattenedTagContents" select="substring-after(., '&lt;.*\n*') ! substring-before(., '/&gt;')"/>
+                           <xsl:variable name="flattenedTagContents" select="replace(., '(&lt;.*)\n*', '$1 ') ! substring-after(., '&lt;') ! substring-before(., '/&gt;')"/>
+                           <xsl:message>The value of this LAST flattened tagcontents is <xsl:value-of select="$flattenedTagContents"/>!</xsl:message>
                            <xsl:variable name="elementName" select="tokenize($flattenedTagContents, ' ')[1]"/>
                            <xsl:element name="{$elementName}">
-                               <xsl:for-each select="tokenize($flattenedTagContents, ' ')[position() gt 1]">
-                                   <xsl:attribute name="{substring-before(current(), '=')}">
-                                       <xsl:value-of select="substring-after(current(), '=&#34;') ! substring-before(current(), '&#34;')"/>
+                               <xsl:variable name="attributeString" select="string-join(tokenize($flattenedTagContents, ' ')[position() gt 1], ' ')"/>
+                               <xsl:message> Here is the element name:<xsl:value-of select="$elementName"/>. And the attribute string:<xsl:value-of select="$attributeString"/> </xsl:message>
+                         <xsl:for-each select="tokenize($attributeString, '\s+')[position() gt 1][not(contains(., ' '))]">
+                             <xsl:variable name="attributeStringToken" select="current()"/>
+                             <xsl:message>The current string token here is <xsl:value-of select="$attributeStringToken"/> </xsl:message>
+                             <xsl:variable name="attName" select="substring-before(current(), '=&#34;')"/>
+                          <xsl:variable name="attValue" select="substring-after(current(), '=')"/>
+                             <xsl:message>Att name:<xsl:value-of select="$attName"/>. Att value:<xsl:value-of select="$attValue"/></xsl:message>   
+                                   <xsl:attribute name="{$attName}">
+                                       <xsl:value-of select="substring-after($attValue, '&#34;') ! substring-before(., '&#34;')"/>
                                    </xsl:attribute>
-                               </xsl:for-each>               
+                               </xsl:for-each>         
                            </xsl:element> 
                            
                        </xsl:matching-substring>
