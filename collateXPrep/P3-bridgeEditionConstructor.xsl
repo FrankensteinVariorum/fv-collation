@@ -74,7 +74,24 @@
                    </xsl:element>        
                </xsl:matching-substring>
                <xsl:non-matching-substring>
-                  <xsl:value-of select="."/>
+                   <xsl:analyze-string select="." regex="&lt;.*\n*.+?/&gt;">
+                       <xsl:matching-substring>
+                           <xsl:variable name="flattenedTagContents" select="substring-after(., '&lt;.*\n*') ! substring-before(., '/&gt;')"/>
+                           <xsl:variable name="elementName" select="tokenize($flattenedTagContents, ' ')[1]"/>
+                           <xsl:element name="{$elementName}">
+                               <xsl:for-each select="tokenize($flattenedTagContents, ' ')[position() gt 1]">
+                                   <xsl:attribute name="{substring-before(current(), '=')}">
+                                       <xsl:value-of select="substring-after(current(), '=&#34;') ! substring-before(current(), '&#34;')"/>
+                                   </xsl:attribute>
+                               </xsl:for-each>               
+                           </xsl:element> 
+                           
+                       </xsl:matching-substring>
+                       <xsl:non-matching-substring>
+                           <xsl:value-of select="."/>
+                       </xsl:non-matching-substring>
+                   </xsl:analyze-string>
+                  
                </xsl:non-matching-substring>
            </xsl:analyze-string>                                </xsl:non-matching-substring> 
         </xsl:analyze-string>
