@@ -23,7 +23,7 @@
    </xsl:template>
     <xsl:template match="titleStmt/title">
 <title>
-    <xsl:text>Bridge Phase 4: </xsl:text><xsl:value-of select="tokenize(., ':')[last()]"/>
+    <xsl:text>Bridge Phase 3: </xsl:text><xsl:value-of select="tokenize(., ':')[last()]"/>
 </title>
         
     </xsl:template>
