@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-   <teiHeader xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-           xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+     xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Bridge Phase 3:  Witness f1831, Collation unit C06</title>
@@ -18,17 +19,16 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-   <text xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-      xmlns="http://www.tei-c.org/ns/1.0">
+   <text>
       <body>
          <div type="collation" xml:id="C06">
             <seg type="invariant-MissingWit" xml:id="C06_app1-f1831_start"/>
-         <p loc="novel1_letter4_p61" ana="Start"/>August 13th, 17—.<p loc="novel1_letter4_p61" ana="End"/>
-         <p loc="novel1_letter4_p62" ana="Start"/>My affection for my guest increases every day. He excites at once my admiration and my pity to an astonishing degree. How can I see so noble a creature destroyed by <seg xml:id="C06_app1-f1831_end"/>
+            <p loc="novel1_letter4_p61" ana="Start"/>August 13th, 17—.<p loc="novel1_letter4_p61" ana="End"/>
+            <p loc="novel1_letter4_p62" ana="Start"/>My affection for my guest increases every day. He excites at once my admiration and my pity to an astonishing degree. How can I see so noble a creature destroyed by <seg xml:id="C06_app1-f1831_end"/>
             <seg xml:id="C06_app2-f1831_start"/>misery, <seg xml:id="C06_app2-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app3-f1831_start"/>without feeling the most poignant grief? He is so gentle, yet so wise; his mind is so cultivated; and when he speaks, <seg xml:id="C06_app3-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app5-f1831_start"/>although his words are culled with the choicest art, yet they flow with rapidity and unparalleled eloquence.<p loc="novel1_letter4_p62" ana="End"/>
-         <p loc="novel1_letter4_p63" ana="Start"/>He is now much recovered from his illness, and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although unhappy, he is not so utterly occupied by his own misery, but that he interests himself deeply in the <seg xml:id="C06_app5-f1831_end"/>
+            <p loc="novel1_letter4_p63" ana="Start"/>He is now much recovered from his illness, and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although unhappy, he is not so utterly occupied by his own misery, but that he interests himself deeply in the <seg xml:id="C06_app5-f1831_end"/>
             <seg xml:id="C06_app6-f1831_start"/>projects <seg xml:id="C06_app6-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app7-f1831_start"/>of others. He has <seg xml:id="C06_app7-f1831_end"/>
             <seg xml:id="C06_app8-f1831_start"/>frequently conversed with <seg xml:id="C06_app8-f1831_end"/>
@@ -66,7 +66,7 @@
             <seg xml:id="C06_app41-f1831_start"/>you <seg xml:id="C06_app41-f1831_end"/>
             <seg xml:id="C06_app42-f1831_start"/>will <seg xml:id="C06_app42-f1831_end"/>
             <seg xml:id="C06_app43-f1831_start"/>dash the cup from your lips!”<p loc="novel1_letter4_p63" ana="End"/>
-         <p loc="novel1_letter4_p64" ana="Start"/>Such words, you may imagine, strongly excited my curiosity; but the paroxysm <seg xml:id="C06_app43-f1831_end"/>
+            <p loc="novel1_letter4_p64" ana="Start"/>Such words, you may imagine, strongly excited my curiosity; but the paroxysm <seg xml:id="C06_app43-f1831_end"/>
             <seg xml:id="C06_app44-f1831_start"/>of <seg xml:id="C06_app44-f1831_end"/>
             <seg xml:id="C06_app45-f1831_start"/>grief that had seized the stranger overcame <seg xml:id="C06_app45-f1831_end"/>
             <seg xml:id="C06_app46-f1831_start"/>his <seg xml:id="C06_app46-f1831_end"/>
@@ -77,7 +77,7 @@
             <seg xml:id="C06_app52-f1831_start"/>restore <seg xml:id="C06_app52-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app53-f1831_start"/>his <seg xml:id="C06_app53-f1831_end"/>
             <seg xml:id="C06_app54-f1831_start"/>composure.<p loc="novel1_letter4_p64" ana="End"/>
-         <p loc="novel1_letter4_p65" ana="Start"/>Having conquered the violence of his feelings, he appeared <seg xml:id="C06_app54-f1831_end"/>
+            <p loc="novel1_letter4_p65" ana="Start"/>Having conquered the violence of his feelings, he appeared <seg xml:id="C06_app54-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app55-f1831_start"/>to <seg xml:id="C06_app55-f1831_end"/>
             <seg xml:id="C06_app56-f1831_start"/>despise himself for being the slave <seg xml:id="C06_app56-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app57-f1831_start"/>of <seg xml:id="C06_app57-f1831_end"/>
@@ -96,17 +96,17 @@
             <seg xml:id="C06_app74-f1831_start"/>my lot; <seg xml:id="C06_app74-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app75-f1831_start"/>and <seg xml:id="C06_app75-f1831_end"/>
             <seg xml:id="C06_app76-f1831_start"/>expressed my conviction that a man could boast of little happiness, who did not enjoy this blessing.<p loc="novel1_letter4_p65" ana="End"/>
-         <p loc="novel1_letter4_p66" ana="Start"/>“I <seg xml:id="C06_app76-f1831_end"/>
+            <p loc="novel1_letter4_p66" ana="Start"/>“I <seg xml:id="C06_app76-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app77-f1831_start"/>agree with you,” replied the <seg xml:id="C06_app77-f1831_end"/>
             <seg xml:id="C06_app78-f1831_start"/>stranger; “we are unfashioned creatures, but half made up, if one wiser, better, dearer than ourselves—such a friend ought to be—do <seg xml:id="C06_app78-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app79-f1831_start"/>not <seg xml:id="C06_app79-f1831_end"/>
             <seg xml:id="C06_app80-f1831_start"/>lend his aid to perfectionate our weak and faulty natures. <seg xml:id="C06_app80-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app81-f1831_start"/>I once had a friend, the most noble of human creatures, and am entitled, therefore, to judge respecting friendship. You have hope, and the world before you, and have no cause for despair. But I—I have lost every thing, and cannot begin life anew.”<p loc="novel1_letter4_p66" ana="End"/>
-         <p loc="novel1_letter4_p67" ana="Start"/>As he said this, his countenance became expressive of a calm settled grief, that touched me to the heart. But he was silent, and presently retired to his cabin.<p loc="novel1_letter4_p67" ana="End"/>
-         <p loc="novel1_letter4_p68" ana="Start"/>Even broken in spirit as he is, no one can feel more deeply than he does the beauties of nature. The starry sky, the sea, and every sight afforded by these wonderful regions, seems still to have the power of elevating his soul from earth. Such a man has a double existence: he may suffer misery, and be overwhelmed by disappointments; <seg xml:id="C06_app81-f1831_end"/>
+            <p loc="novel1_letter4_p67" ana="Start"/>As he said this, his countenance became expressive of a calm settled grief, that touched me to the heart. But he was silent, and presently retired to his cabin.<p loc="novel1_letter4_p67" ana="End"/>
+            <p loc="novel1_letter4_p68" ana="Start"/>Even broken in spirit as he is, no one can feel more deeply than he does the beauties of nature. The starry sky, the sea, and every sight afforded by these wonderful regions, seems still to have the power of elevating his soul from earth. Such a man has a double existence: he may suffer misery, and be overwhelmed by disappointments; <seg xml:id="C06_app81-f1831_end"/>
             <seg xml:id="C06_app82-f1831_start"/>yet, <seg xml:id="C06_app82-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app83-f1831_start"/>when he has retired into himself, he will be like a celestial spirit, that has a halo around him, within whose circle no grief or folly ventures.<p loc="novel1_letter4_p68" ana="End"/>
-         <p loc="novel1_letter4_p69" ana="Start"/>Will you <seg xml:id="C06_app83-f1831_end"/>
+            <p loc="novel1_letter4_p69" ana="Start"/>Will you <seg xml:id="C06_app83-f1831_end"/>
             <seg xml:id="C06_app84-f1831_start"/>smile <seg xml:id="C06_app84-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app85-f1831_start"/>at the enthusiasm I express concerning this divine wanderer? <seg xml:id="C06_app85-f1831_end"/>
             <seg xml:id="C06_app86-f1831_start"/>You would not, <seg xml:id="C06_app86-f1831_end"/>
@@ -127,9 +127,9 @@
             <seg xml:id="C06_app102-f1831_start"/>of things, unequalled <seg xml:id="C06_app102-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app103-f1831_start"/>for <seg xml:id="C06_app103-f1831_end"/>
             <seg xml:id="C06_app104-f1831_start"/>clearness and precision; add to this a facility of expression, and a voice whose varied intonations are soul-subduing music.<p loc="novel1_letter4_p69" ana="End"/>
-         <p loc="novel1_letter4_p70" ana="Start"/>August 19. <seg xml:id="C06_app104-f1831_end"/>
+            <p loc="novel1_letter4_p70" ana="Start"/>August 19. <seg xml:id="C06_app104-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app105-f1831_start"/>17—.<p loc="novel1_letter4_p70" ana="End"/>
-         <p loc="novel1_letter4_p71" ana="Start"/>Yesterday the stranger said to me, “You may easily perceive, Captain Walton, that I have suffered great and unparalleled misfortunes. I had determined, <seg xml:id="C06_app105-f1831_end"/>
+            <p loc="novel1_letter4_p71" ana="Start"/>Yesterday the stranger said to me, “You may easily perceive, Captain Walton, that I have suffered great and unparalleled misfortunes. I had determined, <seg xml:id="C06_app105-f1831_end"/>
             <seg xml:id="C06_app106-f1831_start"/>at one time, <seg xml:id="C06_app106-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app107-f1831_start"/>that the memory of these evils should die with me; but you have won me to alter my determination. You seek for knowledge and wisdom, as I once did; and I ardently hope that the gratification of your wishes may not be a serpent to sting you, as mine has been. I do not know that the relation of my <seg xml:id="C06_app107-f1831_end"/>
             <seg xml:id="C06_app108-f1831_start"/>disasters <seg xml:id="C06_app108-f1831_end"/>
@@ -160,20 +160,20 @@
             <seg type="invariant-MissingWit" xml:id="C06_app133-f1831_start"/>doubt <seg xml:id="C06_app133-f1831_end"/>
             <seg xml:id="C06_app134-f1831_start"/>but <seg xml:id="C06_app134-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app135-f1831_start"/>that my tale conveys in its series internal evidence of the truth of the events of which it is composed.”<p loc="novel1_letter4_p71" ana="End"/>
-         <p loc="novel1_letter4_p72" ana="Start"/>You may easily <seg xml:id="C06_app135-f1831_end"/>
+            <p loc="novel1_letter4_p72" ana="Start"/>You may easily <seg xml:id="C06_app135-f1831_end"/>
             <seg xml:id="C06_app136-f1831_start"/>imagine <seg xml:id="C06_app136-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app137-f1831_start"/>that I was much gratified by the offered communication; yet I could not endure that he should renew his grief by a recital of his misfortunes. I felt the greatest eagerness to hear the promised narrative, partly from curiosity, and partly from a strong desire to ameliorate his fate, if it were in my power. I expressed these feelings in my answer.<p loc="novel1_letter4_p72" ana="End"/>
-         <p loc="novel1_letter4_p73" ana="Start"/>“I thank you,” he replied, “for your sympathy, but it is useless; my fate is nearly fulfilled. I wait but for one event, and then I shall repose in peace. I understand your feeling,” continued he, perceiving that I wished to interrupt him; “but you are mistaken, my friend, if thus you will allow me to name you; nothing can alter my destiny: listen to my history, and you will perceive how irrevocably it is <seg xml:id="C06_app137-f1831_end"/>
+            <p loc="novel1_letter4_p73" ana="Start"/>“I thank you,” he replied, “for your sympathy, but it is useless; my fate is nearly fulfilled. I wait but for one event, and then I shall repose in peace. I understand your feeling,” continued he, perceiving that I wished to interrupt him; “but you are mistaken, my friend, if thus you will allow me to name you; nothing can alter my destiny: listen to my history, and you will perceive how irrevocably it is <seg xml:id="C06_app137-f1831_end"/>
             <seg xml:id="C06_app138-f1831_start"/>determined.”<p loc="novel1_letter4_p73" ana="End"/>
-         <p loc="novel1_letter4_p74" ana="Start"/>He <seg xml:id="C06_app138-f1831_end"/>
+            <p loc="novel1_letter4_p74" ana="Start"/>He <seg xml:id="C06_app138-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app139-f1831_start"/>then told me, that he would commence his narrative the next day when I should be at leisure. This promise drew from me the warmest thanks. I have resolved every night, when I am not <seg xml:id="C06_app139-f1831_end"/>
             <seg xml:id="C06_app140-f1831_start"/>imperatively occupied by my duties, <seg xml:id="C06_app140-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app141-f1831_start"/>to record, as nearly as possible in his own words, what he has related during the day. If I should be engaged, I will at least make notes. This manuscript will doubtless afford you the greatest <seg xml:id="C06_app141-f1831_end"/>
             <seg xml:id="C06_app142-f1831_start"/>pleasure: <seg xml:id="C06_app142-f1831_end"/>
             <seg type="invariant-MissingWit" xml:id="C06_app145-f1831_start"/>but to me, who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future <seg xml:id="C06_app145-f1831_end"/>
             <seg xml:id="C06_app146-f1831_start"/>day! Even now, as I commence my task, his full-toned voice swells in my ears; his lustrous eyes dwell on me with all their melancholy sweetness; I see his thin hand raised in animation, while the lineaments of his face are irradiated by the soul within. Strange and harrowing must be his story; frightful the storm which embraced the gallant vessel on its course, and wrecked it—thus!<p loc="novel1_letter4_p74" ana="End"/> 
-         <seg xml:id="C06_app146-f1831_end"/>
+            <seg xml:id="C06_app146-f1831_end"/>
          </div>
       </body>
    </text>
-
+</TEI>

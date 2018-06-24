@@ -16,7 +16,9 @@
            </xsl:variable>
          <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>          
            <xsl:result-document method="xml" indent="yes" href="bridge-P3/{$filename}">
+               <TEI>
            <xsl:apply-templates/>
+               </TEI>
            </xsl:result-document>
        </xsl:for-each>
        
