@@ -53,7 +53,7 @@
   <xsl:variable name="currentElem" select="$divNode//p[@loc=$groupKey][@ana='Start']"/> 
    <p xml:id="{$groupKey}">
      <xsl:for-each select="$divNode//p[@loc=$groupKey and @ana='Start']/following-sibling::node()[following-sibling::p[@loc=$groupKey and @ana='End']]">
-         <xsl:copy select="current()"/></xsl:for-each>
+         <xsl:copy-of select="current()"/></xsl:for-each>
    </p>
                    
                        <!-- <xsl:variable name="currentElem" select="$divNode//*[name() = current()/name()][matches(@ana, '[Ss]tart')]" as="element()"/>-->
