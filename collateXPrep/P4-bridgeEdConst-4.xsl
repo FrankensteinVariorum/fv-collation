@@ -15,7 +15,7 @@
               <xsl:text>P4-</xsl:text><xsl:value-of select="tokenize(base-uri(), '/')[last()] ! substring-after(., 'P3-')"/>
            </xsl:variable>
          <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>          
-           <xsl:result-document method="xml" indent="yes" href="bridge-P4/{$filename}">
+           <xsl:result-document method="xml" indent="yes" href="bridge-P4-C10/{$filename}">
         <TEI><xsl:apply-templates select="descendant::teiHeader"/>
         <text>
             <body>
@@ -56,27 +56,7 @@
          <xsl:copy-of select="current()"/></xsl:for-each>
    </p>
                 </xsl:for-each-group>
-            <xsl:variable name="dv-fullElems-notPs" select="distinct-values($divNode//*[(matches(@ana, '[Ss]tart'))][not(self::p)]/name())" as="xs:string+"/>     
-                 <xsl:for-each select="$dv-fullElems-notPs">         
-                <xsl:variable name="current-DVElemName" select="current()" as="xs:string"/>
-                <xsl:for-each-group select="$divNode//*[matches(@ana, '[Ss]tart')][name()=$current-DVElemName]/following-sibling::node()" group-ending-with="*[name()=$current-DVElemName][matches(@ana, '[Ee]nd')][1]">
-                    <xsl:variable name="currentElem" select="$divNode//*[name() = $current-DVElemName][matches(@ana, '[Ss]tart')]" as="element()"/>   
-                    <xsl:variable name="elemName" select="$currentElem/name()" as="xs:string"/>
-                    <xsl:variable name="attNames" select="$currentElem/@*/name()" as="xs:string*"/>
-                    <xsl:variable name="attValues" select="$currentElem/@*" as="attribute()*"/>
-                    <xsl:element name="{$elemName}">
-                        <xsl:for-each select="$attValues[not(name(.) = 'ana')]">
-                            <xsl:attribute name="{current()/name()}">
-                                <xsl:value-of select="current()"/>
-                            </xsl:attribute>
-                        </xsl:for-each>
-                        <xsl:copy-of select="current-group()"/>  
-                    </xsl:element>
-                    
-         
-                </xsl:for-each-group>     
-                
-            </xsl:for-each>
+           
                         
         </div>
          </xsl:template>
