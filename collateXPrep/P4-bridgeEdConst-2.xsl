@@ -29,10 +29,11 @@
        <xsl:param name="filename"/>
       <xsl:variable name="elementName" select="current()/name()" as="xs:string"/>
           <xsl:element name="{$elementName}">
+              <xsl:attribute name="loc">
+                  <xsl:value-of select="tokenize($filename, '-')[last()] ! substring-before(., '.')"/><xsl:text>-</xsl:text><xsl:value-of select="$elementName"/><xsl:text>_</xsl:text><xsl:value-of select="count(preceding::*[name() = $elementName][matches(@ana, '[Ss]tart')][ancestor::div]) + 1"/>
+              </xsl:attribute>
               <xsl:for-each select="current()/@*">
-                  <xsl:attribute name="loc">
-                      <xsl:value-of select="tokenize($filename, '-')[last()] ! substring-before(., '.')"/><xsl:text>-</xsl:text><xsl:value-of select="$elementName"/><xsl:text>_</xsl:text><xsl:value-of select="count(preceding::*[name() = $elementName][matches(@ana, '[Ss]tart')][ancestor::div]) + 1"/>
-                  </xsl:attribute>
+                  
                   <xsl:attribute name="{current()/name()}">
                       <xsl:value-of select="current()"/> 
                   </xsl:attribute>
