@@ -16,9 +16,9 @@
            </xsl:variable>
          <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>          
            <xsl:result-document method="xml" indent="yes" href="bridge-P4-C10/output3/{$filename}">
-               <TEI><xsl:copy-of select="$output2-P4-C10//teiHeader"/>
+               <TEI><xsl:copy-of select="$currentP4File//teiHeader"/>
                    <text>
-                       <xsl:apply-templates select="$output2-P4-C10//text"/>
+                       <xsl:apply-templates select="$currentP4File//text"/>
                    </text>
                </TEI>
          </xsl:result-document>

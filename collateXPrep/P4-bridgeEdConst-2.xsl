@@ -15,10 +15,10 @@
            </xsl:variable>
          <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>          
            <xsl:result-document method="xml" indent="yes" href="bridge-P4-C10/output2/output2-{$filename}">
-        <TEI><xsl:copy-of select="$output1-P4-C10//teiHeader"/>
-        <text>
-            <xsl:apply-templates select="$output1-P4-C10//text"><xsl:with-param name="filename" select="$filename" as="xs:string"/></xsl:apply-templates>
-        </text>
+        <TEI><xsl:copy-of select="descendant::teiHeader"/>
+       
+            <xsl:apply-templates select="descendant::text"><xsl:with-param name="filename" select="$filename" as="xs:string"/></xsl:apply-templates>
+        
         </TEI>
          </xsl:result-document>
        </xsl:for-each>
