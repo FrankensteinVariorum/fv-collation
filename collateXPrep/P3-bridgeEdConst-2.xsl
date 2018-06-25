@@ -5,16 +5,16 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="3.0">
 
 <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:variable name="output1-P4-C10" as="document-node()+" select="collection('bridge-P4-C10/output1/')"/>
-<!--In Bridge Construction Phase 4, we are converting self-closed edition elements into full elements to "unflatten" the edition files. -->   
+    <xsl:variable name="bridge-P3-C10" as="document-node()+" select="collection('bridge-P3-C10/')"/>
+<!--Adding @loc attributes to ease expansion of flattened elements in Bridge Phase 4. -->   
    <xsl:template match="/">
-       <xsl:for-each select="$output1-P4-C10//TEI">
-           <xsl:variable name="currentP4File" as="element()" select="current()"/>
+       <xsl:for-each select="$bridge-P3-C10//TEI">
+           <xsl:variable name="currentP3File" as="element()" select="current()"/>
            <xsl:variable name="filename">
-              <xsl:value-of select="tokenize(base-uri(), '/')[last()] ! substring-after(., 'output1-')"/>
+              <xsl:value-of select="tokenize(base-uri(), '/')[last()]"/>
            </xsl:variable>
          <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>          
-           <xsl:result-document method="xml" indent="yes" href="bridge-P4-C10/output2/output2-{$filename}">
+           <xsl:result-document method="xml" indent="yes" href="bridge-P3-C10/{$filename}">
         <TEI><xsl:copy-of select="descendant::teiHeader"/>
        
             <xsl:apply-templates select="descendant::text"><xsl:with-param name="filename" select="$filename" as="xs:string"/></xsl:apply-templates>
@@ -25,7 +25,7 @@
        
    </xsl:template>
  
-   <xsl:template match="*[matches(@ana, '[Ss]tart')]">
+   <xsl:template match="*[matches(@ana, '[Ss]tart') and not(@loc)]">
        <xsl:param name="filename"/>
       <xsl:variable name="elementName" select="current()/name()" as="xs:string"/>
           <xsl:element name="{$elementName}">
@@ -41,7 +41,7 @@
               <xsl:apply-templates/>
           </xsl:element>
    </xsl:template>
-    <xsl:template match="*[matches(@ana, '[Ee]nd')]">
+    <xsl:template match="*[matches(@ana, '[Ee]nd') and not(@loc)]">
         <xsl:param name="filename"/>
         <xsl:variable name="elementName" select="current()/name()" as="xs:string"/>
         <xsl:element name="{$elementName}">
