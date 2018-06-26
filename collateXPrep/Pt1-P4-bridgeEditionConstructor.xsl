@@ -44,11 +44,14 @@
         </title>
     </xsl:template>
     <xsl:template match="div[@type='collation']">
-        <xsl:apply-templates select="descendant::node()[not(self::text()[preceding-sibling::*[1][@loc and matches(@ana, '[Ss]tart')]]) and not(self::text()[following-sibling::*[1][@loc and matches(@ana, '[Ee]nd')]])]"/>
+        <div type="collation">
+        <xsl:apply-templates select="descendant::node()[not(self::text()[preceding-sibling::*[position() lt 2][@loc and matches(@ana, '[Ss]tart')]]) and not(self::text()[following-sibling::*[position() lt 2][@loc and matches(@ana, '[Ee]nd')]]) or self::text()[preceding-sibling::*[1][self::seg or self::*[@loc] or not(self::p)]] or self::text()[following-sibling::*[1][self::seg or self::*[@loc] or not(self::p)]]]"/>
+        </div>
     </xsl:template>
-    <xsl:template match="*[matches(@ana, '[Ss]tart')][following-sibling::*[1][@loc=current()/@loc and matches(@ana, '[Ee]nd')]]">
-        <xsl:variable name="thisEndTag" select="following-sibling::*[1][@loc = ./@loc and matches(@ana, '[Ee]nd')]" as="element()"/>
-        <xsl:variable name="thisEndtagName" select="$thisEndTag/name()" as="xs:string"/>
+    <xsl:template match="*[matches(@ana, '[Ss]tart')][following-sibling::*[position() lt 2][@loc=current()/@loc and matches(@ana, '[Ee]nd')]]">
+        <xsl:variable name="thisEndTag" select="following-sibling::*[1][@loc = current()/@loc and matches(@ana, '[Ee]nd')]" as="element()"/>
+        <xsl:variable name="thisEndTagName" select="$thisEndTag/name()" as="xs:string"/>
+        <xsl:message>This end tag name <xsl:value-of select="$thisEndTagName"/></xsl:message>   
         <xsl:element name="{name()}">
             <xsl:for-each select="@*">
                 <xsl:attribute name="{name()}">
@@ -57,14 +60,13 @@
             </xsl:for-each>
             <xsl:apply-templates select="following-sibling::node()[1]">
                 <xsl:with-param name="thisEndTag" select="$thisEndTag" as="element()" tunnel="yes"/>
-                <xsl:with-param name="thisEndTagName" select="$thisEndtagName" as="xs:string"/>
+                <xsl:with-param name="thisEndTagName" select="$thisEndTagName" as="xs:string"/>
             </xsl:apply-templates>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="*[matches(@ana, '[Ee]nd')][preceding-sibling::*[1][@loc = current()/@loc]]">
+    <xsl:template match="*[matches(@ana, '[Ee]nd')][preceding-sibling::*[position() lt 2][@loc = current()/@loc]]">
         <xsl:param name="thisEndTag"/>
         <xsl:param name="thisEndTagName"/>
-        <xsl:message>This end tag name <xsl:value-of select="$thisEndTagName"/></xsl:message>   
     </xsl:template>
 
 
