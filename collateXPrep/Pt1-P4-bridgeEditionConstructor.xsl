@@ -16,7 +16,7 @@
            </xsl:variable>
          <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/> 
            <xsl:variable name="flat-not-p" select="$currentP3File//*[@ana and @loc and not(self::p)]" as="element()+"/>
-           <xsl:result-document method="xml" indent="yes" href="bridge-P4-C10/output/output-{$filename}">
+           <xsl:result-document method="xml" indent="yes" href="bridge-P4-C10/output1/output1-{$filename}">
         <TEI>
             <xsl:apply-templates select="descendant::teiHeader"/>
         <text>
@@ -43,7 +43,15 @@
             <xsl:text>Bridge Phase 4:</xsl:text><xsl:value-of select="tokenize(., ':')[last()]"/>
         </title>
     </xsl:template>
-    <xsl:template match="*[matches(@ana, '[Ss]tart')]">
+    <xsl:template match="div[@type='collation']">
+        <div type="collation">
+        <xsl:apply-templates select="descendant::node()[not(self::text()[preceding-sibling::*[position() lt 2][@loc and matches(@ana, '[Ss]tart')]]) and not(self::text()[following-sibling::*[position() lt 2][@loc and matches(@ana, '[Ee]nd')]]) or self::text()[preceding-sibling::*[1][self::seg or self::*[@loc] or not(self::p)]] or self::text()[following-sibling::*[1][self::seg or self::*[@loc] or not(self::p)]]]"/>
+        </div>
+    </xsl:template>
+    <xsl:template match="*[matches(@ana, '[Ss]tart')][following-sibling::*[position() lt 2][@loc=current()/@loc and matches(@ana, '[Ee]nd')]]">
+        <xsl:variable name="thisEndTag" select="following-sibling::*[1][@loc = current()/@loc and matches(@ana, '[Ee]nd')]" as="element()"/>
+        <xsl:variable name="thisEndTagName" select="$thisEndTag/name()" as="xs:string"/>
+        <xsl:message>This end tag name <xsl:value-of select="$thisEndTagName"/></xsl:message>   
         <xsl:element name="{name()}">
             <xsl:for-each select="@*">
                 <xsl:attribute name="{name()}">
@@ -51,13 +59,14 @@
                 </xsl:attribute>   
             </xsl:for-each>
             <xsl:apply-templates select="following-sibling::node()[1]">
-                <xsl:with-param name="thisEndTag" select="following-sibling::*[@loc = current()/@loc and matches(@ana, '[Ee]nd')]" as="element()" tunnel="yes"/>
+                <xsl:with-param name="thisEndTag" select="$thisEndTag" as="element()" tunnel="yes"/>
+                <xsl:with-param name="thisEndTagName" select="$thisEndTagName" as="xs:string"/>
             </xsl:apply-templates>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="*[matches(@ana, '[Ee]nd')]">
+    <xsl:template match="*[matches(@ana, '[Ee]nd')][preceding-sibling::*[position() lt 2][@loc = current()/@loc]]">
         <xsl:param name="thisEndTag"/>
-        <xsl:message>This end tag: <xsl:value-of select="$thisEndTag"/></xsl:message>   
+        <xsl:param name="thisEndTagName"/>
     </xsl:template>
 
 

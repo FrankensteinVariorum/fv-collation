@@ -16,12 +16,13 @@
            </xsl:variable>
          <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/> 
            <xsl:variable name="flat-not-p" select="$currentP3File//*[@ana and @loc and not(self::p)]" as="element()+"/>
-           <xsl:result-document method="xml" indent="yes" href="bridge-P4-C10/output/output-{$filename}">
-        <TEI>
-            <xsl:apply-templates select="descendant::teiHeader"/>
+           <xsl:result-document method="xml" indent="yes" href="bridge-P4-C10/output1/output1-{$filename}">
+        <TEI><xsl:apply-templates select="descendant::teiHeader"/>
         <text>
             <body>
-                <xsl:apply-templates select="descendant::div[@type='collation']"/>
+                <xsl:apply-templates select="descendant::div[@type='collation']">
+                    <xsl:with-param name="flat-not-p" select="$flat-not-p" as="element()+" tunnel="yes"/>
+                </xsl:apply-templates>
             </body>
         </text>
         </TEI>
@@ -43,30 +44,13 @@
             <xsl:text>Bridge Phase 4:</xsl:text><xsl:value-of select="tokenize(., ':')[last()]"/>
         </title>
     </xsl:template>
-    <xsl:template match="*[matches(@ana, '[Ss]tart')]">
-        <xsl:element name="{name()}">
-            <xsl:for-each select="@*">
-                <xsl:attribute name="{name()}">
-                    <xsl:value-of select="current()"/>
-                </xsl:attribute>   
-            </xsl:for-each>
-            <xsl:apply-templates select="following-sibling::node()[1]">
-                <xsl:with-param name="thisEndTag" select="following-sibling::*[@loc = current()/@loc and matches(@ana, '[Ee]nd')]" as="element()" tunnel="yes"/>
-            </xsl:apply-templates>
-        </xsl:element>
-    </xsl:template>
-    <xsl:template match="*[matches(@ana, '[Ee]nd')]">
-        <xsl:param name="thisEndTag"/>
-        <xsl:message>This end tag: <xsl:value-of select="$thisEndTag"/></xsl:message>   
-    </xsl:template>
-
-
-   <!-- <xsl:template match="div[@type='collation']">
+   
+    <xsl:template match="div[@type='collation']">
         <xsl:param name="flat-not-p" tunnel="yes"/>
         <xsl:variable name="divNode" select="." as="element()"/>
         <div type="collation" xml:id="{@xml:id}">
             <xsl:variable name="editionFullElements" as="element()+" select="descendant::*[not(self::seg) and matches(@ana, '[Ss]tart')][following-sibling::*[name() = ./name() and matches(@ana, '[Ee]nd')]]"/>
-            <!-\-2018-06-24 This should identify all the elements that in the original edition files should contain full text. However, it's posing problems to try to process them all together in one for-each-group. So I'm proceeding with the paragraphs first... -\->
+            <!--2018-06-24 This should identify all the elements that in the original edition files should contain full text. However, it's posing problems to try to process them all together in one for-each-group. So I'm proceeding with the paragraphs first... -->
        
                 <xsl:for-each-group select="descendant::p[@ana='Start']/following-sibling::node()" group-by="@loc">
                     <xsl:variable name="groupKey" select="current-grouping-key()"/>            
@@ -84,25 +68,25 @@
         </div>
          </xsl:template>
     <xsl:template match="del">
-      <!-\-  <xsl:variable name="elementName" select="name()"/>-\->
+      <!--  <xsl:variable name="elementName" select="name()"/>-->
         <xsl:variable name="loc" select="@loc"/>
  
             <xsl:if test="matches(@ana, '[Ss]tart')">
                 <del loc="{@loc}">
                     <xsl:apply-templates select="following-sibling::node()[following-sibling::del[@loc=$loc and matches(@ana, '[Ee]nd')]]"/>
                 </del>
-              <!-\- <xsl:element name="{$elementName}">
+              <!-- <xsl:element name="{$elementName}">
                    <xsl:for-each select="@*[not(name() = 'ana')]">
                        <xsl:attribute name="{current()/name()}">
                            <xsl:value-of select="current()"/>
                        </xsl:attribute>
                    </xsl:for-each>
                    <xsl:apply-templates select="following-sibling::node()[following-sibling::*[name() = $elementName and @loc=$loc and matches(@ana, '[Ee]nd')]]"/>
-               </xsl:element>-\->         
+               </xsl:element>-->         
             </xsl:if>
     </xsl:template>
     <xsl:template match="cit">
-        <!-\-  <xsl:variable name="elementName" select="name()"/>-\->
+        <!--  <xsl:variable name="elementName" select="name()"/>-->
         <xsl:variable name="loc" select="@loc"/>
         
         <xsl:if test="matches(@ana, '[Ss]tart')">
@@ -112,7 +96,7 @@
         </xsl:if>
     </xsl:template>
     <xsl:template match="quote">
-        <!-\-  <xsl:variable name="elementName" select="name()"/>-\->
+        <!--  <xsl:variable name="elementName" select="name()"/>-->
         <xsl:variable name="loc" select="@loc"/>
         
         <xsl:if test="matches(@ana, '[Ss]tart')">
@@ -123,7 +107,7 @@
         </xsl:if>
     </xsl:template>
     <xsl:template match="lg">
-        <!-\-  <xsl:variable name="elementName" select="name()"/>-\->
+        <!--  <xsl:variable name="elementName" select="name()"/>-->
         <xsl:variable name="loc" select="@loc"/>
         
         <xsl:if test="matches(@ana, '[Ss]tart')">
@@ -133,7 +117,7 @@
         </xsl:if>
     </xsl:template>
     <xsl:template match="l">
-        <!-\-  <xsl:variable name="elementName" select="name()"/>-\->
+        <!--  <xsl:variable name="elementName" select="name()"/>-->
         <xsl:variable name="loc" select="@loc"/>
         
         <xsl:if test="matches(@ana, '[Ss]tart')">
@@ -143,7 +127,7 @@
         </xsl:if>
     </xsl:template>
     <xsl:template match="note">
-        <!-\-  <xsl:variable name="elementName" select="name()"/>-\->
+        <!--  <xsl:variable name="elementName" select="name()"/>-->
         <xsl:variable name="loc" select="@loc"/>
         
         <xsl:if test="matches(@ana, '[Ss]tart')">
@@ -153,7 +137,7 @@
         </xsl:if>
     </xsl:template>
     <xsl:template match="bibl">
-        <!-\-  <xsl:variable name="elementName" select="name()"/>-\->
+        <!--  <xsl:variable name="elementName" select="name()"/>-->
         <xsl:variable name="loc" select="@loc"/>
         
         <xsl:if test="matches(@ana, '[Ss]tart')">
@@ -161,7 +145,7 @@
                 <xsl:apply-templates select="following-sibling::node()[following-sibling::bibl[@loc=$loc and matches(@ana, '[Ee]nd')]]"/>
             </bibl>
         </xsl:if>
-    </xsl:template>-->
+    </xsl:template>
 </xsl:stylesheet>
 
 
