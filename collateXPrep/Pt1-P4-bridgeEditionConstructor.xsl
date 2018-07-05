@@ -46,13 +46,34 @@
     <xsl:template match="div[@type='collation']">
         <div type="collation">
            <!-- <xsl:apply-templates select="descendant::node()[not(self::text()[preceding-sibling::*[@loc and @ana='start']]) and not(self::text()[following-sibling::*[@loc and @ana='end']]) and not(self::seg[preceding-sibling::*[@loc and @ana='start']]) and not(self::seg[following-sibling::*[@loc and @ana='end']])]"/>-->
-            <xsl:apply-templates select="descendant::*[@loc]"/>  
+            <xsl:apply-templates select="descendant::*[@loc][@loc = following-sibling::*[@loc][1]/@loc]"/>  
         </div>
+    </xsl:template>
+ 
+ <xsl:template match="*[@loc = following-sibling::*[@loc][1]/@loc]">
+     <xsl:variable name="currNode" select="current()" as="node()"/>
+        <xsl:variable name="currLoc" select="@loc" as="xs:string"/>
+        <xsl:comment>This template rule for text- and sig-bearing loc nodes is firing now.</xsl:comment>
+     <xsl:apply-templates select="preceding-sibling::node()[following-sibling::*[@loc][1][@loc = $currLoc and @ana='start']][preceding-sibling::*[@loc][1]/@loc = $currNode/preceding-sibling::*[@loc][1]/@loc]"/>
+        <xsl:element name="{name()}">
+            <xsl:for-each select="@*[not(name() = 'ana')]">
+                <xsl:attribute name="{current()/name()}">
+                    <xsl:value-of select="current()"/>
+                </xsl:attribute>
+            </xsl:for-each>
+            <xsl:apply-templates select="following-sibling::node()[following-sibling::*[@loc = $currLoc]]"/>
+        </xsl:element>
+     <xsl:apply-templates select="following-sibling::node()[preceding-sibling::*[@loc][1][@loc = $currLoc and @ana='end']][following-sibling::*[@loc][1]/@loc = $currNode/following-sibling::*[@loc][1]/@loc]"/>
+    </xsl:template>
+   
+    <xsl:template match="div[@type='collation']//*[not(@loc)]">
+        <xsl:copy-of select="."/>
     </xsl:template>
     
     <xsl:template match="*[@ana='start'][@loc = following-sibling::*[@ana='start']/following-sibling::*[@ana='end']/@loc]">
+        <xsl:comment>This template rule for outer-hull elements is firing now.</xsl:comment>
         <xsl:variable name="currentLoc" as="xs:string" select="@loc"/>
-     
+        <xsl:comment>The value of currentLoc is <xsl:value-of select="$currentLoc"/></xsl:comment>
         <xsl:variable name="thisEndTag" select="following-sibling::*[@loc = $currentLoc and @ana='end']" as="element()"/>
         <xsl:variable name="thisEndTagName" select="$thisEndTag/name()" as="xs:string"/> 
         <xsl:element name="{name()}">
@@ -61,40 +82,12 @@
                     <xsl:value-of select="current()"/>
                 </xsl:attribute>   
             </xsl:for-each>
-            <!--<xsl:apply-templates select="following-sibling::node()[following-sibling::*[@loc=$currentLoc and @ana='end']]"/>-->
-            <!--<xsl:for-each select="following-sibling::node()[following-sibling::*[@loc=$currentLoc and @ana='end']]">
-                -->
-            <xsl:variable name="InBetweenNode" select="following-sibling::node()[following-sibling::*[@loc=$currentLoc and @ana='end']]" as="node()+"/>
-          <!--  <xsl:choose> 
-                <xsl:when test="$InBetweenNode[@loc]">-->
-                    <xsl:apply-templates select="$InBetweenNode[@loc]"/>
-            <!-- </xsl:when>
-                <xsl:when test="$InBetweenNode[not(@loc) and preceding-sibling::*[@loc ne $currentLoc and @ana='start' and preceding-sibling::*[@loc = $currentLoc]] and following-sibling::*[@loc ne $currentLoc and @ana='end' and following-sibling::*[@loc = $currentLoc]]]">
-
-                </xsl:when>
-                <xsl:when test="$InBetweenNode[not(@loc)][not(preceding-sibling::*[@loc ne $currentLoc and preceding-sibling::*[@loc = $currentLoc]]) and not(following-sibling::*[@loc ne $currentLoc and following-sibling::*[@loc = $currentLoc]])]">
-                  <!-\-  <xsl:apply-templates select="$InBetweenNode[not(@loc)][not(preceding-sibling::*[@loc ne $currentLoc and preceding-sibling::*[@loc = $currentLoc]]) and not(following-sibling::*[@loc ne $currentLoc and following-sibling::*[@loc = $currentLoc]])]"/>-\->
-            </xsl:when>
-                <xsl:otherwise>
-                    <xsl:message>OTHERWISE I am <xsl:value-of select="$InBetweenNode"/></xsl:message>
-                </xsl:otherwise>
-            </xsl:choose>        -->            <!--</xsl:for-each>-->
+            <xsl:apply-templates select="following-sibling::node()[following-sibling::*[@loc][1][@loc ne $currentLoc][following-sibling::*[@loc=$currentLoc and @ana='end']]] and following-sibling::node()[preceding-sibling::*[@loc][1][@loc ne $currentLoc]][following-sibling::*[@loc=$currentLoc and @ana='end']]"/>
+ 
         </xsl:element>
-    </xsl:template>
-    <xsl:template match="*[@loc = (following-sibling::*[@loc])[1]/@loc]">
-        <xsl:variable name="currLoc" select="@loc" as="xs:string"/>
-        <xsl:element name="{name()}">
-            <xsl:for-each select="@*[not(name() = 'ana')]">
-                <xsl:attribute name="{current()/name()}">
-                    <xsl:value-of select="current()"/>
-                </xsl:attribute>
-            </xsl:for-each>
-            <xsl:copy-of select="following-sibling::node()[following-sibling::*[@loc = $currLoc]]"/>
-        </xsl:element>
-        
     </xsl:template>
     
-    <xsl:template match="*[@ana='end'][@loc = preceding-sibling::*[@ana='start']/@loc]">
+  <xsl:template match="*[@ana='end'][@loc = preceding-sibling::*[@ana='start']/@loc]">
     </xsl:template>
 </xsl:stylesheet>
 
