@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xpath-default-namespace="http://www.tei-c.org/ns/1.0"   xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+    xmlns="http://www.tei-c.org/ns/1.0" 
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
     version="3.0">
-  <!--UPDATE THIS TO READ TEI AND OTHER NAMESPACES, and use to simplify the @ana attributes before reconstructing the structural elements. Built in the "raising" repo for the Balisage late-breaking paper, 1 July 2018. -->
+  <!--2018-07-04 ebb: This was first built in the "raising" repo for the Balisage late-breaking paper, 1 July 2018, and I've added to the xsl:stylesheet so it can process TEI and pitt namespaces used in the Frankenstein Variorum project. -->
 <xsl:output method="xml" indent="no"/>
     <xsl:mode on-no-match="shallow-copy"/>
     
