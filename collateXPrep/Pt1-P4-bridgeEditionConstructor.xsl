@@ -50,7 +50,7 @@
         </div>
     </xsl:template>
     
-    <xsl:template match="*[@ana='start'][@loc = following-sibling::*[@ana='end']/@loc]">
+    <xsl:template match="*[@ana='start'][@loc = following-sibling::*[@ana='start']/following-sibling::*[@ana='end']/@loc]">
         <xsl:variable name="currentLoc" as="xs:string" select="@loc"/>
      
         <xsl:variable name="thisEndTag" select="following-sibling::*[@loc = $currentLoc and @ana='end']" as="element()"/>
@@ -62,26 +62,38 @@
                 </xsl:attribute>   
             </xsl:for-each>
             <!--<xsl:apply-templates select="following-sibling::node()[following-sibling::*[@loc=$currentLoc and @ana='end']]"/>-->
-            <xsl:for-each select="following-sibling::node()[following-sibling::*[@loc=$currentLoc and @ana='end']]">
-                
-            <xsl:choose> 
-                <xsl:when test="self::*[@loc]">
-           <xsl:apply-templates select="current()"/>
-             </xsl:when>
-                <xsl:when test="not(self::*[@loc]) and preceding-sibling::*[@loc ne $currentLoc and @ana='start' and preceding-sibling::*[@loc = $currentLoc]] and following-sibling::*[@loc ne $currentLoc and @ana='end' and following-sibling::*[@loc = $currentLoc]]">
-              
+            <!--<xsl:for-each select="following-sibling::node()[following-sibling::*[@loc=$currentLoc and @ana='end']]">
+                -->
+            <xsl:variable name="InBetweenNode" select="following-sibling::node()[following-sibling::*[@loc=$currentLoc and @ana='end']]" as="node()+"/>
+          <!--  <xsl:choose> 
+                <xsl:when test="$InBetweenNode[@loc]">-->
+                    <xsl:apply-templates select="$InBetweenNode[@loc]"/>
+            <!-- </xsl:when>
+                <xsl:when test="$InBetweenNode[not(@loc) and preceding-sibling::*[@loc ne $currentLoc and @ana='start' and preceding-sibling::*[@loc = $currentLoc]] and following-sibling::*[@loc ne $currentLoc and @ana='end' and following-sibling::*[@loc = $currentLoc]]]">
+
                 </xsl:when>
-                <xsl:when test="not(preceding-sibling::*[@loc ne $currentLoc and preceding-sibling::*[@loc = $currentLoc]]) and not(following-sibling::*[@loc ne $currentLoc and following-sibling::*[@loc = $currentLoc]])">
-                <xsl:if test="self::text() or self::seg"><xsl:copy-of select="current()"/></xsl:if>
+                <xsl:when test="$InBetweenNode[not(@loc)][not(preceding-sibling::*[@loc ne $currentLoc and preceding-sibling::*[@loc = $currentLoc]]) and not(following-sibling::*[@loc ne $currentLoc and following-sibling::*[@loc = $currentLoc]])]">
+                  <!-\-  <xsl:apply-templates select="$InBetweenNode[not(@loc)][not(preceding-sibling::*[@loc ne $currentLoc and preceding-sibling::*[@loc = $currentLoc]]) and not(following-sibling::*[@loc ne $currentLoc and following-sibling::*[@loc = $currentLoc]])]"/>-\->
             </xsl:when>
                 <xsl:otherwise>
-                    <xsl:message>OTHERWISE I am <xsl:value-of select="current()"/></xsl:message>
+                    <xsl:message>OTHERWISE I am <xsl:value-of select="$InBetweenNode"/></xsl:message>
                 </xsl:otherwise>
-            </xsl:choose>
-                
-                          </xsl:for-each>
+            </xsl:choose>        -->            <!--</xsl:for-each>-->
         </xsl:element>
     </xsl:template>
+    <xsl:template match="*[@loc = (following-sibling::*[@loc])[1]/@loc]">
+        <xsl:variable name="currLoc" select="@loc" as="xs:string"/>
+        <xsl:element name="{name()}">
+            <xsl:for-each select="@*[not(name() = 'ana')]">
+                <xsl:attribute name="{current()/name()}">
+                    <xsl:value-of select="current()"/>
+                </xsl:attribute>
+            </xsl:for-each>
+            <xsl:copy-of select="following-sibling::node()[following-sibling::*[@loc = $currLoc]]"/>
+        </xsl:element>
+        
+    </xsl:template>
+    
     <xsl:template match="*[@ana='end'][@loc = preceding-sibling::*[@ana='start']/@loc]">
     </xsl:template>
 </xsl:stylesheet>
