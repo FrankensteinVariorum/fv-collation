@@ -6,14 +6,15 @@
 
     <xsl:mode on-no-match="shallow-copy"/>
     
-    <xsl:template match="p">
+    <xsl:template match="text//*[text() | *][not(self::div)]">
+        <xsl:variable name="nodeName" as="xs:string" select="name()"/>
         <xsl:variable name="locationFlag">
             <xsl:for-each select="ancestor::div">
                 <xsl:value-of select="@type"/>
                 <xsl:value-of select="count(current()/preceding-sibling::div[@type=current()/@type]) + 1"/>
                 <xsl:text>_</xsl:text>
             </xsl:for-each>
-            <xsl:text>p</xsl:text>
+            <xsl:value-of select="$nodeName"/>
             <xsl:value-of select="count(preceding::p) + 1"/><xsl:text>__</xsl:text>
         </xsl:variable>
         <xsl:copy>
