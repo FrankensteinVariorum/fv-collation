@@ -98,7 +98,7 @@ def normalize(inputText):
         RE_LB.sub('', \
         RE_MARKUP.sub('', inputText)))).lower()
 #    return regexPageBreak('',inputText)
-
+# ebb: The normalize function makes it possible to return normalized tokens that screen out some markup, but not all.
 
 def processToken(inputText):
     return {"t": inputText + ' ', "n": normalize(inputText)}
