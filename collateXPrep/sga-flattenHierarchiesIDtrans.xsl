@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns="http://mith.umd.edu/sc/ns1#"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:mith="http://mith.umd.edu/sc/ns1#"    
-    exclude-result-prefixes="xs #default"
+    exclude-result-prefixes="xs mith pitt"
     version="3.0">
    <xsl:output method="xml" indent="no"/>
     <xsl:template match="@* | node()">
@@ -11,7 +9,12 @@
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
     </xsl:template>
-    
+   <xsl:template match="pitt:mdel">
+       <xsl:element name="{local-name()}">
+           <xsl:apply-templates/>
+       </xsl:element>
+    </xsl:template>
+
     <xsl:template match="surface">
         <xsl:copy copy-namespaces="no">
             <xsl:attribute name="xml:id">
