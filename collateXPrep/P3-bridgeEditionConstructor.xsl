@@ -40,7 +40,7 @@
                 <xsl:variable name="tagContents" select="substring-after(., '&lt;') ! substring-before(., '&gt;')"/>
                 <xsl:element name="{tokenize($tagContents, ' ')[1]}">
                     <xsl:attribute name="ana">
-                        <xsl:text>startTag</xsl:text>
+                        <xsl:text>start</xsl:text>
                     </xsl:attribute>
                     <xsl:for-each select="tokenize($tagContents, ' ')[position() gt 1][contains(., '=')]">
                         <xsl:attribute name="{substring-before(current(), '=')}">
@@ -55,7 +55,7 @@
                         <xsl:variable name="tagContents" select="substring-after(., '&lt;/') ! substring-before(., '&gt;')"/>
                         <xsl:element name="{tokenize($tagContents, ' ')[1]}">
                             <xsl:attribute name="ana">
-                                <xsl:text>endTag</xsl:text>
+                                <xsl:text>end</xsl:text>
                             </xsl:attribute>
                             
                         </xsl:element>
