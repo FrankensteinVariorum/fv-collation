@@ -26,6 +26,8 @@ RE_MILESTONE = re.compile(r'<milestone.+?/>')
 RE_AMP_NSB = re.compile(r'\S&amp;')
 RE_AMP_NSE = re.compile(r'&amp;\S')
 RE_AMP = re.compile(r'&')
+RE_MDEL = re.compile(r'<mdel>.+?/</mdel>')
+# ebb: RE_MDEL = those pesky deletions of two letters or less that we want to normalize out of the collation, but preserve in the output.
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
 # Tags to ignore, with content to keep: xml, comment, anchor
@@ -40,10 +42,10 @@ RE_AMP = re.compile(r'&')
 # 2017-05-30 ebb: collated but the tags are not). Decision to make the comments into self-closing elements with text
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
-ignore = ['mdel', 'sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore', 'hi', 'head', 'header']
+ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore', 'hi', 'head', 'header']
 inlineEmpty = ['lb', 'gap', 'del', 'p', 'div', 'milestone']
 # 2018-05-12 ebb: I'm setting a white space on either side of the inlineEmpty elements in line 76
-inlineContent = ['metamark']
+inlineContent = ['metamark', 'mdel']
 blockElement = ['lg', 'l', 'note', 'ab', 'cit', 'quote', 'bibl']
 # ebb: Tried removing 'comment', from blockElement list above, because we don't want these to be collated.
 
@@ -91,7 +93,8 @@ def extract(input_xml):
 
 def normalize(inputText):
    return RE_AMP.sub('and',\
-          RE_MARKUP.sub('', inputText)).lower()
+        RE_MDEL.sub(''), \
+        RE_MARKUP.sub('', inputText)).lower()
 #    return regexPageBreak('',inputText)
 
 
