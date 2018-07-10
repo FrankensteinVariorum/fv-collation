@@ -29,7 +29,6 @@ RE_AMP = re.compile(r'&')
 RE_MDEL = re.compile(r'<mdel>.+?/</mdel>')
 RE_METAMARK = re.compile(r'<metamark.+?>.+?</metamark>')
 RE_LB = re.compile(r'<lb.+?/>')
-# ebb: RE_MDEL = those pesky deletions of two letters or less that we want to normalize out of the collation, but preserve in the output.
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
 # Tags to ignore, with content to keep: xml, comment, anchor
@@ -44,22 +43,20 @@ RE_LB = re.compile(r'<lb.+?/>')
 # 2017-05-30 ebb: collated but the tags are not). Decision to make the comments into self-closing elements with text
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
-ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore', 'ab', 'hi', 'head', 'header']
+ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore', 'hi', 'head', 'header']
 inlineEmpty = ['lb', 'gap', 'del', 'p', 'div', 'milestone']
 # 2018-05-12 ebb: I'm setting a white space on either side of the inlineEmpty elements in line 76
-inlineContent = ['metamark', 'mdel']
-blockElement = ['lg', 'l', 'note', 'cit', 'quote', 'bibl']
+inlineContent = ['metamark']
+blockElement = ['lg', 'l', 'note', 'ab', 'cit', 'quote', 'bibl']
 # ebb: Tried removing 'comment', from blockElement list above, because we don't want these to be collated.
 
 # 10-23-2017 ebb rv:
-
 def normalizeSpace(inText):
     """Replaces all whitespace spans with single space characters"""
     if regexNonWhitespace.search(inText):
         return regexWhitespace.sub('\n', inText)
     else:
         return ''
-
 
 def extract(input_xml):
     """Process entire input XML document, firing on events"""
@@ -76,7 +73,7 @@ def extract(input_xml):
             output += node.toxml()
         # empty inline elements: pb, milestone
         elif event == pulldom.START_ELEMENT and node.localName in inlineEmpty:
-            output += node.toxml()
+            output += ' ' + node.toxml() + ' '
         # non-empty inline elements: note, hi, head, l, lg, div, p, ab, 
         elif event == pulldom.START_ELEMENT and node.localName in inlineContent:
             output += regexEmptyTag.sub('>', node.toxml())
@@ -102,6 +99,7 @@ def normalize(inputText):
 #    return regexPageBreak('',inputText)
 # ebb: The normalize function makes it possible to return normalized tokens that screen out some markup, but not all.
 
+
 def processToken(inputText):
     return {"t": inputText + ' ', "n": normalize(inputText)}
 
@@ -110,49 +108,45 @@ def processWitness(inputWitness, id):
     return {'id': id, 'tokens': [processToken(token) for token in inputWitness]}
 
 
-for name in glob.glob('../collationChunks/1818_fullFlat_*'):
-    try:
-        matchString = name.split("fullFlat_", 1)[1]
-        # ebb: above gets C30.xml for example
-        matchStr = matchString.split(".", 1)[0]
-        # ebb: above strips off the file extension
-        with open(name, 'rb') as f1818file, \
-                open('../collationChunks/Thomas_fullFlat_' + matchString, 'rb') as fThomasfile, \
-                open('../collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
-                open('../collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
-                open('../collationChunks/msColl_' + matchString, 'rb') as fMSfile, \
-                open('../Full_xmlOutput/collation_' + matchStr + '.xml', 'w') as outputFile:
-                # open('collationChunks/msColl_c56_' + matchString, 'rb') as fMSc56file, \
-                # open('collationChunks/msColl_c58_' + matchString, 'rb') as fMSc58file, \
-                # open('collationChunks/msColl_c57Frag_' + matchString, 'rb') as fMSc57Fragfile, \
-                # open('collationChunks/msColl_c58Frag_' + matchString, 'rb') as fMSc58Fragfile, \
-            # fMSc56_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc56file))).split('\n')
-            # fMSc58_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc58file))).split('\n')
-            # fMSc57Frag_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc57Fragfile))).split('\n')
-            # fMSc58Frag_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc58Fragfile))).split('\n')
-            f1818_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1818file))).split('\n')
-            fThomas_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fThomasfile))).split('\n')
-            f1823_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1823file))).split('\n')
-            f1831_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1831file))).split('\n')
-            fMS_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSfile))).split('\n')
-            f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
-            fThomas_tokenlist = processWitness(fThomas_tokens, 'fThomas')
-            f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
-            f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
-            fMS_tokenlist = processWitness(fMS_tokens, 'fMS')
-            # fMSc56_tokenlist = processWitness(fMSc56_tokens, 'fMSc56')
-            # fMSc58_tokenlist = processWitness(fMSc58_tokens, 'fMSc58')
-            # fMSc57Frag_tokenlist = processWitness(fMSc57Frag_tokens, 'fMSc57Frag')
-            # fMSc58Frag_tokenlist = processWitness(fMSc58Frag_tokens, 'fMSc58Frag')
+name = '../collationChunks/1818_fullFlat_C09.xml'
+matchString = name.split("fullFlat_", 1)[1]
+# ebb: above gets C30.xml for example
+matchStr = matchString.split(".", 1)[0]
+# ebb: above strips off the file extension
+with open(name, 'rb') as f1818file, \
+        open('../collationChunks/Thomas_fullFlat_' + matchString, 'rb') as fThomasfile, \
+        open('../collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
+        open('../collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
+        open('../collationChunks/msColl_' + matchString, 'rb') as fMSfile, \
+        open('../C09-NormalizedTokens/collation_' + matchStr + '.json', 'w') as outputFile:
+        # open('collationChunks/msColl_c56_' + matchString, 'rb') as fMSc56file, \
+        # open('collationChunks/msColl_c58_' + matchString, 'rb') as fMSc58file, \
+        # open('collationChunks/msColl_c57Frag_' + matchString, 'rb') as fMSc57Fragfile, \
+        # open('collationChunks/msColl_c58Frag_' + matchString, 'rb') as fMSc58Fragfile, \
+        # fMSc56_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc56file))).split('\n')
+        # fMSc58_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc58file))).split('\n')
+        # fMSc57Frag_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc57Fragfile))).split('\n')
+        # fMSc58Frag_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSc58Fragfile))).split('\n')
+    f1818_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1818file))).split('\n')
+    fThomas_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fThomasfile))).split('\n')
+    f1823_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1823file))).split('\n')
+    f1831_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(f1831file))).split('\n')
+    fMS_tokens = regexLeadingBlankLine.sub('', regexBlankLine.sub('\n', extract(fMSfile))).split('\n')
+    f1818_tokenlist = processWitness(f1818_tokens, 'f1818')
+    fThomas_tokenlist = processWitness(fThomas_tokens, 'fThomas')
+    f1823_tokenlist = processWitness(f1823_tokens, 'f1823')
+    f1831_tokenlist = processWitness(f1831_tokens, 'f1831')
+    fMS_tokenlist = processWitness(fMS_tokens, 'fMS')
+    # fMSc56_tokenlist = processWitness(fMSc56_tokens, 'fMSc56')
+    # fMSc58_tokenlist = processWitness(fMSc58_tokens, 'fMSc58')
+    # fMSc57Frag_tokenlist = processWitness(fMSc57Frag_tokens, 'fMSc57Frag')
+    # fMSc58Frag_tokenlist = processWitness(fMSc58Frag_tokens, 'fMSc58Frag')
 
-            collation_input = {"witnesses": [f1818_tokenlist, fThomas_tokenlist, f1823_tokenlist, f1831_tokenlist, fMS_tokenlist]}
-            # table = collate(collation_input, output='tei', segmentation=True)
-            # table = collate(collation_input, segmentation=True, layout='vertical')
-            table = collate(collation_input, output='xml', segmentation=True)
-            print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
-            # print(table, file=outputFile)
-    except IOError:
-        pass
-
-
-
+    collation_input = {"witnesses": [f1818_tokenlist, fThomas_tokenlist, f1823_tokenlist, f1831_tokenlist, fMS_tokenlist]}
+    # table = collate(collation_input, output='tei', segmentation=True)
+    # table = collate(collation_input, segmentation=True, layout='vertical')
+    # table = collate(collation_input, output='xml', segmentation=True)
+    # print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
+    # print(fMS_tokenlist, file=outputFile)
+    print(collation_input, file=outputFile)
+    # print(table, file=outputFile)
