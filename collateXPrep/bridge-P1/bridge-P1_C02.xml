@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bridgeP1-collation_C02">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bridgeP1-C02">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -14,7 +14,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Produced from collation output: 2018-05-17 09:45:57.032761 </p>
+            <p>Produced from collation output: 2018-07-10 08:09:03.280903 </p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -28,6 +28,7 @@
             MODERN </rdg>
                <rdg wit="#f1831">&lt;milestone n="1" type="start" unit="novel"/&gt;FRANKENSTEIN;OR,THE
             MODERN </rdg>
+               <rdg wit="#fMS"> </rdg>
                <rdg wit="#fThomas">&lt;milestone n="1" type="start" unit="novel"/&gt;FRANKENSTEIN;OR,
             THEMODERN </rdg>
             </app>
@@ -39,33 +40,24 @@
         </rdg>
             </app>
             <app xml:id="C02_app3">
-               <rdg wit="#f1818">I </rdg>
-               <rdg wit="#f1823">I.To </rdg>
-               <rdg wit="#f1831">I.To </rdg>
-               <rdg wit="#fThomas">I </rdg>
+               <rdg wit="#f1818">I To </rdg>
+               <rdg wit="#f1823">I. To </rdg>
+               <rdg wit="#f1831">I. To </rdg>
+               <rdg wit="#fThomas">I To </rdg>
             </app>
             <app xml:id="C02_app4">
-               <rdg wit="#f1818">&lt;ab&gt; </rdg>
-               <rdg wit="#fMS"> </rdg>
-               <rdg wit="#fThomas">&lt;ab&gt; </rdg>
-            </app>
-            <app xml:id="C02_app5">
-               <rdg wit="#f1818">To </rdg>
-               <rdg wit="#fThomas">To </rdg>
-            </app>
-            <app xml:id="C02_app6">
                <rdg wit="#f1818">Mrs. SAVILLE, </rdg>
                <rdg wit="#f1823">Mrs. SAVILLE, </rdg>
                <rdg wit="#f1831">Mrs. Saville, </rdg>
                <rdg wit="#fThomas">Mrs. SAVILLE, </rdg>
             </app>
-            <app xml:id="C02_app7">
-               <rdg wit="#f1818">England. &lt;/ab&gt;&lt;p loc="novel1_letter1_p6__Start"/&gt;St. </rdg>
+            <app xml:id="C02_app5">
+               <rdg wit="#f1818">England.&lt;p loc="novel1_letter1_p6__Start"/&gt;St. </rdg>
                <rdg wit="#f1823">England.&lt;p loc="novel1_letter1_p6__Start"/&gt; St. </rdg>
                <rdg wit="#f1831">England.&lt;p loc="novel1_letter1_p7__Start"/&gt;St. </rdg>
-               <rdg wit="#fThomas">England. &lt;/ab&gt;&lt;p loc="novel1_letter1_p6__Start"/&gt;St. </rdg>
+               <rdg wit="#fThomas">England.&lt;p loc="novel1_letter1_p6__Start"/&gt;St. </rdg>
             </app>
-            <app xml:id="C02_app8">
+            <app xml:id="C02_app6">
                <rdg wit="#f1818">Petersburgh, Dec. 11th, 17—.&lt;p loc="novel1_letter1_p6__End"/&gt;&lt;p
             loc="novel1_letter1_p7__Start"/&gt;YOU will rejoice to hear that no disaster has
             accompanied the commencement of an enterprise which you have regarded with such evil
@@ -119,22 +111,23 @@
             the pole is the seat of frost and desolation; it ever presents itself to my imagination
             as the region of beauty and delight. There, Margaret, the sun is </rdg>
             </app>
-            <app xml:id="C02_app9">
-               <rdg wit="#fThomas">&lt;del rend="strikethrough"/&gt;for everconstantly visible </rdg>
+            <app xml:id="C02_app7">
+               <rdg wit="#fThomas">&lt;del loc="novel1_letter1_del8__Start"/&gt;for ever&lt;del
+            loc="novel1_letter1_del8__End"/&gt;constantly visible </rdg>
             </app>
-            <app xml:id="C02_app10">
+            <app xml:id="C02_app8">
                <rdg wit="#f1818">for </rdg>
                <rdg wit="#f1823">for </rdg>
                <rdg wit="#f1831">for </rdg>
                <rdg wit="#fThomas">for </rdg>
             </app>
-            <app xml:id="C02_app11">
+            <app xml:id="C02_app9">
                <rdg wit="#f1818">ever visible; </rdg>
                <rdg wit="#f1823">ever visible; </rdg>
                <rdg wit="#f1831">ever visible; </rdg>
                <rdg wit="#fThomas">more than half the year; </rdg>
             </app>
-            <app xml:id="C02_app12">
+            <app xml:id="C02_app10">
                <rdg wit="#f1818">its broad disk just skirting the horizon, and diffusing a perpetual
             splendour. There—for with your leave, my sister, I will put some trust in preceding
             navigators—there snow and frost are banished; and, sailing over a calm sea, we may be
@@ -156,29 +149,39 @@
             wafted to a land surpassing in wonders and in beauty every region hitherto discovered on
             the habitable globe. Its productions and features may be without example, as the </rdg>
             </app>
-            <app xml:id="C02_app13">
+            <app xml:id="C02_app11">
                <rdg wit="#f1818">phænomena </rdg>
                <rdg wit="#f1823">phenomena </rdg>
                <rdg wit="#f1831">phenomena </rdg>
                <rdg wit="#fThomas">phænomena </rdg>
             </app>
-            <app xml:id="C02_app14">
+            <app xml:id="C02_app12">
                <rdg wit="#f1818">of the heavenly bodies undoubtedly are in those undiscovered solitudes.
-            What may not be expected in a country of eternal </rdg>
+            What may not be expected in a country </rdg>
                <rdg wit="#f1823">of the heavenly bodies undoubtedly are in those undiscovered solitudes.
-            What may not be expected in a country of eternal </rdg>
+            What may not be expected in a country </rdg>
                <rdg wit="#f1831">of the heavenly bodies undoubtedly are in those undiscovered solitudes.
-            What may not be expected in a country of eternal </rdg>
+            What may not be expected in a country </rdg>
                <rdg wit="#fThomas">of the heavenly bodies undoubtedly are in those undiscovered solitudes.
-            What may not be expected in a country &lt;del rend="strikethrough"/&gt;of eternal </rdg>
+            What may not be expected in a country </rdg>
+            </app>
+            <app xml:id="C02_app13">
+               <rdg wit="#fThomas">&lt;del loc="novel1_letter1_del8__Start"/&gt;of eternal light?&lt;del
+            loc="novel1_letter1_del8__End"/&gt;ruled by different laws and in which numerous
+            circumstances enforce a belief that the aspect of nature differs essentially from
+            anything </rdg>
+            </app>
+            <app xml:id="C02_app14">
+               <rdg wit="#f1818">of </rdg>
+               <rdg wit="#f1823">of </rdg>
+               <rdg wit="#f1831">of </rdg>
+               <rdg wit="#fThomas">of </rdg>
             </app>
             <app xml:id="C02_app15">
-               <rdg wit="#f1818">light? </rdg>
-               <rdg wit="#f1823">light? </rdg>
-               <rdg wit="#f1831">light? </rdg>
-               <rdg wit="#fThomas">light?ruled by different laws and in which numerous circumstances
-            enforce a belief that the aspect of nature differs essentially from anything of which we
-            have any experience. </rdg>
+               <rdg wit="#f1818">eternal light? </rdg>
+               <rdg wit="#f1823">eternal light? </rdg>
+               <rdg wit="#f1831">eternal light? </rdg>
+               <rdg wit="#fThomas">which we have any experience. </rdg>
             </app>
             <app xml:id="C02_app16">
                <rdg wit="#f1818">I may there discover the wondrous power which attracts the needle; and may
