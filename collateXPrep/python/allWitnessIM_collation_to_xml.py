@@ -27,6 +27,7 @@ RE_AMP_NSB = re.compile(r'\S&amp;')
 RE_AMP_NSE = re.compile(r'&amp;\S')
 RE_AMP = re.compile(r'&')
 RE_MDEL = re.compile(r'<mdel>.+?/</mdel>')
+RE_METAMARK = re.compile(r'<metamark.+?>.+?</metamark>')
 RE_LB = re.compile(r'<lb.+?/>')
 # ebb: RE_MDEL = those pesky deletions of two letters or less that we want to normalize out of the collation, but preserve in the output.
 
@@ -96,7 +97,9 @@ def normalize(inputText):
    return RE_AMP.sub('and',\
         RE_MDEL.sub('', \
         RE_LB.sub('', \
-        RE_MARKUP.sub('', inputText)))).lower()
+        RE_PARA.sub('<p/>', \
+        RE_METAMARK.sub('', \
+        RE_MARKUP.sub('', inputText)))))).lower()
 #    return regexPageBreak('',inputText)
 # ebb: The normalize function makes it possible to return normalized tokens that screen out some markup, but not all.
 
