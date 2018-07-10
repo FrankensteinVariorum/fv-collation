@@ -40,7 +40,7 @@ RE_AMP = re.compile(r'&')
 # 2017-05-30 ebb: collated but the tags are not). Decision to make the comments into self-closing elements with text
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
-ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore', 'hi', 'head', 'header']
+ignore = ['mdel', 'sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore', 'hi', 'head', 'header']
 inlineEmpty = ['lb', 'gap', 'del', 'p', 'div', 'milestone']
 # 2018-05-12 ebb: I'm setting a white space on either side of the inlineEmpty elements in line 76
 inlineContent = ['metamark']
