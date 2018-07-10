@@ -27,6 +27,7 @@ RE_AMP_NSB = re.compile(r'\S&amp;')
 RE_AMP_NSE = re.compile(r'&amp;\S')
 RE_AMP = re.compile(r'&')
 RE_MDEL = re.compile(r'<mdel>.+?/</mdel>')
+RE_LB = re.compile(r'<lb.+?/>')
 # ebb: RE_MDEL = those pesky deletions of two letters or less that we want to normalize out of the collation, but preserve in the output.
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
@@ -93,8 +94,9 @@ def extract(input_xml):
 
 def normalize(inputText):
    return RE_AMP.sub('and',\
-        RE_MDEL.sub(''), \
-        RE_MARKUP.sub('', inputText)).lower()
+        RE_MDEL.sub('', \
+        RE_LB.sub('', \
+        RE_MARKUP.sub('', inputText)))).lower()
 #    return regexPageBreak('',inputText)
 
 

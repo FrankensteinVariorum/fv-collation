@@ -3,6 +3,7 @@
     xmlns:mith="http://mith.umd.edu/sc/ns1#"    
     exclude-result-prefixes="xs mith pitt"
     version="3.0">
+    <!--2018-07-10 ebb: Run this second in the process of flattening the SGA files. Run it over the msColl_fullFlat files after you've planted the sgaMSLocator @n flags on the lb elements.-->
    <xsl:output method="xml" indent="no"/>
     <xsl:template match="@* | node()">
         <xsl:copy copy-namespaces="no">
