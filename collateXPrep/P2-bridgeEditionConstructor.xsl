@@ -81,7 +81,7 @@
            
          <xsl:for-each select="$witnesses">
 
-             <xsl:result-document method="xml" indent="yes" href="bridge-P2/{substring-after(current(), '#')}_{$chunk}.xml">
+             <xsl:result-document method="xml" indent="yes" href="bridge-P2/bridge-P2_{substring-after(current(), '#')}_{$chunk}.xml">
                  <TEI xml:id="{substring-after(current(), '#')}_{$chunk}">
             <teiHeader>
                 <fileDesc>
