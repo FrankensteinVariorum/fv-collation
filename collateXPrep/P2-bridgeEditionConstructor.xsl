@@ -171,7 +171,7 @@
       </xsl:template>
     <xsl:template match="rdg" mode="spinePtrs">
         <xsl:param name="chunk" tunnel="yes"/>
-        <rdg wit="{@wit}"><ref><ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridgeEd/{substring-after(@wit, '#')}_{$chunk}.xml{@wit}-{parent::app/@xml:id}"/>
+        <rdg wit="{@wit}"><ref><ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-{substring-after(@wit, '#')}_{$chunk}.xml#{parent::app/@xml:id}-{substring-after(@wit, '#')}"/>
         <pitt:line_text><xsl:value-of select="string-join(tokenize(., '&lt;.+?/&gt;'))"/></pitt:line_text>
         <pitt:resolved_text>
             <!--2018-06-21 ebb: This is mythical right now, and will almost certainly need to be modified. -->
