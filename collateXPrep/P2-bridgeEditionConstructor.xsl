@@ -175,10 +175,16 @@
         <pitt:line_text><xsl:value-of select="string-join(tokenize(., '&lt;.+?/&gt;'))"/></pitt:line_text>
         <pitt:resolved_text>
             <!--2018-06-21 ebb: This is mythical right now, and will almost certainly need to be modified. -->
-            <xsl:variable name="pointerFilePath"> <xsl:text>https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridgeEd/</xsl:text><xsl:value-of select="substring-after(@wit, '#')"/><xsl:text>_</xsl:text><xsl:value-of select="$chunk"/><xsl:text>.xml</xsl:text>
+            <xsl:variable name="pointerFilePath"> <xsl:text>https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/</xsl:text><xsl:value-of select="substring-after(@wit, '#')"/><xsl:text>_</xsl:text><xsl:value-of select="$chunk"/><xsl:text>.xml</xsl:text>
             </xsl:variable>
             <xsl:variable name="pointerHead">
-                <xsl:value-of select="@wit"/><xsl:text>-</xsl:text><xsl:value-of select="parent::app/@xml:id"/>
+                <xsl:text>P5-</xsl:text>
+                <xsl:value-of select="substring-after(@wit, '#')"/>
+                <xsl:text>_</xsl:text>
+                <xsl:value-of select="$chunk"/>
+                <xsl:text>.xml#</xsl:text>
+                <xsl:value-of select="parent::app/@xml:id"/><xsl:text>-</xsl:text>
+                <xsl:value-of select="substring-after(@wit, '#')"/>
             </xsl:variable>
             <xsl:variable name="testResolve" as="xs:string">
                <xsl:value-of select="$pointerFilePath//$pointerHead"/>

@@ -5,8 +5,8 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="3.0">
 
   <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:variable name="P2-BridgeColl" as="document-node()+" select="collection('bridge-P2-noMS')"/>
-    <xsl:variable name="testerDoc" as="document-node()" select="doc('bridge-P2-noMS/f1818_C10.xml')"/>
+    <xsl:variable name="P2-BridgeColl" as="document-node()+" select="collection('bridge-P2')"/>
+    <xsl:variable name="testerDoc" as="document-node()" select="doc('bridge-P2/f1818_C10.xml')"/>
 <!--In Bridge Construction Phase 3, we are up-converting the text-converted tags in the edition files into self-closed elements. -->    
    <xsl:template match="/">
        <xsl:for-each select="$P2-BridgeColl//TEI">
