@@ -56,7 +56,14 @@
    </xsl:choose>
 </xsl:template>
     <xsl:template match="rdg">
-      <rdg wit="{@wit}"><xsl:apply-templates/></rdg>  
+        <rdg wit="{@wit}"><xsl:analyze-string select="." regex="&lt;([^/]+?)&gt;\s*&lt;/\1&gt;">
+          <xsl:matching-substring>
+              <xsl:value-of select="tokenize(., '\s*&lt;/')[1] ! substring-before(., '&gt;')"/><xsl:text>/&gt;</xsl:text>
+          </xsl:matching-substring>
+            <xsl:non-matching-substring>
+                <xsl:value-of select="."/>
+            </xsl:non-matching-substring>
+      </xsl:analyze-string></rdg>  
     </xsl:template>
     
 </xsl:stylesheet>
