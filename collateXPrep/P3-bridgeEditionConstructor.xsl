@@ -6,15 +6,15 @@
 
   <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="P2-BridgeColl" as="document-node()+" select="collection('bridge-P2')"/>
-    <xsl:variable name="testerDoc" as="document-node()" select="doc('bridge-P2/f1818_C10.xml')"/>
+    <xsl:variable name="testerDoc" as="document-node()" select="doc('bridge-P2/bridge-P2_f1818_C10.xml')"/>
 <!--In Bridge Construction Phase 3, we are up-converting the text-converted tags in the edition files into self-closed elements. -->    
    <xsl:template match="/">
        <xsl:for-each select="$P2-BridgeColl//TEI">
            <xsl:variable name="currentP2File" as="element()" select="current()"/>
            <xsl:variable name="filename">
-              <xsl:text>P3-</xsl:text><xsl:value-of select="tokenize(base-uri(), '/')[last()]"/>
+              <xsl:text>P3-</xsl:text><xsl:value-of select="tokenize(base-uri(), '/')[last()] ! tokenize(., 'bridge-P2_')[last()]"/>
            </xsl:variable>
-         <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>          
+         <xsl:variable name="chunk" as="xs:string" select="tokenize($filename, '_')[last()]"/>          
            <xsl:result-document method="xml" indent="yes" href="bridge-P3/{$filename}">
                <TEI>
            <xsl:apply-templates/>
@@ -25,7 +25,7 @@
    </xsl:template>
     <xsl:template match="titleStmt/title">
 <title>
-    <xsl:text>Bridge Phase 3: </xsl:text><xsl:value-of select="tokenize(., ':')[last()]"/>
+    <xsl:text>Bridge phase 3: </xsl:text><xsl:value-of select="tokenize(., ':')[last()]"/>
 </title>
         
     </xsl:template>

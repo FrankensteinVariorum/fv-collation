@@ -889,7 +889,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app26-fMS"/>
-                     <pitt:line_text>chamber. Chap. 8th one </pitt:line_text>
+                     <pitt:line_text>chamber. &lt;metamark function="separate"&gt;______&lt;/metamark&gt;Chap. 8th one </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app26-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -1757,7 +1757,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app54-fMS"/>
-                     <pitt:line_text>ChemistryNatural </pitt:line_text>
+                     <pitt:line_text>&lt;mdel&gt;Ch&lt;/mdel&gt;ChemistryNatural </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app54-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -2173,7 +2173,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app66-fMS"/>
-                     <pitt:line_text>packed upremoved </pitt:line_text>
+                     <pitt:line_text>&lt;mdel&gt;p&lt;/mdel&gt;packed upremoved </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app66-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -3320,7 +3320,7 @@
                   </ref>
                </rdg>
             </app>
-            <rdgGrp type="invariant">
+            <app xml:id="C12_app106">
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C12.xml#C12_app106-f1818"/>
@@ -3345,7 +3345,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app106-fMS"/>
-                     <pitt:line_text>that </pitt:line_text>
+                     <pitt:line_text>&lt;mdel&gt;my&lt;/mdel&gt;that </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app106-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -3356,7 +3356,7 @@
                      <pitt:resolved_text>P5-fThomas_C12.xml#C12_app106-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
-            </rdgGrp>
+            </app>
             <app type="invariant" xml:id="C12_app107">
                <rdg wit="#f1818">
                   <ref>
@@ -3699,7 +3699,7 @@
                   </ref>
                </rdg>
             </app>
-            <rdgGrp type="invariant">
+            <app xml:id="C12_app117">
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C12.xml#C12_app117-f1818"/>
@@ -3724,7 +3724,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app117-fMS"/>
-                     <pitt:line_text>my </pitt:line_text>
+                     <pitt:line_text>&lt;mdel&gt;to&lt;/mdel&gt;&lt;mdel&gt;it&lt;/mdel&gt;my </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app117-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -3735,7 +3735,7 @@
                      <pitt:resolved_text>P5-fThomas_C12.xml#C12_app117-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
-            </rdgGrp>
+            </app>
             <app type="invariant" xml:id="C12_app118">
                <rdg wit="#f1818">
                   <ref>
@@ -5090,7 +5090,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app163-fMS"/>
-                     <pitt:line_text>subject alledging  ignorance </pitt:line_text>
+                     <pitt:line_text>subject alledging &lt;mdel&gt;in&lt;/mdel&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;his ignorance </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app163-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -6693,7 +6693,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app219-fMS"/>
-                     <pitt:line_text>Waldman —"Dam "the fellow," </pitt:line_text>
+                     <pitt:line_text>Waldman —"Dam&lt;mdel&gt;m&lt;/mdel&gt;n "the fellow," </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app219-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -8179,7 +8179,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app262-fMS"/>
-                     <pitt:line_text>countenancepressive </pitt:line_text>
+                     <pitt:line_text>countenance&lt;metamark function="insert"&gt;^&lt;/metamark&gt;faceexpressive </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app262-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -9889,7 +9889,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app312-fMS"/>
-                     <pitt:line_text>self-instruction </pitt:line_text>
+                     <pitt:line_text>&lt;metamark function="insert"&gt;^&lt;/metamark&gt;himself-instruction </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app312-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -10231,7 +10231,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app322-fMS"/>
-                     <pitt:line_text>attentionwhenso soon as &lt;metamark function="displacement"&gt;X&lt;/metamark&gt; </pitt:line_text>
+                     <pitt:line_text>attentionwhen&lt;metamark function="displacement" xml:id="c56-0069.01"&gt;X&lt;/metamark&gt;so soon as &lt;metamark function="displacement"&gt;X&lt;/metamark&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app322-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -11665,7 +11665,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app367-fMS"/>
-                     <pitt:line_text>readingany&lt;metamark function="insert"&gt;^&lt;/metamark&gt;the </pitt:line_text>
+                     <pitt:line_text>reading&lt;metamark function="insert"&gt;^&lt;/metamark&gt;studyingany&lt;metamark function="insert"&gt;^&lt;/metamark&gt;the </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app367-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -11813,7 +11813,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app371-fMS"/>
-                     <pitt:line_text>books. </pitt:line_text>
+                     <pitt:line_text>books.&lt;metamark function="insert"&gt;^&lt;/metamark&gt;country. </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app371-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -13134,7 +13134,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app412-fMS"/>
-                     <pitt:line_text>returndelayed </pitt:line_text>
+                     <pitt:line_text>return&lt;metamark function="insert"&gt;^&lt;/metamark&gt;journeydelayed </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app412-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -14023,7 +14023,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app440-fMS"/>
-                     <pitt:line_text>howevera cheerfullyone </pitt:line_text>
+                     <pitt:line_text>however&lt;mdel&gt;s&lt;/mdel&gt; spenta cheerfullyone </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app440-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -16096,7 +16096,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app507-fMS"/>
-                     <pitt:line_text>add </pitt:line_text>
+                     <pitt:line_text>add&lt;mdel&gt;i&lt;/mdel&gt;itional vigour  </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app507-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -16170,7 +16170,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app509-fMS"/>
-                     <pitt:line_text>air, </pitt:line_text>
+                     <pitt:line_text>air,&lt;metamark&gt;X&lt;/metamark&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app509-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -16223,7 +16223,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app511-fMS"/>
-                     <pitt:line_text> </pitt:line_text>
+                     <pitt:line_text>&lt;metamark function="displacement" xml:id="c56-0071.01"&gt;X&lt;/metamark&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app511-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -17620,7 +17620,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app555-fMS"/>
-                     <pitt:line_text> now </pitt:line_text>
+                     <pitt:line_text>&lt;mdel&gt;it&lt;/mdel&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;my senses. and  now </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app555-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -17673,7 +17673,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app557-fMS"/>
-                     <pitt:line_text>now </pitt:line_text>
+                     <pitt:line_text>&lt;metamark function="insert"&gt;^&lt;/metamark&gt;now </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app557-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -18008,7 +18008,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app567-fMS"/>
-                     <pitt:line_text> happy  for feeling delightin </pitt:line_text>
+                     <pitt:line_text> happy &lt;mdel&gt;so&lt;/mdel&gt;&lt;mdel&gt;no&lt;/mdel&gt;soul was more fitted than mine  for feeling delightin </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app567-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -18045,7 +18045,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app568-fMS"/>
-                     <pitt:line_text>inanimate nature &lt;metamark function="displacement"&gt;X&lt;/metamark&gt;had the </pitt:line_text>
+                     <pitt:line_text>inanimate nature &lt;metamark function="displacement" xml:id="c56-0071.05"&gt;X&lt;/metamark&gt;&lt;metamark function="displacement"&gt;X&lt;/metamark&gt;had the </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app568-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -21682,7 +21682,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C12.xml#C12_app682-fMS"/>
-                     <pitt:line_text>&lt;metamark function="count"&gt;15&lt;/metamark&gt; </pitt:line_text>
+                     <pitt:line_text>&lt;metamark function="count"&gt;20&lt;/metamark&gt;&lt;metamark function="count"&gt;15&lt;/metamark&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C12.xml#C12_app682-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
