@@ -35,10 +35,10 @@
          <xsl:variable name="taggedTestSequence" as="xs:string*">
                <xsl:for-each select="$comparableTaggedRdgs">
                    <xsl:variable name="nonTagPieces" as="xs:string+">
-                       <xsl:value-of select="tokenize(current(), '&lt;.+?/&gt;')"/> 
+                       <xsl:value-of select="tokenize(current(), '&lt;[^/]+?/&gt;')"/> 
                    </xsl:variable>
                    <xsl:variable name="textMissingTags" as="xs:string" select="string-join($nonTagPieces, ' ')"/>
-                   <xsl:value-of select="normalize-space($textMissingTags) eq normalize-space(string-join(tokenize(current()/following-sibling::rdg[1], '&lt;.+?/&gt;'), ' '))"/>     
+                   <xsl:value-of select="normalize-space($textMissingTags) eq normalize-space(string-join(tokenize(current()/following-sibling::rdg[1], '&lt;[^/]+?/&gt;'), ' '))"/>     
                </xsl:for-each> 
          </xsl:variable>
                    <xsl:variable name="taggedTestResults" as="xs:string" select="string-join($taggedTestSequence)"/>
@@ -172,7 +172,7 @@
     <xsl:template match="rdg" mode="spinePtrs">
         <xsl:param name="chunk" tunnel="yes"/>
         <rdg wit="{@wit}"><ref><ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-{substring-after(@wit, '#')}_{$chunk}.xml#{parent::app/@xml:id}-{substring-after(@wit, '#')}"/>
-            <pitt:line_text><xsl:value-of select="string-join(tokenize(., '&lt;.+?/&gt;'))"/></pitt:line_text>
+            <pitt:line_text><xsl:value-of select="string-join(tokenize(., '&lt;[^/]+?/&gt;'))"/></pitt:line_text>
         <pitt:resolved_text>
             <!--2018-06-21 ebb: This particular destination doesn't exist quite yet, and will quite likely need to be modified. -->
             <xsl:variable name="pointerFilePath"> <xsl:text>https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/</xsl:text><xsl:value-of select="substring-after(@wit, '#')"/><xsl:text>_</xsl:text><xsl:value-of select="$chunk"/><xsl:text>.xml</xsl:text>
