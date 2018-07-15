@@ -3,7 +3,7 @@
     xmlns="http://www.tei-c.org/ns/1.0"    xmlns:xs="http://www.w3.org/2001/XMLSchema"   
     exclude-result-prefixes="xs"
     version="3.0">
-<!--2018-06-21 ebb: Bridge Edition Constructor Part 1: This first phase up-converts to TEI and adds xml:ids to each <app> element in the output collation -->
+<!--2018-06-21 ebb: Bridge Edition Constructor Part 1: This first phase up-converts to TEI and adds xml:ids to each <app> element in the output collation. In the event that the collation process broke apart the self-closed elements into two tags, this stylesheet catches these and restores them to single tags.  -->
 <xsl:output method="xml" indent="yes"/>    
     <xsl:variable name="collFiles" as="document-node()+" select="collection('Full_xmlOutput')"/>
     
