@@ -41,14 +41,16 @@
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app1-f1831"/>
-                     <pitt:line_text>CHAPTER IX.NOTHING </pitt:line_text>
+                     <pitt:line_text>CHAPTER IX.&lt;p
+            loc="novel1_letter4_chapter9_p271__Start"/&gt;NOTHING </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app1-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app1-fMS"/>
-                     <pitt:line_text>Chap. 13th Nothing </pitt:line_text>
+                     <pitt:line_text>&lt;milestone spanTo="#c56-0108.08"
+            unit="tei:head"/&gt;Chap. 13th Nothing </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app1-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -293,7 +295,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app8-fMS"/>
-                     <pitt:line_text>quickS </pitt:line_text>
+                     <pitt:line_text>quick&lt;del
+            loc="c56-0108__main__d1e20424__Start"/&gt;S&lt;del
+            loc="c56-0108__main__d1e20424__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app8-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -568,8 +572,11 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app16-fMS"/>
-                     <pitt:line_text>certainty the dead
-            calmness&lt;metamark function="insert"&gt;^&lt;/metamark&gt;which followswhichand </pitt:line_text>
+                     <pitt:line_text>certainty &lt;milestone
+            spanTo="#c56-0108.09" unit="tei:seg" xml:id="c56-0108.07"/&gt;the dead
+            calmness&lt;metamark function="insert"&gt;^&lt;/metamark&gt;which follows&lt;del
+            loc="c56-0108__main__d1e20456__Start"/&gt;which&lt;del
+            loc="c56-0108__main__d1e20456__End"/&gt;and </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app16-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -636,7 +643,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app18-fMS"/>
-                     <pitt:line_text>mindsoul </pitt:line_text>
+                     <pitt:line_text>mind&lt;del
+            loc="c56-0108__main__d1e20468__End"/&gt;soul </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app18-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -904,7 +912,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app26-fMS"/>
-                     <pitt:line_text>rested. But&amp; </pitt:line_text>
+                     <pitt:line_text>rested. But&lt;del
+            loc="c56-0108__main__d1e20479__End"/&gt;&amp; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app26-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -1293,7 +1302,17 @@
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app38-fMS"/>
                      <pitt:line_text>remove– our house was a house of mourning–
-             My fathers health was deeply shaken by  the horror of the recent events; Elizabeth was sad and desponding– She no longer  took delight in her ordinary occupations all pleasure seemed to her sacriledge towards the dead— eternal woe  and tears she then thought was the  just tribute she ought to pay to innocence thus blasted &amp;destroyedSleep </pitt:line_text>
+             My fathers health was deeply shaken by &lt;lb
+            n="c56-0108__main__13"/&gt; the horror of the recent events; Eliza&lt;lb
+            n="c56-0108__main__14"/&gt;beth was sad and desponding– She no longer &lt;lb
+            n="c56-0108__main__15"/&gt; took delight in her ordinary occupa&lt;lb
+            n="c56-0108__main__16"/&gt;tions all pleasure seemed to her sacri&lt;lb
+            n="c56-0108__main__17"/&gt;ledge towards the dead— eternal woe &lt;lb
+            n="c56-0108__main__18"/&gt; and tears she then thought was the &lt;lb
+            n="c56-0108__main__19"/&gt; just tribute she ought to pay to inno&lt;lb
+            n="c56-0108__main__20"/&gt;cence thus blasted &amp;&lt;del
+            loc="c56-0108__main__d1e20534__Start"/&gt;destroyed&lt;del
+            loc="c56-0108__main__d1e20534__End"/&gt;Sleep </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app38-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -1607,7 +1626,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app48-fMS"/>
-                     <pitt:line_text>done&lt;metamark
+                     <pitt:line_text>done&lt;del
+            loc="c56-0108__main__d1e20548__End"/&gt;&lt;metamark
             function="insert"&gt;^&lt;/metamark&gt;had </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app48-fMS</pitt:resolved_text>
                   </ref>
@@ -1766,7 +1786,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app53-fMS"/>
-                     <pitt:line_text>hor more </pitt:line_text>
+                     <pitt:line_text>hor&lt;del
+            loc="c56-0108__main__d1e20571__End"/&gt; more </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app53-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -2182,7 +2203,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app65-fMS"/>
-                     <pitt:line_text>benevolencegoodness – </pitt:line_text>
+                     <pitt:line_text>benevolence&lt;del
+            loc="c56-0108__main__d1e20588__End"/&gt;goodness – </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app65-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -2570,7 +2592,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app77-fMS"/>
-                     <pitt:line_text>fellow  beings. But&lt;mdel&gt;n&lt;/mdel&gt;Now </pitt:line_text>
+                     <pitt:line_text>fellow  beings. &lt;del
+            loc="c56-0109__main__d1e20619__Start"/&gt;But&lt;del
+            loc="c56-0109__main__d1e20619__End"/&gt;&lt;mdel&gt;n&lt;/mdel&gt;Now </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app77-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -3482,7 +3506,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app105-fMS"/>
-                     <pitt:line_text>no tongueof </pitt:line_text>
+                     <pitt:line_text>no tongue&lt;del
+            loc="c56-0109__main__d1e20689__End"/&gt;of </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app105-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -3605,43 +3630,48 @@
                   </ref>
                </rdg>
             </app>
-            <rdgGrp type="invariant">
+            <app xml:id="C15_app109">
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app109-f1818"/>
-                     <pitt:line_text>describe.This </pitt:line_text>
+                     <pitt:line_text>describe.&lt;p
+            loc="novel1_letter4_chapter8_p269__Start"/&gt;This </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app109-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app109-f1823"/>
-                     <pitt:line_text>describe.This </pitt:line_text>
+                     <pitt:line_text>describe.&lt;p
+            loc="novel1_letter4_chapter8_p270__Start"/&gt;This </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app109-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app109-f1831"/>
-                     <pitt:line_text>describe.This </pitt:line_text>
+                     <pitt:line_text>describe.&lt;p
+            loc="novel1_letter4_chapter9_p272__Start"/&gt;This </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app109-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app109-fMS"/>
-                     <pitt:line_text> describe. This </pitt:line_text>
+                     <pitt:line_text> describe.&lt;milestone
+            unit="tei:p"/&gt; This </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app109-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app109-fThomas"/>
-                     <pitt:line_text>describe.This </pitt:line_text>
+                     <pitt:line_text>describe.&lt;p
+            loc="novel1_letter4_chapter8_p268__Start"/&gt;This </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app109-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
-            </rdgGrp>
+            </app>
             <app type="invariant" xml:id="C15_app110">
                <rdg wit="#f1818">
                   <ref>
@@ -3704,7 +3734,10 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app111-fMS"/>
-                     <pitt:line_text>alltalteredpreyed </pitt:line_text>
+                     <pitt:line_text>allt&lt;del
+            loc="c56-0109__main__d1e20705__End"/&gt;&lt;del
+            loc="c56-0109__main__d1e20708__Start"/&gt;altered&lt;del
+            loc="c56-0109__main__d1e20708__End"/&gt;preyed </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app111-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -3838,7 +3871,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app115-fMS"/>
-                     <pitt:line_text>nearlyentirely </pitt:line_text>
+                     <pitt:line_text>nearly&lt;del
+            loc="c56-0109__main__d1e20719__End"/&gt;entirely </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app115-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -4179,7 +4213,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app128-fMS"/>
-                     <pitt:line_text>night </pitt:line_text>
+                     <pitt:line_text>night&lt;del
+            loc="c56-0109__main__d1e20738__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app128-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -4214,25 +4249,28 @@
                   </ref>
                </rdg>
             </rdgGrp>
-            <rdgGrp type="invariant">
+            <app xml:id="C15_app130">
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app130-f1818"/>
-                     <pitt:line_text>solitude.My </pitt:line_text>
+                     <pitt:line_text>solitude.&lt;p
+            loc="novel1_letter4_chapter8_p270__Start"/&gt;My </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app130-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app130-f1823"/>
-                     <pitt:line_text>solitude.My </pitt:line_text>
+                     <pitt:line_text>solitude.&lt;p
+            loc="novel1_letter4_chapter8_p271__Start"/&gt;My </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app130-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app130-f1831"/>
-                     <pitt:line_text>solitude.My </pitt:line_text>
+                     <pitt:line_text>solitude.&lt;p
+            loc="novel1_letter4_chapter9_p273__Start"/&gt;My </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app130-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -4246,11 +4284,12 @@
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app130-fThomas"/>
-                     <pitt:line_text>solitude.My </pitt:line_text>
+                     <pitt:line_text>solitude.&lt;p
+            loc="novel1_letter4_chapter8_p269__Start"/&gt;My </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app130-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
-            </rdgGrp>
+            </app>
             <app type="invariant" xml:id="C15_app131">
                <rdg wit="#f1818">
                   <ref>
@@ -4359,7 +4398,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app134-fMS"/>
-                     <pitt:line_text>howthe </pitt:line_text>
+                     <pitt:line_text>how&lt;del
+            loc="c56-0109__main__d1e20748__End"/&gt;the </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app134-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -4524,7 +4564,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app139-fMS"/>
-                     <pitt:line_text>were altered </pitt:line_text>
+                     <pitt:line_text>&lt;del
+            loc="c56-0109__main__d1e20756__Start"/&gt;were altered&lt;del
+            loc="c56-0109__main__d1e20756__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app139-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -5269,7 +5311,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app164-fMS"/>
-                     <pitt:line_text>loved </pitt:line_text>
+                     <pitt:line_text>loved&lt;del
+            loc="c56-0109__main__d1e20780__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app164-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -5343,7 +5386,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app166-fMS"/>
-                     <pitt:line_text>didloved </pitt:line_text>
+                     <pitt:line_text>did&lt;del
+            loc="c56-0109__main__d1e20788__End"/&gt;loved </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app166-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -5417,7 +5461,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app168-fMS"/>
-                     <pitt:line_text>brother–  (and tears </pitt:line_text>
+                     <pitt:line_text>brother–  (&lt;del
+            loc="c56-0109__main__d1e20797__Start"/&gt;and&lt;del
+            loc="c56-0109__main__d1e20797__End"/&gt; tears </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app168-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -5470,7 +5516,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app170-fMS"/>
-                     <pitt:line_text>into </pitt:line_text>
+                     <pitt:line_text>into&lt;del
+            loc="c56-0109__main__d1e20800__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app170-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -5641,7 +5688,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app175-fMS"/>
-                     <pitt:line_text>&lt;mdel&gt;th&lt;/mdel&gt;oura </pitt:line_text>
+                     <pitt:line_text>&lt;mdel&gt;th&lt;/mdel&gt;&lt;del
+            loc="c56-0109__main__d1e20814__Start"/&gt;our&lt;del
+            loc="c56-0109__main__d1e20814__End"/&gt;a </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app175-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -5761,8 +5810,15 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app179-fMS"/>
-                     <pitt:line_text>grief ofowed to their survivors not&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;&lt;mdel&gt;to&lt;/mdel&gt;add to </pitt:line_text>
+                     <pitt:line_text>grief ofowed&lt;del
+            loc="c56-0109__main__d1e20827__End"/&gt; to the&lt;del
+            loc="c56-0109__main__d1e20830__Start"/&gt;ir&lt;del
+            loc="c56-0109__main__d1e20830__End"/&gt; survivors &lt;lb
+            n="c56-0109__main__27"/&gt;not&lt;del
+            loc="c56-0109__main__d1e20837__End"/&gt;&lt;metamark
+            function="insert"&gt;^&lt;/metamark&gt;&lt;mdel&gt;to&lt;/mdel&gt;&lt;del
+            loc="c56-0109__main__d1e20848__Start"/&gt;add to&lt;del
+            loc="c56-0109__main__d1e20848__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app179-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -5861,7 +5917,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app183-fMS"/>
-                     <pitt:line_text>adding to
+                     <pitt:line_text>&lt;del
+            loc="c56-0109__left_margin__d1e20867__Start"/&gt;adding to&lt;del
+            loc="c56-0109__left_margin__d1e20867__End"/&gt;
         </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app183-fMS</pitt:resolved_text>
                   </ref>
@@ -5892,7 +5950,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app184-fMS"/>
-                     <pitt:line_text>augmenting their unhappiness by an appearance of immoderate </pitt:line_text>
+                     <pitt:line_text>augmenting their unhappiness by an appear&lt;lb
+            n="c56-0109__main__28"/&gt;ance of immoderate </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app184-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -6194,21 +6253,24 @@
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app195-f1818"/>
-                     <pitt:line_text>society.”This </pitt:line_text>
+                     <pitt:line_text>society.”&lt;p
+            loc="novel1_letter4_chapter8_p271__Start"/&gt;This </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app195-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app195-f1823"/>
-                     <pitt:line_text>society.”This </pitt:line_text>
+                     <pitt:line_text>society.”&lt;p
+            loc="novel1_letter4_chapter8_p272__Start"/&gt;This </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app195-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app195-f1831"/>
-                     <pitt:line_text>society.”This </pitt:line_text>
+                     <pitt:line_text>society.”&lt;p
+            loc="novel1_letter4_chapter9_p274__Start"/&gt;This </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app195-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -6223,7 +6285,8 @@
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app195-fThomas"/>
-                     <pitt:line_text>society.”This </pitt:line_text>
+                     <pitt:line_text>society.”&lt;p
+            loc="novel1_letter4_chapter8_p270__Start"/&gt;This </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app195-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -6927,25 +6990,28 @@
                   </ref>
                </rdg>
             </app>
-            <rdgGrp type="invariant">
+            <app xml:id="C15_app220">
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app220-f1818"/>
-                     <pitt:line_text>view.About </pitt:line_text>
+                     <pitt:line_text>view.&lt;p
+            loc="novel1_letter4_chapter8_p272__Start"/&gt;About </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app220-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app220-f1823"/>
-                     <pitt:line_text>view.About </pitt:line_text>
+                     <pitt:line_text>view.&lt;p
+            loc="novel1_letter4_chapter8_p273__Start"/&gt;About </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app220-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app220-f1831"/>
-                     <pitt:line_text>view.About </pitt:line_text>
+                     <pitt:line_text>view.&lt;p
+            loc="novel1_letter4_chapter9_p275__Start"/&gt;About </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app220-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -6959,11 +7025,12 @@
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app220-fThomas"/>
-                     <pitt:line_text>view.About </pitt:line_text>
+                     <pitt:line_text>view.&lt;p
+            loc="novel1_letter4_chapter8_p271__Start"/&gt;About </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app220-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
-            </rdgGrp>
+            </app>
             <app type="invariant" xml:id="C15_app221">
                <rdg wit="#f1818">
                   <ref>
@@ -7051,7 +7118,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app224-fMS"/>
-                     <pitt:line_text>also </pitt:line_text>
+                     <pitt:line_text>also&lt;del
+            loc="c56-0110__main__d1e20927__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app224-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -7143,7 +7211,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app228-fMS"/>
-                     <pitt:line_text>chal </pitt:line_text>
+                     <pitt:line_text>chal&lt;del
+            loc="c56-0110__main__d1e20932__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app228-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -7570,8 +7639,13 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app242-fMS"/>
-                     <pitt:line_text>stay&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;ingremaining </pitt:line_text>
+                     <pitt:line_text>&lt;del
+            loc="c56-0110__main__d1e20945__Start"/&gt;stay&lt;del
+            loc="c56-0110__main__d1e20945__End"/&gt;&lt;metamark
+            function="insert"&gt;^&lt;/metamark&gt;&lt;del
+            loc="c56-0110__main__d1e20952__Start"/&gt;ing&lt;del
+            loc="c56-0110__main__d1e20952__End"/&gt;&lt;lb
+            n="c56-0110__left_margin__1"/&gt;remaining </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app242-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -8428,7 +8502,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app268-fMS"/>
-                     <pitt:line_text>wo </pitt:line_text>
+                     <pitt:line_text>wo&lt;del
+            loc="c56-0110__main__d1e20982__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app268-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -8661,7 +8736,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app276-fMS"/>
-                     <pitt:line_text>take&lt;metamark
+                     <pitt:line_text>take&lt;del
+            loc="c56-0110__main__d1e20991__End"/&gt;&lt;metamark
             function="insert"&gt;^&lt;/metamark&gt;pursue </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app276-fMS</pitt:resolved_text>
                   </ref>
@@ -8810,8 +8886,10 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app280-fMS"/>
-                     <pitt:line_text>followed&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;gave </pitt:line_text>
+                     <pitt:line_text>&lt;del
+            loc="c56-0110__main__d1e21005__Start"/&gt;followed&lt;del
+            loc="c56-0110__main__d1e21005__End"/&gt;&lt;metamark
+            function="insert"&gt;^gave </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app280-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -8931,7 +9009,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app284-fMS"/>
-                     <pitt:line_text>tempted w </pitt:line_text>
+                     <pitt:line_text>tempted w&lt;del
+            loc="c56-0110__main__d1e21026__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app284-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -9005,7 +9084,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app286-fMS"/>
-                     <pitt:line_text>quiet&lt;metamark
+                     <pitt:line_text>quiet&lt;del
+            loc="c56-0110__main__d1e21031__End"/&gt;&lt;metamark
             function="insert"&gt;^&lt;/metamark&gt;at </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app286-fMS</pitt:resolved_text>
                   </ref>
@@ -9471,7 +9551,12 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app301-fMS"/>
-                     <pitt:line_text>of the frogswhichwasI </pitt:line_text>
+                     <pitt:line_text>of the frogs&lt;del
+            loc="c56-0111__main__d1e21071__End"/&gt;&lt;del
+            loc="c56-0111__main__d1e21075__Start"/&gt;which&lt;del
+            loc="c56-0111__main__d1e21075__End"/&gt;was&lt;del
+            loc="c56-0111__main__d1e21083__Start"/&gt;I&lt;del
+            loc="c56-0111__main__d1e21083__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app301-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -9644,7 +9729,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app307-fMS"/>
-                     <pitt:line_text>still and </pitt:line_text>
+                     <pitt:line_text>still and&lt;del
+            loc="c56-0111__main__d1e21094__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app307-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -9711,7 +9797,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app309-fMS"/>
-                     <pitt:line_text>lake and letthat </pitt:line_text>
+                     <pitt:line_text>lake &lt;del
+            loc="c56-0111__main__d1e21100__Start"/&gt;and let&lt;del
+            loc="c56-0111__main__d1e21100__End"/&gt;that </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app309-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -10266,7 +10354,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app327-fMS"/>
-                     <pitt:line_text>brother; And </pitt:line_text>
+                     <pitt:line_text>brother; And&lt;del
+            loc="c56-0111__main__d1e21132__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app327-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -10485,7 +10574,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app335-fMS"/>
-                     <pitt:line_text>I </pitt:line_text>
+                     <pitt:line_text>I&lt;del
+            loc="c56-0111__main__d1e21152__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app335-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -10647,25 +10737,28 @@
                   </ref>
                </rdg>
             </app>
-            <rdgGrp type="invariant">
+            <app xml:id="C15_app341">
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app341-f1818"/>
-                     <pitt:line_text>them?At </pitt:line_text>
+                     <pitt:line_text>them?&lt;p
+            loc="novel1_letter4_chapter8_p273__Start"/&gt;At </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app341-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app341-f1823"/>
-                     <pitt:line_text>them?At </pitt:line_text>
+                     <pitt:line_text>them?&lt;p
+            loc="novel1_letter4_chapter8_p274__Start"/&gt;At </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app341-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app341-f1831"/>
-                     <pitt:line_text>them?At </pitt:line_text>
+                     <pitt:line_text>them?&lt;p
+            loc="novel1_letter4_chapter9_p276__Start"/&gt;At </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app341-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -10679,11 +10772,12 @@
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app341-fThomas"/>
-                     <pitt:line_text>them?At </pitt:line_text>
+                     <pitt:line_text>them?&lt;p
+            loc="novel1_letter4_chapter8_p272__Start"/&gt;At </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app341-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
-            </rdgGrp>
+            </app>
             <app type="invariant" xml:id="C15_app342">
                <rdg wit="#f1818">
                   <ref>
@@ -10892,7 +10986,10 @@
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app349-fMS"/>
                      <pitt:line_text>&lt;metamark function="displacement"
-            xml:id="c56-0111.02"&gt;^&lt;/metamark&gt;if </pitt:line_text>
+            xml:id="c56-0111.02"&gt;^&lt;/metamark&gt;&lt;lb
+            n="c56-0111__left_margin__1"/&gt;&lt;del
+            loc="c56-0111__left_margin__d1e21169__Start"/&gt;if&lt;del
+            loc="c56-0111__left_margin__d1e21169__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app349-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -11199,7 +11296,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app359-fMS"/>
-                     <pitt:line_text>took awayextinguished </pitt:line_text>
+                     <pitt:line_text>took away&lt;del
+            loc="c56-0111__main__d1e21182__End"/&gt;extinguished </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app359-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -11347,7 +11445,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app363-fMS"/>
-                     <pitt:line_text>causeauthor </pitt:line_text>
+                     <pitt:line_text>cause&lt;del
+            loc="c56-0111__main__d1e21193__End"/&gt;author </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app363-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -11616,7 +11715,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app371-fMS"/>
-                     <pitt:line_text>might commitperpetratesome </pitt:line_text>
+                     <pitt:line_text>might commit&lt;del
+            loc="c56-0111__main__d1e21223__End"/&gt;perpetratesome </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app371-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -11930,7 +12030,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app381-fMS"/>
-                     <pitt:line_text>signalcr crime </pitt:line_text>
+                     <pitt:line_text>signal&lt;del
+            loc="c56-0112__main__d1e21252__Start"/&gt;cr&lt;del
+            loc="c56-0112__main__d1e21252__End"/&gt; crime </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app381-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -12041,8 +12143,10 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app384-fMS"/>
-                     <pitt:line_text>almost efface the recollection of the past.
-            &lt;metamark function="displacement" xml:id="c56-0112.02"&gt;X&lt;/metamark&gt;&lt;metamark
+                     <pitt:line_text>&lt;lb
+            n="c56-0112__left_margin__1"/&gt;almost efface the recollection of the past.
+            &lt;metamark function="displacement" xml:id="c56-0112.02"&gt;X&lt;/metamark&gt;&lt;lb
+            n="c56-0112__left_margin__1"/&gt;&lt;metamark
             function="displacement"&gt;X&lt;/metamark&gt;There was </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app384-fMS</pitt:resolved_text>
                   </ref>
@@ -12917,7 +13021,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app415-fMS"/>
-                     <pitt:line_text>though </pitt:line_text>
+                     <pitt:line_text>though&lt;del
+            loc="c56-0112__main__d1e21307__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app415-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -13493,7 +13598,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app433-fMS"/>
-                     <pitt:line_text>footbase; </pitt:line_text>
+                     <pitt:line_text>foot&lt;del
+            loc="c56-0112__main__d1e21331__End"/&gt;base; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app433-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -13957,25 +14063,28 @@
                   </ref>
                </rdg>
             </app>
-            <rdgGrp type="invariant">
+            <app xml:id="C15_app450">
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app450-f1818"/>
-                     <pitt:line_text>Justine.Our </pitt:line_text>
+                     <pitt:line_text>Justine.&lt;p
+            loc="novel1_letter4_chapter8_p274__Start"/&gt;Our </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app450-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app450-f1823"/>
-                     <pitt:line_text>Justine.Our </pitt:line_text>
+                     <pitt:line_text>Justine.&lt;p
+            loc="novel1_letter4_chapter8_p275__Start"/&gt;Our </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app450-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app450-f1831"/>
-                     <pitt:line_text>Justine.Our </pitt:line_text>
+                     <pitt:line_text>Justine.&lt;p
+            loc="novel1_letter4_chapter9_p277__Start"/&gt;Our </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app450-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -13990,11 +14099,12 @@
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app450-fThomas"/>
-                     <pitt:line_text>Justine.Our </pitt:line_text>
+                     <pitt:line_text>Justine.&lt;p
+            loc="novel1_letter4_chapter8_p273__Start"/&gt;Our </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app450-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
-            </rdgGrp>
+            </app>
             <app type="invariant" xml:id="C15_app451">
                <rdg wit="#f1818">
                   <ref>
@@ -14036,7 +14146,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app452-fMS"/>
-                     <pitt:line_text>now </pitt:line_text>
+                     <pitt:line_text>now&lt;del
+            loc="c56-0112__main__d1e21352__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app452-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -14629,7 +14740,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app472-fMS"/>
-                     <pitt:line_text>eter&lt;metamark&gt;=&lt;/metamark&gt;nal </pitt:line_text>
+                     <pitt:line_text>eter&lt;lb
+            n="c56-0112__left_margin__1"/&gt;&lt;metamark&gt;=&lt;/metamark&gt;nal&lt;lb
+            n="c56-0112__main__26"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app472-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -14916,8 +15029,10 @@
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app482-fMS"/>
                      <pitt:line_text>creature she had been
-            whenlast saw
-            her </pitt:line_text>
+            when&lt;lb
+            n="c56-0113__main__1"/&gt;last saw
+            her&lt;lb
+            n="c56-0113__left_margin__1"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app482-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -15016,7 +15131,10 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app486-fMS"/>
-                     <pitt:line_text>had – whohad </pitt:line_text>
+                     <pitt:line_text>had – &lt;del
+            loc="c56-0113__main__d1e21420__Start"/&gt;who&lt;del
+            loc="c56-0113__main__d1e21420__End"/&gt;had&lt;del
+            loc="c56-0113__main__d1e21416__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app486-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -15062,7 +15180,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app488-fMS"/>
-                     <pitt:line_text>on </pitt:line_text>
+                     <pitt:line_text>&lt;del
+            loc="c56-0113__main__d1e21428__Start"/&gt;on&lt;del
+            loc="c56-0113__main__d1e21428__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app488-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -15344,7 +15464,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app496-fMS"/>
-                     <pitt:line_text>washad </pitt:line_text>
+                     <pitt:line_text>was&lt;del
+            loc="c56-0113__main__d1e21438__End"/&gt;had </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app496-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -15404,7 +15525,10 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app498-fMS"/>
-                     <pitt:line_text>talkedconversed </pitt:line_text>
+                     <pitt:line_text>&lt;del
+            loc="c56-0113__main__d1e21448__Start"/&gt;talked&lt;del
+            loc="c56-0113__main__d1e21448__End"/&gt;&lt;lb
+            n="c56-0113__left_margin__1"/&gt;conversed </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app498-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -15605,7 +15729,9 @@
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app504-f1831"/>
-                     <pitt:line_text>its dimming influence quenched her dearest smiles.“When </pitt:line_text>
+                     <pitt:line_text>its dimming influence quenched her dearest smiles.&lt;p
+            loc="novel1_letter4_chapter9_p277__End"/&gt;&lt;p
+            loc="novel1_letter4_chapter9_p278__Start"/&gt;“When </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app504-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -15628,14 +15754,16 @@
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app505-f1818"/>
-                     <pitt:line_text>life.“When </pitt:line_text>
+                     <pitt:line_text>life.&lt;p
+            loc="novel1_letter4_chapter8_p275__Start"/&gt;“When </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app505-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app505-f1823"/>
-                     <pitt:line_text>life.“When </pitt:line_text>
+                     <pitt:line_text>life.&lt;p
+            loc="novel1_letter4_chapter8_p276__Start"/&gt;“When </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app505-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -15649,7 +15777,8 @@
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app505-fThomas"/>
-                     <pitt:line_text>life.“When </pitt:line_text>
+                     <pitt:line_text>life.&lt;p
+            loc="novel1_letter4_chapter8_p274__Start"/&gt;“When </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app505-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -15889,7 +16018,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app513-fMS"/>
-                     <pitt:line_text>things </pitt:line_text>
+                     <pitt:line_text>things&lt;del
+            loc="c56-0113__main__d1e21468__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app513-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -16094,7 +16224,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app521-fMS"/>
-                     <pitt:line_text>Before – StoriesI </pitt:line_text>
+                     <pitt:line_text>Before – Stories&lt;del
+            loc="c56-0113__main__d1e21488__End"/&gt;I </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app521-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -16529,7 +16660,8 @@
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app535-fMS"/>
                      <pitt:line_text>evils;&lt;metamark function="displacement"
-            xml:id="c56-0113.06"&gt;X&lt;/metamark&gt;&lt;metamark
+            xml:id="c56-0113.06"&gt;X&lt;/metamark&gt;&lt;lb
+            n="c56-0113__left_margin__1"/&gt;&lt;metamark
             function="displacement"&gt;X&lt;/metamark&gt;At </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app535-fMS</pitt:resolved_text>
                   </ref>
@@ -17388,7 +17520,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app565-fMS"/>
-                     <pitt:line_text>had&lt;metamark
+                     <pitt:line_text>had&lt;del
+            loc="c56-0113__main__d1e21548__End"/&gt;&lt;metamark
             function="insert"&gt;^&lt;/metamark&gt;could </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app565-fMS</pitt:resolved_text>
                   </ref>
@@ -17443,7 +17576,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app567-fMS"/>
-                     <pitt:line_text>she not </pitt:line_text>
+                     <pitt:line_text>she not&lt;del
+            loc="c56-0113__main__d1e21560__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app567-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -17822,7 +17956,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app581-fMS"/>
-                     <pitt:line_text>its </pitt:line_text>
+                     <pitt:line_text>&lt;del
+            loc="c56-0113__main__d1e21585__Start"/&gt;its&lt;del
+            loc="c56-0113__main__d1e21585__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app581-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -18009,7 +18145,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app587-fMS"/>
-                     <pitt:line_text>being yetbut </pitt:line_text>
+                     <pitt:line_text>being yet&lt;del
+            loc="c56-0113__main__d1e21592__End"/&gt;but </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app587-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -18129,7 +18266,12 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app591-fMS"/>
-                     <pitt:line_text>womanbeingunworthy of lifeas </pitt:line_text>
+                     <pitt:line_text>woman&lt;del
+            loc="c56-0113__main__d1e21602__End"/&gt;being&lt;del
+            loc="c56-0113__main__d1e21608__Start"/&gt;unworthy of life&lt;del
+            loc="c56-0113__main__d1e21608__End"/&gt;&lt;del
+            loc="c56-0113__main__d1e21612__Start"/&gt;as&lt;del
+            loc="c56-0113__main__d1e21612__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app591-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -18249,7 +18391,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app595-fMS"/>
-                     <pitt:line_text>sheshe </pitt:line_text>
+                     <pitt:line_text>sheshe&lt;del
+            loc="c56-0113__main__d1e21617__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app595-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -18323,7 +18466,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app597-fMS"/>
-                     <pitt:line_text>innocent–I know–I </pitt:line_text>
+                     <pitt:line_text>innocent–I know&lt;del
+            loc="c56-0113__main__d1e21627__Start"/&gt;–&lt;del
+            loc="c56-0113__main__d1e21627__End"/&gt;I </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app597-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -18711,7 +18856,14 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app609-fMS"/>
-                     <pitt:line_text>&lt;metamark function="insert"&gt;^&lt;/metamark&gt;liesappearfalsehood lookcan </pitt:line_text>
+                     <pitt:line_text>&lt;metamark function="insert"&gt;^&lt;/metamark&gt;&lt;del
+            loc="c56-0113__main__d1e21641__Start"/&gt;lies&lt;del
+            loc="c56-0113__main__d1e21641__End"/&gt;&lt;del
+            loc="c56-0113__main__d1e21644__Start"/&gt;appear&lt;del
+            loc="c56-0113__main__d1e21644__End"/&gt;falsehood &lt;del
+            loc="c56-0113__main__d1e21649__Start"/&gt;look&lt;del
+            loc="c56-0113__main__d1e21649__End"/&gt;&lt;lb
+            n="c56-0114__left_margin__1"/&gt;can </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app609-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -19201,7 +19353,7 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app623-fMS"/>
-                     <pitt:line_text>escap&lt;mdel&gt;s&lt;/mdel&gt;es, wearing 
+                     <pitt:line_text>escap
             human lineaments; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app623-fMS</pitt:resolved_text>
                   </ref>
@@ -19276,7 +19428,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app625-fMS"/>
-                     <pitt:line_text>abou&lt;mdel&gt;l&lt;/mdel&gt;t&lt;mdel&gt;d&lt;/mdel&gt; </pitt:line_text>
+                     <pitt:line_text>abou&lt;mdel&gt;l&lt;/mdel&gt;t&lt;mdel&gt;d&lt;/mdel&gt;&lt;lb
+            n="c56-0114__main__9"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app625-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -19449,7 +19602,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app631-fMS"/>
-                     <pitt:line_text>if </pitt:line_text>
+                     <pitt:line_text>if&lt;del
+            loc="c56-0114__main__d1e21713__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app631-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -19495,7 +19649,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app633-fMS"/>
-                     <pitt:line_text>tomo </pitt:line_text>
+                     <pitt:line_text>tomo&lt;del
+            loc="c56-0114__main__d1e21717__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app633-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -19735,21 +19890,24 @@
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app641-f1818"/>
-                     <pitt:line_text>wretch.”I </pitt:line_text>
+                     <pitt:line_text>wretch.”&lt;p
+            loc="novel1_letter4_chapter8_p276__Start"/&gt;I </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app641-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app641-f1823"/>
-                     <pitt:line_text>wretch.”I </pitt:line_text>
+                     <pitt:line_text>wretch.”&lt;p
+            loc="novel1_letter4_chapter8_p277__Start"/&gt;I </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app641-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app641-f1831"/>
-                     <pitt:line_text>wretch.”I </pitt:line_text>
+                     <pitt:line_text>wretch.”&lt;p
+            loc="novel1_letter4_chapter9_p279__Start"/&gt;I </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app641-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -19763,7 +19921,8 @@
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app641-fThomas"/>
-                     <pitt:line_text>wretch.”I </pitt:line_text>
+                     <pitt:line_text>wretch.”&lt;p
+            loc="novel1_letter4_chapter8_p275__Start"/&gt;I </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app641-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -19950,8 +20109,10 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app647-fMS"/>
-                     <pitt:line_text>&lt;mdel&gt;&lt;/mdel&gt;ind&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;in deed  </pitt:line_text>
+                     <pitt:line_text>&lt;del
+            loc="c56-0114__main__d1e21738__Start"/&gt;ind&lt;del
+            loc="c56-0114__main__d1e21738__End"/&gt;&lt;metamark
+            function="insert"&gt;^ </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app647-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -20136,7 +20297,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app652-fMS"/>
-                     <pitt:line_text>Elizabeth read my anguish in my countenance, and kindly taking my </pitt:line_text>
+                     <pitt:line_text>Elizabeth read my anguish in my counte&lt;lb
+            n="c56-0114__main__18"/&gt;nance, and kindly taking my </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app652-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -21056,8 +21218,11 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app680-fMS"/>
-                     <pitt:line_text>beloved&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;best Victor, </pitt:line_text>
+                     <pitt:line_text>beloved&lt;del
+            loc="c56-0114__main__d1e21788__End"/&gt;&lt;metamark
+            function="insert"&gt;^&lt;/metamark&gt;&lt;del
+            loc="c56-0114__main__d1e21796__Start"/&gt;best&lt;del
+            loc="c56-0114__main__d1e21796__End"/&gt; Victor, </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app680-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -21290,7 +21455,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app688-fMS"/>
-                     <pitt:line_text>happy; quite </pitt:line_text>
+                     <pitt:line_text>happy; quite&lt;del
+            loc="c56-0114__main__d1e21816__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app688-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -21618,21 +21784,24 @@
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app698-f1818"/>
-                     <pitt:line_text>tranquillity?”She </pitt:line_text>
+                     <pitt:line_text>tranquillity?”&lt;p
+            loc="novel1_letter4_chapter8_p277__Start"/&gt;She </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app698-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app698-f1823"/>
-                     <pitt:line_text>tranquillity?”She </pitt:line_text>
+                     <pitt:line_text>tranquillity?”&lt;p
+            loc="novel1_letter4_chapter8_p278__Start"/&gt;She </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app698-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app698-f1831"/>
-                     <pitt:line_text>peace?”And could not such words from her whom I
+                     <pitt:line_text>peace?”&lt;p
+            loc="novel1_letter4_chapter9_p280__Start"/&gt;And could not such words from her whom I
             fondly prized before every other gift of fortune, suffice to </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app698-f1831</pitt:resolved_text>
                   </ref>
@@ -21640,14 +21809,16 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app698-fMS"/>
-                     <pitt:line_text>tranquillity?" She </pitt:line_text>
+                     <pitt:line_text>tranquillity?"&lt;lb
+            n="c56-0115__main__3"/&gt; She </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app698-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app698-fThomas"/>
-                     <pitt:line_text>tranquillity?”She </pitt:line_text>
+                     <pitt:line_text>tranquillity?”&lt;p
+            loc="novel1_letter4_chapter8_p276__Start"/&gt;She </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app698-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -21701,7 +21872,7 @@
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app700-fMS"/>
                      <pitt:line_text>this &lt;metamark function="displacement"
-            xml:id="c56-0115.01"&gt;^&lt;/metamark&gt; </pitt:line_text>
+            xml:id="c56-0115.01"&gt;^ </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app700-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -21860,7 +22031,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app706-fMS"/>
-                     <pitt:line_text> gave,butbut </pitt:line_text>
+                     <pitt:line_text> gave,&lt;lb
+            n="c56-0115__main__4"/&gt;but&lt;del
+            loc="c56-0115__main__d1e21856__End"/&gt;but </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app706-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -22255,7 +22428,8 @@
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app721-f1831"/>
                      <pitt:line_text>terror; lest at that very moment the destroyer had been near to rob me of
-            her. Thus not the tenderness of friendship, nor </pitt:line_text>
+            her. &lt;p
+            loc="novel1_letter4_chapter9_p281__Start"/&gt;Thus not the tenderness of friendship, nor </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app721-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -22361,7 +22535,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app725-fMS"/>
-                     <pitt:line_text>w </pitt:line_text>
+                     <pitt:line_text>&lt;del
+            loc="c56-0115__main__d1e21877__Start"/&gt;w&lt;del
+            loc="c56-0115__main__d1e21877__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app725-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -22767,7 +22943,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app739-fMS"/>
-                     <pitt:line_text>th fro&lt;mdel&gt;n&lt;/mdel&gt;m </pitt:line_text>
+                     <pitt:line_text>th&lt;del
+            loc="c56-0115__main__d1e21889__End"/&gt; fro&lt;mdel&gt;n&lt;/mdel&gt;m </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app739-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -22834,7 +23011,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app741-fMS"/>
-                     <pitt:line_text> hea </pitt:line_text>
+                     <pitt:line_text> he&lt;del
+            loc="c56-0115__main__d1e21904__Start"/&gt;a&lt;del
+            loc="c56-0115__main__d1e21904__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app741-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -22894,7 +23073,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app743-fMS"/>
-                     <pitt:line_text>country &amp;frominduced </pitt:line_text>
+                     <pitt:line_text>country &amp;from&lt;del
+            loc="c56-0115__main__d1e21909__End"/&gt;induced </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app743-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -23129,7 +23309,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app752-fMS"/>
-                     <pitt:line_text>I </pitt:line_text>
+                     <pitt:line_text>I&lt;del
+            loc="c56-0115__main__d1e21924__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app752-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -23182,7 +23363,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app754-fMS"/>
-                     <pitt:line_text>tak take a 
+                     <pitt:line_text>tak&lt;del
+            loc="c56-0115__main__d1e21928__End"/&gt; take a 
             journey to </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app754-fMS</pitt:resolved_text>
                   </ref>
@@ -23433,7 +23615,8 @@
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app763-f1831"/>
-                     <pitt:line_text>a type of me.Sometimes I could cope with the sullen
+                     <pitt:line_text>a type of me.&lt;p
+            loc="novel1_letter4_chapter9_p282__Start"/&gt;Sometimes I could cope with the sullen
             despair that overwhelmed me: but sometimes </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app763-f1831</pitt:resolved_text>
                   </ref>
@@ -24274,7 +24457,10 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app791-fMS"/>
-                     <pitt:line_text>august morethan </pitt:line_text>
+                     <pitt:line_text>august more&lt;del
+            loc="c56-0115__main__d1e21963__End"/&gt;&lt;del
+            loc="c56-0115__main__d1e21966__Start"/&gt;than&lt;del
+            loc="c56-0115__main__d1e21966__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app791-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -24470,14 +24656,16 @@
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app798-f1818"/>
-                     <pitt:line_text>Justine.The </pitt:line_text>
+                     <pitt:line_text>Justine.&lt;p
+            loc="novel1_letter4_chapter8_p278__Start"/&gt;The </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app798-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app798-f1823"/>
-                     <pitt:line_text>Justine.The </pitt:line_text>
+                     <pitt:line_text>Justine.&lt;p
+            loc="novel1_letter4_chapter8_p279__Start"/&gt;The </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app798-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -24499,7 +24687,8 @@
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app798-fThomas"/>
-                     <pitt:line_text>Justine.The </pitt:line_text>
+                     <pitt:line_text>Justine.&lt;p
+            loc="novel1_letter4_chapter8_p277__Start"/&gt;The </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app798-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -24657,7 +24846,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app803-fMS"/>
-                     <pitt:line_text> mined </pitt:line_text>
+                     <pitt:line_text> mine&lt;del
+            loc="c56-0115__main__d1e21978__Start"/&gt;d&lt;del
+            loc="c56-0115__main__d1e21978__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app803-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -24989,7 +25180,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app815-fMS"/>
-                     <pitt:line_text>whichintended </pitt:line_text>
+                     <pitt:line_text>which&lt;del
+            loc="c56-0115__main__d1e21989__End"/&gt;intended </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app815-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -25093,7 +25285,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app818-fMS"/>
-                     <pitt:line_text>father intended. </pitt:line_text>
+                     <pitt:line_text>father intended&lt;del
+            loc="c56-0115__main__d1e21996__End"/&gt;. </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app818-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -25250,7 +25443,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app823-fMS"/>
-                     <pitt:line_text>I wassomewhat interrested and sometimesin </pitt:line_text>
+                     <pitt:line_text>I wassomewhat interrested &lt;del
+            loc="c56-0116__main__d1e22013__Start"/&gt;and sometimes&lt;del
+            loc="c56-0116__main__d1e22013__End"/&gt;in </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app823-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -25296,7 +25491,9 @@
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app825-f1831"/>
-                     <pitt:line_text>those savage and enduring scenes.I performed </pitt:line_text>
+                     <pitt:line_text>those savage and enduring scenes.&lt;p
+            loc="novel1_letter4_chapter9_p282__End"/&gt;&lt;p
+            loc="novel1_letter4_chapter9_p283__Start"/&gt;I performed </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app825-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -25363,8 +25560,13 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app827-fMS"/>
-                     <pitt:line_text>scene..it sometimesamused.lulled,
-            itsomehow </pitt:line_text>
+                     <pitt:line_text>scene..it sometimes&lt;del
+            loc="c56-0116__main__d1e22020__Start"/&gt;amused&lt;del
+            loc="c56-0116__main__d1e22022__Start"/&gt;.&lt;del
+            loc="c56-0116__main__d1e22022__End"/&gt;&lt;del
+            loc="c56-0116__main__d1e22020__End"/&gt;lulled,
+            itsomehow&lt;del
+            loc="c56-0116__main__d1e22034__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app827-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -25794,7 +25996,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app842-fMS"/>
-                     <pitt:line_text>Br </pitt:line_text>
+                     <pitt:line_text>Br&lt;del
+            loc="c56-0116__main__d1e22049__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app842-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -26618,7 +26821,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app869-fMS"/>
-                     <pitt:line_text>eacheveryside of
+                     <pitt:line_text>each&lt;del
+            loc="c56-0116__main__d1e22077__End"/&gt;everyside &lt;lb
+            n="c56-0116__main__13"/&gt;of
             us&amp; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app869-fMS</pitt:resolved_text>
                   </ref>
@@ -26753,7 +26958,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app873-fMS"/>
-                     <pitt:line_text>mounthe </pitt:line_text>
+                     <pitt:line_text>moun&lt;del
+            loc="c56-0116__main__d1e22088__End"/&gt;the </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app873-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -26827,7 +27033,11 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app875-fMS"/>
-                     <pitt:line_text>ragingtainstreamsamong </pitt:line_text>
+                     <pitt:line_text>raging&lt;del
+            loc="c56-0116__main__d1e22094__Start"/&gt;tain&lt;del
+            loc="c56-0116__main__d1e22094__End"/&gt;&lt;del
+            loc="c56-0116__main__d1e22098__Start"/&gt;streams&lt;del
+            loc="c56-0116__main__d1e22098__End"/&gt;among </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app875-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -26912,7 +27122,10 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app879-fMS"/>
-                     <pitt:line_text> waterfalls.around. The </pitt:line_text>
+                     <pitt:line_text> waterfalls&lt;del
+            loc="c56-0116__main__d1e22106__Start"/&gt;.&lt;del
+            loc="c56-0116__main__d1e22106__End"/&gt;around.&lt;lb
+            n="c56-0116__main__16"/&gt; The </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app879-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -26951,14 +27164,16 @@
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app881-f1818"/>
-                     <pitt:line_text>water-falls around.The </pitt:line_text>
+                     <pitt:line_text>water-falls around.&lt;p
+            loc="novel1_letter4_chapter8_p279__Start"/&gt;The </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app881-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app881-f1823"/>
-                     <pitt:line_text>water-falls around.The </pitt:line_text>
+                     <pitt:line_text>water-falls around.&lt;p
+            loc="novel1_letter4_chapter8_p280__Start"/&gt;The </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app881-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -26973,7 +27188,9 @@
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app881-fThomas"/>
-                     <pitt:line_text>water-falls around.The </pitt:line_text>
+                     <pitt:line_text>water-falls around.&lt;p
+            loc="novel1_letter4_chapter8_p277__End"/&gt;&lt;p
+            loc="novel1_letter4_chapter8_p278__Start"/&gt;The </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app881-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -27567,7 +27784,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app901-fMS"/>
-                     <pitt:line_text>&lt;mdel&gt;on&lt;/mdel&gt;^builthanging </pitt:line_text>
+                     <pitt:line_text>&lt;mdel&gt;on&lt;/mdel&gt;^&lt;del
+            loc="c56-0116__main__d1e22139__Start"/&gt;built&lt;del
+            loc="c56-0116__main__d1e22139__End"/&gt;hanging </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app901-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -28068,7 +28287,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app917-fMS"/>
-                     <pitt:line_text>pir piramids </pitt:line_text>
+                     <pitt:line_text>pir&lt;del
+            loc="c56-0116__main__d1e22167__End"/&gt; piramids </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app917-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -28142,7 +28362,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app919-fMS"/>
-                     <pitt:line_text> all like the </pitt:line_text>
+                     <pitt:line_text> all like &lt;del
+            loc="c56-0116__main__d1e22175__Start"/&gt;the&lt;del
+            loc="c56-0116__main__d1e22175__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app919-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -28269,7 +28491,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app923-fMS"/>
-                     <pitt:line_text>of beings Soone after we entered the valley </pitt:line_text>
+                     <pitt:line_text>of beings Soon&lt;del
+            loc="c56-0117__main__d1e22189__Start"/&gt;e&lt;del
+            loc="c56-0117__main__d1e22189__End"/&gt; after we entered the valley </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app923-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -28315,21 +28539,24 @@
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app925-f1818"/>
-                     <pitt:line_text>beings.We </pitt:line_text>
+                     <pitt:line_text>beings.&lt;p
+            loc="novel1_letter4_chapter8_p280__Start"/&gt;We </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app925-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app925-f1823"/>
-                     <pitt:line_text>beings.We </pitt:line_text>
+                     <pitt:line_text>beings.&lt;p
+            loc="novel1_letter4_chapter8_p281__Start"/&gt;We </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app925-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app925-f1831"/>
-                     <pitt:line_text>beings.I </pitt:line_text>
+                     <pitt:line_text>beings.&lt;p
+            loc="novel1_letter4_chapter9_p284__Start"/&gt;I </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app925-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -28337,14 +28564,19 @@
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app925-fMS"/>
                      <pitt:line_text> Chamounix. This valley is more
-            beautifulwondeful and sublime but not so beau We </pitt:line_text>
+            beautiful&lt;lb
+            n="c56-0117__left_margin__1"/&gt;&lt;del
+            loc="c56-0117__left_margin__d1e22206__Start"/&gt;wondeful&lt;del
+            loc="c56-0117__left_margin__d1e22206__End"/&gt; and sublime but not so beau&lt;lb
+            n="c56-0117__main__5"/&gt; We </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app925-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app925-fThomas"/>
-                     <pitt:line_text>beings.We </pitt:line_text>
+                     <pitt:line_text>beings.&lt;p
+            loc="novel1_letter4_chapter8_p279__Start"/&gt;We </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app925-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -28411,7 +28643,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app927-fMS"/>
-                     <pitt:line_text>Pellisier Pellissier, </pitt:line_text>
+                     <pitt:line_text>Pellisier&lt;del
+            loc="c56-0117__main__d1e22216__End"/&gt; Pellissier, </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app927-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -29436,7 +29669,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app960-fMS"/>
-                     <pitt:line_text>where </pitt:line_text>
+                     <pitt:line_text>wh&lt;del
+            loc="c56-0117__main__d1e22241__End"/&gt;ere </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app960-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -29570,7 +29804,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app964-fMS"/>
-                     <pitt:line_text>t </pitt:line_text>
+                     <pitt:line_text>t&lt;del
+            loc="c56-0117__main__d1e22246__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app964-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -29787,7 +30022,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app971-fMS"/>
-                     <pitt:line_text>road, and </pitt:line_text>
+                     <pitt:line_text>road, and&lt;del
+            loc="c56-0117__main__d1e22254__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app971-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -30489,21 +30725,24 @@
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app993-f1818"/>
-                     <pitt:line_text>valley.During </pitt:line_text>
+                     <pitt:line_text>valley.&lt;p
+            loc="novel1_letter4_chapter8_p281__Start"/&gt;During </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app993-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app993-f1823"/>
-                     <pitt:line_text>valley.During </pitt:line_text>
+                     <pitt:line_text>valley.&lt;p
+            loc="novel1_letter4_chapter8_p282__Start"/&gt;During </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app993-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app993-f1831"/>
-                     <pitt:line_text>valley.A tingling long-lost sense of pleasure
+                     <pitt:line_text>valley.&lt;p
+            loc="novel1_letter4_chapter9_p285__Start"/&gt;A tingling long-lost sense of pleasure
             often came across me </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app993-f1831</pitt:resolved_text>
                   </ref>
@@ -30518,7 +30757,8 @@
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app993-fThomas"/>
-                     <pitt:line_text>valley.During </pitt:line_text>
+                     <pitt:line_text>valley.&lt;p
+            loc="novel1_letter4_chapter8_p280__Start"/&gt;During </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app993-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -31029,7 +31269,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app1010-fMS"/>
-                     <pitt:line_text>let my </pitt:line_text>
+                     <pitt:line_text>let my&lt;del
+            loc="c56-0117__main__d1e22301__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app1010-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -31502,7 +31743,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app1026-fMS"/>
-                     <pitt:line_text>my mulethe </pitt:line_text>
+                     <pitt:line_text>my mule&lt;del
+            loc="c56-0118__main__d1e22317__End"/&gt;the </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app1026-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -32183,7 +32425,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app1048-fMS"/>
-                     <pitt:line_text>grass to shut out </pitt:line_text>
+                     <pitt:line_text>grass to shut out&lt;del
+            loc="c56-0118__main__d1e22339__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app1048-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -32296,7 +32539,8 @@
                <rdg wit="#f1831">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app1052-f1831"/>
-                     <pitt:line_text>despair.At length </pitt:line_text>
+                     <pitt:line_text>despair.&lt;p
+            loc="novel1_letter4_chapter9_p286__Start"/&gt;At length </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app1052-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -32483,7 +32727,10 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app1058-fMS"/>
-                     <pitt:line_text>Myrtellawas&lt;metamark
+                     <pitt:line_text>Myrtella&lt;del
+            loc="c56-0118__main__d1e22355__End"/&gt;&lt;del
+            loc="c56-0118__main__d1e22358__Start"/&gt;was&lt;del
+            loc="c56-0118__main__d1e22358__End"/&gt;&lt;metamark
             function="insert"&gt;^&lt;/metamark&gt;My </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app1058-fMS</pitt:resolved_text>
                   </ref>
@@ -32544,7 +32791,9 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app1060-fMS"/>
-                     <pitt:line_text>fatigued. a Ernest </pitt:line_text>
+                     <pitt:line_text>fatigued. &lt;del
+            loc="c56-0118__main__d1e22371__Start"/&gt;a&lt;del
+            loc="c56-0118__main__d1e22371__End"/&gt; Ernest </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app1060-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -33065,7 +33314,8 @@
                <rdg wit="#fMS">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fMS_C15.xml#C15_app1079-fMS"/>
-                     <pitt:line_text>us </pitt:line_text>
+                     <pitt:line_text>us&lt;del
+            loc="c56-0118__main__d1e22385__End"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fMS_C15.xml#C15_app1079-fMS</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -33144,18 +33394,20 @@
                   </ref>
                </rdg>
             </app>
-            <rdgGrp type="invariant">
+            <app xml:id="C15_app1082">
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app1082-f1818"/>
-                     <pitt:line_text>day.We </pitt:line_text>
+                     <pitt:line_text>day.&lt;p
+            loc="novel1_letter4_chapter8_p282__Start"/&gt;We </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app1082-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app1082-f1823"/>
-                     <pitt:line_text>day.We </pitt:line_text>
+                     <pitt:line_text>day.&lt;p
+            loc="novel1_letter4_chapter8_p283__Start"/&gt;We </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app1082-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -33169,11 +33421,12 @@
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app1082-fThomas"/>
-                     <pitt:line_text>day.We </pitt:line_text>
+                     <pitt:line_text>day.&lt;p
+            loc="novel1_letter4_chapter8_p281__Start"/&gt;We </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app1082-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
-            </rdgGrp>
+            </app>
             <rdgGrp type="invariant">
                <rdg wit="#f1818">
                   <ref>
@@ -33980,14 +34233,16 @@
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C15.xml#C15_app1109-f1818"/>
-                     <pitt:line_text>window. </pitt:line_text>
+                     <pitt:line_text>window.&lt;milestone
+            n="8" type="end" unit="chapter"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C15.xml#C15_app1109-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C15.xml#C15_app1109-f1823"/>
-                     <pitt:line_text>window. </pitt:line_text>
+                     <pitt:line_text>window.&lt;milestone
+            n="8" type="end" unit="chapter"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-f1823_C15.xml#C15_app1109-f1823</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -33995,7 +34250,8 @@
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1831_C15.xml#C15_app1109-f1831"/>
                      <pitt:line_text>pillow, sleep crept over me; I felt it as it came, and blest the giver of
-            oblivion.  </pitt:line_text>
+            oblivion. &lt;milestone n="9"
+            type="end" unit="chapter"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-f1831_C15.xml#C15_app1109-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -34009,7 +34265,8 @@
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C15.xml#C15_app1109-fThomas"/>
-                     <pitt:line_text>window. </pitt:line_text>
+                     <pitt:line_text>window.&lt;milestone
+            n="8" type="end" unit="chapter"/&gt; </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C15.xml#C15_app1109-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
