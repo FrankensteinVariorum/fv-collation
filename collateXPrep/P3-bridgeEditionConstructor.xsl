@@ -81,13 +81,13 @@
                             <xsl:non-matching-substring>
                                 <xsl:analyze-string select="." regex="&lt;[^/]*\n*[^/]+?/&gt;">
                                  <!--matches text strings representing self-closed elements (the milestone elements and such like). -->                              <xsl:matching-substring>
-                                     <xsl:variable name="flattenedTagContents" select="replace(., '(&lt;.*)\n*', '$1 ') ! substring-after(., '&lt;') ! substring-before(., '/&gt;')"/>
+                                     <xsl:variable name="flattenedTagContents" select="substring-after(., '&lt;') ! substring-before(., '/&gt;')"/>
                                         <xsl:message>The value of this LAST flattened tagcontents is <xsl:value-of select="$flattenedTagContents"/>!</xsl:message>
-                                        <xsl:variable name="elementName" select="tokenize($flattenedTagContents, ' ')[1]"/>
+                                        <xsl:variable name="elementName" select="tokenize($flattenedTagContents, '\s+')[1]"/>
                                         <xsl:element name="{$elementName}">
-                                            <xsl:variable name="attributeString" select="string-join(tokenize($flattenedTagContents, ' ')[position() gt 1], ' ')"/>
+                                            <xsl:variable name="attributeString" select="string-join(tokenize($flattenedTagContents, '\s+')[position() gt 1], ' ')"/>
                                             <xsl:message> Here is the element name:<xsl:value-of select="$elementName"/>. And the attribute string:<xsl:value-of select="$attributeString"/> </xsl:message>
-                                            <xsl:for-each select="tokenize($attributeString, '\s+')[position() gt 1][not(contains(., ' '))]">
+                                            <xsl:for-each select="tokenize($attributeString, '\s+')">
                                                 <xsl:variable name="attributeStringToken" select="current()"/>
                                                 <xsl:message>The current string token here is <xsl:value-of select="$attributeStringToken"/> </xsl:message>
                                                 <xsl:variable name="attName" select="substring-before(current(), '=&#34;')"/>

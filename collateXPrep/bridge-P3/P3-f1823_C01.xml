@@ -23,10 +23,10 @@
       <body>
          <div type="collation" xml:id="C01">
             <seg xml:id="C01_app1-f1823_start"/>
-            <milestone unit="volume"/>
-            <milestone type="start" unit="frontmatter"/>
-            <milestone type="end" unit="frontmatter"/>
-            <milestone type="start" unit="preface"/>PREFACE.<p loc="preface1_p1" ana="Start"/>THE <seg xml:id="C01_app1-f1823_end"/>
+            <milestone n="1" unit="volume"/>
+            <milestone n="1" type="start" unit="frontmatter"/>
+            <milestone n="1" type="end" unit="frontmatter"/>
+            <milestone n="1" type="start" unit="preface"/>PREFACE.<p loc="preface1_p1" ana="Start"/>THE <seg xml:id="C01_app1-f1823_end"/>
             <seg type="invariant-MissingWit" xml:id="C01_app2-f1823_start"/>event on which this fiction is founded has been supposed, by Dr. Darwin,
             and some of the physiological writers of Germany, as not of impossible occurrence. I
             shall not be supposed as according the remotest degree of serious faith to such an
@@ -76,7 +76,7 @@
             they present, all memory of their ghostly visions. The following tale is the only one
             which has been <seg xml:id="C01_app8-f1823_end"/>
             <seg xml:id="C01_app9-f1823_start"/>completed.<p loc="preface1_p5" ana="End"/>
-            <milestone type="end" unit="preface"/> 
+            <milestone n="1" type="end" unit="preface"/> 
             <seg xml:id="C01_app9-f1823_end"/>
          </div>
       </body>
