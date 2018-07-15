@@ -25,7 +25,7 @@
    </xsl:template>
     <xsl:template match="titleStmt/title">
 <title>
-    <xsl:text>Bridge phase 3: </xsl:text><xsl:value-of select="tokenize(., ':')[last()]"/>
+    <xsl:text>Bridge Phase 3: </xsl:text><xsl:value-of select="tokenize(., ':')[last()]"/>
 </title>
         
     </xsl:template>
@@ -35,7 +35,7 @@
    </xsl:template>
    
     <xsl:template match="ab/text()">
-        <xsl:analyze-string select="." regex="&lt;[^/]+?&gt;"><!--a start tag of an unflattened element (left as a whole element prior to collation).-->
+        <xsl:analyze-string select="." regex="&lt;[^/&amp;]+?&gt;"><!--a start tag of an unflattened element (left as a whole element prior to collation).-->
             <xsl:matching-substring>
                 <xsl:variable name="tagContents" select="substring-after(., '&lt;') ! substring-before(., '&gt;')"/>
                 <xsl:element name="{tokenize($tagContents, ' ')[1]}">
@@ -50,7 +50,7 @@
                 </xsl:element>
             </xsl:matching-substring>
             <xsl:non-matching-substring>
-                <xsl:analyze-string select="." regex="&lt;/.+?&gt;"><!--an end tag of an unflattened element-->
+                <xsl:analyze-string select="." regex="&lt;/[^/&amp;]+?&gt;"><!--an end tag of an unflattened element-->
                     <xsl:matching-substring>
                         <xsl:variable name="tagContents" select="substring-after(., '&lt;/') ! substring-before(., '&gt;')"/>
                         <xsl:element name="{tokenize($tagContents, ' ')[1]}">
@@ -79,9 +79,9 @@
                                 </xsl:element>
                             </xsl:matching-substring>
                             <xsl:non-matching-substring>
-                             <xsl:analyze-string select="." regex="&lt;.*\n*.+?/&gt;">
+                                <xsl:analyze-string select="." regex="&lt;[^/]*\n*[^/]+?/&gt;">
                                  <!--matches text strings representing self-closed elements (the milestone elements and such like). -->                              <xsl:matching-substring>
-                                        <xsl:variable name="flattenedTagContents" select="replace(., '(&lt;.*)\n*', '$1 ') ! substring-after(., '&lt;') ! substring-before(., '/&gt;')"/>
+                                     <xsl:variable name="flattenedTagContents" select="replace(., '(&lt;.*)\n*', '$1 ') ! substring-after(., '&lt;') ! substring-before(., '/&gt;')"/>
                                         <xsl:message>The value of this LAST flattened tagcontents is <xsl:value-of select="$flattenedTagContents"/>!</xsl:message>
                                         <xsl:variable name="elementName" select="tokenize($flattenedTagContents, ' ')[1]"/>
                                         <xsl:element name="{$elementName}">
