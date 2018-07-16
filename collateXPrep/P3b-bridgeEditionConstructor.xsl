@@ -6,7 +6,7 @@
 
 <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="bridge-P3a" as="document-node()+" select="collection('bridge-P3a/')"/>
-<!--Adding @loc attributes to ease expansion of flattened elements in Bridge Phase 4. Takes bridge-P3a files as input and outputs them to bridge-P3-b. -->   
+<!--Adding @loc attributes to ease expansion of flattened elements in Bridge Phase 4. Also standardizes @ana values to 'start' and 'end'. Takes bridge-P3a files as input and outputs them to bridge-P3-b. -->   
    <xsl:template match="/">
        <xsl:for-each select="$bridge-P3a//TEI">
            <xsl:variable name="currentP3File" as="element()" select="current()"/>
@@ -22,9 +22,33 @@
         </TEI>
          </xsl:result-document>
        </xsl:for-each>
-       
    </xsl:template>
- 
+ <xsl:template match="*[@ana='Start' and @loc]">
+     <xsl:element name="{name()}">
+         <xsl:attribute name="ana">
+             <xsl:text>start</xsl:text>
+         </xsl:attribute>
+         <xsl:for-each select="@*[not(name() = 'ana')]">
+             <xsl:attribute name="{name()}">
+                 <xsl:value-of select="."/>
+             </xsl:attribute>
+         </xsl:for-each>
+         <xsl:apply-templates/>
+     </xsl:element>
+ </xsl:template>
+    <xsl:template match="*[@ana='End' and @loc]">
+        <xsl:element name="{name()}">
+            <xsl:attribute name="ana">
+                <xsl:text>end</xsl:text>
+            </xsl:attribute>
+            <xsl:for-each select="@*[not(name() = 'ana')]">
+                <xsl:attribute name="{name()}">
+                    <xsl:value-of select="."/>
+                </xsl:attribute>
+            </xsl:for-each>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
    <xsl:template match="*[matches(@ana, '[Ss]tart') and not(@loc)]">
        <xsl:param name="filename"/>
       <xsl:variable name="elementName" select="current()/name()" as="xs:string"/>
@@ -32,7 +56,10 @@
               <xsl:attribute name="loc">
                   <xsl:value-of select="tokenize($filename, '-')[last()] ! substring-before(., '.')"/><xsl:text>-</xsl:text><xsl:value-of select="$elementName"/><xsl:text>_</xsl:text><xsl:value-of select="count(preceding::*[name() = $elementName][matches(@ana, '[Ss]tart')][ancestor::div]) + 1"/>
               </xsl:attribute>
-              <xsl:for-each select="current()/@*">
+              <xsl:attribute name="ana">
+                  <xsl:text>start</xsl:text>
+              </xsl:attribute>
+              <xsl:for-each select="current()/@*[not(name() = 'ana')]">
                   
                   <xsl:attribute name="{current()/name()}">
                       <xsl:value-of select="current()"/> 
@@ -45,10 +72,13 @@
         <xsl:param name="filename"/>
         <xsl:variable name="elementName" select="current()/name()" as="xs:string"/>
         <xsl:element name="{$elementName}">
-            <xsl:for-each select="current()/@*">
-                <xsl:attribute name="loc">
-                    <xsl:value-of select="tokenize($filename, '-')[last()] ! substring-before(., '.')"/><xsl:text>-</xsl:text><xsl:value-of select="$elementName"/><xsl:text>_</xsl:text><xsl:value-of select="count(preceding::*[name() = $elementName][matches(@ana, '[Ee]nd')][ancestor::div]) + 1"/>
+            <xsl:attribute name="loc">
+                <xsl:value-of select="tokenize($filename, '-')[last()] ! substring-before(., '.')"/><xsl:text>-</xsl:text><xsl:value-of select="$elementName"/><xsl:text>_</xsl:text><xsl:value-of select="count(preceding::*[name() = $elementName][matches(@ana, '[Ee]nd')][ancestor::div]) + 1"/>
+            </xsl:attribute>
+                <xsl:attribute name="ana">
+                    <xsl:text>end</xsl:text>
                 </xsl:attribute>
+            <xsl:for-each select="current()/@*[not(name() = 'ana')]">
                 <xsl:attribute name="{current()/name()}">
                     <xsl:value-of select="current()"/> 
                 </xsl:attribute>
