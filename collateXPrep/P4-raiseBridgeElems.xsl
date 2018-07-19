@@ -3,7 +3,9 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" exclude-result-prefixes="#all" version="3.0">
     <xsl:output method="xml" indent="no"/>
-    <xsl:variable name="bridge-P3b" as="document-node()+" select="collection('bridge-P3b/')"/>
+   <!--ebb: Trying this at Terminal prompt instead, so removing collection references.
+       <xsl:variable name="bridge-P3b" as="document-node()+" select="collection('bridge-P3b/')"/>-->
+    
     <!--2018-07-15 ebb: Bridge Phase 4 raises the hierarchy of elements from the source documents, leaving the seg elements unraised. This stylesheet uses an "inside-out" function to raise the elements from the deepest levels (those with only text nodes between their start and end markers) first. This and other methods to "raise" flattened or "Trojan" elements are documented in https://github.com/djbpitt/raising with thanks to David J. Birnbaum and Michael Sperberg-McQueen for their helpful experiments. 
         Input is bridge-P3b. Output is bridge-P4. -->
  <xsl:template match="@* | node()" mode="#all">
@@ -28,13 +30,13 @@
         </xsl:choose>
     </xsl:function>  
     <xsl:template match="/">
-        <xsl:for-each select="$bridge-P3b//TEI">
+      <!-- <xsl:for-each select="$bridge-P3b//TEI">
            <xsl:variable name="currentFile" as="element()" select="current()"/>
                 <xsl:variable name="filename">
                     <xsl:text>P4-</xsl:text><xsl:value-of select="tokenize(base-uri(), '/')[last()] ! substring-after(., '-')"/>
                 </xsl:variable>
-                <xsl:variable name="chunk" as="xs:string" select="substring-after(substring-before(tokenize(base-uri(), '/')[last()], '.'), '_')"/>          
-                -           <xsl:result-document method="xml" indent="yes" href="bridge-P4/{$filename}">
+                <xsl:variable name="chunk" as="xs:string" select="tokenize(base-uri(), '/')[last()] ! substring-before(., '.') ! substring-after(., '_')"/>          
+                -           <xsl:result-document method="xml" indent="yes" href="bridge-P4/{$filename}">-->
                     <TEI>
                         <xsl:apply-templates select="descendant::teiHeader"/>
                         <text>
@@ -43,8 +45,8 @@
                             </body>
                         </text>
                     </TEI>
-                </xsl:result-document>
-        </xsl:for-each>
+               <!-- </xsl:result-document>-->
+        <!--</xsl:for-each>-->
     </xsl:template>
     <xsl:template match="teiHeader">
         <teiHeader>

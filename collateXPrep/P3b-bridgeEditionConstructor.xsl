@@ -103,7 +103,7 @@
                         <xsl:text>start</xsl:text>
                     </xsl:attribute>
                     <xsl:attribute name="loc">
-                        <xsl:value-of select="tokenize($filename, '-')[last()] ! substring-before(., '.')"/><xsl:text>-</xsl:text><xsl:value-of select="$elemName"/><xsl:text>_</xsl:text><xsl:value-of select="count(preceding::*[name() = $elemName][matches(@ana, '[Ss]tart')][ancestor::div]) + 1"/>
+                        <xsl:value-of select="tokenize($filename, '-')[last()] ! substring-before(., '.')"/><xsl:text>-</xsl:text><xsl:value-of select="$elemName"/><xsl:text>_</xsl:text><xsl:value-of select="count(preceding::*[name() = $elemName][(count(following-sibling::*[name() = $elemName]) + 1) mod 2 eq 0][ancestor::div]) + 1"/>
                     </xsl:attribute>
                     <xsl:apply-templates/>
                 </xsl:element>
@@ -119,7 +119,7 @@
                         <xsl:text>end</xsl:text>
                     </xsl:attribute>
                     <xsl:attribute name="loc">
-                        <xsl:value-of select="tokenize($filename, '-')[last()] ! substring-before(., '.')"/><xsl:text>-</xsl:text><xsl:value-of select="$elemName"/><xsl:text>_</xsl:text><xsl:value-of select="count(preceding::*[name() = $elemName][matches(@ana, '[Ss]tart')][ancestor::div]) + 1"/>
+                        <xsl:value-of select="tokenize($filename, '-')[last()] ! substring-before(., '.')"/><xsl:text>-</xsl:text><xsl:value-of select="$elemName"/><xsl:text>_</xsl:text><xsl:value-of select="count(preceding::*[name() = $elemName][(count(following-sibling::*[name() = $elemName]) + 1) mod 2 eq 0][ancestor::div])"/>
                     </xsl:attribute>
                     <xsl:apply-templates/>
                 </xsl:element>
