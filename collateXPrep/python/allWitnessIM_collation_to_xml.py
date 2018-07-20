@@ -45,11 +45,10 @@ RE_LB = re.compile(r'<lb.+?/>')
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
 ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore', 'ab', 'hi', 'head', 'header']
-inlineEmpty = ['lb', 'gap', 'del', 'p', 'div', 'milestone']
+inlineEmpty = ['lb', 'gap', 'del', 'p', 'div', 'milestone', 'lg', 'l', 'note', 'cit', 'quote', 'bibl']
 # 2018-05-12 ebb: I'm setting a white space on either side of the inlineEmpty elements in line 76
 inlineContent = ['metamark', 'mdel']
-blockElement = ['lg', 'l', 'note', 'cit', 'quote', 'bibl']
-#2018-07-17 MOVE THE ABOVE BLOCK ELEMENTS INTO INLINEEMPTY!!!! 
+#2018-07-17 ebb: I moved the following list up into inlineEmpty, since they are all now empty elements: blockElement = ['lg', 'l', 'note', 'cit', 'quote', 'bibl']
 # ebb: Tried removing 'comment', from blockElement list above, because we don't want these to be collated.
 
 # 10-23-2017 ebb rv:
@@ -83,10 +82,10 @@ def extract(input_xml):
             output += regexEmptyTag.sub('>', node.toxml())
         elif event == pulldom.END_ELEMENT and node.localName in inlineContent:
             output += '</' + node.localName + '>'
-        elif event == pulldom.START_ELEMENT and node.localName in blockElement:
-            output += '\n<' + node.localName + '>\n'
-        elif event == pulldom.END_ELEMENT and node.localName in blockElement:
-            output += '\n</' + node.localName + '>'
+        # elif event == pulldom.START_ELEMENT and node.localName in blockElement:
+        #    output += '\n<' + node.localName + '>\n'
+        #elif event == pulldom.END_ELEMENT and node.localName in blockElement:
+        #    output += '\n</' + node.localName + '>'
         elif event == pulldom.CHARACTERS:
             output += normalizeSpace(node.data)
         else:
