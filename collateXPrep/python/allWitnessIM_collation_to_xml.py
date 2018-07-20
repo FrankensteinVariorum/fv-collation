@@ -44,10 +44,11 @@ RE_LB = re.compile(r'<lb.+?/>')
 # 2017-05-30 ebb: collated but the tags are not). Decision to make the comments into self-closing elements with text
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
-ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore', 'ab', 'hi', 'head', 'header']
-inlineEmpty = ['lb', 'gap', 'del', 'p', 'div', 'milestone', 'lg', 'l', 'note', 'cit', 'quote', 'bibl']
+ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore']
+inlineEmpty = ['lb', 'gap', 'del', 'p', 'div', 'milestone', 'lg', 'l', 'note', 'cit', 'quote', 'bibl', 'ab', 'hi', 'head']
 # 2018-05-12 ebb: I'm setting a white space on either side of the inlineEmpty elements in line 76
-inlineContent = ['metamark', 'mdel']
+# 2018-07-20: ebb: CHECK: are there white spaces on either side of empty elements in the output?
+inlineContent = ['metamark', 'mdel', 'shi']
 #2018-07-17 ebb: I moved the following list up into inlineEmpty, since they are all now empty elements: blockElement = ['lg', 'l', 'note', 'cit', 'quote', 'bibl']
 # ebb: Tried removing 'comment', from blockElement list above, because we don't want these to be collated.
 
@@ -74,10 +75,10 @@ def extract(input_xml):
         elif event == pulldom.COMMENT:
             doc.expandNode(node)
             output += node.toxml()
-        # empty inline elements: pb, milestone
+        # empty inline elements: pb, milestone, lb, lg, l, p, ab, head, hi
         elif event == pulldom.START_ELEMENT and node.localName in inlineEmpty:
             output += node.toxml()
-        # non-empty inline elements: note, hi, head, l, lg, div, p, ab, 
+        # non-empty inline elements: mdel, shi, metamark
         elif event == pulldom.START_ELEMENT and node.localName in inlineContent:
             output += regexEmptyTag.sub('>', node.toxml())
         elif event == pulldom.END_ELEMENT and node.localName in inlineContent:
