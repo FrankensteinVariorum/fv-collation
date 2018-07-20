@@ -49,6 +49,7 @@ inlineEmpty = ['lb', 'gap', 'del', 'p', 'div', 'milestone']
 # 2018-05-12 ebb: I'm setting a white space on either side of the inlineEmpty elements in line 76
 inlineContent = ['metamark', 'mdel']
 blockElement = ['lg', 'l', 'note', 'cit', 'quote', 'bibl']
+#2018-07-17 MOVE THE ABOVE BLOCK ELEMENTS INTO INLINEEMPTY!!!! 
 # ebb: Tried removing 'comment', from blockElement list above, because we don't want these to be collated.
 
 # 10-23-2017 ebb rv:
