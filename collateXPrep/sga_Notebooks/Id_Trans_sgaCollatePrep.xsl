@@ -15,13 +15,24 @@
     <xsl:value-of select="replace(., '\s+', '')[1]"/>
 </xsl:template>-->
 
-
-<xsl:template match="xml">
-    <xsl:element name="{local-name()}">
-        <xsl:namespace name="pitt" select="'https://github.com/ebeshero/Pittsburgh_Frankenstein'"/>
-        <xsl:apply-templates/>
-    </xsl:element>
- </xsl:template>  
+    <xsl:variable name="PreCollate" as="document-node()+" select="collection('PreCollate')"/>
+    <xsl:template match="/">
+        <xsl:for-each select="$PreCollate//xml">
+            <xsl:variable name="currFile" as="xs:string">
+        <xsl:value-of select="concat('msColl', tokenize(base-uri(.), '/')[last()] ! substring-before(., '_PreCollate.xml') ! substring-after(., 'msCollPrep'))"/>
+            </xsl:variable> 
+            <xsl:result-document method="xml" indent="yes" href="../msColl-fullFlat/{$currFile}Flat.xml">
+                <xml>
+                    <xsl:namespace name="pitt" select="'https://github.com/ebeshero/Pittsburgh_Frankenstein'"/> 
+                    <xsl:namespace name="xs" select="'http://www.w3.org/2001/XMLSchema'"/>
+<xsl:namespace name="mith" select="'http://mith.umd.edu/sc/ns1#'"/>
+                    <xsl:namespace name="th" select="'http://www.blackmesatech.com/2017/nss/trojan-horse'"/>
+                           
+                    <xsl:apply-templates/>
+                </xml>
+            </xsl:result-document> 
+        </xsl:for-each>
+    </xsl:template>
     
     <!--2017-10-24 ebb: Remove zone[@type="pagination"] and zone[@type="library"] -->
 <xsl:template match="zone[@type='pagination'] | zone[@type='library']"/> 
@@ -47,11 +58,7 @@
  <!--2018-07-21 ebb: This template rule below converts the S-GA <hi> elements into <pitt:hi> so that they may be treated differently in the collation process, since these will remain inline-content elements, while <hi> elements have been flattened (and are much simpler) in the source XML files representing the published editions. -->   
     <xsl:template match="hi">
         <xsl:element name="pitt:hi">
-            <xsl:for-each select="@*">        
-              <xsl:attribute name="{name()}">  
-                <xsl:value-of select="."/>
-              </xsl:attribute>
-            </xsl:for-each>  
+            <xsl:copy-of select="@*"/>        
                 <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
