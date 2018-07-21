@@ -25,7 +25,7 @@ The output of these pre-processing stages (A. and B.) are the files named **`sga
 ### C. Adding word-boundary markup
 We now work with the files named `sga_Notebooks/msCollPrep_c**.xml` to apply `<w>` elements to demarcate when whole words are broken around the `<line>....</line>` structure of the S-GA notebook files. We produced a modified version of the original S-GA ODD file here: `sga_Notebooks/sga_schemata/shelley-godwin-Pgh.odd` from which we generated a modified Relax-NG schema to govern these files, to help guide our work and prevent us from introducing errors as we add new markup. (Please ensure that the schema lines are associated and functioning in this stage of pre-processing.)
 
-We now add word boundary markup using self-closing marker elements, thus: `<w ana="start"/>...<w ana="end"/></line><line>...</w>` 
+We add word boundary markup using self-closing marker elements, thus: `<w ana="start"/>...<w ana="end"/></line><line>...</w>` 
 Note that by policy, **we remove hyphens that only mark work breakage** because these are not semantically relevant to our collation of variants. 
 
 For example, the original might be entered thus:
@@ -56,7 +56,7 @@ This last pre-processing stage was conducted mostly in the fall of 2017, and was
 
 ### B. Prepare the msColl_full files
  We now work with this XSLT file to process each of the six "PreCollate" files above:
-`sga_Notebooks/Id_Trans_sgaCollatePrep`. This stylesheet does the following: 
+`sga_Notebooks/Id_Trans_sgaCollatePrep.xsl`. This stylesheet does the following: 
 
 * changes `<line>...</line>` elements into self-closed `<lb/>` elements
 * marks `<del>` elements inside `<mod>` that contain two characters or less and gives them a special `<pitt:mdel>` element so that they may be screened from the collation process to reduce collation noise (so that their content isn't treated as a source of variance with other editions but nevertheless is still output because we need their content.) Meanwhile all other `<del>` elements are preserved for full comparison.
@@ -65,16 +65,30 @@ This last pre-processing stage was conducted mostly in the fall of 2017, and was
 
 * Currently this is designed to run over each file one at a time to inspect the output.) 
 
-* **Instructions to run:** Source: the "PreCollate" XML files in `sga_Notebooks`. Set the output destination up a directory level to `collateXPrep` and and then down into the `msColl_full` directory.The new files follow this naming convention:
+**Files involved and instructions to run:** 
+
+* Source: Each of the six "PreCollate" XML files in `sga_Notebooks`.
+* XSLT: `sga_Notebooks/Id_Trans_sgaCollatePrep.xsl`
+* Set the output destination up a directory level to `collateXPrep` and and then down into the `msColl_full` directory.The new files follow this naming convention:
 **`msColl_full/msColl_c**.xml`**
 
-### C. Flattening
- The `msColl_full` encoding must now be "flattened". All of the XML elements that contain other elements or mixed content (text and other elements) are altered so that they become self-closing "marker" elements with attributes signalling where start and end tags used to be. *This ensures that all texts when collated share a comparable form of encoding: often the markup itself (the positioning of a paragraph break, for example) is significant in the collation output, and we need to preserve that information even though it's going to create problems with overlapping XML hierarchies.*
+### C. Plant location flags on the `<lb/>` elements
+Now that we have converted the `<line>..</line>` elements into self-closed `<lb/>` elements, we now run an XSLT process that plants locational "signal flag" attributes on them. The output of this process is saved in the `msColl-fullFlat` directory and is named thus: `msColl-fullFlat/msColl_c**-fullFlat.xml  
+*The location flags will help us following the collation process, when we need to construct pointers back to the original source S-GA files on their website. We will need to make sure these elements and their flags are screened from the collation (=not meant for comparison) but preserved intact for the output.*
+
+**Files involved:** 
+* Source directory: `msColl_full/msColl_c**.xml`. 
+* XSLT: `Id_Trans_sgaMSLocators.xsl`. 
+* Output directory: `msColl-fullFlat`
+
+### D. Flattening
+ The `msColl_full` encoding must now be "flattened". All of the XML elements that contain other elements or mixed content (text and other elements) are altered so that they become self-closing "marker" elements with attributes signalling where start and end tags used to be. *This ensures that all texts when collated share a comparable form of encoding: often the markup itself (the positioning of a paragraph break, for example) is significant in the collation output. We need to preserve that information in a flattened state because it is going to conflict with the new XML hierarchy output by the collation process.*
  
 1. 
 
 
-1. They are "chunked" according to 33 common alignment positions between all editions of the novel. Not every witness is present from the S-GA files. All witnesses must be present at all points for the computer-automated collation process to run. Where witness chunks are missing in S-GA, we prepare empty "dummy" files required for the collation process. 
+### E. Chunking
+The six flattened files are now "chunked" according to 33 common alignment positions between all editions of the novel. Not every witness is present from the S-GA files. All witnesses must be present at all points for the computer-automated collation process to run. Where witness chunks are missing in S-GA, we have prepared empty "dummy" files required for the collation process. 
 
 1. 
 
