@@ -72,22 +72,18 @@ This last pre-processing stage was conducted mostly in the fall of 2017, and was
 * Set the output destination up a directory level to `collateXPrep` and and then down into the `msColl_full` directory.The new files follow this naming convention:
 **`msColl_full/msColl_c**.xml`**
 
-### C. Plant location flags on the `<lb/>` elements
-Now that we have converted the `<line>..</line>` elements into self-closed `<lb/>` elements, we now run an XSLT process that plants locational "signal flag" attributes on them. The output of this process is saved in the `msColl-fullFlat` directory and is named thus: `msColl-fullFlat/msColl_c**-fullFlat.xml  
+### C. Flag and flatten
+Now that we have converted the `<line>..</line>` elements into self-closed `<lb/>` elements, we now run an XSLT process that plants locational "signal flag" attributes on them and that "flattens" most of the other original S-GA markup. All of the XML elements that contain other elements or mixed content (text and other elements) are altered so that they become self-closing "marker" elements with attributes signalling where start and end tags used to be. 
+
+The output of this process is saved in the `msColl-fullFlat` directory and is named thus: `msColl-fullFlat/msColl_c**-fullFlat.xml  
 *The location flags will help us following the collation process, when we need to construct pointers back to the original source S-GA files on their website. We will need to make sure these elements and their flags are screened from the collation (=not meant for comparison) but preserved intact for the output.*
 
 **Files involved:** 
 * Source directory: `msColl_full/msColl_c**.xml`. 
-* XSLT: `Id_Trans_sgaMSLocators.xsl`. 
+* XSLT: `sga-flattenIDtrans.xsl`. 
 * Output directory: `msColl-fullFlat`
 
-### D. Flattening
- The `msColl_full` encoding must now be "flattened". All of the XML elements that contain other elements or mixed content (text and other elements) are altered so that they become self-closing "marker" elements with attributes signalling where start and end tags used to be. *This ensures that all texts when collated share a comparable form of encoding: often the markup itself (the positioning of a paragraph break, for example) is significant in the collation output. We need to preserve that information in a flattened state because it is going to conflict with the new XML hierarchy output by the collation process.*
- 
-1. 
-
-
-### E. Chunking
+### D. Chunking
 The six flattened files are now "chunked" according to 33 common alignment positions between all editions of the novel. Not every witness is present from the S-GA files. All witnesses must be present at all points for the computer-automated collation process to run. Where witness chunks are missing in S-GA, we have prepared empty "dummy" files required for the collation process. 
 
 1. 
