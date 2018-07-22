@@ -102,7 +102,7 @@ Because we have some fragmented multiple witnesses for various collation units, 
 
 **When re-making collation chunks do not delete the following "dummy" files:**
 
-* The files named/numbered `msCollC01.xml` through `msColl_C06.xml`
+* The files named/numbered `msColl_C01.xml` through `msColl_C06.xml`
 * `msColl_C19.xml`
 
 **Explanation:** Not every witness is present from the S-GA files, as we demonstrated in the figure above: S-GA has no material representing the first six collation units, and begins at collation unit 7. The automated collation process won't run unless a collation chunk file is present for each witness at every unit from C01 to C33. So, where witness chunks are missing in S-GA, we have prepared empty "dummy" files (containing only an XML comment) required for the collation process. 
