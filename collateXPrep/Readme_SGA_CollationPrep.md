@@ -29,17 +29,17 @@ We begin the manual editing by marking at what moments the S-GA files share comm
 
 We then slowly reviewed the encoding, concentrating on the strings of text surrounding the `<line>` elements. When whole words are broken around the `<line>....</line>` structure, we applied `<w>` elements to flag these and help us unify them as whole words in the collation process.
 
-We add word boundary markup using self-closing marker elements, thus: `<w ana="start"/>...<w ana="end"/></line><line>...</w>` 
+We add word boundary markup using self-closing marker elements, thus: `<w ana="start"/>. . . <w ana="end"/></line><line>. . . </w>` 
 Note that by policy, **we remove hyphens only when they denote word breakage** because these are not semantically relevant to our collation of variants. 
 
 For example, the original might be entered thus:
 ```
-<line>...books of chi-</line>
+<line>. . .books of chi-</line>
 <line>valry . . .</line>
 ```
 Our new markup removes the hyphen and changes it to:
 ```
-<line>...books of <w ana="start"/>chi</line>
+<line>. . . books of <w ana="start"/>chi</line>
 <line>valry<w ana="end"/> . . .</line>
 ```
 This last pre-processing stage was conducted mostly in the fall of 2017, and was done "by hand" in turns by Rikk Mulligan and Elisa Beshero-Bondar. It is most likely not complete and occasionally inconsistent (watch for those hyphens), and more word-boundary edits will need to be made as we discover the necessity. 
