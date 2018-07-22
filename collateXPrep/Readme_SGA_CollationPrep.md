@@ -87,7 +87,7 @@ The output of this process is saved in the `msColl-fullFlat` directory and is na
 * XSLT: `sga-flattenIDtrans.xsl`. 
 * Output directory: `msColl-fullFlat`
 
-### D. Chunking
+### D. Chunk
 The six files in `msColl-fullFlat` are now "chunked" according to 33 common alignment positions between all editions of the novel, as marked in Preprocessing stage IC above. 
 
 For this we run the `sga_collChunking.xsl` stylesheet on each individual file in `msColl-fullFlat` separately, so as to file its output in the appropriate place as described below.
