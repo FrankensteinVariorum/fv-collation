@@ -36,6 +36,7 @@ RE_LG = re.compile(r'<lg.+?/>')
 RE_L = re.compile(r'<l\s.+?/>')
 RE_CIT = re.compile(r'<cit\s.+?/>')
 RE_QUOTE = re.compile(r'<quote\s.+?/>')
+RE_GAP = re.compile(r'<gap\s.+?/>')
 # ebb: RE_MDEL = those pesky deletions of two letters or less that we want to normalize out of the collation, but preserve in the output.
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
@@ -114,7 +115,8 @@ def normalize(inputText):
         RE_L.sub('<l/>', \
         RE_CIT.sub('', \
         RE_QUOTE.sub('', \
-        RE_METAMARK.sub('', inputText))))))))))))).lower()
+        RE_GAP.sub('', \
+        RE_METAMARK.sub('', inputText)))))))))))))).lower()
 #    return regexPageBreak('',inputText)
 # ebb: The normalize function makes it possible to return normalized tokens that screen out some markup, but not all.
 
