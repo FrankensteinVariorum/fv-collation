@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
-      <anchor type="collate" xml:id="C07"/>
+   <anchor type="collate" xml:id="C07"/>      
       
       <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
             lrx="5364"
@@ -84,7 +84,7 @@
                   <metamark function="insert">^</metamark>
                </add>
               <add place="superlinear">following</add>
-            </mod> the aerial <lb/>creations of the <lb/>poets.– The <lb/>world was to me <lb/>a secret which <lb/>I desired to <w ana="start"/>disco<lb/>-ver<w ana="end"/>,–to her it <lb/>was a <del instant="true" rend="strikethrough">haven</del> 
+            </mod> the aerial <lb/>creations of the <lb/>poets.– The <lb/>world was to me <lb/>a secret which <lb/>I desired to <w ana="start"/>disco<lb/>ver<w ana="end"/>,–to her it <lb/>was a <del instant="true" rend="strikethrough">haven</del> 
             <lb/>vacancy which <lb/>she sought to <lb/>people with <lb/>imaginations of <lb/>her own.<anchor xml:id="c56-0011.14"/>
          </zone>
          <milestone unit="tei:p"/> 
@@ -101,7 +101,7 @@
             remember <lb/>when he was only nine years old he <lb/>wrote a fairy tale which was the <lb/>delight and amazement of all his <lb/>companions. <del rend="strikethrough">Like Don Quixote</del> his <lb/>favourite study <mod>
             <del rend="strikethrough">was</del>
             <add hand="#pbs" place="superlinear">consisted in</add>
-          </mod> books of chi <lb/>valry &amp; romance and <mod>
+          </mod> books of <w ana="start"/>chi<lb/>valry<w ana="end"/> &amp; romance and <mod>
             <add place="sublinear">
                <metamark function="insert">^</metamark>
             </add>
@@ -218,7 +218,7 @@
             mith:folio="5r"
             mith:shelfmark="MS. Abinger c. 56"
             xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0013.xml"
-            xml:id="ox-ms_abinger_c56-0013">
+            xml:id="ox-ms_abinger_c56-0013__Pt1">
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0013.jp2"/>
       <zone type="main"> 
          <lb/>being an only child, and <w ana="start"/>desti<lb/>tute<w ana="end"/> of companions at home, h<mod>
@@ -331,7 +331,7 @@
             <del rend="strikethrough" xml:id="c56-0005.04">continued <unclear>to re</unclear> with</del>
          </mod> enthusiasm. A new <lb/>light dawned upon my mind and <del rend="strikethrough">I</del>
          <del rend="strikethrough">com</del> 
-         <lb/>bounding with joy I communicated my <lb/>discovery to my father. I cannot help here remark <lb/>ing the many opportunities <mod>
+         <lb/>bounding with joy I communicated my <lb/>discovery to my father. I cannot help here <w ana="start"/>remark<lb/>ing<w ana="end"/> the many opportunities <mod>
             <del rend="strikethrough">parents</del>
             <add place="sublinear">
                <metamark function="insert">^</metamark>
@@ -550,7 +550,7 @@
             mith:folio="3r"
             mith:shelfmark="MS. Abinger c. 56"
             xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0009.xml"
-            xml:id="ox-ms_abinger_c56-0009">
+            xml:id="ox-ms_abinger_c56-0009__Pt1">
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0009.jp2"/>
       <zone type="main"> 
          <lb/>
@@ -596,7 +596,7 @@
             mith:folio="5r"
             mith:shelfmark="MS. Abinger c. 56"
             xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0013.xml"
-            xml:id="ox-ms_abinger_c56-0013">
+            xml:id="ox-ms_abinger_c56-0013__Pt2">
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0013.jp2"/>
       <zone type="main">
          <gap reason="resequencing" unit="lines" quantity="28"/> 
@@ -730,7 +730,7 @@
             mith:folio="6r"
             mith:shelfmark="MS. Abinger c. 56"
             xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0015.xml"
-            xml:id="ox-ms_abinger_c56-0015">
+            xml:id="ox-ms_abinger_c56-0015__Pt1">
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0015.jp2"/>
       <zone type="main">
          <delSpan rend="vertical_line" spanTo="#c56-0015.01"/> 
@@ -750,7 +750,7 @@
             mith:folio="3r"
             mith:shelfmark="MS. Abinger c. 56"
             xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0009.xml"
-            xml:id="ox-ms_abinger_c56-0009">
+            xml:id="ox-ms_abinger_c56-0009__Pt2">
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0009.jp2"/>
       <zone type="main">
          <gap reason="resequencing" unit="lines" quantity="3"/>
@@ -896,7 +896,7 @@
             mith:folio="6r"
             mith:shelfmark="MS. Abinger c. 56"
             xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0015.xml"
-            xml:id="ox-ms_abinger_c56-0015">
+            xml:id="ox-ms_abinger_c56-0015__Pt2">
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0015.jp2"/>
       <zone type="main">
          <gap reason="resequencing" unit="lines" quantity="14"/>
@@ -3412,8 +3412,8 @@
             mith:folio="27r"
             mith:shelfmark="MS. Abinger c. 56"
             xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml"
-            xml:id="ox-ms_abinger_c56-0057"
-            part="coll_A">
+            xml:id="ox-ms_abinger_c56-0057__Pt1"
+            part="collA">
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0057.jp2"/>
       <zone type="main"> 
          <lb/>"but get well as fast as you ca<mod>
@@ -3453,7 +3453,7 @@
             mith:folio="27r"
             mith:shelfmark="MS. Abinger c. 56"
             xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml"
-            xml:id="ox-ms_abinger_c56-0057"
+            xml:id="ox-ms_abinger_c56-0057__Pt2"
             part="coll_B">
       <zone type="main"> 
          <lb/>
@@ -3470,7 +3470,6 @@
          </shi> 17— <lb/>"My dear Cousin<milestone unit="tei:p"/> 
          <lb/>"I cannot describe to you the <w ana="start"/>uneasi</zone>
    </surface>
-      
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
             lrx="5364"
             lry="7104"
@@ -5709,7 +5708,7 @@
             <add place="superlinear">We</add>
          </mod> have not only lost <lb/>that lovely darling boy but this poor girl <lb/>whom I sincerely love, is to be torn</zone>
    </surface>
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+      <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
             lrx="5364"
             lry="7104"
             partOf="#ox-frankenstein_volume_i"
@@ -5718,7 +5717,7 @@
             mith:folio="43r"
             mith:shelfmark="MS. Abinger c. 56"
             xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0091.xml"
-            xml:id="ox-ms_abinger_c56-0091"
+            xml:id="ox-ms_abinger_c56-0091__Pt1"
             part="coll_A">
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0091.jp2"/>
       <zone type="main"> 
@@ -5745,7 +5744,7 @@
             mith:folio="43r"
             mith:shelfmark="MS. Abinger c. 56"
             xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0091.xml"
-            xml:id="ox-ms_abinger_c56-0091"
+            xml:id="ox-ms_abinger_c56-0091__Pt2"
             part="coll_B">
       <zone type="main">
          <milestone unit="tei:p"/> 
@@ -6541,7 +6540,7 @@
          </mod> Cousin! Such were your <lb/>thoughts mild and gentle as your <lb/>dear eyes <del rend="strikethrough">&amp;</del>
          <del rend="strikethrough">gentle tone</del> and voice<unclear>.</unclear> 
          <lb/>but I.—— I was a wretch <del rend="strikethrough">none</del> &amp; <lb/>none ever conceived <del rend="strikethrough">of</del> the misery <lb/>that I then suffered.</zone>
-   </surface> 
+   </surface>
    <anchor type="collate" xml:id="C15"/>     
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
             lrx="5364"
@@ -7968,4 +7967,7 @@
             <add hand="#pbs" place="superlinear">seating myself</add>
          </mod> by the fire which he <lb/>lighted he thus <del rend="strikethrough">began</del> began his tale.</zone>
    </surface>
+      
+      
+          
     </xml>

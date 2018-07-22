@@ -28,7 +28,7 @@ exclude-result-prefixes="#all"
                 <xsl:element name="{local-name()}">  
                     <xsl:attribute name="n">
                         <xsl:value-of select="substring-after(ancestor::surface/@xml:id, 'ox-ms_abinger_')"/><xsl:text>__main__</xsl:text>
-                        <xsl:value-of select="count(preceding-sibling::lb) + 1"/>
+                        <xsl:value-of select="count(preceding-sibling::lb) + (preceding-sibling::gap[@reason='resequencing' and @unit='lines']/@quantity, 0)[1] + 1"/>
                     </xsl:attribute>
                     <xsl:apply-templates/>
                 </xsl:element>
@@ -39,7 +39,7 @@ exclude-result-prefixes="#all"
                         <xsl:value-of select="substring-after(ancestor::surface/@xml:id, 'ox-ms_abinger_')"/><xsl:text>__</xsl:text>
                         <xsl:value-of select="parent::zone/@type"/>
                         <xsl:text>__</xsl:text>
-                        <xsl:value-of select="count(preceding-sibling::lb) + 1"/>
+                        <xsl:value-of select="count(preceding-sibling::lb) + (preceding-sibling::gap[@reason='resequencing' and @unit='lines']/@quantity, 0)[1] + 1"/>
                     </xsl:attribute>
                     <xsl:apply-templates/>
                 </xsl:element>
