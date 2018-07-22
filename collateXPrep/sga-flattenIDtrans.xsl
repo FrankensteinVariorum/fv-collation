@@ -7,7 +7,7 @@ exclude-result-prefixes="#all"
    <xsl:output method="xml" indent="no"/>
     <xsl:template match="@* | node()">
         <xsl:copy copy-namespaces="no">
-            <xsl:apply-templates select="@* | node()"/>
+            <xsl:apply-templates select="@* | node()[not(namespace::*)]"/>
         </xsl:copy>
     </xsl:template>
     <xsl:variable name="msColl-full" as="document-node()+" select="collection('msColl-full')"/>
@@ -49,7 +49,11 @@ exclude-result-prefixes="#all"
     
     <xsl:template match="surface">
         <xsl:element name="{local-name()}">
-            <xsl:copy-of select="@*"/>
+            <xsl:for-each select="@*">
+                <xsl:attribute name="{local-name()}">
+                    <xsl:value-of select="."/>
+                </xsl:attribute>
+            </xsl:for-each>
             <xsl:attribute name="sID">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>    
@@ -69,7 +73,7 @@ exclude-result-prefixes="#all"
       </xsl:variable>  
         
         <xsl:element name="{local-name()}">
-            <xsl:copy-of select="@*"/>
+            <xsl:copy-of select="@*" copy-namespaces="no"/>
             <xsl:attribute name="sID">
  <xsl:value-of select="$locFlag"/>
             </xsl:attribute>    
@@ -86,7 +90,7 @@ exclude-result-prefixes="#all"
             <xsl:value-of select="substring-after(ancestor::surface/@xml:id, 'abinger_')"/><xsl:text>__</xsl:text><xsl:value-of select="ancestor::zone[1]/@type"/><xsl:text>__</xsl:text><xsl:value-of select="generate-id(.)"/> 
         </xsl:variable>  
         <xsl:element name="{local-name()}">
-            <xsl:copy-of select="@*"/>
+            <xsl:copy-of select="@*" copy-namespaces="no"/>
             <xsl:attribute name="sID">
                 <xsl:value-of select="$locFlag"/>
             </xsl:attribute>
