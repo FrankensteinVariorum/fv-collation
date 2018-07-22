@@ -2,8 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" 
     version="3.0">
-    <!--2018-07-10 ebb: Run this second in the process of flattening the SGA files. Run it over the msColl_fullFlat files after you've planted the sgaMSLocator @n flags on the lb elements.-->
-    <!--2018-07-20 ebb: This stylesheet now sets "trojan-horse" style start and end markers with @th:sID and @th:eID on the elements as they are being flattened. (We used to use xml:ids with flags planted at the ends of the attribute values, but this wqs not optimal.) On up-conversion, we can convert the trojan-horse marker elements back into xml:ids again. -->
+    <!--2018-07-20 ebb: This stylesheet plants "location flags" on <lb/> elements to mark their XPath position, and it sets "trojan-horse" style start and end markers with @th:sID and @th:eID on other elements as they are being flattened. On up-conversion following collation, we may convert the trojan-horse marker elements back into xml:ids again, should we decide to build from our S-GA "bridge" files. -->
    <xsl:output method="xml" indent="no"/>
     <!--<xsl:template match="@* | node()">
         <xsl:copy copy-namespaces="no">
@@ -47,13 +46,7 @@
             </xsl:when>
         </xsl:choose> 
     </xsl:template>
-   <xsl:template match="pitt:mdel">
-       <xsl:element name="{local-name()}">
-           <xsl:copy-of select="@*"/>
-           <xsl:apply-templates/>
-       </xsl:element>
-    </xsl:template>
-
+    
     <xsl:template match="surface">
         <xsl:element name="{local-name()}">
             <xsl:copy-of select="@*"/>
@@ -105,22 +98,4 @@
             </xsl:attribute>   
            </xsl:element>   
     </xsl:template>
-    
-    <!--2018-05-09 ebb: I wanted to suppress output namespaces that are propagating on these elements: -->
-<!--  <xsl:template match="lb">
-        <xsl:copy copy-namespaces="no">
-            <xsl:attribute name="n"><xsl:value-of select="@n"/></xsl:attribute> 
-        </xsl:copy>
-    </xsl:template>
-    <xsl:template match="w">
-        <xsl:copy copy-namespaces="no">
-            <xsl:attribute name="ana"><xsl:value-of select="@ana"/></xsl:attribute> 
-        </xsl:copy>
-    </xsl:template>
-    <xsl:template match="anchor">
-        <xsl:copy copy-namespaces="no">
-            
-        </xsl:copy>
-    </xsl:template>-->
-  
 </xsl:stylesheet>

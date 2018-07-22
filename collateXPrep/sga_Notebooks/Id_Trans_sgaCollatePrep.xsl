@@ -21,7 +21,7 @@
             <xsl:variable name="currFile" as="xs:string">
         <xsl:value-of select="concat('msColl', tokenize(base-uri(.), '/')[last()] ! substring-before(., '_PreCollate.xml') ! substring-after(., 'msCollPrep'))"/>
             </xsl:variable> 
-            <xsl:result-document method="xml" indent="yes" href="../msColl-fullFlat/{$currFile}Flat.xml">
+            <xsl:result-document method="xml" indent="yes" href="../msColl-full/{$currFile}.xml">
                 <xml>
                     <xsl:namespace name="pitt" select="'https://github.com/ebeshero/Pittsburgh_Frankenstein'"/> 
                     <xsl:namespace name="xs" select="'http://www.w3.org/2001/XMLSchema'"/>

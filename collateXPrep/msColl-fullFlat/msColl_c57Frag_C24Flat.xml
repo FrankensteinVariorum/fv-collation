@@ -12,45 +12,58 @@
             mith:folio="39r"
             mith:shelfmark="MS. Abinger c. 57"
             xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0077.xml"
-            xml:id="ox-ms_abinger_c57-0077">
+            xml:id="ox-ms_abinger_c57-0077"
+            th:sID="ox-ms_abinger_c57-0077"/>
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0077.jp2"/>
-      <zone type="main"> 
-         <lb/>I was lost in conjecture as to the cause <lb/>of this but yesterday <del rend="strikethrough">t</del> an idea struck <lb/>me and if it is well founded I conjure <lb/>you to avow it <del rend="strikethrough">to me.</del>
-             <del rend="strikethrough">For</del> secresy on <lb/>such a point would <add hand="#pbs" place="superlinear">not only</add> be useless <del next="#c57-0077.02" rend="strikethrough">&amp; only</del>
-         <add hand="#pbs" next="#c57-0077.03" place="superlinear">but</add> 
-         <lb/>
-         <del rend="strikethrough" xml:id="c57-0077.02">bring</del>
-         <add hand="#pbs" place="superlinear" xml:id="c57-0077.03">draw</add>
+      <zone type="main" th:sID="c57-0077__main"/> 
+         <lb n="c57-0077__main__1"/>I was lost in conjecture as to the cause <lb n="c57-0077__main__2"/>of this but yesterday <del rend="strikethrough" th:sID="c57-0077__main__d5e15"/>t<del th:eID="c57-0077__main__d5e15"/> an idea struck <lb n="c57-0077__main__3"/>me and if it is well founded I conjure <lb n="c57-0077__main__4"/>you to avow it <del rend="strikethrough" th:sID="c57-0077__main__d5e23"/>to me.<del th:eID="c57-0077__main__d5e23"/>
+             <del rend="strikethrough" th:sID="c57-0077__main__d5e26"/>For<del th:eID="c57-0077__main__d5e26"/> secresy on <lb n="c57-0077__main__5"/>such a point would <add hand="#pbs" place="superlinear" th:sID="c57-0077__main__d5e31"/>not only<add th:eID="c57-0077__main__d5e31"/> be useless <del next="#c57-0077.02"
+        rend="strikethrough"
+        th:sID="c57-0077__main__d5e34"/>&amp; only<del th:eID="c57-0077__main__d5e34"/>
+         <add hand="#pbs"
+        next="#c57-0077.03"
+        place="superlinear"
+        th:sID="c57-0077__main__d5e37"/>but<add th:eID="c57-0077__main__d5e37"/> 
+         <lb n="c57-0077__main__6"/>
+         <del rend="strikethrough"
+        xml:id="c57-0077.02"
+        th:sID="c57-0077__main__d5e43"/>bring<del th:eID="c57-0077__main__d5e43"/>
+         <add hand="#pbs"
+        place="superlinear"
+        xml:id="c57-0077.03"
+        th:sID="c57-0077__main__d5e46"/>draw<add th:eID="c57-0077__main__d5e46"/>
          <anchor xml:id="c57-077.01"/>
          <anchor xml:id="c57-0077.04"/>
-         <zone corresp="#c57-0077.04" type="left_margin"> 
-            <lb/>
-            <add hand="#pbs">but</add>
-         </zone> down <del instant="true" rend="strikethrough">trem</del> treble
-             misery on us <lb/>all.<milestone unit="tei:p"/> 
-         <lb/>I trembled violently at this exordium, <lb/>and my father continued. <mod>
-             <del rend="strikethrough">It is true, my</del>
-             <add place="sublinear">
+         <zone corresp="#c57-0077.04"
+         type="left_margin"
+         th:sID="c57-0077__left_margin"/> 
+            <lb n="c57-0077__left_margin__1"/>
+            <add hand="#pbs" th:sID="c57-0077__left_margin__d5e57"/>but<add th:eID="c57-0077__left_margin__d5e57"/>
+         <zone th:eID="c57-0077__left_margin"/> down <del instant="true" rend="strikethrough" th:sID="c57-0077__main__d5e62"/>trem<del th:eID="c57-0077__main__d5e62"/> treble
+             misery on us <lb n="c57-0077__main__7"/>all.<milestone unit="tei:p"/> 
+         <lb n="c57-0077__main__8"/>I trembled violently at this exordium, <lb n="c57-0077__main__9"/>and my father continued. <mod th:sID="c57-0077__main__d5e73"/>
+             <del rend="strikethrough" th:sID="c57-0077__main__d5e75"/>It is true, my<del th:eID="c57-0077__main__d5e75"/>
+             <add place="sublinear" th:sID="c57-0077__main__d5e78"/>
                <metamark function="insert">^</metamark>
-            </add>
-             <add place="superlinear">I confess</add>
-          </mod> my <lb/>son, that I have always looked forward <lb/>to your marriage with your cousin <lb/>as the tie of our domestic comfort &amp; <lb/>the stay of my declining years. You<del rend="strikethrough">r</del> were <lb/>attached to <del rend="strikethrough">y</del> each other from your <lb/>earliest infancy; <unclear reason="case">Y</unclear>ou studied together <lb/>and appeared in disposition<add place="intralinear">s</add> &amp; <del rend="strikethrough">in</del> tastes <lb/>entirely suited for one another. But <lb/>so blind is the <del rend="strikethrough">best</del> experience of man <lb/>that what I conceived to be the best <lb/>assistants to my plan may have <lb/>entirely destroyed it,<del rend="strikethrough">–</del> you <mod>
-             <del rend="strikethrough">may</del>
-             <add place="sublinear">
+            <add th:eID="c57-0077__main__d5e78"/>
+             <add place="superlinear" th:sID="c57-0077__main__d5e84"/>I confess<add th:eID="c57-0077__main__d5e84"/>
+          <mod th:eID="c57-0077__main__d5e73"/> my <lb n="c57-0077__main__10"/>son, that I have always looked forward <lb n="c57-0077__main__11"/>to your marriage with your cousin <lb n="c57-0077__main__12"/>as the tie of our domestic comfort &amp; <lb n="c57-0077__main__13"/>the stay of my declining years. You<del rend="strikethrough" th:sID="c57-0077__main__d5e97"/>r<del th:eID="c57-0077__main__d5e97"/> were <lb n="c57-0077__main__14"/>attached to <del rend="strikethrough" th:sID="c57-0077__main__d5e103"/>y<del th:eID="c57-0077__main__d5e103"/> each other from your <lb n="c57-0077__main__15"/>earliest infancy; <unclear reason="case">Y</unclear>ou studied together <lb n="c57-0077__main__16"/>and appeared in disposition<add place="intralinear" th:sID="c57-0077__main__d5e113"/>s<add th:eID="c57-0077__main__d5e113"/> &amp; <del rend="strikethrough" th:sID="c57-0077__main__d5e116"/>in<del th:eID="c57-0077__main__d5e116"/> tastes <lb n="c57-0077__main__17"/>entirely suited for one another. But <lb n="c57-0077__main__18"/>so blind is the <del rend="strikethrough" th:sID="c57-0077__main__d5e124"/>best<del th:eID="c57-0077__main__d5e124"/> experience of man <lb n="c57-0077__main__19"/>that what I conceived to be the best <lb n="c57-0077__main__20"/>assistants to my plan may have <lb n="c57-0077__main__21"/>entirely destroyed it,<del rend="strikethrough" th:sID="c57-0077__main__d5e134"/>–<del th:eID="c57-0077__main__d5e134"/> you <mod th:sID="c57-0077__main__d5e137"/>
+             <del rend="strikethrough" th:sID="c57-0077__main__d5e139"/>may<del th:eID="c57-0077__main__d5e139"/>
+             <add place="sublinear" th:sID="c57-0077__main__d5e142"/>
                <metamark function="insert">^</metamark>
-            </add>
-             <add place="superlinear">perhaps</add>
-          </mod> regard <lb/>her as your sister without any wish <lb/>that she might become your wife. <lb/>Nay you may have met with another <lb/>whom you may love <mod>
-             <del rend="strikethrough">but</del>
-             <add place="sublinear">^</add>
-             <add hand="#pbs" place="superlinear">and</add>
-          </mod> considering <lb/>yourself as bound in honor to you<add place="intralinear">r</add> 
-         <lb/>cousin, this feeling may occasion the <lb/>poignant misery <mod>
-             <del rend="strikethrough">that</del>
-             <add hand="#pbs" place="superlinear">which</add>
-          </mod> you<del rend="strikethrough">r</del> appear to <lb/>feel.<milestone unit="tei:p"/> 
-         <lb/>My dear father, <del rend="strikethrough">replied I,</del> reassure <lb/>yourself. I love my cousin tenderly <lb/>&amp; sincerely. I never saw any woman <lb/>who excited as Elizabeth does my warmest <lb/>admiration &amp; affection. My future hopes <lb/>and prospects are entirely bound up in</zone>
-   </surface>
+            <add th:eID="c57-0077__main__d5e142"/>
+             <add place="superlinear" th:sID="c57-0077__main__d5e148"/>perhaps<add th:eID="c57-0077__main__d5e148"/>
+          <mod th:eID="c57-0077__main__d5e137"/> regard <lb n="c57-0077__main__22"/>her as your sister without any wish <lb n="c57-0077__main__23"/>that she might become your wife. <lb n="c57-0077__main__24"/>Nay you may have met with another <lb n="c57-0077__main__25"/>whom you may love <mod th:sID="c57-0077__main__d5e161"/>
+             <del rend="strikethrough" th:sID="c57-0077__main__d5e163"/>but<del th:eID="c57-0077__main__d5e163"/>
+             <add place="sublinear" th:sID="c57-0077__main__d5e166"/>^<add th:eID="c57-0077__main__d5e166"/>
+             <add hand="#pbs" place="superlinear" th:sID="c57-0077__main__d5e169"/>and<add th:eID="c57-0077__main__d5e169"/>
+          <mod th:eID="c57-0077__main__d5e161"/> considering <lb n="c57-0077__main__26"/>yourself as bound in honor to you<add place="intralinear" th:sID="c57-0077__main__d5e175"/>r<add th:eID="c57-0077__main__d5e175"/> 
+         <lb n="c57-0077__main__27"/>cousin, this feeling may occasion the <lb n="c57-0077__main__28"/>poignant misery <mod th:sID="c57-0077__main__d5e182"/>
+             <del rend="strikethrough" th:sID="c57-0077__main__d5e184"/>that<del th:eID="c57-0077__main__d5e184"/>
+             <add hand="#pbs" place="superlinear" th:sID="c57-0077__main__d5e187"/>which<add th:eID="c57-0077__main__d5e187"/>
+          <mod th:eID="c57-0077__main__d5e182"/> you<del rend="strikethrough" th:sID="c57-0077__main__d5e192"/>r<del th:eID="c57-0077__main__d5e192"/> appear to <lb n="c57-0077__main__29"/>feel.<milestone unit="tei:p"/> 
+         <lb n="c57-0077__main__30"/>My dear father, <del rend="strikethrough" th:sID="c57-0077__main__d5e201"/>replied I,<del th:eID="c57-0077__main__d5e201"/> reassure <lb n="c57-0077__main__31"/>yourself. I love my cousin tenderly <lb n="c57-0077__main__32"/>&amp; sincerely. I never saw any woman <lb n="c57-0077__main__33"/>who excited as Elizabeth does my warmest <lb n="c57-0077__main__34"/>admiration &amp; affection. My future hopes <lb n="c57-0077__main__35"/>and prospects are entirely bound up in<zone th:eID="c57-0077__main"/>
+   <surface th:eID="ox-ms_abinger_c57-0077"/>
     <surface lrx="5138"
             lry="7032"
             partOf="#ox-frankenstein_volume_ii"
@@ -59,36 +72,37 @@
             mith:folio="39v"
             mith:shelfmark="MS. Abinger c. 57"
             xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0078.xml"
-            xml:id="ox-ms_abinger_c57-0078">
+            xml:id="ox-ms_abinger_c57-0078"
+            th:sID="ox-ms_abinger_c57-0078"/>
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0078.jp2"/>
-      <zone type="main"> 
-         <lb/>the expectation of our union.— <lb/>The expression of your sentiments, <mod>
-             <add place="sublinear">
+      <zone type="main" th:sID="c57-0078__main"/> 
+         <lb n="c57-0078__main__1"/>the expectation of our union.— <lb n="c57-0078__main__2"/>The expression of your sentiments, <mod th:sID="c57-0078__main__d5e227"/>
+             <add place="sublinear" th:sID="c57-0078__main__d5e229"/>
                <metamark function="insert">^</metamark>
-            </add>
-             <add place="superlinear">on this subject</add>
-          </mod> my dear Victor, <lb/>
-         <del rend="strikethrough">rejoined my father,</del>
-             <del rend="strikethrough">have restored</del> gives <lb/>me more pleasure than I have <del rend="strikethrough">known</del> 
-         <lb/>for some time <mod>
-             <add place="sublinear">
+            <add th:eID="c57-0078__main__d5e229"/>
+             <add place="superlinear" th:sID="c57-0078__main__d5e235"/>on this subject<add th:eID="c57-0078__main__d5e235"/>
+          <mod th:eID="c57-0078__main__d5e227"/> my dear Victor, <lb n="c57-0078__main__3"/>
+         <del rend="strikethrough" th:sID="c57-0078__main__d5e241"/>rejoined my father,<del th:eID="c57-0078__main__d5e241"/>
+             <del rend="strikethrough" th:sID="c57-0078__main__d5e245"/>have restored<del th:eID="c57-0078__main__d5e245"/> gives <lb n="c57-0078__main__4"/>me more pleasure than I have <del rend="strikethrough" th:sID="c57-0078__main__d5e250"/>known<del th:eID="c57-0078__main__d5e250"/> 
+         <lb n="c57-0078__main__5"/>for some time <mod th:sID="c57-0078__main__d5e255"/>
+             <add place="sublinear" th:sID="c57-0078__main__d5e257"/>
                <metamark function="insert">^</metamark>
-            </add>
-             <add place="superlinear">experienced</add>
-          </mod>. If you feel thus we <lb/>shall assuredly be happy however <w ana="start"/>pre<lb/>sent<w ana="end"/> events may cast a gloom over us.<add place="superlinear">
+            <add th:eID="c57-0078__main__d5e257"/>
+             <add place="superlinear" th:sID="c57-0078__main__d5e263"/>experienced<add th:eID="c57-0078__main__d5e263"/>
+          <mod th:eID="c57-0078__main__d5e255"/>. If you feel thus we <lb n="c57-0078__main__6"/>shall assuredly be happy however <w ana="start"/>pre<lb n="c57-0078__main__7"/>sent<w ana="end"/> events may cast a gloom over us.<add place="superlinear" th:sID="c57-0078__main__d5e276"/>
             <metamark>X</metamark>
-         </add> 
-         <lb/>
+         <add th:eID="c57-0078__main__d5e276"/> 
+         <lb n="c57-0078__main__8"/>
          <delSpan rend="vertical_line" spanTo="#c57-0078.01"/>
-         <del rend="strikethrough">But tell me
-             then what it is that <w ana="start"/>occa</del> 
-         <lb/>sions<w ana="end"/> your present discomfort. Are <lb/>you<del rend="strikethrough">r</del> weary of your slothful life &amp; <lb/>do you wish while you are yet young <lb/>to travel &amp; treasure recollections &amp; <lb/>pleasures for your future years? I <lb/>have thought much of this and am <lb/>come to a resolution that <del rend="strikethrough">y</del> if your <lb/>inclinations so impell you that you <lb/>should accompany Henry Clairval <lb/>in a journey he intends to make to England <lb/>You understand well the language <lb/>of that country and I think no <del instant="true" rend="strikethrough">jou</del>
-             tour <lb/>could be more useful or agreable <lb/>to you.<milestone unit="tei:p"/> 
-         <lb/>Any change of scene was agreable <lb/>to me and I was delighted with the <lb/>idea of spending a year or two away <lb/>from my family during which time <lb/>some event might happen which <lb/>would restore me to them in peace <lb/>&amp; happiness. My promise might <lb/>be fulfilled the monster depart or <lb/>some <del rend="strikethrough">other</del> event <unclear reason="illegible">p</unclear>
-             might take <lb/>place to destroy him &amp; put an end<anchor xml:id="c57-0078.01"/>
-      </zone>
+         <del rend="strikethrough" th:sID="c57-0078__main__d5e287"/>But tell me
+             then what it is that <w ana="start"/>occa<del th:eID="c57-0078__main__d5e287"/> 
+         <lb n="c57-0078__main__9"/>sions<w ana="end"/> your present discomfort. Are <lb n="c57-0078__main__10"/>you<del rend="strikethrough" th:sID="c57-0078__main__d5e298"/>r<del th:eID="c57-0078__main__d5e298"/> weary of your slothful life &amp; <lb n="c57-0078__main__11"/>do you wish while you are yet young <lb n="c57-0078__main__12"/>to travel &amp; treasure recollections &amp; <lb n="c57-0078__main__13"/>pleasures for your future years? I <lb n="c57-0078__main__14"/>have thought much of this and am <lb n="c57-0078__main__15"/>come to a resolution that <del rend="strikethrough" th:sID="c57-0078__main__d5e312"/>y<del th:eID="c57-0078__main__d5e312"/> if your <lb n="c57-0078__main__16"/>inclinations so impell you that you <lb n="c57-0078__main__17"/>should accompany Henry Clairval <lb n="c57-0078__main__18"/>in a journey he intends to make to England <lb n="c57-0078__main__19"/>You understand well the language <lb n="c57-0078__main__20"/>of that country and I think no <del instant="true" rend="strikethrough" th:sID="c57-0078__main__d5e326"/>jou<del th:eID="c57-0078__main__d5e326"/>
+             tour <lb n="c57-0078__main__21"/>could be more useful or agreable <lb n="c57-0078__main__22"/>to you.<milestone unit="tei:p"/> 
+         <lb n="c57-0078__main__23"/>Any change of scene was agreable <lb n="c57-0078__main__24"/>to me and I was delighted with the <lb n="c57-0078__main__25"/>idea of spending a year or two away <lb n="c57-0078__main__26"/>from my family during which time <lb n="c57-0078__main__27"/>some event might happen which <lb n="c57-0078__main__28"/>would restore me to them in peace <lb n="c57-0078__main__29"/>&amp; happiness. My promise might <lb n="c57-0078__main__30"/>be fulfilled the monster depart or <lb n="c57-0078__main__31"/>some <del rend="strikethrough" th:sID="c57-0078__main__d5e355"/>other<del th:eID="c57-0078__main__d5e355"/> event <unclear reason="illegible">p</unclear>
+             might take <lb n="c57-0078__main__32"/>place to destroy him &amp; put an end<anchor xml:id="c57-0078.01"/>
+      <zone th:eID="c57-0078__main"/>
       <note resp="#pbs">I think the journey to England ought to be <pitt:hi rend="underline">Victor's</pitt:hi> proposal.– that he ought to go for the purpose of collecting knowledge, for the formation of a female. He ought to lead his father to this in the conversations–the conversation <pitt:hi rend="underline">commences</pitt:hi> right enough</note>
-   </surface>
+   <surface th:eID="ox-ms_abinger_c57-0078"/>
     <surface lrx="5138"
             lry="7032"
             partOf="#ox-frankenstein_volume_ii"
@@ -97,66 +111,69 @@
             mith:folio="40r"
             mith:shelfmark="MS. Abinger c. 57"
             xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0079.xml"
-            xml:id="ox-ms_abinger_c57-0079">
+            xml:id="ox-ms_abinger_c57-0079"
+            th:sID="ox-ms_abinger_c57-0079"/>
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0079.jp2"/>
-      <zone type="main">
+      <zone type="main" th:sID="c57-0079__main"/>
          <delSpan rend="vertical_line" spanTo="#c57-0079.01"/> 
-         <lb/>to my slavery.<add place="superlinear">
+         <lb n="c57-0079__main__1"/>to my slavery.<add place="superlinear" th:sID="c57-0079__main__d5e387"/>
             <metamark>X</metamark>
-         </add>
-             <del rend="strikethrough">But <unclear extent="1" unit="chars"/>
-         </del>
-             <del rend="strikethrough">But</del>
-             <mod>
-                <del rend="strikethrough">could</del>
-                <del rend="strikethrough">
-               <add place="superlinear">should</add>
-            </del>
-             </mod> I <mod>
-                <add place="sublinear">
+         <add th:eID="c57-0079__main__d5e387"/>
+             <del rend="strikethrough" th:sID="c57-0079__main__d5e393"/>But <unclear extent="1" unit="chars"/>
+         <del th:eID="c57-0079__main__d5e393"/>
+             <del rend="strikethrough" th:sID="c57-0079__main__d5e398"/>But<del th:eID="c57-0079__main__d5e398"/>
+             <mod th:sID="c57-0079__main__d5e402"/>
+                <del rend="strikethrough" th:sID="c57-0079__main__d5e404"/>could<del th:eID="c57-0079__main__d5e404"/>
+                <del rend="strikethrough" th:sID="c57-0079__main__d5e407"/>
+               <add place="superlinear" th:sID="c57-0079__main__d5e409"/>should<add th:eID="c57-0079__main__d5e409"/>
+            <del th:eID="c57-0079__main__d5e407"/>
+             <mod th:eID="c57-0079__main__d5e402"/> I <mod th:sID="c57-0079__main__d5e414"/>
+                <add place="sublinear" th:sID="c57-0079__main__d5e416"/>
                <metamark function="insert">^</metamark>
-            </add>
-                <add place="superlinear">should</add>
-             </mod> leave <lb/>
-         <del rend="strikethrough">Geneva &amp; the fiend beli</del>
-             <del rend="strikethrough">&amp;</del> my friends <lb/>unconscious of the existence of their <lb/>enemy &amp; unprotected from his attacks <lb/>exasperated as he might be by my <w ana="start"/>depar<lb/>ture<w ana="end"/> – But then he had promised to <lb/>follow me every where &amp; might <lb/>he not accompany me to England–the <lb/>thought was dreadful in itself but <lb/>soothing inasmuch as my friends would <lb/>be in safety. <del rend="strikethrough">
-            <add place="superlinear">
+            <add th:eID="c57-0079__main__d5e416"/>
+                <add place="superlinear" th:sID="c57-0079__main__d5e422"/>should<add th:eID="c57-0079__main__d5e422"/>
+             <mod th:eID="c57-0079__main__d5e414"/> leave <lb n="c57-0079__main__2"/>
+         <del rend="strikethrough" th:sID="c57-0079__main__d5e428"/>Geneva &amp; the fiend beli<del th:eID="c57-0079__main__d5e428"/>
+             <del rend="strikethrough" th:sID="c57-0079__main__d5e431"/>&amp;<del th:eID="c57-0079__main__d5e431"/> my friends <lb n="c57-0079__main__3"/>unconscious of the existence of their <lb n="c57-0079__main__4"/>enemy &amp; unprotected from his attacks <lb n="c57-0079__main__5"/>exasperated as he might be by my <w ana="start"/>depar<lb n="c57-0079__main__6"/>ture<w ana="end"/> – But then he had promised to <lb n="c57-0079__main__7"/>follow me every where &amp; might <lb n="c57-0079__main__8"/>he not accompany me to England–the <lb n="c57-0079__main__9"/>thought was dreadful in itself but <lb n="c57-0079__main__10"/>soothing inasmuch as my friends would <lb n="c57-0079__main__11"/>be in safety. <del rend="strikethrough" th:sID="c57-0079__main__d5e458"/>
+            <add place="superlinear" th:sID="c57-0079__main__d5e460"/>
                <metamark function="displacement" xml:id="c57-0079.02">X</metamark>
-               <zone corresp="#c57-0079.02" type="left_margin">
+               <zone corresp="#c57-0079.02"
+         type="left_margin"
+         th:sID="c57-0079__left_margin"/>
                   <addSpan hand="#pbs" spanTo="#c57-0079.03"/> 
-                  <lb/>the thought of <lb/>the possibility<add>
+                  <lb n="c57-0079__left_margin__1"/>the thought of <lb n="c57-0079__left_margin__2"/>the possibility<add th:sID="c57-0079__left_margin__d5e473"/>
                      <metamark function="sequence">5</metamark>
-                  </add> 
-                  <lb/>of the reverse <lb/>must have <lb/>been dreadful<anchor xml:id="c57-0079.03"/>
-               </zone>
-            </add>
-         </del> The thoughts
-             occurred <lb/>rapidly to me &amp; I answered my <w ana="start"/>fa<lb/>ther<w ana="end"/> with eagerness that I should <lb/>be delighted to visit <del instant="true" rend="strikethrough">Engl</del> England <lb/>with Clerval and that <del rend="strikethrough">travel</del> the <lb/>idea of travelling was inchanting to <lb/>me.<milestone unit="tei:p"/>
+                  <add th:eID="c57-0079__left_margin__d5e473"/> 
+                  <lb n="c57-0079__left_margin__3"/>of the reverse <lb n="c57-0079__left_margin__4"/>must have <lb n="c57-0079__left_margin__5"/>been dreadful<anchor xml:id="c57-0079.03"/>
+               <zone th:eID="c57-0079__left_margin"/>
+            <add th:eID="c57-0079__main__d5e460"/>
+         <del th:eID="c57-0079__main__d5e458"/> The thoughts
+             occurred <lb n="c57-0079__main__12"/>rapidly to me &amp; I answered my <w ana="start"/>fa<lb n="c57-0079__main__13"/>ther<w ana="end"/> with eagerness that I should <lb n="c57-0079__main__14"/>be delighted to visit <del instant="true" rend="strikethrough" th:sID="c57-0079__main__d5e502"/>Engl<del th:eID="c57-0079__main__d5e502"/> England <lb n="c57-0079__main__15"/>with Clerval and that <del rend="strikethrough" th:sID="c57-0079__main__d5e508"/>travel<del th:eID="c57-0079__main__d5e508"/> the <lb n="c57-0079__main__16"/>idea of travelling was inchanting to <lb n="c57-0079__main__17"/>me.<milestone unit="tei:p"/>
          <delSpan rend="vertical_line" spanTo="#c57-0079.04"/> 
-         <lb/>Your <del instant="true" rend="strikethrough">journey</del> travels, said
-             my <lb/>father, will occupy the space of <lb/>two years– on your return you <lb/>
-         <del rend="strikethrough">shall be united to your cousin</del>
+         <lb n="c57-0079__main__18"/>Your <del instant="true" rend="strikethrough" th:sID="c57-0079__main__d5e522"/>journey<del th:eID="c57-0079__main__d5e522"/> travels, said
+             my <lb n="c57-0079__main__19"/>father, will occupy the space of <lb n="c57-0079__main__20"/>two years– on your return you <lb n="c57-0079__main__21"/>
+         <del rend="strikethrough" th:sID="c57-0079__main__d5e531"/>shall be united to your cousin<del th:eID="c57-0079__main__d5e531"/>
          <anchor xml:id="c57-0079.04"/>
          <milestone unit="tei:p"/> 
-         <lb/>Our plan was soon arranged. <lb/>I should travel to Strasburgh where <lb/>Clerval would join me &amp; we <lb/>should proceed down the Rhine <lb/>together.<del rend="strikethrough">
-            <add place="superlinear">
+         <lb n="c57-0079__main__22"/>Our plan was soon arranged. <lb n="c57-0079__main__23"/>I should travel to Strasburgh where <lb n="c57-0079__main__24"/>Clerval would join me &amp; we <lb n="c57-0079__main__25"/>should proceed down the Rhine <lb n="c57-0079__main__26"/>together.<del rend="strikethrough" th:sID="c57-0079__main__d5e550"/>
+            <add place="superlinear" th:sID="c57-0079__main__d5e552"/>
                <unclear reason="illegible">tow</unclear>
-            </add>
-         </del> Some short time would <lb/>be spent in the towns of Holland <lb/>&amp; many months in England. We were <lb/>to return by france &amp; it was <w ana="start"/>sup<lb/>posed<w ana="end"/> that this tour would occupy <lb/>the space of two years. My father <lb/>pleased himself with the reflection <lb/>that I should be united to <w ana="start"/>Eliza<lb/>beth<w ana="end"/> immediately on my return<anchor xml:id="c57-0079.01"/>
-      </zone>
-      <zone type="left_margin"> 
-         <lb/>
-         <add>
+            <add th:eID="c57-0079__main__d5e552"/>
+         <del th:eID="c57-0079__main__d5e550"/> Some short time would <lb n="c57-0079__main__27"/>be spent in the towns of Holland <lb n="c57-0079__main__28"/>&amp; many months in England. We were <lb n="c57-0079__main__29"/>to return by france &amp; it was <w ana="start"/>sup<lb n="c57-0079__main__30"/>posed<w ana="end"/> that this tour would occupy <lb n="c57-0079__main__31"/>the space of two years. My father <lb n="c57-0079__main__32"/>pleased himself with the reflection <lb n="c57-0079__main__33"/>that I should be united to <w ana="start"/>Eliza<lb n="c57-0079__main__34"/>beth<w ana="end"/> immediately on my return<anchor xml:id="c57-0079.01"/>
+      <zone th:eID="c57-0079__main"/>
+      <zone type="left_margin" th:sID="c57-0079__left_margin"/> 
+         
+         <add th:sID="c57-0079__left_margin__d5e592"/>
             <metamark function="sequence">3</metamark>
-         </add>
-      </zone>
-      <zone type="left_margin"> 
-         <lb/>
-         <add>
+         <add th:eID="c57-0079__left_margin__d5e592"/>
+      <zone th:eID="c57-0079__left_margin"/>
+      <zone type="left_margin" th:sID="c57-0079__left_margin"/> 
+         
+         <add th:sID="c57-0079__left_margin__d5e603"/>
             <metamark>X</metamark>
-         </add>
-      </zone>
-   </surface>
+         <add th:eID="c57-0079__left_margin__d5e603"/>
+      <zone th:eID="c57-0079__left_margin"/>
+   <surface th:eID="ox-ms_abinger_c57-0079"/>
     <surface lrx="5138"
             lry="7032"
             partOf="#ox-frankenstein_volume_ii"
@@ -165,42 +182,43 @@
             mith:folio="40v"
             mith:shelfmark="MS. Abinger c. 57"
             xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0080.xml"
-            xml:id="ox-ms_abinger_c57-0080">
+            xml:id="ox-ms_abinger_c57-0080"
+            th:sID="ox-ms_abinger_c57-0080"/>
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0080.jp2"/>
-      <zone type="main">
+      <zone type="main" th:sID="c57-0080__main"/>
          <delSpan rend="vertical_line" spanTo="#c57-0080.01"/> 
-         <lb/>to Geneva. These two years, said he, will pass <lb/>swiftly and it will be the last delay that will <lb/>oppose itself to your happiness. How do I long <lb/>for that time when we shall be all <lb/>united and <mod>
-             <add>
+         <lb n="c57-0080__main__1"/>to Geneva. These two years, said he, will pass <lb n="c57-0080__main__2"/>swiftly and it will be the last delay that will <lb n="c57-0080__main__3"/>oppose itself to your happiness. How do I long <lb n="c57-0080__main__4"/>for that time when we shall be all <lb n="c57-0080__main__5"/>united and <mod th:sID="c57-0080__main__d5e630"/>
+             <add th:sID="c57-0080__main__d5e632"/>
                <metamark function="insert">^</metamark>
-            </add>
-             <add place="superlinear">neither</add>
-          </mod> hopes or fears <mod>
-             <del rend="strikethrough">will</del>
-             <add place="sublinear">
+            <add th:eID="c57-0080__main__d5e632"/>
+             <add place="superlinear" th:sID="c57-0080__main__d5e638"/>neither<add th:eID="c57-0080__main__d5e638"/>
+          <mod th:eID="c57-0080__main__d5e630"/> hopes or fears <mod th:sID="c57-0080__main__d5e642"/>
+             <del rend="strikethrough" th:sID="c57-0080__main__d5e644"/>will<del th:eID="c57-0080__main__d5e644"/>
+             <add place="sublinear" th:sID="c57-0080__main__d5e647"/>
                <metamark function="insert">^</metamark>
-            </add>
-             <add place="superlinear">arise</add>
-          </mod> destroy our <lb/>domestic felicity. <milestone unit="tei:p"/>
-           <lb/>I am content, I replied, with your  <lb/>arrangement. By that time we shall <lb/>both have become wiser &amp; I hope happier <lb/>than we are now. I sigh<mod>
+            <add th:eID="c57-0080__main__d5e647"/>
+             <add place="superlinear" th:sID="c57-0080__main__d5e653"/>arise<add th:eID="c57-0080__main__d5e653"/>
+          <mod th:eID="c57-0080__main__d5e642"/> destroy our <lb n="c57-0080__main__6"/>domestic felicity. <milestone unit="tei:p"/>
+           <lb n="c57-0080__main__7"/>I am content, I replied, with your  <lb n="c57-0080__main__8"/>arrangement. By that time we shall <lb n="c57-0080__main__9"/>both have become wiser &amp; I hope happier <lb n="c57-0080__main__10"/>than we are now. I sigh<mod th:sID="c57-0080__main__d5e670"/>
              <pitt:mdel>t</pitt:mdel>
-             <add place="intralinear">e</add>
-          </mod>d. But my father <lb/>kindly forebore to question me concerning <lb/>the cause of my dejection. He hoped that <lb/>new scenes &amp; the amusement of travelling <lb/>would restore my tranquility<add place="intralinear">
+             <add place="intralinear" th:sID="c57-0080__main__d5e675"/>e<add th:eID="c57-0080__main__d5e675"/>
+          <mod th:eID="c57-0080__main__d5e670"/>d. But my father <lb n="c57-0080__main__11"/>kindly forebore to question me concerning <lb n="c57-0080__main__12"/>the cause of my dejection. He hoped that <lb n="c57-0080__main__13"/>new scenes &amp; the amusement of travelling <lb n="c57-0080__main__14"/>would restore my tranquility<add place="intralinear" th:sID="c57-0080__main__d5e688"/>
             <metamark>X</metamark>
-         </add>
+         <add th:eID="c57-0080__main__d5e688"/>
          <anchor xml:id="c57-0080.01"/>
          <milestone unit="tei:p"/> 
-         <lb/>It was in the latter end of August <lb/>that I departed to pass two years of exile. <lb/>
-         <del type="strikethrough">M</del> Elizabeth approved of the reasons of my <lb/>departure and only regretted that she <lb/>had not the same opportunities of <w ana="start"/>enlarg<lb/>ing<w ana="end"/> her experience &amp; cultivating her <lb/>understanding –She wept however as she <lb/>bade me farewell and entreated to return <lb/>happy &amp; tranquil. We all, said she, depend <lb/>upon you, &amp; if you are miserable <lb/>what must be our feelings?<milestone unit="tei:p"/> 
-         <lb/>I threw myself into the carriage <lb/>that was to conve<retrace cause="unclear">y</retrace> me away hardly <lb/>knowing <mod>
-             <del rend="strikethrough">where</del>
-             <add place="sublinear">
+         <lb n="c57-0080__main__15"/>It was in the latter end of August <lb n="c57-0080__main__16"/>that I departed to pass two years of exile. <lb n="c57-0080__main__17"/>
+         <del type="strikethrough" th:sID="c57-0080__main__d5e705"/>M<del th:eID="c57-0080__main__d5e705"/> Elizabeth approved of the reasons of my <lb n="c57-0080__main__18"/>departure and only regretted that she <lb n="c57-0080__main__19"/>had not the same opportunities of <w ana="start"/>enlarg<lb n="c57-0080__main__20"/>ing<w ana="end"/> her experience &amp; cultivating her <lb n="c57-0080__main__21"/>understanding –She wept however as she <lb n="c57-0080__main__22"/>bade me farewell and entreated to return <lb n="c57-0080__main__23"/>happy &amp; tranquil. We all, said she, depend <lb n="c57-0080__main__24"/>upon you, &amp; if you are miserable <lb n="c57-0080__main__25"/>what must be our feelings?<milestone unit="tei:p"/> 
+         <lb n="c57-0080__main__26"/>I threw myself into the carriage <lb n="c57-0080__main__27"/>that was to conve<retrace cause="unclear">y</retrace> me away hardly <lb n="c57-0080__main__28"/>knowing <mod th:sID="c57-0080__main__d5e742"/>
+             <del rend="strikethrough" th:sID="c57-0080__main__d5e744"/>where<del th:eID="c57-0080__main__d5e744"/>
+             <add place="sublinear" th:sID="c57-0080__main__d5e747"/>
                <metamark function="insert">^</metamark>
-            </add>
-             <add place="superlinear">whither</add>
-          </mod> I was going &amp; careless of <lb/>what was passing around. I remembered <lb/>only, and it was with a bitter anguish <lb/>that I reflected on it, to order that my <lb/>chemical instruments should be packed <lb/>to go with me. For I resolved to fulfil <lb/>my promise while abroard &amp; return if <lb/>possible a free man. Filled with</zone>
-      <zone type="left_margin"> 
-         <lb/>
+            <add th:eID="c57-0080__main__d5e747"/>
+             <add place="superlinear" th:sID="c57-0080__main__d5e753"/>whither<add th:eID="c57-0080__main__d5e753"/>
+          <mod th:eID="c57-0080__main__d5e742"/> I was going &amp; careless of <lb n="c57-0080__main__29"/>what was passing around. I remembered <lb n="c57-0080__main__30"/>only, and it was with a bitter anguish <lb n="c57-0080__main__31"/>that I reflected on it, to order that my <lb n="c57-0080__main__32"/>chemical instruments should be packed <lb n="c57-0080__main__33"/>to go with me. For I resolved to fulfil <lb n="c57-0080__main__34"/>my promise while abroard &amp; return if <lb n="c57-0080__main__35"/>possible a free man. Filled with<zone th:eID="c57-0080__main"/>
+      <zone type="left_margin" th:sID="c57-0080__left_margin"/> 
+         
          <metamark function="sequence">4</metamark>
-      </zone>
-   </surface>
+      <zone th:eID="c57-0080__left_margin"/>
+   <surface th:eID="ox-ms_abinger_c57-0080"/>
 </xml>

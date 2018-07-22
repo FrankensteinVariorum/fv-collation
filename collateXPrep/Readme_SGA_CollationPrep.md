@@ -6,7 +6,7 @@ This Readme describes the pre-processing and processing stages to prepare the Sh
 ![How the Bodleian Library Frankenstein ms notebooks  align as collation units with the full novel as published](SGA-collAlignOverview.png)
 
 ## I. Pre-processing
-The pre-processing stage involves making changes to the original S-GA files necessary to make it comparable with the other editions in the collation process. Changes include 1) resequencing margin annotations, 2) commenting out elements that pose obstacles for collation, and 3) adding "word boundary markup" to indicate when whole words are split around line boundaries.
+The pre-processing stage involves editing the encoding of the original S-GA files to make it comparable with the other source editions of *Frankenstein* in the collation process. Changes include 1) resequencing margin annotations, 2) commenting out elements that pose obstacles for collation, and 3) adding collation alignment markers and "word boundary markup" to indicate when whole words are split around line boundaries.
 
 ### A. Resequencing
 The original notebook files from S-GA are located in `sga_Notebooks/orig_notebooks`. When we began work with these files, we needed to **resequence** their content, because edits made in the margins of each page were positioned at the end of the page. A pipeline process represented in the three XSLT files: 
@@ -22,8 +22,12 @@ Following this process, another XSLT transformation, `sga_Notebooks/Id_Trans_com
 
 The output of these pre-processing stages (A. and B.) are the files named **`sga_Notebooks/msCollPrep_c**.xml`**.
 
-### C. Adding word-boundary markup
-We now work with the files named `sga_Notebooks/msCollPrep_c**.xml` to apply `<w>` elements to demarcate when whole words are broken around the `<line>....</line>` structure of the S-GA notebook files. We produced a modified version of the original S-GA ODD file here: `sga_Notebooks/sga_schemata/shelley-godwin-Pgh.odd` from which we generated a modified Relax-NG schema to govern these files, to help guide our work and prevent us from introducing errors as we add new markup. (Please ensure that the schema lines are associated and functioning in this stage of pre-processing.)
+### C. Adding collation alignment markers and word-boundary markup
+In this stage, we work manually with the files named `sga_Notebooks/msCollPrep_c**.xml`, and we developed project schema files to guide this stage of work. We produced a modified version of the original S-GA ODD file here: `sga_Notebooks/sga_schemata/shelley-godwin-Pgh.odd` from which we generated a modified Relax-NG schema to govern these files, to help guide our work and prevent us from introducing errors as we add new markup. (Please ensure that the schema lines are associated and functioning in this stage of pre-processing.)
+
+We begin the manual editing by marking at what moments the S-GA files share common alignments with the other source texts in the Frankenstein collation. We determined and marked 33 alignment points, and we marked these with `<anchor type="collate" xml:id="C**">` to mark the start of each new collation "chunk" to be processed with a compatible chunk with the same `@xml:id` in the other source edition documents. 
+
+We then slowly reviewed the file encoding concentrating on the strings of text surrounding the `<line>` elements. When whole words are broken around the `<line>....</line>` structure, we applied `<w>` elements to demarcate when . 
 
 We add word boundary markup using self-closing marker elements, thus: `<w ana="start"/>...<w ana="end"/></line><line>...</w>` 
 Note that by policy, **we remove hyphens that only mark work breakage** because these are not semantically relevant to our collation of variants. 
@@ -84,7 +88,10 @@ The output of this process is saved in the `msColl-fullFlat` directory and is na
 * Output directory: `msColl-fullFlat`
 
 ### D. Chunking
-The six flattened files are now "chunked" according to 33 common alignment positions between all editions of the novel. Not every witness is present from the S-GA files. All witnesses must be present at all points for the computer-automated collation process to run. Where witness chunks are missing in S-GA, we have prepared empty "dummy" files required for the collation process. 
+The six files in `msColl-fullFlat` are now "chunked" according to 33 common alignment positions between all editions of the novel. 
+
+
+Not every witness is present from the S-GA files, as we demonstrated in the figure above: S-GA has no material representing the first six collation units, and begins at collation unit 7. All witnesses must be present at all points for the computer-automated collation process to run. Where witness chunks are missing in S-GA, we have prepared empty "dummy" files required for the collation process. 
 
 1. 
 
