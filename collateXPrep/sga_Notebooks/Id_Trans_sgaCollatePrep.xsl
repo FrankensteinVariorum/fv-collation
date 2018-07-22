@@ -4,12 +4,16 @@
     exclude-result-prefixes="xs"
     version="3.0">
 <!--2018-07-09 updated 2018-07-21 ebb: 
-        We were namespacing new elements but have determined that namespaces are a bad idea for the collation process (every element is output in its original namespaces, and we were making three of them). We were preparing pitt:mdel elements, but these are now just mdel elements. And pitt:hi will become just shi elements. We'll need to apply namespaces to the output. 
+        We were namespacing new elements but have determined that namespaces are a bad idea for the collation process (every element is output in its original namespaces, and we were making three of them). We were preparing pitt:mdel elements, but these are now just mdel elements. And pitt:hi will become just shi elements. Eventually, we can apply namespaces to the collation output. 
         
      2018-07-09:   This stylesheet prepares sga files for their pre-collation state: It changes line elements into self-closed <lb/> elements and removes elements unnecessary for the collation. It also marks <del> elements inside <mod> that contain two characters or less and gives them a special pitt:mdel element so that they may be screened from the collation process (but still output because we need them), while their counterpart del elements are preserved for full comparison. It also recodes the `<hi>` elements as `<pitt:hi>` so that these may be treated specially in the collation process.
         Run it on the msCollPrep_c??_PreCollate.xml files in the sga-Notebooks directory (prepared without namespaces and with simple xml root elements), and output becomes the msColl files in the directory above (collateXPrep). Apply carefully to the right files: some sga Notebook files are fragments of c57 and c58: be sure to find the right ones to transform and name appropriately on the other side.
     Following this stage of preparation, the msColl files will be "chunked" into collation units and filed in their respective folders. Again, this is a complicated process because of the fragmented state of the notebooks. Collation with collateX requires that the files present from each witness to be compared in a given directory be equal in number.-->
-<xsl:mode on-no-match="shallow-copy"/> 
+    <xsl:template match="@* | node()">
+        <xsl:copy copy-namespaces="no">
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
    <xsl:strip-space elements="surface zone"/><!-- ebb: 
         This effectively removes spaces in between w elements marking words broken around line-breaks. -->  
 <!--INEFFECTIVE: <xsl:template match="text()[preceding-sibling::w[@ana='start'][1]]">

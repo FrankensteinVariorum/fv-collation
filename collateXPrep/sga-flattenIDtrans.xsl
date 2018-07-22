@@ -5,12 +5,11 @@ exclude-result-prefixes="#all"
     version="3.0">
     <!--2018-07-20 ebb: This stylesheet plants "location flags" on <lb/> elements to mark their XPath position, and it sets "trojan-horse" style start and end markers with @th:sID and @th:eID on other elements as they are being flattened. On up-conversion following collation, we may convert the trojan-horse marker elements back into xml:ids again, should we decide to build from our S-GA "bridge" files. -->
    <xsl:output method="xml" indent="no"/>
-    <!--<xsl:template match="@* | node()">
+    <xsl:template match="@* | node()">
         <xsl:copy copy-namespaces="no">
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
-    </xsl:template>-->
-    <xsl:mode on-no-match="shallow-copy"/>
+    </xsl:template>
     <xsl:variable name="msColl-full" as="document-node()+" select="collection('msColl-full')"/>
     <xsl:template match="/">
         <xsl:for-each select="$msColl-full//xml">
