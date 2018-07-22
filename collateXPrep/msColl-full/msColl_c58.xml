@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xml xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-     xmlns:mith="http://mith.umd.edu/sc/ns1#"
-     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+<xml>
       
       <anchor type="collate" xml:id="C29"/>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -18,19 +16,20 @@
       <zone type="main">
          <handShift medium="pen" new="#mws"/> 
          <lb/>satisfied that nothing on earth will have the power <lb/>to interrupt my tranquility.<milestone unit="tei:p"/> 
-         <lb/>Do not let this letter disturb you; do not <lb/>answer it tomorrow or the next day or even untill <lb/>you come if it will give you pain. My uncle will <lb/>send me news of your health and if I see but <lb/>one smile on your lips when we meet occasioned <lb/>by this or any other <del rend="strikethrough">happ</del> exertion of mine I <lb/>shall need no other happiness; <lb/>E<pitt:hi rend="underline">liz<pitt:hi rend="double-underline">abeth</pitt:hi>
-         </pitt:hi>
-         <pitt:hi rend="underline">L<pitt:hi rend="double-underline">avenz</pitt:hi>
-         </pitt:hi>a <lb/>Geneva <lb/>
-         <del instant="true" rend="strikethrough">April</del> May 18<pitt:hi rend="underline">
-            <pitt:hi rend="sup">th</pitt:hi>
-         </pitt:hi>
-         <pitt:hi rend="underline">17—— </pitt:hi>
+         <lb/>Do not let this letter disturb you; do not <lb/>answer it tomorrow or the next day or even untill <lb/>you come if it will give you pain. My uncle will <lb/>send me news of your health and if I see but <lb/>one smile on your lips when we meet occasioned <lb/>by this or any other <del rend="strikethrough">happ</del> exertion of mine I <lb/>shall need no other happiness; <lb/>E<shi rend="underline">liz<shi rend="double-underline">abeth</shi>
+         </shi>
+         <shi rend="underline">L<shi rend="double-underline">avenz</shi>
+         </shi>a <lb/>Geneva <lb/>
+         <del instant="true" rend="strikethrough">April</del> May 18<shi rend="underline">
+            <shi rend="sup">th</shi>
+         </shi>
+         <shi rend="underline">17—— </shi>
          <milestone unit="tei:p"/> 
-         <lb/>This letter revived in my memory what I had <lb/>before forgotten, the <del rend="strikethrough">tr</del> threat of the fiend.– <pitt:hi rend="underline">I will b</pitt:hi>e <lb/>
-         <pitt:hi rend="underline">with you on your wedding night!</pitt:hi> Such was my</zone>
+         <lb/>This letter revived in my memory what I had <lb/>before forgotten, the <del rend="strikethrough">tr</del> threat of the fiend.– <shi rend="underline">I will b</shi>e <lb/>
+         <shi rend="underline">with you on your wedding night!</shi> Such was my</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -43,7 +42,7 @@
       <zone type="main"> 
          <lb/>sentence, and on that night would the dæmon employ <lb/>every art to destroy me and tear me from the <lb/>
          <mod>
-                <pitt:mdel>p</pitt:mdel>
+                <mdel>p</mdel>
                 <add>
                <metamark function="insert">^</metamark>
             </add>
@@ -63,7 +62,8 @@
             alas! <lb/>balanced by the horrors of remorse and guilt <lb/>which would pursue me untill death.<milestone unit="tei:p"/> 
          <lb/>Sweet and beloved Elizabeth! I read and <w ana="start"/>re-<lb/>read<w ana="end"/> her letter and some softened feelings stole</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -85,9 +85,9 @@
             <add place="sublinear">
                <metamark function="insert">^</metamark>
             </add>
-            <pitt:mdel>
+            <mdel>
                <add place="intralinear">s</add>
-            </pitt:mdel>
+            </mdel>
          </mod>
          <mod>
             <add place="sublinear">
@@ -97,7 +97,8 @@
          </mod> life or death to the happiness of my cousin.<milestone unit="tei:p"/> 
          <lb/>My dear Victor do not speak thus. Heavy <lb/>misfortunes have befallen us, but let us only cling <lb/>closer to what remains and transfer our love for <lb/>those whom we have lost <del rend="strikethrough">wh</del> to those who yet <lb/>live. Our circle will be small but bound close <lb/>by the ties of affection and mutual misfortune-</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -110,16 +111,17 @@
       <zone type="main"> 
          <lb/>and when time shall have softened your despair <lb/>new and dear cares will be <del rend="strikethrough">to</del> born to replace those
       of <lb/>whom we have been so cruelly deprived."<milestone unit="tei:p"/> 
-         <lb/>Such were the lessons of my father; but to <lb/>me the remembrance of the threat returned nor <lb/>can you wonder that omnipotent as the fiend <lb/>had yet been in his deeds of blood I should almost  <lb/>regard him as invincible, and that when <add hand="#comp" place="superlinear">he</add> had <lb/>pronounced the words, <pitt:hi rend="underline">I <del instant="true" rend="strikethrough">will</del> shall be with you</pitt:hi> 
+         <lb/>Such were the lessons of my father; but to <lb/>me the remembrance of the threat returned nor <lb/>can you wonder that omnipotent as the fiend <lb/>had yet been in his deeds of blood I should almost  <lb/>regard him as invincible, and that when <add hand="#comp" place="superlinear">he</add> had <lb/>pronounced the words, <shi rend="underline">I <del instant="true" rend="strikethrough">will</del> shall be with you</shi> 
          <lb/>
-         <pitt:hi rend="underline">on your wedding night</pitt:hi>, I should regard the  <lb/>threatened fate as unavoidable. But death was  <lb/>no evil to me if the loss of Elizabeth were balanced <lb/>with it and I therefore with a conten<mod>
-            <pitt:mdel>d</pitt:mdel>
+         <shi rend="underline">on your wedding night</shi>, I should regard the  <lb/>threatened fate as unavoidable. But death was  <lb/>no evil to me if the loss of Elizabeth were balanced <lb/>with it and I therefore with a conten<mod>
+            <mdel>d</mdel>
             <add place="intralinear">t</add>
          </mod>ed and even <lb/>cheerful countenance agreed with my father <lb/>that if my cousin would consent the ceremony <lb/>should take place in ten days; and thus put as I <lb/>imagined the seal to my fate.<milestone unit="tei:p"/> 
          <lb/>Great God! If for one instant I had though<add place="intralinear">t</add> 
          <lb/>what might be the hellish intention of my fiendish</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -141,7 +143,8 @@
       marriage drew <lb/>nearer <del instant="true" rend="strikethrough">wh</del>
          <del instant="true" rend="strikethrough">wh</del> whether from cowardice or a prophetic <lb/>feeling, I felt my heart sink within me. But I concealed <lb/>my feelings by <del rend="strikethrough">b</del> an appearance of hilarity that <lb/>brought smiles and joy to the countenance of my <w ana="start"/>fa<lb/>ther<w ana="end"/> but hardly deceived the ever watchful and <lb/> nicer eye of Elizabeth. She looked forward to our <w ana="start"/>u</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -158,7 +161,8 @@
          <del rend="strikethrough">altho</del> although they might only serve as the <w ana="start"/>decora<lb/>tions<w ana="end"/> of my tragedy. A house was purchased for us <lb/>near Cologny by which we should enjoy the <w ana="start"/>plea<lb/>sures<w ana="end"/> of the country and yet be so near Gene<retrace cause="unclear">v</retrace>a <lb/>as to see my father every day; who would still <lb/>reside within the walls for the benefit of Ernest that <lb/>he might follow his studies at the schools.<milestone unit="tei:p"/> 
          <lb/>In the mean time I took every precaution</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -174,7 +178,8 @@
       the <lb/>threat appeared more as a delusion not <del rend="strikethrough">bo</del> to be <w ana="start"/>re<lb/>garded<w ana="end"/> as worthy to disturb my peace while the <lb/>happiness I hoped for in my marriage wore <lb/>a greater appearance of certainty as the day fixed <lb/>for its solemnization drew nearer and I heard it <lb/>continully spoken of as an occurrence which no <w ana="start"/>ac<lb/>cident<w ana="end"/> could possibly prevent.<milestone unit="tei:p"/> 
          <lb/>Elizabeth seemed happy and this change <lb/>from mirth to content which she saw come over</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -196,7 +201,8 @@
          <lb/>wind <del rend="strikethrough">was</del> favourable we resolved to go by water.<milestone unit="tei:p"/> 
          <lb/>Those were the last moments of my life <w ana="start"/>du<lb/>ring<w ana="end"/> which I enjoyed the felling of happiness. We <lb/>passed rapidly along; the sun was hot but we were <lb/>sheltered <del rend="strikethrough">by</del> from its rays by a kind of canopy while <lb/>we enjoyed the beauty of the scene; sometimes on</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -214,14 +220,15 @@
             <add place="superlinear">in vain</add>
          </mod> endeavour <del rend="strikethrough">in va</del> to emulate her; som<add place="intralinear">e</add>times <lb/>coasting the opposite banks we saw the mighty Jura <lb/>opposing its dark side to the ambition that would <lb/>quit its native country and an almost <w ana="start"/>insurmount<lb/>able<w ana="end"/> barrier to the invader who should wish to <lb/>enslave it.<milestone unit="tei:p"/> 
          <lb/>I took the hand of Elizabeth<mod>
-            <pitt:mdel>s</pitt:mdel>
+            <mdel>s</mdel>
             <add place="intralinear">:</add>
          </mod> "You are sorrow <lb/>ful, my love<mod>
-            <pitt:mdel>;</pitt:mdel>
+            <mdel>;</mdel>
             <add place="intralinear">.</add>
          </mod> ah! if you knew what I have suffered <lb/>and what I may yet endure you would endeavour <lb/>to let me taste the quiet, and freedom from despair</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -234,12 +241,13 @@
       <zone type="main"> 
          <lb/>that this one day at least permits me to enjoy.<milestone unit="tei:p"/> 
          <lb/>Be happy, my dear Victor, replied Elizabeth, there <lb/>is I hope nothing to distress you; and be assured that <lb/>if a lively joy is not painted in my face my heart is <lb/>contented. Something whispers to me not to depend <lb/>too much on the prospect that is opened before us <lb/>but I will not <del rend="strikethrough">lis</del> listen to such a sinister voice. <lb/>Observe how fast we move along, and how the clouds <lb/>which sometimes obscure, and sometimes rise above <lb/>the dome of Mônt Blânc, under this scene of <lb/>beauty still more interesting. Look also at the <lb/>innumerable fish that are <del rend="strikethrough">smi</del> swimming <lb/>in the clear waters where we can distinguish <lb/>every pebble that lies at the bottom. What a divine <lb/>day<mod>
-            <pitt:mdel>;</pitt:mdel>
+            <mdel>;</mdel>
             <add place="intralinear">!</add>
          </mod> how happy and serene all nature appears!<milestone unit="tei:p"/> 
          <lb/>Thus Elizabeth endeavoured to divert her <lb/>thoughts and mine from all reflection upon <lb/>melancholy subjects. But her temper was <w ana="start"/>fluc<lb/>tuating<w ana="end"/>; joy for a few instants shone in her</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -254,12 +262,13 @@
          <del rend="strikethrough">ey</del> eyes but it continually gave place to distraction <lb/>and reverie.<milestone unit="tei:p"/> 
          <lb/>The sun sunk lower in the heavens; we <lb/>passed the river Drance and observed its path <lb/>through the chasms of the higher and the glens <lb/>of the lower hills. The <del instant="true" rend="strikethrough">Ap</del> Alps here come closer <lb/>to the lake and we approached the <w ana="start"/>amphi<lb/>
          <del instant="true" rend="strikethrough">thre</del>theatre<w ana="end"/> of mountains which forms the <lb/>eastern boundary of the lake. The spire of Evian <lb/>shone <del rend="strikethrough">un<mod>
-               <pitt:mdel>t</pitt:mdel>
+               <mdel>t</mdel>
                <add place="intralinear">d</add>
             </mod>e</del> under the woods that surrounded <lb/>it and the range of mountain above mountain <lb/>by which it was overhung.<milestone unit="tei:p"/> 
          <lb/>The wind which had hitherto carried us <w ana="start"/>a<lb/>long<w ana="end"/> with amazing rapidity sunk at sunset to a</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -275,7 +284,8 @@
 
 
       <anchor type="collate" xml:id="C30"/>     
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -290,7 +300,7 @@
          <milestone spanTo="#c58-0013.03" unit="tei:head"/>Chapter VI<anchor xml:id="c58-0013.03"/>
          <milestone unit="tei:p"/> 
          <lb/>It was eight o'clock when we landed; we <w ana="start"/>walk<lb/>ed<w ana="end"/> for a short time on the shore enjoying the <lb/>transitory light and then retired to the inn and <w ana="start"/>con<lb/>templated<w ana="end"/> the lovely scene of waters, woods and mountains <lb/>obscured in darkness yet still displaying the<mod>
-            <pitt:mdel>y</pitt:mdel>
+            <mdel>y</mdel>
             <add place="intralinear">ir</add>
          </mod>
          <del rend="strikethrough">
@@ -308,7 +318,7 @@
          <add hand="#comp" place="intralinear">
             <metamark function="paragraph">[</metamark>
          </add>The wind which had fallen in the <lb/>south now rose with great violence in the west. The <lb/>moon had reached her summit in the heavens and <lb/>was beginning to descend; the clouds swept across <lb/>it swifter than the flight of the vulture and dim <lb/>me<mod>
-            <pitt:mdel>r</pitt:mdel>
+            <mdel>r</mdel>
             <add place="intralinear">d</add>
          </mod> her rays while the lake reflected the scene of the <lb/>busy heavens <del rend="strikethrough">
             <unclear reason="illegible">se</unclear>
@@ -317,7 +327,8 @@
          <lb/>I had been calm during the day but so soon as <lb/>night obscured the shapes of objects a thousand<del rend="strikethrough">s</del> 
          <lb/>fears arose in my mind. I was anxious at watchful</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -337,7 +348,8 @@
          <unclear>—</unclear>very dreadful.<milestone unit="tei:p"/> 
          <lb/>I passed an hour in this state of mind when</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -353,21 +365,22 @@
             <del rend="overwritten">ider</del>
             <add place="intralinear">jecture</add>
          </mod> that some <lb/>fortunate chance had intervened to prevent <lb/>the execution of his menaces; when suddenly I heard <lb/>a shrill and dreadful scream<mod>
-            <pitt:mdel>i</pitt:mdel>
+            <mdel>i</mdel>
             <add place="intralinear">—</add>
-            <pitt:mdel>I</pitt:mdel>
+            <mdel>I</mdel>
             <add place="intralinear">i</add>
          </mod>t came from the <lb/>room into which Elizabeth had retired<mod>
             <add place="intralinear">.</add>
-            <pitt:mdel>,</pitt:mdel>
-            <pitt:mdel>a</pitt:mdel>
+            <mdel>,</mdel>
+            <mdel>a</mdel>
             <add place="intralinear">A</add>
          </mod>s I heard <lb/>it, the whole truth rushed into my mind, my arms <lb/>dropped, the motion of every muscle and fibre was <lb/>suspended, I could feel the blood trickling in my veins <lb/>and tingling in the extremities of my limbs. This state <lb/>lasted but for an <mod>
-            <pitt:mdel>o</pitt:mdel>
+            <mdel>o</mdel>
             <add place="intralinear">i</add>
          </mod>nstant; the scream was repeated,</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -382,12 +395,13 @@
          <add hand="#comp" place="intralinear">
             <metamark function="paragraph">[</metamark>
          </add>Gread God! Why did I not <lb/>then expire! Why am I here to relate the dustruction <lb/>of the best hope and the purest creature of earth. <lb/>She was there, lifeless and inanimate<del rend="strikethrough">;</del> thrown across <lb/>the bed, her head hanging down and her pale and <lb/>distorted features half covered by her hair. <w ana="start"/>Every<lb/>where<w ana="end"/> I turn I see the same figure, her bloodless <lb/>arms and relaxed form flung by the murderer on <lb/>its bridal bier. Could I behold this, and live? Alas! <lb/>life is obstinate and clings closest where it is most <lb/>hated. For a moment only did I lo<mod>
-            <pitt:mdel>o</pitt:mdel>
+            <mdel>o</mdel>
             <add place="intralinear">s</add>
          </mod>e recollection; <lb/>I fainted.<milestone unit="tei:p"/> 
          <lb/>When I recovered, I found myself surrounded by <lb/>the people of the inn; their countenances expressed</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -414,7 +428,8 @@
             <add place="superlinear">windows of the</add>
          </mod> room had <lb/>before been darkened, and I felt a kind of panic on <lb/>seeing the pale yellow light of the moon illuminate</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -435,12 +450,13 @@
          <add hand="#comp" place="intralinear">
             <metamark function="paragraph">[</metamark>
             <metamark>
-               <pitt:hi rend="sup">X</pitt:hi>
+               <shi rend="sup">X</shi>
             </metamark>
          </add>The report of the pistol brought <lb/>a crowd into the room; I pointed to where he had <lb/>disappeared and we followed the tract with boats; nets <lb/>were cast but in vain. After passing <del rend="strikethrough">in the</del> severa<add place="intralinear">l</add> 
          <lb/>hours we returned hopeless, most of my companions</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -462,7 +478,8 @@
             <metamark function="paragraph">[</metamark>
          </add>At length I remembered that my father <lb/>would anxiously expect the return of Elizabeth and <lb/>myself, and that I must return alone. This <w ana="start"/>reflec<lb/>tion<w ana="end"/> brought tears into my eyes and I wept for a long <lb/>time; but my thoughts rambled to various subjects, <lb/>reflecting on my misfortunes and their cause I was <lb/>bewildered in a cloud of wonder and horror. The <lb/>death of William, the execution of Justine, the murder <lb/>of Clerval and lastly of my wife; even at that <w ana="start"/>mo<lb/>ment<w ana="end"/> I knew not that my only remaining friends were</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -483,7 +500,8 @@
          <lb/>There were no horses to be procured and I must <lb/>return by the lake; but the wind was unfavourable <lb/>
          <del rend="strikethrough">amd</del> and the rain fell in torrents. However it was <lb/>hardly morning and I might reasonably hope to arrive <lb/>by night. I hired men to row and took an oar myself <lb/>for I had always experienced relief from mental <w ana="start"/>tor<lb/>ment<w ana="end"/> in bodily exercise. But the overflowing misery <lb/>I now felt and the excess of agitation that I endured</zone>
    </surface>
-        <surface lrx="5396"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5396"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -497,7 +515,8 @@
          <lb/>rendered me incapable of any exertion. I threw <lb/>down the oar and leaning my head upon my hands <lb/>gave way to every gloomy idea that arose. If I <lb/>looked up I saw the scenes which were familiar <lb/>to me in my happier time and which I had <lb/>contemplated but the day before in the company <lb/>of her who was now but a shadow and a recollection. <lb/>Tears streamed from my eyes, the rain had ceased <lb/>for a moment and I saw the fish play in the  <lb/>waters as they had done a few hours before; they <lb/>had then been observed by Elizabeth. Nothing is <lb/>so painful to the human mind as a great and <lb/>sudden change. The sun might shine, or the clouds <lb/>might lour, but nothing could appear to me as it <lb/>had done the day before. A fiend had snatched <lb/>from me every hope of future happiness; no <w ana="start"/>crea<lb/>ture<w ana="end"/> had ever been so miserable as I was. So <w ana="start"/>fright<lb/>ful<w ana="end"/> an event was single in the history of man.<milestone unit="tei:p"/> 
          <lb/>But why should I <del rend="strikethrough">dewe</del> dwell upon the <w ana="start"/>inci</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -510,7 +529,7 @@
       <zone type="main"> 
          <lb/>dents<w ana="end"/> that followed this last overwhelming event. <lb/>Mine has been a tale of horrors, I have <del rend="strikethrough">now</del> reached <lb/>their acme <del rend="strikethrough">me</del> and what I must now relate can <lb/>but be <del rend="strikethrough">de</del> tedious to you<mod>
             <add hand="#comp" place="intralinear">.</add>
-            <pitt:mdel>no</pitt:mdel>
+            <mdel>no</mdel>
             <add hand="#comp" place="superlinear">Know</add>
          </mod> that, one by one, my friends <lb/>were snatched away; I was left desolate. <del rend="strikethrough">
             <unclear>ow</unclear>
@@ -521,11 +540,12 @@
             </add>
             <add hand="#comp" place="superlinear">on</add>
          </mod> with all the affection that a <lb/>man in the dec<mod>
-            <pitt:mdel>t</pitt:mdel>
+            <mdel>t</mdel>
             <add place="intralinear">l</add>
          </mod>ine of life having few affections clings</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -537,7 +557,7 @@
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0023.jp2"/>
       <zone type="main"> 
          <lb/>more earnestly to those that remain. Cursed, Cursed <lb/>be the fiend that brought <del rend="strikethrough">wretchedn</del> misery <mod>
-            <pitt:mdel>of</pitt:mdel>
+            <mdel>of</mdel>
             <add place="superlinear">on</add>
          </mod> his <lb/>grey hairs and domed him to waste in wretchedness. <lb/>He could not live under the horrors that were <lb/>accumulated around him; an approplectic fit was <lb/>brought on and in a few days he died in my arms.<milestone unit="tei:p"/> 
          <lb/>What then became of me? I know not; I <lb/>lost sensation and chains and darkness were the only <lb/>objects that pressed upon me. Sometimes indeed <lb/>I dreamt that I wandered in flowery meadows and <lb/>pleasant vales with the friends of my youth; but I <lb/>awoke and found myself in a dungeon. Melancholy <lb/>followed but by degrees. I gained a clear conception <lb/>of my miseries and situation and was then released <lb/>from my prison. For they had called me mad <lb/>and during many months, as I understood, a <w ana="start"/>solita<lb/>ry<w ana="end"/> cell had been my habitation. <milestone unit="tei:p"/>
@@ -545,7 +565,8 @@
             <metamark function="paragraph">[</metamark>
          </add>But liberty had <lb/>been a useless gift to me had I not <delSpan spanTo="#c58-0023.01"/>at the same <lb/>time that<anchor xml:id="c58-0023.01"/> as I awakened to reason at the same</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -557,7 +578,7 @@
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0024.jp2"/>
       <zone type="main"> 
          <lb/>time awakened to revenge. As the memory of past <lb/>misfortunes prest upon me<add hand="#comp" place="intralinear">,</add> I began to <del rend="strikethrough">f</del> reflect <lb/>on their cause; <mod>
-            <pitt:mdel>T</pitt:mdel>
+            <mdel>T</mdel>
             <add place="intralinear">t</add>
          </mod>he monster whom I had created, the <lb/>miserable dæmon whom I had sent <mod>
             <add place="sublinear">
@@ -568,7 +589,8 @@
          <del instant="true" rend="strikethrough">prazed</del> prayed that I might have him within <lb/>my grasp to wreak a great and signal revenge on <lb/>his cursed head.<milestone unit="tei:p"/> 
          <lb/>Nor did my hate long confine itself to <w ana="start"/>use<lb/>less<w ana="end"/> wishes; I began to reflect on the best means of <w ana="start"/>se<lb/>curing<w ana="end"/> him, and for this purpose about a month after <lb/>my release I repaired to a criminal judge in the town <lb/>and told him that I had an accusation to make; that</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -588,11 +610,12 @@
          <milestone unit="tei:p"/> The magistrate listened to me with attention <lb/>and kindness. Be assured, sir, said he, no pains or <lb/>exertions on my part shall be spared to discover <lb/>the villain.<milestone unit="tei:p"/> 
          <lb/>I thank you, replied I, listen therefore to the <lb/>deposition that I have to make. It is indeed a tale <lb/>so strange that I should fear you would not <lb/>credit it were there not som<add place="intralinear">e</add>thing in truth which
       how <lb/>ever wonderful forces conviction. The story is too <w ana="start"/>con<lb/>nected<w ana="end"/> to be mistaken for a dream and I have no <lb/>motive for falsehood. My manner as I thus addressed <lb/>him was impressive but calm; I had formed in my <lb/>own heart a resolution to pursue my destroyer to death <lb/>and th<mod>
-            <pitt:mdel>e</pitt:mdel>
+            <mdel>e</mdel>
             <add place="intralinear">is</add>
          </mod> purpose quieted my agony and provisonably <lb/>reconciled me to life. I now related my history briefly but <lb/>with firmness and precision, marking the dates</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -604,7 +627,7 @@
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0026.jp2"/>
       <zone type="main"> 
          <lb/>with accu<mod>
-            <pitt:mdel>s</pitt:mdel>
+            <mdel>s</mdel>
             <add place="intralinear">r</add>
          </mod>acy, and never deviating into invective or <lb/>exclamation. <milestone unit="tei:p"/>
          <add hand="#comp" place="intralinear">
@@ -623,7 +646,8 @@
       whom I accuse and for whose <lb/>detection and punishment I call upon you to exert <lb/>your whole power. It is your duty as a magistrate <lb/>and I believe and hope that your feelings as a <lb/>man will not <del rend="strikethrough">revold</del> revolt from the execution of <lb/>those functions on this occasion."<milestone unit="tei:p"/> 
          <lb/>This address caused a considerable change in the</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -639,7 +663,8 @@
          <lb/>in your persuit; but the creature of whom you <lb/>speak appears to have powers which would put all <lb/>my exertions to defiance<unclear reason="illegible">:</unclear> Who can follow an<del rend="strikethrough">d</del> animal <lb/>which can traverse the sea of ice, and inhabit caves <lb/>and dens where no man would venture to intrude? <lb/>Besides some months have elapsed since the <w ana="start"/>commis<lb/>sion<w ana="end"/> of his crimes and <del rend="strikethrough">k</del> no one can conjecture to <lb/>what place he has wandered or what region he may <lb/>now inhabit."<milestone unit="tei:p"/> 
          <lb/>"I do not doubt that he hovers near the spot <lb/>which I inhabit, and if he has indeed taken refuge <lb/>in the Alps he may be hunted like the chamois and <w ana="start"/>des<lb/>troyed<w ana="end"/> as a beast of prey. But I perceive your thoughts</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -652,12 +677,13 @@
       <zone type="main"> 
          <lb/>you do not credit my narrative, and do not intend to <lb/>pursue my enemy with the punishment which <lb/>is his desert.<milestone unit="tei:p"/> 
          <lb/>As I spoke rage sparkled in my eyes; the <w ana="start"/>ma<lb/>gistrate<w ana="end"/> was intimidated; <mod>
-            <pitt:mdel>Y</pitt:mdel>
+            <mdel>Y</mdel>
             <add place="intralinear">y</add>
          </mod>ou are mistaken, said <lb/>he, I will exert myself and if it is in my power to <lb/>seize the monster be assured that he shall suffer <lb/>punishment proportionate to his crimes. But I <lb/>fear from what you have yourself described <lb/>to be his properties that this will prove <w ana="start"/>impracti<lb/>cable<w ana="end"/> and that, while every proper measure is <lb/>pursued, you should endeavour to make up your mind <lb/>to a disappointment.<milestone unit="tei:p"/> 
          <lb/>That cannot be; but all that I can say will be</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -678,7 +704,7 @@
          <add hand="#comp" place="intralinear">
             <metamark function="paragraph">[</metamark>
          </add>. <milestone unit="tei:p"/>"Man, I cried, how ignorant ar<mod>
-            <pitt:mdel>e</pitt:mdel>
+            <mdel>e</mdel>
             <add place="intralinear">t</add>
          </mod> thou in thy pride of <lb/>wisdom. Cease, you know not what it is you say.<milestone unit="tei:p"/> 
          <lb/>I broke from the house <mod>
@@ -692,7 +718,8 @@
       
 
       <anchor type="collate" xml:id="C31"/>  
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -705,7 +732,7 @@
       <zone type="main"> 
          <lb/>
          <milestone spanTo="#c58-0030.01" unit="tei:head"/>Chapter <mod>
-            <pitt:mdel>7</pitt:mdel>
+            <mdel>7</mdel>
             <add place="intralinear">VII</add>
          </mod>
          <anchor xml:id="c58-0030.01"/>
@@ -721,7 +748,8 @@
             <metamark function="paragraph">[</metamark>
          </add>And now my wanderings began which are to cease</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -740,7 +768,8 @@
             <add hand="#comp" place="superlinear">at</add>
          </mod> the entrance <lb/>of the cemetary<add hand="#comp" place="superlinear">cemetery</add> where William, Elizabeth and my father <lb/>reposed. I entered it and approached the tomb which <lb/>marked their graves. Every thing was silent except the <lb/>leaves of the trees which were gently agitated by the <lb/>breeze; the night was nearly dark and the scene <lb/>would have been solemn and <del rend="strikethrough">in terresting</del> affecting</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -754,7 +783,8 @@
          <lb/>even to an uninterested observer; the spirits of the <lb/>departed seemed to flit around and to cast a shadow <lb/>which was felt but seen not around the head of <lb/>the mourner.<milestone unit="tei:p"/> 
          <lb/>The deep grief which this scene had at first <lb/>excited quickly gave way to rage and despair<unclear reason="illegible">.</unclear> They <lb/>were dead and I lived; their murderer also lived and to <lb/>destroy him I must drag out my weary existence. I <lb/>knelt on the earth and with quivering lips exclaimed; <lb/>"By the sacred earth on which I kneel, by the <lb/>shades that wander near me, by the deep and eternal <lb/>grief that I feel, I swear; And by thee, <del rend="strikethrough">oh</del>O Night, and <lb/>by the spirits that preside over thee, I swear to <lb/>pursue the dæmon who caused this misery untill</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -766,9 +796,9 @@
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0033.jp2"/>
       <zone type="main"> 
          <lb/>he or I shall perish in mortal conflict. For this <lb/>purpose I will preserve my life: to ex<del rend="strikethrough">c</del>e<mod>
-            <pitt:mdel>
+            <mdel>
                <unclear reason="illegible">t</unclear>
-            </pitt:mdel>
+            </mdel>
             <add place="intralinear">c</add>
          </mod>ute this <lb/>dear revenge will I again behold the sun and <lb/>tread the green herbage of earth which otherwise <lb/>should vanish from my eyes for ever. And I call <lb/>on you, spirits of the dead; and on you, wandering <lb/>ministers of vengeance, to aid and conduct me in <lb/>my work. Let the cursed and hellish monster drink <lb/>deep of agony; let him feel the despair that now <lb/>torments me!<milestone unit="tei:p"/> 
          <lb/>I had begun my adjuration with solemnity, <lb/>and an awe that almost assured me that the shades <lb/>of my murdered friends heard and approved my devotion. <lb/>But <mod>
@@ -782,7 +812,8 @@
           [</metamark>
          </add>I was answered through the stillness <lb/>of night by a <del rend="strikethrough">lon</del> loud and fiendish laugh. It rung <lb/>on my ears long and heavily; the mountains re-echoed <lb/>it and I felt as if all hell surrounded me with mock <lb/>ery and laughter. Surely in that moment I should</zone>
    </surface>
-        <surface lrx="5316"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5316"
             lry="6772"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -797,7 +828,8 @@
          <lb/>I darted towards the spot from which the <lb/>sound proceeded but the devil eluded my grasp; <w ana="start"/>sud<lb/>denly<w ana="end"/> the broard disk of the moon arose and shone <lb/>full<del rend="strikethrough">y</del> upon his ghastly and distorted shape as he fled <lb/>with more than mortal speed.<milestone unit="tei:p"/> 
          <lb/>I pursued him; and for many months this <lb/>has been my task. Guided by a slight clue I follow</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -815,7 +847,7 @@
             <metamark>[</metamark>
          </add>Amidst the wilds of Tartary and Russia although <lb/>he still evaded me I <del rend="strikethrough">e</del> have ever followed in his <lb/>tract. Sometimes the peasants <add place="intralinear">s</add>cared by <add place="intralinear">t</add>his horrid <lb/>appar<add place="intralinear">i</add>tion informed me of his path; sometimes <lb/>he himself, who feared that if I lost all trace I should <lb/>despair and die, often left some mark to guide <lb/>me. The snows descended on my head and I saw the prin<add place="intralinear">t</add> 
          <lb/>of his huge step on the white plain. To you <delSpan rend="strikethrough" spanTo="#c58-0034.01"/>who <lb/>are<anchor xml:id="c58-0034.01"/> first enterring on life <mod>
-            <pitt:mdel>an</pitt:mdel>
+            <mdel>an</mdel>
             <add place="superlinear">to whom</add>
          </mod> care is new <del rend="strikethrough">new</del>
          <del rend="strikethrough">to you</del> 
@@ -826,7 +858,8 @@
             <add hand="#comp" place="superlinear">carried</add>
          </mod> about with me my eternal <lb/>hell; yet still a spirit of good followed and directed</zone>
    </surface>
-        <surface lrx="5408"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5408"
             lry="6680"
             partOf="#ox-frankenstein_volume_iii"
             ulx="0"
@@ -838,13 +871,14 @@
       <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c58/ms_abinger_c58-0036.jp2"/>
       <zone type="main"> 
          <lb/>my steps and when I most murmured would <w ana="start"/>sud<lb/>denly<w ana="end"/> extricate me from my seemingly <w ana="start"/>insurmounta<lb/>ble<w ana="end"/> difficulties; sometimes when nature over<mod>
-            <pitt:mdel>s</pitt:mdel>
+            <mdel>s</mdel>
             <add place="intralinear">c</add>
          </mod>ome by <lb/>hunger sunk under the exhaustion a repast was <lb/>prepared for me in the desart that restored and <lb/>insprited me. The fare was indeed coarse, such as <lb/>the peasants of the country ate, but I may not doubt <lb/>that it was <del rend="strikethrough">e</del> set there by the <del rend="strikethrough">sprits</del>
          <del rend="strikethrough">th</del> spirits that <lb/>I invoked to aid me. Often when all was dry, the <w ana="start"/>hea<lb/>vens<w ana="end"/> cloudless and I was parched by thirst, a slight <lb/>cloud would bedim the sky, shed the few drops that <lb/>revived me and vanish.<milestone unit="tei:p"/> 
          <lb/>I followed when I could the courses of the <lb/>rivers but the dæmon generally avoided these as it</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -864,11 +898,12 @@
          <add hand="#comp" place="intralinear">F.W/</add>
          <anchor xml:id="c58-0037.01"/>My life as it
       passed thus was indeed hateful to <lb/>me and it was during sleep alone that I could <lb/>taste joy. Oh<mod>
-            <pitt:mdel>,</pitt:mdel>
+            <mdel>,</mdel>
             <add place="intralinear">!</add>
          </mod> blessed sleep! often when most <w ana="start"/>mise<lb/>rable<w ana="end"/> I sank to repose and my dreams lulled me even <lb/>to rapture. The spirit that guarded me had provided</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -897,7 +932,8 @@
    </surface>
       
       
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -914,7 +950,7 @@
          <anchor xml:id="c58-0039.01"/>
          <milestone unit="tei:p"/>My courage and perseverance were invigorated <lb/>by these scoffing words; I resolved not to fail in my <lb/>purpose; and calling on heaven to support me I <lb/>continued with unabated fervour, to traverse <w ana="start"/>im<lb/>mense<w ana="end"/> desarts untill the ocean appeared at a <lb/>distance and formed the utmost boundary of <lb/>the horizon. Oh! how unlike it was to the blue seas <lb/>of the south<mod>
             <add place="intralinear">!</add>
-            <pitt:mdel>;</pitt:mdel>
+            <mdel>;</mdel>
          </mod> Covered with ice it was only to be <lb/>distinguished from land by its superior wildness and <lb/>ruggedness. The greeks wept <mod>
             <add place="sublinear">
                <metamark function="insert">^</metamark>
@@ -922,7 +958,8 @@
             <add place="superlinear">for joy</add>
          </mod>when they beheld the</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -939,7 +976,8 @@
 
       
       <anchor type="collate" xml:id="C32"/> 
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -953,17 +991,18 @@
          <lb/>
          <milestone spanTo="#c58-0041.01" unit="tei:head"/>Walton, in continuation<anchor xml:id="c58-0041.01"/> 
          <lb/>August 2<mod>
-            <pitt:mdel>5</pitt:mdel>
+            <mdel>5</mdel>
             <add place="intralinear">6</add>
          </mod>– 17—<milestone unit="tei:p"/> 
          <lb/>You have read this strange and terrific story, <w ana="start"/>Mar<lb/>geret<w ana="end"/>, and do you not feel your blood congealed with <lb/>horror like that which even now curdles mine. <w ana="start"/>Some<lb/>times<w ana="end"/> seized with sudden agony he could not continue <lb/>his tale, at others his <mod>
-            <pitt:mdel>
+            <mdel>
                <unclear reason="illegible">b</unclear>
-            </pitt:mdel>
+            </mdel>
             <add place="intralinear">v</add>
          </mod>oice broken yet piercing uttered <lb/>with difficulty the words so replete with agony. His fine <lb/>and lovely eyes were now lighted up with indignation, <lb/>now subdued to downcast sorrow and infinite <w ana="start"/>wretch<lb/>edness<w ana="end"/>. Sometimes he commanded his countenance and <lb/>tones and related the most horrible incidents with a <lb/>tranquil voice suppressing every mark of agitation, <lb/>then like a volcano bursting forth his face would</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -976,26 +1015,27 @@
       <zone type="main"> 
          <lb/>suddenly change to an expression of the wildest <lb/>rage as he shrieked out <del rend="strikethrough">his</del> imprecations on his <w ana="start"/>per<lb/>secutor<w ana="end"/>.<milestone unit="tei:p"/> 
          <lb/>His tale is connected and told with an appearance <lb/>of <del rend="strikethrough">truth</del> the simplest truth, yet I own to you that <lb/>the letters of Felix and Safie which he shewed me, <lb/>and the appar<mod>
-            <pitt:mdel>
-               <pitt:mdel>t</pitt:mdel>
-            </pitt:mdel>
+            <mdel>
+               <mdel>t</mdel>
+            </mdel>
             <add place="intralinear">i</add>
          </mod>tion of the monster seen from our ship <lb/>brought to me a greater conviction of the truth of <lb/>his narrative than his asservations however earnest <lb/>and connected. Such a monster has then really existence; <lb/>I cannot doubt it, yet I am lost in surprise and <lb/>admiration. Sometimes I endeavoured to gain from <w ana="start"/>Fran<lb/>kenstein<w ana="end"/> the particulars of his creature's formation, but  <lb/>on this point he was impenetrable. Are you mad, my <lb/>friend<mod>
-            <pitt:mdel>,</pitt:mdel>
+            <mdel>,</mdel>
             <add place="intralinear">?</add>
          </mod> said he,<del rend="smear">?</del>
          <mod>
-            <pitt:mdel>O</pitt:mdel>
+            <mdel>O</mdel>
             <add place="intralinear">o</add>
          </mod>r whither does your senseless curiosity <lb/>lead you? Would you also create for yourself and the <lb/>world a dæmoni<mod>
-            <pitt:mdel>le</pitt:mdel>
+            <mdel>le</mdel>
             <add place="intralinear">a</add>
          </mod>c<del rend="strikethrough">l</del> enemy? <mod>
-            <pitt:mdel>o</pitt:mdel>
+            <mdel>o</mdel>
             <add place="intralinear">O</add>
          </mod>r to what do your questions <lb/>lend? Peace, peace! learn my miseries and do not seek</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1008,7 +1048,7 @@
       <zone type="main"> 
          <lb/>to encrease your own.<milestone unit="tei:p"/> 
          <lb/>Frankenstein discovered <mod>
-            <pitt:mdel>or</pitt:mdel>
+            <mdel>or</mdel>
             <add hand="#comp" place="sublinear">
                <metamark function="insert">^</metamark>
             </add>
@@ -1016,7 +1056,8 @@
          </mod> made notes <w ana="start"/>concern<lb/>ing<w ana="end"/> his history; he asked to see them and then <lb/>himself <del rend="strikethrough">as</del> corrected and augmented them in many <lb/>places, but principally in giving the life and spirit <lb/>to the conversations he held with his enemy. Si<retrace cause="unclear">n</retrace>ce <lb/>you <del rend="strikethrough">y</del> have preserved my narration, said he, I <lb/>would not that a mutilated one should go down <lb/>to posterity.<milestone unit="tei:p"/> 
          <lb/>Thus <del rend="strikethrough">as</del> has a week passed away while I have <lb/>listened to the strangest tale that ever imagination <lb/>formed. My thoughts and every feeling of my soul have <lb/>been drunk up by the interrest for my guest which <lb/>this tale and his own elevated and gentle manners</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1034,7 +1075,8 @@
       
 
       <anchor type="collate" xml:id="C33"/> 
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1048,7 +1090,8 @@
          <lb/>You were hereafter to be hailed as the benefactors <lb/>of your species; your names adored as belonging <lb/>to brave men who encountered death for honor, <lb/>and the benefit of mankind. And now behold! <lb/>with the first imagination of danger, or, if you <lb/>will, the first mighty and terrific trial of your <lb/>courage <del rend="strikethrough">you</del> you shrink away and are content <lb/>to be handed down as men who had not strength <lb/>enough to endure cold and peril, and so, poor <lb/>souls, they were chilly and returned to their warm <lb/>firesides. <del rend="strikethrough">Y</del> Why that requires not this
       preparation; <lb/>Ye need not have come thus far and dragged your <lb/>captain to the shame of a defeat <del rend="strikethrough">t</del> merely to <lb/>prove yourselves cowards. Oh! be men, or be more <lb/>than men. Be steady to your purposes, and firm <lb/>as rock; this ice is not made of such stuff as your <lb/>hearts might be; it is mutable, cannot <w ana="start"/>with<lb/>stand<w ana="end"/> you if you say that it shall not. Do <lb/>not return to your families with the stigma</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1061,12 +1104,13 @@
       <zone type="main"> 
          <lb/>of disgrace marked on your brows. Return as heroes <lb/>who have fought and conquered and who know <lb/>not what it is to turn their backs on the foe.<milestone unit="tei:p"/> 
          <lb/>He spoke thus with a voice so modulated <lb/>to the different feelings expressed in his speech, <lb/>with an eye so full of lofty design and heroism, <lb/>that can you wonder that these men were <lb/>moved. They looked at one another and were <lb/>unable to reply. I spoke; I told them to retire <lb/>and consider of what had been said. <mod>
-            <pitt:mdel>t</pitt:mdel>
+            <mdel>t</mdel>
             <add place="intralinear">T</add>
          </mod>hat I would <lb/>not lead them further north if they strenuously <lb/>desired the contrary; but that I hoped that <lb/>with reflection their courage would return. <lb/>They retired and I turned towards my friend but</zone>
    </surface>
       
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1083,7 +1127,8 @@
          <lb/>Farewell, Walton. Seek happiness in tranquillity <lb/>and avoid ambition even if it be only the <lb/>apparently innocent one of distinguishing yourself <lb/>in science &amp; discoveries. Yet why do I say this? <lb/>I have myself been blasted in these hopes, <lb/>yet another may succeed.<milestone unit="tei:p"/> 
          <lb/>His voice became fainter as he spoke; &amp; <lb/>at length exhausted by his effort he sunk <lb/>into silence. About half an hour afterwards <lb/>he attempted again to speak, but was unable</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1103,7 +1148,8 @@
       my sister- –<milestone unit="tei:p"/> 
          <lb/>Great God! What a scene has just taken <lb/>place- I am yet dizzy with the <w ana="start"/>remem<lb/>brance<w ana="end"/> of it. I hardly know whether I <lb/>shall have the power to detail it; yet the</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1121,7 +1167,8 @@
             extended, <lb/>in colour &amp; apparent texture like that of a <lb/>mummy. When he heard the sound of my <lb/>approach; he ceased to utter exclamations of <lb/>grief &amp; horror, &amp; sprung towards the window. <lb/>Never did I behold a vision so horrible as his <lb/>face, of <del rend="strikethrough">h</del> such loathsome yet apalling <w ana="start"/>hideous<lb/>ness<w ana="end"/>. I shut my eyes involuntarily, as <lb/>recollecting what were my duties with respect <lb/>to this destroyer, I called on him to stay. <lb/>He paused – Looking on me with wonder, &amp; <lb/>again turning towards the lifeless form of his <lb/>creator he seemed to forget <del rend="strikethrough">to</del> my presence; <lb/>
          <del rend="strikethrough">whi</del> and every feature &amp; gesture seemed instigated</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1134,7 +1181,7 @@
       <zone type="main">
          <handShift medium="pen" new="#pbs"/> 
          <lb/>by the wildest rage of some uncontrolable passion <lb/>— That is also my victim<mod>
-            <pitt:mdel>,</pitt:mdel>
+            <mdel>,</mdel>
             <add place="intralinear">!</add>
          </mod> he exclaimed In <lb/>his murder<del rend="strikethrough">e</del> my crimes are consummated — the <lb/>miserable series of my being is wound to its close! <lb/>O Frankenstein – generous &amp; self devoted being <lb/>what does it avail that I ask thee now to <lb/>pardon me. Wherefore do I seek to perish <lb/>in thy stead after I have irretrievably <w ana="start"/>des<lb/>troyed<w ana="end"/> thee, by destroying those thou lovedst <lb/>Alas he is cold.. he <mod>
             <del rend="overwritten">
@@ -1144,13 +1191,14 @@
          </mod> answer me.<milestone unit="tei:p"/> 
          <lb/>His voice seemed suffocated, &amp; my first <w ana="start"/>im<lb/>pulses<w ana="end"/> which had suggested to me the duty <lb/>of obeying the dying request of my friend, <lb/>in destroying his enemy, now were suspended <lb/>by a mixture of curiosity &amp; <del rend="strikethrough">pity</del> compassion.<milestone unit="tei:p"/> 
          <lb/>I approached this tremendous being– I dared <lb/>no<mod>
-            <pitt:mdel>
+            <mdel>
                <unclear reason="illegible">w</unclear>
-            </pitt:mdel>
+            </mdel>
             <add place="intralinear">t</add>
          </mod> again <del rend="strikethrough">to</del> raise my looks upon his face— <lb/>there was something so scaring &amp; <w ana="start"/>unearth<lb/>ly<w ana="end"/> in his ugliness. I attempted to speak, <lb/>but his presence was as a burthen which <lb/>held me dumb, &amp; the words died on my <lb/>lips—. The monster continued to utter</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1166,7 +1214,8 @@
          <lb/>And do you dream — said the Dæmon,
       do <lb/>you think that I was then dead to agony &amp; <lb/>remorse. – He– he <del rend="strikethrough">ex</del> p continued, pointing to <lb/>the corpse, he suffered not more in <w ana="start"/>consum<lb/>mation<w ana="end"/> of the deed; oh not the ten thousandth <lb/>portion of the anguish that was mine during <lb/>the lingering detail of its execution. A <w ana="start"/>frigh<lb/>tful<w ana="end"/> selfishness hurried me on, while my heart <lb/>was poisoned with remorse. Think ye that <lb/>the groans of Clerval were music to my ear. <lb/>My heart was fashioned to be susceptible of <lb/>love &amp; sympathy, &amp; when wrenched by misery <lb/>to vice &amp; hatred it did not endure the <lb/>violence of the change without torture</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1188,13 +1237,14 @@
          </mod>agine— After the <lb/>murder of Clerval I returned to Switzerland <lb/>heart-broken &amp; overcome - I pitied Frankenstein <lb/>My pity ammounted to horror – I abhorred myself. <lb/>But when I discovered that he– the author <del rend="strikethrough">of</del> 
          <lb/>at once of my existence and of all its <w ana="start"/>unspea<lb/>kable<w ana="end"/> torments dared to hope for happiness — <lb/>that whilst he accumulated upon me wretchedness <lb/>&amp; despair, he sought his own enjoyment in <lb/>feelings &amp; passions from the indulgence of <lb/>which I was barred— then impotent envy &amp; <lb/>bitter indignation filled me with an insatiable <lb/>thirst for vengeance. I recollected my threat <lb/>&amp; resolved that it should be accomplished. I <lb/>knew that I was preparing for myselft a deadly <lb/>torture.. but I was the slave not the master <lb/>of an impulse which I detested but could not <lb/>disobey. – Yet when she died! Nay then I <lb/>was not miserable. I had cast off all feeling, <lb/>subdued all anguish to riot in the excess of <lb/>my despair. Evil thenceforth became my good. <lb/>
          <mod>
-            <pitt:mdel>
+            <mdel>
                <unclear extent="5" unit="chars"/>
-            </pitt:mdel>
+            </mdel>
             <add place="intralinear">Urged</add>
          </mod> thus far I had no choice but to adapt</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1217,7 +1267,8 @@
          </mod> touched by the expression of his misery, <lb/>yet when I called to mind what Frankenstein <lb/>had said of his powers of eloquence &amp; <w ana="start"/>persua<lb/>sion<w ana="end"/>, &amp; when I again cast my eyes on the <lb/>lifeless form of my friend, indignation was <lb/>re-kindled within me. — Wretch, I said, <lb/>it is well that you come here to whine over <lb/>the desolation which you have made – you <lb/>throw a torch into a pile of buildings, &amp; <lb/>when they are consumed you sit among the <lb/>ruins &amp; lament the fall. Hypocritical <lb/>fiend! If he whom you lament still lived, <lb/>still would he be the object, again would he <lb/>become the prey of your accursed vengeance. <lb/>It is not pity that you feel– you lament <lb/>only because the victim of your malignity <lb/>is withdrawn from your power.——<milestone unit="tei:p"/> 
          <lb/>Oh! it is not thus— not thus – interrupted</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1239,7 +1290,8 @@
             <add place="superlinear">excellent</add>
          </mod> qualities which I was so <lb/>eminently capable of bringing forth. I was</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1257,7 +1309,8 @@
          <damage/>neath the meanest animal. No crimes no <lb/>mischief, no malignity no misery can be  <lb/>found parallell with mine. When I call over <lb/>the frightful catalogue of my deeds I cannot <lb/>believe that I am he, whose thoughts were once <lb/>filled with sublime &amp; transcendent visions of <lb/>the beauty &amp; the majesty of goodness – But <lb/>it is even so – The fallen Angel becomes a <lb/>malignant devil – Yet even that enemy of <lb/>God &amp; man had friends &amp; associates in his <lb/>desolation. I am quite alone.<milestone unit="tei:p"/> 
          <lb/>You, who call Frankenstein your friend, seem <lb/>to have a knowledge of my crimes &amp; his <lb/>misfortunes. But in the detail which he <lb/>gave you of them he could not sum up the <lb/>hours &amp; months of misery which I endured <lb/>wasting in impotent passions. For whilst I <lb/>destroyed his hopes, I did not satisfy my <lb/>own desires. They were forever ardent &amp; craving.</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1284,9 +1337,9 @@
          <lb/>saviour of his child? Nay, these are virtuo<damage/> 
          <lb/>&amp; immaculate beings. I the miserable &amp; the <lb/>abandoned am an abortion to be spurned at, <lb/>&amp; kicked &amp; trampled upon— Even now my bloo<damage/> 
          <lb/>boils at the recollection <mod>
-            <pitt:mdel>
+            <mdel>
                <unclear reason="illegible">t</unclear>
-            </pitt:mdel>
+            </mdel>
             <add place="intralinear">o</add>
          </mod>f this injustice.<milestone unit="tei:p"/> 
          <lb/>But it is true that I am a wretch. I <lb/>have murdered the lovely &amp; the helpless. I have <lb/>
@@ -1299,13 +1352,14 @@
             <add place="intralinear">strangled</add>
          </mod> the innocent as they slept, &amp; grasped <lb/>to death <del rend="strikethrough">the</del> his throat who never injured me <lb/>
          <mod>
-            <pitt:mdel>
+            <mdel>
                <unclear reason="illegible">an</unclear>
-            </pitt:mdel>
+            </mdel>
             <add place="intralinear">or</add>
          </mod> any other living thing. I have devoted <lb/>my creator, <del rend="strikethrough">a spec</del> the select specimen of all <lb/>that <add place="superlinear">is</add> worthy of love &amp; admiration among men, <lb/>to misery: I have pursued him even to that <lb/>irremdiable ruin. There he lies, white &amp; cold</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1335,7 +1389,8 @@
             <add hand="#mws" place="superlinear">wretch</add>
          </mod> who would create such <lb/>another as I have been. I shall die. I shall <lb/>no longer feel the agonies which now consume</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"
@@ -1348,10 +1403,10 @@
       <zone type="main">
          <handShift medium="pen" new="#pbs"/> 
          <lb/>me, or be the prey of feelings unsatisfied yet <lb/>unquenched. He is <mod>
-                        <pitt:mdel>h</pitt:mdel>
+                        <mdel>h</mdel>
                         <add place="intralinear">d</add>
                   </mod>ead who called me into <lb/>being <mod>
-                        <pitt:mdel>w</pitt:mdel>
+                        <mdel>w</mdel>
                         <add place="intralinear">a</add>
                   </mod>nd when I shall be no more, the <mod>
                         <add place="sublinear">
@@ -1374,7 +1429,8 @@
          <lb/>Farewell. I leave you, &amp; in you the last of <lb/>hum<retrace cause="unclear">an</retrace> kind whom these eyes will ever
                   behold. <lb/>Farewell, Frankenstein. If thou wert yet alive <lb/>&amp; yet cherished a desire of revenge against me, <lb/>it would be better satiated in my life than my <lb/>destruction. But it was not so. You sought</zone>
    </surface>
-        <surface lrx="5410"
+        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5410"
             lry="6660"
             partOf="ox-frankenstein_notebook_c1.xml#ox-frankenstein_volume_iii"
             ulx="0"

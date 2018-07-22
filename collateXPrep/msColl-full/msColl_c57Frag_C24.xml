@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xml xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-     xmlns:mith="http://mith.umd.edu/sc/ns1#"
-     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+<xml>
    <anchor type="collate" xml:id="C24"/>
-    <surface lrx="5138"
+    <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5138"
             lry="7032"
             partOf="#ox-frankenstein_volume_ii"
             ulx="0"
@@ -51,7 +49,8 @@
           </mod> you<del rend="strikethrough">r</del> appear to <lb/>feel.<milestone unit="tei:p"/> 
          <lb/>My dear father, <del rend="strikethrough">replied I,</del> reassure <lb/>yourself. I love my cousin tenderly <lb/>&amp; sincerely. I never saw any woman <lb/>who excited as Elizabeth does my warmest <lb/>admiration &amp; affection. My future hopes <lb/>and prospects are entirely bound up in</zone>
    </surface>
-    <surface lrx="5138"
+    <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5138"
             lry="7032"
             partOf="#ox-frankenstein_volume_ii"
             ulx="0"
@@ -87,9 +86,10 @@
          <lb/>Any change of scene was agreable <lb/>to me and I was delighted with the <lb/>idea of spending a year or two away <lb/>from my family during which time <lb/>some event might happen which <lb/>would restore me to them in peace <lb/>&amp; happiness. My promise might <lb/>be fulfilled the monster depart or <lb/>some <del rend="strikethrough">other</del> event <unclear reason="illegible">p</unclear>
              might take <lb/>place to destroy him &amp; put an end<anchor xml:id="c57-0078.01"/>
       </zone>
-      <note resp="#pbs">I think the journey to England ought to be <pitt:hi rend="underline">Victor's</pitt:hi> proposal.– that he ought to go for the purpose of collecting knowledge, for the formation of a female. He ought to lead his father to this in the conversations–the conversation <pitt:hi rend="underline">commences</pitt:hi> right enough</note>
+      <note resp="#pbs">I think the journey to England ought to be <shi rend="underline">Victor's</shi> proposal.– that he ought to go for the purpose of collecting knowledge, for the formation of a female. He ought to lead his father to this in the conversations–the conversation <shi rend="underline">commences</shi> right enough</note>
    </surface>
-    <surface lrx="5138"
+    <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5138"
             lry="7032"
             partOf="#ox-frankenstein_volume_ii"
             ulx="0"
@@ -157,7 +157,8 @@
          </add>
       </zone>
    </surface>
-    <surface lrx="5138"
+    <surface xmlns:mith="http://mith.umd.edu/sc/ns1#"
+            lrx="5138"
             lry="7032"
             partOf="#ox-frankenstein_volume_ii"
             ulx="0"
@@ -182,7 +183,7 @@
              <add place="superlinear">arise</add>
           </mod> destroy our <lb/>domestic felicity. <milestone unit="tei:p"/>
            <lb/>I am content, I replied, with your  <lb/>arrangement. By that time we shall <lb/>both have become wiser &amp; I hope happier <lb/>than we are now. I sigh<mod>
-             <pitt:mdel>t</pitt:mdel>
+             <mdel>t</mdel>
              <add place="intralinear">e</add>
           </mod>d. But my father <lb/>kindly forebore to question me concerning <lb/>the cause of my dejection. He hoped that <lb/>new scenes &amp; the amusement of travelling <lb/>would restore my tranquility<add place="intralinear">
             <metamark>X</metamark>

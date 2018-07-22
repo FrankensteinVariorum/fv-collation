@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" 
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"  
+ xmlns:xs="http://www.w3.org/2001/XMLSchema"
+exclude-result-prefixes="#all"
     version="3.0">
     <!--2018-07-20 ebb: This stylesheet plants "location flags" on <lb/> elements to mark their XPath position, and it sets "trojan-horse" style start and end markers with @th:sID and @th:eID on other elements as they are being flattened. On up-conversion following collation, we may convert the trojan-horse marker elements back into xml:ids again, should we decide to build from our S-GA "bridge" files. -->
    <xsl:output method="xml" indent="no"/>
@@ -15,7 +16,7 @@
         <xsl:for-each select="$msColl-full//xml">
             <xsl:variable name="currFile" as="xs:string" select="tokenize(base-uri(.), '/')[last()] ! substring-before(., '.xml')"/>
             <xsl:result-document method="xml" indent="yes" href="msColl-fullFlat/{$currFile}Flat.xml">
-                <xml xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mith="http://mith.umd.edu/sc/ns1#"                xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+                <xml>
                     <xsl:apply-templates/>
                 </xml>
             </xsl:result-document> 
@@ -50,14 +51,14 @@
     <xsl:template match="surface">
         <xsl:element name="{local-name()}">
             <xsl:copy-of select="@*"/>
-            <xsl:attribute name="th:sID">
+            <xsl:attribute name="sID">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>    
         </xsl:element>
      <xsl:apply-templates/>   
         
         <xsl:element name="{local-name()}"> 
-               <xsl:attribute name="th:eID">
+               <xsl:attribute name="eID">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>    
            </xsl:element>
@@ -70,13 +71,13 @@
         
         <xsl:element name="{local-name()}">
             <xsl:copy-of select="@*"/>
-            <xsl:attribute name="th:sID">
+            <xsl:attribute name="sID">
  <xsl:value-of select="$locFlag"/>
             </xsl:attribute>    
             </xsl:element> 
         <xsl:apply-templates/>
         <xsl:element name="{local-name()}">  
-              <xsl:attribute name="th:eID">
+              <xsl:attribute name="eID">
                 <xsl:value-of select="$locFlag"/>
             </xsl:attribute>    
           </xsl:element>     
@@ -87,13 +88,13 @@
         </xsl:variable>  
         <xsl:element name="{local-name()}">
             <xsl:copy-of select="@*"/>
-            <xsl:attribute name="th:sID">
+            <xsl:attribute name="sID">
                 <xsl:value-of select="$locFlag"/>
             </xsl:attribute>
             </xsl:element>     
         <xsl:apply-templates/>
         <xsl:element name="{local-name()}"> 
-            <xsl:attribute name="th:eID">
+            <xsl:attribute name="eID">
                 <xsl:value-of select="$locFlag"/>
             </xsl:attribute>   
            </xsl:element>   
