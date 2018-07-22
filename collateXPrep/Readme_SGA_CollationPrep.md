@@ -23,11 +23,11 @@ Following this process, another XSLT transformation, `sga_Notebooks/Id_Trans_com
 The output of these pre-processing stages (A. and B.) are the files named **`sga_Notebooks/msCollPrep_c**.xml`**.
 
 ### C. Adding collation alignment markers and word-boundary markup
-In this stage, we work manually with the files named `sga_Notebooks/msCollPrep_c**.xml`, and we developed project schema files to guide this stage of work. We produced a modified version of the original S-GA ODD file here: `sga_Notebooks/sga_schemata/shelley-godwin-Pgh.odd` from which we generated a modified Relax-NG schema to govern these files, to help guide our work and prevent us from introducing errors as we add new markup. (Please ensure that the schema lines are associated and functioning in this stage of pre-processing.)
+In this stage, we work manually with the files named `sga_Notebooks/msCollPrep_c**.xml`. We have developed project schema files to guide this stage of work: We modified the original S-GA ODD file here: `sga_Notebooks/sga_schemata/shelley-godwin-Pgh.odd` from which we generated a modified Relax-NG schema to govern these files, to guide our work and prevent us from introducing errors as we add new markup. **Please ensure that the schema lines are associated and functioning if you are returning to this pre-processing stage to edit the S-GA source files.**
 
-We begin the manual editing by marking at what moments the S-GA files share common alignments with the other source texts in the Frankenstein collation. We determined and marked 33 alignment points, and we marked these with `<anchor type="collate" xml:id="C**">` to mark the start of each new collation "chunk" to be processed with a compatible chunk with the same `@xml:id` in the other source edition documents. 
+We begin the manual editing by marking at what moments the S-GA files share common alignments with the other source texts in the *Frankenstein* collation. We determined and marked 33 alignment points with `<anchor type="collate" xml:id="C**">` to indicate the start of each new collation "chunk" to be processed with a compatible chunk with the same `@xml:id` in the other source edition documents. 
 
-We then slowly reviewed the file encoding concentrating on the strings of text surrounding the `<line>` elements. When whole words are broken around the `<line>....</line>` structure, we applied `<w>` elements to demarcate when . 
+We then slowly reviewed the encoding, concentrating on the strings of text surrounding the `<line>` elements. When whole words are broken around the `<line>....</line>` structure, we applied `<w>` elements to flag these and help us unify them as whole words in the collation process.
 
 We add word boundary markup using self-closing marker elements, thus: `<w ana="start"/>...<w ana="end"/></line><line>...</w>` 
 Note that by policy, **we remove hyphens that only mark work breakage** because these are not semantically relevant to our collation of variants. 
