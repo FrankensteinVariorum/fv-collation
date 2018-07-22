@@ -26,7 +26,8 @@ RE_MILESTONE = re.compile(r'<milestone.+?/>')
 RE_AMP_NSB = re.compile(r'\S&amp;')
 RE_AMP_NSE = re.compile(r'&amp;\S')
 RE_AMP = re.compile(r'&')
-RE_MDEL = re.compile(r'<mdel>.+?/</mdel>')
+RE_PITTMDEL = re.compile(r'<pitt:mdel>.+?/</pitt:mdel>')
+RE_PITTHI = re.compile(r'<pitt:hi.+?>.+?</pitt:hi>')
 RE_METAMARK = re.compile(r'<metamark.+?>.+?</metamark>')
 RE_LB = re.compile(r'<lb.+?/>')
 # ebb: RE_MDEL = those pesky deletions of two letters or less that we want to normalize out of the collation, but preserve in the output.
@@ -48,7 +49,7 @@ ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 
 inlineEmpty = ['lb', 'gap', 'del', 'p', 'div', 'milestone', 'lg', 'l', 'note', 'cit', 'quote', 'bibl', 'ab', 'hi', 'head']
 # 2018-05-12 ebb: I'm setting a white space on either side of the inlineEmpty elements in line 76
 # 2018-07-20: ebb: CHECK: are there white spaces on either side of empty elements in the output?
-inlineContent = ['metamark', 'mdel', 'shi']
+inlineContent = ['metamark', 'pitt:mdel', 'pitt:hi']
 #2018-07-17 ebb: I moved the following list up into inlineEmpty, since they are all now empty elements: blockElement = ['lg', 'l', 'note', 'cit', 'quote', 'bibl']
 # ebb: Tried removing 'comment', from blockElement list above, because we don't want these to be collated.
 
@@ -96,10 +97,11 @@ def extract(input_xml):
 
 def normalize(inputText):
    return RE_AMP.sub('and',\
-        RE_MDEL.sub('', \
+        RE_PITTMDEL.sub('', \
+        RE_PITTHI.sub('', \
         RE_LB.sub('', \
         RE_PARA.sub('<p/>', \
-        RE_METAMARK.sub('', inputText))))).lower()
+        RE_METAMARK.sub('', inputText)))))).lower()
 #    return regexPageBreak('',inputText)
 # ebb: The normalize function makes it possible to return normalized tokens that screen out some markup, but not all.
 
