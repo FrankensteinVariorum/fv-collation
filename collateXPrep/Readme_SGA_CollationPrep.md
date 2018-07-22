@@ -9,13 +9,12 @@ This Readme describes the pre-processing and processing stages to prepare the Sh
 The pre-processing stage involves editing the encoding of the original S-GA files to make it comparable with the other source editions of *Frankenstein* in the collation process. Changes include 1) resequencing margin annotations, 2) commenting out elements that pose obstacles for collation, and 3) adding collation alignment markers and "word boundary markup" to indicate when whole words are split around line boundaries.
 
 ### A. Resequencing
-The original notebook files from S-GA are located in `sga_Notebooks/orig_notebooks`. When we began work with these files, we needed to **resequence** their content, because edits made in the margins of each page were positioned at the end of the page. A pipeline process represented in the three XSLT files: 
+The original notebook files from S-GA are located in `sga_Notebooks/orig_notebooks`. When we began work with these files, we needed to **resequence** their content, because edits made in the margins of each page were positioned at the end of the page. The three XSLT files below were run in a pipeline process to move the margin zones into sequential position for collation.
 
 1. `sga_Notebooks/Id_Trans-sga-MarginZonesP1.xslt` 
 2. `sga_Notebooks/Id_Trans-sga-MarginZonesP2.xslt` 
 3. `sga_Notebooks/Id_Trans-sga-MarginZonesP3.xslt` 
-
-moved the margin zones into sequential position for collation. 
+ 
 
 ### B. Commenting out "obstacle" elements
 Following this process, another XSLT transformation, `sga_Notebooks/Id_Trans_commentMods` commented out many `<mod>` element tags in the SGA encoding (but not any of their text string descendants) in order to reduce the complexity of the files and make the output from collation more legible. 
