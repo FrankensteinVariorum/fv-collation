@@ -107,6 +107,8 @@ Because we have some fragmented multiple witnesses for various collation units, 
 
 **Explanation:** Not every witness is present from the S-GA files, as we demonstrated in the figure above: S-GA has no material representing the first six collation units, and begins at collation unit 7. The automated collation process won't run unless a collation chunk file is present for each witness at every unit from C01 to C33. So, where witness chunks are missing in S-GA, we have prepared empty "dummy" files (containing only an XML comment) required for the collation process. 
 
+Pay attention to filenames in the output: Typically the first file processed won't carry its collation number in the filename, so we manually repair that.
+
 When all collation units are present from the manuscript and print publication witnesses in the appropriate directories, we are ready to run the collation process from the appropriate script in the `python` directory. Note that new scripts must be prepared to process files in different directories and in different combinations, but the file `python/allWitnessIM_collation_to_xml.py` is designed to process the chunk files in the `collationChunks` directory and output the results in the `Full_xmlOutput` directory.
 
 
