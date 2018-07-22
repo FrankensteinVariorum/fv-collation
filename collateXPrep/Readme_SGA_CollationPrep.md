@@ -30,7 +30,7 @@ We begin the manual editing by marking at what moments the S-GA files share comm
 We then slowly reviewed the encoding, concentrating on the strings of text surrounding the `<line>` elements. When whole words are broken around the `<line>....</line>` structure, we applied `<w>` elements to flag these and help us unify them as whole words in the collation process.
 
 We add word boundary markup using self-closing marker elements, thus: `<w ana="start"/>...<w ana="end"/></line><line>...</w>` 
-Note that by policy, **we remove hyphens that only mark work breakage** because these are not semantically relevant to our collation of variants. 
+Note that by policy, **we remove hyphens only when they denote word breakage** because these are not semantically relevant to our collation of variants. 
 
 For example, the original might be entered thus:
 ```
