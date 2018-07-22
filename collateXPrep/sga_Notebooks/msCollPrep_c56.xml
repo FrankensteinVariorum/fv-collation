@@ -166,7 +166,7 @@
     <!-\-blank page-\->
   </zone>
 </surface>-->
-      
+<anchor type="collate" xml:id="C07"/>      
  <!--2017-10-23 ebb: vol 1 in C56 when resequenced opens in the middle chapter 1 of Victor's narration, mid-sentence. -->     
       <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="4r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0011.xml" xml:id="ox-ms_abinger_c56-0011">
         <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0011.jp2"/>
@@ -1160,7 +1160,7 @@
   </zone>
   
 </surface>
-      <!-- COLLATION CHUNK POINT UNIT C07 RM 10/09/2017 -->
+      <anchor type="collate" xml:id="C08"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="7r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0017.xml" xml:id="ox-ms_abinger_c56-0017">
     <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0017.jp2"/>
     <zone rend="#bordered" type="pagination"><line>47</line></zone>
@@ -2136,7 +2136,7 @@
     <line>destiny.</line>
   </zone>
 </surface>
-      <!-- COLLATION CHUNK POINT UNIT C08 RM 10/09/2017 -->
+      <anchor type="collate" xml:id="C09"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="14r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0031.xml" xml:id="ox-ms_abinger_c56-0031">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0031.jp2"/>
   
@@ -3261,7 +3261,7 @@
     <line>family find eve</line><anchor xml:id="c56-0044.01"/>
   </zone>
 </surface>
-      <!-- COLLATION CHUNK POINT UNIT C09 RM 10/09/2017 -->
+      <anchor type="collate" xml:id="C10"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="3847" lry="5342" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="21r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml" xml:id="ox-ms_abinger_c56-0045">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0045.jp2"/>
   <zone rend="bordered" type="pagination"><line>75</line></zone>
@@ -3952,7 +3952,7 @@
   </zone>
   
 </surface>
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="27r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml" xml:id="ox-ms_abinger_c56-0057">
+      <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="27r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml" xml:id="ox-ms_abinger_c56-0057__Pt1" part="collA">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0057.jp2"/>
   <zone rend="bordered" type="pagination"><line>87</line></zone>
   <zone type="library"><line>27</line></zone>
@@ -3999,7 +3999,11 @@
     <line>"<del rend="strikethrough">ly</del> lying<del rend="strikethrough">e</del> here some
         day<add hand="#pbs" place="intralinear">s</add> it is from your</line>
     <line>"cousin I believe."</line>
-    <!-- COLLATION CHUNK POINT UNIT C10 RM 10/09/2017 -->
+  </zone>
+      </surface>
+      <anchor type="collate" xml:id="C11"/>
+      <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="27r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml" xml:id="ox-ms_abinger_c56-0057__Pt2" part="coll_B">
+        <zone type="main">
     <line rend="center"><milestone spanTo="#c56-0057.02" unit="tei:head"/><add place="interlinear">Ch V– 113</add><anchor xml:id="c56-0057.02"/></line>
     <milestone unit="tei:p"/>
     <line rend="indent2">He then put the following letter</line>
@@ -4014,9 +4018,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent1">"I cannot describe to you the <w ana="start"/>uneasi</line>
   </zone>
-
-  
-
+      
   </surface>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="27v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0058.xml" xml:id="ox-ms_abinger_c56-0058">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0058.jp2"/>
@@ -4549,7 +4551,7 @@
 
 
 </surface>
-      <!-- COLLATION CHUNK POINT UNIT C12 RM 10/09/2017 -->
+      <anchor type="collate" xml:id="C12"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="30r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0065.xml" xml:id="ox-ms_abinger_c56-0065">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0065.jp2"/>
   <zone rend="bordered" type="pagination"><line>95</line></zone>
@@ -5116,13 +5118,8 @@
     <line><add><metamark function="count">20</metamark></add></line>
     <line><add><metamark function="count">15</metamark></add></line>
   </zone>
-          <!-- COLLATION CHUNK POINT UNIT C12 RM 10/09/2017 -->         
-
-  
-
-  
-  
 </surface>
+      <anchor type="collate" xml:id="C13"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="34r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0073.xml" xml:id="ox-ms_abinger_c56-0073">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0073.jp2"/>
   <zone rend="bordered" type="pagination"><line>103</line></zone>
@@ -6490,7 +6487,7 @@
     <line>whom I sincerely love, is to be torn</line>
   </zone>
 </surface>
-        <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="43r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0091.xml" xml:id="ox-ms_abinger_c56-0091">
+      <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="43r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0091.xml" xml:id="ox-ms_abinger_c56-0091__Pt1" part="coll_A">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0091.jp2"/>
   <zone rend="bordered" type="pagination"><line>121</line></zone>
   <zone type="library"><line>43</line></zone>
@@ -6524,8 +6521,11 @@
       <line>which I shall prevent the slightest shadow of partiality.</line>
     <anchor xml:id="c56-0091.04"/>
       <anchor xml:id="c56-0091.07"/>
-    
-    <!-- COLLATION CHUNK POINT UNIT C13 RM 10/09/2017 -->
+  </zone>
+      </surface>
+      <anchor type="collate" xml:id="C14"/>
+      <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="43r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0091.xml" xml:id="ox-ms_abinger_c56-0091__Pt2" part="coll_B">
+        <zone type="main">
     
     <milestone unit="tei:p"/>
     <line rend="indent1">We passed a few sad hours untill eleven</line>
@@ -7480,8 +7480,7 @@
     
   
 </surface>
-      <!-- COLLATION CHUNK POINT UNIT C14 RM 10/09/2017 --> 
-      
+ <anchor type="collate" xml:id="C15"/>     
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="51v" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0108.xml" xml:id="ox-ms_abinger_c56-0108">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0108.jp2"/>
   <zone rend="bordered" type="pagination"><line>138</line></zone>
@@ -8205,8 +8204,7 @@
     <line>ran before my window.</line>
   </zone>
 </surface>
-      <!-- COLLATION CHUNK POINT UNIT C15 RM 10/09/2017 -->
-      
+    <anchor type="collate" xml:id="C16"/>  
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="57r" mith:shelfmark="MS. Abinger c. 56" xml:base="ox-ms_abinger_c56/ox-ms_abinger_c56-0119.xml" xml:id="ox-ms_abinger_c56-0119">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0119.jp2"/>
   <zone rend="bordered" type="pagination"><line>149</line></zone>
@@ -9068,7 +9066,6 @@
       <!-- COLLATION CHUNK POINT UNIT C16 RM 10/09/2017 -->
       <!-- CHALDEA / INDIA SCIENCES FRAGMENT saved as msCollPrep_c56_ChaldeaFrag.xml 
         Q RM 2017-10-08 do we delete the rest for collation? This does not appear in the novel -->
-      <!-- A EB 2017-10-08 Yes. We'd better remove this or at least comment it all out.NOTE: for counting/checking purposes, no left margin zones after this point.  -->
-    
+      <!-- A EB 2017-10-08 Yes. We'd better remove this or at least comment it all out.NOTE: for counting/checking purposes, no left margin zones after this point.  -->    
     </sourceDoc>
 </TEI>
