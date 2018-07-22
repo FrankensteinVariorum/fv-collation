@@ -62,17 +62,17 @@ This last pre-processing stage was conducted mostly in the fall of 2017, and was
 `sga_Notebooks/Id_Trans_sgaCollatePrep.xsl`. This stylesheet does the following: 
 
 * changes `<line>...</line>` elements into self-closed `<lb/>` elements
-* marks `<del>` elements inside `<mod>` that contain two characters or less and gives them a special `<pitt:mdel>` element so that they may be screened from the collation process to reduce collation noise (so that their content isn't treated as a source of variance with other editions but nevertheless is still output because we need their content.) Meanwhile all other `<del>` elements are preserved for full comparison.
-* marks all `<hi>...</hi>` elements as `<pitt:hi>...</pitt:hi>`: The other source editions in the Variorum contain flattened `<hi/>` start and end marker elements. However, `<hi>` is more complicated and often doubly nested (as `<hi rend="X"><hi rend="Y">`) in the S-GA markup, we don't want to bother with flattening and raising it, but we do want to preserve it for the collation output.
+* marks `<del>` elements inside `<mod>` that contain two characters or less and gives them a special `<mdel>` element so that they may be screened from the collation process to reduce collation noise (so that their content isn't treated as a source of variance with other editions but nevertheless is still output because we need their content.) Meanwhile all other `<del>` elements are preserved for full comparison.
+* marks all `<hi>...</hi>` elements as `<shi>...</shi>`: The other source editions in the Variorum contain flattened `<hi/>` start and end marker elements. However in the S-GA markup, `<hi>` (now `<shi>`) is often more complicated and doubly nested (as `<hi rend="X"><hi rend="Y">`), so to avoid potentially tangling these we opted to leave them inline unaltered, read around them during the collation, but preserve them for the collation output.
 * removes some `<zone>` `<space>` and `<listTranspose>` and other elements unnecessary for the collation.
 
 * Currently this is designed to run over each file one at a time to inspect the output.) 
 
 **Files involved and instructions to run:** 
 
-* Source: Each of the six "PreCollate" XML files in `sga_Notebooks`.
+* Source:  `sga_Notebooks/PreCollate` 
 * XSLT: `sga_Notebooks/Id_Trans_sgaCollatePrep.xsl`
-* Set the output destination up a directory level to `collateXPrep` and and then down into the `msColl_full` directory.The new files follow this naming convention:
+* Set the output destination up a directory level to `collateXPrep` and and then down into the `msColl_full` directory.The output files follow this naming convention:
 **`msColl_full/msColl_c**.xml`**
 
 ### C. Flag and flatten

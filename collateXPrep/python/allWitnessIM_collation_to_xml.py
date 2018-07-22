@@ -29,7 +29,13 @@ RE_AMP = re.compile(r'&')
 RE_MDEL = re.compile(r'<mdel>.+?/</mdel>')
 RE_SHI = re.compile(r'<shi.+?>.+?</shi>')
 RE_METAMARK = re.compile(r'<metamark.+?>.+?</metamark>')
+RE_HI = re.compile(r'<hi\s.+?/>')
+RE_PB = re.compile(r'<pb.+?/>')
 RE_LB = re.compile(r'<lb.+?/>')
+RE_LG = re.compile(r'<lg.+?/>')
+RE_L = re.compile(r'<l\s.+?/>')
+RE_CIT = re.compile(r'<cit\s.+?/>')
+RE_QUOTE = re.compile(r'<quote\s.+?/>')
 # ebb: RE_MDEL = those pesky deletions of two letters or less that we want to normalize out of the collation, but preserve in the output.
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
@@ -45,11 +51,11 @@ RE_LB = re.compile(r'<lb.+?/>')
 # 2017-05-30 ebb: collated but the tags are not). Decision to make the comments into self-closing elements with text
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
-ignore = ['sourceDoc', 'xml', 'pb', 'comment', 'w', 'mod', 'anchor', 'include', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore']
-inlineEmpty = ['lb', 'gap', 'del', 'p', 'div', 'milestone', 'lg', 'l', 'note', 'cit', 'quote', 'bibl', 'ab', 'hi', 'head']
+ignore = ['sourceDoc', 'xml', 'comment', 'w', 'mod', 'anchor', 'include', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore']
+inlineEmpty = ['pb', 'lb', 'gap', 'del', 'p', 'div', 'milestone', 'lg', 'l', 'note', 'cit', 'quote', 'bibl', 'ab', 'hi', 'head']
 # 2018-05-12 ebb: I'm setting a white space on either side of the inlineEmpty elements in line 76
 # 2018-07-20: ebb: CHECK: are there white spaces on either side of empty elements in the output?
-inlineContent = ['metamark', 'pitt:mdel', 'pitt:hi']
+inlineContent = ['metamark', 'mdel', 'shi']
 #2018-07-17 ebb: I moved the following list up into inlineEmpty, since they are all now empty elements: blockElement = ['lg', 'l', 'note', 'cit', 'quote', 'bibl']
 # ebb: Tried removing 'comment', from blockElement list above, because we don't want these to be collated.
 
@@ -99,9 +105,16 @@ def normalize(inputText):
    return RE_AMP.sub('and',\
         RE_MDEL.sub('', \
         RE_SHI.sub('', \
+        RE_HI.sub('', \
         RE_LB.sub('', \
+        RE_PB.sub('', \
         RE_PARA.sub('<p/>', \
-        RE_METAMARK.sub('', inputText)))))).lower()
+        RE_LB.sub('', \
+        RE_LG.sub('<lg/>', \
+        RE_L.sub('<l/>', \
+        RE_CIT.sub('', \
+        RE_QUOTE.sub('', \
+        RE_METAMARK.sub('', inputText))))))))))))).lower()
 #    return regexPageBreak('',inputText)
 # ebb: The normalize function makes it possible to return normalized tokens that screen out some markup, but not all.
 
