@@ -88,12 +88,26 @@ The output of this process is saved in the `msColl-fullFlat` directory and is na
 * Output directory: `msColl-fullFlat`
 
 ### D. Chunking
-The six files in `msColl-fullFlat` are now "chunked" according to 33 common alignment positions between all editions of the novel. 
+The six files in `msColl-fullFlat` are now "chunked" according to 33 common alignment positions between all editions of the novel, as marked in Preprocessing stage IC above. 
 
+For this we run the `sga_collChunking.xsl` stylesheet on each individual file in `msColl-fullFlat` separately, so as to file its output in the appropriate place as described below.
 
-Not every witness is present from the S-GA files, as we demonstrated in the figure above: S-GA has no material representing the first six collation units, and begins at collation unit 7. All witnesses must be present at all points for the computer-automated collation process to run. Where witness chunks are missing in S-GA, we have prepared empty "dummy" files required for the collation process. 
+Because we have some fragmented multiple witnesses for various collation units, we process and file the output "chunk" files thus:
 
-1. 
+* `msColl_c56` and `msColl_c57` form one witness to be compared with all of the other *Frankenstein* edition source files. These collation chunks are filed in `collationChunks` (together with collation chunks for all source editions) and renamed thus: `msColl_C**.xml` where the `**` stands for the collation unit number. 
+
+* `msColl_c58` is a second witness of several collation units ending the novel. Its collation chunks are filed in `collChunkFrags_c58` together with copies of all other source witness files that align with its sequence of collation chunks (including those from `c57`). This and other "Frags" directories can be processed in a separate collation. 
+
+* `collChunkFrags_c57` and `collChunkFrags_c58Frag` hold the extra fragmentary witness chunks for a handful of collation units, again, together with all other available collation chunks for comparison, including those from `c57` and `c58`.  
+
+**When re-making collation chunks do not delete the following "dummy" files:**
+
+* The files named/numbered `msCollC01.xml` through `msCollC06.xml`
+* `msCollC19.xml`
+
+**Explanation:** Not every witness is present from the S-GA files, as we demonstrated in the figure above: S-GA has no material representing the first six collation units, and begins at collation unit 7. The automated collation process won't run unless a collation chunk file is present for each witness at every unit from C01 to C33. So, where witness chunks are missing in S-GA, we have prepared empty "dummy" files (containing only an XML comment) required for the collation process. 
+
+When all collation units are present from the manuscript and print publication witnesses in the appropriate directories, we are ready to run the collation process from the appropriate script in the `python` directory. Note that new scripts must be prepared to process files in different directories and in different combinations, but the file `python/allWitnessIM_collation_to_xml.py` is designed to process the chunk files in the `collationChunks` directory and output the results in the `Full_xmlOutput` directory.
 
 
 
