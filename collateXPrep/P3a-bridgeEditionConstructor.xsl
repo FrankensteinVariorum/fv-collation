@@ -2,12 +2,15 @@
 <xsl:stylesheet xpath-default-namespace="http://www.tei-c.org/ns/1.0"  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
     xmlns="http://www.tei-c.org/ns/1.0"  
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="3.0">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns:mith="http://mith.umd.edu/sc/ns1#"
+    xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+    exclude-result-prefixes="xs" version="3.0">
 
   <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="P2-BridgeColl" as="document-node()+" select="collection('bridge-P2')"/>
     <xsl:variable name="testerDoc" as="document-node()" select="doc('bridge-P2/bridge-P2_f1818_C10.xml')"/>
-<!--In Bridge Construction Phase 3, we are up-converting the text-converted tags in the edition files into self-closed elements. -->    
+<!--In Bridge Construction Phase 3, we are up-converting the text-converted tags in the edition files into self-closed elements. -->   <!--2018-07-23 ebb: This is currently problematic for the new style of sID and eID attributes on flattened elements.  --> 
    <xsl:template match="/">
        <xsl:for-each select="$P2-BridgeColl//TEI">
            <xsl:variable name="currentP2File" as="element()" select="current()"/>
