@@ -29,6 +29,14 @@
                 <xsl:value-of select="count(current()/preceding-sibling::div[@type=current()/@type]) + 1"/>
                 <xsl:text>_</xsl:text>
             </xsl:for-each>
+            <xsl:if test="ancestor::*[. [ancestor::div[1]]]">
+                <xsl:for-each select="ancestor::*[. [ancestor::div[1]]]">
+                    <xsl:variable name="ancNodeName" as="xs:string" select="name()"/>
+                    <xsl:value-of select="$ancNodeName"/>
+                    <xsl:value-of select="count(preceding-sibling::*[name() = $ancNodeName]) + 1"/>
+                    <xsl:text>_</xsl:text>
+                </xsl:for-each>
+            </xsl:if>
             <xsl:value-of select="$nodeName"/>
             <xsl:value-of select="count(preceding-sibling::*[name() = $nodeName]) + 1"/>
         </xsl:variable>
