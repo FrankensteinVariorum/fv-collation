@@ -11,7 +11,7 @@
             <xsl:variable name="currFile" as="xs:string">
                 <xsl:value-of select="concat(tokenize(base-uri(.), '/')[last()] ! substring-before(., '.xml'), 'Flat.xml')"/>
             </xsl:variable> 
-            <xsl:result-document method="xml" indent="yes" href=" print-fullFlat/{$currFile}.xml">
+            <xsl:result-document method="xml" indent="yes" href=" print-fullFlat/{$currFile}">
                 <xml>
         
                     <xsl:apply-templates/>
@@ -30,7 +30,7 @@
                 <xsl:text>_</xsl:text>
             </xsl:for-each>
             <xsl:value-of select="$nodeName"/>
-            <xsl:value-of select="count(preceding::p) + 1"/>
+            <xsl:value-of select="count(preceding-sibling::*[name() = $nodeName]) + 1"/>
         </xsl:variable>
         <xsl:copy>
             <xsl:attribute name="sID">
