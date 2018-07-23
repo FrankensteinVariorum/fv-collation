@@ -18,7 +18,7 @@
               <xsl:text>P3-</xsl:text><xsl:value-of select="tokenize(base-uri(), '/')[last()] ! tokenize(., 'bridge-P2_')[last()]"/>
            </xsl:variable>
          <xsl:variable name="chunk" as="xs:string" select="tokenize($filename, '_')[last()]"/>          
-           <xsl:result-document method="xml" indent="yes" href="bridge-P3a/{$filename}">
+           <xsl:result-document method="xml" indent="yes" href="bridge-P3/{$filename}">
                <TEI>
            <xsl:apply-templates/>
                </TEI>
@@ -72,7 +72,17 @@
                                 
                                 <xsl:element name="{$elementName}">
                                     <xsl:for-each select="tokenize($flattenedTagContents, ' ')[position() gt 1][contains(., '=')]">
-                                        <xsl:attribute name="{concat('th:', substring-before(current(), '='))}">
+                                        <xsl:variable name="attName" as="xs:string">
+       <xsl:choose>
+           <xsl:when test="matches(current(), '[se]ID')">
+               <xsl:value-of select="concat('th:', substring-before(current(), '='))"/>
+           </xsl:when>
+           <xsl:otherwise>
+               <xsl:value-of select="substring-before(current(), '=')"/>   
+           </xsl:otherwise>
+       </xsl:choose>                                   
+</xsl:variable>
+                                        <xsl:attribute name="{$attName}">
                                             <xsl:value-of select="substring-after(current(), '=&#34;') ! substring-before(., '&#34;')"/>    
                                         </xsl:attribute>
                                     </xsl:for-each> 

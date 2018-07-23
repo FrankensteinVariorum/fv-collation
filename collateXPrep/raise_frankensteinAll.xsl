@@ -5,7 +5,10 @@
     xmlns:mith="http://mith.umd.edu/sc/ns1#"
     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" exclude-result-prefixes="#all">
-
+<!--2018-07-23 ebb: Adapted from the raising repo. Run at command line here specifying Bridge-P3 input and Bridge-P4 output directories with
+        
+    
+    -->
     <!--* Setup *-->
     <xsl:output method="xml" indent="no"/>
 

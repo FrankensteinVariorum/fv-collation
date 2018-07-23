@@ -14,7 +14,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Produced from collation output: 2018-07-23 00:49:46.885587 </p>
+            <p>Produced from collation output: 2018-07-23 21:10:08.230935 </p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -22,11 +22,11 @@
       <body>
          <ab type="alignmentChunk">
             <app xml:id="C12_app1">
-               <rdg wit="#f1818">&lt;p sID="novel1_letter4_chapter5_p15"/&gt;“Dear, </rdg>
-               <rdg wit="#f1823">&lt;p sID="novel1_letter4_chapter5_p15"/&gt;“Dear, </rdg>
-               <rdg wit="#f1831">&lt;p sID="novel1_letter4_chapter6_p14"/&gt;“Dear, </rdg>
+               <rdg wit="#f1818">&lt;p sID="novel1_letter4_chapter5_div4_div5_p15"/&gt;“Dear, </rdg>
+               <rdg wit="#f1823">&lt;p sID="novel1_letter4_chapter5_div4_div5_p15"/&gt;“Dear, </rdg>
+               <rdg wit="#f1831">&lt;p sID="novel1_letter4_chapter6_div4_div6_p14"/&gt;“Dear, </rdg>
                <rdg wit="#fMS">&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0065__main__1"/&gt; "Dear, </rdg>
-               <rdg wit="#fThomas">&lt;p sID="novel1_letter4_chapter5_p14"/&gt;“Dear, </rdg>
+               <rdg wit="#fThomas">&lt;p sID="novel1_letter4_chapter5_div4_div5_p14"/&gt;“Dear, </rdg>
             </app>
             <app type="invariant" xml:id="C12_app2">
                <rdg wit="#f1818">dear </rdg>
@@ -150,9 +150,7 @@
                <rdg wit="#f1818">had commenced, </rdg>
                <rdg wit="#f1823">had commenced, </rdg>
                <rdg wit="#f1831">had commenced, </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0065__main__d2e13650"/&gt;was&lt;del
-            eID="c56-0065__main__d2e13650"/&gt;&lt;lb n="c56-0065__left_margin__1"/&gt;had&lt;lb
-            n="c56-0065__main__7"/&gt; commenced </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0065__main__d2e13650"/&gt;was&lt;del eID="c56-0065__main__d2e13650"/&gt;&lt;lb n="c56-0065__left_margin__1"/&gt;had&lt;lb n="c56-0065__main__7"/&gt; commenced </rdg>
                <rdg wit="#fThomas">had commenced, </rdg>
             </app>
             <app type="invariant" xml:id="C12_app21">
@@ -166,9 +164,7 @@
                <rdg wit="#f1818">proceeded regularly. In </rdg>
                <rdg wit="#f1823">proceeded regularly. In </rdg>
                <rdg wit="#f1831">proceeded regularly. In </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0065__main__d2e13669"/&gt;went
-            on&lt;del eID="c56-0065__main__d2e13669"/&gt;proceeded regularly–in &lt;lb
-            n="c56-0065__main__8"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0065__main__d2e13669"/&gt;went on&lt;del eID="c56-0065__main__d2e13669"/&gt;proceeded regularly–in &lt;lb n="c56-0065__main__8"/&gt; </rdg>
                <rdg wit="#fThomas">proceeded regularly. In </rdg>
             </app>
             <app type="invariant" xml:id="C12_app23">
@@ -189,18 +185,11 @@
                <rdg wit="#fThomas">leave my </rdg>
             </app>
             <app xml:id="C12_app26">
-               <rdg wit="#f1818">chamber.&lt;p eID="novel1_letter4_chapter5_p15"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p16"/&gt;One </rdg>
-               <rdg wit="#f1823">chamber.&lt;p eID="novel1_letter4_chapter5_p15"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p16"/&gt;One </rdg>
-               <rdg wit="#f1831">chamber.&lt;pb n="53" xml:id="F1831_v_069"/&gt;&lt;p
-            eID="novel1_letter4_chapter6_p14"/&gt;&lt;p sID="novel1_letter4_chapter6_p15"/&gt;One </rdg>
-               <rdg wit="#fMS">chamber. &lt;lb n="c56-0065__main__10"/&gt;&lt;metamark
-            function="separate"&gt;______&lt;/metamark&gt;&lt;lb
-            n="c56-0066__main__1"/&gt;&lt;milestone spanTo="#c56-0066.05" unit="tei:head"/&gt;Chap.
-            8&lt;shi rend="sup"&gt;&lt;/shi&gt;&lt;lb n="c56-0066__main__2"/&gt; one </rdg>
-               <rdg wit="#fThomas">chamber.&lt;p eID="novel1_letter4_chapter5_p14"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p15"/&gt;One </rdg>
+               <rdg wit="#f1818">chamber.&lt;p eID="novel1_letter4_chapter5_div4_div5_p15"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p16"/&gt;One </rdg>
+               <rdg wit="#f1823">chamber.&lt;p eID="novel1_letter4_chapter5_div4_div5_p15"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p16"/&gt;One </rdg>
+               <rdg wit="#f1831">chamber.&lt;pb n="53" xml:id="F1831_v_069"/&gt;&lt;p eID="novel1_letter4_chapter6_div4_div6_p14"/&gt;&lt;p sID="novel1_letter4_chapter6_div4_div6_p15"/&gt;One </rdg>
+               <rdg wit="#fMS">chamber. &lt;lb n="c56-0065__main__10"/&gt;&lt;metamark function="separate"&gt;______&lt;/metamark&gt;&lt;lb n="c56-0066__main__1"/&gt;&lt;milestone spanTo="#c56-0066.05" unit="tei:head"/&gt;Chap. 8&lt;shi rend="sup"&gt;&lt;/shi&gt;&lt;lb n="c56-0066__main__2"/&gt; one </rdg>
+               <rdg wit="#fThomas">chamber.&lt;p eID="novel1_letter4_chapter5_div4_div5_p14"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p15"/&gt;One </rdg>
             </app>
             <app type="invariant" xml:id="C12_app27">
                <rdg wit="#f1818">of my first duties on my recovery was </rdg>
@@ -216,8 +205,7 @@
                <rdg wit="#f1818">to introduce Clerval to the several professors of </rdg>
                <rdg wit="#f1823">to introduce Clerval to the several professors of </rdg>
                <rdg wit="#f1831">to introduce Clerval to the several professors of </rdg>
-               <rdg wit="#fMS">to introduce Clerval to the &lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;several professors of </rdg>
+               <rdg wit="#fMS">to introduce Clerval to the &lt;metamark function="insert"&gt;^&lt;/metamark&gt;several professors of </rdg>
                <rdg wit="#fThomas">to introduce Clerval to the several professors of </rdg>
             </app>
             <app xml:id="C12_app30">
@@ -258,8 +246,7 @@
                <rdg wit="#f1818">underwent </rdg>
                <rdg wit="#f1823">underwent </rdg>
                <rdg wit="#f1831">underwent </rdg>
-               <rdg wit="#fMS">under &lt;lb n="c56-0066__main__5"/&gt; went &lt;del rend="strikethrough"
-            sID="c56-0066__main__d2e13730"/&gt;torments&lt;del eID="c56-0066__main__d2e13730"/&gt; </rdg>
+               <rdg wit="#fMS">under &lt;lb n="c56-0066__main__5"/&gt; went &lt;del rend="strikethrough" sID="c56-0066__main__d2e13730"/&gt;torments&lt;del eID="c56-0066__main__d2e13730"/&gt; </rdg>
                <rdg wit="#fThomas">underwent </rdg>
             </app>
             <app type="invariant" xml:id="C12_app37">
@@ -273,8 +260,7 @@
                <rdg wit="#f1818">usage, </rdg>
                <rdg wit="#f1823">usage, </rdg>
                <rdg wit="#f1831">usage, </rdg>
-               <rdg wit="#fMS">usage &lt;lb n="c56-0066__main__6"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0066__main__d2e13736"/&gt;that&lt;del eID="c56-0066__main__d2e13736"/&gt; </rdg>
+               <rdg wit="#fMS">usage &lt;lb n="c56-0066__main__6"/&gt;&lt;del rend="strikethrough" sID="c56-0066__main__d2e13736"/&gt;that&lt;del eID="c56-0066__main__d2e13736"/&gt; </rdg>
                <rdg wit="#fThomas">usage, </rdg>
             </app>
             <app type="invariant" xml:id="C12_app39">
@@ -288,17 +274,14 @@
                <rdg wit="#f1818">befitting </rdg>
                <rdg wit="#f1823">befitting </rdg>
                <rdg wit="#f1831">befitting </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough"
-            sID="c56-0066__main__d2e13739"/&gt;befitten&lt;del eID="c56-0066__main__d2e13739"/&gt;
-            befitt&lt;mdel&gt;ed&lt;/mdel&gt;ing </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0066__main__d2e13739"/&gt;befitten&lt;del eID="c56-0066__main__d2e13739"/&gt; befitt&lt;mdel&gt;ed&lt;/mdel&gt;ing </rdg>
                <rdg wit="#fThomas">befitting </rdg>
             </app>
             <app type="invariant" xml:id="C12_app41">
                <rdg wit="#f1818">the wounds that my mind had sustained. Ever since the </rdg>
                <rdg wit="#f1823">the wounds that my mind had sustained. Ever since the </rdg>
                <rdg wit="#f1831">the wounds that my mind had sustained. Ever since the </rdg>
-               <rdg wit="#fMS">the wounds that&lt;lb n="c56-0066__main__7"/&gt; my mind had sustained. Ever
-            since the </rdg>
+               <rdg wit="#fMS">the wounds that&lt;lb n="c56-0066__main__7"/&gt; my mind had sustained. Ever since the </rdg>
                <rdg wit="#fThomas">the wounds that my mind had sustained. Ever since the </rdg>
             </app>
             <app xml:id="C12_app42">
@@ -343,8 +326,7 @@
                <rdg wit="#f1818">misfortunes, </rdg>
                <rdg wit="#f1823">misfortunes, </rdg>
                <rdg wit="#f1831">misfortunes, </rdg>
-               <rdg wit="#fMS">misfortunes &lt;del rend="strikethrough"
-            sID="c56-0066__main__d2e13761"/&gt;(&lt;del eID="c56-0066__main__d2e13761"/&gt; </rdg>
+               <rdg wit="#fMS">misfortunes &lt;del rend="strikethrough" sID="c56-0066__main__d2e13761"/&gt;(&lt;del eID="c56-0066__main__d2e13761"/&gt; </rdg>
                <rdg wit="#fThomas">misfortunes, </rdg>
             </app>
             <app type="invariant" xml:id="C12_app49">
@@ -378,17 +360,14 @@
                <rdg wit="#f1818">natural </rdg>
                <rdg wit="#f1823">natural </rdg>
                <rdg wit="#f1831">natural </rdg>
-               <rdg wit="#fMS">&lt;mdel&gt;Ch&lt;/mdel&gt;&lt;del rend="strikethrough"
-            sID="c56-0066__main__d2e13776"/&gt;Chemistry&lt;del
-            eID="c56-0066__main__d2e13776"/&gt;Natural </rdg>
+               <rdg wit="#fMS">&lt;mdel&gt;Ch&lt;/mdel&gt;&lt;del rend="strikethrough" sID="c56-0066__main__d2e13776"/&gt;Chemistry&lt;del eID="c56-0066__main__d2e13776"/&gt;Natural </rdg>
                <rdg wit="#fThomas">natural </rdg>
             </app>
             <app type="invariant" xml:id="C12_app55">
                <rdg wit="#f1818">philosophy. When I was otherwise quite restored to </rdg>
                <rdg wit="#f1823">philosophy. When I was otherwise quite restored to </rdg>
                <rdg wit="#f1831">philosophy. When I was otherwise quite restored to </rdg>
-               <rdg wit="#fMS">Philosophy. When I was other&lt;lb n="c56-0066__main__12"/&gt;wise quite
-            restored to </rdg>
+               <rdg wit="#fMS">Philosophy. When I was other&lt;lb n="c56-0066__main__12"/&gt;wise quite restored to </rdg>
                <rdg wit="#fThomas">philosophy. When I was otherwise quite restored to </rdg>
             </app>
             <app xml:id="C12_app56">
@@ -433,9 +412,7 @@
                <rdg wit="#f1818">symptoms. </rdg>
                <rdg wit="#f1823">symptoms. </rdg>
                <rdg wit="#f1831">symptoms. </rdg>
-               <rdg wit="#fMS">symtoms. &lt;del rend="strikethrough"
-            sID="c56-0066__main__d2e13825"/&gt;Lo&lt;del eID="c56-0066__main__d2e13825"/&gt;&lt;lb
-            n="c56-0066__main__15"/&gt; </rdg>
+               <rdg wit="#fMS">symtoms. &lt;del rend="strikethrough" sID="c56-0066__main__d2e13825"/&gt;Lo&lt;del eID="c56-0066__main__d2e13825"/&gt;&lt;lb n="c56-0066__main__15"/&gt; </rdg>
                <rdg wit="#fThomas">symptoms. </rdg>
             </app>
             <app type="invariant" xml:id="C12_app63">
@@ -463,9 +440,7 @@
                <rdg wit="#f1818">removed </rdg>
                <rdg wit="#f1823">removed </rdg>
                <rdg wit="#f1831">removed </rdg>
-               <rdg wit="#fMS">&lt;mdel&gt;p&lt;/mdel&gt;&lt;del rend="strikethrough"
-            sID="c56-0066__main__d2e13836"/&gt;packed up&lt;del
-            eID="c56-0066__main__d2e13836"/&gt;removed&lt;lb n="c56-0066__main__16"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;mdel&gt;p&lt;/mdel&gt;&lt;del rend="strikethrough" sID="c56-0066__main__d2e13836"/&gt;packed up&lt;del eID="c56-0066__main__d2e13836"/&gt;removed&lt;lb n="c56-0066__main__16"/&gt; </rdg>
                <rdg wit="#fThomas">removed </rdg>
             </app>
             <app type="invariant" xml:id="C12_app67">
@@ -479,11 +454,7 @@
                <rdg wit="#f1818">apparatus </rdg>
                <rdg wit="#f1823">apparatus </rdg>
                <rdg wit="#f1831">apparatus </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough"
-            sID="c56-0066__main__d2e13847"/&gt;machines&lt;del
-            eID="c56-0066__main__d2e13847"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0066__main__d2e13850"/&gt;in a chest&lt;del
-            eID="c56-0066__main__d2e13850"/&gt;apparatus </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0066__main__d2e13847"/&gt;machines&lt;del eID="c56-0066__main__d2e13847"/&gt;&lt;del rend="strikethrough" sID="c56-0066__main__d2e13850"/&gt;in a chest&lt;del eID="c56-0066__main__d2e13850"/&gt;apparatus </rdg>
                <rdg wit="#fThomas">apparatus </rdg>
             </app>
             <app type="invariant" xml:id="C12_app69">
@@ -497,8 +468,7 @@
                <rdg wit="#f1818">view. </rdg>
                <rdg wit="#f1823">view. </rdg>
                <rdg wit="#f1831">view. </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0066__main__d2e13855"/&gt;che&lt;del
-            eID="c56-0066__main__d2e13855"/&gt; view </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0066__main__d2e13855"/&gt;che&lt;del eID="c56-0066__main__d2e13855"/&gt; view </rdg>
                <rdg wit="#fThomas">view. </rdg>
             </app>
             <app type="invariant" xml:id="C12_app71">
@@ -522,8 +492,7 @@
                <rdg wit="#f1818">apartment; </rdg>
                <rdg wit="#f1823">apartment; </rdg>
                <rdg wit="#f1831">apartment; </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0066__main__d2e13864"/&gt;room&lt;del
-            eID="c56-0066__main__d2e13864"/&gt;ap&lt;mdel&gt;p&lt;/mdel&gt;artment, </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0066__main__d2e13864"/&gt;room&lt;del eID="c56-0066__main__d2e13864"/&gt;ap&lt;mdel&gt;p&lt;/mdel&gt;artment, </rdg>
                <rdg wit="#fThomas">apartment; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app75">
@@ -609,8 +578,7 @@
                <rdg wit="#f1818">made </rdg>
                <rdg wit="#f1823">made </rdg>
                <rdg wit="#f1831">made </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0066__main__d2e13892"/&gt;thrown
-            away&lt;del eID="c56-0066__main__d2e13892"/&gt;made </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0066__main__d2e13892"/&gt;thrown away&lt;del eID="c56-0066__main__d2e13892"/&gt;made </rdg>
                <rdg wit="#fThomas">made </rdg>
             </app>
             <app type="invariant" xml:id="C12_app89">
@@ -665,8 +633,7 @@
                <rdg wit="#fThomas">with </rdg>
             </app>
             <app xml:id="C12_app98">
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0066__main__d2e13906"/&gt;the&lt;del
-            eID="c56-0066__main__d2e13906"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0066__main__d2e13906"/&gt;the&lt;del eID="c56-0066__main__d2e13906"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app99">
                <rdg wit="#f1818">kindness and warmth, </rdg>
@@ -723,8 +690,7 @@
                <rdg wit="#f1818">disliked </rdg>
                <rdg wit="#f1823">disliked </rdg>
                <rdg wit="#f1831">disliked </rdg>
-               <rdg wit="#fMS">disliked&lt;del rend="strikethrough"
-            sID="c56-0066__main__d2e13935"/&gt;of&lt;del eID="c56-0066__main__d2e13935"/&gt; </rdg>
+               <rdg wit="#fMS">disliked&lt;del rend="strikethrough" sID="c56-0066__main__d2e13935"/&gt;of&lt;del eID="c56-0066__main__d2e13935"/&gt; </rdg>
                <rdg wit="#fThomas">disliked </rdg>
             </app>
             <app type="invariant" xml:id="C12_app109">
@@ -783,8 +749,7 @@
                <rdg wit="#f1818">my </rdg>
                <rdg wit="#f1823">my </rdg>
                <rdg wit="#f1831">my </rdg>
-               <rdg wit="#fMS">&lt;mdel&gt;to&lt;/mdel&gt;&lt;mdel&gt;it&lt;/mdel&gt;&lt;lb
-            n="c56-0066__left_margin__1"/&gt;my </rdg>
+               <rdg wit="#fMS">&lt;mdel&gt;to&lt;/mdel&gt;&lt;mdel&gt;it&lt;/mdel&gt;&lt;lb n="c56-0066__left_margin__1"/&gt;my </rdg>
                <rdg wit="#fThomas">my </rdg>
             </app>
             <app type="invariant" xml:id="C12_app118">
@@ -798,11 +763,7 @@
                <rdg wit="#f1818">modesty, and </rdg>
                <rdg wit="#f1823">modesty, and </rdg>
                <rdg wit="#f1831">modesty, and </rdg>
-               <rdg wit="#fMS">modesty &lt;del rend="strikethrough" sID="c56-0066__main__d2e13962"/&gt;on
-            hearing myself praised&lt;del eID="c56-0066__main__d2e13962"/&gt;&lt;lb
-            n="c56-0067__main__1"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0067__main__d2e13975"/&gt;he therefore&lt;del
-            eID="c56-0067__main__d2e13975"/&gt;&lt;lb n="c56-0067__left_margin__1"/&gt;and </rdg>
+               <rdg wit="#fMS">modesty &lt;del rend="strikethrough" sID="c56-0066__main__d2e13962"/&gt;on hearing myself praised&lt;del eID="c56-0066__main__d2e13962"/&gt;&lt;lb n="c56-0067__main__1"/&gt;&lt;del rend="strikethrough" sID="c56-0067__main__d2e13975"/&gt;he therefore&lt;del eID="c56-0067__main__d2e13975"/&gt;&lt;lb n="c56-0067__left_margin__1"/&gt;and </rdg>
                <rdg wit="#fThomas">modesty, and </rdg>
             </app>
             <app xml:id="C12_app120">
@@ -854,8 +815,7 @@
                <rdg wit="#fThomas">with </rdg>
             </app>
             <app xml:id="C12_app128">
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0067__main__d2e13993"/&gt;an&lt;del
-            eID="c56-0067__main__d2e13993"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0067__main__d2e13993"/&gt;an&lt;del eID="c56-0067__main__d2e13993"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app129">
                <rdg wit="#f1818">a </rdg>
@@ -893,9 +853,7 @@
                <rdg wit="#fThomas">of drawing </rdg>
             </app>
             <app xml:id="C12_app134">
-               <rdg wit="#fMS">&lt;del rend="strikethrough"
-            sID="c56-0067__main__d2e13998"/&gt;friend&lt;del eID="c56-0067__main__d2e13998"/&gt;
-        </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0067__main__d2e13998"/&gt;friend&lt;del eID="c56-0067__main__d2e13998"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app135">
                <rdg wit="#f1818">me out. </rdg>
@@ -905,11 +863,7 @@
                <rdg wit="#fThomas">me out. </rdg>
             </app>
             <app xml:id="C12_app136">
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0067__main__d2e14001"/&gt;K&lt;del
-            eID="c56-0067__main__d2e14001"/&gt;Kind &lt;lb n="c56-0067__main__5"/&gt; friend he
-            tortured me withoutbut &lt;lb n="c56-0067__main__6"/&gt; it&lt;del rend="strikethrough"
-            sID="c56-0067__main__d2e14017"/&gt;How cruel is&lt;del
-            eID="c56-0067__main__d2e14017"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0067__main__d2e14001"/&gt;K&lt;del eID="c56-0067__main__d2e14001"/&gt;Kind &lt;lb n="c56-0067__main__5"/&gt; friend he tortured me withoutbut &lt;lb n="c56-0067__main__6"/&gt; it&lt;del rend="strikethrough" sID="c56-0067__main__d2e14017"/&gt;How cruel is&lt;del eID="c56-0067__main__d2e14017"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app137">
                <rdg wit="#f1818">What could I do? </rdg>
@@ -932,10 +886,7 @@
                <rdg wit="#f1818">please, and </rdg>
                <rdg wit="#f1823">please, and </rdg>
                <rdg wit="#f1831">please, and </rdg>
-               <rdg wit="#fMS">please &lt;del rend="strikethrough"
-            sID="c56-0067__main__d2e14023"/&gt;and&lt;del eID="c56-0067__main__d2e14023"/&gt;&lt;del
-            rend="strikethrough" sID="c56-0067__main__d2e14026"/&gt;me&lt;del
-            eID="c56-0067__main__d2e14026"/&gt;&amp; </rdg>
+               <rdg wit="#fMS">please &lt;del rend="strikethrough" sID="c56-0067__main__d2e14023"/&gt;and&lt;del eID="c56-0067__main__d2e14023"/&gt;&lt;del rend="strikethrough" sID="c56-0067__main__d2e14026"/&gt;me&lt;del eID="c56-0067__main__d2e14026"/&gt;&amp; </rdg>
                <rdg wit="#fThomas">please, and </rdg>
             </app>
             <app type="invariant" xml:id="C12_app141">
@@ -949,11 +900,7 @@
                <rdg wit="#f1818">tormented me. I </rdg>
                <rdg wit="#f1823">tormented me. I </rdg>
                <rdg wit="#f1831">tormented me. I </rdg>
-               <rdg wit="#fMS">&lt;lb n="c56-0067__main__8"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0067__main__d2e14033"/&gt;tortured&lt;del
-            eID="c56-0067__main__d2e14033"/&gt;&lt;lb n="c56-0067__left_margin__1"/&gt;tormented me
-            &lt;del rend="strikethrough" sID="c56-0067__main__d2e14049"/&gt;it was&lt;del
-            eID="c56-0067__main__d2e14049"/&gt;I </rdg>
+               <rdg wit="#fMS">&lt;lb n="c56-0067__main__8"/&gt;&lt;del rend="strikethrough" sID="c56-0067__main__d2e14033"/&gt;tortured&lt;del eID="c56-0067__main__d2e14033"/&gt;&lt;lb n="c56-0067__left_margin__1"/&gt;tormented me &lt;del rend="strikethrough" sID="c56-0067__main__d2e14049"/&gt;it was&lt;del eID="c56-0067__main__d2e14049"/&gt;I </rdg>
                <rdg wit="#fThomas">tormented me. I </rdg>
             </app>
             <app type="invariant" xml:id="C12_app143">
@@ -967,9 +914,7 @@
                <rdg wit="#f1818">had placed carefully, </rdg>
                <rdg wit="#f1823">had placed carefully, </rdg>
                <rdg wit="#f1831">had placed carefully, </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0067__main__d2e14057"/&gt;had&lt;del
-            eID="c56-0067__main__d2e14057"/&gt;&lt;lb n="c56-0067__main__9"/&gt;&lt;lb
-            n="c56-0067__left_margin__1"/&gt;placed carefully </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0067__main__d2e14057"/&gt;had&lt;del eID="c56-0067__main__d2e14057"/&gt;&lt;lb n="c56-0067__main__9"/&gt;&lt;lb n="c56-0067__left_margin__1"/&gt;placed carefully </rdg>
                <rdg wit="#fThomas">had placed carefully, </rdg>
             </app>
             <app type="invariant" xml:id="C12_app145">
@@ -983,8 +928,7 @@
                <rdg wit="#f1818">one, </rdg>
                <rdg wit="#f1823">one, </rdg>
                <rdg wit="#f1831">one, </rdg>
-               <rdg wit="#fMS">one &lt;del rend="strikethrough"
-            sID="c56-0067__main__d2e14072"/&gt;placed&lt;del eID="c56-0067__main__d2e14072"/&gt; </rdg>
+               <rdg wit="#fMS">one &lt;del rend="strikethrough" sID="c56-0067__main__d2e14072"/&gt;placed&lt;del eID="c56-0067__main__d2e14072"/&gt; </rdg>
                <rdg wit="#fThomas">one, </rdg>
             </app>
             <app type="invariant" xml:id="C12_app147">
@@ -1001,10 +945,8 @@
                <rdg wit="#f1818">view those instruments which were to be afterwards used in putting me to a </rdg>
                <rdg wit="#f1823">view those instruments which were to be afterwards used in putting me to a </rdg>
                <rdg wit="#f1831">view those instruments which were to be afterwards used in putting me to a </rdg>
-               <rdg wit="#fMS">view those instruments which were &lt;lb n="c56-0067__main__11"/&gt;&lt;lb
-            n="c56-0067__left_margin__1"/&gt;to be afterwards used in putting me to a </rdg>
-               <rdg wit="#fThomas">view those instruments which were to be afterwards used in putting me to
-            a </rdg>
+               <rdg wit="#fMS">view those instruments which were &lt;lb n="c56-0067__main__11"/&gt;&lt;lb n="c56-0067__left_margin__1"/&gt;to be afterwards used in putting me to a </rdg>
+               <rdg wit="#fThomas">view those instruments which were to be afterwards used in putting me to a </rdg>
             </app>
             <app xml:id="C12_app150">
                <rdg wit="#fMS">&lt;lb n="c56-0067__main__12"/&gt; </rdg>
@@ -1017,8 +959,7 @@
                <rdg wit="#fThomas">slow and cruel </rdg>
             </app>
             <app xml:id="C12_app152">
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0067__main__d2e14092"/&gt;dre&lt;del
-            eID="c56-0067__main__d2e14092"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0067__main__d2e14092"/&gt;dre&lt;del eID="c56-0067__main__d2e14092"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app153">
                <rdg wit="#f1818">death. I writhed </rdg>
@@ -1041,8 +982,7 @@
                <rdg wit="#f1818">exhibit </rdg>
                <rdg wit="#f1823">exhibit </rdg>
                <rdg wit="#f1831">exhibit </rdg>
-               <rdg wit="#fMS">shew &lt;lb n="c56-0067__main__14"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0067__main__d2e14100"/&gt;my&lt;del eID="c56-0067__main__d2e14100"/&gt; </rdg>
+               <rdg wit="#fMS">shew &lt;lb n="c56-0067__main__14"/&gt;&lt;del rend="strikethrough" sID="c56-0067__main__d2e14100"/&gt;my&lt;del eID="c56-0067__main__d2e14100"/&gt; </rdg>
                <rdg wit="#fThomas">exhibit </rdg>
             </app>
             <app type="invariant" xml:id="C12_app157">
@@ -1090,8 +1030,7 @@
                <rdg wit="#f1818">subject, alleging, in excuse, his total ignorance; </rdg>
                <rdg wit="#f1823">subject, alleging, in excuse, his total ignorance; </rdg>
                <rdg wit="#f1831">subject, alleging, in excuse, his total ignorance; </rdg>
-               <rdg wit="#fMS">subject alledging &lt;mdel&gt;in&lt;/mdel&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;his&lt;lb n="c56-0067__main__18"/&gt; ignorance </rdg>
+               <rdg wit="#fMS">subject alledging &lt;mdel&gt;in&lt;/mdel&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;his&lt;lb n="c56-0067__main__18"/&gt; ignorance </rdg>
                <rdg wit="#fThomas">subject, alleging, in excuse, his total ignorance; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app165">
@@ -1206,9 +1145,7 @@
                <rdg wit="#f1818">affection </rdg>
                <rdg wit="#f1823">affection </rdg>
                <rdg wit="#f1831">affection </rdg>
-               <rdg wit="#fMS">&lt;lb n="c56-0067__main__25"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0067__main__d2e14147"/&gt;love&lt;del eID="c56-0067__main__d2e14147"/&gt;&lt;lb
-            n="c56-0067__left_margin__1"/&gt;affection </rdg>
+               <rdg wit="#fMS">&lt;lb n="c56-0067__main__25"/&gt;&lt;del rend="strikethrough" sID="c56-0067__main__d2e14147"/&gt;love&lt;del eID="c56-0067__main__d2e14147"/&gt;&lt;lb n="c56-0067__left_margin__1"/&gt;affection </rdg>
                <rdg wit="#fThomas">affection </rdg>
             </app>
             <app type="invariant" xml:id="C12_app185">
@@ -1241,8 +1178,7 @@
                <rdg wit="#fThomas">yet I could never </rdg>
             </app>
             <app xml:id="C12_app190">
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0067__main__d2e14163"/&gt;pr&lt;del
-            eID="c56-0067__main__d2e14163"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0067__main__d2e14163"/&gt;pr&lt;del eID="c56-0067__main__d2e14163"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app191">
                <rdg wit="#f1818">persuade </rdg>
@@ -1303,16 +1239,11 @@
                <rdg wit="#fThomas">to another would only impress more </rdg>
             </app>
             <app xml:id="C12_app201">
-               <rdg wit="#f1818">deeply.&lt;p eID="novel1_letter4_chapter5_p16"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p17"/&gt;M. </rdg>
-               <rdg wit="#f1823">deeply.&lt;p eID="novel1_letter4_chapter5_p16"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p17"/&gt;M. </rdg>
-               <rdg wit="#f1831">deeply.&lt;p eID="novel1_letter4_chapter6_p15"/&gt;&lt;p
-            sID="novel1_letter4_chapter6_p16"/&gt;M. </rdg>
-               <rdg wit="#fMS">deeply.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0068__main__1"/&gt;
-            M&lt;shi rend="sup"&gt;r&lt;/shi&gt;. </rdg>
-               <rdg wit="#fThomas">deeply.&lt;p eID="novel1_letter4_chapter5_p15"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p16"/&gt;M. </rdg>
+               <rdg wit="#f1818">deeply.&lt;p eID="novel1_letter4_chapter5_div4_div5_p16"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p17"/&gt;M. </rdg>
+               <rdg wit="#f1823">deeply.&lt;p eID="novel1_letter4_chapter5_div4_div5_p16"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p17"/&gt;M. </rdg>
+               <rdg wit="#f1831">deeply.&lt;p eID="novel1_letter4_chapter6_div4_div6_p15"/&gt;&lt;p sID="novel1_letter4_chapter6_div4_div6_p16"/&gt;M. </rdg>
+               <rdg wit="#fMS">deeply.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0068__main__1"/&gt; M&lt;shi rend="sup"&gt;r&lt;/shi&gt;. </rdg>
+               <rdg wit="#fThomas">deeply.&lt;p eID="novel1_letter4_chapter5_div4_div5_p15"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p16"/&gt;M. </rdg>
             </app>
             <app type="invariant" xml:id="C12_app202">
                <rdg wit="#f1818">Krempe was not equally </rdg>
@@ -1325,10 +1256,7 @@
                <rdg wit="#f1818">docile; and </rdg>
                <rdg wit="#f1823">docile; and </rdg>
                <rdg wit="#f1831">docile; and </rdg>
-               <rdg wit="#fMS">docile &lt;del rend="strikethrough"
-            sID="c56-0068__main__d2e14205"/&gt;yet&lt;del
-            eID="c56-0068__main__d2e14205"/&gt;&amp;weak &lt;lb n="c56-0068__main__2"/&gt; as my
-            illness had made me&lt;lb n="c56-0068__left_margin__1"/&gt; </rdg>
+               <rdg wit="#fMS">docile &lt;del rend="strikethrough" sID="c56-0068__main__d2e14205"/&gt;yet&lt;del eID="c56-0068__main__d2e14205"/&gt;&amp;weak &lt;lb n="c56-0068__main__2"/&gt; as my illness had made me&lt;lb n="c56-0068__left_margin__1"/&gt; </rdg>
                <rdg wit="#fThomas">docile; and </rdg>
             </app>
             <app type="invariant" xml:id="C12_app204">
@@ -1359,8 +1287,7 @@
                <rdg wit="#f1818">almost insupportable </rdg>
                <rdg wit="#f1823">almost insupportable </rdg>
                <rdg wit="#f1831">almost insupportable </rdg>
-               <rdg wit="#fMS">almost in&lt;lb n="c56-0068__left_margin__4"/&gt;supportable&lt;lb
-            n="c56-0068__left_margin__5"/&gt; </rdg>
+               <rdg wit="#fMS">almost in&lt;lb n="c56-0068__left_margin__4"/&gt;supportable&lt;lb n="c56-0068__left_margin__5"/&gt; </rdg>
                <rdg wit="#fThomas">almost insupportable </rdg>
             </app>
             <app xml:id="C12_app209">
@@ -1412,8 +1339,7 @@
                <rdg wit="#fThomas">pain </rdg>
             </app>
             <app xml:id="C12_app217">
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0068__main__d2e14249"/&gt;that&lt;del
-            eID="c56-0068__main__d2e14249"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0068__main__d2e14249"/&gt;that&lt;del eID="c56-0068__main__d2e14249"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app218">
                <rdg wit="#f1818">than the </rdg>
@@ -1443,8 +1369,7 @@
                <rdg wit="#f1818">Waldman. “D—n the fellow!” </rdg>
                <rdg wit="#f1823">Waldman. “D—n the fellow!” </rdg>
                <rdg wit="#f1831">Waldman. “D—n the fellow!” </rdg>
-               <rdg wit="#fMS">Waldman —"Dam&lt;mdel&gt;m&lt;/mdel&gt;n&lt;lb n="c56-0068__main__6"/&gt;
-            "the fellow," </rdg>
+               <rdg wit="#fMS">Waldman —"Dam&lt;mdel&gt;m&lt;/mdel&gt;n&lt;lb n="c56-0068__main__6"/&gt; "the fellow," </rdg>
                <rdg wit="#fThomas">Waldman. “D—n the fellow!” </rdg>
             </app>
             <app type="invariant" xml:id="C12_app223">
@@ -1483,8 +1408,7 @@
                <rdg wit="#fThomas">you he has </rdg>
             </app>
             <app xml:id="C12_app228">
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0068__main__d2e14271"/&gt;beaut&lt;del
-            eID="c56-0068__main__d2e14271"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0068__main__d2e14271"/&gt;beaut&lt;del eID="c56-0068__main__d2e14271"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app229">
                <rdg wit="#f1818">outstript </rdg>
@@ -1580,8 +1504,7 @@
                <rdg wit="#f1818">a few </rdg>
                <rdg wit="#f1823">a few </rdg>
                <rdg wit="#f1831">a few </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0068__main__d2e14281"/&gt;two&lt;del
-            eID="c56-0068__main__d2e14281"/&gt; three </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0068__main__d2e14281"/&gt;two&lt;del eID="c56-0068__main__d2e14281"/&gt; three </rdg>
                <rdg wit="#fThomas">a few </rdg>
             </app>
             <app type="invariant" xml:id="C12_app243">
@@ -1626,9 +1549,7 @@
                <rdg wit="#f1818">as </rdg>
                <rdg wit="#f1823">as </rdg>
                <rdg wit="#f1831">as </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0068__main__d2e14288"/&gt;to be&lt;del
-            eID="c56-0068__main__d2e14288"/&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;as </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0068__main__d2e14288"/&gt;to be&lt;del eID="c56-0068__main__d2e14288"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;as </rdg>
                <rdg wit="#fThomas">as </rdg>
             </app>
             <app type="invariant" xml:id="C12_app250">
@@ -1755,10 +1676,7 @@
                <rdg wit="#f1818">face expressive </rdg>
                <rdg wit="#f1823">face expressive </rdg>
                <rdg wit="#f1831">face expressive </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough"
-            sID="c56-0068__main__d2e14314"/&gt;countenance&lt;del
-            eID="c56-0068__main__d2e14314"/&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;faceex&lt;lb n="c56-0068__main__17"/&gt;pressive </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0068__main__d2e14314"/&gt;countenance&lt;del eID="c56-0068__main__d2e14314"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;faceex&lt;lb n="c56-0068__main__17"/&gt;pressive </rdg>
                <rdg wit="#fThomas">face expressive </rdg>
             </app>
             <app type="invariant" xml:id="C12_app269">
@@ -1772,9 +1690,7 @@
                <rdg wit="#f1818">suffering, </rdg>
                <rdg wit="#f1823">suffering, </rdg>
                <rdg wit="#f1831">suffering, </rdg>
-               <rdg wit="#fMS">suffering "Mr. &lt;del rend="strikethrough"
-            sID="c56-0068__main__d2e14334"/&gt;f&lt;del
-            eID="c56-0068__main__d2e14334"/&gt;Franken&lt;lb n="c56-0068__main__18"/&gt;stein </rdg>
+               <rdg wit="#fMS">suffering "Mr. &lt;del rend="strikethrough" sID="c56-0068__main__d2e14334"/&gt;f&lt;del eID="c56-0068__main__d2e14334"/&gt;Franken&lt;lb n="c56-0068__main__18"/&gt;stein </rdg>
                <rdg wit="#fThomas">suffering, </rdg>
             </app>
             <app xml:id="C12_app271">
@@ -1870,8 +1786,7 @@
                <rdg wit="#f1818">know, M. </rdg>
                <rdg wit="#f1823">know, M. </rdg>
                <rdg wit="#f1831">know, M. </rdg>
-               <rdg wit="#fMS">know M&lt;shi rend="sup"&gt;&lt;/shi&gt;&lt;lb n="c56-0068__main__21"/&gt;
-            "Clerval; </rdg>
+               <rdg wit="#fMS">know M&lt;shi rend="sup"&gt;&lt;/shi&gt;&lt;lb n="c56-0068__main__21"/&gt; "Clerval; </rdg>
                <rdg wit="#fThomas">know, M. </rdg>
             </app>
             <app xml:id="C12_app285">
@@ -1902,18 +1817,11 @@
                <rdg wit="#fThomas">but </rdg>
             </app>
             <app xml:id="C12_app289">
-               <rdg wit="#f1818">that wears out in a very short time.”&lt;p
-            eID="novel1_letter4_chapter5_p17"/&gt;&lt;p sID="novel1_letter4_chapter5_p18"/&gt;M. </rdg>
-               <rdg wit="#f1823">that wears out in a very short time.”&lt;p
-            eID="novel1_letter4_chapter5_p17"/&gt;&lt;p sID="novel1_letter4_chapter5_p18"/&gt;M. </rdg>
-               <rdg wit="#f1831">that wears out in a very short time.”&lt;p
-            eID="novel1_letter4_chapter6_p16"/&gt;&lt;p sID="novel1_letter4_chapter6_p17"/&gt;M. </rdg>
-               <rdg wit="#fMS">&lt;lb n="c56-0068__main__22"/&gt; "one soon grows out of
-            that."&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0068__main__23"/&gt; M&lt;shi
-            rend="sup"&gt;&lt;/shi&gt; </rdg>
-               <rdg wit="#fThomas">that wears out in a very short time.”&lt;p
-            eID="novel1_letter4_chapter5_p16"/&gt;&lt;p sID="novel1_letter4_chapter5_p17"/&gt;M.
-        </rdg>
+               <rdg wit="#f1818">that wears out in a very short time.”&lt;p eID="novel1_letter4_chapter5_div4_div5_p17"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p18"/&gt;M. </rdg>
+               <rdg wit="#f1823">that wears out in a very short time.”&lt;p eID="novel1_letter4_chapter5_div4_div5_p17"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p18"/&gt;M. </rdg>
+               <rdg wit="#f1831">that wears out in a very short time.”&lt;p eID="novel1_letter4_chapter6_div4_div6_p16"/&gt;&lt;p sID="novel1_letter4_chapter6_div4_div6_p17"/&gt;M. </rdg>
+               <rdg wit="#fMS">&lt;lb n="c56-0068__main__22"/&gt; "one soon grows out of that."&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0068__main__23"/&gt; M&lt;shi rend="sup"&gt;&lt;/shi&gt; </rdg>
+               <rdg wit="#fThomas">that wears out in a very short time.”&lt;p eID="novel1_letter4_chapter5_div4_div5_p16"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p17"/&gt;M. </rdg>
             </app>
             <app type="invariant" xml:id="C12_app290">
                <rdg wit="#f1818">Krempe had now commenced </rdg>
@@ -1926,9 +1834,7 @@
                <rdg wit="#f1818">an </rdg>
                <rdg wit="#f1823">an </rdg>
                <rdg wit="#f1831">an </rdg>
-               <rdg wit="#fMS">&lt;lb n="c56-0068__main__24"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0068__main__d2e14373"/&gt;the subject of his own praise&lt;del
-            eID="c56-0068__main__d2e14373"/&gt;an </rdg>
+               <rdg wit="#fMS">&lt;lb n="c56-0068__main__24"/&gt;&lt;del rend="strikethrough" sID="c56-0068__main__d2e14373"/&gt;the subject of his own praise&lt;del eID="c56-0068__main__d2e14373"/&gt;an </rdg>
                <rdg wit="#fThomas">an </rdg>
             </app>
             <app type="invariant" xml:id="C12_app292">
@@ -1980,9 +1886,7 @@
                <rdg wit="#f1818">annoying </rdg>
                <rdg wit="#f1823">annoying </rdg>
                <rdg wit="#f1831">annoying </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough"
-            sID="c56-0068__main__d2e14386"/&gt;painful&lt;del
-            eID="c56-0068__main__d2e14386"/&gt;agonizing&lt;lb n="c56-0068__main__27"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0068__main__d2e14386"/&gt;painful&lt;del eID="c56-0068__main__d2e14386"/&gt;agonizing&lt;lb n="c56-0068__main__27"/&gt; </rdg>
                <rdg wit="#fThomas">annoying </rdg>
             </app>
             <app type="invariant" xml:id="C12_app300">
@@ -1993,15 +1897,11 @@
                <rdg wit="#fThomas">to </rdg>
             </app>
             <app xml:id="C12_app301">
-               <rdg wit="#f1818">me.&lt;p eID="novel1_letter4_chapter5_p18"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p19"/&gt;Clerval </rdg>
-               <rdg wit="#f1823">me.&lt;p eID="novel1_letter4_chapter5_p18"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p19"/&gt;Clerval </rdg>
-               <rdg wit="#f1831">me.&lt;p eID="novel1_letter4_chapter6_p17"/&gt;&lt;p
-            sID="novel1_letter4_chapter6_p18"/&gt;Clerval </rdg>
+               <rdg wit="#f1818">me.&lt;p eID="novel1_letter4_chapter5_div4_div5_p18"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p19"/&gt;Clerval </rdg>
+               <rdg wit="#f1823">me.&lt;p eID="novel1_letter4_chapter5_div4_div5_p18"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p19"/&gt;Clerval </rdg>
+               <rdg wit="#f1831">me.&lt;p eID="novel1_letter4_chapter6_div4_div6_p17"/&gt;&lt;p sID="novel1_letter4_chapter6_div4_div6_p18"/&gt;Clerval </rdg>
                <rdg wit="#fMS">me.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0068__main__28"/&gt; Clerval </rdg>
-               <rdg wit="#fThomas">me.&lt;p eID="novel1_letter4_chapter5_p17"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p18"/&gt;Clerval </rdg>
+               <rdg wit="#fThomas">me.&lt;p eID="novel1_letter4_chapter5_div4_div5_p17"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p18"/&gt;Clerval </rdg>
             </app>
             <app xml:id="C12_app302">
                <rdg wit="#f1818">was no </rdg>
@@ -2037,8 +1937,7 @@
             <app xml:id="C12_app307">
                <rdg wit="#f1818">imagination was too vivid for </rdg>
                <rdg wit="#f1823">imagination was too vivid for </rdg>
-               <rdg wit="#f1831">literary pursuits differed wholly from those which had occupied me. He
-            came to </rdg>
+               <rdg wit="#f1831">literary pursuits differed wholly from those which had occupied me. He came to </rdg>
                <rdg wit="#fMS">imagination was too vivid for&lt;lb n="c56-0069__main__1"/&gt; </rdg>
                <rdg wit="#fThomas">imagination was too vivid for </rdg>
             </app>
@@ -2052,8 +1951,7 @@
             <app xml:id="C12_app309">
                <rdg wit="#f1818">minutæ </rdg>
                <rdg wit="#f1823">minutæ </rdg>
-               <rdg wit="#f1831">university with the design of making himself complete master of the
-            oriental languages, as thus he should </rdg>
+               <rdg wit="#f1831">university with the design of making himself complete master of the oriental languages, as thus he should </rdg>
                <rdg wit="#fMS">minutiæ </rdg>
                <rdg wit="#fThomas">minutæ </rdg>
             </app>
@@ -2066,8 +1964,7 @@
             <app xml:id="C12_app311">
                <rdg wit="#f1818">Languages </rdg>
                <rdg wit="#f1823">Languages </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0069__main__d2e14412"/&gt;La&lt;del
-            eID="c56-0069__main__d2e14412"/&gt;Lan&lt;lb n="c56-0069__main__2"/&gt;guages </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0069__main__d2e14412"/&gt;La&lt;del eID="c56-0069__main__d2e14412"/&gt;Lan&lt;lb n="c56-0069__main__2"/&gt;guages </rdg>
                <rdg wit="#fThomas">Languages </rdg>
             </app>
             <app xml:id="C12_app312">
@@ -2079,9 +1976,7 @@
             <app xml:id="C12_app313">
                <rdg wit="#f1818">principal study; and </rdg>
                <rdg wit="#f1823">principal study; and </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0069__main__d2e14424"/&gt;chief&lt;del
-            eID="c56-0069__main__d2e14424"/&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;principal study for </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0069__main__d2e14424"/&gt;chief&lt;del eID="c56-0069__main__d2e14424"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;principal study for </rdg>
                <rdg wit="#fThomas">principal study; and </rdg>
             </app>
             <app xml:id="C12_app314">
@@ -2122,11 +2017,8 @@
             <app xml:id="C12_app320">
                <rdg wit="#f1818">self-instruction </rdg>
                <rdg wit="#f1823">self-instruction </rdg>
-               <rdg wit="#f1831">himself. Resolved to pursue no inglorious career, he turned his eyes
-            toward the East, as affording scope for </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0069__main__d2e14441"/&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;him&lt;del
-            eID="c56-0069__main__d2e14441"/&gt;self-instruc&lt;lb n="c56-0069__main__4"/&gt;tion </rdg>
+               <rdg wit="#f1831">himself. Resolved to pursue no inglorious career, he turned his eyes toward the East, as affording scope for </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0069__main__d2e14441"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;him&lt;del eID="c56-0069__main__d2e14441"/&gt;self-instruc&lt;lb n="c56-0069__main__4"/&gt;tion </rdg>
                <rdg wit="#fThomas">self-instruction </rdg>
             </app>
             <app xml:id="C12_app321">
@@ -2152,11 +2044,7 @@
             <app xml:id="C12_app324">
                <rdg wit="#f1818">to Geneva. </rdg>
                <rdg wit="#f1823">to Geneva. </rdg>
-               <rdg wit="#fMS">– &lt;del rend="strikethrough"
-            sID="c56-0069__main__d2e14461"/&gt;Greek&lt;del eID="c56-0069__main__d2e14461"/&gt;
-            Persian &lt;lb n="c56-0069__main__5"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0069__main__d2e14466"/&gt;&amp;&lt;del eID="c56-0069__main__d2e14466"/&gt;
-            Arabic </rdg>
+               <rdg wit="#fMS">– &lt;del rend="strikethrough" sID="c56-0069__main__d2e14461"/&gt;Greek&lt;del eID="c56-0069__main__d2e14461"/&gt; Persian &lt;lb n="c56-0069__main__5"/&gt;&lt;del rend="strikethrough" sID="c56-0069__main__d2e14466"/&gt;&amp;&lt;del eID="c56-0069__main__d2e14466"/&gt; Arabic </rdg>
                <rdg wit="#fThomas">to Geneva. </rdg>
             </app>
             <app xml:id="C12_app325">
@@ -2196,11 +2084,7 @@
                <rdg wit="#f1818">attention, </rdg>
                <rdg wit="#f1823">attention, </rdg>
                <rdg wit="#f1831">attention, </rdg>
-               <rdg wit="#fMS">atten&lt;lb n="c56-0069__main__6"/&gt;tion&lt;del rend="strikethrough"
-            sID="c56-0069__main__d2e14478"/&gt;when&lt;del
-            eID="c56-0069__main__d2e14478"/&gt;&lt;metamark function="displacement"
-            xml:id="c56-0069.01"&gt;X&lt;/metamark&gt;&lt;lb n="c56-0069__left_margin__1"/&gt;so
-            soon as &lt;metamark function="displacement"&gt;X&lt;/metamark&gt; </rdg>
+               <rdg wit="#fMS">atten&lt;lb n="c56-0069__main__6"/&gt;tion&lt;del rend="strikethrough" sID="c56-0069__main__d2e14478"/&gt;when&lt;del eID="c56-0069__main__d2e14478"/&gt;&lt;metamark function="displacement" xml:id="c56-0069.01"&gt;X&lt;/metamark&gt;&lt;lb n="c56-0069__left_margin__1"/&gt;so soon as &lt;metamark function="displacement"&gt;X&lt;/metamark&gt; </rdg>
                <rdg wit="#fThomas">attention, </rdg>
             </app>
             <app xml:id="C12_app331">
@@ -2336,8 +2220,7 @@
                <rdg wit="#f1818">studies, </rdg>
                <rdg wit="#f1823">studies, </rdg>
                <rdg wit="#f1831">studies, </rdg>
-               <rdg wit="#fMS">studies &lt;lb n="c56-0069__main__12"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0069__main__d2e14525"/&gt;a&lt;del eID="c56-0069__main__d2e14525"/&gt; </rdg>
+               <rdg wit="#fMS">studies &lt;lb n="c56-0069__main__12"/&gt;&lt;del rend="strikethrough" sID="c56-0069__main__d2e14525"/&gt;a&lt;del eID="c56-0069__main__d2e14525"/&gt; </rdg>
                <rdg wit="#fThomas">studies, </rdg>
             </app>
             <app type="invariant" xml:id="C12_app353">
@@ -2365,8 +2248,7 @@
                <rdg wit="#f1818">fellow-pupil with </rdg>
                <rdg wit="#f1823">fellow-pupil with </rdg>
                <rdg wit="#f1831">fellow-pupil with </rdg>
-               <rdg wit="#fMS">&lt;lb n="c56-0069__main__13"/&gt; fellow pupil
-            &lt;mdel&gt;of&lt;/mdel&gt;with </rdg>
+               <rdg wit="#fMS">&lt;lb n="c56-0069__main__13"/&gt; fellow pupil &lt;mdel&gt;of&lt;/mdel&gt;with </rdg>
                <rdg wit="#fThomas">fellow-pupil with </rdg>
             </app>
             <app type="invariant" xml:id="C12_app357">
@@ -2380,8 +2262,7 @@
                <rdg wit="#f1818">friend, </rdg>
                <rdg wit="#f1823">friend, </rdg>
                <rdg wit="#f1831">friend, </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0069__main__d2e14542"/&gt;fr&lt;del
-            eID="c56-0069__main__d2e14542"/&gt; friend </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0069__main__d2e14542"/&gt;fr&lt;del eID="c56-0069__main__d2e14542"/&gt; friend </rdg>
                <rdg wit="#fThomas">friend, </rdg>
             </app>
             <app type="invariant" xml:id="C12_app359">
@@ -2395,8 +2276,7 @@
                <rdg wit="#f1818">found </rdg>
                <rdg wit="#f1823">found </rdg>
                <rdg wit="#f1831">found </rdg>
-               <rdg wit="#fMS">&lt;lb n="c56-0069__main__14"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0069__main__d2e14548"/&gt;I </rdg>
+               <rdg wit="#fMS">&lt;lb n="c56-0069__main__14"/&gt;&lt;del rend="strikethrough" sID="c56-0069__main__d2e14548"/&gt;I </rdg>
                <rdg wit="#fThomas">found </rdg>
             </app>
             <app type="invariant" xml:id="C12_app361">
@@ -2410,9 +2290,7 @@
                <rdg wit="#f1818">only instruction </rdg>
                <rdg wit="#f1823">only instruction </rdg>
                <rdg wit="#f1831">only instruction </rdg>
-               <rdg wit="#fMS">a only&lt;del eID="c56-0069__main__d2e14548"/&gt; found &lt;del
-            rend="strikethrough" sID="c56-0069__main__d2e14553"/&gt;instruct&lt;del
-            eID="c56-0069__main__d2e14553"/&gt;not onlyinstruc&lt;lb n="c56-0069__main__15"/&gt;tion </rdg>
+               <rdg wit="#fMS">a only&lt;del eID="c56-0069__main__d2e14548"/&gt; found &lt;del rend="strikethrough" sID="c56-0069__main__d2e14553"/&gt;instruct&lt;del eID="c56-0069__main__d2e14553"/&gt;not onlyinstruc&lt;lb n="c56-0069__main__15"/&gt;tion </rdg>
                <rdg wit="#fThomas">only instruction </rdg>
             </app>
             <app type="invariant" xml:id="C12_app363">
@@ -2433,12 +2311,8 @@
                <rdg wit="#fThomas">the orientalists. </rdg>
             </app>
             <app xml:id="C12_app366">
-               <rdg wit="#f1831">I did not, like him, attempt a critical knowledge of their dialects, for I
-            did not contemplate making any other use of them than temporary amusement. I read merely
-            to understand their meaning, and they well repaid my labours. </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0069__main__d2e14569"/&gt;There is
-            something soothing&lt;del eID="c56-0069__main__d2e14569"/&gt;&lt;lb
-            n="c56-0069__main__17"/&gt; </rdg>
+               <rdg wit="#f1831">I did not, like him, attempt a critical knowledge of their dialects, for I did not contemplate making any other use of them than temporary amusement. I read merely to understand their meaning, and they well repaid my labours. </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0069__main__d2e14569"/&gt;There is something soothing&lt;del eID="c56-0069__main__d2e14569"/&gt;&lt;lb n="c56-0069__main__17"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app367">
                <rdg wit="#f1818">Their melancholy is </rdg>
@@ -2499,13 +2373,7 @@
                <rdg wit="#f1818">studying the </rdg>
                <rdg wit="#f1823">studying the </rdg>
                <rdg wit="#f1831">studying the </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough"
-            sID="c56-0069__main__d2e14580"/&gt;reading&lt;del
-            eID="c56-0069__main__d2e14580"/&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;studying&lt;del rend="strikethrough"
-            sID="c56-0069__main__d2e14595"/&gt;any&lt;del
-            eID="c56-0069__main__d2e14595"/&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;the </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0069__main__d2e14580"/&gt;reading&lt;del eID="c56-0069__main__d2e14580"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;studying&lt;del rend="strikethrough" sID="c56-0069__main__d2e14595"/&gt;any&lt;del eID="c56-0069__main__d2e14595"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;the </rdg>
                <rdg wit="#fThomas">studying the </rdg>
             </app>
             <app type="invariant" xml:id="C12_app377">
@@ -2533,10 +2401,7 @@
                <rdg wit="#f1818">country. </rdg>
                <rdg wit="#f1823">country. </rdg>
                <rdg wit="#f1831">country. </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough"
-            sID="c56-0069__main__d2e14614"/&gt;books.&lt;del
-            eID="c56-0069__main__d2e14614"/&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;country.&lt;lb n="c56-0069__main__20"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0069__main__d2e14614"/&gt;books.&lt;del eID="c56-0069__main__d2e14614"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;country.&lt;lb n="c56-0069__main__20"/&gt; </rdg>
                <rdg wit="#fThomas">country. </rdg>
             </app>
             <app type="invariant" xml:id="C12_app381">
@@ -2550,8 +2415,7 @@
                <rdg wit="#f1818">read </rdg>
                <rdg wit="#f1823">read </rdg>
                <rdg wit="#f1831">read </rdg>
-               <rdg wit="#fMS">read&lt;del rend="strikethrough" sID="c56-0069__main__d2e14629"/&gt;s&lt;del
-            eID="c56-0069__main__d2e14629"/&gt; </rdg>
+               <rdg wit="#fMS">read&lt;del rend="strikethrough" sID="c56-0069__main__d2e14629"/&gt;s&lt;del eID="c56-0069__main__d2e14629"/&gt; </rdg>
                <rdg wit="#fThomas">read </rdg>
             </app>
             <app type="invariant" xml:id="C12_app383">
@@ -2565,8 +2429,7 @@
                <rdg wit="#f1818">writings, </rdg>
                <rdg wit="#f1823">writings, </rdg>
                <rdg wit="#f1831">writings, </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0069__main__d2e14632"/&gt;li&lt;del
-            eID="c56-0069__main__d2e14632"/&gt; writings </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0069__main__d2e14632"/&gt;li&lt;del eID="c56-0069__main__d2e14632"/&gt; writings </rdg>
                <rdg wit="#fThomas">writings, </rdg>
             </app>
             <app type="invariant" xml:id="C12_app385">
@@ -2631,9 +2494,7 @@
                <rdg wit="#f1818">and frowns </rdg>
                <rdg wit="#f1823">and frowns </rdg>
                <rdg wit="#f1831">and frowns </rdg>
-               <rdg wit="#fMS">&amp;&lt;lb n="c56-0069__main__23"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0069__main__d2e14647"/&gt;tears&lt;del
-            eID="c56-0069__main__d2e14647"/&gt;&lt;lb n="c56-0069__left_margin__1"/&gt;frowns </rdg>
+               <rdg wit="#fMS">&amp;&lt;lb n="c56-0069__main__23"/&gt;&lt;del rend="strikethrough" sID="c56-0069__main__d2e14647"/&gt;tears&lt;del eID="c56-0069__main__d2e14647"/&gt;&lt;lb n="c56-0069__left_margin__1"/&gt;frowns </rdg>
                <rdg wit="#fThomas">and frowns </rdg>
             </app>
             <app type="invariant" xml:id="C12_app396">
@@ -2678,18 +2539,14 @@
                <rdg wit="#f1818">How different from the manly </rdg>
                <rdg wit="#f1823">How different from the manly </rdg>
                <rdg wit="#f1831">How different from the manly </rdg>
-               <rdg wit="#fMS">How different from the man&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;ly </rdg>
+               <rdg wit="#fMS">How different from the man&lt;metamark function="insert"&gt;^&lt;/metamark&gt;ly </rdg>
                <rdg wit="#fThomas">How different from the manly </rdg>
             </app>
             <app xml:id="C12_app403">
                <rdg wit="#f1818">and heroical poetry </rdg>
                <rdg wit="#f1823">and heroical poetry </rdg>
                <rdg wit="#f1831">and heroical poetry </rdg>
-               <rdg wit="#fMS">&amp;&lt;del rend="strikethrough"
-            sID="c56-0069__main__d2e14677"/&gt;warlike&lt;del
-            eID="c56-0069__main__d2e14677"/&gt;&lt;lb n="c56-0069__main__26"/&gt;&lt;lb
-            n="c56-0069__left_margin__1"/&gt;heroical poet&lt;mdel/&gt;ry </rdg>
+               <rdg wit="#fMS">&amp;&lt;del rend="strikethrough" sID="c56-0069__main__d2e14677"/&gt;warlike&lt;del eID="c56-0069__main__d2e14677"/&gt;&lt;lb n="c56-0069__main__26"/&gt;&lt;lb n="c56-0069__left_margin__1"/&gt;heroical poet&lt;mdel/&gt;ry </rdg>
                <rdg wit="#fThomas">and heroical poetry </rdg>
             </app>
             <app type="invariant" xml:id="C12_app404">
@@ -2700,16 +2557,11 @@
                <rdg wit="#fThomas">of Greece and </rdg>
             </app>
             <app xml:id="C12_app405">
-               <rdg wit="#f1818">Rome.&lt;p eID="novel1_letter4_chapter5_p19"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p20"/&gt;Summer </rdg>
-               <rdg wit="#f1823">Rome.&lt;p eID="novel1_letter4_chapter5_p19"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p20"/&gt;Summer </rdg>
-               <rdg wit="#f1831">Rome!&lt;pb n="55" xml:id="F1831_v_071"/&gt;&lt;p
-            eID="novel1_letter4_chapter6_p18"/&gt;&lt;p sID="novel1_letter4_chapter6_p19"/&gt;Summer </rdg>
-               <rdg wit="#fMS">Rome.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0069__main__27"/&gt;
-            Summer </rdg>
-               <rdg wit="#fThomas">Rome.&lt;p eID="novel1_letter4_chapter5_p18"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p19"/&gt;Summer </rdg>
+               <rdg wit="#f1818">Rome.&lt;p eID="novel1_letter4_chapter5_div4_div5_p19"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p20"/&gt;Summer </rdg>
+               <rdg wit="#f1823">Rome.&lt;p eID="novel1_letter4_chapter5_div4_div5_p19"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p20"/&gt;Summer </rdg>
+               <rdg wit="#f1831">Rome!&lt;pb n="55" xml:id="F1831_v_071"/&gt;&lt;p eID="novel1_letter4_chapter6_div4_div6_p18"/&gt;&lt;p sID="novel1_letter4_chapter6_div4_div6_p19"/&gt;Summer </rdg>
+               <rdg wit="#fMS">Rome.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0069__main__27"/&gt; Summer </rdg>
+               <rdg wit="#fThomas">Rome.&lt;p eID="novel1_letter4_chapter5_div4_div5_p18"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p19"/&gt;Summer </rdg>
             </app>
             <app type="invariant" xml:id="C12_app406">
                <rdg wit="#f1818">passed away in these </rdg>
@@ -2722,10 +2574,7 @@
                <rdg wit="#f1818">occupations, and </rdg>
                <rdg wit="#f1823">occupations, and </rdg>
                <rdg wit="#f1831">occupations, and </rdg>
-               <rdg wit="#fMS">&lt;lb n="c56-0069__main__28"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0069__main__d2e14714"/&gt;studies&lt;del
-            eID="c56-0069__main__d2e14714"/&gt;&lt;lb
-            n="c56-0069__left_margin__1"/&gt;occupations&amp; </rdg>
+               <rdg wit="#fMS">&lt;lb n="c56-0069__main__28"/&gt;&lt;del rend="strikethrough" sID="c56-0069__main__d2e14714"/&gt;studies&lt;del eID="c56-0069__main__d2e14714"/&gt;&lt;lb n="c56-0069__left_margin__1"/&gt;occupations&amp; </rdg>
                <rdg wit="#fThomas">occupations, and </rdg>
             </app>
             <app type="invariant" xml:id="C12_app408">
@@ -2774,8 +2623,7 @@
                <rdg wit="#fThomas">winter and snow arrived, </rdg>
             </app>
             <app xml:id="C12_app415">
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0070__main__d2e14754"/&gt;and&lt;del
-            eID="c56-0070__main__d2e14754"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0070__main__d2e14754"/&gt;and&lt;del eID="c56-0070__main__d2e14754"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app416">
                <rdg wit="#f1818">the roads were </rdg>
@@ -2812,11 +2660,7 @@
                <rdg wit="#f1818">journey </rdg>
                <rdg wit="#f1823">journey </rdg>
                <rdg wit="#f1831">journey </rdg>
-               <rdg wit="#fMS">&lt;del sID="c56-0070__main__d2e14761"/&gt;return&lt;del
-            eID="c56-0070__main__d2e14761"/&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;journey&lt;lb n="c56-0070__main__4"/&gt;&lt;del
-            rend="strikethrough" sID="c56-0070__main__d2e14779"/&gt;delayed&lt;del
-            eID="c56-0070__main__d2e14779"/&gt;&lt;lb n="c56-0070__left_margin__1"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del sID="c56-0070__main__d2e14761"/&gt;return&lt;del eID="c56-0070__main__d2e14761"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;journey&lt;lb n="c56-0070__main__4"/&gt;&lt;del rend="strikethrough" sID="c56-0070__main__d2e14779"/&gt;delayed&lt;del eID="c56-0070__main__d2e14779"/&gt;&lt;lb n="c56-0070__left_margin__1"/&gt; </rdg>
                <rdg wit="#fThomas">journey </rdg>
             </app>
             <app type="invariant" xml:id="C12_app422">
@@ -2920,8 +2764,7 @@
                <rdg wit="#f1818">friends. </rdg>
                <rdg wit="#f1823">friends. </rdg>
                <rdg wit="#f1831">friends. </rdg>
-               <rdg wit="#fMS">friends &lt;lb n="c56-0070__main__7"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0070__main__d2e14836"/&gt;and&lt;del eID="c56-0070__main__d2e14836"/&gt; </rdg>
+               <rdg wit="#fMS">friends &lt;lb n="c56-0070__main__7"/&gt;&lt;del rend="strikethrough" sID="c56-0070__main__d2e14836"/&gt;and&lt;del eID="c56-0070__main__d2e14836"/&gt; </rdg>
                <rdg wit="#fThomas">friends. </rdg>
             </app>
             <app type="invariant" xml:id="C12_app438">
@@ -3020,13 +2863,7 @@
                <rdg wit="#f1818">spent cheerfully; </rdg>
                <rdg wit="#f1823">spent cheerfully; </rdg>
                <rdg wit="#f1831">spent cheerfully; </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough"
-            sID="c56-0070__main__d2e14866"/&gt;however&lt;del
-            eID="c56-0070__main__d2e14866"/&gt;&lt;mdel&gt;s&lt;/mdel&gt; spent&lt;lb
-            n="c56-0070__main__12"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0070__main__d2e14879"/&gt;a&lt;del eID="c56-0070__main__d2e14879"/&gt;
-            cheerfully&lt;del rend="strikethrough" sID="c56-0070__main__d2e14885"/&gt;one&lt;del
-            eID="c56-0070__main__d2e14885"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0070__main__d2e14866"/&gt;however&lt;del eID="c56-0070__main__d2e14866"/&gt;&lt;mdel&gt;s&lt;/mdel&gt; spent&lt;lb n="c56-0070__main__12"/&gt;&lt;del rend="strikethrough" sID="c56-0070__main__d2e14879"/&gt;a&lt;del eID="c56-0070__main__d2e14879"/&gt; cheerfully&lt;del rend="strikethrough" sID="c56-0070__main__d2e14885"/&gt;one&lt;del eID="c56-0070__main__d2e14885"/&gt; </rdg>
                <rdg wit="#fThomas">spent cheerfully; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app454">
@@ -3088,8 +2925,7 @@
                <rdg wit="#f1818">for </rdg>
                <rdg wit="#f1823">for </rdg>
                <rdg wit="#f1831">for </rdg>
-               <rdg wit="#fMS">&lt;lb n="c56-0070__main__15"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0070__main__d2e14895"/&gt;for&lt;del eID="c56-0070__main__d2e14895"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;lb n="c56-0070__main__15"/&gt;&lt;del rend="strikethrough" sID="c56-0070__main__d2e14895"/&gt;for&lt;del eID="c56-0070__main__d2e14895"/&gt; </rdg>
                <rdg wit="#fThomas">for </rdg>
             </app>
             <app type="invariant" xml:id="C12_app464">
@@ -3100,16 +2936,11 @@
                <rdg wit="#fThomas">its </rdg>
             </app>
             <app xml:id="C12_app465">
-               <rdg wit="#f1818">dilatoriness.&lt;p eID="novel1_letter4_chapter5_p20"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p21"/&gt;The </rdg>
-               <rdg wit="#f1823">dilatoriness.&lt;p eID="novel1_letter4_chapter5_p20"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p21"/&gt;The </rdg>
-               <rdg wit="#f1831">dilatoriness.&lt;p eID="novel1_letter4_chapter6_p19"/&gt;&lt;p
-            sID="novel1_letter4_chapter6_p20"/&gt;The </rdg>
-               <rdg wit="#fMS">dilatoriness. &lt;del rend="strikethrough"
-            sID="c56-0070__main__d2e14898"/&gt;Ma&lt;del eID="c56-0070__main__d2e14898"/&gt; The </rdg>
-               <rdg wit="#fThomas">dilatoriness.&lt;p eID="novel1_letter4_chapter5_p19"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p20"/&gt;The </rdg>
+               <rdg wit="#f1818">dilatoriness.&lt;p eID="novel1_letter4_chapter5_div4_div5_p20"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p21"/&gt;The </rdg>
+               <rdg wit="#f1823">dilatoriness.&lt;p eID="novel1_letter4_chapter5_div4_div5_p20"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p21"/&gt;The </rdg>
+               <rdg wit="#f1831">dilatoriness.&lt;p eID="novel1_letter4_chapter6_div4_div6_p19"/&gt;&lt;p sID="novel1_letter4_chapter6_div4_div6_p20"/&gt;The </rdg>
+               <rdg wit="#fMS">dilatoriness. &lt;del rend="strikethrough" sID="c56-0070__main__d2e14898"/&gt;Ma&lt;del eID="c56-0070__main__d2e14898"/&gt; The </rdg>
+               <rdg wit="#fThomas">dilatoriness.&lt;p eID="novel1_letter4_chapter5_div4_div5_p19"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p20"/&gt;The </rdg>
             </app>
             <app type="invariant" xml:id="C12_app466">
                <rdg wit="#f1818">month </rdg>
@@ -3146,10 +2977,7 @@
                <rdg wit="#f1818">commenced, </rdg>
                <rdg wit="#f1823">commenced, </rdg>
                <rdg wit="#f1831">commenced, </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0070__main__d2e14903"/&gt;finis&lt;del
-            eID="c56-0070__main__d2e14903"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0070__main__d2e14906"/&gt;end&lt;del
-            eID="c56-0070__main__d2e14906"/&gt;com&lt;lb n="c56-0070__main__17"/&gt;pleated, </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0070__main__d2e14903"/&gt;finis&lt;del eID="c56-0070__main__d2e14903"/&gt;&lt;del rend="strikethrough" sID="c56-0070__main__d2e14906"/&gt;end&lt;del eID="c56-0070__main__d2e14906"/&gt;com&lt;lb n="c56-0070__main__17"/&gt;pleated, </rdg>
                <rdg wit="#fThomas">commenced, </rdg>
             </app>
             <app type="invariant" xml:id="C12_app472">
@@ -3207,10 +3035,7 @@
                <rdg wit="#f1818">departure, </rdg>
                <rdg wit="#f1823">departure, </rdg>
                <rdg wit="#f1831">departure, </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough"
-            sID="c56-0070__main__d2e14922"/&gt;return&lt;del
-            eID="c56-0070__main__d2e14922"/&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;departure, </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0070__main__d2e14922"/&gt;return&lt;del eID="c56-0070__main__d2e14922"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;departure, </rdg>
                <rdg wit="#fThomas">departure, </rdg>
             </app>
             <app type="invariant" xml:id="C12_app482">
@@ -3325,8 +3150,7 @@
                <rdg wit="#f1818">proposition: </rdg>
                <rdg wit="#f1823">proposition: </rdg>
                <rdg wit="#f1831">proposition: </rdg>
-               <rdg wit="#fMS">propos&lt;mdel&gt;al&lt;/mdel&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;ition– </rdg>
+               <rdg wit="#fMS">propos&lt;mdel&gt;al&lt;/mdel&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;ition– </rdg>
                <rdg wit="#fThomas">proposition: </rdg>
             </app>
             <app type="invariant" xml:id="C12_app501">
@@ -3364,8 +3188,7 @@
                <rdg wit="#f1818">the </rdg>
                <rdg wit="#f1823">the </rdg>
                <rdg wit="#f1831">the </rdg>
-               <rdg wit="#fMS">&lt;mdel&gt;j&lt;/mdel&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;the </rdg>
+               <rdg wit="#fMS">&lt;mdel&gt;j&lt;/mdel&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;the </rdg>
                <rdg wit="#fThomas">the </rdg>
             </app>
             <app type="invariant" xml:id="C12_app507">
@@ -3403,15 +3226,11 @@
                <rdg wit="#fThomas">among the scenes of my native </rdg>
             </app>
             <app xml:id="C12_app513">
-               <rdg wit="#f1818">country.&lt;p eID="novel1_letter4_chapter5_p21"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p22"/&gt;We </rdg>
-               <rdg wit="#f1823">country.&lt;p eID="novel1_letter4_chapter5_p21"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p22"/&gt;&lt;pb n="131" xml:id="F1823_v1_150"/&gt;We </rdg>
-               <rdg wit="#f1831">country.&lt;p eID="novel1_letter4_chapter6_p20"/&gt;&lt;p
-            sID="novel1_letter4_chapter6_p21"/&gt;We </rdg>
+               <rdg wit="#f1818">country.&lt;p eID="novel1_letter4_chapter5_div4_div5_p21"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p22"/&gt;We </rdg>
+               <rdg wit="#f1823">country.&lt;p eID="novel1_letter4_chapter5_div4_div5_p21"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p22"/&gt;&lt;pb n="131" xml:id="F1823_v1_150"/&gt;We </rdg>
+               <rdg wit="#f1831">country.&lt;p eID="novel1_letter4_chapter6_div4_div6_p20"/&gt;&lt;p sID="novel1_letter4_chapter6_div4_div6_p21"/&gt;We </rdg>
                <rdg wit="#fMS">coun&lt;lb n="c56-0071__main__1"/&gt; try. We </rdg>
-               <rdg wit="#fThomas">country.&lt;p eID="novel1_letter4_chapter5_p20"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p21"/&gt;We </rdg>
+               <rdg wit="#fThomas">country.&lt;p eID="novel1_letter4_chapter5_div4_div5_p20"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p21"/&gt;We </rdg>
             </app>
             <app type="invariant" xml:id="C12_app514">
                <rdg wit="#f1818">passed a fortnight in these </rdg>
@@ -3462,8 +3281,7 @@
                <rdg wit="#f1818">additional strength </rdg>
                <rdg wit="#f1823">additional strength </rdg>
                <rdg wit="#f1831">additional strength </rdg>
-               <rdg wit="#fMS">add&lt;mdel&gt;i&lt;/mdel&gt;itional vigour &lt;lb
-            n="c56-0071__main__4"/&gt; </rdg>
+               <rdg wit="#fMS">add&lt;mdel&gt;i&lt;/mdel&gt;itional vigour &lt;lb n="c56-0071__main__4"/&gt; </rdg>
                <rdg wit="#fThomas">additional strength </rdg>
             </app>
             <app type="invariant" xml:id="C12_app522">
@@ -3477,9 +3295,7 @@
                <rdg wit="#f1818">air </rdg>
                <rdg wit="#f1823">air </rdg>
                <rdg wit="#f1831">air </rdg>
-               <rdg wit="#fMS">air&lt;del rend="strikethrough"
-            sID="c56-0071__main__d2e15015"/&gt;,&lt;metamark&gt;X&lt;/metamark&gt;&lt;del
-            eID="c56-0071__main__d2e15015"/&gt; </rdg>
+               <rdg wit="#fMS">air&lt;del rend="strikethrough" sID="c56-0071__main__d2e15015"/&gt;,&lt;metamark&gt;X&lt;/metamark&gt;&lt;del eID="c56-0071__main__d2e15015"/&gt; </rdg>
                <rdg wit="#fThomas">air </rdg>
             </app>
             <app type="invariant" xml:id="C12_app524">
@@ -3490,9 +3306,7 @@
                <rdg wit="#fThomas">I breathed, </rdg>
             </app>
             <app xml:id="C12_app525">
-               <rdg wit="#fMS">&lt;metamark function="displacement"
-            xml:id="c56-0071.01"&gt;X&lt;/metamark&gt;&lt;lb n="c56-0071__left_margin__1"/&gt;
-        </rdg>
+               <rdg wit="#fMS">&lt;metamark function="displacement" xml:id="c56-0071.01"&gt;X&lt;/metamark&gt;&lt;lb n="c56-0071__left_margin__1"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app526">
                <rdg wit="#f1818">the natural </rdg>
@@ -3563,9 +3377,7 @@
                <rdg wit="#f1818">from </rdg>
                <rdg wit="#f1823">from </rdg>
                <rdg wit="#f1831">from </rdg>
-               <rdg wit="#fMS">unsocia&lt;del rend="overwritten"
-            sID="c56-0071__main__d2e15056"/&gt;ble&lt;del eID="c56-0071__main__d2e15056"/&gt;l,
-            –Ihad shunned </rdg>
+               <rdg wit="#fMS">unsocia&lt;del rend="overwritten" sID="c56-0071__main__d2e15056"/&gt;ble&lt;del eID="c56-0071__main__d2e15056"/&gt;l, –Ihad shunned </rdg>
                <rdg wit="#fThomas">from </rdg>
             </app>
             <app type="invariant" xml:id="C12_app538">
@@ -3579,8 +3391,7 @@
                <rdg wit="#f1818">intercourse </rdg>
                <rdg wit="#f1823">intercourse </rdg>
                <rdg wit="#f1831">intercourse </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0071__main__d2e15067"/&gt;face&lt;del
-            eID="c56-0071__main__d2e15067"/&gt;&lt;lb n="c56-0071__main__7"/&gt; company </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0071__main__d2e15067"/&gt;face&lt;del eID="c56-0071__main__d2e15067"/&gt;&lt;lb n="c56-0071__main__7"/&gt; company </rdg>
                <rdg wit="#fThomas">intercourse </rdg>
             </app>
             <app type="invariant" xml:id="C12_app540">
@@ -3646,16 +3457,11 @@
                <rdg wit="#fThomas">nature, </rdg>
             </app>
             <app type="invariant" xml:id="C12_app550">
-               <rdg wit="#f1818">and the cheerful faces of children. Excellent friend! how sincerely did
-            you </rdg>
-               <rdg wit="#f1823">and the cheerful faces of children. Excellent friend! how sincerely did
-            you </rdg>
-               <rdg wit="#f1831">and the cheerful faces of children. Excellent friend! how sincerely did
-            you </rdg>
-               <rdg wit="#fMS">and the cheerful faces of chil&lt;lb n="c56-0071__main__11"/&gt;dren.
-            Excellent Friend! How sincerely did you </rdg>
-               <rdg wit="#fThomas">and the cheerful faces of children. Excellent friend! how sincerely did
-            you </rdg>
+               <rdg wit="#f1818">and the cheerful faces of children. Excellent friend! how sincerely did you </rdg>
+               <rdg wit="#f1823">and the cheerful faces of children. Excellent friend! how sincerely did you </rdg>
+               <rdg wit="#f1831">and the cheerful faces of children. Excellent friend! how sincerely did you </rdg>
+               <rdg wit="#fMS">and the cheerful faces of chil&lt;lb n="c56-0071__main__11"/&gt;dren. Excellent Friend! How sincerely did you </rdg>
+               <rdg wit="#fThomas">and the cheerful faces of children. Excellent friend! how sincerely did you </rdg>
             </app>
             <app xml:id="C12_app551">
                <rdg wit="#fMS">&lt;lb n="c56-0071__main__12"/&gt; </rdg>
@@ -3733,8 +3539,7 @@
                <rdg wit="#f1818">pursuit </rdg>
                <rdg wit="#f1823">pursuit </rdg>
                <rdg wit="#f1831">pursuit </rdg>
-               <rdg wit="#fMS">persuit&lt;del rend="strikethrough"
-            sID="c56-0071__main__d2e15091"/&gt;e&lt;del eID="c56-0071__main__d2e15091"/&gt; </rdg>
+               <rdg wit="#fMS">persuit&lt;del rend="strikethrough" sID="c56-0071__main__d2e15091"/&gt;e&lt;del eID="c56-0071__main__d2e15091"/&gt; </rdg>
                <rdg wit="#fThomas">pursuit </rdg>
             </app>
             <app type="invariant" xml:id="C12_app564">
@@ -3748,8 +3553,7 @@
                <rdg wit="#f1818">me, until </rdg>
                <rdg wit="#f1823">me, until </rdg>
                <rdg wit="#f1831">me, until </rdg>
-               <rdg wit="#fMS">&lt;mdel&gt;it&lt;/mdel&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;me untill </rdg>
+               <rdg wit="#fMS">&lt;mdel&gt;it&lt;/mdel&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;me untill </rdg>
                <rdg wit="#fThomas">me, until </rdg>
             </app>
             <app type="invariant" xml:id="C12_app566">
@@ -3777,9 +3581,7 @@
                <rdg wit="#f1818">my senses; </rdg>
                <rdg wit="#f1823">my senses; </rdg>
                <rdg wit="#f1831">my senses; </rdg>
-               <rdg wit="#fMS">&lt;mdel&gt;it&lt;/mdel&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;my senses. and &lt;lb n="c56-0071__main__17"/&gt;
-            now </rdg>
+               <rdg wit="#fMS">&lt;mdel&gt;it&lt;/mdel&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;my senses. and &lt;lb n="c56-0071__main__17"/&gt; now </rdg>
                <rdg wit="#fThomas">my senses; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app570">
@@ -3790,9 +3592,7 @@
                <rdg wit="#fThomas">I </rdg>
             </app>
             <app xml:id="C12_app571">
-               <rdg wit="#fMS">&lt;metamark function="insert"&gt;^&lt;/metamark&gt;&lt;del
-            rend="strikethrough" sID="c56-0071__main__d2e15148"/&gt;now&lt;del
-            eID="c56-0071__main__d2e15148"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;metamark function="insert"&gt;^&lt;/metamark&gt;&lt;del rend="strikethrough" sID="c56-0071__main__d2e15148"/&gt;now&lt;del eID="c56-0071__main__d2e15148"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app572">
                <rdg wit="#f1818">became the same happy creature </rdg>
@@ -3850,10 +3650,7 @@
                <rdg wit="#f1818">care. </rdg>
                <rdg wit="#f1823">care. </rdg>
                <rdg wit="#f1831">care. </rdg>
-               <rdg wit="#fMS">care – &lt;del rend="strikethrough"
-            sID="c56-0071__main__d2e15160"/&gt;I&lt;del eID="c56-0071__main__d2e15160"/&gt;&lt;del
-            rend="strikethrough" sID="c56-0071__main__d2e15163"/&gt;and&lt;del
-            eID="c56-0071__main__d2e15163"/&gt; </rdg>
+               <rdg wit="#fMS">care – &lt;del rend="strikethrough" sID="c56-0071__main__d2e15160"/&gt;I&lt;del eID="c56-0071__main__d2e15160"/&gt;&lt;del rend="strikethrough" sID="c56-0071__main__d2e15163"/&gt;and&lt;del eID="c56-0071__main__d2e15163"/&gt; </rdg>
                <rdg wit="#fThomas">care. </rdg>
             </app>
             <app type="invariant" xml:id="C12_app581">
@@ -3867,20 +3664,14 @@
                <rdg wit="#f1818">happy, </rdg>
                <rdg wit="#f1823">hap&lt;pb n="132" xml:id="F1823_v1_151"/&gt;py, </rdg>
                <rdg wit="#f1831">happy, </rdg>
-               <rdg wit="#fMS">&lt;lb n="c56-0071__main__20"/&gt; happy
-            &lt;mdel&gt;so&lt;/mdel&gt;&lt;mdel/&gt;soul was more fitted than mine
-            &lt;lb n="c56-0071__main__21"/&gt; for feeling delight&lt;del rend="strikethrough"
-            sID="c56-0071__main__d2e15187"/&gt;in&lt;del eID="c56-0071__main__d2e15187"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;lb n="c56-0071__main__20"/&gt; happy &lt;mdel&gt;so&lt;/mdel&gt;&lt;mdel/&gt;soul was more fitted than mine &lt;lb n="c56-0071__main__21"/&gt; for feeling delight&lt;del rend="strikethrough" sID="c56-0071__main__d2e15187"/&gt;in&lt;del eID="c56-0071__main__d2e15187"/&gt; </rdg>
                <rdg wit="#fThomas">happy, </rdg>
             </app>
             <app type="invariant" xml:id="C12_app583">
                <rdg wit="#f1818">inanimate nature had the </rdg>
                <rdg wit="#f1823">inanimate nature had the </rdg>
                <rdg wit="#f1831">inanimate nature had the </rdg>
-               <rdg wit="#fMS">inanimate nature &lt;metamark function="displacement"
-            xml:id="c56-0071.05"&gt;X&lt;/metamark&gt;&lt;lb
-            n="c56-0071__left_margin__1"/&gt;&lt;metamark
-            function="displacement"&gt;X&lt;/metamark&gt;had the </rdg>
+               <rdg wit="#fMS">inanimate nature &lt;metamark function="displacement" xml:id="c56-0071.05"&gt;X&lt;/metamark&gt;&lt;lb n="c56-0071__left_margin__1"/&gt;&lt;metamark function="displacement"&gt;X&lt;/metamark&gt;had the </rdg>
                <rdg wit="#fThomas">inanimate nature had the </rdg>
             </app>
             <app xml:id="C12_app584">
@@ -3897,9 +3688,7 @@
                <rdg wit="#f1818">bestowing </rdg>
                <rdg wit="#f1823">bestowing </rdg>
                <rdg wit="#f1831">bestowing </rdg>
-               <rdg wit="#fMS">bes&lt;lb n="c56-0071__left_margin__3"/&gt;&lt;del rend="strikethrough"
-            sID="c56-0071__left_margin__d2e15211"/&gt;bo&lt;del
-            eID="c56-0071__left_margin__d2e15211"/&gt;towing </rdg>
+               <rdg wit="#fMS">bes&lt;lb n="c56-0071__left_margin__3"/&gt;&lt;del rend="strikethrough" sID="c56-0071__left_margin__d2e15211"/&gt;bo&lt;del eID="c56-0071__left_margin__d2e15211"/&gt;towing </rdg>
                <rdg wit="#fThomas">bestowing </rdg>
             </app>
             <app type="invariant" xml:id="C12_app587">
@@ -3933,8 +3722,7 @@
                <rdg wit="#f1818">sensations. </rdg>
                <rdg wit="#f1823">sensations. </rdg>
                <rdg wit="#f1831">sensations. </rdg>
-               <rdg wit="#fMS">&lt;lb n="c56-0071__left_margin__6"/&gt; sensations — &lt;lb
-            n="c56-0071__main__22"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;lb n="c56-0071__left_margin__6"/&gt; sensations — &lt;lb n="c56-0071__main__22"/&gt; </rdg>
                <rdg wit="#fThomas">sensations. </rdg>
             </app>
             <app type="invariant" xml:id="C12_app593">
@@ -3945,9 +3733,7 @@
                <rdg wit="#fThomas">A serene sky </rdg>
             </app>
             <app xml:id="C12_app594">
-               <rdg wit="#fMS">&lt;del rend="strikethrough"
-            sID="c56-0071__main__d2e15229"/&gt;filled&lt;del eID="c56-0071__main__d2e15229"/&gt;
-        </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0071__main__d2e15229"/&gt;filled&lt;del eID="c56-0071__main__d2e15229"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app595">
                <rdg wit="#f1818">and </rdg>
@@ -3960,8 +3746,7 @@
                <rdg wit="#f1818">verdant </rdg>
                <rdg wit="#f1823">verdant </rdg>
                <rdg wit="#f1831">verdant </rdg>
-               <rdg wit="#fMS">verdant&lt;del rend="strikethrough"
-            sID="c56-0071__main__d2e15232"/&gt;s&lt;del eID="c56-0071__main__d2e15232"/&gt; </rdg>
+               <rdg wit="#fMS">verdant&lt;del rend="strikethrough" sID="c56-0071__main__d2e15232"/&gt;s&lt;del eID="c56-0071__main__d2e15232"/&gt; </rdg>
                <rdg wit="#fThomas">verdant </rdg>
             </app>
             <app type="invariant" xml:id="C12_app597">
@@ -3992,8 +3777,7 @@
                <rdg wit="#f1818">present season was indeed </rdg>
                <rdg wit="#f1823">present season was indeed </rdg>
                <rdg wit="#f1831">present season was indeed </rdg>
-               <rdg wit="#fMS">&lt;metamark function="insert"&gt;^&lt;/metamark&gt;present season was
-            indeed </rdg>
+               <rdg wit="#fMS">&lt;metamark function="insert"&gt;^&lt;/metamark&gt;present season was indeed </rdg>
                <rdg wit="#fThomas">present season was indeed </rdg>
             </app>
             <app xml:id="C12_app602">
@@ -4014,10 +3798,7 @@
                <rdg wit="#f1818">bloomed </rdg>
                <rdg wit="#f1823">bloomed </rdg>
                <rdg wit="#f1831">bloomed </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough"
-            sID="c56-0071__main__d2e15263"/&gt;blossomed&lt;del
-            eID="c56-0071__main__d2e15263"/&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;bloomed </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0071__main__d2e15263"/&gt;blossomed&lt;del eID="c56-0071__main__d2e15263"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;bloomed </rdg>
                <rdg wit="#fThomas">bloomed </rdg>
             </app>
             <app type="invariant" xml:id="C12_app605">
@@ -4070,8 +3851,7 @@
                <rdg wit="#fThomas">I </rdg>
             </app>
             <app xml:id="C12_app612">
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0071__main__d2e15285"/&gt;dis&lt;del
-            eID="c56-0071__main__d2e15285"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0071__main__d2e15285"/&gt;dis&lt;del eID="c56-0071__main__d2e15285"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app613">
                <rdg wit="#f1818">was </rdg>
@@ -4174,17 +3954,11 @@
                <rdg wit="#fThomas">an invincible </rdg>
             </app>
             <app xml:id="C12_app628">
-               <rdg wit="#f1818">burden.&lt;p eID="novel1_letter4_chapter5_p22"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p23"/&gt;Henry </rdg>
-               <rdg wit="#f1823">burden.&lt;p eID="novel1_letter4_chapter5_p22"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p23"/&gt;Henry </rdg>
-               <rdg wit="#f1831">burden.&lt;p eID="novel1_letter4_chapter6_p21"/&gt;&lt;p
-            sID="novel1_letter4_chapter6_p22"/&gt;Henry </rdg>
-               <rdg wit="#fMS">burthen.&lt;lb n="c56-0071__main__30"/&gt; Henry &lt;del
-            rend="strikethrough" sID="c56-0071__main__d2e15304"/&gt;a&lt;del
-            eID="c56-0071__main__d2e15304"/&gt; </rdg>
-               <rdg wit="#fThomas">burden.&lt;p eID="novel1_letter4_chapter5_p21"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p22"/&gt;Henry </rdg>
+               <rdg wit="#f1818">burden.&lt;p eID="novel1_letter4_chapter5_div4_div5_p22"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p23"/&gt;Henry </rdg>
+               <rdg wit="#f1823">burden.&lt;p eID="novel1_letter4_chapter5_div4_div5_p22"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p23"/&gt;Henry </rdg>
+               <rdg wit="#f1831">burden.&lt;p eID="novel1_letter4_chapter6_div4_div6_p21"/&gt;&lt;p sID="novel1_letter4_chapter6_div4_div6_p22"/&gt;Henry </rdg>
+               <rdg wit="#fMS">burthen.&lt;lb n="c56-0071__main__30"/&gt; Henry &lt;del rend="strikethrough" sID="c56-0071__main__d2e15304"/&gt;a&lt;del eID="c56-0071__main__d2e15304"/&gt; </rdg>
+               <rdg wit="#fThomas">burden.&lt;p eID="novel1_letter4_chapter5_div4_div5_p21"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p22"/&gt;Henry </rdg>
             </app>
             <app type="invariant" xml:id="C12_app629">
                <rdg wit="#f1818">rejoiced </rdg>
@@ -4194,8 +3968,7 @@
                <rdg wit="#fThomas">rejoiced </rdg>
             </app>
             <app xml:id="C12_app630">
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0071__main__d2e15308"/&gt;im&lt;del
-            eID="c56-0071__main__d2e15308"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0071__main__d2e15308"/&gt;im&lt;del eID="c56-0071__main__d2e15308"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app631">
                <rdg wit="#f1818">in my </rdg>
@@ -4246,16 +4019,14 @@
                <rdg wit="#f1818">feelings: </rdg>
                <rdg wit="#f1823">feelings: </rdg>
                <rdg wit="#f1831">feelings: </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0071__main__d2e15315"/&gt;joy&lt;del
-            eID="c56-0071__main__d2e15315"/&gt;feelings – </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0071__main__d2e15315"/&gt;joy&lt;del eID="c56-0071__main__d2e15315"/&gt;feelings – </rdg>
                <rdg wit="#fThomas">feelings: </rdg>
             </app>
             <app type="invariant" xml:id="C12_app639">
                <rdg wit="#f1818">he exerted himself to amuse me, while he expressed </rdg>
                <rdg wit="#f1823">he exerted himself to amuse me, while he expressed </rdg>
                <rdg wit="#f1831">he exerted himself to amuse me, while he expressed </rdg>
-               <rdg wit="#fMS">he exer&lt;lb n="c56-0072__main__1"/&gt;ted himself to amuse me, while he
-            expressed </rdg>
+               <rdg wit="#fMS">he exer&lt;lb n="c56-0072__main__1"/&gt;ted himself to amuse me, while he expressed </rdg>
                <rdg wit="#fThomas">he exerted himself to amuse me, while he expressed </rdg>
             </app>
             <app xml:id="C12_app640">
@@ -4283,8 +4054,7 @@
                <rdg wit="#fThomas">that </rdg>
             </app>
             <app xml:id="C12_app644">
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0072__main__d2e15339"/&gt;al&lt;del
-            eID="c56-0072__main__d2e15339"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0072__main__d2e15339"/&gt;al&lt;del eID="c56-0072__main__d2e15339"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app645">
                <rdg wit="#f1818">filled his </rdg>
@@ -4297,9 +4067,7 @@
                <rdg wit="#f1818">soul. </rdg>
                <rdg wit="#f1823">soul. </rdg>
                <rdg wit="#f1831">soul. </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0072__main__d2e15344"/&gt;mind&lt;del
-            eID="c56-0072__main__d2e15344"/&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;soul. </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0072__main__d2e15344"/&gt;mind&lt;del eID="c56-0072__main__d2e15344"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;soul. </rdg>
                <rdg wit="#fThomas">soul. </rdg>
             </app>
             <app type="invariant" xml:id="C12_app647">
@@ -4333,8 +4101,7 @@
                <rdg wit="#f1818">astonishing: </rdg>
                <rdg wit="#f1823">astonishing: </rdg>
                <rdg wit="#f1831">astonishing: </rdg>
-               <rdg wit="#fMS">astonishing. As we rested during &lt;lb n="c56-0072__main__5"/&gt; the
-            sultry heat of noon he invented&lt;lb n="c56-0072__main__6"/&gt; </rdg>
+               <rdg wit="#fMS">astonishing. As we rested during &lt;lb n="c56-0072__main__5"/&gt; the sultry heat of noon he invented&lt;lb n="c56-0072__main__6"/&gt; </rdg>
                <rdg wit="#fThomas">astonishing: </rdg>
             </app>
             <app type="invariant" xml:id="C12_app653">
@@ -4400,9 +4167,7 @@
                <rdg wit="#f1818">wonderful </rdg>
                <rdg wit="#f1823">wonderful </rdg>
                <rdg wit="#f1831">wonderful </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0072__main__d2e15383"/&gt;great&lt;del
-            eID="c56-0072__main__d2e15383"/&gt;&lt;metamark
-            function="insert"&gt;^&lt;/metamark&gt;wonderful </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0072__main__d2e15383"/&gt;great&lt;del eID="c56-0072__main__d2e15383"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;wonderful </rdg>
                <rdg wit="#fThomas">wonderful </rdg>
             </app>
             <app type="invariant" xml:id="C12_app663">
@@ -4475,16 +4240,11 @@
                <rdg wit="#fThomas">he supported with great </rdg>
             </app>
             <app xml:id="C12_app674">
-               <rdg wit="#f1818">ingenuity.&lt;p eID="novel1_letter4_chapter5_p23"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p24"/&gt;We </rdg>
-               <rdg wit="#f1823">ingenuity.&lt;p eID="novel1_letter4_chapter5_p23"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p24"/&gt;We </rdg>
-               <rdg wit="#f1831">ingenuity.&lt;p eID="novel1_letter4_chapter6_p22"/&gt;&lt;p
-            sID="novel1_letter4_chapter6_p23"/&gt;We </rdg>
-               <rdg wit="#fMS">ingenuity.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0072__main__13"/&gt;
-            We </rdg>
-               <rdg wit="#fThomas">ingenuity.&lt;p eID="novel1_letter4_chapter5_p22"/&gt;&lt;p
-            sID="novel1_letter4_chapter5_p23"/&gt;We </rdg>
+               <rdg wit="#f1818">ingenuity.&lt;p eID="novel1_letter4_chapter5_div4_div5_p23"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p24"/&gt;We </rdg>
+               <rdg wit="#f1823">ingenuity.&lt;p eID="novel1_letter4_chapter5_div4_div5_p23"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p24"/&gt;We </rdg>
+               <rdg wit="#f1831">ingenuity.&lt;p eID="novel1_letter4_chapter6_div4_div6_p22"/&gt;&lt;p sID="novel1_letter4_chapter6_div4_div6_p23"/&gt;We </rdg>
+               <rdg wit="#fMS">ingenuity.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0072__main__13"/&gt; We </rdg>
+               <rdg wit="#fThomas">ingenuity.&lt;p eID="novel1_letter4_chapter5_div4_div5_p22"/&gt;&lt;p sID="novel1_letter4_chapter5_div4_div5_p23"/&gt;We </rdg>
             </app>
             <app type="invariant" xml:id="C12_app675">
                <rdg wit="#f1818">returned to our </rdg>
@@ -4622,8 +4382,7 @@
                <rdg wit="#fThomas">along with </rdg>
             </app>
             <app xml:id="C12_app696">
-               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0072__main__d2e15428"/&gt;a&lt;del
-            eID="c56-0072__main__d2e15428"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0072__main__d2e15428"/&gt;a&lt;del eID="c56-0072__main__d2e15428"/&gt; </rdg>
             </app>
             <app type="invariant" xml:id="C12_app697">
                <rdg wit="#f1818">feelings of </rdg>
@@ -4636,10 +4395,7 @@
                <rdg wit="#f1818">unbridled </rdg>
                <rdg wit="#f1823">unbridled </rdg>
                <rdg wit="#f1831">unbridled </rdg>
-               <rdg wit="#fMS">&lt;del rend="strikethrough"
-            sID="c56-0072__main__d2e15431"/&gt;hilarity&lt;del
-            eID="c56-0072__main__d2e15431"/&gt;unbound &lt;lb n="c56-0072__main__18"/&gt; ed&lt;lb
-            n="c56-0072__left_margin__1"/&gt;unbridled </rdg>
+               <rdg wit="#fMS">&lt;del rend="strikethrough" sID="c56-0072__main__d2e15431"/&gt;hilarity&lt;del eID="c56-0072__main__d2e15431"/&gt;unbound &lt;lb n="c56-0072__main__18"/&gt; ed&lt;lb n="c56-0072__left_margin__1"/&gt;unbridled </rdg>
                <rdg wit="#fThomas">unbridled </rdg>
             </app>
             <app type="invariant" xml:id="C12_app699">
@@ -4650,21 +4406,15 @@
                <rdg wit="#fThomas">joy and </rdg>
             </app>
             <app xml:id="C12_app700">
-               <rdg wit="#f1818">hilarity.&lt;p eID="novel1_letter4_chapter5_p24"/&gt;&lt;pb n="134"
-            xml:id="F1818_v1_146"/&gt;&lt;milestone n="5" type="end" unit="chapter"/&gt; </rdg>
-               <rdg wit="#f1823">hilarity.&lt;p eID="novel1_letter4_chapter5_p24"/&gt;&lt;pb n="134"
-            xml:id="F1823_v1_153"/&gt;&lt;milestone n="5" type="end" unit="chapter"/&gt; </rdg>
+               <rdg wit="#f1818">hilarity.&lt;p eID="novel1_letter4_chapter5_div4_div5_p24"/&gt;&lt;pb n="134" xml:id="F1818_v1_146"/&gt;&lt;milestone n="5" type="end" unit="chapter"/&gt; </rdg>
+               <rdg wit="#f1823">hilarity.&lt;p eID="novel1_letter4_chapter5_div4_div5_p24"/&gt;&lt;pb n="134" xml:id="F1823_v1_153"/&gt;&lt;milestone n="5" type="end" unit="chapter"/&gt; </rdg>
                <rdg wit="#f1831">hilarity. </rdg>
                <rdg wit="#fMS">hilarity. </rdg>
-               <rdg wit="#fThomas">hilarity.&lt;p eID="novel1_letter4_chapter5_p23"/&gt;&lt;pb n="134"
-            xml:id="F1818_v1_146"/&gt;&lt;milestone n="5" type="end" unit="chapter"/&gt; </rdg>
+               <rdg wit="#fThomas">hilarity.&lt;p eID="novel1_letter4_chapter5_div4_div5_p23"/&gt;&lt;pb n="134" xml:id="F1818_v1_146"/&gt;&lt;milestone n="5" type="end" unit="chapter"/&gt; </rdg>
             </app>
             <app xml:id="C12_app701">
-               <rdg wit="#f1831">&lt;p eID="novel1_letter4_chapter6_p23"/&gt;&lt;milestone n="6" type="end"
-            unit="chapter"/&gt; </rdg>
-               <rdg wit="#fMS">&lt;lb n="c56-0072__main__19"/&gt;&lt;metamark
-            function="count"&gt;20&lt;/metamark&gt;&lt;lb n="c56-0072__main__20"/&gt;&lt;metamark
-            function="count"&gt;15&lt;/metamark&gt; </rdg>
+               <rdg wit="#f1831">&lt;p eID="novel1_letter4_chapter6_div4_div6_p23"/&gt;&lt;milestone n="6" type="end" unit="chapter"/&gt; </rdg>
+               <rdg wit="#fMS">&lt;lb n="c56-0072__main__19"/&gt;&lt;metamark function="count"&gt;20&lt;/metamark&gt;&lt;lb n="c56-0072__main__20"/&gt;&lt;metamark function="count"&gt;15&lt;/metamark&gt; </rdg>
             </app>
          </ab>
       </body>
