@@ -5,6 +5,21 @@
     version="3.0">
 
     <xsl:mode on-no-match="shallow-copy"/>
+    <xsl:variable name="printColl" as="document-node()+" select="collection('print-full')"/>
+    <xsl:template match="/">
+        <xsl:for-each select="$printColl//xml">
+            <xsl:variable name="currFile" as="xs:string">
+                <xsl:value-of select="concat(tokenize(base-uri(.), '/')[last()] ! substring-before(., '.xml'), 'Flat.xml')"/>
+            </xsl:variable> 
+            <xsl:result-document method="xml" indent="yes" href=" print-fullFlat/{$currFile}.xml">
+                <xml>
+        
+                    <xsl:apply-templates/>
+                </xml>
+            </xsl:result-document> 
+        </xsl:for-each>
+    </xsl:template>
+    
     
     <xsl:template match="text//*[text() | *][not(self::div)]">
         <xsl:variable name="nodeName" as="xs:string" select="name()"/>
@@ -15,20 +30,18 @@
                 <xsl:text>_</xsl:text>
             </xsl:for-each>
             <xsl:value-of select="$nodeName"/>
-            <xsl:value-of select="count(preceding::p) + 1"/><xsl:text>__</xsl:text>
+            <xsl:value-of select="count(preceding::p) + 1"/>
         </xsl:variable>
         <xsl:copy>
-            <xsl:attribute name="loc">
+            <xsl:attribute name="sID">
                 <xsl:value-of select="$locationFlag"/>
-                <xsl:text>Start</xsl:text>
             </xsl:attribute>
         </xsl:copy>
        
    <xsl:apply-templates/>
         <xsl:copy>
-            <xsl:attribute name="loc">
+            <xsl:attribute name="eID">
                 <xsl:value-of select="$locationFlag"/>
-                <xsl:text>End</xsl:text>
             </xsl:attribute>
         </xsl:copy>
     </xsl:template>
