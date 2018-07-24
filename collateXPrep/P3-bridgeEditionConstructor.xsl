@@ -65,7 +65,7 @@
                     </xsl:matching-substring>
                     <xsl:non-matching-substring>
                         <xsl:analyze-string select="." regex="&lt;.[^/]+?[es]ID=[^/]+?/&gt;">
-   <!--matches strings representing flattened element tags marked with sID and eID attributes" -->                         <xsl:matching-substring>
+   <!--matches strings representing flattened element tags marked with sID and eID attributes. -->                         <xsl:matching-substring>
                                 <xsl:variable name="flattenedTagContents" select="substring-before(., '/') ! substring-after(., '&lt;')"/>
                                 <xsl:variable name="elementName" select="tokenize($flattenedTagContents, ' ')[1]"/>
                                 <xsl:message>Flattened Tag Contents:  <xsl:value-of select="$flattenedTagContents"/></xsl:message>
