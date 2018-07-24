@@ -117,7 +117,7 @@
     </teiHeader>
     <sourceDoc>
   <?xml-model href="../../schemata/shelley_godwin_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-
+      <anchor type="collate" xml:id="C17"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="1r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0001.xml" xml:id="ox-ms_abinger_c57-0001">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0001.jp2"/>
   <zone rend="bordered" type="pagination"><line>161</line></zone>
@@ -1124,7 +1124,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <line>to <del rend="strikethrough">sleep</del>. rest</line>
  
 <!-- COLLATION CHUNK POINT UNIT C17 ends RM 10/09/2017 -->
-      
+      <anchor type="collate" xml:id="C18"/>        
       <milestone unit="tei:p"/>
         <line rend="indent1">I lay on my straw but I could not</line>
         <line>sleep – I thought of the occurences of</line>
@@ -1662,7 +1662,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       <!--See Charlie Robinson's Intro: Draft Notebook A: Note that we jump from number page 21 to page 57 here.  -->
       <!-- BEGIN COLLATION CHUNK UNIT C20 EB 03/18/2018 -->
         
-      <!--2018-03-31 ebb: I have removed into a separate collation witness a preceding passage that recounts the DeLacey history a little differently before this point, but is left unfinished. The next page seems to begin the DeLacey history all over again and appears to be complete: I am leaving it in this continuous witness.-->  
+      <!--2018-03-31 ebb: I have removed into a separate collation witness a preceding passage that recounts the DeLacey history a little differently before this point, but is left unfinished. The next page seems to begin the DeLacey history all over again and appears to be complete: I am leaving it in this continuous witness.-->
+      <anchor type="collate" xml:id="C20"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5368" lry="7104" partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="16r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml" xml:id="ox-ms_abinger_c57-0031">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0031.jp2"/>
   <zone rend="bordered" type="pagination"><line>57</line></zone>
@@ -2025,6 +2026,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
         <line>at length in joining her lover in his retreat<anchor xml:id="c57-0037.01"/></line>
 
 <!-- COLLATION CHUNK POINT UNIT C20 ends RM 10/09/2017 EB: MOVED THIS SO IT'S JUST BEFORE START OF C21. -->
+      <anchor type="collate" xml:id="C21"/>
         <milestone unit="tei:p"/>
         <line rend="indent2">Such was the history of my beloved <w ana="start"/>cotta</line>
         <line>gers<w ana="end"/>. It <mod>
@@ -3335,7 +3337,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
   
 </surface>
       <!-- COLLATION CHUNK POINT UNIT C21 ends RM 10/09/2017 -->
-         
+      <anchor type="collate" xml:id="C22"/>        
       
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="26r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0051.xml" xml:id="ox-ms_abinger_c57-0051">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0051.jp2"/>
@@ -4396,9 +4398,8 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
   </zone>
 
 <!-- COLLATION CHUNK POINT UNIT C22 ends EBB 03/18/2018 -->  
-
-  
 </surface>
+      <anchor type="collate" xml:id="C23"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="33v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0066.xml" xml:id="ox-ms_abinger_c57-0066">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0066.jp2"/>
 
@@ -4915,7 +4916,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
 </surface>
       
 <!-- COLLATION CHUNK POINT UNIT C23 ends EBB 03/18/2018 -->
-      
+      <anchor type="collate" xml:id="C24"/>   
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="37v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0074.xml" xml:id="ox-ms_abinger_c57-0074">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0074.jp2"/>
   <zone rend="bordered" type="pagination">
@@ -5590,7 +5591,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
 </surface>
 
 <!-- COLLATION CHUNK POINT UNIT C24 ends EBB 03/18/2018 -->      
-      
+      <anchor type="collate" xml:id="C25"/>      
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="46v" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0092.xml" xml:id="ox-ms_abinger_c57-0092">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0092.jp2"/>
   <zone rend="bordered" type="pagination">
@@ -6398,7 +6399,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       <note resp="#mws">Finish Chap. 2 here</note>  
      <!--NOTE RESP="#MWS" <milestone spanTo="#c57-0102.04" unit="tei:note"/><add place="interlinear">Finish Chap. 2 here</add><anchor xml:id="c57-0102.04"/>--></line>
 <!-- COLLATION CHUNK POINT UNIT C25 ends EBB 03/18/2018 -->    
-
+    <anchor type="collate" xml:id="C26"/> 
     <milestone unit="tei:p"/>
     <line rend="indent2">One evening I sat in my <del instant="true" rend="strikethrough">chemic</del></line>
     <line>workshop, the sun had set &amp; the moon</line>
@@ -7285,9 +7286,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       </mod> in</line>
     <line>proper detail to my recollection.</line>
   </zone>
-<!-- COLLATION CHUNK POINT UNIT C26 ends EBB 03/18/2018 -->
-  
+<!-- COLLATION CHUNK POINT UNIT C26 ends EBB 03/18/2018 --> 
 </surface>
+      <anchor type="collate" xml:id="C27"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="59r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0117.xml" xml:id="ox-ms_abinger_c57-0117">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0117.jp2"/>
   <zone type="pagination"><line>133</line></zone>
@@ -8303,7 +8304,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>and pointed <del rend="strikethrough">and pointed</del> to the port of</line>
     <line>Holyhead which we were now entering.</line>
 <!-- COLLATION CHUNK POINT UNIT C27 ends EBB 03/18/2018 -->
-
+    <anchor type="collate" xml:id="C28"/>
     <milestone unit="tei:p"/>
     <line rend="indent2">We had resolved not to go to London</line>
     <line>but <mod>
@@ -8466,7 +8467,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
       <del rend="strikethrough">him.</del> In this city I received the</line>
     <line>following letter from Elizabeth:</line>
 <!-- COLLATION CHUNK POINT UNIT C28 ends EBB 03/18/2018 -->
-
+    <anchor type="collate" xml:id="C29"/>
     <milestone unit="tei:p"/>
     <line rend="center">To Victor Fankenstein</line>
     <line rend="indent5"><mod>
@@ -9266,6 +9267,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
   </zone>
 <!-- COLLATION CHUNK POINT UNIT C29 ends EBB 03/18/2018 -->  
 </surface>
+      <anchor type="collate" xml:id="C30"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="74r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0147.xml" xml:id="ox-ms_abinger_c57-0147">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0147.jp2"/>
   <zone type="pagination">
@@ -10035,11 +10037,9 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>disturbed retired to meditate some other mode</line>
     <line rend="indent5">of action.</line>
   </zone>
-
 <!-- COLLATION CHUNK POINT UNIT C30 ends EBB 03/18/2018 -->  
-
-  
 </surface>
+      <anchor type="collate" xml:id="C31"/>
         <surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" mith:folio="79r" mith:shelfmark="MS. Abinger c. 57" xml:base="ox-ms_abinger_c57/ox-ms_abinger_c57-0157.xml" xml:id="ox-ms_abinger_c57-0157">
   <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0157.jp2"/>
   <zone type="pagination">
@@ -11124,7 +11124,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     <line>that he has murdered will plead for you<anchor xml:id="c57-168.01"/></line>
     
 <!-- COLLATION CHUNK POINT UNIT C31 ends EBB 03/18/2018 -->
-    
+    <anchor type="collate" xml:id="C32"/>   
     <line rend="center"><milestone spanTo="#c57-0168.14" unit="tei:head"/>Walton in continuation.<anchor xml:id="c57-0168.14"/></line>
     <milestone unit="tei:p"/>
     <line rend="right"><milestone spanTo="#c57-0168.02" unit="tei:date"/>August 1<mod>
@@ -11593,7 +11593,7 @@ PROPOSED SOLUTION, which I'm enacting here, is to move these into their sequenti
     </mod> to whom I gave existence then</line>
     <line>my task will be fulfilled &amp; I may die.</line>
 <!-- COLLATION CHUNK POINT UNIT C32 ends EBB 03/18/2018 -->
-    
+    <anchor type="collate" xml:id="C33"/>   
     <line rend="right">August <mod>
       <del rend="overwritten">27</del>
       <add place="intralinear">31</add>

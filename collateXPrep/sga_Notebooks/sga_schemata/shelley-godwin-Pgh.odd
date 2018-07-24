@@ -226,6 +226,12 @@
                             
                             <attDef ident="attachment" mode="delete"></attDef>
                             <attDef ident="flipping" mode="delete"></attDef>
+                            <attDef ident="part" mode="add" usage="opt">
+                                <desc>Added for developing the Pittsburgh Variorum Frankenstein, to deal with need to split surface elements and indicate when a new surface element is a portion of another.</desc>
+                                <datatype>
+                                    <dataRef key="string"></dataRef>
+                                </datatype>
+                            </attDef>
                         </attList>
                     </elementSpec>
                     

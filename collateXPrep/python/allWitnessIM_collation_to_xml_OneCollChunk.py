@@ -21,11 +21,14 @@ regexBlankLine = re.compile(r'\n{2,}')
 regexLeadingBlankLine = re.compile(r'^\n')
 regexPageBreak = re.compile(r'<pb.+?/>')
 RE_MARKUP = re.compile(r'<.+?>')
-RE_PARA = re.compile(r'<p\s.+?/>')
+RE_PARA = re.compile(r'<p.+?/>')
 RE_MILESTONE = re.compile(r'<milestone.+?/>')
 RE_AMP_NSB = re.compile(r'\S&amp;')
 RE_AMP_NSE = re.compile(r'&amp;\S')
 RE_AMP = re.compile(r'&')
+RE_MDEL = re.compile(r'<mdel>.+?/</mdel>')
+RE_METAMARK = re.compile(r'<metamark.+?>.+?</metamark>')
+RE_LB = re.compile(r'<lb.+?/>')
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
 # Tags to ignore, with content to keep: xml, comment, anchor
@@ -89,7 +92,12 @@ def extract(input_xml):
 
 def normalize(inputText):
    return RE_AMP.sub('and',\
-          RE_MARKUP.sub('', inputText)).lower()
+        RE_MDEL.sub('', \
+        RE_LB.sub('', \
+        RE_PARA.sub('<p/>', \
+        RE_METAMARK.sub('', inputText))))).lower()
+#    return regexPageBreak('',inputText)
+# ebb: The normalize function makes it possible to return normalized tokens that screen out some markup, but not all.
 
 
 def processToken(inputText):
@@ -100,7 +108,7 @@ def processWitness(inputWitness, id):
     return {'id': id, 'tokens': [processToken(token) for token in inputWitness]}
 
 
-name = '../collationChunks/1818_fullFlat_C15.xml'
+name = '../collationChunks/1818_fullFlat_C09.xml'
 matchString = name.split("fullFlat_", 1)[1]
 # ebb: above gets C30.xml for example
 matchStr = matchString.split(".", 1)[0]
@@ -110,7 +118,7 @@ with open(name, 'rb') as f1818file, \
         open('../collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
         open('../collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
         open('../collationChunks/msColl_' + matchString, 'rb') as fMSfile, \
-        open('../Full_xmlOutput/collation_' + matchStr + '.xml', 'w') as outputFile:
+        open('../C09-NormalizedTokens/collation_' + matchStr + '.json', 'w') as outputFile:
         # open('collationChunks/msColl_c56_' + matchString, 'rb') as fMSc56file, \
         # open('collationChunks/msColl_c58_' + matchString, 'rb') as fMSc58file, \
         # open('collationChunks/msColl_c57Frag_' + matchString, 'rb') as fMSc57Fragfile, \
@@ -137,7 +145,8 @@ with open(name, 'rb') as f1818file, \
     collation_input = {"witnesses": [f1818_tokenlist, fThomas_tokenlist, f1823_tokenlist, f1831_tokenlist, fMS_tokenlist]}
     # table = collate(collation_input, output='tei', segmentation=True)
     # table = collate(collation_input, segmentation=True, layout='vertical')
-    table = collate(collation_input, output='xml', segmentation=True)
-    print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
-#   print(fMS_tokenlist, file=outputFile)
+    # table = collate(collation_input, output='xml', segmentation=True)
+    # print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
+    # print(fMS_tokenlist, file=outputFile)
+    print(collation_input, file=outputFile)
     # print(table, file=outputFile)
