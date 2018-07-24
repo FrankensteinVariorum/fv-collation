@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,7 +13,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Produced from collation output: 2018-07-23 00:49:46.885587 </p>
+            <p>Produced from collation output: 2018-07-23 21:10:08.230935 </p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -22,22 +22,22 @@
          <div type="collation" xml:id="C03">
             <seg xml:id="C03_app1-fThomas_start"/>
             <milestone n="2" type="start" unit="letter"/>
-            <head sID="novel1_letter2_head1"/>LETTER <seg xml:id="C03_app1-fThomas_end"/>
-            <seg type="invariant-MissingWit" xml:id="C03_app2-fThomas_start"/>II.<head eID="novel1_letter2_head1"/>
-            <ab sID="novel1_letter2_ab1"/>
-            <hi sID="novel1_letter2_hi1"/>To <seg xml:id="C03_app2-fThomas_end"/>
-            <seg xml:id="C03_app3-fThomas_start"/>Mrs.<hi eID="novel1_letter2_hi1"/> S<hi sID="novel1_letter2_hi2"/>AVILLE<hi eID="novel1_letter2_hi2"/>, <seg xml:id="C03_app3-fThomas_end"/>
+            <head xml:id="novel1_letter2_div2_head1">LETTER <seg xml:id="C03_app1-fThomas_end"/>
+            <seg type="invariant-MissingWit" xml:id="C03_app2-fThomas_start"/>II.</head>
+            <ab xml:id="novel1_letter2_div2_ab1">
+            <hi xml:id="novel1_letter2_div2_ab1_hi1">To <seg xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" xml:id="C03_app2-fThomas_end"/>
+            <seg xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" xml:id="C03_app3-fThomas_start"/>Mrs.</hi> S<hi xml:id="novel1_letter2_div2_ab1_hi2">AVILLE</hi>, <seg xml:id="C03_app3-fThomas_end"/>
             <seg xml:id="C03_app4-fThomas_start"/>
-            <hi sID="novel1_letter2_hi3"/>England.<hi eID="novel1_letter2_hi3"/>
-            <ab eID="novel1_letter2_ab1"/>
-            <p sID="novel1_letter2_p1"/>Archangel, <seg xml:id="C03_app4-fThomas_end"/>
-            <seg type="invariant-MissingWit" xml:id="C03_app5-fThomas_start"/>28th March, 17—.<p eID="novel1_letter2_p1"/>
-            <p sID="novel1_letter2_p2"/>How slowly the time passes here, encompassed as I am by frost and <seg xml:id="C03_app5-fThomas_end"/>
+            <hi xml:id="novel1_letter2_div2_ab1_hi3">England.</hi>
+            </ab>
+            <p xml:id="novel1_letter2_div2_p1">Archangel, <seg xml:id="C03_app4-fThomas_end"/>
+            <seg type="invariant-MissingWit" xml:id="C03_app5-fThomas_start"/>28th March, 17—.</p>
+            <p xml:id="novel1_letter2_div2_p2">How slowly the time passes here, encompassed as I am by frost and <seg xml:id="C03_app5-fThomas_end"/>
             <seg xml:id="C03_app6-fThomas_start"/>snow; <seg xml:id="C03_app6-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app7-fThomas_start"/>yet a second step is taken towards my enterprise. I have hired a vessel, and am occupied in collecting my sailors; those whom I have already <seg xml:id="C03_app7-fThomas_end"/>
             <seg xml:id="C03_app8-fThomas_start"/>engaged <seg xml:id="C03_app8-fThomas_end"/>
-            <seg type="invariant-MissingWit" xml:id="C03_app9-fThomas_start"/>appear to be men on whom I can depend, and are certainly possessed of dauntless courage.<p eID="novel1_letter2_p2"/>
-            <p sID="novel1_letter2_p3"/>But I have one want which I have never yet been able to satisfy; and <seg xml:id="C03_app9-fThomas_end"/>
+            <seg type="invariant-MissingWit" xml:id="C03_app9-fThomas_start"/>appear to be men on whom I can depend, and are certainly possessed of dauntless courage.</p>
+            <p xml:id="novel1_letter2_div2_p3">But I have one want which I have never yet been able to satisfy; and <seg xml:id="C03_app9-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app10-fThomas_start"/>the <seg xml:id="C03_app10-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app11-fThomas_start"/>absence of the object of which I <seg xml:id="C03_app11-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app12-fThomas_start"/>
@@ -52,15 +52,15 @@
             <seg xml:id="C03_app20-fThomas_start"/>difficul<pb n="012" xml:id="F1818_v1_024"/>ties. <seg xml:id="C03_app20-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app21-fThomas_start"/>But it is a still greater evil to me that I am self-educated: for the first fourteen years of my life I ran wild on a common, and read nothing but our uncle Thomas’s books of voyages. At that age I became acquainted with the celebrated poets of our own country; but it was only when it had ceased to be in my power to derive its most important benefits from such a conviction, that I perceived the necessity of becoming acquainted with more languages than that of my native country. Now I am twenty-eight, and am in reality more illiterate than many <seg xml:id="C03_app21-fThomas_end"/>
             <seg xml:id="C03_app22-fThomas_start"/>school-boys <seg xml:id="C03_app22-fThomas_end"/>
-            <seg type="invariant-MissingWit" xml:id="C03_app23-fThomas_start"/>of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) <hi sID="novel1_letter2_hi1"/>keeping;<hi eID="novel1_letter2_hi1"/> and I greatly need a friend who would have sense enough not to despise me as romantic, and affection <seg xml:id="C03_app23-fThomas_end"/>
+            <seg type="invariant-MissingWit" xml:id="C03_app23-fThomas_start"/>of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) <hi xml:id="novel1_letter2_div2_p3_hi1">keeping;</hi> and I greatly need a friend who would have sense enough not to despise me as romantic, and affection <seg xml:id="C03_app23-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app24-fThomas_start"/>
             <pb n="013" xml:id="F1818_v1_025"/>enough <seg xml:id="C03_app24-fThomas_end"/>
-            <seg type="invariant-MissingWit" xml:id="C03_app25-fThomas_start"/>for me to endeavour to regulate my mind.<p eID="novel1_letter2_p3"/>
-            <p sID="novel1_letter2_p4"/>Well, these are useless complaints; I shall certainly find no friend on the wide ocean, nor even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the dross of human nature, beat even in these rugged bosoms. My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous <seg xml:id="C03_app25-fThomas_end"/>
+            <seg type="invariant-MissingWit" xml:id="C03_app25-fThomas_start"/>for me to endeavour to regulate my mind.</p>
+            <p xml:id="novel1_letter2_div2_p4">Well, these are useless complaints; I shall certainly find no friend on the wide ocean, nor even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the dross of human nature, beat even in these rugged bosoms. My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous <seg xml:id="C03_app25-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app27-fThomas_start"/>of <seg xml:id="C03_app27-fThomas_end"/>
             <seg xml:id="C03_app28-fThomas_start"/>glory. <seg xml:id="C03_app28-fThomas_end"/>
-            <seg type="invariant-MissingWit" xml:id="C03_app29-fThomas_start"/>He is an Englishman, and in the midst of national and professional prejudices, unsoftened by cultivation, retains some of the noblest endowments of humanity. I first became acquainted with him on board a whale vessel: finding that he was unemployed in this city, I easily engaged him to assist in my enterprise.<p eID="novel1_letter2_p4"/>
-            <p sID="novel1_letter2_p5"/>The master is a person of an excellent disposition, and is remarkable in <seg xml:id="C03_app29-fThomas_end"/>
+            <seg type="invariant-MissingWit" xml:id="C03_app29-fThomas_start"/>He is an Englishman, and in the midst of national and professional prejudices, unsoftened by cultivation, retains some of the noblest endowments of humanity. I first became acquainted with him on board a whale vessel: finding that he was unemployed in this city, I easily engaged him to assist in my enterprise.</p>
+            <p xml:id="novel1_letter2_div2_p5">The master is a person of an excellent disposition, and is remarkable in <seg xml:id="C03_app29-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app30-fThomas_start"/>
             <pb n="014" xml:id="F1818_v1_026"/>the <seg xml:id="C03_app30-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app31-fThomas_start"/>ship for his <seg xml:id="C03_app31-fThomas_end"/>
@@ -80,9 +80,9 @@
             <seg type="invariant-MissingWit" xml:id="C03_app45-fThomas_start"/>to <seg xml:id="C03_app45-fThomas_end"/>
             <seg xml:id="C03_app46-fThomas_start"/>spill blood. <seg xml:id="C03_app46-fThomas_end"/>
             <seg xml:id="C03_app47-fThomas_start"/>
-            <del sID="novel1_letter2_del1"/>He <seg xml:id="C03_app47-fThomas_end"/>
-            <seg xml:id="C03_app48-fThomas_start"/>is, moreover, heroically <seg xml:id="C03_app48-fThomas_end"/>
-            <seg xml:id="C03_app49-fThomas_start"/>generous.<del eID="novel1_letter2_del1"/>I will relate <seg xml:id="C03_app49-fThomas_end"/>
+            <del xml:id="novel1_letter2_div2_p5_del1">He <seg xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" xml:id="C03_app47-fThomas_end"/>
+            <seg xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" xml:id="C03_app48-fThomas_start"/>is, moreover, heroically <seg xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" xml:id="C03_app48-fThomas_end"/>
+            <seg xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" xml:id="C03_app49-fThomas_start"/>generous.</del>I will relate <seg xml:id="C03_app49-fThomas_end"/>
             <seg xml:id="C03_app50-fThomas_start"/>to <seg xml:id="C03_app50-fThomas_end"/>
             <seg xml:id="C03_app51-fThomas_start"/>you an anecdote <seg xml:id="C03_app51-fThomas_end"/>
             <seg xml:id="C03_app52-fThomas_start"/>of <seg xml:id="C03_app52-fThomas_end"/>
@@ -116,10 +116,10 @@
             <seg xml:id="C03_app81-fThomas_start"/>has scarcely an idea beyond <seg xml:id="C03_app81-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app82-fThomas_start"/>the <seg xml:id="C03_app82-fThomas_end"/>
             <seg xml:id="C03_app83-fThomas_start"/>
-            <del sID="novel1_letter2_del2"/>rope<del eID="novel1_letter2_del2"/>ship <seg xml:id="C03_app83-fThomas_end"/>
+            <del xml:id="novel1_letter2_div2_p5_del2">rope</del>ship <seg xml:id="C03_app83-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app84-fThomas_start"/>and <seg xml:id="C03_app84-fThomas_end"/>
-            <seg xml:id="C03_app85-fThomas_start"/>the<del sID="novel1_letter2_del3"/>shroud<del eID="novel1_letter2_del3"/>crew.<p eID="novel1_letter2_p5"/>
-            <p sID="novel1_letter2_p6"/>But <seg xml:id="C03_app85-fThomas_end"/>
+            <seg xml:id="C03_app85-fThomas_start"/>the<del xml:id="novel1_letter2_div2_p5_del3">shroud</del>crew.</p>
+            <p xml:id="novel1_letter2_div2_p6">But <seg xml:id="C03_app85-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app86-fThomas_start"/>do not <seg xml:id="C03_app86-fThomas_end"/>
             <seg xml:id="C03_app87-fThomas_start"/>suppose that, <seg xml:id="C03_app87-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app88-fThomas_start"/>because I complain a little, or because I can conceive a consolation for my toils which I <seg xml:id="C03_app88-fThomas_end"/>
@@ -133,24 +133,24 @@
             <seg xml:id="C03_app95-fThomas_start"/>rashly; <seg xml:id="C03_app95-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app96-fThomas_start"/>you know me sufficiently to confide in my prudence and <seg xml:id="C03_app96-fThomas_end"/>
             <seg xml:id="C03_app97-fThomas_start"/>considerateness <seg xml:id="C03_app97-fThomas_end"/>
-            <seg type="invariant-MissingWit" xml:id="C03_app98-fThomas_start"/>whenever the safety of others is committed to my care.<p eID="novel1_letter2_p6"/>
-            <p sID="novel1_letter2_p7"/>I cannot describe to you my sensations on the near prospect of my undertaking. It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart. I am going to unexplored regions, to “the land of mist and <seg xml:id="C03_app98-fThomas_end"/>
+            <seg type="invariant-MissingWit" xml:id="C03_app98-fThomas_start"/>whenever the safety of others is committed to my care.</p>
+            <p xml:id="novel1_letter2_div2_p7">I cannot describe to you my sensations on the near prospect of my undertaking. It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart. I am going to unexplored regions, to “the land of mist and <seg xml:id="C03_app98-fThomas_end"/>
             <seg xml:id="C03_app99-fThomas_start"/>
-            <pb n="017" xml:id="F1818_v1_029"/>snow;”<note sID="novel1_letter2_note1"/>Coleridge's Antient Mariner.<note eID="novel1_letter2_note1"/> 
+            <pb n="017" xml:id="F1818_v1_029"/>snow;”<note xml:id="novel1_letter2_div2_p7_note1">Coleridge's Antient Mariner.</note> 
             <seg xml:id="C03_app99-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app100-fThomas_start"/>but I shall kill no albatross, therefore do not be alarmed <seg xml:id="C03_app100-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app102-fThomas_start"/>for <seg xml:id="C03_app102-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app104-fThomas_start"/>my <seg xml:id="C03_app104-fThomas_end"/>
-            <seg xml:id="C03_app105-fThomas_start"/>safety.<p eID="novel1_letter2_p7"/>
-            <p sID="novel1_letter2_p8"/>Shall <seg xml:id="C03_app105-fThomas_end"/>
+            <seg xml:id="C03_app105-fThomas_start"/>safety.</p>
+            <p xml:id="novel1_letter2_div2_p8">Shall <seg xml:id="C03_app105-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app106-fThomas_start"/>I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue <seg xml:id="C03_app106-fThomas_end"/>
             <seg type="invariant-MissingWit" xml:id="C03_app108-fThomas_start"/>to write to me by every opportunity: I may receive your letters <seg xml:id="C03_app108-fThomas_end"/>
             <seg xml:id="C03_app109-fThomas_start"/>(though the chance is very doubtful) <seg xml:id="C03_app109-fThomas_end"/>
-            <seg type="invariant-MissingWit" xml:id="C03_app110-fThomas_start"/>on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.<p eID="novel1_letter2_p8"/>
-            <p sID="novel1_letter2_p9"/>Your affectionate brother,<p eID="novel1_letter2_p9"/>
-            <p sID="novel1_letter2_p10"/>R<hi sID="novel1_letter2_hi1"/>OBERT<hi eID="novel1_letter2_hi1"/> 
+            <seg type="invariant-MissingWit" xml:id="C03_app110-fThomas_start"/>on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.</p>
+            <p xml:id="novel1_letter2_div2_p9">Your affectionate brother,</p>
+            <p xml:id="novel1_letter2_div2_p10">R<hi xml:id="novel1_letter2_div2_p10_hi1">OBERT</hi> 
             <seg xml:id="C03_app110-fThomas_end"/>
-            <seg type="invariant-MissingWit" xml:id="C03_app111-fThomas_start"/>W<hi sID="novel1_letter2_hi2"/>ALTON<hi eID="novel1_letter2_hi2"/>.<p eID="novel1_letter2_p10"/>
+            <seg type="invariant-MissingWit" xml:id="C03_app111-fThomas_start"/>W<hi xml:id="novel1_letter2_div2_p10_hi2">ALTON</hi>.</p>
             <pb n="018" xml:id="F1818_v1_030"/>
             <milestone n="2" type="end" unit="letter"/> 
             <seg xml:id="C03_app111-fThomas_end"/>

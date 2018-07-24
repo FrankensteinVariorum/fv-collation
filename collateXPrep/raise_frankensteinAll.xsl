@@ -70,6 +70,9 @@
             following-sibling::*[@th:eID][1]/@th:eID]">
         <xsl:copy copy-namespaces="no">
             <xsl:copy-of select="@* except @th:sID"/>
+            <xsl:attribute name="xml:id">
+                <xsl:value-of select="@th:sID"/>
+            </xsl:attribute>
             <!-- content of raised element; no foreign end-markers
 		 here (but possibly start-markers); just copy the
 		 nodes -->

@@ -16,7 +16,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Produced from collation output: 2018-07-23 00:49:46.885587 </p>
+            <p>Produced from collation output: 2018-07-23 21:10:08.230935 </p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -31363,11 +31363,11 @@
                   </ref>
                </rdg>
             </rdgGrp>
-            <rdgGrp type="invariant">
+            <app xml:id="C24_app1006">
                <rdg wit="#f1818">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C24.xml#C24_app1006-f1818"/>
-                     <pitt:line_text>eye*.”* Wordsworth’s </pitt:line_text>
+                     <pitt:line_text>eye*.”* Wordsworth’s "Tintern Abbey."And </pitt:line_text>
                      <pitt:resolved_text>P5-f1818_C24.xml#C24_app1006-f1818</pitt:resolved_text>
                   </ref>
                </rdg>
@@ -31388,19 +31388,12 @@
                <rdg wit="#fThomas">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C24.xml#C24_app1006-fThomas"/>
-                     <pitt:line_text>eye*.”* Wordsworth’s </pitt:line_text>
+                     <pitt:line_text>eye*.”* Wordsworth’s "Tintern Abbey."And </pitt:line_text>
                      <pitt:resolved_text>P5-fThomas_C24.xml#C24_app1006-fThomas</pitt:resolved_text>
                   </ref>
                </rdg>
-            </rdgGrp>
-            <app xml:id="C24_app1007">
-               <rdg wit="#f1818">
-                  <ref>
-                     <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1818_C24.xml#C24_app1007-f1818"/>
-                     <pitt:line_text>"Tintern Abbey."And </pitt:line_text>
-                     <pitt:resolved_text>P5-f1818_C24.xml#C24_app1007-f1818</pitt:resolved_text>
-                  </ref>
-               </rdg>
+            </app>
+            <rdgGrp type="invariant">
                <rdg wit="#f1823">
                   <ref>
                      <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-f1823_C24.xml#C24_app1007-f1823"/>
@@ -31415,14 +31408,7 @@
                      <pitt:resolved_text>P5-f1831_C24.xml#C24_app1007-f1831</pitt:resolved_text>
                   </ref>
                </rdg>
-               <rdg wit="#fThomas">
-                  <ref>
-                     <ptr target="https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/tree/Text_Processing/collateXPrep/bridge-P5/P5-fThomas_C24.xml#C24_app1007-fThomas"/>
-                     <pitt:line_text>"Tintern Abbey."And </pitt:line_text>
-                     <pitt:resolved_text>P5-fThomas_C24.xml#C24_app1007-fThomas</pitt:resolved_text>
-                  </ref>
-               </rdg>
-            </app>
+            </rdgGrp>
             <rdgGrp type="invariant">
                <rdg wit="#f1823">
                   <ref>

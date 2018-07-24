@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,7 +13,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Produced from collation output: 2018-07-23 00:49:46.885587 </p>
+            <p>Produced from collation output: 2018-07-23 21:10:08.230935 </p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -27,11 +27,11 @@
             <milestone unit="tei:p"/>
             <lb n="c57-0066__main__2"/> The creature <seg xml:id="C23_app1-fMS_end"/>finished <seg xml:id="C23_app5-fMS_start"/>speaking <seg xml:id="C23_app5-fMS_end"/>and fixed his <seg xml:id="C23_app7-fMS_start"/>
             <lb n="c57-0066__main__3"/>
-            <del rend="strikethrough" sID="c57-0066__main__d3e13244"/>eyes<del eID="c57-0066__main__d3e13244"/>looks on <seg xml:id="C23_app7-fMS_end"/>me in expectation of <seg xml:id="C23_app9-fMS_start"/>a<mdel ana="start"/>n<mdel ana="end"/>
-            <del rend="strikethrough" sID="c57-0066__main__d3e13256"/>answer<mdel ana="start"/>.<mdel ana="end"/>
-            <del eID="c57-0066__main__d3e13256"/>
+            <del rend="strikethrough" xml:id="c57-0066__main__d3e13244">eyes</del>looks on <seg xml:id="C23_app7-fMS_end"/>me in expectation of <seg xml:id="C23_app9-fMS_start"/>a<mdel ana="start"/>n<mdel ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0066__main__d3e13256">answer<mdel xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" ana="start"/>.<mdel xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" ana="end"/>
+            </del>
             <metamark ana="start" function="insert"/>^<metamark ana="end"/>reply.<lb n="c57-0066__main__4"/> 
-            <seg xml:id="C23_app9-fMS_end"/>But I was <seg xml:id="C23_app11-fMS_start"/>bewilde<del rend="strikethrough" sID="c57-0066__main__d3e13274"/>r<del eID="c57-0066__main__d3e13274"/>red &amp; perplexed <seg xml:id="C23_app11-fMS_end"/>&amp; unable <seg xml:id="C23_app13-fMS_start"/>
+            <seg xml:id="C23_app9-fMS_end"/>But I was <seg xml:id="C23_app11-fMS_start"/>bewilde<del rend="strikethrough" xml:id="c57-0066__main__d3e13274">r</del>red &amp; perplexed <seg xml:id="C23_app11-fMS_end"/>&amp; unable <seg xml:id="C23_app13-fMS_start"/>
             <lb n="c57-0066__main__5"/> 
             <seg xml:id="C23_app13-fMS_end"/>to arrange my ideas sufficiently to under<lb n="c57-0066__main__6"/>stand the <seg xml:id="C23_app15-fMS_start"/>meaning <seg xml:id="C23_app15-fMS_end"/>of his proposition. He <seg xml:id="C23_app17-fMS_start"/>
             <lb n="c57-0066__main__7"/> continued.<milestone unit="tei:p"/>
@@ -64,7 +64,7 @@
             <seg xml:id="C23_app78-fMS_end"/>instead of <seg xml:id="C23_app80-fMS_start"/>threatening <seg xml:id="C23_app80-fMS_end"/>I am content to reason <seg xml:id="C23_app82-fMS_start"/>
             <lb n="c57-0066__main__27"/> 
             <seg xml:id="C23_app82-fMS_end"/>with you. I am <seg xml:id="C23_app84-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0066__main__d3e13352"/>wick<del eID="c57-0066__main__d3e13352"/> malicious, <seg xml:id="C23_app84-fMS_end"/>because <seg xml:id="C23_app86-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0066__main__d3e13352">wick</del> malicious, <seg xml:id="C23_app84-fMS_end"/>because <seg xml:id="C23_app86-fMS_start"/>
             <lb n="c57-0066__main__28"/> 
             <seg xml:id="C23_app86-fMS_end"/>I am <seg xml:id="C23_app88-fMS_start"/>miserable. <seg xml:id="C23_app88-fMS_end"/>Am I not shunned &amp;<lb n="c57-0066__main__29"/> hated by all mankind? <seg xml:id="C23_app90-fMS_start"/>You <seg xml:id="C23_app90-fMS_end"/>my <seg xml:id="C23_app92-fMS_start"/>creator <lb n="c57-0066__main__30"/> 
             <seg xml:id="C23_app92-fMS_end"/>would tear me to <seg xml:id="C23_app94-fMS_start"/>pieces <seg xml:id="C23_app94-fMS_end"/>&amp; <seg xml:id="C23_app96-fMS_start"/>triumph –Rem<lb n="c57-0066__main__31"/>ember that <seg xml:id="C23_app96-fMS_end"/>&amp; tell me why I should pity <seg xml:id="C23_app98-fMS_start"/>
@@ -74,7 +74,7 @@
             <seg xml:id="C23_app104-fMS_end"/>would <seg xml:id="C23_app106-fMS_start"/>not <seg xml:id="C23_app106-fMS_end"/>call it <seg xml:id="C23_app108-fMS_start"/>murder <seg xml:id="C23_app108-fMS_end"/>if you <seg xml:id="C23_app110-fMS_start"/>preci<lb n="c57-0066__main__34"/>pitated <seg xml:id="C23_app110-fMS_end"/>me into one of those <seg xml:id="C23_app112-fMS_start"/>ice rifts <seg xml:id="C23_app112-fMS_end"/>&amp;<lb n="c57-0066__main__35"/> 
             <seg xml:id="C23_app114-fMS_start"/>destroyed <seg xml:id="C23_app114-fMS_end"/>my frame, the work of your <metamark ana="start" function="insert"/>^<metamark ana="end"/>own hands. <seg xml:id="C23_app116-fMS_start"/>
             <lb n="c57-0066__main__36"/>
-            <del rend="strikethrough" sID="c57-0066__main__d3e13395"/>And<del eID="c57-0066__main__d3e13395"/> 
+            <del rend="strikethrough" xml:id="c57-0066__main__d3e13395">And</del> 
             <seg xml:id="C23_app116-fMS_end"/>shall I respect <seg xml:id="C23_app118-fMS_start"/>man <seg xml:id="C23_app118-fMS_end"/>when <seg xml:id="C23_app120-fMS_start"/>hecon-<lb n="c57-0066__main__37"/>temns <seg xml:id="C23_app120-fMS_end"/>me? Let him live with me in <seg xml:id="C23_app122-fMS_start"/>
             <lb n="c57-0066__main__38"/> 
             <seg xml:id="C23_app122-fMS_end"/>the interchange of <seg xml:id="C23_app124-fMS_start"/>kindness and <seg xml:id="C23_app124-fMS_end"/>instead of<lb n="c57-0067__main__1"/> 
@@ -84,20 +84,20 @@
             <lb n="c57-0067__main__3"/> 
             <seg xml:id="C23_app131-fMS_end"/>that cannot be; <seg xml:id="C23_app133-fMS_start"/>
             <mdel ana="start"/>T<mdel ana="end"/>the <seg xml:id="C23_app133-fMS_end"/>human senses are <seg xml:id="C23_app135-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0067__main__d3e13437"/>an<del eID="c57-0067__main__d3e13437"/>
+            <del rend="strikethrough" xml:id="c57-0067__main__d3e13437">an</del>
             <lb n="c57-0067__main__4"/> 
             <seg xml:id="C23_app135-fMS_end"/>insurmountable barriers to our union. <seg xml:id="C23_app137-fMS_start"/>
             <lb n="c57-0067__main__5"/> But <seg xml:id="C23_app137-fMS_end"/>mine shall not the submission of abject <seg xml:id="C23_app141-fMS_start"/>
             <lb n="c57-0067__main__6"/> 
-            <seg xml:id="C23_app141-fMS_end"/>slavery. I will revenge my <seg xml:id="C23_app143-fMS_start"/>injuries <del rend="strikethrough" sID="c57-0067__main__d3e13446"/>&amp;<del eID="c57-0067__main__d3e13446"/> 
+            <seg xml:id="C23_app141-fMS_end"/>slavery. I will revenge my <seg xml:id="C23_app143-fMS_start"/>injuries <del rend="strikethrough" xml:id="c57-0067__main__d3e13446">&amp;</del> 
             <seg xml:id="C23_app143-fMS_end"/>if I <seg xml:id="C23_app145-fMS_start"/>
             <lb n="c57-0067__main__7"/> 
             <seg xml:id="C23_app145-fMS_end"/>cannot inspire <seg xml:id="C23_app147-fMS_start"/>love <seg xml:id="C23_app147-fMS_end"/>I will cause <seg xml:id="C23_app149-fMS_start"/>fear <lb n="c57-0067__main__8"/> 
             <seg xml:id="C23_app149-fMS_end"/>and chiefly towards you my <seg xml:id="C23_app151-fMS_start"/>arch-enemy <seg xml:id="C23_app151-fMS_end"/>because <seg xml:id="C23_app153-fMS_start"/>
             <lb n="c57-0067__main__9"/> 
-            <seg xml:id="C23_app153-fMS_end"/>my <seg xml:id="C23_app155-fMS_start"/>creator; <del rend="strikethrough" sID="c57-0067__main__d3e13459"/>I w<del eID="c57-0067__main__d3e13459"/> 
+            <seg xml:id="C23_app153-fMS_end"/>my <seg xml:id="C23_app155-fMS_start"/>creator; <del rend="strikethrough" xml:id="c57-0067__main__d3e13459">I w</del> 
             <seg xml:id="C23_app155-fMS_end"/>do I swear <seg xml:id="C23_app157-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0067__main__d3e13464"/>unutterable<del eID="c57-0067__main__d3e13464"/>inextinguishable<lb n="c57-0067__main__10"/> hatred– <seg xml:id="C23_app157-fMS_end"/>I will work <seg xml:id="C23_app159-fMS_start"/>&amp; destroy <seg xml:id="C23_app159-fMS_end"/>nor finish <seg xml:id="C23_app161-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0067__main__d3e13464">unutterable</del>inextinguishable<lb n="c57-0067__main__10"/> hatred– <seg xml:id="C23_app157-fMS_end"/>I will work <seg xml:id="C23_app159-fMS_start"/>&amp; destroy <seg xml:id="C23_app159-fMS_end"/>nor finish <seg xml:id="C23_app161-fMS_start"/>
             <lb n="c57-0067__main__11"/> untill <seg xml:id="C23_app161-fMS_end"/>I desolate your <seg xml:id="C23_app163-fMS_start"/>heart <seg xml:id="C23_app163-fMS_end"/>so that you <seg xml:id="C23_app165-fMS_start"/>
             <lb n="c57-0067__main__12"/> 
             <seg xml:id="C23_app165-fMS_end"/>curse the hour of your <seg xml:id="C23_app167-fMS_start"/>birth." A fiend <lb n="c57-0067__main__13"/> -ish <seg xml:id="C23_app167-fMS_end"/>rage animated him as he said <seg xml:id="C23_app170-fMS_start"/>
@@ -128,7 +128,7 @@
             <seg xml:id="C23_app212-fMS_end"/>in dreams <metamark ana="start" function="insert"/>^<metamark ana="end"/>of bliss that cannot be <seg xml:id="C23_app214-fMS_start"/>realized. <seg xml:id="C23_app214-fMS_end"/>What <seg xml:id="C23_app216-fMS_start"/>
             <lb n="c57-0067__main__27"/> 
             <seg xml:id="C23_app216-fMS_end"/>I <seg xml:id="C23_app218-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0067__main__d3e13552"/>a<del eID="c57-0067__main__d3e13552"/>ask <seg xml:id="C23_app218-fMS_end"/>of you is reasonable and <seg xml:id="C23_app220-fMS_start"/>moderate. <lb n="c57-0067__main__28"/> 
+            <del rend="strikethrough" xml:id="c57-0067__main__d3e13552">a</del>ask <seg xml:id="C23_app218-fMS_end"/>of you is reasonable and <seg xml:id="C23_app220-fMS_start"/>moderate. <lb n="c57-0067__main__28"/> 
             <seg xml:id="C23_app220-fMS_end"/>I demand a creature of another <seg xml:id="C23_app222-fMS_start"/>sex <seg xml:id="C23_app222-fMS_end"/>but <seg xml:id="C23_app224-fMS_start"/>
             <lb n="c57-0067__main__29"/> 
             <seg xml:id="C23_app224-fMS_end"/>as hideous as <seg xml:id="C23_app226-fMS_start"/>myself. <seg xml:id="C23_app226-fMS_end"/>The gratification is <seg xml:id="C23_app228-fMS_start"/>
@@ -144,7 +144,7 @@
             <lb n="c57-0067__main__36"/> 
             <seg xml:id="C23_app250-fMS_end"/>will be <seg xml:id="C23_app252-fMS_start"/>harmless <seg xml:id="C23_app252-fMS_end"/>&amp; free from the misery <seg xml:id="C23_app254-fMS_start"/>
             <lb n="c57-0067__main__37"/>
-            <del rend="strikethrough" sID="c57-0067__main__d3e13582"/>that<del eID="c57-0067__main__d3e13582"/>which <seg xml:id="C23_app254-fMS_end"/>I now feel. Oh! my <seg xml:id="C23_app256-fMS_start"/>creator make<lb n="c57-0068__main__1"/>
+            <del rend="strikethrough" xml:id="c57-0067__main__d3e13582">that</del>which <seg xml:id="C23_app254-fMS_end"/>I now feel. Oh! my <seg xml:id="C23_app256-fMS_start"/>creator make<lb n="c57-0068__main__1"/>
             <lb n="c57-0068__left_margin__1"/>me happy–,let <seg xml:id="C23_app256-fMS_end"/>me feel gratitude towards you for one <seg xml:id="C23_app258-fMS_start"/>
             <lb n="c57-0068__main__2"/> benefit; <seg xml:id="C23_app258-fMS_end"/>Let me see that I excite the <seg xml:id="C23_app260-fMS_start"/>
             <lb n="c57-0068__main__3"/> 
@@ -156,12 +156,12 @@
             <seg xml:id="C23_app266-fMS_end"/>of the possible consequences of my <seg xml:id="C23_app268-fMS_start"/>consent <lb n="c57-0068__main__7"/> 
             <seg xml:id="C23_app268-fMS_end"/>but I felt that there was some justice <seg xml:id="C23_app270-fMS_start"/>
             <lb n="c57-0068__main__8"/> 
-            <seg xml:id="C23_app270-fMS_end"/>in his argument. His <seg xml:id="C23_app272-fMS_start"/>tale <seg xml:id="C23_app272-fMS_end"/>and the fee<lb n="c57-0068__main__9"/>lings he now <seg xml:id="C23_app274-fMS_start"/>expressed <del rend="strikethrough" sID="c57-0068__main__d3e13651"/>ap<del eID="c57-0068__main__d3e13651"/>proved <seg xml:id="C23_app274-fMS_end"/>him to <seg xml:id="C23_app276-fMS_start"/>
+            <seg xml:id="C23_app270-fMS_end"/>in his argument. His <seg xml:id="C23_app272-fMS_start"/>tale <seg xml:id="C23_app272-fMS_end"/>and the fee<lb n="c57-0068__main__9"/>lings he now <seg xml:id="C23_app274-fMS_start"/>expressed <del rend="strikethrough" xml:id="c57-0068__main__d3e13651">ap</del>proved <seg xml:id="C23_app274-fMS_end"/>him to <seg xml:id="C23_app276-fMS_start"/>
             <lb n="c57-0068__main__10"/> 
             <seg xml:id="C23_app276-fMS_end"/>be a creature of fine <seg xml:id="C23_app278-fMS_start"/>sensations <seg xml:id="C23_app278-fMS_end"/>and <seg xml:id="C23_app280-fMS_start"/>
             <lb n="c57-0068__main__11"/> 
             <seg xml:id="C23_app280-fMS_end"/>did <seg xml:id="C23_app282-fMS_start"/>not <seg xml:id="C23_app282-fMS_end"/>I <metamark ana="start" function="insert"/>^<metamark ana="end"/>as his <seg xml:id="C23_app286-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0068__main__d3e13671"/>creator<del eID="c57-0068__main__d3e13671"/> maker <seg xml:id="C23_app286-fMS_end"/>owe him <seg xml:id="C23_app288-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0068__main__d3e13671">creator</del> maker <seg xml:id="C23_app286-fMS_end"/>owe him <seg xml:id="C23_app288-fMS_start"/>
             <lb n="c57-0068__main__12"/> 
             <seg xml:id="C23_app288-fMS_end"/>all the portion <seg xml:id="C23_app290-fMS_start"/>of <seg xml:id="C23_app290-fMS_end"/>happiness that it <seg xml:id="C23_app292-fMS_start"/>
             <lb n="c57-0068__main__13"/> 
@@ -172,7 +172,7 @@
             <seg xml:id="C23_app296-fMS_end"/>change of <seg xml:id="C23_app298-fMS_start"/>feeling <seg xml:id="C23_app298-fMS_end"/>&amp; <seg xml:id="C23_app300-fMS_start"/>continued.<milestone unit="tei:p"/>
             <lb n="c57-0068__main__15"/> If <seg xml:id="C23_app300-fMS_end"/>you <seg xml:id="C23_app302-fMS_start"/>consent <seg xml:id="C23_app302-fMS_end"/>neither you <seg xml:id="C23_app304-fMS_start"/>or <lb n="c57-0068__main__16"/> 
             <seg xml:id="C23_app304-fMS_end"/>any human <seg xml:id="C23_app308-fMS_start"/>
-            <del instant="true" rend="strikethrough" sID="c57-0068__main__d3e13702"/>being<del eID="c57-0068__main__d3e13702"/> creature <seg xml:id="C23_app308-fMS_end"/>shall ever see <seg xml:id="C23_app310-fMS_start"/>
+            <del instant="true" rend="strikethrough" xml:id="c57-0068__main__d3e13702">being</del> creature <seg xml:id="C23_app308-fMS_end"/>shall ever see <seg xml:id="C23_app310-fMS_start"/>
             <lb n="c57-0068__main__17"/> 
             <seg xml:id="C23_app310-fMS_end"/>us <seg xml:id="C23_app312-fMS_start"/>again. <seg xml:id="C23_app312-fMS_end"/>I will go to the vast wilds of <seg xml:id="C23_app314-fMS_start"/>
             <lb n="c57-0068__main__18"/> 
@@ -200,7 +200,7 @@
             <lb n="c57-0068__main__31"/> 
             <seg xml:id="C23_app352-fMS_end"/>as you <seg xml:id="C23_app354-fMS_start"/>are <seg xml:id="C23_app354-fMS_end"/>towards <seg xml:id="C23_app356-fMS_start"/>me <seg xml:id="C23_app356-fMS_end"/>I see compassi<lb n="c57-0068__main__32"/>on in your <seg xml:id="C23_app360-fMS_start"/>eyes. <seg xml:id="C23_app360-fMS_end"/>Let me seize the <seg xml:id="C23_app362-fMS_start"/>
             <lb n="c57-0068__main__33"/> 
-            <seg xml:id="C23_app362-fMS_end"/>favourable <seg xml:id="C23_app364-fMS_start"/>moment &amp;<del rend="strikethrough" sID="c57-0068__main__d3e13751"/>pro<del eID="c57-0068__main__d3e13751"/> 
+            <seg xml:id="C23_app362-fMS_end"/>favourable <seg xml:id="C23_app364-fMS_start"/>moment &amp;<del rend="strikethrough" xml:id="c57-0068__main__d3e13751">pro</del> 
             <seg xml:id="C23_app364-fMS_end"/>persuade <seg xml:id="C23_app366-fMS_start"/>
             <lb n="c57-0068__main__34"/> 
             <seg xml:id="C23_app366-fMS_end"/>you to promise what I so ardently <seg xml:id="C23_app368-fMS_start"/>
@@ -208,17 +208,17 @@
             <lb n="c57-0068__main__36"/> You promise, <seg xml:id="C23_app368-fMS_end"/>replied I, <seg xml:id="C23_app370-fMS_start"/>to quit <seg xml:id="C23_app370-fMS_end"/>the habitations<lb n="c57-0069__main__1"/> of <seg xml:id="C23_app372-fMS_start"/>man and <seg xml:id="C23_app372-fMS_end"/>to <seg xml:id="C23_app374-fMS_start"/>inhabit <seg xml:id="C23_app374-fMS_end"/>those wilds where <seg xml:id="C23_app377-fMS_start"/>
             <lb n="c57-0069__main__2"/> 
             <seg xml:id="C23_app377-fMS_end"/>the beasts of the <seg xml:id="C23_app379-fMS_start"/>field <seg xml:id="C23_app379-fMS_end"/>will be your only <seg xml:id="C23_app381-fMS_start"/>co<mdel ana="start"/>n<mdel ana="end"/>m<lb n="c57-0069__main__3"/>panions. <seg xml:id="C23_app381-fMS_end"/>How can <seg xml:id="C23_app383-fMS_start"/>you <seg xml:id="C23_app383-fMS_end"/>who long for the love <lb n="c57-0069__main__4"/>&amp; sympathy of <seg xml:id="C23_app385-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0069__main__d3e13796"/>human being<del eID="c57-0069__main__d3e13796"/>
+            <del rend="strikethrough" xml:id="c57-0069__main__d3e13796">human being</del>
             <mdel ana="start"/>s<mdel ana="end"/>
             <metamark ana="start" function="insert"/>^<metamark ana="end"/>man <seg xml:id="C23_app385-fMS_end"/>persevere in <seg xml:id="C23_app387-fMS_start"/>
             <lb n="c57-0069__main__5"/> 
             <seg xml:id="C23_app387-fMS_end"/>this exile? You will <seg xml:id="C23_app389-fMS_start"/>return <seg xml:id="C23_app389-fMS_end"/>and seek <seg xml:id="C23_app393-fMS_start"/>
             <lb n="c57-0069__main__6"/>
-            <del rend="strikethrough" sID="c57-0069__main__d3e13816"/>for<del eID="c57-0069__main__d3e13816"/> 
+            <del rend="strikethrough" xml:id="c57-0069__main__d3e13816">for</del> 
             <seg xml:id="C23_app393-fMS_end"/>their <seg xml:id="C23_app395-fMS_start"/>kindness <seg xml:id="C23_app395-fMS_end"/>&amp; you will meet their <seg xml:id="C23_app399-fMS_start"/>
             <lb n="c57-0069__main__7"/> 
             <seg xml:id="C23_app399-fMS_end"/>detestation; your evil <seg xml:id="C23_app401-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0069__main__d3e13822"/>w<del eID="c57-0069__main__d3e13822"/> 
+            <del rend="strikethrough" xml:id="c57-0069__main__d3e13822">w</del> 
             <seg xml:id="C23_app401-fMS_end"/>passions will <seg xml:id="C23_app403-fMS_start"/>
             <lb n="c57-0069__main__8"/> 
             <seg xml:id="C23_app403-fMS_end"/>be renewed, &amp; you will then have <seg xml:id="C23_app405-fMS_start"/>
@@ -243,7 +243,7 @@
             <seg xml:id="C23_app439-fMS_start"/>dwell, <seg xml:id="C23_app439-fMS_end"/>as it may <seg xml:id="C23_app441-fMS_start"/>chance, <seg xml:id="C23_app441-fMS_end"/>in the <seg xml:id="C23_app443-fMS_start"/>
             <lb n="c57-0069__main__22"/> 
             <seg xml:id="C23_app443-fMS_end"/>most savage <seg xml:id="C23_app445-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0069__main__d3e13860"/>of<del eID="c57-0069__main__d3e13860"/> 
+            <del rend="strikethrough" xml:id="c57-0069__main__d3e13860">of</del> 
             <seg xml:id="C23_app445-fMS_end"/>places. My evil <seg xml:id="C23_app447-fMS_start"/>
             <lb n="c57-0069__main__23"/> 
             <seg xml:id="C23_app447-fMS_end"/>passions will have fled, for <seg xml:id="C23_app449-fMS_start"/>I <seg xml:id="C23_app449-fMS_end"/>shall <seg xml:id="C23_app451-fMS_start"/>
@@ -251,7 +251,7 @@
             <seg xml:id="C23_app451-fMS_end"/>meet with <seg xml:id="C23_app453-fMS_start"/>sympathy. <seg xml:id="C23_app453-fMS_end"/>My life will <seg xml:id="C23_app455-fMS_start"/>
             <lb n="c57-0069__main__25"/> 
             <seg xml:id="C23_app455-fMS_end"/>flow quietly <seg xml:id="C23_app457-fMS_start"/>away &amp; <seg xml:id="C23_app457-fMS_end"/>in my dying <seg xml:id="C23_app459-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0069__main__d3e13869"/>momen<del eID="c57-0069__main__d3e13869"/>
+            <del rend="strikethrough" xml:id="c57-0069__main__d3e13869">momen</del>
             <lb n="c57-0069__main__26"/> moments <seg xml:id="C23_app459-fMS_end"/>I shall not curse my <seg xml:id="C23_app461-fMS_start"/>
             <lb n="c57-0069__main__27"/> maker.<milestone unit="tei:p"/>
             <lb n="c57-0069__main__28"/> His <seg xml:id="C23_app461-fMS_end"/>words had a strange effect <seg xml:id="C23_app463-fMS_start"/>
@@ -269,11 +269,11 @@
             <seg xml:id="C23_app483-fMS_start"/>them <seg xml:id="C23_app483-fMS_end"/>I <seg xml:id="C23_app485-fMS_start"/>thought <seg xml:id="C23_app485-fMS_end"/>that as I could <seg xml:id="C23_app487-fMS_start"/>
             <lb n="c57-0069__main__36"/> 
             <seg xml:id="C23_app487-fMS_end"/>not <seg xml:id="C23_app489-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0069__main__d3e13913"/>comfort<del eID="c57-0069__main__d3e13913"/>
+            <del rend="strikethrough" xml:id="c57-0069__main__d3e13913">comfort</del>
             <metamark ana="start" function="insert"/>^<metamark ana="end"/>
-            <del rend="strikethrough" sID="c57-0069__main__d3e13922"/>sympathize<del eID="c57-0069__main__d3e13922"/>
-            <del rend="strikethrough" sID="c57-0069__main__d3e13929"/>him I h<del eID="c57-0069__main__d3e13929"/>
-            <del rend="strikethrough" sID="c57-0069__main__d3e13932"/>sympo<del eID="c57-0069__main__d3e13932"/>sympa<lb n="c57-0070__main__1"/>thize <seg xml:id="C23_app489-fMS_end"/>with <seg xml:id="C23_app491-fMS_start"/>him <seg xml:id="C23_app491-fMS_end"/>I had no right to <seg xml:id="C23_app493-fMS_start"/>refuse <seg xml:id="C23_app493-fMS_end"/>him <seg xml:id="C23_app495-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0069__main__d3e13922">sympathize</del>
+            <del rend="strikethrough" xml:id="c57-0069__main__d3e13929">him I h</del>
+            <del rend="strikethrough" xml:id="c57-0069__main__d3e13932">sympo</del>sympa<lb n="c57-0070__main__1"/>thize <seg xml:id="C23_app489-fMS_end"/>with <seg xml:id="C23_app491-fMS_start"/>him <seg xml:id="C23_app491-fMS_end"/>I had no right to <seg xml:id="C23_app493-fMS_start"/>refuse <seg xml:id="C23_app493-fMS_end"/>him <seg xml:id="C23_app495-fMS_start"/>
             <lb n="c57-0070__main__2"/> 
             <seg xml:id="C23_app495-fMS_end"/>the small portion of happiness <seg xml:id="C23_app497-fMS_start"/>that I had it <lb n="c57-0070__main__3"/> 
             <seg xml:id="C23_app497-fMS_end"/>in my power to <seg xml:id="C23_app499-fMS_start"/>bestow. <mdel ana="start"/>I<mdel ana="end"/>You swear, <seg xml:id="C23_app499-fMS_end"/>I said, <seg xml:id="C23_app501-fMS_start"/>to <lb n="c57-0070__main__4"/> 
@@ -289,7 +289,7 @@
             <seg xml:id="C23_app514-fMS_end"/>be a feint that will <seg xml:id="C23_app516-fMS_start"/>encrease <seg xml:id="C23_app516-fMS_end"/>
             <seg xml:id="C23_app517-fMS_start"/>your <seg xml:id="C23_app517-fMS_end"/>triumph <seg xml:id="C23_app519-fMS_start"/>
             <lb n="c57-0070__main__8"/>
-            <del rend="strikethrough" sID="c57-0070__main__d3e13979"/>&amp; desire of revenge<del eID="c57-0070__main__d3e13979"/>by <seg xml:id="C23_app519-fMS_end"/>affording a wider scope <seg xml:id="C23_app521-fMS_start"/>to <seg xml:id="C23_app521-fMS_end"/>your <seg xml:id="C23_app523-fMS_start"/>revenge.<milestone unit="tei:p"/>
+            <del rend="strikethrough" xml:id="c57-0070__main__d3e13979">&amp; desire of revenge</del>by <seg xml:id="C23_app519-fMS_end"/>affording a wider scope <seg xml:id="C23_app521-fMS_start"/>to <seg xml:id="C23_app521-fMS_end"/>your <seg xml:id="C23_app523-fMS_start"/>revenge.<milestone unit="tei:p"/>
             <lb n="c57-0070__main__9"/> How <seg xml:id="C23_app523-fMS_end"/>is <seg xml:id="C23_app525-fMS_start"/>this, cried he; <seg xml:id="C23_app525-fMS_end"/>I <seg xml:id="C23_app527-fMS_start"/>thought I had moved <seg xml:id="C23_app527-fMS_end"/>
             <seg xml:id="C23_app528-fMS_start"/>
             <lb n="c57-0070__main__10"/> 
@@ -297,7 +297,7 @@
             <seg xml:id="C23_app529-fMS_start"/>your compassion, <seg xml:id="C23_app529-fMS_end"/>and <seg xml:id="C23_app531-fMS_start"/>yet you still refuse to <seg xml:id="C23_app531-fMS_end"/>
             <seg xml:id="C23_app532-fMS_start"/>
             <lb n="c57-0070__main__11"/>
-            <del rend="strikethrough" sID="c57-0070__main__d3e13996"/>give<del eID="c57-0070__main__d3e13996"/>
+            <del rend="strikethrough" xml:id="c57-0070__main__d3e13996">give</del>
             <lb n="c57-0070__left_margin__1"/>bestow <seg xml:id="C23_app532-fMS_end"/>
             <seg xml:id="C23_app533-fMS_start"/>on me the only benefit that can soften my <seg xml:id="C23_app533-fMS_end"/>
             <seg xml:id="C23_app534-fMS_start"/>
@@ -314,17 +314,17 @@
             <lb n="c57-0070__main__17"/> 
             <seg xml:id="C23_app553-fMS_end"/>one will be ignorant. My vices are <seg xml:id="C23_app555-fMS_start"/>
             <lb n="c57-0070__main__18"/>
-            <del rend="strikethrough" sID="c57-0070__main__d3e14029"/>ch<del eID="c57-0070__main__d3e14029"/> 
+            <del rend="strikethrough" xml:id="c57-0070__main__d3e14029">ch</del> 
             <seg xml:id="C23_app555-fMS_end"/>the children of <metamark ana="start" function="insert"/>^<metamark ana="end"/>a forced solitude that I <seg xml:id="C23_app557-fMS_start"/>
             <lb n="c57-0070__main__19"/> abhor <seg xml:id="C23_app557-fMS_end"/>and my virtues will necessarily arise <seg xml:id="C23_app559-fMS_start"/>
             <lb n="c57-0070__main__20"/> 
             <seg xml:id="C23_app559-fMS_end"/>when <seg xml:id="C23_app561-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0070__main__d3e14049"/>sh<del eID="c57-0070__main__d3e14049"/> 
+            <del rend="strikethrough" xml:id="c57-0070__main__d3e14049">sh</del> 
             <seg xml:id="C23_app561-fMS_end"/>I <seg xml:id="C23_app563-fMS_start"/>shall receive the sympathy of <seg xml:id="C23_app563-fMS_end"/>an equal. <seg xml:id="C23_app565-fMS_start"/>
             <lb n="c57-0070__main__21"/> 
             <seg xml:id="C23_app565-fMS_end"/>I shall feel <seg xml:id="C23_app567-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0070__main__d3e14062"/>human<del eID="c57-0070__main__d3e14062"/>the<del rend="strikethrough" sID="c57-0070__main__d3e14069"/>sy<del eID="c57-0070__main__d3e14069"/>
-            <del rend="strikethrough" sID="c57-0070__main__d3e14072"/>f<del eID="c57-0070__main__d3e14072"/> 
+            <del rend="strikethrough" xml:id="c57-0070__main__d3e14062">human</del>the<del rend="strikethrough" xml:id="c57-0070__main__d3e14069">sy</del>
+            <del rend="strikethrough" xml:id="c57-0070__main__d3e14072">f</del> 
             <seg xml:id="C23_app567-fMS_end"/>affections <metamark ana="start" function="insert"/>^<metamark ana="end"/>of a <seg xml:id="C23_app569-fMS_start"/>living being&amp;<lb n="c57-0070__main__22"/> 
             <seg xml:id="C23_app569-fMS_end"/>become linked to the chain of existence <lb n="c57-0070__main__23"/>&amp; <seg xml:id="C23_app571-fMS_start"/>events <seg xml:id="C23_app571-fMS_end"/>from which I am now <seg xml:id="C23_app573-fMS_start"/>excluded<milestone unit="tei:p"/>
             <lb n="c57-0070__main__24"/> I <seg xml:id="C23_app573-fMS_end"/>paused some time <metamark ana="start" function="insert"/>^<metamark ana="end"/>to reflect on all <seg xml:id="C23_app575-fMS_start"/>
@@ -332,14 +332,14 @@
             <seg xml:id="C23_app575-fMS_end"/>he had <seg xml:id="C23_app577-fMS_start"/>related <seg xml:id="C23_app577-fMS_end"/>and the various <seg xml:id="C23_app579-fMS_start"/>arguments <seg xml:id="C23_app579-fMS_end"/>
             <seg xml:id="C23_app580-fMS_start"/>
             <lb n="c57-0070__main__26"/>
-            <del rend="strikethrough" sID="c57-0070__main__d3e14115"/>that<del eID="c57-0070__main__d3e14115"/>
+            <del rend="strikethrough" xml:id="c57-0070__main__d3e14115">that</del>
             <lb n="c57-0070__left_margin__1"/>which <seg xml:id="C23_app580-fMS_end"/>he had <seg xml:id="C23_app582-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0070__main__d3e14131"/>used<del eID="c57-0070__main__d3e14131"/>employed. <seg xml:id="C23_app582-fMS_end"/>I thought of <seg xml:id="C23_app584-fMS_start"/>pro<lb n="c57-0070__main__27"/>mises&amp; threats <seg xml:id="C23_app584-fMS_end"/>the <seg xml:id="C23_app586-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0070__main__d3e14151"/>various<del eID="c57-0070__main__d3e14151"/>promise <seg xml:id="C23_app586-fMS_end"/>of virtues which he <seg xml:id="C23_app588-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0070__main__d3e14131">used</del>employed. <seg xml:id="C23_app582-fMS_end"/>I thought of <seg xml:id="C23_app584-fMS_start"/>pro<lb n="c57-0070__main__27"/>mises&amp; threats <seg xml:id="C23_app584-fMS_end"/>the <seg xml:id="C23_app586-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0070__main__d3e14151">various</del>promise <seg xml:id="C23_app586-fMS_end"/>of virtues which he <seg xml:id="C23_app588-fMS_start"/>
             <lb n="c57-0070__main__28"/> 
             <seg xml:id="C23_app588-fMS_end"/>had displayed on the opening of his <seg xml:id="C23_app590-fMS_start"/>exis<lb n="c57-0070__main__29"/>
-            <lb n="c57-0070__left_margin__1"/>tence; <seg xml:id="C23_app590-fMS_end"/>and <seg xml:id="C23_app592-fMS_start"/>th<del rend="overwritten" sID="c57-0070__main__d3e14179"/>eir<del eID="c57-0070__main__d3e14179"/>e <seg xml:id="C23_app592-fMS_end"/>subsequent blight <seg xml:id="C23_app594-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0070__main__d3e14186"/>caused by<del eID="c57-0070__main__d3e14186"/>of all<lb n="c57-0070__main__30"/>kindly feelings <seg xml:id="C23_app594-fMS_end"/>by the <seg xml:id="C23_app596-fMS_start"/>detestation <seg xml:id="C23_app596-fMS_end"/>&amp; <seg xml:id="C23_app598-fMS_start"/>horror <del rend="strikethrough" sID="c57-0070__main__d3e14202"/>that his<del eID="c57-0070__main__d3e14202"/>inspired by<lb n="c57-0070__main__31"/> 
+            <lb n="c57-0070__left_margin__1"/>tence; <seg xml:id="C23_app590-fMS_end"/>and <seg xml:id="C23_app592-fMS_start"/>th<del rend="overwritten" xml:id="c57-0070__main__d3e14179">eir</del>e <seg xml:id="C23_app592-fMS_end"/>subsequent blight <seg xml:id="C23_app594-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0070__main__d3e14186">caused by</del>of all<lb n="c57-0070__main__30"/>kindly feelings <seg xml:id="C23_app594-fMS_end"/>by the <seg xml:id="C23_app596-fMS_start"/>detestation <seg xml:id="C23_app596-fMS_end"/>&amp; <seg xml:id="C23_app598-fMS_start"/>horror <del rend="strikethrough" xml:id="c57-0070__main__d3e14202">that his</del>inspired by<lb n="c57-0070__main__31"/> 
             <seg xml:id="C23_app598-fMS_end"/>protectors had manifested towards <seg xml:id="C23_app600-fMS_start"/>
             <lb n="c57-0070__main__32"/> 
             <seg xml:id="C23_app600-fMS_end"/>him. His power &amp; threats were not <seg xml:id="C23_app602-fMS_start"/>
@@ -347,10 +347,10 @@
             <seg xml:id="C23_app609-fMS_start"/>
             <lb n="c57-0070__main__35"/> 
             <seg xml:id="C23_app609-fMS_end"/>of the <seg xml:id="C23_app611-fMS_start"/>glaciers <seg xml:id="C23_app611-fMS_end"/>&amp; hide himself from <seg xml:id="C23_app613-fMS_start"/>per<lb n="c57-0070__main__36"/>suit in <seg xml:id="C23_app613-fMS_end"/>the ridges inaccessible <seg xml:id="C23_app617-fMS_start"/>precepieces was<lb n="c57-0071__main__1"/>
-            <del rend="strikethrough" sID="c57-0071__main__d3e14244"/>a powerful <shi ana="start" rend="underline"/>cre<shi ana="end"/> being.<del eID="c57-0071__main__d3e14244"/> 
+            <del rend="strikethrough" xml:id="c57-0071__main__d3e14244">a powerful <shi xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" ana="start" rend="underline"/>cre<shi xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" ana="end"/> being.</del> 
             <seg xml:id="C23_app617-fMS_end"/>was a being poss<lb n="c57-0071__main__2"/>essing faculties it would be vain to cope <seg xml:id="C23_app619-fMS_start"/>
-            <lb n="c57-0071__main__3"/> with; <del rend="strikethrough" sID="c57-0071__main__d3e14259"/>I thought<del eID="c57-0071__main__d3e14259"/>
-            <del rend="strikethrough" sID="c57-0071__main__d3e14262"/>And<del eID="c57-0071__main__d3e14262"/>
+            <lb n="c57-0071__main__3"/> with; <del rend="strikethrough" xml:id="c57-0071__main__d3e14259">I thought</del>
+            <del rend="strikethrough" xml:id="c57-0071__main__d3e14262">And</del>
             <mdel ana="start"/>a<mdel ana="end"/>After <seg xml:id="C23_app619-fMS_end"/>a long pause <seg xml:id="C23_app621-fMS_start"/>
             <lb n="c57-0071__main__4"/> 
             <seg xml:id="C23_app621-fMS_end"/>of <seg xml:id="C23_app623-fMS_start"/>reflection <seg xml:id="C23_app623-fMS_end"/>I <seg xml:id="C23_app625-fMS_start"/>concluded <seg xml:id="C23_app625-fMS_end"/>that the justice <seg xml:id="C23_app627-fMS_start"/>
@@ -373,18 +373,18 @@
             <lb n="c57-0071__main__15"/> I swear, <seg xml:id="C23_app654-fMS_end"/>he cried, <seg xml:id="C23_app656-fMS_start"/>by <seg xml:id="C23_app656-fMS_end"/>the <seg xml:id="C23_app658-fMS_start"/>sun <seg xml:id="C23_app658-fMS_end"/>&amp; by <seg xml:id="C23_app660-fMS_start"/>
             <lb n="c57-0071__main__16"/> 
             <seg xml:id="C23_app660-fMS_end"/>the <seg xml:id="C23_app662-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0071__main__d3e14321"/>clouds<del eID="c57-0071__main__d3e14321"/>blue <seg xml:id="C23_app662-fMS_end"/>sky <seg xml:id="C23_app666-fMS_start"/>of <seg xml:id="C23_app666-fMS_end"/>
+            <del rend="strikethrough" xml:id="c57-0071__main__d3e14321">clouds</del>blue <seg xml:id="C23_app662-fMS_end"/>sky <seg xml:id="C23_app666-fMS_start"/>of <seg xml:id="C23_app666-fMS_end"/>
             <seg xml:id="C23_app667-fMS_start"/>heaven <seg xml:id="C23_app667-fMS_end"/>that while they exist you <seg xml:id="C23_app671-fMS_start"/>
             <lb n="c57-0071__main__17"/> 
             <seg xml:id="C23_app671-fMS_end"/>shall <seg xml:id="C23_app673-fMS_start"/>never <seg xml:id="C23_app673-fMS_end"/>behold <seg xml:id="C23_app675-fMS_start"/>me. <seg xml:id="C23_app675-fMS_end"/>Depart <seg xml:id="C23_app677-fMS_start"/>
             <lb n="c57-0071__main__18"/> then <seg xml:id="C23_app677-fMS_end"/>to your <seg xml:id="C23_app679-fMS_start"/>home <seg xml:id="C23_app679-fMS_end"/>&amp; commence <seg xml:id="C23_app681-fMS_start"/>
             <lb n="c57-0071__main__19"/> 
             <seg xml:id="C23_app681-fMS_end"/>your <seg xml:id="C23_app683-fMS_start"/>labours. <seg xml:id="C23_app683-fMS_end"/>I shall <seg xml:id="C23_app685-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0071__main__d3e14335"/>th<del eID="c57-0071__main__d3e14335"/> 
+            <del rend="strikethrough" xml:id="c57-0071__main__d3e14335">th</del> 
             <seg xml:id="C23_app685-fMS_end"/>watch <seg xml:id="C23_app687-fMS_start"/>
             <lb n="c57-0071__main__20"/> 
             <seg xml:id="C23_app687-fMS_end"/>their progress with <seg xml:id="C23_app689-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0071__main__d3e14340"/>utt<del eID="c57-0071__main__d3e14340"/> 
+            <del rend="strikethrough" xml:id="c57-0071__main__d3e14340">utt</del> 
             <seg xml:id="C23_app689-fMS_end"/>unutterable <seg xml:id="C23_app691-fMS_start"/>
             <lb n="c57-0071__main__21"/> anxiety <seg xml:id="C23_app691-fMS_end"/>and fear not but that when <seg xml:id="C23_app693-fMS_start"/>
             <lb n="c57-0071__main__22"/> 
@@ -403,7 +403,7 @@
             <seg xml:id="C23_app712-fMS_end"/>sea of <seg xml:id="C23_app714-fMS_start"/>ice.<milestone unit="tei:p"/>
             <lb n="c57-0071__main__30"/> His <seg xml:id="C23_app714-fMS_end"/>tale had occupied the whole <seg xml:id="C23_app716-fMS_start"/>day <lb n="c57-0071__main__31"/> 
             <seg xml:id="C23_app716-fMS_end"/>and the sun was upon the <seg xml:id="C23_app718-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0071__main__d3e14377"/>ve<del eID="c57-0071__main__d3e14377"/> 
+            <del rend="strikethrough" xml:id="c57-0071__main__d3e14377">ve</del> 
             <seg xml:id="C23_app718-fMS_end"/>verge <seg xml:id="C23_app720-fMS_start"/>
             <lb n="c57-0071__main__32"/> 
             <seg xml:id="C23_app720-fMS_end"/>of the horizon when he departed. I knew <seg xml:id="C23_app722-fMS_start"/>
@@ -415,18 +415,18 @@
             <seg xml:id="C23_app731-fMS_end"/>my steps slow. The labour of winding a<lb n="c57-0072__main__3"/>mong the little paths and fixing my feet <seg xml:id="C23_app735-fMS_start"/>
             <lb n="c57-0072__main__4"/> 
             <seg xml:id="C23_app735-fMS_end"/>firmly <seg xml:id="C23_app737-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0072__main__d3e14408"/>a<del eID="c57-0072__main__d3e14408"/> 
+            <del rend="strikethrough" xml:id="c57-0072__main__d3e14408">a</del> 
             <seg xml:id="C23_app737-fMS_end"/>as I <seg xml:id="C23_app739-fMS_start"/>advanced teazed me <seg xml:id="C23_app739-fMS_end"/>occupied <seg xml:id="C23_app741-fMS_start"/>
             <lb n="c57-0072__main__5"/> 
             <seg xml:id="C23_app741-fMS_end"/>as I was by the <seg xml:id="C23_app743-fMS_start"/>feelings <metamark ana="start" function="insert"/>^<metamark ana="end"/>
-            <del rend="strikethrough" sID="c57-0072__main__d3e14425"/>that<del eID="c57-0072__main__d3e14425"/>which <seg xml:id="C23_app743-fMS_end"/>the <seg xml:id="C23_app745-fMS_start"/>occurences <seg xml:id="C23_app745-fMS_end"/>of the <seg xml:id="C23_app747-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0072__main__d3e14425">that</del>which <seg xml:id="C23_app743-fMS_end"/>the <seg xml:id="C23_app745-fMS_start"/>occurences <seg xml:id="C23_app745-fMS_end"/>of the <seg xml:id="C23_app747-fMS_start"/>
             <lb n="c57-0072__main__6"/> 
             <seg xml:id="C23_app747-fMS_end"/>day had produced. <seg xml:id="C23_app749-fMS_start"/>It had long been night <lb n="c57-0072__main__7"/> 
             <seg xml:id="C23_app749-fMS_end"/>when I came to the <seg xml:id="C23_app751-fMS_start"/>half way resting place <seg xml:id="C23_app751-fMS_end"/>
             <lb n="c57-0072__main__8"/>&amp; seated myself beside the fountain. The stars <seg xml:id="C23_app753-fMS_start"/>
             <lb n="c57-0072__main__9"/> 
             <seg xml:id="C23_app753-fMS_end"/>shone at <seg xml:id="C23_app755-fMS_start"/>intervals <seg xml:id="C23_app755-fMS_end"/>as the <seg xml:id="C23_app757-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0072__main__d3e14443"/>dark<del eID="c57-0072__main__d3e14443"/> 
+            <del rend="strikethrough" xml:id="c57-0072__main__d3e14443">dark</del> 
             <seg xml:id="C23_app757-fMS_end"/>clouds passed <seg xml:id="C23_app759-fMS_start"/>
             <lb n="c57-0072__main__10"/> 
             <seg xml:id="C23_app759-fMS_end"/>from over <seg xml:id="C23_app761-fMS_start"/>them — <seg xml:id="C23_app761-fMS_end"/>The dark pines rose <seg xml:id="C23_app763-fMS_start"/>
@@ -434,7 +434,7 @@
             <seg xml:id="C23_app763-fMS_end"/>before <seg xml:id="C23_app765-fMS_start"/>me <seg xml:id="C23_app765-fMS_end"/>&amp; every here and there a broken <seg xml:id="C23_app767-fMS_start"/>
             <lb n="c57-0072__main__12"/> 
             <seg xml:id="C23_app767-fMS_end"/>tree lay <seg xml:id="C23_app769-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0072__main__d3e14456"/>listless<del eID="c57-0072__main__d3e14456"/>
+            <del rend="strikethrough" xml:id="c57-0072__main__d3e14456">listless</del>
             <mdel ana="start"/>of<mdel ana="end"/>
             <metamark ana="start" function="insert"/>^<metamark ana="end"/>on <seg xml:id="C23_app769-fMS_end"/>the <seg xml:id="C23_app771-fMS_start"/>ground; <seg xml:id="C23_app771-fMS_end"/>it was <seg xml:id="C23_app773-fMS_start"/>
             <lb n="c57-0072__main__13"/> 
@@ -447,18 +447,18 @@
             <seg xml:id="C23_app787-fMS_start"/>stars, <seg xml:id="C23_app787-fMS_end"/>
             <lb n="c57-0072__main__17"/>
             <lb n="c57-0072__left_margin__1"/>&amp; clouds, and <seg xml:id="C23_app789-fMS_start"/>wind <seg xml:id="C23_app789-fMS_end"/>ye are all about <seg xml:id="C23_app791-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0072__main__d3e14500"/>ye<del eID="c57-0072__main__d3e14500"/> 
+            <del rend="strikethrough" xml:id="c57-0072__main__d3e14500">ye</del> 
             <seg xml:id="C23_app791-fMS_end"/>to mock <seg xml:id="C23_app793-fMS_start"/>
             <lb n="c57-0072__main__18"/> me — <seg xml:id="C23_app793-fMS_end"/>If ye really pity crush me but if <seg xml:id="C23_app801-fMS_start"/>
             <lb n="c57-0072__main__19"/> not depart <seg xml:id="C23_app801-fMS_end"/>
             <seg type="invariant-MissingWit" xml:id="C23_app804-fMS_start"/>depart <seg xml:id="C23_app804-fMS_end"/>&amp; leave <metamark ana="start" function="insert"/>^<metamark ana="end"/>me <seg xml:id="C23_app806-fMS_start"/>to darkness. <lb n="c57-0072__main__20"/>
-            <del rend="strikethrough" sID="c57-0072__main__d3e14521"/>Wild<del eID="c57-0072__main__d3e14521"/> These <seg xml:id="C23_app806-fMS_end"/>were wild &amp; miserable <seg xml:id="C23_app808-fMS_start"/>thoughts <lb n="c57-0072__main__21"/> 
+            <del rend="strikethrough" xml:id="c57-0072__main__d3e14521">Wild</del> These <seg xml:id="C23_app806-fMS_end"/>were wild &amp; miserable <seg xml:id="C23_app808-fMS_start"/>thoughts <lb n="c57-0072__main__21"/> 
             <seg xml:id="C23_app808-fMS_end"/>but I cannot describe to you how the <seg xml:id="C23_app810-fMS_start"/>
             <lb n="c57-0072__main__22"/> 
             <seg xml:id="C23_app810-fMS_end"/>eternal twinkling of stars weighed upon <seg xml:id="C23_app814-fMS_start"/>
             <lb n="c57-0072__main__23"/> 
             <seg xml:id="C23_app814-fMS_end"/>me, and I listened to every blast of <seg xml:id="C23_app818-fMS_start"/>wind <lb n="c57-0072__main__24"/> 
-            <seg xml:id="C23_app818-fMS_end"/>as it were a dull ugly <seg xml:id="C23_app822-fMS_start"/>siroc<del rend="strikethrough" sID="c57-0072__main__d3e14533"/>k<del eID="c57-0072__main__d3e14533"/> 
+            <seg xml:id="C23_app818-fMS_end"/>as it were a dull ugly <seg xml:id="C23_app822-fMS_start"/>siroc<del rend="strikethrough" xml:id="c57-0072__main__d3e14533">k</del> 
             <seg xml:id="C23_app822-fMS_end"/>on its way <seg xml:id="C23_app824-fMS_start"/>
             <lb n="c57-0072__main__25"/> 
             <seg xml:id="C23_app824-fMS_end"/>to consume <seg xml:id="C23_app826-fMS_start"/>me.<milestone unit="tei:p"/>
@@ -489,7 +489,7 @@
             <seg xml:id="C23_app847-fMS_end"/>
             <seg type="invariant-MissingWit" xml:id="C23_app848-fMS_start"/>The <seg xml:id="C23_app848-fMS_end"/>
             <seg xml:id="C23_app849-fMS_start"/>
-            <del instant="true" rend="strikethrough" sID="c57-0072__main__d3e14569"/>purpos<del eID="c57-0072__main__d3e14569"/> 
+            <del instant="true" rend="strikethrough" xml:id="c57-0072__main__d3e14569">purpos</del> 
             <seg xml:id="C23_app849-fMS_end"/>
             <seg type="invariant-MissingWit" xml:id="C23_app850-fMS_start"/>intention of my father in<lb n="c57-0073__main__1"/> coming had been to divert my <seg xml:id="C23_app850-fMS_end"/>
             <seg xml:id="C23_app851-fMS_start"/>mind <seg xml:id="C23_app851-fMS_end"/>&amp; <seg xml:id="C23_app853-fMS_start"/>to restore <seg xml:id="C23_app853-fMS_end"/>
@@ -593,7 +593,7 @@
             <seg xml:id="C23_app946-fMS_end"/>
             <seg type="invariant-MissingWit" xml:id="C23_app947-fMS_start"/>often extorted <seg xml:id="C23_app947-fMS_end"/>
             <seg xml:id="C23_app948-fMS_start"/>
-            <del rend="strikethrough" sID="c57-0073__main__d3e14654"/>from<del eID="c57-0073__main__d3e14654"/> 
+            <del rend="strikethrough" xml:id="c57-0073__main__d3e14654">from</del> 
             <seg xml:id="C23_app948-fMS_end"/>
             <seg xml:id="C23_app949-fMS_start"/>screams &amp;<lb n="c57-0073__main__27"/> bitter <seg xml:id="C23_app949-fMS_end"/>
             <seg xml:id="C23_app950-fMS_start"/>groans.<milestone unit="tei:p"/>
