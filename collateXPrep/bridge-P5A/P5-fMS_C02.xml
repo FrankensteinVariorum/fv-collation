@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+     xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 5:  Witness fMS, Collation unit C02</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output: 2018-07-23 21:10:08.230935 </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="collation" xml:id="C02">
+            <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                 xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                 xml:id="C02_app1-fMS_start"/> 
+            <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
+                 xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+                 xml:id="C02_app1-fMS_end"/>
+         </div>
+      </body>
+   </text>
+</TEI>
