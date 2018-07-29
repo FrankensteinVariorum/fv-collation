@@ -6,7 +6,7 @@
 
 <xsl:mode on-no-match="shallow-copy"/>
     <xsl:variable name="P4-BridgeColl" as="document-node()+" select="collection('bridge-P4')"/> 
-<!--2018-07-27: Bridge Construction Phase 5: What we need to do:      
+<!--2018-07-27: STILL NOT WORKING Bridge Construction Phase 5: What we need to do:      
        *  where the end markers of seg elements are marked we reconstruct them in pieces. 
         * raise the <seg> marker elements marking hotspots
        *  deliver seg identifying locations to the Spinal Column file. -->    
@@ -18,7 +18,7 @@
            </xsl:variable>
          <xsl:variable name="chunk" as="xs:string" select="tokenize(base-uri(), '/')[last()] ! substring-before(., '.') ! substring-after(., '_')"/> 
 
-           <xsl:result-document method="xml" indent="yes" href="bridge-P5A/{$filename}">
+           <xsl:result-document method="xml" indent="yes" href="bridge-P5/{$filename}">
         <TEI>
             <xsl:apply-templates select="descendant::teiHeader"/>
         <text>
@@ -46,55 +46,51 @@
         </title>
     </xsl:template>
  
-
-  <!--  <xsl:template match="seg[contains(@xml:id, '_start') and substring-before(@xml:id, '_start') = following-sibling::seg[1]/substring-before(@xml:id, '_end')]">
-      <xsl:variable name="currentIDFlag" select="@xml:id" as="xs:string"/>
-      <xsl:variable name="currentID" select="substring-before($currentIDFlag, '_start')"/>
- <seg sID="{$currentID}"/>
-  </xsl:template>
-  
-    <xsl:template match="seg[contains(@xml:id, '_end') and substring-before(@xml:id, '_end') = preceding-sibling::seg[1]/substring-before(@xml:id, '_start')]">
-        <xsl:variable name="currentIDFlag" select="@xml:id" as="xs:string"/>
-        <xsl:variable name="currentID" select="substring-before($currentIDFlag, '_end')"/>
-      <seg eId="{$currentID}"/>
-    </xsl:template>-->
-        <xsl:template match="*[seg[@xml:id, '_start'] and not(following-sibling::seg[@xml:id, '_end'])]">
+        <xsl:template match="*[child::seg]">
+            <xsl:variable name="containerElem" as="element()" select="."/>
           <xsl:element name="{name()}">
               <xsl:copy-of select="@*"/>
               <xsl:for-each select="child::node()">
                   <xsl:choose>
-                      <xsl:when test="self::node()[not(self::seg)][preceding-sibling::seg[1][contains(@xml:id, '_start')] and following-sibling::seg[1][contains(@xml:id, 'end')]]">
-                        <xsl:apply-templates select="current()"/>  
+                      <!--Test 2: nodes in between the instantly raisable segs -->
+                      <xsl:when test="self::node()[not(self::seg)][preceding-sibling::seg[1][contains(@xml:id, '_start')][substring-before(@xml:id, '_start') eq following-sibling::seg[1]/substring-before(@xml:id, '_end')]]">
+                          <!--ebb: Do nothing! These nodes are processed in a later template rule. -->
                       </xsl:when>
-                      <xsl:when test="self::seg[contains(@xml:id, '_start') and not(following-sibling::seg[1][contains(@xml:id, '_end')])]">
-                          <xsl:variable name="currentIDFlag" select="@xml:id" as="xs:string"/>
-                          <xsl:variable name="currentID" select="substring-before($currentIDFlag, '_end')"/>
-                          <seg xml:id="{$currentID}__I" part="I">
-                              <xsl:apply-templates select="following-sibling::node()"/>
+                      <!-- Process nodes that are inside broken hotspots, before an end-marker seg. Start with very first-child nodes that are not seg elements. -->
+                      <xsl:when test="node()[not(self::seg) and following-sibling::seg[1][contains(@xml:id, '_end')] and not(preceding-sibling::seg[1][contains(@xml:id, '_start')])]">
+                   <xsl:variable name="markerID" select="following-sibling::seg[1][contains(@xml:id, '_end')]/substring-before(@xml:id, '_end')"/>
+                          <seg xml:id="{$markerID}__Pt2" part="F">
+                    <xsl:copy-of select="current()"/>
+                              <xsl:copy-of select="following-sibling::node()[following-sibling::seg[1][substring-before(@xml:id, '_end') eq $markerID ]]"/> 
                           </seg>
-                      </xsl:when> 
-                      <xsl:when test="self::node()[not(self::seg)][following-sibling::seg[1][contains(@xml:id, '_end')] and not(preceding-sibling::seg[1][contains(@xml:id, '_start')])]">
-                          <xsl:variable name="currentIDFlag" select="following-sibling::seg[1]/@xml:id" as="xs:string"/>
-                          <xsl:variable name="currentID" select="substring-before($currentIDFlag, '_end')"/>
-                          <seg xml:id="{$currentID}__F" part="F">
-                              
-                              <xsl:apply-templates select="following-sibling::node()[following-sibling::seg[1][contains(@xml:id, '_end')]]"/> 
-                          </seg>
+  
                       </xsl:when>
-                      <xsl:when test="self::seg[contains(@xml:id, '_end') and not(preceding-sibling::seg[1][contains(@xml:id, '_start')])]">
-                          <xsl:variable name="currentIDFlag" select="@xml:id" as="xs:string"/>
-                          <xsl:variable name="currentID" select="substring-before($currentIDFlag, '_end')"/>
-                          <seg xml:id="{$currentID}__F" part="F"/>    
-                      </xsl:when>
-                      <xsl:otherwise>
-                          <xsl:copy-of select="."/>
-                      </xsl:otherwise>
+                    
+                     <xsl:otherwise>
+                         <xsl:apply-templates/>
+                     </xsl:otherwise> 
                   </xsl:choose>
               </xsl:for-each>
           </xsl:element>
-                
-               
-         
+    </xsl:template>
+    <xsl:template match="seg[contains(@xml:id, '_start')]">
+        <xsl:variable name="currentIDFlag" as="xs:string" select="@xml:id"/>
+        <xsl:variable name="currentID" as="xs:string" select="substring-before($currentIDFlag, '_start')"/>
+        <xsl:choose>
+            <xsl:when test="following-sibling::seg[1][contains(@xml:id, '_end') and substring-before(@xml:id, '_end') = $currentID]">
+                <seg xml:id="{$currentID}">
+                    <xsl:copy-of select="following-sibling::node()[following-sibling::seg[substring-before(@xml:id, '_end') = $currentID]]"/>  
+                </seg>
+            </xsl:when>
+            <xsl:otherwise>
+                <seg xml:id="{$currentID}__Pt1" part="I">
+                    <xsl:copy-of select="following-sibling::node()"/>
+                </seg>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="seg[contains(@xml:id, '_end')]">
+      <!--Suppress these nodes. -->
     </xsl:template>
 
 </xsl:stylesheet>
