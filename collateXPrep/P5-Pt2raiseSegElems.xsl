@@ -9,19 +9,13 @@
     exclude-result-prefixes="#all"
     version="3.0">
     <xsl:output method="xml" indent="no"/>
-    <!--2018-07-07 ebb: This stylesheet works to raise "trojan
-	elements" from the inside out, this time over a collection
-	of Frankenstein files output from collation. It also adapts
-	djb's function to process an element node rather than a
-	document node in memory to perform its recursive
-	processing. -->
-    <!--2018-07-23 ebb: I've updated this stylesheet to work with the th:raise function as expressed in raise_deep.xsl. -->
+    <!--2018-07-29 ebb: This stylesheet works to raise "trojan
+	elements" using a left-to-right sibling traversal method as developed by Michael Sperberg-McQueen. I am adapting it to raise seg markers to elements that break across hierarchies: This stylesheet will break these seg elements into two parts marked with attributes as part="I" and part="F".  -->
+
     <xsl:variable name="novel-coll"
         as="document-node()+"
-        select="collection('bridge-P4')"/>    
-    <!--* Experimental:  try adding a key *-->
-  <!--2018-07-23 ebb: This isn't working, and I'm not sure why not. This stylesheet has the recursion function run over a container element, rather than an  entire document node, and I think that must be the problem. Commenting it out for now.   <xsl:key name="start-markers" match="$C10-coll//*[@th:sID]" use="@th:sID"/>
-    <xsl:key name="end-markers" match="$C10-coll//*[@th:eID]" use="@th:eID"/>-->
+        select="collection('bridge-P5A')"/>    
+    
     
     <!--* In all modes, do a shallow copy, suppress namespace nodes,
 	* and recur in default (unnamed) mode. *-->
