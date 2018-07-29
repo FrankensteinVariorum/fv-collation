@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-     xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+     xmlns:mith="http://mith.umd.edu/sc/ns1#"
+     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,12 +24,8 @@
    <text>
       <body>
          <div type="collation" xml:id="C02">
-            <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                 xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                 xml:id="C02_app1-fMS_start"/> 
-            <seg xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                 xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                 xml:id="C02_app1-fMS_end"/>
+            <seg th:sID="C02_app1-fMS"/> 
+            <seg th:eID="C02_app1-fMS"/>
          </div>
       </body>
    </text>

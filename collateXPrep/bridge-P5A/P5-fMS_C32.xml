@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-     xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+     xmlns:mith="http://mith.umd.edu/sc/ns1#"
+     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,158 +24,158 @@
    <text>
       <body>
          <div type="collation">
-            <seg xml:id="C32_app1-fMS_start"/>
+            <seg th:sID="C32_app1-fMS"/>
             <lb n="c57-0168__main__3"/>
-            <milestone spanTo="#c57-0168.14" unit="tei:head"/>Walton <seg xml:id="C32_app1-fMS_end"/>in <seg xml:id="C32_app3-fMS_start"/>continuation.<milestone unit="tei:p"/>
+            <milestone spanTo="#c57-0168.14" unit="tei:head"/>Walton <seg th:eID="C32_app1-fMS"/>in <seg th:sID="C32_app3-fMS"/>continuation.<milestone unit="tei:p"/>
             <lb n="c57-0168__main__4"/>
             <milestone spanTo="#c57-0168.02" unit="tei:date"/>August 1<mdel/>3<shi ana="start" rend="underline"/>
             <shi ana="end"/>
-            <lb n="c57-0168__main__5"/> You <seg xml:id="C32_app3-fMS_end"/>have read this strange &amp; terrific story, <seg xml:id="C32_app6-fMS_start"/>
-            <lb n="c57-0168__main__6"/> Marg<mdel ana="start"/>e<mdel ana="end"/>aret <seg xml:id="C32_app6-fMS_end"/>and <metamark ana="start" function="insert"/>^<metamark ana="end"/>do <seg xml:id="C32_app8-fMS_start"/>not <seg xml:id="C32_app8-fMS_end"/>you feel your blood <seg xml:id="C32_app12-fMS_start"/>con<lb n="c57-0168__main__7"/>gealed <seg xml:id="C32_app12-fMS_end"/>with <seg xml:id="C32_app14-fMS_start"/>horror Mine oftendid as he <lb n="c57-0168__main__8"/> related it<lb n="c57-0168__left_margin__1"/> 
-            <seg xml:id="C32_app14-fMS_end"/>like that <seg xml:id="C32_app16-fMS_start"/>
+            <lb n="c57-0168__main__5"/> You <seg th:eID="C32_app3-fMS"/>have read this strange &amp; terrific story, <seg th:sID="C32_app6-fMS"/>
+            <lb n="c57-0168__main__6"/> Marg<mdel ana="start"/>e<mdel ana="end"/>aret <seg th:eID="C32_app6-fMS"/>and <metamark ana="start" function="insert"/>^<metamark ana="end"/>do <seg th:sID="C32_app8-fMS"/>not <seg th:eID="C32_app8-fMS"/>you feel your blood <seg th:sID="C32_app12-fMS"/>con<lb n="c57-0168__main__7"/>gealed <seg th:eID="C32_app12-fMS"/>with <seg th:sID="C32_app14-fMS"/>horror Mine oftendid as he <lb n="c57-0168__main__8"/> related it<lb n="c57-0168__left_margin__1"/> 
+            <seg th:eID="C32_app14-fMS"/>like that <seg th:sID="C32_app16-fMS"/>
             <lb n="c57-0168__left_margin__2"/> 
-            <seg xml:id="C32_app16-fMS_end"/>which even <seg xml:id="C32_app18-fMS_start"/>
+            <seg th:eID="C32_app16-fMS"/>which even <seg th:sID="C32_app18-fMS"/>
             <lb n="c57-0168__left_margin__3"/> 
-            <seg xml:id="C32_app18-fMS_end"/>now curdles <seg xml:id="C32_app20-fMS_start"/>
-            <lb n="c57-0168__left_margin__4"/> mine – <del rend="strikethrough" xml:id="c57-0168__main__d3e33353">When</del>Sometimes <seg xml:id="C32_app20-fMS_end"/>seized with <metamark ana="start" function="insert"/>^<metamark ana="end"/>sudden <seg xml:id="C32_app22-fMS_start"/>agony <seg xml:id="C32_app22-fMS_end"/>he <seg xml:id="C32_app24-fMS_start"/>
+            <seg th:eID="C32_app18-fMS"/>now curdles <seg th:sID="C32_app20-fMS"/>
+            <lb n="c57-0168__left_margin__4"/> mine – <del rend="strikethrough" xml:id="c57-0168__main__d3e33353">When</del>Sometimes <seg th:eID="C32_app20-fMS"/>seized with <metamark ana="start" function="insert"/>^<metamark ana="end"/>sudden <seg th:sID="C32_app22-fMS"/>agony <seg th:eID="C32_app22-fMS"/>he <seg th:sID="C32_app24-fMS"/>
             <lb n="c57-0168__main__9"/> 
-            <seg xml:id="C32_app24-fMS_end"/>could not continue <seg xml:id="C32_app26-fMS_start"/>
-            <mdel ana="start"/>or<mdel ana="end"/>his tale, <seg xml:id="C32_app26-fMS_end"/>at <seg xml:id="C32_app28-fMS_start"/>others <seg xml:id="C32_app28-fMS_end"/>his voice <seg xml:id="C32_app30-fMS_start"/>broken <lb n="c57-0168__main__10"/> 
-            <seg xml:id="C32_app30-fMS_end"/>yet <seg xml:id="C32_app32-fMS_start"/>piercing <del next="#c57-0168.08"
+            <seg th:eID="C32_app24-fMS"/>could not continue <seg th:sID="C32_app26-fMS"/>
+            <mdel ana="start"/>or<mdel ana="end"/>his tale, <seg th:eID="C32_app26-fMS"/>at <seg th:sID="C32_app28-fMS"/>others <seg th:eID="C32_app28-fMS"/>his voice <seg th:sID="C32_app30-fMS"/>broken <lb n="c57-0168__main__10"/> 
+            <seg th:eID="C32_app30-fMS"/>yet <seg th:sID="C32_app32-fMS"/>piercing <del next="#c57-0168.08"
                  rend="strikethrough"
-                 xml:id="c57-0168__main__d3e33386">described some of the scenes</del>uttered <seg xml:id="C32_app32-fMS_end"/>the words <seg xml:id="C32_app34-fMS_start"/>of which it is<lb n="c57-0168__main__11"/>composed.<del next="#c57-0168.09"
+                 xml:id="c57-0168__main__d3e33386">described some of the scenes</del>uttered <seg th:eID="C32_app32-fMS"/>the words <seg th:sID="C32_app34-fMS"/>of which it is<lb n="c57-0168__main__11"/>composed.<del next="#c57-0168.09"
                  rend="strikethrough"
                  xml:id="c57-0168__main__d3e33398">he had passed</del>
-            <del rend="strikethrough" xml:id="c57-0168__main__d3e33401">through</del> – <seg xml:id="C32_app34-fMS_end"/>His fine &amp; lovely <seg xml:id="C32_app37-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0168__main__d3e33401">through</del> – <seg th:eID="C32_app34-fMS"/>His fine &amp; lovely <seg th:sID="C32_app37-fMS"/>
             <lb n="c57-0168__main__12"/> 
-            <seg xml:id="C32_app37-fMS_end"/>eyes <seg xml:id="C32_app39-fMS_start"/>
-            <metamark ana="start"/>^<metamark ana="end"/>were <seg xml:id="C32_app39-fMS_end"/>now lighted up <metamark ana="start" function="insert"/>^<metamark ana="end"/>with <seg xml:id="C32_app41-fMS_start"/>indignation <mdel ana="start"/>or<mdel ana="end"/>now <seg xml:id="C32_app41-fMS_end"/>subdued <seg xml:id="C32_app43-fMS_start"/>
+            <seg th:eID="C32_app37-fMS"/>eyes <seg th:sID="C32_app39-fMS"/>
+            <metamark ana="start"/>^<metamark ana="end"/>were <seg th:eID="C32_app39-fMS"/>now lighted up <metamark ana="start" function="insert"/>^<metamark ana="end"/>with <seg th:sID="C32_app41-fMS"/>indignation <mdel ana="start"/>or<mdel ana="end"/>now <seg th:eID="C32_app41-fMS"/>subdued <seg th:sID="C32_app43-fMS"/>
             <lb n="c57-0168__main__13"/>
             <mdel ana="start"/>by<mdel ana="end"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>to <seg xml:id="C32_app43-fMS_end"/>downcast <seg xml:id="C32_app45-fMS_start"/>sorrow <seg xml:id="C32_app45-fMS_end"/>&amp; infinite wretchedness. Sometimes <seg xml:id="C32_app49-fMS_start"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>to <seg th:eID="C32_app43-fMS"/>downcast <seg th:sID="C32_app45-fMS"/>sorrow <seg th:eID="C32_app45-fMS"/>&amp; infinite wretchedness. Sometimes <seg th:sID="C32_app49-fMS"/>
             <lb n="c57-0168__main__14"/> 
-            <seg xml:id="C32_app49-fMS_end"/>he commanded his countenance &amp; <seg xml:id="C32_app51-fMS_start"/>tones <lb n="c57-0168__main__15"/> 
-            <seg xml:id="C32_app51-fMS_end"/>and related the most horrible incidents <seg xml:id="C32_app53-fMS_start"/>
+            <seg th:eID="C32_app49-fMS"/>he commanded his countenance &amp; <seg th:sID="C32_app51-fMS"/>tones <lb n="c57-0168__main__15"/> 
+            <seg th:eID="C32_app51-fMS"/>and related the most horrible incidents <seg th:sID="C32_app53-fMS"/>
             <lb n="c57-0168__main__16"/> 
-            <seg xml:id="C32_app53-fMS_end"/>with a <seg xml:id="C32_app55-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0168__main__d3e33468">smothered</del>tranquil voice <seg xml:id="C32_app55-fMS_end"/>suppressing every <seg xml:id="C32_app57-fMS_start"/>
+            <seg th:eID="C32_app53-fMS"/>with a <seg th:sID="C32_app55-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0168__main__d3e33468">smothered</del>tranquil voice <seg th:eID="C32_app55-fMS"/>suppressing every <seg th:sID="C32_app57-fMS"/>
             <lb n="c57-0168__main__17"/> 
-            <seg xml:id="C32_app57-fMS_end"/>mark of <seg xml:id="C32_app59-fMS_start"/>
+            <seg th:eID="C32_app57-fMS"/>mark of <seg th:sID="C32_app59-fMS"/>
             <del instant="true"
                  rend="strikethrough"
-                 xml:id="c57-0168__main__d3e33477">indi</del> agitation – <del rend="strikethrough" xml:id="c57-0168__main__d3e33482">and</del>then <seg xml:id="C32_app59-fMS_end"/>like a vol<lb n="c57-0168__main__18"/>cano bursting <seg xml:id="C32_app62-fMS_start"/>forth <seg xml:id="C32_app62-fMS_end"/>his face would sud<lb n="c57-0168__main__19"/>denly change to an expression of the <seg xml:id="C32_app64-fMS_start"/>
+                 xml:id="c57-0168__main__d3e33477">indi</del> agitation – <del rend="strikethrough" xml:id="c57-0168__main__d3e33482">and</del>then <seg th:eID="C32_app59-fMS"/>like a vol<lb n="c57-0168__main__18"/>cano bursting <seg th:sID="C32_app62-fMS"/>forth <seg th:eID="C32_app62-fMS"/>his face would sud<lb n="c57-0168__main__19"/>denly change to an expression of the <seg th:sID="C32_app64-fMS"/>
             <lb n="c57-0168__main__20"/> 
-            <seg xml:id="C32_app64-fMS_end"/>wildest <seg xml:id="C32_app66-fMS_start"/>rage <seg xml:id="C32_app66-fMS_end"/>as he shrieked <seg xml:id="C32_app68-fMS_start"/>
+            <seg th:eID="C32_app64-fMS"/>wildest <seg th:sID="C32_app66-fMS"/>rage <seg th:eID="C32_app66-fMS"/>as he shrieked <seg th:sID="C32_app68-fMS"/>
             <del rend="strikethrough" xml:id="c57-0168__main__d3e33505">forth</del>
             <lb n="c57-0168__main__21"/>
-            <lb n="c57-0168__left_margin__1"/>out his <seg xml:id="C32_app68-fMS_end"/>imprecations <seg xml:id="C32_app70-fMS_start"/>
+            <lb n="c57-0168__left_margin__1"/>out his <seg th:eID="C32_app68-fMS"/>imprecations <seg th:sID="C32_app70-fMS"/>
             <mdel ana="start"/>of<mdel ana="end"/>^on hi<mdel ana="start"/>m<mdel ana="end"/>s persecutor.<milestone unit="tei:p"/>
             <lb n="c57-0168__main__22"/> 
-            <seg xml:id="C32_app70-fMS_end"/>His tale is <seg xml:id="C32_app74-fMS_start"/>connected <seg xml:id="C32_app74-fMS_end"/>&amp; told with <seg xml:id="C32_app76-fMS_start"/>
+            <seg th:eID="C32_app70-fMS"/>His tale is <seg th:sID="C32_app74-fMS"/>connected <seg th:eID="C32_app74-fMS"/>&amp; told with <seg th:sID="C32_app76-fMS"/>
             <lb n="c57-0168__main__23"/> 
-            <seg xml:id="C32_app76-fMS_end"/>an appearance of the simplest <seg xml:id="C32_app78-fMS_start"/>truth <lb n="c57-0168__main__24"/> 
-            <seg xml:id="C32_app78-fMS_end"/>yet I own to you <seg xml:id="C32_app80-fMS_start"/>my sister <seg xml:id="C32_app80-fMS_end"/>that the <seg xml:id="C32_app82-fMS_start"/>
+            <seg th:eID="C32_app76-fMS"/>an appearance of the simplest <seg th:sID="C32_app78-fMS"/>truth <lb n="c57-0168__main__24"/> 
+            <seg th:eID="C32_app78-fMS"/>yet I own to you <seg th:sID="C32_app80-fMS"/>my sister <seg th:eID="C32_app80-fMS"/>that the <seg th:sID="C32_app82-fMS"/>
             <lb n="c57-0168__main__25"/> 
-            <seg xml:id="C32_app82-fMS_end"/>letters of Felix <seg xml:id="C32_app84-fMS_start"/>&amp;<del rend="strikethrough" xml:id="c57-0168__main__d3e33557">Maimouna</del>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>Safie <seg xml:id="C32_app84-fMS_end"/>which he <seg xml:id="C32_app86-fMS_start"/>
+            <seg th:eID="C32_app82-fMS"/>letters of Felix <seg th:sID="C32_app84-fMS"/>&amp;<del rend="strikethrough" xml:id="c57-0168__main__d3e33557">Maimouna</del>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>Safie <seg th:eID="C32_app84-fMS"/>which he <seg th:sID="C32_app86-fMS"/>
             <lb n="c57-0168__main__26"/> 
-            <seg xml:id="C32_app86-fMS_end"/>
-            <seg xml:id="C32_app87-fMS_start"/>shewed <seg xml:id="C32_app87-fMS_end"/>
-            <seg xml:id="C32_app88-fMS_start"/>me <seg xml:id="C32_app88-fMS_end"/>&amp; the apparition of the <seg xml:id="C32_app90-fMS_start"/>
+            <seg th:eID="C32_app86-fMS"/>
+            <seg th:sID="C32_app87-fMS"/>shewed <seg th:eID="C32_app87-fMS"/>
+            <seg th:sID="C32_app88-fMS"/>me <seg th:eID="C32_app88-fMS"/>&amp; the apparition of the <seg th:sID="C32_app90-fMS"/>
             <lb n="c57-0168__main__27"/> 
-            <seg xml:id="C32_app90-fMS_end"/>
-            <seg xml:id="C32_app91-fMS_start"/>monster <seg xml:id="C32_app91-fMS_end"/>seen from our <seg xml:id="C32_app93-fMS_start"/>ship <seg xml:id="C32_app93-fMS_end"/>brought <seg xml:id="C32_app95-fMS_start"/>
+            <seg th:eID="C32_app90-fMS"/>
+            <seg th:sID="C32_app91-fMS"/>monster <seg th:eID="C32_app91-fMS"/>seen from our <seg th:sID="C32_app93-fMS"/>ship <seg th:eID="C32_app93-fMS"/>brought <seg th:sID="C32_app95-fMS"/>
             <lb n="c57-0168__main__28"/> 
-            <seg xml:id="C32_app95-fMS_end"/>to me a greater conviction of the <seg xml:id="C32_app97-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0168__main__d3e33578">fact</del>truth <seg xml:id="C32_app97-fMS_end"/>
-            <lb n="c57-0168__left_margin__1"/>of his narrative<lb n="c57-0168__main__29"/> than his <seg xml:id="C32_app99-fMS_start"/>asserverations—however <seg xml:id="C32_app99-fMS_end"/>earnest &amp; connected. Such a monster <seg xml:id="C32_app101-fMS_start"/>
+            <seg th:eID="C32_app95-fMS"/>to me a greater conviction of the <seg th:sID="C32_app97-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0168__main__d3e33578">fact</del>truth <seg th:eID="C32_app97-fMS"/>
+            <lb n="c57-0168__left_margin__1"/>of his narrative<lb n="c57-0168__main__29"/> than his <seg th:sID="C32_app99-fMS"/>asserverations—however <seg th:eID="C32_app99-fMS"/>earnest &amp; connected. Such a monster <seg th:sID="C32_app101-fMS"/>
             <lb n="c57-0168__main__30"/>
-            <del rend="strikethrough" xml:id="c57-0168__main__d3e33605">did</del>has <seg xml:id="C32_app101-fMS_end"/>then <seg xml:id="C32_app103-fMS_start"/>real<del rend="strikethrough" xml:id="c57-0168__main__d3e33612">ly</del> existence, <seg xml:id="C32_app103-fMS_end"/>I <seg xml:id="C32_app106-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0168__main__d3e33605">did</del>has <seg th:eID="C32_app101-fMS"/>then <seg th:sID="C32_app103-fMS"/>real<del rend="strikethrough" xml:id="c57-0168__main__d3e33612">ly</del> existence, <seg th:eID="C32_app103-fMS"/>I <seg th:sID="C32_app106-fMS"/>
             <del rend="strikethrough" xml:id="c57-0168__main__d3e33621">could</del>
-            <del rend="strikethrough" xml:id="c57-0168__main__d3e33624">not</del>cannot <seg xml:id="C32_app106-fMS_end"/>doubt <seg xml:id="C32_app108-fMS_start"/>
-            <lb n="c57-0168__main__31"/> it <seg xml:id="C32_app108-fMS_end"/>yet I <seg xml:id="C32_app110-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0168__main__d3e33635">was</del>am <seg xml:id="C32_app110-fMS_end"/>lost in <seg xml:id="C32_app112-fMS_start"/>surpri<mdel ana="start"/>z<mdel ana="end"/>se &amp;admira<lb n="c57-0168__main__32"/>tion. <seg xml:id="C32_app112-fMS_end"/>Sometimes I endeavoured to gain from<lb n="c57-0169__main__1"/> Frankenstein the particulars of his <seg xml:id="C32_app114-fMS_start"/>formation <lb n="c57-0169__main__2"/> 
-            <seg xml:id="C32_app114-fMS_end"/>but on this point he was <seg xml:id="C32_app117-fMS_start"/>impenetrable. Are <seg xml:id="C32_app117-fMS_end"/>you <seg xml:id="C32_app119-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0168__main__d3e33624">not</del>cannot <seg th:eID="C32_app106-fMS"/>doubt <seg th:sID="C32_app108-fMS"/>
+            <lb n="c57-0168__main__31"/> it <seg th:eID="C32_app108-fMS"/>yet I <seg th:sID="C32_app110-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0168__main__d3e33635">was</del>am <seg th:eID="C32_app110-fMS"/>lost in <seg th:sID="C32_app112-fMS"/>surpri<mdel ana="start"/>z<mdel ana="end"/>se &amp;admira<lb n="c57-0168__main__32"/>tion. <seg th:eID="C32_app112-fMS"/>Sometimes I endeavoured to gain from<lb n="c57-0169__main__1"/> Frankenstein the particulars of his <seg th:sID="C32_app114-fMS"/>formation <lb n="c57-0169__main__2"/> 
+            <seg th:eID="C32_app114-fMS"/>but on this point he was <seg th:sID="C32_app117-fMS"/>impenetrable. Are <seg th:eID="C32_app117-fMS"/>you <seg th:sID="C32_app119-fMS"/>
             <lb n="c57-0169__main__3"/> 
-            <seg xml:id="C32_app119-fMS_end"/>mad, my <seg xml:id="C32_app121-fMS_start"/>friend, <seg xml:id="C32_app121-fMS_end"/>said <seg xml:id="C32_app123-fMS_start"/>he, <seg xml:id="C32_app123-fMS_end"/>
-            <seg xml:id="C32_app124-fMS_start"/>or <seg xml:id="C32_app124-fMS_end"/>whither does your <seg xml:id="C32_app126-fMS_start"/>
+            <seg th:eID="C32_app119-fMS"/>mad, my <seg th:sID="C32_app121-fMS"/>friend, <seg th:eID="C32_app121-fMS"/>said <seg th:sID="C32_app123-fMS"/>he, <seg th:eID="C32_app123-fMS"/>
+            <seg th:sID="C32_app124-fMS"/>or <seg th:eID="C32_app124-fMS"/>whither does your <seg th:sID="C32_app126-fMS"/>
             <lb n="c57-0169__main__4"/> 
-            <seg xml:id="C32_app126-fMS_end"/>senseless <seg xml:id="C32_app128-fMS_start"/>curiosity <seg xml:id="C32_app128-fMS_end"/>lead <seg xml:id="C32_app130-fMS_start"/>you –Would <seg xml:id="C32_app130-fMS_end"/>you also <seg xml:id="C32_app132-fMS_start"/>
+            <seg th:eID="C32_app126-fMS"/>senseless <seg th:sID="C32_app128-fMS"/>curiosity <seg th:eID="C32_app128-fMS"/>lead <seg th:sID="C32_app130-fMS"/>you –Would <seg th:eID="C32_app130-fMS"/>you also <seg th:sID="C32_app132-fMS"/>
             <lb n="c57-0169__main__5"/> 
-            <seg xml:id="C32_app132-fMS_end"/>create for yourself <seg xml:id="C32_app134-fMS_start"/>&amp;for <seg xml:id="C32_app134-fMS_end"/>the world a <seg xml:id="C32_app136-fMS_start"/>dæmonical<lb n="c57-0169__main__6"/> ene<mdel ana="start"/>n<mdel ana="end"/>my <seg xml:id="C32_app136-fMS_end"/>
-            <seg xml:id="C32_app137-fMS_start"/>or to what <seg xml:id="C32_app137-fMS_end"/>
-            <seg xml:id="C32_app138-fMS_start"/>do<del rend="strikethrough" xml:id="c57-0169__main__d3e33694">es</del> 
-            <seg xml:id="C32_app138-fMS_end"/>
-            <seg xml:id="C32_app139-fMS_start"/>your questions <seg xml:id="C32_app139-fMS_end"/>
-            <seg xml:id="C32_app140-fMS_start"/>
-            <lb n="c57-0169__main__7"/> tend. <seg xml:id="C32_app140-fMS_end"/>Peace, <seg xml:id="C32_app142-fMS_start"/>peace; <seg xml:id="C32_app142-fMS_end"/>learn my <seg xml:id="C32_app144-fMS_start"/>miseries <seg xml:id="C32_app144-fMS_end"/>&amp;<lb n="c57-0169__main__8"/> do not seek to <seg xml:id="C32_app146-fMS_start"/>encrease <seg xml:id="C32_app146-fMS_end"/>your <seg xml:id="C32_app148-fMS_start"/>own.<milestone unit="tei:p"/>
-            <lb n="c57-0169__main__9"/> Frankenstein <seg xml:id="C32_app148-fMS_end"/>discovered that I <seg xml:id="C32_app150-fMS_start"/>detail<lb n="c57-0169__main__10"/>ed or <seg xml:id="C32_app150-fMS_end"/>made notes concerning his <seg xml:id="C32_app152-fMS_start"/>history <seg xml:id="C32_app152-fMS_end"/>he <seg xml:id="C32_app154-fMS_start"/>
+            <seg th:eID="C32_app132-fMS"/>create for yourself <seg th:sID="C32_app134-fMS"/>&amp;for <seg th:eID="C32_app134-fMS"/>the world a <seg th:sID="C32_app136-fMS"/>dæmonical<lb n="c57-0169__main__6"/> ene<mdel ana="start"/>n<mdel ana="end"/>my <seg th:eID="C32_app136-fMS"/>
+            <seg th:sID="C32_app137-fMS"/>or to what <seg th:eID="C32_app137-fMS"/>
+            <seg th:sID="C32_app138-fMS"/>do<del rend="strikethrough" xml:id="c57-0169__main__d3e33694">es</del> 
+            <seg th:eID="C32_app138-fMS"/>
+            <seg th:sID="C32_app139-fMS"/>your questions <seg th:eID="C32_app139-fMS"/>
+            <seg th:sID="C32_app140-fMS"/>
+            <lb n="c57-0169__main__7"/> tend. <seg th:eID="C32_app140-fMS"/>Peace, <seg th:sID="C32_app142-fMS"/>peace; <seg th:eID="C32_app142-fMS"/>learn my <seg th:sID="C32_app144-fMS"/>miseries <seg th:eID="C32_app144-fMS"/>&amp;<lb n="c57-0169__main__8"/> do not seek to <seg th:sID="C32_app146-fMS"/>encrease <seg th:eID="C32_app146-fMS"/>your <seg th:sID="C32_app148-fMS"/>own.<milestone unit="tei:p"/>
+            <lb n="c57-0169__main__9"/> Frankenstein <seg th:eID="C32_app148-fMS"/>discovered that I <seg th:sID="C32_app150-fMS"/>detail<lb n="c57-0169__main__10"/>ed or <seg th:eID="C32_app150-fMS"/>made notes concerning his <seg th:sID="C32_app152-fMS"/>history <seg th:eID="C32_app152-fMS"/>he <seg th:sID="C32_app154-fMS"/>
             <lb n="c57-0169__main__11"/> 
-            <seg xml:id="C32_app154-fMS_end"/>asked to see <seg xml:id="C32_app156-fMS_start"/>them <seg xml:id="C32_app156-fMS_end"/>&amp; himself corrected <metamark ana="start" function="insert"/>^<metamark ana="end"/>and augmented them <seg xml:id="C32_app160-fMS_start"/>
+            <seg th:eID="C32_app154-fMS"/>asked to see <seg th:sID="C32_app156-fMS"/>them <seg th:eID="C32_app156-fMS"/>&amp; himself corrected <metamark ana="start" function="insert"/>^<metamark ana="end"/>and augmented them <seg th:sID="C32_app160-fMS"/>
             <lb n="c57-0169__main__12"/> 
-            <seg xml:id="C32_app160-fMS_end"/>in many <seg xml:id="C32_app162-fMS_start"/>places <seg xml:id="C32_app162-fMS_end"/>but principally in <seg xml:id="C32_app164-fMS_start"/>
+            <seg th:eID="C32_app160-fMS"/>in many <seg th:sID="C32_app162-fMS"/>places <seg th:eID="C32_app162-fMS"/>but principally in <seg th:sID="C32_app164-fMS"/>
             <del rend="strikethrough" xml:id="c57-0169__main__d3e33729">guv</del>
             <lb n="c57-0169__main__13"/> 
-            <seg xml:id="C32_app164-fMS_end"/>giving the life &amp; spirit <seg xml:id="C32_app166-fMS_start"/>of <seg xml:id="C32_app166-fMS_end"/>the <seg xml:id="C32_app168-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0169__main__d3e33734">the</del>conver<lb n="c57-0169__main__14"/>sations <seg xml:id="C32_app168-fMS_end"/>he held with his <seg xml:id="C32_app170-fMS_start"/>enemies–Since <lb n="c57-0169__main__15"/> 
-            <seg xml:id="C32_app170-fMS_end"/>you have <seg xml:id="C32_app172-fMS_start"/>made an account <seg xml:id="C32_app172-fMS_end"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>said <seg xml:id="C32_app174-fMS_start"/>he I <seg xml:id="C32_app174-fMS_end"/>would <seg xml:id="C32_app176-fMS_start"/>
+            <seg th:eID="C32_app164-fMS"/>giving the life &amp; spirit <seg th:sID="C32_app166-fMS"/>of <seg th:eID="C32_app166-fMS"/>the <seg th:sID="C32_app168-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0169__main__d3e33734">the</del>conver<lb n="c57-0169__main__14"/>sations <seg th:eID="C32_app168-fMS"/>he held with his <seg th:sID="C32_app170-fMS"/>enemies–Since <lb n="c57-0169__main__15"/> 
+            <seg th:eID="C32_app170-fMS"/>you have <seg th:sID="C32_app172-fMS"/>made an account <seg th:eID="C32_app172-fMS"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>said <seg th:sID="C32_app174-fMS"/>he I <seg th:eID="C32_app174-fMS"/>would <seg th:sID="C32_app176-fMS"/>
             <lb n="c57-0169__main__16"/> 
-            <seg xml:id="C32_app176-fMS_end"/>not that a mutilated one should go down to <seg xml:id="C32_app178-fMS_start"/>
+            <seg th:eID="C32_app176-fMS"/>not that a mutilated one should go down to <seg th:sID="C32_app178-fMS"/>
             <lb n="c57-0169__main__17"/> posterity. <milestone unit="tei:p"/>
-            <lb n="c57-0169__main__18"/> Thus have ten days <seg xml:id="C32_app178-fMS_end"/>passed <seg xml:id="C32_app180-fMS_start"/>away <lb n="c57-0169__main__19"/> 
-            <seg xml:id="C32_app180-fMS_end"/>while I have listened to the strangest <seg xml:id="C32_app182-fMS_start"/>
+            <lb n="c57-0169__main__18"/> Thus have ten days <seg th:eID="C32_app178-fMS"/>passed <seg th:sID="C32_app180-fMS"/>away <lb n="c57-0169__main__19"/> 
+            <seg th:eID="C32_app180-fMS"/>while I have listened to the strangest <seg th:sID="C32_app182-fMS"/>
             <lb n="c57-0169__main__20"/> 
-            <seg xml:id="C32_app182-fMS_end"/>tale that ever imagination formed. <seg xml:id="C32_app184-fMS_start"/>
+            <seg th:eID="C32_app182-fMS"/>tale that ever imagination formed. <seg th:sID="C32_app184-fMS"/>
             <lb n="c57-0169__main__21"/> 
-            <seg xml:id="C32_app184-fMS_end"/>My <seg xml:id="C32_app186-fMS_start"/>thoughts <seg xml:id="C32_app186-fMS_end"/>&amp; every feeling of my <seg xml:id="C32_app188-fMS_start"/>soul <lb n="c57-0169__main__22"/>
+            <seg th:eID="C32_app184-fMS"/>My <seg th:sID="C32_app186-fMS"/>thoughts <seg th:eID="C32_app186-fMS"/>&amp; every feeling of my <seg th:sID="C32_app188-fMS"/>soul <lb n="c57-0169__main__22"/>
             <del rend="strikethrough" xml:id="c57-0169__main__d3e33779">&amp;</del>
-            <mdel ana="start"/>ha<mdel ana="end"/>have <seg xml:id="C32_app188-fMS_end"/>been drunk up by the <seg xml:id="C32_app190-fMS_start"/>interrest <lb n="c57-0169__main__23"/>
-            <del rend="strikethrough" xml:id="c57-0169__main__d3e33795">I felt in</del>for <seg xml:id="C32_app190-fMS_end"/>my <seg xml:id="C32_app192-fMS_start"/>guest <metamark ana="start" function="displacement" xml:id="c57-0169.01"/>^<metamark ana="end"/>
+            <mdel ana="start"/>ha<mdel ana="end"/>have <seg th:eID="C32_app188-fMS"/>been drunk up by the <seg th:sID="C32_app190-fMS"/>interrest <lb n="c57-0169__main__23"/>
+            <del rend="strikethrough" xml:id="c57-0169__main__d3e33795">I felt in</del>for <seg th:eID="C32_app190-fMS"/>my <seg th:sID="C32_app192-fMS"/>guest <metamark ana="start" function="displacement" xml:id="c57-0169.01"/>^<metamark ana="end"/>
             <lb n="c57-0169__left_margin__1"/> 
-            <seg xml:id="C32_app192-fMS_end"/>which this <seg xml:id="C32_app194-fMS_start"/>
+            <seg th:eID="C32_app192-fMS"/>which this <seg th:sID="C32_app194-fMS"/>
             <lb n="c57-0169__left_margin__2"/>
             <metamark ana="start" function="displacement"/>x<metamark ana="end"/> 
-            <seg xml:id="C32_app194-fMS_end"/>tale, &amp; his <seg xml:id="C32_app196-fMS_start"/>
+            <seg th:eID="C32_app194-fMS"/>tale, &amp; his <seg th:sID="C32_app196-fMS"/>
             <lb n="c57-0169__left_margin__3"/> 
-            <seg xml:id="C32_app196-fMS_end"/>own <seg xml:id="C32_app198-fMS_start"/>elevated <seg xml:id="C32_app198-fMS_end"/>
-            <lb n="c57-0169__left_margin__4"/>&amp; gentle <seg xml:id="C32_app200-fMS_start"/>man<lb n="c57-0169__left_margin__5"/>ners <seg xml:id="C32_app200-fMS_end"/>have <seg xml:id="C32_app202-fMS_start"/>
-            <lb n="c57-0169__left_margin__6"/> created <seg xml:id="C32_app202-fMS_end"/>I <seg xml:id="C32_app204-fMS_start"/>wish<del rend="strikethrough" xml:id="c57-0169__main__d3e33836">ed</del> 
-            <seg xml:id="C32_app204-fMS_end"/>to soothe <seg xml:id="C32_app206-fMS_start"/>him <lb n="c57-0169__main__24"/> 
-            <seg xml:id="C32_app206-fMS_end"/>yet <seg xml:id="C32_app208-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0169__main__d3e33843">could</del>can <seg xml:id="C32_app208-fMS_end"/>I <seg xml:id="C32_app210-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0169__main__d3e33852">tell</del>counsel <seg xml:id="C32_app210-fMS_end"/>one so infinitely <seg xml:id="C32_app212-fMS_start"/>miserable. <lb n="c57-0169__main__25"/>
+            <seg th:eID="C32_app196-fMS"/>own <seg th:sID="C32_app198-fMS"/>elevated <seg th:eID="C32_app198-fMS"/>
+            <lb n="c57-0169__left_margin__4"/>&amp; gentle <seg th:sID="C32_app200-fMS"/>man<lb n="c57-0169__left_margin__5"/>ners <seg th:eID="C32_app200-fMS"/>have <seg th:sID="C32_app202-fMS"/>
+            <lb n="c57-0169__left_margin__6"/> created <seg th:eID="C32_app202-fMS"/>I <seg th:sID="C32_app204-fMS"/>wish<del rend="strikethrough" xml:id="c57-0169__main__d3e33836">ed</del> 
+            <seg th:eID="C32_app204-fMS"/>to soothe <seg th:sID="C32_app206-fMS"/>him <lb n="c57-0169__main__24"/> 
+            <seg th:eID="C32_app206-fMS"/>yet <seg th:sID="C32_app208-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0169__main__d3e33843">could</del>can <seg th:eID="C32_app208-fMS"/>I <seg th:sID="C32_app210-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0169__main__d3e33852">tell</del>counsel <seg th:eID="C32_app210-fMS"/>one so infinitely <seg th:sID="C32_app212-fMS"/>miserable. <lb n="c57-0169__main__25"/>
             <del rend="strikethrough" xml:id="c57-0169__main__d3e33862">Whose mind continually dwelt on horrors</del>
             <lb n="c57-0169__main__26"/> 
-            <seg xml:id="C32_app212-fMS_end"/>so destitute of every hope of <seg xml:id="C32_app214-fMS_start"/>consolation <seg xml:id="C32_app214-fMS_end"/>to <seg xml:id="C32_app216-fMS_start"/>
-            <lb n="c57-0169__main__27"/> live<del rend="strikethrough" xml:id="c57-0169__main__d3e33869">?</del> Oh no – <seg xml:id="C32_app216-fMS_end"/>the only joy he <seg xml:id="C32_app220-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0169__main__d3e33874">could feel</del>can <seg xml:id="C32_app220-fMS_end"/>now <seg xml:id="C32_app222-fMS_start"/>
+            <seg th:eID="C32_app212-fMS"/>so destitute of every hope of <seg th:sID="C32_app214-fMS"/>consolation <seg th:eID="C32_app214-fMS"/>to <seg th:sID="C32_app216-fMS"/>
+            <lb n="c57-0169__main__27"/> live<del rend="strikethrough" xml:id="c57-0169__main__d3e33869">?</del> Oh no – <seg th:eID="C32_app216-fMS"/>the only joy he <seg th:sID="C32_app220-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0169__main__d3e33874">could feel</del>can <seg th:eID="C32_app220-fMS"/>now <seg th:sID="C32_app222-fMS"/>
             <del rend="strikethrough" xml:id="c57-0169__main__d3e33879">feel</del> know<lb n="c57-0169__main__28"/>
-            <del rend="strikethrough" xml:id="c57-0169__main__d3e33889">was</del>will be<mdel ana="start"/>in<mdel ana="end"/>when <seg xml:id="C32_app222-fMS_end"/>he <seg xml:id="C32_app224-fMS_start"/>compos<mdel ana="start"/>in<mdel ana="end"/>es<mdel ana="start"/>g<mdel ana="end"/> 
-            <seg xml:id="C32_app224-fMS_end"/>his shattered <seg xml:id="C32_app226-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0169__main__d3e33889">was</del>will be<mdel ana="start"/>in<mdel ana="end"/>when <seg th:eID="C32_app222-fMS"/>he <seg th:sID="C32_app224-fMS"/>compos<mdel ana="start"/>in<mdel ana="end"/>es<mdel ana="start"/>g<mdel ana="end"/> 
+            <seg th:eID="C32_app224-fMS"/>his shattered <seg th:sID="C32_app226-fMS"/>
             <del rend="strikethrough" xml:id="c57-0169__main__d3e33919">mind</del>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>feelings <seg xml:id="C32_app226-fMS_end"/>to <seg xml:id="C32_app228-fMS_start"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>feelings <seg th:eID="C32_app226-fMS"/>to <seg th:sID="C32_app228-fMS"/>
             <lb n="c57-0169__main__29"/> 
-            <seg xml:id="C32_app228-fMS_end"/>peace &amp; <seg xml:id="C32_app230-fMS_start"/>death — <seg xml:id="C32_app230-fMS_end"/>Yet <seg xml:id="C32_app232-fMS_start"/>
+            <seg th:eID="C32_app228-fMS"/>peace &amp; <seg th:sID="C32_app230-fMS"/>death — <seg th:eID="C32_app230-fMS"/>Yet <seg th:sID="C32_app232-fMS"/>
             <del rend="strikethrough" xml:id="c57-0169__main__d3e33934">one</del>
             <del rend="strikethrough" xml:id="c57-0169__main__d3e33938">feeling</del> 
-            <seg xml:id="C32_app232-fMS_end"/>he <seg xml:id="C32_app234-fMS_start"/>enjoys, <lb n="c57-0169__main__30"/> 
-            <seg xml:id="C32_app234-fMS_end"/>one comfort, the <seg xml:id="C32_app236-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0169__main__d3e33945">sourse</del>offspring <seg xml:id="C32_app236-fMS_end"/>of solitude <lb n="c57-0169__main__31"/>&amp; <seg xml:id="C32_app238-fMS_start"/>delirium — <seg xml:id="C32_app238-fMS_end"/>he <seg xml:id="C32_app240-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0169__main__d3e33954">tho</del> believed that <seg xml:id="C32_app240-fMS_end"/>when <seg xml:id="C32_app242-fMS_start"/>
+            <seg th:eID="C32_app232-fMS"/>he <seg th:sID="C32_app234-fMS"/>enjoys, <lb n="c57-0169__main__30"/> 
+            <seg th:eID="C32_app234-fMS"/>one comfort, the <seg th:sID="C32_app236-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0169__main__d3e33945">sourse</del>offspring <seg th:eID="C32_app236-fMS"/>of solitude <lb n="c57-0169__main__31"/>&amp; <seg th:sID="C32_app238-fMS"/>delirium — <seg th:eID="C32_app238-fMS"/>he <seg th:sID="C32_app240-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0169__main__d3e33954">tho</del> believed that <seg th:eID="C32_app240-fMS"/>when <seg th:sID="C32_app242-fMS"/>
             <lb n="c57-0169__main__32"/> 
-            <seg xml:id="C32_app242-fMS_end"/>in dreams he <seg xml:id="C32_app244-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0169__main__d3e33962">saw</del>holds <seg xml:id="C32_app244-fMS_end"/>converse with his friends, <seg xml:id="C32_app246-fMS_start"/>
+            <seg th:eID="C32_app242-fMS"/>in dreams he <seg th:sID="C32_app244-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0169__main__d3e33962">saw</del>holds <seg th:eID="C32_app244-fMS"/>converse with his friends, <seg th:sID="C32_app246-fMS"/>
             <del rend="strikethrough" xml:id="c57-0169__main__d3e33971">who consoled</del>
-            <lb n="c57-0169__left_margin__1"/>&amp; <seg xml:id="C32_app246-fMS_end"/>derives from <seg xml:id="C32_app248-fMS_start"/>
+            <lb n="c57-0169__left_margin__1"/>&amp; <seg th:eID="C32_app246-fMS"/>derives from <seg th:sID="C32_app248-fMS"/>
             <lb n="c57-0169__left_margin__2"/> 
-            <seg xml:id="C32_app248-fMS_end"/>that communion <seg xml:id="C32_app250-fMS_start"/>
+            <seg th:eID="C32_app248-fMS"/>that communion <seg th:sID="C32_app250-fMS"/>
             <lb n="c57-0169__left_margin__3"/> 
-            <seg xml:id="C32_app250-fMS_end"/>consolation for<lb n="c57-0169__main__33"/> his <seg xml:id="C32_app252-fMS_start"/>miseries <seg xml:id="C32_app252-fMS_end"/>or <seg xml:id="C32_app254-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0169__main__d3e33994">instigated him</del>excitement <seg xml:id="C32_app254-fMS_end"/>to <metamark ana="start" function="insert"/>^<metamark ana="end"/>his <seg xml:id="C32_app256-fMS_start"/>vengeance<lb n="c57-0170__main__1"/> 
-            <seg xml:id="C32_app256-fMS_end"/>that they <seg xml:id="C32_app258-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0170__main__d3e34025">were</del>are <seg xml:id="C32_app258-fMS_end"/>not the creations of his <seg xml:id="C32_app260-fMS_start"/>
-            <lb n="c57-0170__main__2"/> fancy <seg xml:id="C32_app260-fMS_end"/>but the <seg xml:id="C32_app262-fMS_start"/>real <seg xml:id="C32_app262-fMS_end"/>beings <seg xml:id="C32_app264-fMS_start"/>
+            <seg th:eID="C32_app250-fMS"/>consolation for<lb n="c57-0169__main__33"/> his <seg th:sID="C32_app252-fMS"/>miseries <seg th:eID="C32_app252-fMS"/>or <seg th:sID="C32_app254-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0169__main__d3e33994">instigated him</del>excitement <seg th:eID="C32_app254-fMS"/>to <metamark ana="start" function="insert"/>^<metamark ana="end"/>his <seg th:sID="C32_app256-fMS"/>vengeance<lb n="c57-0170__main__1"/> 
+            <seg th:eID="C32_app256-fMS"/>that they <seg th:sID="C32_app258-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0170__main__d3e34025">were</del>are <seg th:eID="C32_app258-fMS"/>not the creations of his <seg th:sID="C32_app260-fMS"/>
+            <lb n="c57-0170__main__2"/> fancy <seg th:eID="C32_app260-fMS"/>but the <seg th:sID="C32_app262-fMS"/>real <seg th:eID="C32_app262-fMS"/>beings <seg th:sID="C32_app264-fMS"/>
             <del rend="strikethrough" xml:id="c57-0170__main__d3e34034">that he</del>
             <del rend="strikethrough" xml:id="c57-0170__main__d3e34037">saw</del>
             <lb n="c57-0170__main__3"/>
@@ -181,186 +183,186 @@
             <del rend="strikethrough" xml:id="c57-0170__left_margin__d3e34049">beheld </del>
             <del rend="strikethrough" xml:id="c57-0170__main__d3e34056">and conversed with</del>
             <lb n="c57-0170__left_margin__1"/> 
-            <seg xml:id="C32_app264-fMS_end"/>who visit <seg xml:id="C32_app266-fMS_start"/>
+            <seg th:eID="C32_app264-fMS"/>who visit <seg th:sID="C32_app266-fMS"/>
             <lb n="c57-0170__left_margin__2"/> 
-            <seg xml:id="C32_app266-fMS_end"/>him from <seg xml:id="C32_app268-fMS_start"/>
+            <seg th:eID="C32_app266-fMS"/>him from <seg th:sID="C32_app268-fMS"/>
             <lb n="c57-0170__left_margin__3"/> 
-            <seg xml:id="C32_app268-fMS_end"/>the regions <seg xml:id="C32_app270-fMS_start"/>
+            <seg th:eID="C32_app268-fMS"/>the regions <seg th:sID="C32_app270-fMS"/>
             <lb n="c57-0170__left_margin__4"/> 
-            <seg xml:id="C32_app270-fMS_end"/>of a <seg xml:id="C32_app272-fMS_start"/>
-            <lb n="c57-0170__left_margin__5"/> remoter world –This <seg xml:id="C32_app272-fMS_end"/>faith <seg xml:id="C32_app274-fMS_start"/>g<mdel ana="start"/>a<mdel ana="end"/>ives <seg xml:id="C32_app274-fMS_end"/>a solemni<lb n="c57-0170__main__4"/>ty to his reveries that <seg xml:id="C32_app276-fMS_start"/>
+            <seg th:eID="C32_app270-fMS"/>of a <seg th:sID="C32_app272-fMS"/>
+            <lb n="c57-0170__left_margin__5"/> remoter world –This <seg th:eID="C32_app272-fMS"/>faith <seg th:sID="C32_app274-fMS"/>g<mdel ana="start"/>a<mdel ana="end"/>ives <seg th:eID="C32_app274-fMS"/>a solemni<lb n="c57-0170__main__4"/>ty to his reveries that <seg th:sID="C32_app276-fMS"/>
             <del rend="strikethrough" xml:id="c57-0170__main__d3e34106">made</del>render<mdel ana="start"/>ed<mdel ana="end"/> 
-            <seg xml:id="C32_app276-fMS_end"/>them <seg xml:id="C32_app278-fMS_start"/>
+            <seg th:eID="C32_app276-fMS"/>them <seg th:sID="C32_app278-fMS"/>
             <del rend="strikethrough" xml:id="c57-0170__main__d3e34116">peculiar</del>
             <del rend="unmarked" xml:id="c57-0170__main__d3e34119">ly</del>
             <lb n="c57-0170__main__5"/>
-            <del rend="strikethrough" xml:id="c57-0170__main__d3e34124">interresting.</del>to me, <seg xml:id="C32_app278-fMS_end"/>almost as imposing <seg xml:id="C32_app280-fMS_start"/>&amp;inte<lb n="c57-0170__main__6"/>resting <seg xml:id="C32_app280-fMS_end"/>as <seg xml:id="C32_app282-fMS_start"/>truth.<milestone unit="tei:p"/>
-            <lb n="c57-0170__main__7"/> Our <seg xml:id="C32_app282-fMS_end"/>conversations <seg xml:id="C32_app284-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0170__main__d3e34149">have</del>are <seg xml:id="C32_app284-fMS_end"/>not always <seg xml:id="C32_app286-fMS_start"/>
+            <del rend="strikethrough" xml:id="c57-0170__main__d3e34124">interresting.</del>to me, <seg th:eID="C32_app278-fMS"/>almost as imposing <seg th:sID="C32_app280-fMS"/>&amp;inte<lb n="c57-0170__main__6"/>resting <seg th:eID="C32_app280-fMS"/>as <seg th:sID="C32_app282-fMS"/>truth.<milestone unit="tei:p"/>
+            <lb n="c57-0170__main__7"/> Our <seg th:eID="C32_app282-fMS"/>conversations <seg th:sID="C32_app284-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0170__main__d3e34149">have</del>are <seg th:eID="C32_app284-fMS"/>not always <seg th:sID="C32_app286-fMS"/>
             <lb n="c57-0170__main__8"/>
             <del rend="strikethrough" xml:id="c57-0170__main__d3e34158">been</del> 
-            <seg xml:id="C32_app286-fMS_end"/>confined to his own <seg xml:id="C32_app288-fMS_start"/>history <seg xml:id="C32_app288-fMS_end"/>&amp; <seg xml:id="C32_app290-fMS_start"/>misfortunes– <lb n="c57-0170__main__9"/>
+            <seg th:eID="C32_app286-fMS"/>confined to his own <seg th:sID="C32_app288-fMS"/>history <seg th:eID="C32_app288-fMS"/>&amp; <seg th:sID="C32_app290-fMS"/>misfortunes– <lb n="c57-0170__main__9"/>
             <del instant="true"
                  rend="strikethrough"
                  xml:id="c57-0170__main__d3e34163">and</del>
-            <mdel ana="start"/>o<mdel ana="end"/>On <seg xml:id="C32_app290-fMS_end"/>every point of general literature he <seg xml:id="C32_app293-fMS_start"/>
+            <mdel ana="start"/>o<mdel ana="end"/>On <seg th:eID="C32_app290-fMS"/>every point of general literature he <seg th:sID="C32_app293-fMS"/>
             <lb n="c57-0170__main__10"/> 
-            <seg xml:id="C32_app293-fMS_end"/>displays unbounded <seg xml:id="C32_app295-fMS_start"/>knowledge <seg xml:id="C32_app295-fMS_end"/>and a quick <lb n="c57-0170__main__11"/>&amp; piercing apprehension. His eloquence is <seg xml:id="C32_app297-fMS_start"/>
+            <seg th:eID="C32_app293-fMS"/>displays unbounded <seg th:sID="C32_app295-fMS"/>knowledge <seg th:eID="C32_app295-fMS"/>and a quick <lb n="c57-0170__main__11"/>&amp; piercing apprehension. His eloquence is <seg th:sID="C32_app297-fMS"/>
             <lb n="c57-0170__main__12"/> 
-            <seg xml:id="C32_app297-fMS_end"/>forcible &amp; <seg xml:id="C32_app299-fMS_start"/>touching <seg xml:id="C32_app299-fMS_end"/>nor can I hear <seg xml:id="C32_app301-fMS_start"/>him <seg xml:id="C32_app301-fMS_end"/>when <seg xml:id="C32_app303-fMS_start"/>
+            <seg th:eID="C32_app297-fMS"/>forcible &amp; <seg th:sID="C32_app299-fMS"/>touching <seg th:eID="C32_app299-fMS"/>nor can I hear <seg th:sID="C32_app301-fMS"/>him <seg th:eID="C32_app301-fMS"/>when <seg th:sID="C32_app303-fMS"/>
             <lb n="c57-0170__main__13"/> 
-            <seg xml:id="C32_app303-fMS_end"/>he <seg xml:id="C32_app305-fMS_start"/>narrates <seg xml:id="C32_app305-fMS_end"/>a pathetic <seg xml:id="C32_app307-fMS_start"/>incident <seg xml:id="C32_app307-fMS_end"/>or endea<lb n="c57-0170__main__14"/>vours to move the passions of pity <seg xml:id="C32_app309-fMS_start"/>&amp; love <seg xml:id="C32_app309-fMS_end"/>without <seg xml:id="C32_app311-fMS_start"/>
+            <seg th:eID="C32_app303-fMS"/>he <seg th:sID="C32_app305-fMS"/>narrates <seg th:eID="C32_app305-fMS"/>a pathetic <seg th:sID="C32_app307-fMS"/>incident <seg th:eID="C32_app307-fMS"/>or endea<lb n="c57-0170__main__14"/>vours to move the passions of pity <seg th:sID="C32_app309-fMS"/>&amp; love <seg th:eID="C32_app309-fMS"/>without <seg th:sID="C32_app311-fMS"/>
             <lb n="c57-0170__main__15"/> 
-            <seg xml:id="C32_app311-fMS_end"/>tears. What a glorious creature must <seg xml:id="C32_app313-fMS_start"/>
+            <seg th:eID="C32_app311-fMS"/>tears. What a glorious creature must <seg th:sID="C32_app313-fMS"/>
             <del instant="true"
                  rend="strikethrough"
                  xml:id="c57-0170__main__d3e34196">this</del> 
-            <seg xml:id="C32_app313-fMS_end"/>he <seg xml:id="C32_app315-fMS_start"/>
+            <seg th:eID="C32_app313-fMS"/>he <seg th:sID="C32_app315-fMS"/>
             <lb n="c57-0170__main__16"/> 
-            <seg xml:id="C32_app315-fMS_end"/>have been in <seg xml:id="C32_app317-fMS_start"/>his <seg xml:id="C32_app317-fMS_end"/>days of <seg xml:id="C32_app319-fMS_start"/>prosperity <seg xml:id="C32_app319-fMS_end"/>when <seg xml:id="C32_app321-fMS_start"/>
+            <seg th:eID="C32_app315-fMS"/>have been in <seg th:sID="C32_app317-fMS"/>his <seg th:eID="C32_app317-fMS"/>days of <seg th:sID="C32_app319-fMS"/>prosperity <seg th:eID="C32_app319-fMS"/>when <seg th:sID="C32_app321-fMS"/>
             <lb n="c57-0170__main__17"/> 
-            <seg xml:id="C32_app321-fMS_end"/>he is thus noble &amp; godlike in <seg xml:id="C32_app323-fMS_start"/>ruin – <seg xml:id="C32_app323-fMS_end"/>He seems <seg xml:id="C32_app325-fMS_start"/>
+            <seg th:eID="C32_app321-fMS"/>he is thus noble &amp; godlike in <seg th:sID="C32_app323-fMS"/>ruin – <seg th:eID="C32_app323-fMS"/>He seems <seg th:sID="C32_app325-fMS"/>
             <lb n="c57-0170__main__18"/> 
-            <seg xml:id="C32_app325-fMS_end"/>to feel his own <seg xml:id="C32_app327-fMS_start"/>worth <seg xml:id="C32_app327-fMS_end"/>&amp; the greatness of <seg xml:id="C32_app329-fMS_start"/>
+            <seg th:eID="C32_app325-fMS"/>to feel his own <seg th:sID="C32_app327-fMS"/>worth <seg th:eID="C32_app327-fMS"/>&amp; the greatness of <seg th:sID="C32_app329-fMS"/>
             <lb n="c57-0170__main__19"/> 
-            <seg xml:id="C32_app329-fMS_end"/>his <seg xml:id="C32_app331-fMS_start"/>fall. <del rend="strikethrough" xml:id="c57-0170__main__d3e34208">I have felt, said he, great &amp;</del>
-            <lb n="c57-0170__main__20"/> When younger, <seg xml:id="C32_app331-fMS_end"/>said he, <seg xml:id="C32_app333-fMS_start"/>I <seg xml:id="C32_app333-fMS_end"/>
-            <seg xml:id="C32_app334-fMS_start"/>felt as if I <seg xml:id="C32_app334-fMS_end"/>
-            <seg xml:id="C32_app335-fMS_start"/>was <seg xml:id="C32_app335-fMS_end"/>destin<lb n="c57-0170__main__21"/>ed for some great <seg xml:id="C32_app337-fMS_start"/>enterprize. <seg xml:id="C32_app337-fMS_end"/>My feelings <seg xml:id="C32_app339-fMS_start"/>
+            <seg th:eID="C32_app329-fMS"/>his <seg th:sID="C32_app331-fMS"/>fall. <del rend="strikethrough" xml:id="c57-0170__main__d3e34208">I have felt, said he, great &amp;</del>
+            <lb n="c57-0170__main__20"/> When younger, <seg th:eID="C32_app331-fMS"/>said he, <seg th:sID="C32_app333-fMS"/>I <seg th:eID="C32_app333-fMS"/>
+            <seg th:sID="C32_app334-fMS"/>felt as if I <seg th:eID="C32_app334-fMS"/>
+            <seg th:sID="C32_app335-fMS"/>was <seg th:eID="C32_app335-fMS"/>destin<lb n="c57-0170__main__21"/>ed for some great <seg th:sID="C32_app337-fMS"/>enterprize. <seg th:eID="C32_app337-fMS"/>My feelings <seg th:sID="C32_app339-fMS"/>
             <lb n="c57-0170__main__22"/> 
-            <seg xml:id="C32_app339-fMS_end"/>are <seg xml:id="C32_app341-fMS_start"/>profound <seg xml:id="C32_app341-fMS_end"/>but I possessed a coolness of <seg xml:id="C32_app343-fMS_start"/>judge<lb n="c57-0170__main__23"/>ment <seg xml:id="C32_app343-fMS_end"/>that fitted me for <seg xml:id="C32_app345-fMS_start"/>gr<mdel ana="start"/>an<mdel ana="end"/>eat<mdel ana="start"/>d<mdel ana="end"/>enter<lb n="c57-0170__main__24"/>prises<lb n="c57-0170__left_margin__1"/> 
-            <seg xml:id="C32_app345-fMS_end"/>illustrious <seg xml:id="C32_app347-fMS_start"/>
-            <lb n="c57-0170__left_margin__2"/> atchievements. <seg xml:id="C32_app347-fMS_end"/>This sentiment of the worth of my <seg xml:id="C32_app349-fMS_start"/>
+            <seg th:eID="C32_app339-fMS"/>are <seg th:sID="C32_app341-fMS"/>profound <seg th:eID="C32_app341-fMS"/>but I possessed a coolness of <seg th:sID="C32_app343-fMS"/>judge<lb n="c57-0170__main__23"/>ment <seg th:eID="C32_app343-fMS"/>that fitted me for <seg th:sID="C32_app345-fMS"/>gr<mdel ana="start"/>an<mdel ana="end"/>eat<mdel ana="start"/>d<mdel ana="end"/>enter<lb n="c57-0170__main__24"/>prises<lb n="c57-0170__left_margin__1"/> 
+            <seg th:eID="C32_app345-fMS"/>illustrious <seg th:sID="C32_app347-fMS"/>
+            <lb n="c57-0170__left_margin__2"/> atchievements. <seg th:eID="C32_app347-fMS"/>This sentiment of the worth of my <seg th:sID="C32_app349-fMS"/>
             <lb n="c57-0170__main__25"/> 
-            <seg xml:id="C32_app349-fMS_end"/>nature supported <seg xml:id="C32_app351-fMS_start"/>me <seg xml:id="C32_app351-fMS_end"/>when others would<lb n="c57-0170__main__26"/> have <seg xml:id="C32_app353-fMS_start"/>sunk <seg xml:id="C32_app353-fMS_end"/>for I deemed it criminal <seg xml:id="C32_app355-fMS_start"/>
+            <seg th:eID="C32_app349-fMS"/>nature supported <seg th:sID="C32_app351-fMS"/>me <seg th:eID="C32_app351-fMS"/>when others would<lb n="c57-0170__main__26"/> have <seg th:sID="C32_app353-fMS"/>sunk <seg th:eID="C32_app353-fMS"/>for I deemed it criminal <seg th:sID="C32_app355-fMS"/>
             <lb n="c57-0170__main__27"/> 
-            <seg xml:id="C32_app355-fMS_end"/>to throw away in useless <seg xml:id="C32_app357-fMS_start"/>grief; <seg xml:id="C32_app357-fMS_end"/>those ta<lb n="c57-0170__main__28"/>lents that might be useful to my <seg xml:id="C32_app359-fMS_start"/>
-            <lb n="c57-0170__main__29"/> fellow creatures – <seg xml:id="C32_app359-fMS_end"/>When I reflected on the <seg xml:id="C32_app361-fMS_start"/>
+            <seg th:eID="C32_app355-fMS"/>to throw away in useless <seg th:sID="C32_app357-fMS"/>grief; <seg th:eID="C32_app357-fMS"/>those ta<lb n="c57-0170__main__28"/>lents that might be useful to my <seg th:sID="C32_app359-fMS"/>
+            <lb n="c57-0170__main__29"/> fellow creatures – <seg th:eID="C32_app359-fMS"/>When I reflected on the <seg th:sID="C32_app361-fMS"/>
             <lb n="c57-0170__main__30"/> 
-            <seg xml:id="C32_app361-fMS_end"/>work <seg xml:id="C32_app363-fMS_start"/>that <seg xml:id="C32_app363-fMS_end"/>I had <seg xml:id="C32_app365-fMS_start"/>compleated, <seg xml:id="C32_app365-fMS_end"/>no less a one <seg xml:id="C32_app367-fMS_start"/>
+            <seg th:eID="C32_app361-fMS"/>work <seg th:sID="C32_app363-fMS"/>that <seg th:eID="C32_app363-fMS"/>I had <seg th:sID="C32_app365-fMS"/>compleated, <seg th:eID="C32_app365-fMS"/>no less a one <seg th:sID="C32_app367-fMS"/>
             <lb n="c57-0170__main__31"/> 
-            <seg xml:id="C32_app367-fMS_end"/>than the creation of a sensitive &amp;<lb n="c57-0170__main__32"/> rational <seg xml:id="C32_app369-fMS_start"/>animal <seg xml:id="C32_app369-fMS_end"/>I could not rank my<lb n="c57-0170__main__33"/>self with the herd of common projectors. <seg xml:id="C32_app371-fMS_start"/>
+            <seg th:eID="C32_app367-fMS"/>than the creation of a sensitive &amp;<lb n="c57-0170__main__32"/> rational <seg th:sID="C32_app369-fMS"/>animal <seg th:eID="C32_app369-fMS"/>I could not rank my<lb n="c57-0170__main__33"/>self with the herd of common projectors. <seg th:sID="C32_app371-fMS"/>
             <lb n="c57-0170__main__34"/> 
-            <seg xml:id="C32_app371-fMS_end"/>But this <seg xml:id="C32_app373-fMS_start"/>feeling <seg xml:id="C32_app373-fMS_end"/>which supported me <seg xml:id="C32_app375-fMS_start"/>
+            <seg th:eID="C32_app371-fMS"/>But this <seg th:sID="C32_app373-fMS"/>feeling <seg th:eID="C32_app373-fMS"/>which supported me <seg th:sID="C32_app375-fMS"/>
             <del rend="strikethrough" xml:id="c57-0170__main__d3e34304">only</del>
             <lb n="c57-0170__main__35"/> 
-            <seg xml:id="C32_app375-fMS_end"/>now serves <metamark ana="start" function="insert"/>^<metamark ana="end"/>only to <seg xml:id="C32_app377-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0170__main__d3e34323">sink</del>plunge <seg xml:id="C32_app377-fMS_end"/>me lower in <metamark ana="start" function="insert"/>^<metamark ana="end"/>the <seg xml:id="C32_app379-fMS_start"/>dust— <seg xml:id="C32_app379-fMS_end"/>All<lb n="c57-0171__main__1"/> my speculations &amp; hopes are as <seg xml:id="C32_app381-fMS_start"/>nothing and <seg xml:id="C32_app381-fMS_end"/>like the <seg xml:id="C32_app383-fMS_start"/>
+            <seg th:eID="C32_app375-fMS"/>now serves <metamark ana="start" function="insert"/>^<metamark ana="end"/>only to <seg th:sID="C32_app377-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0170__main__d3e34323">sink</del>plunge <seg th:eID="C32_app377-fMS"/>me lower in <metamark ana="start" function="insert"/>^<metamark ana="end"/>the <seg th:sID="C32_app379-fMS"/>dust— <seg th:eID="C32_app379-fMS"/>All<lb n="c57-0171__main__1"/> my speculations &amp; hopes are as <seg th:sID="C32_app381-fMS"/>nothing and <seg th:eID="C32_app381-fMS"/>like the <seg th:sID="C32_app383-fMS"/>
             <lb n="c57-0171__main__2"/> 
-            <seg xml:id="C32_app383-fMS_end"/>Archangel who aspired to <seg xml:id="C32_app385-fMS_start"/>omnipotence <seg xml:id="C32_app385-fMS_end"/>I am <seg xml:id="C32_app387-fMS_start"/>
+            <seg th:eID="C32_app383-fMS"/>Archangel who aspired to <seg th:sID="C32_app385-fMS"/>omnipotence <seg th:eID="C32_app385-fMS"/>I am <seg th:sID="C32_app387-fMS"/>
             <del rend="strikethrough" xml:id="c57-0171__main__d3e34355">now</del>
             <lb n="c57-0171__main__3"/> 
-            <seg xml:id="C32_app387-fMS_end"/>chained in an eternal hell. My imagination <seg xml:id="C32_app389-fMS_start"/>
+            <seg th:eID="C32_app387-fMS"/>chained in an eternal hell. My imagination <seg th:sID="C32_app389-fMS"/>
             <lb n="c57-0171__main__4"/> 
-            <seg xml:id="C32_app389-fMS_end"/>was <seg xml:id="C32_app391-fMS_start"/>vivid <seg xml:id="C32_app391-fMS_end"/>yet my <seg xml:id="C32_app393-fMS_start"/>
+            <seg th:eID="C32_app389-fMS"/>was <seg th:sID="C32_app391-fMS"/>vivid <seg th:eID="C32_app391-fMS"/>yet my <seg th:sID="C32_app393-fMS"/>
             <del rend="strikethrough" xml:id="c57-0171__main__d3e34363">app</del> 
-            <seg xml:id="C32_app393-fMS_end"/>powers of application were <seg xml:id="C32_app397-fMS_start"/>in<lb n="c57-0171__main__5"/>tense – <seg xml:id="C32_app397-fMS_end"/>by the union of these qualities I <seg xml:id="C32_app399-fMS_start"/>
+            <seg th:eID="C32_app393-fMS"/>powers of application were <seg th:sID="C32_app397-fMS"/>in<lb n="c57-0171__main__5"/>tense – <seg th:eID="C32_app397-fMS"/>by the union of these qualities I <seg th:sID="C32_app399-fMS"/>
             <del rend="strikethrough" xml:id="c57-0171__main__d3e34372">ex</del> 
-            <seg xml:id="C32_app399-fMS_end"/>conceived <seg xml:id="C32_app401-fMS_start"/>
+            <seg th:eID="C32_app399-fMS"/>conceived <seg th:sID="C32_app401-fMS"/>
             <lb n="c57-0171__main__6"/> 
-            <seg xml:id="C32_app401-fMS_end"/>the <seg xml:id="C32_app403-fMS_start"/>idea <seg xml:id="C32_app403-fMS_end"/>and executed the <seg xml:id="C32_app405-fMS_start"/>
+            <seg th:eID="C32_app401-fMS"/>the <seg th:sID="C32_app403-fMS"/>idea <seg th:eID="C32_app403-fMS"/>and executed the <seg th:sID="C32_app405-fMS"/>
             <del instant="true"
                  rend="strikethrough"
                  xml:id="c57-0171__main__d3e34378">desig</del> 
-            <seg xml:id="C32_app405-fMS_end"/>creation of a <seg xml:id="C32_app407-fMS_start"/>man– <lb n="c57-0171__main__7"/> 
-            <seg xml:id="C32_app407-fMS_end"/>Even now I cannot <seg xml:id="C32_app409-fMS_start"/>recollect <seg xml:id="C32_app409-fMS_end"/>without <seg xml:id="C32_app411-fMS_start"/>passion <lb n="c57-0171__main__8"/> 
-            <seg xml:id="C32_app411-fMS_end"/>my reveries while the work was <seg xml:id="C32_app413-fMS_start"/>incomplete –I <lb n="c57-0171__main__9"/> 
-            <seg xml:id="C32_app413-fMS_end"/>trod heaven in my <seg xml:id="C32_app415-fMS_start"/>thoughts – <seg xml:id="C32_app415-fMS_end"/>now exulting <seg xml:id="C32_app417-fMS_start"/>
+            <seg th:eID="C32_app405-fMS"/>creation of a <seg th:sID="C32_app407-fMS"/>man– <lb n="c57-0171__main__7"/> 
+            <seg th:eID="C32_app407-fMS"/>Even now I cannot <seg th:sID="C32_app409-fMS"/>recollect <seg th:eID="C32_app409-fMS"/>without <seg th:sID="C32_app411-fMS"/>passion <lb n="c57-0171__main__8"/> 
+            <seg th:eID="C32_app411-fMS"/>my reveries while the work was <seg th:sID="C32_app413-fMS"/>incomplete –I <lb n="c57-0171__main__9"/> 
+            <seg th:eID="C32_app413-fMS"/>trod heaven in my <seg th:sID="C32_app415-fMS"/>thoughts – <seg th:eID="C32_app415-fMS"/>now exulting <seg th:sID="C32_app417-fMS"/>
             <lb n="c57-0171__main__10"/> 
-            <seg xml:id="C32_app417-fMS_end"/>in my <seg xml:id="C32_app419-fMS_start"/>powers – <seg xml:id="C32_app419-fMS_end"/>now <seg xml:id="C32_app421-fMS_start"/>
+            <seg th:eID="C32_app417-fMS"/>in my <seg th:sID="C32_app419-fMS"/>powers – <seg th:eID="C32_app419-fMS"/>now <seg th:sID="C32_app421-fMS"/>
             <del instant="true"
                  rend="strikethrough"
                  xml:id="c57-0171__main__d3e34389">wi</del> 
-            <seg xml:id="C32_app421-fMS_end"/>burning with the idea <seg xml:id="C32_app423-fMS_start"/>
+            <seg th:eID="C32_app421-fMS"/>burning with the idea <seg th:sID="C32_app423-fMS"/>
             <lb n="c57-0171__main__11"/> 
-            <seg xml:id="C32_app423-fMS_end"/>of <seg xml:id="C32_app425-fMS_start"/>their <seg xml:id="C32_app425-fMS_end"/>
-            <seg xml:id="C32_app426-fMS_start"/>consequen<mdel ana="start"/>s<mdel ana="end"/>ces. <seg xml:id="C32_app426-fMS_end"/>From my infancy I was <seg xml:id="C32_app428-fMS_start"/>
+            <seg th:eID="C32_app423-fMS"/>of <seg th:sID="C32_app425-fMS"/>their <seg th:eID="C32_app425-fMS"/>
+            <seg th:sID="C32_app426-fMS"/>consequen<mdel ana="start"/>s<mdel ana="end"/>ces. <seg th:eID="C32_app426-fMS"/>From my infancy I was <seg th:sID="C32_app428-fMS"/>
             <lb n="c57-0171__main__12"/> 
-            <seg xml:id="C32_app428-fMS_end"/>imbued with high hopes and a lofty <seg xml:id="C32_app430-fMS_start"/>ambition <lb n="c57-0171__main__13"/> 
-            <seg xml:id="C32_app430-fMS_end"/>but how am I <seg xml:id="C32_app432-fMS_start"/>sunk – Oh <seg xml:id="C32_app432-fMS_end"/>my <seg xml:id="C32_app434-fMS_start"/>friend – <seg xml:id="C32_app434-fMS_end"/>if you had <seg xml:id="C32_app436-fMS_start"/>
-            <lb n="c57-0171__main__14"/> know<mdel ana="start"/>m<mdel ana="end"/>n <seg xml:id="C32_app436-fMS_end"/>me as I once <seg xml:id="C32_app438-fMS_start"/>was <del rend="strikethrough" xml:id="c57-0171__main__d3e34420">who</del> 
-            <seg xml:id="C32_app438-fMS_end"/>you would <seg xml:id="C32_app440-fMS_start"/>
+            <seg th:eID="C32_app428-fMS"/>imbued with high hopes and a lofty <seg th:sID="C32_app430-fMS"/>ambition <lb n="c57-0171__main__13"/> 
+            <seg th:eID="C32_app430-fMS"/>but how am I <seg th:sID="C32_app432-fMS"/>sunk – Oh <seg th:eID="C32_app432-fMS"/>my <seg th:sID="C32_app434-fMS"/>friend – <seg th:eID="C32_app434-fMS"/>if you had <seg th:sID="C32_app436-fMS"/>
+            <lb n="c57-0171__main__14"/> know<mdel ana="start"/>m<mdel ana="end"/>n <seg th:eID="C32_app436-fMS"/>me as I once <seg th:sID="C32_app438-fMS"/>was <del rend="strikethrough" xml:id="c57-0171__main__d3e34420">who</del> 
+            <seg th:eID="C32_app438-fMS"/>you would <seg th:sID="C32_app440-fMS"/>
             <lb n="c57-0171__main__15"/> 
-            <seg xml:id="C32_app440-fMS_end"/>not <seg xml:id="C32_app442-fMS_start"/>recognize <seg xml:id="C32_app442-fMS_end"/>me <seg xml:id="C32_app444-fMS_start"/>
+            <seg th:eID="C32_app440-fMS"/>not <seg th:sID="C32_app442-fMS"/>recognize <seg th:eID="C32_app442-fMS"/>me <seg th:sID="C32_app444-fMS"/>
             <del rend="strikethrough" xml:id="c57-0171__main__d3e34425">even</del> 
-            <seg xml:id="C32_app444-fMS_end"/>in this <seg xml:id="C32_app446-fMS_start"/>
+            <seg th:eID="C32_app444-fMS"/>in this <seg th:sID="C32_app446-fMS"/>
             <del rend="strikethrough" xml:id="c57-0171__main__d3e34430">misery</del>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>state <seg xml:id="C32_app446-fMS_end"/>of <seg xml:id="C32_app448-fMS_start"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>state <seg th:eID="C32_app446-fMS"/>of <seg th:sID="C32_app448-fMS"/>
             <del instant="true"
                  rend="strikethrough"
-                 xml:id="c57-0171__main__d3e34441">dgr</del> degradationDespon<lb n="c57-0171__main__16"/>dancy <seg xml:id="C32_app448-fMS_end"/>rarely visited my <seg xml:id="C32_app450-fMS_start"/>heart <seg xml:id="C32_app450-fMS_end"/>a high destiny <seg xml:id="C32_app452-fMS_start"/>
+                 xml:id="c57-0171__main__d3e34441">dgr</del> degradationDespon<lb n="c57-0171__main__16"/>dancy <seg th:eID="C32_app448-fMS"/>rarely visited my <seg th:sID="C32_app450-fMS"/>heart <seg th:eID="C32_app450-fMS"/>a high destiny <seg th:sID="C32_app452-fMS"/>
             <lb n="c57-0171__main__17"/> 
-            <seg xml:id="C32_app452-fMS_end"/>seemed to bear me on, <seg xml:id="C32_app454-fMS_start"/>untill <seg xml:id="C32_app454-fMS_end"/>I <seg xml:id="C32_app456-fMS_start"/>fe<mdel ana="start"/>e<mdel ana="end"/>ll oh, never <lb n="c57-0171__main__18"/> 
-            <seg xml:id="C32_app456-fMS_end"/>never <metamark ana="start" function="insert"/>^<metamark ana="end"/>again to <seg xml:id="C32_app458-fMS_start"/>rise" <del rend="strikethrough" xml:id="c57-0171__main__d3e34478">again</del>.<milestone unit="tei:p"/>
-            <lb n="c57-0171__main__19"/> Must <seg xml:id="C32_app458-fMS_end"/>I lose this <seg xml:id="C32_app462-fMS_start"/>
+            <seg th:eID="C32_app452-fMS"/>seemed to bear me on, <seg th:sID="C32_app454-fMS"/>untill <seg th:eID="C32_app454-fMS"/>I <seg th:sID="C32_app456-fMS"/>fe<mdel ana="start"/>e<mdel ana="end"/>ll oh, never <lb n="c57-0171__main__18"/> 
+            <seg th:eID="C32_app456-fMS"/>never <metamark ana="start" function="insert"/>^<metamark ana="end"/>again to <seg th:sID="C32_app458-fMS"/>rise" <del rend="strikethrough" xml:id="c57-0171__main__d3e34478">again</del>.<milestone unit="tei:p"/>
+            <lb n="c57-0171__main__19"/> Must <seg th:eID="C32_app458-fMS"/>I lose this <seg th:sID="C32_app462-fMS"/>
             <del rend="strikethrough" xml:id="c57-0171__main__d3e34488">creature</del>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>admirable <seg xml:id="C32_app462-fMS_end"/>being? I have <seg xml:id="C32_app464-fMS_start"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>admirable <seg th:eID="C32_app462-fMS"/>being? I have <seg th:sID="C32_app464-fMS"/>
             <lb n="c57-0171__main__20"/> 
-            <seg xml:id="C32_app464-fMS_end"/>longed for a <seg xml:id="C32_app466-fMS_start"/>friend, <seg xml:id="C32_app466-fMS_end"/>I have sought one who would <seg xml:id="C32_app468-fMS_start"/>sympathize <seg xml:id="C32_app468-fMS_end"/>
-            <seg xml:id="C32_app469-fMS_start"/>
+            <seg th:eID="C32_app464-fMS"/>longed for a <seg th:sID="C32_app466-fMS"/>friend, <seg th:eID="C32_app466-fMS"/>I have sought one who would <seg th:sID="C32_app468-fMS"/>sympathize <seg th:eID="C32_app468-fMS"/>
+            <seg th:sID="C32_app469-fMS"/>
             <lb n="c57-0171__main__21"/> 
-            <seg xml:id="C32_app469-fMS_end"/>with &amp; love me. <seg xml:id="C32_app471-fMS_start"/>Behold <seg xml:id="C32_app471-fMS_end"/>on these <seg xml:id="C32_app473-fMS_start"/>desart <seg xml:id="C32_app473-fMS_end"/>seas <seg xml:id="C32_app475-fMS_start"/>
+            <seg th:eID="C32_app469-fMS"/>with &amp; love me. <seg th:sID="C32_app471-fMS"/>Behold <seg th:eID="C32_app471-fMS"/>on these <seg th:sID="C32_app473-fMS"/>desart <seg th:eID="C32_app473-fMS"/>seas <seg th:sID="C32_app475-fMS"/>
             <lb n="c57-0171__main__22"/> 
-            <seg xml:id="C32_app475-fMS_end"/>I have found <seg xml:id="C32_app477-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0171__main__d3e34513">one</del>such an one – but <seg xml:id="C32_app477-fMS_end"/>I <seg xml:id="C32_app479-fMS_start"/>fear <seg xml:id="C32_app479-fMS_end"/>I have gained him <seg xml:id="C32_app481-fMS_start"/>
-            <lb n="c57-0171__main__23"/> but <seg xml:id="C32_app481-fMS_end"/>to <seg xml:id="C32_app483-fMS_start"/>know <seg xml:id="C32_app483-fMS_end"/>his <seg xml:id="C32_app485-fMS_start"/>value <seg xml:id="C32_app485-fMS_end"/>&amp; lose <seg xml:id="C32_app487-fMS_start"/>him –I <seg xml:id="C32_app487-fMS_end"/>would <seg xml:id="C32_app489-fMS_start"/>
+            <seg th:eID="C32_app475-fMS"/>I have found <seg th:sID="C32_app477-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0171__main__d3e34513">one</del>such an one – but <seg th:eID="C32_app477-fMS"/>I <seg th:sID="C32_app479-fMS"/>fear <seg th:eID="C32_app479-fMS"/>I have gained him <seg th:sID="C32_app481-fMS"/>
+            <lb n="c57-0171__main__23"/> but <seg th:eID="C32_app481-fMS"/>to <seg th:sID="C32_app483-fMS"/>know <seg th:eID="C32_app483-fMS"/>his <seg th:sID="C32_app485-fMS"/>value <seg th:eID="C32_app485-fMS"/>&amp; lose <seg th:sID="C32_app487-fMS"/>him –I <seg th:eID="C32_app487-fMS"/>would <seg th:sID="C32_app489-fMS"/>
             <lb n="c57-0171__main__24"/> 
-            <seg xml:id="C32_app489-fMS_end"/>reconcile him <seg xml:id="C32_app491-fMS_start"/>with life <seg xml:id="C32_app491-fMS_end"/>but he repulses the <seg xml:id="C32_app493-fMS_start"/>
-            <lb n="c57-0171__main__25"/> thought. "I <seg xml:id="C32_app493-fMS_end"/>thank <seg xml:id="C32_app495-fMS_start"/>you," Walton," <seg xml:id="C32_app495-fMS_end"/>he said, <seg xml:id="C32_app497-fMS_start"/>but <lb n="c57-0171__main__26"/> When for <seg xml:id="C32_app497-fMS_end"/>your kind intentions <seg xml:id="C32_app499-fMS_start"/>towards <seg xml:id="C32_app499-fMS_end"/>so <seg xml:id="C32_app501-fMS_start"/>
+            <seg th:eID="C32_app489-fMS"/>reconcile him <seg th:sID="C32_app491-fMS"/>with life <seg th:eID="C32_app491-fMS"/>but he repulses the <seg th:sID="C32_app493-fMS"/>
+            <lb n="c57-0171__main__25"/> thought. "I <seg th:eID="C32_app493-fMS"/>thank <seg th:sID="C32_app495-fMS"/>you," Walton," <seg th:eID="C32_app495-fMS"/>he said, <seg th:sID="C32_app497-fMS"/>but <lb n="c57-0171__main__26"/> When for <seg th:eID="C32_app497-fMS"/>your kind intentions <seg th:sID="C32_app499-fMS"/>towards <seg th:eID="C32_app499-fMS"/>so <seg th:sID="C32_app501-fMS"/>
             <lb n="c57-0171__main__27"/> 
-            <seg xml:id="C32_app501-fMS_end"/>miserable a <seg xml:id="C32_app503-fMS_start"/>wretch – <seg xml:id="C32_app503-fMS_end"/>but when you speak <seg xml:id="C32_app505-fMS_start"/>
+            <seg th:eID="C32_app501-fMS"/>miserable a <seg th:sID="C32_app503-fMS"/>wretch – <seg th:eID="C32_app503-fMS"/>but when you speak <seg th:sID="C32_app505-fMS"/>
             <lb n="c57-0171__main__28"/> 
-            <seg xml:id="C32_app505-fMS_end"/>of new <seg xml:id="C32_app507-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0171__main__d3e34542">connections</del>ties and<del rend="strikethrough" xml:id="c57-0171__main__d3e34552">think</del>fresh affections <seg xml:id="C32_app507-fMS_end"/>
-            <seg xml:id="C32_app508-fMS_start"/>think <seg xml:id="C32_app508-fMS_end"/>you that any <seg xml:id="C32_app510-fMS_start"/>
+            <seg th:eID="C32_app505-fMS"/>of new <seg th:sID="C32_app507-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0171__main__d3e34542">connections</del>ties and<del rend="strikethrough" xml:id="c57-0171__main__d3e34552">think</del>fresh affections <seg th:eID="C32_app507-fMS"/>
+            <seg th:sID="C32_app508-fMS"/>think <seg th:eID="C32_app508-fMS"/>you that any <seg th:sID="C32_app510-fMS"/>
             <lb n="c57-0171__main__29"/> 
-            <seg xml:id="C32_app510-fMS_end"/>can replace those <seg xml:id="C32_app512-fMS_start"/>
+            <seg th:eID="C32_app510-fMS"/>can replace those <seg th:sID="C32_app512-fMS"/>
             <del rend="strikethrough" xml:id="c57-0171__main__d3e34566">I have lost</del>
-            <mdel ana="start"/>.<mdel ana="end"/>which <seg xml:id="C32_app512-fMS_end"/>are gone? Can any man <seg xml:id="C32_app514-fMS_start"/>
+            <mdel ana="start"/>.<mdel ana="end"/>which <seg th:eID="C32_app512-fMS"/>are gone? Can any man <seg th:sID="C32_app514-fMS"/>
             <lb n="c57-0171__main__30"/> 
-            <seg xml:id="C32_app514-fMS_end"/>be to me as Clerval <seg xml:id="C32_app516-fMS_start"/>was <seg xml:id="C32_app516-fMS_end"/>or any woman ano<lb n="c57-0171__main__31"/>ther <seg xml:id="C32_app518-fMS_start"/>Elizabeth. <seg xml:id="C32_app518-fMS_end"/>Even where the affections are <seg xml:id="C32_app520-fMS_start"/>
+            <seg th:eID="C32_app514-fMS"/>be to me as Clerval <seg th:sID="C32_app516-fMS"/>was <seg th:eID="C32_app516-fMS"/>or any woman ano<lb n="c57-0171__main__31"/>ther <seg th:sID="C32_app518-fMS"/>Elizabeth. <seg th:eID="C32_app518-fMS"/>Even where the affections are <seg th:sID="C32_app520-fMS"/>
             <lb n="c57-0171__main__32"/> 
-            <seg xml:id="C32_app520-fMS_end"/>not strongly moved by any superior <seg xml:id="C32_app522-fMS_start"/>excel<lb n="c57-0171__main__33"/>lence <seg xml:id="C32_app522-fMS_end"/>the companions of our childhood al<lb n="c57-0172__main__1"/>ways possess a certain power over our <seg xml:id="C32_app524-fMS_start"/>mind <lb n="c57-0172__main__2"/> that <seg xml:id="C32_app524-fMS_end"/>hardly any <seg xml:id="C32_app526-fMS_start"/>other <seg xml:id="C32_app526-fMS_end"/>later friend can <seg xml:id="C32_app528-fMS_start"/>
+            <seg th:eID="C32_app520-fMS"/>not strongly moved by any superior <seg th:sID="C32_app522-fMS"/>excel<lb n="c57-0171__main__33"/>lence <seg th:eID="C32_app522-fMS"/>the companions of our childhood al<lb n="c57-0172__main__1"/>ways possess a certain power over our <seg th:sID="C32_app524-fMS"/>mind <lb n="c57-0172__main__2"/> that <seg th:eID="C32_app524-fMS"/>hardly any <seg th:sID="C32_app526-fMS"/>other <seg th:eID="C32_app526-fMS"/>later friend can <seg th:sID="C32_app528-fMS"/>
             <lb n="c57-0172__main__3"/> 
-            <seg xml:id="C32_app528-fMS_end"/>obtain. They know our infantine <seg xml:id="C32_app530-fMS_start"/>feelings <lb n="c57-0172__main__4"/> which <seg xml:id="C32_app530-fMS_end"/>however they may be afterwards <seg xml:id="C32_app532-fMS_start"/>
-            <lb n="c57-0172__main__5"/> modified <seg xml:id="C32_app532-fMS_end"/>are never <seg xml:id="C32_app534-fMS_start"/>
+            <seg th:eID="C32_app528-fMS"/>obtain. They know our infantine <seg th:sID="C32_app530-fMS"/>feelings <lb n="c57-0172__main__4"/> which <seg th:eID="C32_app530-fMS"/>however they may be afterwards <seg th:sID="C32_app532-fMS"/>
+            <lb n="c57-0172__main__5"/> modified <seg th:eID="C32_app532-fMS"/>are never <seg th:sID="C32_app534-fMS"/>
             <del rend="strikethrough" xml:id="c57-0172__main__d3e34619">entirely changed</del>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>eradicated <seg xml:id="C32_app534-fMS_end"/>and they <seg xml:id="C32_app536-fMS_start"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>eradicated <seg th:eID="C32_app534-fMS"/>and they <seg th:sID="C32_app536-fMS"/>
             <lb n="c57-0172__main__6"/> 
-            <seg xml:id="C32_app536-fMS_end"/>can judge of our actions with <seg xml:id="C32_app538-fMS_start"/>greater <lb n="c57-0172__main__7"/> certainty – <seg xml:id="C32_app538-fMS_end"/>A sister or brother can never, un<lb n="c57-0172__main__8"/>less indeed such <seg xml:id="C32_app542-fMS_start"/>symtoms <seg xml:id="C32_app542-fMS_end"/>have been <seg xml:id="C32_app544-fMS_start"/>shewn <seg xml:id="C32_app544-fMS_end"/>
-            <seg xml:id="C32_app545-fMS_start"/>
-            <lb n="c57-0172__main__9"/> early <seg xml:id="C32_app545-fMS_end"/>suspect the other of fraud or false <seg xml:id="C32_app547-fMS_start"/>
-            <lb n="c57-0172__main__10"/> dealing <seg xml:id="C32_app547-fMS_end"/>when another <seg xml:id="C32_app549-fMS_start"/>friend <seg xml:id="C32_app549-fMS_end"/>however <seg xml:id="C32_app551-fMS_start"/>
+            <seg th:eID="C32_app536-fMS"/>can judge of our actions with <seg th:sID="C32_app538-fMS"/>greater <lb n="c57-0172__main__7"/> certainty – <seg th:eID="C32_app538-fMS"/>A sister or brother can never, un<lb n="c57-0172__main__8"/>less indeed such <seg th:sID="C32_app542-fMS"/>symtoms <seg th:eID="C32_app542-fMS"/>have been <seg th:sID="C32_app544-fMS"/>shewn <seg th:eID="C32_app544-fMS"/>
+            <seg th:sID="C32_app545-fMS"/>
+            <lb n="c57-0172__main__9"/> early <seg th:eID="C32_app545-fMS"/>suspect the other of fraud or false <seg th:sID="C32_app547-fMS"/>
+            <lb n="c57-0172__main__10"/> dealing <seg th:eID="C32_app547-fMS"/>when another <seg th:sID="C32_app549-fMS"/>friend <seg th:eID="C32_app549-fMS"/>however <seg th:sID="C32_app551-fMS"/>
             <lb n="c57-0172__main__11"/> 
-            <seg xml:id="C32_app551-fMS_end"/>strongly he may be <seg xml:id="C32_app553-fMS_start"/>attatched may <del rend="strikethrough" xml:id="c57-0172__main__d3e34654">feel</del>be <seg xml:id="C32_app553-fMS_end"/>in <seg xml:id="C32_app555-fMS_start"/>
+            <seg th:eID="C32_app551-fMS"/>strongly he may be <seg th:sID="C32_app553-fMS"/>attatched may <del rend="strikethrough" xml:id="c57-0172__main__d3e34654">feel</del>be <seg th:eID="C32_app553-fMS"/>in <seg th:sID="C32_app555-fMS"/>
             <lb n="c57-0172__main__12"/> 
-            <seg xml:id="C32_app555-fMS_end"/>spite of <seg xml:id="C32_app557-fMS_start"/>himself <seg xml:id="C32_app557-fMS_end"/>
-            <seg xml:id="C32_app558-fMS_start"/>invaded <seg xml:id="C32_app558-fMS_end"/>
-            <seg xml:id="C32_app559-fMS_start"/>by <seg xml:id="C32_app559-fMS_end"/>suspicion. <seg xml:id="C32_app561-fMS_start"/>
+            <seg th:eID="C32_app555-fMS"/>spite of <seg th:sID="C32_app557-fMS"/>himself <seg th:eID="C32_app557-fMS"/>
+            <seg th:sID="C32_app558-fMS"/>invaded <seg th:eID="C32_app558-fMS"/>
+            <seg th:sID="C32_app559-fMS"/>by <seg th:eID="C32_app559-fMS"/>suspicion. <seg th:sID="C32_app561-fMS"/>
             <lb n="c57-0172__main__13"/> 
-            <seg xml:id="C32_app561-fMS_end"/>But I enjoyed <seg xml:id="C32_app563-fMS_start"/>friends <seg xml:id="C32_app563-fMS_end"/>dear not only <seg xml:id="C32_app565-fMS_start"/>by <lb n="c57-0172__main__14"/> association <seg xml:id="C32_app565-fMS_end"/>but <seg xml:id="C32_app568-fMS_start"/>for their<del rend="strikethrough" xml:id="c57-0172__main__d3e34668">e</del> 
-            <seg xml:id="C32_app568-fMS_end"/>own <seg xml:id="C32_app570-fMS_start"/>sake –and <lb n="c57-0172__main__15"/> 
-            <seg xml:id="C32_app570-fMS_end"/>wherever I <seg xml:id="C32_app573-fMS_start"/>am <seg xml:id="C32_app573-fMS_end"/>the soothing voice of my <seg xml:id="C32_app575-fMS_start"/>
-            <lb n="c57-0172__main__16"/> Eliszabeth or <seg xml:id="C32_app575-fMS_end"/>the conversation of <seg xml:id="C32_app577-fMS_start"/>Cler<lb n="c57-0172__main__17"/>val <seg xml:id="C32_app577-fMS_end"/>will be ever whispered <seg xml:id="C32_app579-fMS_start"/>
+            <seg th:eID="C32_app561-fMS"/>But I enjoyed <seg th:sID="C32_app563-fMS"/>friends <seg th:eID="C32_app563-fMS"/>dear not only <seg th:sID="C32_app565-fMS"/>by <lb n="c57-0172__main__14"/> association <seg th:eID="C32_app565-fMS"/>but <seg th:sID="C32_app568-fMS"/>for their<del rend="strikethrough" xml:id="c57-0172__main__d3e34668">e</del> 
+            <seg th:eID="C32_app568-fMS"/>own <seg th:sID="C32_app570-fMS"/>sake –and <lb n="c57-0172__main__15"/> 
+            <seg th:eID="C32_app570-fMS"/>wherever I <seg th:sID="C32_app573-fMS"/>am <seg th:eID="C32_app573-fMS"/>the soothing voice of my <seg th:sID="C32_app575-fMS"/>
+            <lb n="c57-0172__main__16"/> Eliszabeth or <seg th:eID="C32_app575-fMS"/>the conversation of <seg th:sID="C32_app577-fMS"/>Cler<lb n="c57-0172__main__17"/>val <seg th:eID="C32_app577-fMS"/>will be ever whispered <seg th:sID="C32_app579-fMS"/>
             <mdel ana="start"/>to<mdel ana="end"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>in <seg xml:id="C32_app579-fMS_end"/>my ear. <seg xml:id="C32_app581-fMS_start"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>in <seg th:eID="C32_app579-fMS"/>my ear. <seg th:sID="C32_app581-fMS"/>
             <lb n="c57-0172__main__18"/> 
-            <seg xml:id="C32_app581-fMS_end"/>They are <seg xml:id="C32_app583-fMS_start"/>dead <seg xml:id="C32_app583-fMS_end"/>&amp; but one feeling <seg xml:id="C32_app585-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0172__main__d3e34701">could</del>can <seg xml:id="C32_app585-fMS_end"/>in <seg xml:id="C32_app587-fMS_start"/>
+            <seg th:eID="C32_app581-fMS"/>They are <seg th:sID="C32_app583-fMS"/>dead <seg th:eID="C32_app583-fMS"/>&amp; but one feeling <seg th:sID="C32_app585-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0172__main__d3e34701">could</del>can <seg th:eID="C32_app585-fMS"/>in <seg th:sID="C32_app587-fMS"/>
             <lb n="c57-0172__main__19"/> 
-            <seg xml:id="C32_app587-fMS_end"/>such a <seg xml:id="C32_app589-fMS_start"/>
-            <del rend="strikethrough" xml:id="c57-0172__main__d3e34713">situation</del>solitude<del rend="strikethrough" xml:id="c57-0172__main__d3e34722">keep me alive</del>persuade <seg xml:id="C32_app589-fMS_end"/>me to preserve my life. If I <seg xml:id="C32_app591-fMS_start"/>
-            <lb n="c57-0172__main__20"/> w<del rend="strikethrough" xml:id="c57-0172__main__d3e34731">h</del>ere <seg xml:id="C32_app591-fMS_end"/>engaged in any high undertaking <seg xml:id="C32_app593-fMS_start"/>
+            <seg th:eID="C32_app587-fMS"/>such a <seg th:sID="C32_app589-fMS"/>
+            <del rend="strikethrough" xml:id="c57-0172__main__d3e34713">situation</del>solitude<del rend="strikethrough" xml:id="c57-0172__main__d3e34722">keep me alive</del>persuade <seg th:eID="C32_app589-fMS"/>me to preserve my life. If I <seg th:sID="C32_app591-fMS"/>
+            <lb n="c57-0172__main__20"/> w<del rend="strikethrough" xml:id="c57-0172__main__d3e34731">h</del>ere <seg th:eID="C32_app591-fMS"/>engaged in any high undertaking <seg th:sID="C32_app593-fMS"/>
             <lb n="c57-0172__main__21"/> 
-            <seg xml:id="C32_app593-fMS_end"/>or <seg xml:id="C32_app595-fMS_start"/>design <seg xml:id="C32_app595-fMS_end"/>fraught with extensive uti<lb n="c57-0172__main__22"/>lity to my <seg xml:id="C32_app597-fMS_start"/>fellow creatures <seg xml:id="C32_app597-fMS_end"/>then could I <seg xml:id="C32_app599-fMS_start"/>
+            <seg th:eID="C32_app593-fMS"/>or <seg th:sID="C32_app595-fMS"/>design <seg th:eID="C32_app595-fMS"/>fraught with extensive uti<lb n="c57-0172__main__22"/>lity to my <seg th:sID="C32_app597-fMS"/>fellow creatures <seg th:eID="C32_app597-fMS"/>then could I <seg th:sID="C32_app599-fMS"/>
             <lb n="c57-0172__main__23"/> 
-            <seg xml:id="C32_app599-fMS_end"/>live to fulfil <seg xml:id="C32_app601-fMS_start"/>it—But <seg xml:id="C32_app601-fMS_end"/>such is not my <seg xml:id="C32_app603-fMS_start"/>
-            <lb n="c57-0172__main__24"/> destiny –I <seg xml:id="C32_app603-fMS_end"/>must pursue &amp; destroy the <seg xml:id="C32_app605-fMS_start"/>
+            <seg th:eID="C32_app599-fMS"/>live to fulfil <seg th:sID="C32_app601-fMS"/>it—But <seg th:eID="C32_app601-fMS"/>such is not my <seg th:sID="C32_app603-fMS"/>
+            <lb n="c57-0172__main__24"/> destiny –I <seg th:eID="C32_app603-fMS"/>must pursue &amp; destroy the <seg th:sID="C32_app605-fMS"/>
             <lb n="c57-0172__main__25"/>
             <del rend="strikethrough" xml:id="c57-0172__main__d3e34752">creature</del>
-            <lb n="c57-0172__left_margin__1"/>being <seg xml:id="C32_app605-fMS_end"/>to whom I gave <seg xml:id="C32_app607-fMS_start"/>existence <seg xml:id="C32_app607-fMS_end"/>then <seg xml:id="C32_app609-fMS_start"/>
+            <lb n="c57-0172__left_margin__1"/>being <seg th:eID="C32_app605-fMS"/>to whom I gave <seg th:sID="C32_app607-fMS"/>existence <seg th:eID="C32_app607-fMS"/>then <seg th:sID="C32_app609-fMS"/>
             <lb n="c57-0172__main__26"/> 
-            <seg xml:id="C32_app609-fMS_end"/>my <seg xml:id="C32_app611-fMS_start"/>task <seg xml:id="C32_app611-fMS_end"/>will be <seg xml:id="C32_app613-fMS_start"/>fulfilled <seg xml:id="C32_app613-fMS_end"/>&amp; I may <seg xml:id="C32_app615-fMS_start"/>die. <seg xml:id="C32_app615-fMS_end"/>
+            <seg th:eID="C32_app609-fMS"/>my <seg th:sID="C32_app611-fMS"/>task <seg th:eID="C32_app611-fMS"/>will be <seg th:sID="C32_app613-fMS"/>fulfilled <seg th:eID="C32_app613-fMS"/>&amp; I may <seg th:sID="C32_app615-fMS"/>die. <seg th:eID="C32_app615-fMS"/>
          </div>
       </body>
    </text>

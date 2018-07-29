@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-     xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+     xmlns:mith="http://mith.umd.edu/sc/ns1#"
+     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,594 +24,594 @@
    <text>
       <body>
          <div type="collation">
-            <seg xml:id="C16_app1-fMS_start"/>
+            <seg th:sID="C16_app1-fMS"/>
             <lb n="c56-0119__main__1"/>
             <milestone spanTo="#c56-0119.01" unit="tei:head"/>Chap. 14<milestone unit="tei:p"/>
-            <lb n="c56-0119__main__2"/>The <seg xml:id="C16_app1-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app2-fMS_start"/>next day, contrary <seg xml:id="C16_app2-fMS_end"/>to the <seg xml:id="C16_app6-fMS_start"/>prognostics <seg xml:id="C16_app6-fMS_end"/>of <seg xml:id="C16_app8-fMS_start"/>our <seg xml:id="C16_app8-fMS_end"/>
-            <seg xml:id="C16_app9-fMS_start"/>
+            <lb n="c56-0119__main__2"/>The <seg th:eID="C16_app1-fMS"/>
+            <seg th:sID="C16_app2-fMS"/>next day, contrary <seg th:eID="C16_app2-fMS"/>to the <seg th:sID="C16_app6-fMS"/>prognostics <seg th:eID="C16_app6-fMS"/>of <seg th:sID="C16_app8-fMS"/>our <seg th:eID="C16_app8-fMS"/>
+            <seg th:sID="C16_app9-fMS"/>
             <lb n="c56-0119__main__3"/> 
-            <seg xml:id="C16_app9-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app10-fMS_start"/>guides, <seg xml:id="C16_app10-fMS_end"/>was <seg xml:id="C16_app12-fMS_start"/>fine <seg xml:id="C16_app12-fMS_end"/>
-            <seg xml:id="C16_app13-fMS_start"/>although clouded. <metamark ana="start" function="insert"/>^<metamark ana="end"/>We
-            visited <seg xml:id="C16_app13-fMS_end"/>
-            <seg xml:id="C16_app14-fMS_start"/>the <seg xml:id="C16_app14-fMS_end"/>
-            <seg xml:id="C16_app15-fMS_start"/>
+            <seg th:eID="C16_app9-fMS"/>
+            <seg th:sID="C16_app10-fMS"/>guides, <seg th:eID="C16_app10-fMS"/>was <seg th:sID="C16_app12-fMS"/>fine <seg th:eID="C16_app12-fMS"/>
+            <seg th:sID="C16_app13-fMS"/>although clouded. <metamark ana="start" function="insert"/>^<metamark ana="end"/>We
+            visited <seg th:eID="C16_app13-fMS"/>
+            <seg th:sID="C16_app14-fMS"/>the <seg th:eID="C16_app14-fMS"/>
+            <seg th:sID="C16_app15-fMS"/>
             <lb n="c56-0119__main__4"/> 
-            <seg xml:id="C16_app15-fMS_end"/>
-            <seg xml:id="C16_app17-fMS_start"/>source <seg xml:id="C16_app17-fMS_end"/>of the <seg xml:id="C16_app21-fMS_start"/>Aveiron <seg xml:id="C16_app21-fMS_end"/>and <seg xml:id="C16_app23-fMS_start"/>rode about the <seg xml:id="C16_app23-fMS_end"/>
-            <seg xml:id="C16_app24-fMS_start"/>
+            <seg th:eID="C16_app15-fMS"/>
+            <seg th:sID="C16_app17-fMS"/>source <seg th:eID="C16_app17-fMS"/>of the <seg th:sID="C16_app21-fMS"/>Aveiron <seg th:eID="C16_app21-fMS"/>and <seg th:sID="C16_app23-fMS"/>rode about the <seg th:eID="C16_app23-fMS"/>
+            <seg th:sID="C16_app24-fMS"/>
             <lb n="c56-0119__main__5"/> 
-            <seg xml:id="C16_app24-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app25-fMS_start"/>valley <seg xml:id="C16_app25-fMS_end"/>
-            <seg xml:id="C16_app26-fMS_start"/>
+            <seg th:eID="C16_app24-fMS"/>
+            <seg th:sID="C16_app25-fMS"/>valley <seg th:eID="C16_app25-fMS"/>
+            <seg th:sID="C16_app26-fMS"/>
             <del rend="strikethrough" xml:id="c56-0119__main__d2e25060">the whole
             da</del>
-            <mdel ana="start"/>y<mdel ana="end"/>until evening. <seg xml:id="C16_app26-fMS_end"/>These sublime and <seg xml:id="C16_app28-fMS_start"/>
+            <mdel ana="start"/>y<mdel ana="end"/>until evening. <seg th:eID="C16_app26-fMS"/>These sublime and <seg th:sID="C16_app28-fMS"/>
             <lb n="c56-0119__main__6"/> 
-            <seg xml:id="C16_app28-fMS_end"/>magnificent scenes afforded me the greatest <seg xml:id="C16_app30-fMS_start"/>
+            <seg th:eID="C16_app28-fMS"/>magnificent scenes afforded me the greatest <seg th:sID="C16_app30-fMS"/>
             <lb n="c56-0119__main__7"/> 
-            <seg xml:id="C16_app30-fMS_end"/>consolation that I was capable of <seg xml:id="C16_app32-fMS_start"/>receiving <lb n="c56-0119__main__8"/> 
-            <seg xml:id="C16_app32-fMS_end"/>They elevated me from all littleness of <seg xml:id="C16_app34-fMS_start"/>feeling <lb n="c56-0119__main__9"/> 
-            <seg xml:id="C16_app34-fMS_end"/>and although they <seg xml:id="C16_app36-fMS_start"/>
+            <seg th:eID="C16_app30-fMS"/>consolation that I was capable of <seg th:sID="C16_app32-fMS"/>receiving <lb n="c56-0119__main__8"/> 
+            <seg th:eID="C16_app32-fMS"/>They elevated me from all littleness of <seg th:sID="C16_app34-fMS"/>feeling <lb n="c56-0119__main__9"/> 
+            <seg th:eID="C16_app34-fMS"/>and although they <seg th:sID="C16_app36-fMS"/>
             <del rend="strikethrough" xml:id="c56-0119__main__d2e25082">d</del> 
-            <seg xml:id="C16_app36-fMS_end"/>did not remove my <seg xml:id="C16_app38-fMS_start"/>
-            <lb n="c56-0119__main__10"/> grief <seg xml:id="C16_app38-fMS_end"/>they <seg xml:id="C16_app40-fMS_start"/>
+            <seg th:eID="C16_app36-fMS"/>did not remove my <seg th:sID="C16_app38-fMS"/>
+            <lb n="c56-0119__main__10"/> grief <seg th:eID="C16_app38-fMS"/>they <seg th:sID="C16_app40-fMS"/>
             <del rend="strikethrough" xml:id="c56-0119__main__d2e25088">t</del> 
-            <seg xml:id="C16_app40-fMS_end"/>subdued and <seg xml:id="C16_app42-fMS_start"/>tranquilized <seg xml:id="C16_app42-fMS_end"/>it. <seg xml:id="C16_app44-fMS_start"/>
+            <seg th:eID="C16_app40-fMS"/>subdued and <seg th:sID="C16_app42-fMS"/>tranquilized <seg th:eID="C16_app42-fMS"/>it. <seg th:sID="C16_app44-fMS"/>
             <lb n="c56-0119__main__11"/> 
-            <seg xml:id="C16_app44-fMS_end"/>In some degree, <seg xml:id="C16_app46-fMS_start"/>also <seg xml:id="C16_app46-fMS_end"/>they diverted my mind <seg xml:id="C16_app48-fMS_start"/>
+            <seg th:eID="C16_app44-fMS"/>In some degree, <seg th:sID="C16_app46-fMS"/>also <seg th:eID="C16_app46-fMS"/>they diverted my mind <seg th:sID="C16_app48-fMS"/>
             <lb n="c56-0119__main__12"/> 
-            <seg xml:id="C16_app48-fMS_end"/>from the thoughts <metamark ana="start" function="insert"/>^<metamark ana="end"/>over
-            which it had <seg xml:id="C16_app50-fMS_start"/>brooded <seg xml:id="C16_app50-fMS_end"/>
-            <seg xml:id="C16_app51-fMS_start"/>
+            <seg th:eID="C16_app48-fMS"/>from the thoughts <metamark ana="start" function="insert"/>^<metamark ana="end"/>over
+            which it had <seg th:sID="C16_app50-fMS"/>brooded <seg th:eID="C16_app50-fMS"/>
+            <seg th:sID="C16_app51-fMS"/>
             <del rend="strikethrough" xml:id="c56-0119__main__d2e25111">over</del>
             <lb n="c56-0119__main__13"/> 
-            <seg xml:id="C16_app51-fMS_end"/>for the last <seg xml:id="C16_app53-fMS_start"/>month<del rend="strikethrough" xml:id="c56-0119__main__d2e25116">s</del>. <seg xml:id="C16_app53-fMS_end"/>I <seg xml:id="C16_app55-fMS_start"/>returned in the <seg xml:id="C16_app55-fMS_end"/>
-            <seg xml:id="C16_app56-fMS_start"/>
+            <seg th:eID="C16_app51-fMS"/>for the last <seg th:sID="C16_app53-fMS"/>month<del rend="strikethrough" xml:id="c56-0119__main__d2e25116">s</del>. <seg th:eID="C16_app53-fMS"/>I <seg th:sID="C16_app55-fMS"/>returned in the <seg th:eID="C16_app55-fMS"/>
+            <seg th:sID="C16_app56-fMS"/>
             <lb n="c56-0119__main__14"/> 
-            <seg xml:id="C16_app56-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app57-fMS_start"/>evening, <seg xml:id="C16_app57-fMS_end"/>
-            <seg xml:id="C16_app58-fMS_start"/>fatigued <seg xml:id="C16_app58-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app59-fMS_start"/>but less <seg xml:id="C16_app59-fMS_end"/>
-            <seg xml:id="C16_app60-fMS_start"/>unhappy <seg xml:id="C16_app60-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app61-fMS_start"/>and <seg xml:id="C16_app61-fMS_end"/>
-            <seg xml:id="C16_app62-fMS_start"/>convered <lb n="c56-0119__main__15"/> 
-            <seg xml:id="C16_app62-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app63-fMS_start"/>with <seg xml:id="C16_app63-fMS_end"/>
-            <seg xml:id="C16_app64-fMS_start"/>the <seg xml:id="C16_app64-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app65-fMS_start"/>family <seg xml:id="C16_app65-fMS_end"/>
-            <seg xml:id="C16_app66-fMS_start"/>
+            <seg th:eID="C16_app56-fMS"/>
+            <seg th:sID="C16_app57-fMS"/>evening, <seg th:eID="C16_app57-fMS"/>
+            <seg th:sID="C16_app58-fMS"/>fatigued <seg th:eID="C16_app58-fMS"/>
+            <seg th:sID="C16_app59-fMS"/>but less <seg th:eID="C16_app59-fMS"/>
+            <seg th:sID="C16_app60-fMS"/>unhappy <seg th:eID="C16_app60-fMS"/>
+            <seg th:sID="C16_app61-fMS"/>and <seg th:eID="C16_app61-fMS"/>
+            <seg th:sID="C16_app62-fMS"/>convered <lb n="c56-0119__main__15"/> 
+            <seg th:eID="C16_app62-fMS"/>
+            <seg th:sID="C16_app63-fMS"/>with <seg th:eID="C16_app63-fMS"/>
+            <seg th:sID="C16_app64-fMS"/>the <seg th:eID="C16_app64-fMS"/>
+            <seg th:sID="C16_app65-fMS"/>family <seg th:eID="C16_app65-fMS"/>
+            <seg th:sID="C16_app66-fMS"/>
             <del type="strikethrough" xml:id="c56-0119__main__d2e25123">t</del> 
-            <seg xml:id="C16_app66-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app67-fMS_start"/>with more cheerfulness than <seg xml:id="C16_app67-fMS_end"/>
-            <seg xml:id="C16_app68-fMS_start"/>
+            <seg th:eID="C16_app66-fMS"/>
+            <seg th:sID="C16_app67-fMS"/>with more cheerfulness than <seg th:eID="C16_app67-fMS"/>
+            <seg th:sID="C16_app68-fMS"/>
             <lb n="c56-0119__main__16"/>
             <del rend="strikethrough" xml:id="c56-0119__main__d2e25129">I</del> 
-            <seg xml:id="C16_app68-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app69-fMS_start"/>had been <seg xml:id="C16_app69-fMS_end"/>
-            <seg xml:id="C16_app70-fMS_start"/>
+            <seg th:eID="C16_app68-fMS"/>
+            <seg th:sID="C16_app69-fMS"/>had been <seg th:eID="C16_app69-fMS"/>
+            <seg th:sID="C16_app70-fMS"/>
             <del rend="strikethrough" xml:id="c56-0119__main__d2e25134">accustomed</del>
-            <mdel ana="start"/>to<mdel ana="end"/>my <seg xml:id="C16_app70-fMS_end"/>
-            <seg xml:id="C16_app71-fMS_start"/>custom for some time. <seg xml:id="C16_app71-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app72-fMS_start"/>My <seg xml:id="C16_app72-fMS_end"/>
-            <seg xml:id="C16_app73-fMS_start"/>fa<lb n="c56-0119__main__17"/>ther was <seg xml:id="C16_app73-fMS_end"/>
-            <seg xml:id="C16_app74-fMS_start"/>pleased <seg xml:id="C16_app74-fMS_end"/>and <seg xml:id="C16_app76-fMS_start"/>Elizabeth <seg xml:id="C16_app76-fMS_end"/>
-            <seg xml:id="C16_app77-fMS_start"/>overjoyed; "My <lb n="c56-0119__main__18"/> 
-            <seg xml:id="C16_app77-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app78-fMS_start"/>dear <seg xml:id="C16_app78-fMS_end"/>
-            <seg xml:id="C16_app79-fMS_start"/>Cousin," <seg xml:id="C16_app79-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app80-fMS_start"/>said she, <seg xml:id="C16_app80-fMS_end"/>
-            <seg xml:id="C16_app81-fMS_start"/>"You <seg xml:id="C16_app81-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app82-fMS_start"/>see what happiness <seg xml:id="C16_app82-fMS_end"/>
-            <seg xml:id="C16_app83-fMS_start"/>
+            <mdel ana="start"/>to<mdel ana="end"/>my <seg th:eID="C16_app70-fMS"/>
+            <seg th:sID="C16_app71-fMS"/>custom for some time. <seg th:eID="C16_app71-fMS"/>
+            <seg th:sID="C16_app72-fMS"/>My <seg th:eID="C16_app72-fMS"/>
+            <seg th:sID="C16_app73-fMS"/>fa<lb n="c56-0119__main__17"/>ther was <seg th:eID="C16_app73-fMS"/>
+            <seg th:sID="C16_app74-fMS"/>pleased <seg th:eID="C16_app74-fMS"/>and <seg th:sID="C16_app76-fMS"/>Elizabeth <seg th:eID="C16_app76-fMS"/>
+            <seg th:sID="C16_app77-fMS"/>overjoyed; "My <lb n="c56-0119__main__18"/> 
+            <seg th:eID="C16_app77-fMS"/>
+            <seg th:sID="C16_app78-fMS"/>dear <seg th:eID="C16_app78-fMS"/>
+            <seg th:sID="C16_app79-fMS"/>Cousin," <seg th:eID="C16_app79-fMS"/>
+            <seg th:sID="C16_app80-fMS"/>said she, <seg th:eID="C16_app80-fMS"/>
+            <seg th:sID="C16_app81-fMS"/>"You <seg th:eID="C16_app81-fMS"/>
+            <seg th:sID="C16_app82-fMS"/>see what happiness <seg th:eID="C16_app82-fMS"/>
+            <seg th:sID="C16_app83-fMS"/>
             <lb n="c56-0119__main__19"/> 
-            <seg xml:id="C16_app83-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app84-fMS_start"/>you diffuse when you are <seg xml:id="C16_app84-fMS_end"/>
-            <seg xml:id="C16_app85-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0119__main__d2e25157">cheerful</del>happy; <seg xml:id="C16_app85-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app86-fMS_start"/>do <seg xml:id="C16_app86-fMS_end"/>
-            <seg xml:id="C16_app87-fMS_start"/>
+            <seg th:eID="C16_app83-fMS"/>
+            <seg th:sID="C16_app84-fMS"/>you diffuse when you are <seg th:eID="C16_app84-fMS"/>
+            <seg th:sID="C16_app85-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0119__main__d2e25157">cheerful</del>happy; <seg th:eID="C16_app85-fMS"/>
+            <seg th:sID="C16_app86-fMS"/>do <seg th:eID="C16_app86-fMS"/>
+            <seg th:sID="C16_app87-fMS"/>
             <lb n="c56-0119__main__20"/> 
-            <seg xml:id="C16_app87-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app88-fMS_start"/>not relapse <seg xml:id="C16_app88-fMS_end"/>
-            <seg xml:id="C16_app89-fMS_start"/>again!—<milestone unit="tei:p"/>
+            <seg th:eID="C16_app87-fMS"/>
+            <seg th:sID="C16_app88-fMS"/>not relapse <seg th:eID="C16_app88-fMS"/>
+            <seg th:sID="C16_app89-fMS"/>again!—<milestone unit="tei:p"/>
             <lb n="c56-0119__main__21"/> 
-            <seg xml:id="C16_app89-fMS_end"/>
-            <seg xml:id="C16_app100-fMS_start"/>The <seg xml:id="C16_app100-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app102-fMS_start"/>following morning <seg xml:id="C16_app102-fMS_end"/>the rain <seg xml:id="C16_app104-fMS_start"/>poured <seg xml:id="C16_app104-fMS_end"/>
-            <seg xml:id="C16_app105-fMS_start"/>
+            <seg th:eID="C16_app89-fMS"/>
+            <seg th:sID="C16_app100-fMS"/>The <seg th:eID="C16_app100-fMS"/>
+            <seg th:sID="C16_app102-fMS"/>following morning <seg th:eID="C16_app102-fMS"/>the rain <seg th:sID="C16_app104-fMS"/>poured <seg th:eID="C16_app104-fMS"/>
+            <seg th:sID="C16_app105-fMS"/>
             <lb n="c56-0119__main__22"/> 
-            <seg xml:id="C16_app105-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app106-fMS_start"/>down <seg xml:id="C16_app106-fMS_end"/>in <seg xml:id="C16_app108-fMS_start"/>torrents <seg xml:id="C16_app108-fMS_end"/>and thick mists hid <seg xml:id="C16_app110-fMS_start"/>
+            <seg th:eID="C16_app105-fMS"/>
+            <seg th:sID="C16_app106-fMS"/>down <seg th:eID="C16_app106-fMS"/>in <seg th:sID="C16_app108-fMS"/>torrents <seg th:eID="C16_app108-fMS"/>and thick mists hid <seg th:sID="C16_app110-fMS"/>
             <lb n="c56-0119__main__23"/> 
-            <seg xml:id="C16_app110-fMS_end"/>the summits of the <seg xml:id="C16_app112-fMS_start"/>mountains. I rose <seg xml:id="C16_app112-fMS_end"/>
-            <seg xml:id="C16_app113-fMS_start"/>early <lb n="c56-0119__main__24"/> 
-            <seg xml:id="C16_app113-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app114-fMS_start"/>but felt unusually melancholy. <seg xml:id="C16_app114-fMS_end"/>The <seg xml:id="C16_app116-fMS_start"/>rain <seg xml:id="C16_app116-fMS_end"/>
-            <seg xml:id="C16_app117-fMS_start"/>
+            <seg th:eID="C16_app110-fMS"/>the summits of the <seg th:sID="C16_app112-fMS"/>mountains. I rose <seg th:eID="C16_app112-fMS"/>
+            <seg th:sID="C16_app113-fMS"/>early <lb n="c56-0119__main__24"/> 
+            <seg th:eID="C16_app113-fMS"/>
+            <seg th:sID="C16_app114-fMS"/>but felt unusually melancholy. <seg th:eID="C16_app114-fMS"/>The <seg th:sID="C16_app116-fMS"/>rain <seg th:eID="C16_app116-fMS"/>
+            <seg th:sID="C16_app117-fMS"/>
             <lb n="c56-0119__main__25"/> 
-            <seg xml:id="C16_app117-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app118-fMS_start"/>depressed <seg xml:id="C16_app118-fMS_end"/>
-            <seg xml:id="C16_app119-fMS_start"/>
+            <seg th:eID="C16_app117-fMS"/>
+            <seg th:sID="C16_app118-fMS"/>depressed <seg th:eID="C16_app118-fMS"/>
+            <seg th:sID="C16_app119-fMS"/>
             <mdel ana="start"/>my<mdel ana="end"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>me, <seg xml:id="C16_app119-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app120-fMS_start"/>my old feelings <seg xml:id="C16_app120-fMS_end"/>
-            <seg xml:id="C16_app121-fMS_start"/>recurred <lb n="c56-0119__main__26"/> 
-            <seg xml:id="C16_app121-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app122-fMS_start"/>and I was miserable. <seg xml:id="C16_app122-fMS_end"/>I <seg type="invariant-MissingWit" xml:id="C16_app124-fMS_start"/>knew how <seg xml:id="C16_app124-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app126-fMS_start"/>my father <seg xml:id="C16_app126-fMS_end"/>
-            <seg xml:id="C16_app127-fMS_start"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>me, <seg th:eID="C16_app119-fMS"/>
+            <seg th:sID="C16_app120-fMS"/>my old feelings <seg th:eID="C16_app120-fMS"/>
+            <seg th:sID="C16_app121-fMS"/>recurred <lb n="c56-0119__main__26"/> 
+            <seg th:eID="C16_app121-fMS"/>
+            <seg th:sID="C16_app122-fMS"/>and I was miserable. <seg th:eID="C16_app122-fMS"/>I <seg th:sID="C16_app124-fMS"/>knew how <seg th:eID="C16_app124-fMS"/>
+            <seg th:sID="C16_app126-fMS"/>my father <seg th:eID="C16_app126-fMS"/>
+            <seg th:sID="C16_app127-fMS"/>
             <lb n="c56-0119__main__27"/> 
-            <seg xml:id="C16_app127-fMS_end"/>would <seg xml:id="C16_app129-fMS_start"/>be <seg xml:id="C16_app129-fMS_end"/>
-            <seg xml:id="C16_app130-fMS_start"/>dissapointed <seg xml:id="C16_app130-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app131-fMS_start"/>at this sudden <seg xml:id="C16_app131-fMS_end"/>
-            <seg xml:id="C16_app132-fMS_start"/>
-            <lb n="c56-0119__main__28"/> change <seg xml:id="C16_app132-fMS_end"/>and <seg xml:id="C16_app134-fMS_start"/>I wished to avoid him <seg xml:id="C16_app134-fMS_end"/>
-            <seg xml:id="C16_app135-fMS_start"/>
-            <lb n="c56-0119__main__29"/> untill <seg xml:id="C16_app135-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app136-fMS_start"/>I had <seg xml:id="C16_app136-fMS_end"/>
-            <seg xml:id="C16_app137-fMS_start"/>
+            <seg th:eID="C16_app127-fMS"/>would <seg th:sID="C16_app129-fMS"/>be <seg th:eID="C16_app129-fMS"/>
+            <seg th:sID="C16_app130-fMS"/>dissapointed <seg th:eID="C16_app130-fMS"/>
+            <seg th:sID="C16_app131-fMS"/>at this sudden <seg th:eID="C16_app131-fMS"/>
+            <seg th:sID="C16_app132-fMS"/>
+            <lb n="c56-0119__main__28"/> change <seg th:eID="C16_app132-fMS"/>and <seg th:sID="C16_app134-fMS"/>I wished to avoid him <seg th:eID="C16_app134-fMS"/>
+            <seg th:sID="C16_app135-fMS"/>
+            <lb n="c56-0119__main__29"/> untill <seg th:eID="C16_app135-fMS"/>
+            <seg th:sID="C16_app136-fMS"/>I had <seg th:eID="C16_app136-fMS"/>
+            <seg th:sID="C16_app137-fMS"/>
             <del rend="strikethrough" xml:id="c56-0119__main__d2e25203">rev</del> 
-            <seg xml:id="C16_app137-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app138-fMS_start"/>recovered myself so far <seg xml:id="C16_app138-fMS_end"/>
-            <seg xml:id="C16_app139-fMS_start"/>
+            <seg th:eID="C16_app137-fMS"/>
+            <seg th:sID="C16_app138-fMS"/>recovered myself so far <seg th:eID="C16_app138-fMS"/>
+            <seg th:sID="C16_app139-fMS"/>
             <lb n="c56-0119__main__30"/> 
-            <seg xml:id="C16_app139-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app140-fMS_start"/>as <seg xml:id="C16_app140-fMS_end"/>to <seg xml:id="C16_app143-fMS_start"/>conceal <seg xml:id="C16_app143-fMS_end"/>
-            <seg xml:id="C16_app144-fMS_start"/>the <seg xml:id="C16_app144-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app145-fMS_start"/>feelings that overpowered <seg xml:id="C16_app145-fMS_end"/>
-            <seg xml:id="C16_app146-fMS_start"/>
-            <lb n="c56-0119__main__31"/> me — <seg xml:id="C16_app146-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app147-fMS_start"/>I knew that they would remain <seg xml:id="C16_app147-fMS_end"/>
-            <seg xml:id="C16_app148-fMS_start"/>
+            <seg th:eID="C16_app139-fMS"/>
+            <seg th:sID="C16_app140-fMS"/>as <seg th:eID="C16_app140-fMS"/>to <seg th:sID="C16_app143-fMS"/>conceal <seg th:eID="C16_app143-fMS"/>
+            <seg th:sID="C16_app144-fMS"/>the <seg th:eID="C16_app144-fMS"/>
+            <seg th:sID="C16_app145-fMS"/>feelings that overpowered <seg th:eID="C16_app145-fMS"/>
+            <seg th:sID="C16_app146-fMS"/>
+            <lb n="c56-0119__main__31"/> me — <seg th:eID="C16_app146-fMS"/>
+            <seg th:sID="C16_app147-fMS"/>I knew that they would remain <seg th:eID="C16_app147-fMS"/>
+            <seg th:sID="C16_app148-fMS"/>
             <lb n="c56-0119__main__32"/> 
-            <seg xml:id="C16_app148-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app149-fMS_start"/>that day at the <seg xml:id="C16_app149-fMS_end"/>
-            <seg xml:id="C16_app150-fMS_start"/>inn and <seg xml:id="C16_app150-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app151-fMS_start"/>as I <seg xml:id="C16_app151-fMS_end"/>
-            <seg xml:id="C16_app152-fMS_start"/>had<lb n="c56-0120__main__1"/>
-            <del rend="strikethrough" xml:id="c56-0120__main__d2e25223">n</del>ever <seg xml:id="C16_app152-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app153-fMS_start"/>inured myself <seg xml:id="C16_app153-fMS_end"/>to <seg xml:id="C16_app155-fMS_start"/>rain <seg xml:id="C16_app155-fMS_end"/>and <seg xml:id="C16_app157-fMS_start"/>cold <seg xml:id="C16_app157-fMS_end"/>I <seg xml:id="C16_app159-fMS_start"/>
+            <seg th:eID="C16_app148-fMS"/>
+            <seg th:sID="C16_app149-fMS"/>that day at the <seg th:eID="C16_app149-fMS"/>
+            <seg th:sID="C16_app150-fMS"/>inn and <seg th:eID="C16_app150-fMS"/>
+            <seg th:sID="C16_app151-fMS"/>as I <seg th:eID="C16_app151-fMS"/>
+            <seg th:sID="C16_app152-fMS"/>had<lb n="c56-0120__main__1"/>
+            <del rend="strikethrough" xml:id="c56-0120__main__d2e25223">n</del>ever <seg th:eID="C16_app152-fMS"/>
+            <seg th:sID="C16_app153-fMS"/>inured myself <seg th:eID="C16_app153-fMS"/>to <seg th:sID="C16_app155-fMS"/>rain <seg th:eID="C16_app155-fMS"/>and <seg th:sID="C16_app157-fMS"/>cold <seg th:eID="C16_app157-fMS"/>I <seg th:sID="C16_app159-fMS"/>
             <lb n="c56-0120__main__2"/> 
-            <seg xml:id="C16_app159-fMS_end"/>resolved <seg xml:id="C16_app161-fMS_start"/>
+            <seg th:eID="C16_app159-fMS"/>resolved <seg th:sID="C16_app161-fMS"/>
             <del rend="strikethrough" xml:id="c56-0120__main__d2e25228">t</del> 
-            <seg xml:id="C16_app161-fMS_end"/>to <seg xml:id="C16_app163-fMS_start"/>go <seg xml:id="C16_app163-fMS_end"/>to the summit of <seg xml:id="C16_app166-fMS_start"/>
-            <lb n="c56-0120__main__3"/> Montanvert <del rend="strikethrough" xml:id="c56-0120__main__d2e25236">by myself</del>alone. <seg xml:id="C16_app166-fMS_end"/>I remembered <seg xml:id="C16_app168-fMS_start"/>
+            <seg th:eID="C16_app161-fMS"/>to <seg th:sID="C16_app163-fMS"/>go <seg th:eID="C16_app163-fMS"/>to the summit of <seg th:sID="C16_app166-fMS"/>
+            <lb n="c56-0120__main__3"/> Montanvert <del rend="strikethrough" xml:id="c56-0120__main__d2e25236">by myself</del>alone. <seg th:eID="C16_app166-fMS"/>I remembered <seg th:sID="C16_app168-fMS"/>
             <lb n="c56-0120__main__4"/> 
-            <seg xml:id="C16_app168-fMS_end"/>the effect the view of the tremendous <seg xml:id="C16_app172-fMS_start"/>
+            <seg th:eID="C16_app168-fMS"/>the effect the view of the tremendous <seg th:sID="C16_app172-fMS"/>
             <lb n="c56-0120__main__5"/> 
-            <seg xml:id="C16_app172-fMS_end"/>and <seg xml:id="C16_app174-fMS_start"/>ever moving <seg xml:id="C16_app174-fMS_end"/>glacier had <seg xml:id="C16_app176-fMS_start"/>
+            <seg th:eID="C16_app172-fMS"/>and <seg th:sID="C16_app174-fMS"/>ever moving <seg th:eID="C16_app174-fMS"/>glacier had <seg th:sID="C16_app176-fMS"/>
             <del rend="strikethrough" xml:id="c56-0120__main__d2e25249">had</del>
             <lb n="c56-0120__left_margin__1"/>produced<lb n="c56-0120__main__6"/> 
-            <seg xml:id="C16_app176-fMS_end"/>upon my mind when I first saw it <seg xml:id="C16_app180-fMS_start"/>
+            <seg th:eID="C16_app176-fMS"/>upon my mind when I first saw it <seg th:sID="C16_app180-fMS"/>
             <lb n="c56-0120__main__7"/>
             <del rend="strikethrough" xml:id="c56-0120__main__d2e25270">how</del>
-            <mdel ana="start"/>i<mdel ana="end"/>It <seg xml:id="C16_app180-fMS_end"/>had then filled me with <seg xml:id="C16_app182-fMS_start"/>
+            <mdel ana="start"/>i<mdel ana="end"/>It <seg th:eID="C16_app180-fMS"/>had then filled me with <seg th:sID="C16_app182-fMS"/>
             <lb n="c56-0120__main__8"/> 
-            <seg xml:id="C16_app182-fMS_end"/>a sublime <seg xml:id="C16_app184-fMS_start"/>extacy <seg xml:id="C16_app184-fMS_end"/>that gave wings <seg xml:id="C16_app186-fMS_start"/>
+            <seg th:eID="C16_app182-fMS"/>a sublime <seg th:sID="C16_app184-fMS"/>extacy <seg th:eID="C16_app184-fMS"/>that gave wings <seg th:sID="C16_app186-fMS"/>
             <lb n="c56-0120__main__9"/> 
-            <seg xml:id="C16_app186-fMS_end"/>to the <seg xml:id="C16_app188-fMS_start"/>soul <seg xml:id="C16_app188-fMS_end"/>and allowed <metamark ana="start" function="insert"/>^<metamark ana="end"/>it to soar
-            from <seg xml:id="C16_app190-fMS_start"/>
+            <seg th:eID="C16_app186-fMS"/>to the <seg th:sID="C16_app188-fMS"/>soul <seg th:eID="C16_app188-fMS"/>and allowed <metamark ana="start" function="insert"/>^<metamark ana="end"/>it to soar
+            from <seg th:sID="C16_app190-fMS"/>
             <lb n="c56-0120__main__10"/> 
-            <seg xml:id="C16_app190-fMS_end"/>the <seg xml:id="C16_app192-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0120__main__d2e25303">lower</del>obscure <seg xml:id="C16_app192-fMS_end"/>world to light &amp; joy. The <seg xml:id="C16_app194-fMS_start"/>
+            <seg th:eID="C16_app190-fMS"/>the <seg th:sID="C16_app192-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0120__main__d2e25303">lower</del>obscure <seg th:eID="C16_app192-fMS"/>world to light &amp; joy. The <seg th:sID="C16_app194-fMS"/>
             <lb n="c56-0120__main__11"/> 
-            <seg xml:id="C16_app194-fMS_end"/>sight of the awful &amp; majestic in <seg xml:id="C16_app196-fMS_start"/>
+            <seg th:eID="C16_app194-fMS"/>sight of the awful &amp; majestic in <seg th:sID="C16_app196-fMS"/>
             <lb n="c56-0120__main__12"/> 
-            <seg xml:id="C16_app196-fMS_end"/>nature had indeed always the effect <seg xml:id="C16_app198-fMS_start"/>
+            <seg th:eID="C16_app196-fMS"/>nature had indeed always the effect <seg th:sID="C16_app198-fMS"/>
             <lb n="c56-0120__main__13"/> 
-            <seg xml:id="C16_app198-fMS_end"/>of <seg xml:id="C16_app200-fMS_start"/>
+            <seg th:eID="C16_app198-fMS"/>of <seg th:sID="C16_app200-fMS"/>
             <del rend="strikethrough" xml:id="c56-0120__main__d2e25319">tranquillizing the</del>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>solemnizing<metamark ana="start" function="insert"/>^<metamark ana="end"/>my mind <seg xml:id="C16_app200-fMS_end"/>&amp; causing <seg xml:id="C16_app203-fMS_start"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>solemnizing<metamark ana="start" function="insert"/>^<metamark ana="end"/>my mind <seg th:eID="C16_app200-fMS"/>&amp; causing <seg th:sID="C16_app203-fMS"/>
             <lb n="c56-0120__main__14"/> 
-            <seg xml:id="C16_app203-fMS_end"/>me to forget the <seg xml:id="C16_app205-fMS_start"/>
+            <seg th:eID="C16_app203-fMS"/>me to forget the <seg th:sID="C16_app205-fMS"/>
             <del rend="strikethrough" xml:id="c56-0120__main__d2e25343">the</del> 
-            <seg xml:id="C16_app205-fMS_end"/>passing cares <seg xml:id="C16_app207-fMS_start"/>
+            <seg th:eID="C16_app205-fMS"/>passing cares <seg th:sID="C16_app207-fMS"/>
             <lb n="c56-0120__main__15"/> 
-            <seg xml:id="C16_app207-fMS_end"/>of life. I determined to go <seg xml:id="C16_app209-fMS_start"/>
+            <seg th:eID="C16_app207-fMS"/>of life. I determined to go <seg th:sID="C16_app209-fMS"/>
             <mdel ana="start"/>f<mdel ana="end"/>
             <del rend="strikethrough" xml:id="c56-0120__main__d2e25354">by myself</del>alone<lb n="c56-0120__main__16"/> 
-            <seg xml:id="C16_app209-fMS_end"/>for I was well acquainted with the <seg xml:id="C16_app211-fMS_start"/>
-            <lb n="c56-0120__main__17"/> path <seg xml:id="C16_app211-fMS_end"/>and the presence of another <seg xml:id="C16_app213-fMS_start"/>
+            <seg th:eID="C16_app209-fMS"/>for I was well acquainted with the <seg th:sID="C16_app211-fMS"/>
+            <lb n="c56-0120__main__17"/> path <seg th:eID="C16_app211-fMS"/>and the presence of another <seg th:sID="C16_app213-fMS"/>
             <lb n="c56-0120__main__18"/>
             <del rend="strikethrough" xml:id="c56-0120__main__d2e25369">had the effect of</del>would destroy<del rend="strikethrough" xml:id="c56-0120__main__d2e25377">ing</del> 
-            <seg xml:id="C16_app213-fMS_end"/>the <seg xml:id="C16_app215-fMS_start"/>
+            <seg th:eID="C16_app213-fMS"/>the <seg th:sID="C16_app215-fMS"/>
             <del rend="strikethrough" xml:id="c56-0120__main__d2e25380">solitary</del>
             <lb n="c56-0120__main__19"/> 
-            <seg xml:id="C16_app215-fMS_end"/>solitary grandeur of the <seg xml:id="C16_app217-fMS_start"/>scene.<milestone unit="tei:p"/>
-            <lb n="c56-0120__main__20"/> The <seg xml:id="C16_app217-fMS_end"/>ascent <seg xml:id="C16_app219-fMS_start"/>
+            <seg th:eID="C16_app215-fMS"/>solitary grandeur of the <seg th:sID="C16_app217-fMS"/>scene.<milestone unit="tei:p"/>
+            <lb n="c56-0120__main__20"/> The <seg th:eID="C16_app217-fMS"/>ascent <seg th:sID="C16_app219-fMS"/>
             <del rend="strikethrough" xml:id="c56-0120__main__d2e25394">to the
             mountain</del>
             <metamark ana="start" function="insert"/>^<metamark ana="end"/>ispre<lb n="c56-0120__main__21"/>cipitous<mdel ana="start"/>w<mdel ana="end"/>
             <metamark ana="start" function="insert"/>^<metamark ana="end"/>
             <del rend="strikethrough" xml:id="c56-0120__main__d2e25424">with</del>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>but <seg xml:id="C16_app219-fMS_end"/>the path is cut into continual and short <seg xml:id="C16_app221-fMS_start"/>
-            <lb n="c56-0120__main__22"/> windings <seg xml:id="C16_app221-fMS_end"/>which <seg xml:id="C16_app223-fMS_start"/>enable<del rend="strikethrough" xml:id="c56-0120__main__d2e25443">s</del>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>but <seg th:eID="C16_app219-fMS"/>the path is cut into continual and short <seg th:sID="C16_app221-fMS"/>
+            <lb n="c56-0120__main__22"/> windings <seg th:eID="C16_app221-fMS"/>which <seg th:sID="C16_app223-fMS"/>enable<del rend="strikethrough" xml:id="c56-0120__main__d2e25443">s</del>
             <del rend="strikethrough" xml:id="c56-0120__main__d2e25446">to</del> 
-            <seg xml:id="C16_app223-fMS_end"/>you <seg xml:id="C16_app225-fMS_start"/>
+            <seg th:eID="C16_app223-fMS"/>you <seg th:sID="C16_app225-fMS"/>
             <lb n="c56-0120__main__23"/> 
-            <seg xml:id="C16_app225-fMS_end"/>surmount the <seg xml:id="C16_app227-fMS_start"/>perpedicularity <seg xml:id="C16_app227-fMS_end"/>of <seg xml:id="C16_app229-fMS_start"/>
+            <seg th:eID="C16_app225-fMS"/>surmount the <seg th:sID="C16_app227-fMS"/>perpedicularity <seg th:eID="C16_app227-fMS"/>of <seg th:sID="C16_app229-fMS"/>
             <lb n="c56-0120__main__24"/> 
-            <seg xml:id="C16_app229-fMS_end"/>the <seg xml:id="C16_app231-fMS_start"/>mountains– <seg xml:id="C16_app231-fMS_end"/>It is a scene <seg xml:id="C16_app233-fMS_start"/>terrifical <lb n="c56-0120__main__25"/> ly <seg xml:id="C16_app233-fMS_end"/>desolate. In a thousand <seg xml:id="C16_app235-fMS_start"/>places <seg xml:id="C16_app235-fMS_end"/>the <seg xml:id="C16_app237-fMS_start"/>
+            <seg th:eID="C16_app229-fMS"/>the <seg th:sID="C16_app231-fMS"/>mountains– <seg th:eID="C16_app231-fMS"/>It is a scene <seg th:sID="C16_app233-fMS"/>terrifical <lb n="c56-0120__main__25"/> ly <seg th:eID="C16_app233-fMS"/>desolate. In a thousand <seg th:sID="C16_app235-fMS"/>places <seg th:eID="C16_app235-fMS"/>the <seg th:sID="C16_app237-fMS"/>
             <lb n="c56-0120__main__26"/> 
-            <seg xml:id="C16_app237-fMS_end"/>traces of the winter <seg xml:id="C16_app239-fMS_start"/>avelanche <seg xml:id="C16_app239-fMS_end"/>may <seg xml:id="C16_app241-fMS_start"/>
+            <seg th:eID="C16_app237-fMS"/>traces of the winter <seg th:sID="C16_app239-fMS"/>avelanche <seg th:eID="C16_app239-fMS"/>may <seg th:sID="C16_app241-fMS"/>
             <lb n="c56-0120__main__27"/> 
-            <seg xml:id="C16_app241-fMS_end"/>be <seg xml:id="C16_app243-fMS_start"/>perceived <seg xml:id="C16_app243-fMS_end"/>where trees lie broken <seg xml:id="C16_app245-fMS_start"/>
+            <seg th:eID="C16_app241-fMS"/>be <seg th:sID="C16_app243-fMS"/>perceived <seg th:eID="C16_app243-fMS"/>where trees lie broken <seg th:sID="C16_app245-fMS"/>
             <lb n="c56-0120__main__28"/> 
-            <seg xml:id="C16_app245-fMS_end"/>and strewed on the ground; some <seg xml:id="C16_app247-fMS_start"/>
+            <seg th:eID="C16_app245-fMS"/>and strewed on the ground; some <seg th:sID="C16_app247-fMS"/>
             <lb n="c56-0120__main__29"/> 
-            <seg xml:id="C16_app247-fMS_end"/>entirely <seg xml:id="C16_app249-fMS_start"/>destroyed <seg xml:id="C16_app249-fMS_end"/>others <seg xml:id="C16_app251-fMS_start"/>bent <seg xml:id="C16_app251-fMS_end"/>leaning<lb n="c56-0121__main__1"/> upon <seg xml:id="C16_app253-fMS_start"/>
+            <seg th:eID="C16_app247-fMS"/>entirely <seg th:sID="C16_app249-fMS"/>destroyed <seg th:eID="C16_app249-fMS"/>others <seg th:sID="C16_app251-fMS"/>bent <seg th:eID="C16_app251-fMS"/>leaning<lb n="c56-0121__main__1"/> upon <seg th:sID="C16_app253-fMS"/>
             <del rend="strikethrough" xml:id="c56-0121__main__d2e25478">juts
             in</del> 
-            <seg xml:id="C16_app253-fMS_end"/>the jutting <seg xml:id="C16_app255-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0121__main__d2e25483">corners</del>rocks <seg xml:id="C16_app255-fMS_end"/>of the <seg xml:id="C16_app257-fMS_start"/>
+            <seg th:eID="C16_app253-fMS"/>the jutting <seg th:sID="C16_app255-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0121__main__d2e25483">corners</del>rocks <seg th:eID="C16_app255-fMS"/>of the <seg th:sID="C16_app257-fMS"/>
             <lb n="c56-0121__main__2"/> 
-            <seg xml:id="C16_app257-fMS_end"/>mountain, or <metamark ana="start" function="insert"/>^<metamark ana="end"/>transversely upon other trees. The <seg xml:id="C16_app259-fMS_start"/>
-            <lb n="c56-0121__main__3"/> path <seg xml:id="C16_app259-fMS_end"/>as you <seg xml:id="C16_app261-fMS_start"/>
+            <seg th:eID="C16_app257-fMS"/>mountain, or <metamark ana="start" function="insert"/>^<metamark ana="end"/>transversely upon other trees. The <seg th:sID="C16_app259-fMS"/>
+            <lb n="c56-0121__main__3"/> path <seg th:eID="C16_app259-fMS"/>as you <seg th:sID="C16_app261-fMS"/>
             <del rend="strikethrough" xml:id="c56-0121__main__d2e25507">ascen</del> 
-            <seg xml:id="C16_app261-fMS_end"/>ascend <seg xml:id="C16_app263-fMS_start"/>higher <seg xml:id="C16_app263-fMS_end"/>is <seg xml:id="C16_app265-fMS_start"/>inters<lb n="c56-0121__main__4"/>
+            <seg th:eID="C16_app261-fMS"/>ascend <seg th:sID="C16_app263-fMS"/>higher <seg th:eID="C16_app263-fMS"/>is <seg th:sID="C16_app265-fMS"/>inters<lb n="c56-0121__main__4"/>
             <del rend="strikethrough" xml:id="c56-0121__main__d2e25516">persed</del>ected<mdel ana="start"/>wi<mdel ana="end"/>
-            <mdel ana="start"/>th<mdel ana="end"/>by <seg xml:id="C16_app265-fMS_end"/>ravines of snow, down which <seg xml:id="C16_app267-fMS_start"/>
+            <mdel ana="start"/>th<mdel ana="end"/>by <seg th:eID="C16_app265-fMS"/>ravines of snow, down which <seg th:sID="C16_app267-fMS"/>
             <lb n="c56-0121__main__5"/> 
-            <seg xml:id="C16_app267-fMS_end"/>stones continually roll from above; <seg xml:id="C16_app269-fMS_start"/>
+            <seg th:eID="C16_app267-fMS"/>stones continually roll from above; <seg th:sID="C16_app269-fMS"/>
             <lb n="c56-0121__main__6"/> 
-            <seg xml:id="C16_app269-fMS_end"/>one of <seg xml:id="C16_app271-fMS_start"/>the <seg xml:id="C16_app271-fMS_end"/>them is particularly <seg xml:id="C16_app273-fMS_start"/>dange<lb n="c56-0121__main__7"/>rous <seg xml:id="C16_app273-fMS_end"/>as the slightest <seg xml:id="C16_app275-fMS_start"/>sound <seg xml:id="C16_app275-fMS_end"/>such as even<lb n="c56-0121__main__8"/> speaking in a loud <seg xml:id="C16_app277-fMS_start"/>voice <mdel ana="start"/>is<mdel ana="end"/>produces <seg xml:id="C16_app277-fMS_end"/>a <seg xml:id="C16_app279-fMS_start"/>suffi<lb n="c56-0121__main__9"/> cien<mdel ana="start"/>d<mdel ana="end"/>t
-        <seg xml:id="C16_app279-fMS_end"/>concussion of air sufficient <seg xml:id="C16_app281-fMS_start"/>
+            <seg th:eID="C16_app269-fMS"/>one of <seg th:sID="C16_app271-fMS"/>the <seg th:eID="C16_app271-fMS"/>them is particularly <seg th:sID="C16_app273-fMS"/>dange<lb n="c56-0121__main__7"/>rous <seg th:eID="C16_app273-fMS"/>as the slightest <seg th:sID="C16_app275-fMS"/>sound <seg th:eID="C16_app275-fMS"/>such as even<lb n="c56-0121__main__8"/> speaking in a loud <seg th:sID="C16_app277-fMS"/>voice <mdel ana="start"/>is<mdel ana="end"/>produces <seg th:eID="C16_app277-fMS"/>a <seg th:sID="C16_app279-fMS"/>suffi<lb n="c56-0121__main__9"/> cien<mdel ana="start"/>d<mdel ana="end"/>t
+        <seg th:eID="C16_app279-fMS"/>concussion of air sufficient <seg th:sID="C16_app281-fMS"/>
             <lb n="c56-0121__main__10"/> 
-            <seg xml:id="C16_app281-fMS_end"/>to draw destruction the head of the <seg xml:id="C16_app285-fMS_start"/>
+            <seg th:eID="C16_app281-fMS"/>to draw destruction the head of the <seg th:sID="C16_app285-fMS"/>
             <lb n="c56-0121__main__11"/> 
-            <seg xml:id="C16_app285-fMS_end"/>speaker. The pines <seg xml:id="C16_app287-fMS_start"/>here <seg xml:id="C16_app287-fMS_end"/>are not <seg xml:id="C16_app289-fMS_start"/>
+            <seg th:eID="C16_app285-fMS"/>speaker. The pines <seg th:sID="C16_app287-fMS"/>here <seg th:eID="C16_app287-fMS"/>are not <seg th:sID="C16_app289-fMS"/>
             <lb n="c56-0121__main__12"/> 
-            <seg xml:id="C16_app289-fMS_end"/>tall or <seg xml:id="C16_app291-fMS_start"/>luxuriant <seg xml:id="C16_app291-fMS_end"/>but they are <seg xml:id="C16_app293-fMS_start"/>sombre <lb n="c56-0121__main__13"/> 
-            <seg xml:id="C16_app293-fMS_end"/>and add an air of <seg xml:id="C16_app295-fMS_start"/>
+            <seg th:eID="C16_app289-fMS"/>tall or <seg th:sID="C16_app291-fMS"/>luxuriant <seg th:eID="C16_app291-fMS"/>but they are <seg th:sID="C16_app293-fMS"/>sombre <lb n="c56-0121__main__13"/> 
+            <seg th:eID="C16_app293-fMS"/>and add an air of <seg th:sID="C16_app295-fMS"/>
             <del rend="strikethrough" xml:id="c56-0121__main__d2e25597">gravit</del>
-            <mdel ana="start"/>y<mdel ana="end"/>severity <seg xml:id="C16_app295-fMS_end"/>to the scene. <seg xml:id="C16_app297-fMS_start"/>
+            <mdel ana="start"/>y<mdel ana="end"/>severity <seg th:eID="C16_app295-fMS"/>to the scene. <seg th:sID="C16_app297-fMS"/>
             <lb n="c56-0121__main__14"/> 
-            <seg xml:id="C16_app297-fMS_end"/>I looked on the valley <seg xml:id="C16_app299-fMS_start"/>beneath.; <seg xml:id="C16_app299-fMS_end"/>Vast <seg xml:id="C16_app301-fMS_start"/>mist <lb n="c56-0121__main__15"/> 
-            <seg xml:id="C16_app301-fMS_end"/>were rising from the <seg xml:id="C16_app303-fMS_start"/>river <seg xml:id="C16_app303-fMS_end"/>which ran <seg xml:id="C16_app305-fMS_start"/>
+            <seg th:eID="C16_app297-fMS"/>I looked on the valley <seg th:sID="C16_app299-fMS"/>beneath.; <seg th:eID="C16_app299-fMS"/>Vast <seg th:sID="C16_app301-fMS"/>mist <lb n="c56-0121__main__15"/> 
+            <seg th:eID="C16_app301-fMS"/>were rising from the <seg th:sID="C16_app303-fMS"/>river <seg th:eID="C16_app303-fMS"/>which ran <seg th:sID="C16_app305-fMS"/>
             <lb n="c56-0121__main__16"/> through<del rend="strikethrough" xml:id="c56-0121__main__d2e25616">t</del>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>it <seg xml:id="C16_app305-fMS_end"/>and curling in thick wreaths <seg xml:id="C16_app307-fMS_start"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>it <seg th:eID="C16_app305-fMS"/>and curling in thick wreaths <seg th:sID="C16_app307-fMS"/>
             <lb n="c56-0121__main__17"/> 
-            <seg xml:id="C16_app307-fMS_end"/>around the <seg xml:id="C16_app309-fMS_start"/>opposite <seg xml:id="C16_app309-fMS_end"/>
-            <seg xml:id="C16_app310-fMS_start"/>mountains <lb n="c56-0121__main__18"/> 
-            <seg xml:id="C16_app310-fMS_end"/>whose summits were hid in the <lb n="c56-0121__main__19"/>
-            <lb n="c56-0121__left_margin__1"/>uniform clouds, while rain poured from the <seg xml:id="C16_app312-fMS_start"/>
+            <seg th:eID="C16_app307-fMS"/>around the <seg th:sID="C16_app309-fMS"/>opposite <seg th:eID="C16_app309-fMS"/>
+            <seg th:sID="C16_app310-fMS"/>mountains <lb n="c56-0121__main__18"/> 
+            <seg th:eID="C16_app310-fMS"/>whose summits were hid in the <lb n="c56-0121__main__19"/>
+            <lb n="c56-0121__left_margin__1"/>uniform clouds, while rain poured from the <seg th:sID="C16_app312-fMS"/>
             <lb n="c56-0121__main__20"/> 
-            <seg xml:id="C16_app312-fMS_end"/>dark <seg xml:id="C16_app314-fMS_start"/>sky <seg xml:id="C16_app314-fMS_end"/>and added to the melancholy <seg xml:id="C16_app316-fMS_start"/>
+            <seg th:eID="C16_app312-fMS"/>dark <seg th:sID="C16_app314-fMS"/>sky <seg th:eID="C16_app314-fMS"/>and added to the melancholy <seg th:sID="C16_app316-fMS"/>
             <lb n="c56-0121__main__21"/> 
-            <seg xml:id="C16_app316-fMS_end"/>impression I received from the objects <seg xml:id="C16_app318-fMS_start"/>
+            <seg th:eID="C16_app316-fMS"/>impression I received from the objects <seg th:sID="C16_app318-fMS"/>
             <lb n="c56-0121__main__22"/> 
-            <seg xml:id="C16_app318-fMS_end"/>around <seg xml:id="C16_app320-fMS_start"/>me — <seg xml:id="C16_app320-fMS_end"/>Alas! <seg xml:id="C16_app322-fMS_start"/>
+            <seg th:eID="C16_app318-fMS"/>around <seg th:sID="C16_app320-fMS"/>me — <seg th:eID="C16_app320-fMS"/>Alas! <seg th:sID="C16_app322-fMS"/>
             <del rend="strikethrough" xml:id="c56-0121__main__d2e25655">who can
             boast</del> 
-            <seg xml:id="C16_app322-fMS_end"/>why <seg xml:id="C16_app324-fMS_start"/>
+            <seg th:eID="C16_app322-fMS"/>why <seg th:sID="C16_app324-fMS"/>
             <lb n="c56-0121__main__23"/> 
-            <seg xml:id="C16_app324-fMS_end"/>does man boast of sensibilities <seg xml:id="C16_app326-fMS_start"/>above <lb n="c56-0121__main__24"/> 
-            <seg xml:id="C16_app326-fMS_end"/>those apparent in the <seg xml:id="C16_app328-fMS_start"/>brute <seg xml:id="C16_app328-fMS_end"/>it only <seg xml:id="C16_app330-fMS_start"/>
+            <seg th:eID="C16_app324-fMS"/>does man boast of sensibilities <seg th:sID="C16_app326-fMS"/>above <lb n="c56-0121__main__24"/> 
+            <seg th:eID="C16_app326-fMS"/>those apparent in the <seg th:sID="C16_app328-fMS"/>brute <seg th:eID="C16_app328-fMS"/>it only <seg th:sID="C16_app330-fMS"/>
             <lb n="c56-0121__main__25"/> 
-            <seg xml:id="C16_app330-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app331-fMS_start"/>renders <seg xml:id="C16_app331-fMS_end"/>them more <seg xml:id="C16_app333-fMS_start"/>
+            <seg th:eID="C16_app330-fMS"/>
+            <seg th:sID="C16_app331-fMS"/>renders <seg th:eID="C16_app331-fMS"/>them more <seg th:sID="C16_app333-fMS"/>
             <shi ana="start" rend="underline"/>necessary<shi ana="end"/> 
-            <seg xml:id="C16_app333-fMS_end"/>beings. <seg xml:id="C16_app335-fMS_start"/>Hunger <lb n="c56-0121__main__26"/>&amp; desire and <seg xml:id="C16_app335-fMS_end"/>If our impulses were <seg xml:id="C16_app337-fMS_start"/>
+            <seg th:eID="C16_app333-fMS"/>beings. <seg th:sID="C16_app335-fMS"/>Hunger <lb n="c56-0121__main__26"/>&amp; desire and <seg th:eID="C16_app335-fMS"/>If our impulses were <seg th:sID="C16_app337-fMS"/>
             <lb n="c56-0121__main__27"/> 
-            <seg xml:id="C16_app337-fMS_end"/>confined to <seg xml:id="C16_app339-fMS_start"/>hunger thirst <seg xml:id="C16_app339-fMS_end"/>and <seg xml:id="C16_app341-fMS_start"/>desire <lb n="c56-0121__main__28"/> 
-            <seg xml:id="C16_app341-fMS_end"/>we might be <seg xml:id="C16_app343-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0121__main__d2e25683">more</del>nearly free <seg xml:id="C16_app343-fMS_end"/>but now <seg xml:id="C16_app345-fMS_start"/>
+            <seg th:eID="C16_app337-fMS"/>confined to <seg th:sID="C16_app339-fMS"/>hunger thirst <seg th:eID="C16_app339-fMS"/>and <seg th:sID="C16_app341-fMS"/>desire <lb n="c56-0121__main__28"/> 
+            <seg th:eID="C16_app341-fMS"/>we might be <seg th:sID="C16_app343-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0121__main__d2e25683">more</del>nearly free <seg th:eID="C16_app343-fMS"/>but now <seg th:sID="C16_app345-fMS"/>
             <lb n="c56-0121__main__29"/> 
-            <seg xml:id="C16_app345-fMS_end"/>we are moved by every wind that <seg xml:id="C16_app347-fMS_start"/>
-            <lb n="c56-0121__main__30"/> blows <seg xml:id="C16_app347-fMS_end"/>&amp; <seg xml:id="C16_app349-fMS_start"/>by every <del rend="strikethrough" xml:id="c56-0121__main__d2e25694">sc</del> 
-            <seg xml:id="C16_app349-fMS_end"/>chance <seg xml:id="C16_app351-fMS_start"/>
+            <seg th:eID="C16_app345-fMS"/>we are moved by every wind that <seg th:sID="C16_app347-fMS"/>
+            <lb n="c56-0121__main__30"/> blows <seg th:eID="C16_app347-fMS"/>&amp; <seg th:sID="C16_app349-fMS"/>by every <del rend="strikethrough" xml:id="c56-0121__main__d2e25694">sc</del> 
+            <seg th:eID="C16_app349-fMS"/>chance <seg th:sID="C16_app351-fMS"/>
             <del rend="strikethrough" xml:id="c56-0121__main__d2e25698">work</del> 
-            <seg xml:id="C16_app351-fMS_end"/>word or<lb n="c56-0122__main__1"/> scene that that <seg xml:id="C16_app353-fMS_start"/>wind <seg xml:id="C16_app353-fMS_end"/>may convey to <seg xml:id="C16_app355-fMS_start"/>
+            <seg th:eID="C16_app351-fMS"/>word or<lb n="c56-0122__main__1"/> scene that that <seg th:sID="C16_app353-fMS"/>wind <seg th:eID="C16_app353-fMS"/>may convey to <seg th:sID="C16_app355-fMS"/>
             <lb n="c56-0122__main__2"/> us<milestone spanTo="#c56-0122.01" unit="tei:lg"/>
-            <lb n="c56-0122__main__3"/> We rest, <seg xml:id="C16_app355-fMS_end"/>A dream has power to poison <seg xml:id="C16_app357-fMS_start"/>
+            <lb n="c56-0122__main__3"/> We rest, <seg th:eID="C16_app355-fMS"/>A dream has power to poison <seg th:sID="C16_app357-fMS"/>
             <lb n="c56-0122__main__4"/>
             <metamark ana="start"/>L<metamark ana="end"/> sleep
-            <lb n="c56-0122__main__5"/> We rise <seg xml:id="C16_app357-fMS_end"/>one <seg xml:id="C16_app359-fMS_start"/>wandering <seg xml:id="C16_app359-fMS_end"/>thought pollutes <seg xml:id="C16_app361-fMS_start"/>
+            <lb n="c56-0122__main__5"/> We rise <seg th:eID="C16_app357-fMS"/>one <seg th:sID="C16_app359-fMS"/>wandering <seg th:eID="C16_app359-fMS"/>thought pollutes <seg th:sID="C16_app361-fMS"/>
             <lb n="c56-0122__main__6"/> 
-            <seg xml:id="C16_app361-fMS_end"/>the <seg xml:id="C16_app363-fMS_start"/>day <lb n="c56-0122__main__7"/> We feel <seg xml:id="C16_app363-fMS_end"/>conceive, or <seg xml:id="C16_app365-fMS_start"/>reason – <seg xml:id="C16_app365-fMS_end"/>
-            <seg xml:id="C16_app366-fMS_start"/>laugh <seg xml:id="C16_app366-fMS_end"/>or <seg xml:id="C16_app368-fMS_start"/>weep <lb n="c56-0122__main__8"/> Embrace <seg xml:id="C16_app368-fMS_end"/>fond <seg xml:id="C16_app370-fMS_start"/>woe <seg xml:id="C16_app370-fMS_end"/>or cast our cares <seg xml:id="C16_app372-fMS_start"/>
+            <seg th:eID="C16_app361-fMS"/>the <seg th:sID="C16_app363-fMS"/>day <lb n="c56-0122__main__7"/> We feel <seg th:eID="C16_app363-fMS"/>conceive, or <seg th:sID="C16_app365-fMS"/>reason – <seg th:eID="C16_app365-fMS"/>
+            <seg th:sID="C16_app366-fMS"/>laugh <seg th:eID="C16_app366-fMS"/>or <seg th:sID="C16_app368-fMS"/>weep <lb n="c56-0122__main__8"/> Embrace <seg th:eID="C16_app368-fMS"/>fond <seg th:sID="C16_app370-fMS"/>woe <seg th:eID="C16_app370-fMS"/>or cast our cares <seg th:sID="C16_app372-fMS"/>
             <lb n="c56-0122__main__9"/> away<milestone spanTo="#c56-0122.02" unit="tei:lg"/>
-            <lb n="c56-0122__main__10"/> It <seg xml:id="C16_app372-fMS_end"/>is the <seg xml:id="C16_app374-fMS_start"/>same –for <seg xml:id="C16_app374-fMS_end"/>be it joy or <seg xml:id="C16_app376-fMS_start"/>sorrow <lb n="c56-0122__main__11"/> The <seg xml:id="C16_app376-fMS_end"/>path of its departure still is <seg xml:id="C16_app378-fMS_start"/>free <lb n="c56-0122__main__12"/> Mans <seg xml:id="C16_app378-fMS_end"/>yesterday may <seg xml:id="C16_app380-fMS_start"/>ne'er <seg xml:id="C16_app380-fMS_end"/>be like <lb n="c56-0122__main__13"/>his <seg xml:id="C16_app382-fMS_start"/>morrow <lb n="c56-0122__main__14"/> Nought <seg xml:id="C16_app382-fMS_end"/>may endure but <seg xml:id="C16_app384-fMS_start"/>mutability.<milestone unit="tei:p"/>
+            <lb n="c56-0122__main__10"/> It <seg th:eID="C16_app372-fMS"/>is the <seg th:sID="C16_app374-fMS"/>same –for <seg th:eID="C16_app374-fMS"/>be it joy or <seg th:sID="C16_app376-fMS"/>sorrow <lb n="c56-0122__main__11"/> The <seg th:eID="C16_app376-fMS"/>path of its departure still is <seg th:sID="C16_app378-fMS"/>free <lb n="c56-0122__main__12"/> Mans <seg th:eID="C16_app378-fMS"/>yesterday may <seg th:sID="C16_app380-fMS"/>ne'er <seg th:eID="C16_app380-fMS"/>be like <lb n="c56-0122__main__13"/>his <seg th:sID="C16_app382-fMS"/>morrow <lb n="c56-0122__main__14"/> Nought <seg th:eID="C16_app382-fMS"/>may endure but <seg th:sID="C16_app384-fMS"/>mutability.<milestone unit="tei:p"/>
             <lb n="c56-0122__main__15"/>
-            It <seg xml:id="C16_app384-fMS_end"/>was noon when I arrived at the <seg xml:id="C16_app388-fMS_start"/>
+            It <seg th:eID="C16_app384-fMS"/>was noon when I arrived at the <seg th:sID="C16_app388-fMS"/>
             <lb n="c56-0122__main__16"/> 
-            <seg xml:id="C16_app388-fMS_end"/>top of the <seg xml:id="C16_app390-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0122__main__d2e25769">mountain</del>ascent. <seg xml:id="C16_app390-fMS_end"/>For some time I <seg xml:id="C16_app392-fMS_start"/>
+            <seg th:eID="C16_app388-fMS"/>top of the <seg th:sID="C16_app390-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0122__main__d2e25769">mountain</del>ascent. <seg th:eID="C16_app390-fMS"/>For some time I <seg th:sID="C16_app392-fMS"/>
             <lb n="c56-0122__main__17"/> 
-            <seg xml:id="C16_app392-fMS_end"/>sat upon the <seg xml:id="C16_app394-fMS_start"/>
+            <seg th:eID="C16_app392-fMS"/>sat upon the <seg th:sID="C16_app394-fMS"/>
             <del rend="strikethrough" xml:id="c56-0122__main__d2e25778">the</del> 
-            <seg xml:id="C16_app394-fMS_end"/>rock that overlooks <seg xml:id="C16_app396-fMS_start"/>
+            <seg th:eID="C16_app394-fMS"/>rock that overlooks <seg th:sID="C16_app396-fMS"/>
             <lb n="c56-0122__main__18"/> 
-            <seg xml:id="C16_app396-fMS_end"/>the sea of ice. A mist covered both <seg xml:id="C16_app398-fMS_start"/>
+            <seg th:eID="C16_app396-fMS"/>the sea of ice. A mist covered both <seg th:sID="C16_app398-fMS"/>
             <lb n="c56-0122__main__19"/> 
-            <seg xml:id="C16_app398-fMS_end"/>that and the surrounding <seg xml:id="C16_app400-fMS_start"/>untains <lb n="c56-0122__main__20"/> 
-            <seg xml:id="C16_app400-fMS_end"/>Presently a breeze dissipated the <seg xml:id="C16_app402-fMS_start"/>mist <lb n="c56-0122__main__21"/> 
-            <seg xml:id="C16_app402-fMS_end"/>and I descended <seg xml:id="C16_app404-fMS_start"/>on <seg xml:id="C16_app404-fMS_end"/>the <seg xml:id="C16_app406-fMS_start"/>
+            <seg th:eID="C16_app398-fMS"/>that and the surrounding <seg th:sID="C16_app400-fMS"/>untains <lb n="c56-0122__main__20"/> 
+            <seg th:eID="C16_app400-fMS"/>Presently a breeze dissipated the <seg th:sID="C16_app402-fMS"/>mist <lb n="c56-0122__main__21"/> 
+            <seg th:eID="C16_app402-fMS"/>and I descended <seg th:sID="C16_app404-fMS"/>on <seg th:eID="C16_app404-fMS"/>the <seg th:sID="C16_app406-fMS"/>
             <del rend="strikethrough" xml:id="c56-0122__main__d2e25801">ice</del>glacier. It is in<del rend="strikethrough" xml:id="c56-0122__main__d2e25813">s</del>tersper<lb n="c56-0122__main__22"/>sed with
-            rifts – <seg xml:id="C16_app406-fMS_end"/>The surface is very <seg xml:id="C16_app408-fMS_start"/>uneven <lb n="c56-0122__main__23"/> 
-            <seg xml:id="C16_app408-fMS_end"/>rising like the waves of a troubled sea, <seg xml:id="C16_app410-fMS_start"/>
+            rifts – <seg th:eID="C16_app406-fMS"/>The surface is very <seg th:sID="C16_app408-fMS"/>uneven <lb n="c56-0122__main__23"/> 
+            <seg th:eID="C16_app408-fMS"/>rising like the waves of a troubled sea, <seg th:sID="C16_app410-fMS"/>
             <lb n="c56-0122__main__24"/> decending <del rend="strikethrough" xml:id="c56-0122__main__d2e25827">tow</del> 
-            <seg xml:id="C16_app410-fMS_end"/>low, &amp; <seg xml:id="C16_app412-fMS_start"/>in<mdel ana="start"/>s<mdel ana="end"/>terspered <seg xml:id="C16_app412-fMS_end"/>by rifts <seg xml:id="C16_app414-fMS_start"/>
+            <seg th:eID="C16_app410-fMS"/>low, &amp; <seg th:sID="C16_app412-fMS"/>in<mdel ana="start"/>s<mdel ana="end"/>terspered <seg th:eID="C16_app412-fMS"/>by rifts <seg th:sID="C16_app414-fMS"/>
             <lb n="c56-0122__main__25"/> 
-            <seg xml:id="C16_app414-fMS_end"/>that sink <seg xml:id="C16_app416-fMS_start"/>deep— <seg xml:id="C16_app416-fMS_end"/>The <seg xml:id="C16_app418-fMS_start"/>
+            <seg th:eID="C16_app414-fMS"/>that sink <seg th:sID="C16_app416-fMS"/>deep— <seg th:eID="C16_app416-fMS"/>The <seg th:sID="C16_app418-fMS"/>
             <del rend="strikethrough" xml:id="c56-0122__main__d2e25843">width of
-            the</del>field <seg xml:id="C16_app418-fMS_end"/>of<lb n="c56-0122__main__26"/> ice is <seg xml:id="C16_app420-fMS_start"/>
+            the</del>field <seg th:eID="C16_app418-fMS"/>of<lb n="c56-0122__main__26"/> ice is <seg th:sID="C16_app420-fMS"/>
             <del rend="strikethrough" xml:id="c56-0122__main__d2e25853">nearly</del> 
-            <seg xml:id="C16_app420-fMS_end"/>a <seg xml:id="C16_app422-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0122__main__d2e25856">lege</del> league,<metamark ana="start"/>^<metamark ana="end"/>in <seg xml:id="C16_app422-fMS_end"/>width, but I <seg xml:id="C16_app424-fMS_start"/>was <lb n="c56-0122__main__27"/> 
-            <seg xml:id="C16_app424-fMS_end"/>nearly two hours in crossing <seg xml:id="C16_app426-fMS_start"/>it – Theoppo<lb n="c56-0122__main__28"/>site<del rend="strikethrough" xml:id="c56-0122__main__d2e25883">t</del> 
-            <seg xml:id="C16_app426-fMS_end"/>mountain is a bare perpendicu<lb n="c56-0122__main__29"/>lar <seg xml:id="C16_app428-fMS_start"/>rock.–From that <seg xml:id="C16_app428-fMS_end"/>side where I now <seg xml:id="C16_app430-fMS_start"/>
+            <seg th:eID="C16_app420-fMS"/>a <seg th:sID="C16_app422-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0122__main__d2e25856">lege</del> league,<metamark ana="start"/>^<metamark ana="end"/>in <seg th:eID="C16_app422-fMS"/>width, but I <seg th:sID="C16_app424-fMS"/>was <lb n="c56-0122__main__27"/> 
+            <seg th:eID="C16_app424-fMS"/>nearly two hours in crossing <seg th:sID="C16_app426-fMS"/>it – Theoppo<lb n="c56-0122__main__28"/>site<del rend="strikethrough" xml:id="c56-0122__main__d2e25883">t</del> 
+            <seg th:eID="C16_app426-fMS"/>mountain is a bare perpendicu<lb n="c56-0122__main__29"/>lar <seg th:sID="C16_app428-fMS"/>rock.–From that <seg th:eID="C16_app428-fMS"/>side where I now <seg th:sID="C16_app430-fMS"/>
             <lb n="c56-0122__main__30"/> 
-            <seg xml:id="C16_app430-fMS_end"/>stood Montanvert was exactly <seg xml:id="C16_app432-fMS_start"/>opposite <lb n="c56-0122__main__31"/> 
-            <seg xml:id="C16_app432-fMS_end"/>at the distance of a <seg xml:id="C16_app434-fMS_start"/>league <seg xml:id="C16_app434-fMS_end"/>and above<lb n="c56-0123__main__1"/> 
-            <seg xml:id="C16_app436-fMS_start"/>I should listen to the dæmon – my <lb n="c56-0123__main__2"/> feelings
+            <seg th:eID="C16_app430-fMS"/>stood Montanvert was exactly <seg th:sID="C16_app432-fMS"/>opposite <lb n="c56-0122__main__31"/> 
+            <seg th:eID="C16_app432-fMS"/>at the distance of a <seg th:sID="C16_app434-fMS"/>league <seg th:eID="C16_app434-fMS"/>and above<lb n="c56-0123__main__1"/> 
+            <seg th:sID="C16_app436-fMS"/>I should listen to the dæmon – my <lb n="c56-0123__main__2"/> feelings
             were ag<shi ana="start" rend="underline"/>ainst<shi ana="end"/> it but the <lb n="c56-0123__main__3"/> misery he expressed had al<del rend="strikethrough" xml:id="c56-0123__main__d2e25917">l</del>ready
             <lb n="c56-0123__main__4"/> moved my compassion and I thought <lb n="c56-0123__main__5"/> the least justice I could shew would <lb n="c56-0123__main__6"/> be to listen to to his tale.<milestone unit="tei:p"/>
             <lb n="c56-0123__main__7"/> We entered the hut – the monster
             <lb n="c56-0123__main__8"/> lighted a fire and sitting by it he <lb n="c56-0123__main__9"/> began thus.<lb n="c56-0123__main__10"/> 
-            <seg xml:id="C16_app436-fMS_end"/>it rose Mont <seg xml:id="C16_app438-fMS_start"/>Blanc <seg xml:id="C16_app438-fMS_end"/>in awful majesty. I re<lb n="c56-0123__main__11"/>mained in a recess
-            of the <seg xml:id="C16_app440-fMS_start"/>rock <seg xml:id="C16_app440-fMS_end"/>gazing on <seg xml:id="C16_app442-fMS_start"/>
+            <seg th:eID="C16_app436-fMS"/>it rose Mont <seg th:sID="C16_app438-fMS"/>Blanc <seg th:eID="C16_app438-fMS"/>in awful majesty. I re<lb n="c56-0123__main__11"/>mained in a recess
+            of the <seg th:sID="C16_app440-fMS"/>rock <seg th:eID="C16_app440-fMS"/>gazing on <seg th:sID="C16_app442-fMS"/>
             <lb n="c56-0123__main__12"/> 
-            <seg xml:id="C16_app442-fMS_end"/>this wonderful &amp; <seg xml:id="C16_app444-fMS_start"/>stupedous scene – <lb n="c56-0123__left_margin__1"/> 
-            <seg xml:id="C16_app444-fMS_end"/>the <seg xml:id="C16_app446-fMS_start"/>sea <seg xml:id="C16_app446-fMS_end"/>or <seg xml:id="C16_app448-fMS_start"/>
+            <seg th:eID="C16_app442-fMS"/>this wonderful &amp; <seg th:sID="C16_app444-fMS"/>stupedous scene – <lb n="c56-0123__left_margin__1"/> 
+            <seg th:eID="C16_app444-fMS"/>the <seg th:sID="C16_app446-fMS"/>sea <seg th:eID="C16_app446-fMS"/>or <seg th:sID="C16_app448-fMS"/>
             <lb n="c56-0123__left_margin__2"/> 
-            <seg xml:id="C16_app448-fMS_end"/>rather the vast river of <seg xml:id="C16_app450-fMS_start"/>
+            <seg th:eID="C16_app448-fMS"/>rather the vast river of <seg th:sID="C16_app450-fMS"/>
             <lb n="c56-0123__left_margin__3"/> 
-            <seg xml:id="C16_app450-fMS_end"/>ice, wound among <seg xml:id="C16_app452-fMS_start"/>
+            <seg th:eID="C16_app450-fMS"/>ice, wound among <seg th:sID="C16_app452-fMS"/>
             <lb n="c56-0123__left_margin__4"/>
             <del rend="strikethrough" xml:id="c56-0123__left_margin__d2e25969">the</del> 
-            <seg xml:id="C16_app452-fMS_end"/>its <seg xml:id="C16_app454-fMS_start"/>dependant <lb n="c56-0123__left_margin__5"/> mountains <seg xml:id="C16_app454-fMS_end"/>
-            <seg type="invariant-MissingWit" xml:id="C16_app456-fMS_start"/>whose <seg xml:id="C16_app456-fMS_end"/>
-            <seg xml:id="C16_app457-fMS_start"/>
+            <seg th:eID="C16_app452-fMS"/>its <seg th:sID="C16_app454-fMS"/>dependant <lb n="c56-0123__left_margin__5"/> mountains <seg th:eID="C16_app454-fMS"/>
+            <seg th:sID="C16_app456-fMS"/>whose <seg th:eID="C16_app456-fMS"/>
+            <seg th:sID="C16_app457-fMS"/>
             <lb n="c56-0123__left_margin__6"/> 
-            <seg xml:id="C16_app457-fMS_end"/>
-            <seg xml:id="C16_app458-fMS_start"/>aerial <seg xml:id="C16_app458-fMS_end"/>summits <seg xml:id="C16_app460-fMS_start"/>
+            <seg th:eID="C16_app457-fMS"/>
+            <seg th:sID="C16_app458-fMS"/>aerial <seg th:eID="C16_app458-fMS"/>summits <seg th:sID="C16_app460-fMS"/>
             <lb n="c56-0123__left_margin__7"/> 
-            <seg xml:id="C16_app460-fMS_end"/>hung over its <seg xml:id="C16_app462-fMS_start"/>
+            <seg th:eID="C16_app460-fMS"/>hung over its <seg th:sID="C16_app462-fMS"/>
             <lb n="c56-0123__left_margin__8"/> 
-            <seg xml:id="C16_app462-fMS_end"/>recesses. <seg xml:id="C16_app464-fMS_start"/>Thier <lb n="c56-0123__left_margin__9"/> 
-            <seg xml:id="C16_app464-fMS_end"/>icy &amp; glittering <seg xml:id="C16_app466-fMS_start"/>
+            <seg th:eID="C16_app462-fMS"/>recesses. <seg th:sID="C16_app464-fMS"/>Thier <lb n="c56-0123__left_margin__9"/> 
+            <seg th:eID="C16_app464-fMS"/>icy &amp; glittering <seg th:sID="C16_app466-fMS"/>
             <lb n="c56-0123__left_margin__10"/> 
-            <seg xml:id="C16_app466-fMS_end"/>peaks shone <seg xml:id="C16_app468-fMS_start"/>
+            <seg th:eID="C16_app466-fMS"/>peaks shone <seg th:sID="C16_app468-fMS"/>
             <lb n="c56-0123__left_margin__11"/> 
-            <seg xml:id="C16_app468-fMS_end"/>in sunlight <seg xml:id="C16_app472-fMS_start"/>
+            <seg th:eID="C16_app468-fMS"/>in sunlight <seg th:sID="C16_app472-fMS"/>
             <lb n="c56-0123__left_margin__12"/> 
-            <seg xml:id="C16_app472-fMS_end"/>over the clouds. My <seg xml:id="C16_app474-fMS_start"/>heart <lb n="c56-0123__main__13"/> before<del rend="strikethrough" xml:id="c56-0123__main__d2e26006">sad</del>which <seg xml:id="C16_app474-fMS_end"/>was <seg xml:id="C16_app476-fMS_start"/>sorrowful<mdel ana="start"/>ly<mdel ana="end"/>, <seg xml:id="C16_app476-fMS_end"/>now swelled with <seg xml:id="C16_app478-fMS_start"/>somthing <seg xml:id="C16_app478-fMS_end"/>like <seg xml:id="C16_app480-fMS_start"/>
+            <seg th:eID="C16_app472-fMS"/>over the clouds. My <seg th:sID="C16_app474-fMS"/>heart <lb n="c56-0123__main__13"/> before<del rend="strikethrough" xml:id="c56-0123__main__d2e26006">sad</del>which <seg th:eID="C16_app474-fMS"/>was <seg th:sID="C16_app476-fMS"/>sorrowful<mdel ana="start"/>ly<mdel ana="end"/>, <seg th:eID="C16_app476-fMS"/>now swelled with <seg th:sID="C16_app478-fMS"/>somthing <seg th:eID="C16_app478-fMS"/>like <seg th:sID="C16_app480-fMS"/>
             <lb n="c56-0123__main__14"/> joy <del rend="strikethrough" xml:id="c56-0123__main__d2e26018">I clas</del> 
-            <seg xml:id="C16_app480-fMS_end"/>I <seg xml:id="C16_app482-fMS_start"/>exclaimed – Wandering <seg xml:id="C16_app482-fMS_end"/>spirits, <seg xml:id="C16_app484-fMS_start"/>
+            <seg th:eID="C16_app480-fMS"/>I <seg th:sID="C16_app482-fMS"/>exclaimed – Wandering <seg th:eID="C16_app482-fMS"/>spirits, <seg th:sID="C16_app484-fMS"/>
             <lb n="c56-0123__main__15"/> 
-            <seg xml:id="C16_app484-fMS_end"/>if indeed ye <seg xml:id="C16_app486-fMS_start"/>wander <seg xml:id="C16_app486-fMS_end"/>and do not rest in <seg xml:id="C16_app488-fMS_start"/>
+            <seg th:eID="C16_app484-fMS"/>if indeed ye <seg th:sID="C16_app486-fMS"/>wander <seg th:eID="C16_app486-fMS"/>and do not rest in <seg th:sID="C16_app488-fMS"/>
             <lb n="c56-0123__main__16"/> 
-            <seg xml:id="C16_app488-fMS_end"/>your narrow beds, allow me this faint <seg xml:id="C16_app490-fMS_start"/>
-            <lb n="c56-0123__main__17"/> happiness <seg xml:id="C16_app490-fMS_end"/>or take <seg xml:id="C16_app492-fMS_start"/>me <seg xml:id="C16_app492-fMS_end"/>as your <seg xml:id="C16_app494-fMS_start"/>compa<lb n="c56-0123__main__18"/>nion <seg xml:id="C16_app494-fMS_end"/>away from the joys of <seg xml:id="C16_app496-fMS_start"/>life." As <seg xml:id="C16_app496-fMS_end"/>I <seg xml:id="C16_app498-fMS_start"/>
+            <seg th:eID="C16_app488-fMS"/>your narrow beds, allow me this faint <seg th:sID="C16_app490-fMS"/>
+            <lb n="c56-0123__main__17"/> happiness <seg th:eID="C16_app490-fMS"/>or take <seg th:sID="C16_app492-fMS"/>me <seg th:eID="C16_app492-fMS"/>as your <seg th:sID="C16_app494-fMS"/>compa<lb n="c56-0123__main__18"/>nion <seg th:eID="C16_app494-fMS"/>away from the joys of <seg th:sID="C16_app496-fMS"/>life." As <seg th:eID="C16_app496-fMS"/>I <seg th:sID="C16_app498-fMS"/>
             <lb n="c56-0123__main__19"/> 
-            <seg xml:id="C16_app498-fMS_end"/>said <seg xml:id="C16_app500-fMS_start"/>this <seg xml:id="C16_app500-fMS_end"/>I suddenly beheld <seg xml:id="C16_app502-fMS_start"/>
+            <seg th:eID="C16_app498-fMS"/>said <seg th:sID="C16_app500-fMS"/>this <seg th:eID="C16_app500-fMS"/>I suddenly beheld <seg th:sID="C16_app502-fMS"/>
             <mdel ana="start"/>a<mdel ana="end"/>
             <del rend="strikethrough" xml:id="c56-0123__main__d2e26041">human</del>the<lb n="c56-0123__main__20"/> 
-            <seg xml:id="C16_app502-fMS_end"/>figure of a <seg xml:id="C16_app504-fMS_start"/>man <seg xml:id="C16_app504-fMS_end"/>at some <seg xml:id="C16_app506-fMS_start"/>distance <seg xml:id="C16_app506-fMS_end"/>advancing <seg xml:id="C16_app508-fMS_start"/>
+            <seg th:eID="C16_app502-fMS"/>figure of a <seg th:sID="C16_app504-fMS"/>man <seg th:eID="C16_app504-fMS"/>at some <seg th:sID="C16_app506-fMS"/>distance <seg th:eID="C16_app506-fMS"/>advancing <seg th:sID="C16_app508-fMS"/>
             <lb n="c56-0123__main__21"/> 
-            <seg xml:id="C16_app508-fMS_end"/>towards me with superhuman <seg xml:id="C16_app510-fMS_start"/>speed— <lb n="c56-0123__main__22"/> 
-            <seg xml:id="C16_app510-fMS_end"/>He bounded over the crevices in the <seg xml:id="C16_app512-fMS_start"/>
-            <lb n="c56-0123__main__23"/> ice <mdel ana="start"/>by<mdel ana="end"/>among <seg xml:id="C16_app512-fMS_end"/>which I had walked with <seg xml:id="C16_app514-fMS_start"/>caution, <lb n="c56-0123__main__24"/> 
-            <seg xml:id="C16_app514-fMS_end"/>his <seg xml:id="C16_app516-fMS_start"/>stature <seg xml:id="C16_app516-fMS_end"/>
-            <seg xml:id="C16_app517-fMS_start"/>also <seg xml:id="C16_app517-fMS_end"/>as he <seg xml:id="C16_app519-fMS_start"/>approached seem <lb n="c56-0123__main__25"/> ed <seg xml:id="C16_app519-fMS_end"/>to exceed that of <seg xml:id="C16_app521-fMS_start"/>man –I <seg xml:id="C16_app521-fMS_end"/>was <seg xml:id="C16_app523-fMS_start"/>
-            <lb n="c56-0123__main__26"/> troubled — <seg xml:id="C16_app523-fMS_end"/>a mist <seg xml:id="C16_app525-fMS_start"/>covered <seg xml:id="C16_app525-fMS_end"/>my <seg xml:id="C16_app527-fMS_start"/>eyes <seg xml:id="C16_app527-fMS_end"/>and <seg xml:id="C16_app529-fMS_start"/>
+            <seg th:eID="C16_app508-fMS"/>towards me with superhuman <seg th:sID="C16_app510-fMS"/>speed— <lb n="c56-0123__main__22"/> 
+            <seg th:eID="C16_app510-fMS"/>He bounded over the crevices in the <seg th:sID="C16_app512-fMS"/>
+            <lb n="c56-0123__main__23"/> ice <mdel ana="start"/>by<mdel ana="end"/>among <seg th:eID="C16_app512-fMS"/>which I had walked with <seg th:sID="C16_app514-fMS"/>caution, <lb n="c56-0123__main__24"/> 
+            <seg th:eID="C16_app514-fMS"/>his <seg th:sID="C16_app516-fMS"/>stature <seg th:eID="C16_app516-fMS"/>
+            <seg th:sID="C16_app517-fMS"/>also <seg th:eID="C16_app517-fMS"/>as he <seg th:sID="C16_app519-fMS"/>approached seem <lb n="c56-0123__main__25"/> ed <seg th:eID="C16_app519-fMS"/>to exceed that of <seg th:sID="C16_app521-fMS"/>man –I <seg th:eID="C16_app521-fMS"/>was <seg th:sID="C16_app523-fMS"/>
+            <lb n="c56-0123__main__26"/> troubled — <seg th:eID="C16_app523-fMS"/>a mist <seg th:sID="C16_app525-fMS"/>covered <seg th:eID="C16_app525-fMS"/>my <seg th:sID="C16_app527-fMS"/>eyes <seg th:eID="C16_app527-fMS"/>and <seg th:sID="C16_app529-fMS"/>
             <lb n="c56-0123__main__27"/> 
-            <seg xml:id="C16_app529-fMS_end"/>I felt <seg xml:id="C16_app531-fMS_start"/>
+            <seg th:eID="C16_app529-fMS"/>I felt <seg th:sID="C16_app531-fMS"/>
             <del rend="strikethrough" xml:id="c56-0123__main__d2e26080">ready to pa
-            faint</del>faintness seize me. – <seg xml:id="C16_app531-fMS_end"/>The cold <seg xml:id="C16_app533-fMS_start"/>breeze <lb n="c56-0123__main__28"/> 
-            <seg xml:id="C16_app533-fMS_end"/>of the <seg xml:id="C16_app535-fMS_start"/>mountains quickly restored me. <lb n="c56-0123__main__29"/>
+            faint</del>faintness seize me. – <seg th:eID="C16_app531-fMS"/>The cold <seg th:sID="C16_app533-fMS"/>breeze <lb n="c56-0123__main__28"/> 
+            <seg th:eID="C16_app533-fMS"/>of the <seg th:sID="C16_app535-fMS"/>mountains quickly restored me. <lb n="c56-0123__main__29"/>
             <del rend="strikethrough" xml:id="c56-0123__main__d2e26092">But</del> 
-            <seg xml:id="C16_app535-fMS_end"/>I <seg xml:id="C16_app537-fMS_start"/>perceived <seg xml:id="C16_app537-fMS_end"/>as <seg xml:id="C16_app539-fMS_start"/>
-            <mdel ana="start"/>he<mdel ana="end"/>the <seg xml:id="C16_app539-fMS_end"/>shape came <seg xml:id="C16_app541-fMS_start"/>nearer<lb n="c56-0124__main__1"/> 
-            <seg xml:id="C16_app541-fMS_end"/>
-            <seg xml:id="C16_app542-fMS_start"/>(<del rend="strikethrough" xml:id="c56-0124__main__d2e26114">oh</del> sight <seg xml:id="C16_app542-fMS_end"/>
-            <seg xml:id="C16_app543-fMS_start"/>tremendous <seg xml:id="C16_app543-fMS_end"/>and <seg xml:id="C16_app545-fMS_start"/>abhorred) <seg xml:id="C16_app545-fMS_end"/>that it <seg xml:id="C16_app547-fMS_start"/>
+            <seg th:eID="C16_app535-fMS"/>I <seg th:sID="C16_app537-fMS"/>perceived <seg th:eID="C16_app537-fMS"/>as <seg th:sID="C16_app539-fMS"/>
+            <mdel ana="start"/>he<mdel ana="end"/>the <seg th:eID="C16_app539-fMS"/>shape came <seg th:sID="C16_app541-fMS"/>nearer<lb n="c56-0124__main__1"/> 
+            <seg th:eID="C16_app541-fMS"/>
+            <seg th:sID="C16_app542-fMS"/>(<del rend="strikethrough" xml:id="c56-0124__main__d2e26114">oh</del> sight <seg th:eID="C16_app542-fMS"/>
+            <seg th:sID="C16_app543-fMS"/>tremendous <seg th:eID="C16_app543-fMS"/>and <seg th:sID="C16_app545-fMS"/>abhorred) <seg th:eID="C16_app545-fMS"/>that it <seg th:sID="C16_app547-fMS"/>
             <lb n="c56-0124__main__2"/> 
-            <seg xml:id="C16_app547-fMS_end"/>was the wretch whom I <seg xml:id="C16_app549-fMS_start"/>had <del rend="strikethrough" xml:id="c56-0124__main__d2e26119">cr</del> created
-            and <lb n="c56-0124__main__3"/> who <seg xml:id="C16_app549-fMS_end"/>had <seg xml:id="C16_app551-fMS_start"/>caused me such deep misery. <seg xml:id="C16_app551-fMS_end"/>I <seg xml:id="C16_app553-fMS_start"/>
+            <seg th:eID="C16_app547-fMS"/>was the wretch whom I <seg th:sID="C16_app549-fMS"/>had <del rend="strikethrough" xml:id="c56-0124__main__d2e26119">cr</del> created
+            and <lb n="c56-0124__main__3"/> who <seg th:eID="C16_app549-fMS"/>had <seg th:sID="C16_app551-fMS"/>caused me such deep misery. <seg th:eID="C16_app551-fMS"/>I <seg th:sID="C16_app553-fMS"/>
             <lb n="c56-0124__main__4"/> 
-            <seg xml:id="C16_app553-fMS_end"/>trembled with rage <seg xml:id="C16_app555-fMS_start"/>
+            <seg th:eID="C16_app553-fMS"/>trembled with rage <seg th:sID="C16_app555-fMS"/>
             <del rend="strikethrough" xml:id="c56-0124__main__d2e26131">an</del> 
-            <seg xml:id="C16_app555-fMS_end"/>and <seg xml:id="C16_app557-fMS_start"/>horror <del next="#c56-0124.03"
+            <seg th:eID="C16_app555-fMS"/>and <seg th:sID="C16_app557-fMS"/>horror <del next="#c56-0124.03"
                  rend="strikethrough"
                  xml:id="c56-0124__main__d2e26134">determin</del>I<lb n="c56-0124__main__5"/>
             <del rend="strikethrough" xml:id="c56-0124__main__d2e26143">ing</del>resolv<mdel ana="start"/>in<mdel ana="end"/>ed<del rend="unmarked" xml:id="c56-0124__main__d2e26157">g</del> 
-            <seg xml:id="C16_app557-fMS_end"/>to wait his <seg xml:id="C16_app559-fMS_start"/>approach&amp; <seg xml:id="C16_app559-fMS_end"/>then close <seg xml:id="C16_app561-fMS_start"/>
+            <seg th:eID="C16_app557-fMS"/>to wait his <seg th:sID="C16_app559-fMS"/>approach&amp; <seg th:eID="C16_app559-fMS"/>then close <seg th:sID="C16_app561-fMS"/>
             <lb n="c56-0124__main__6"/> 
-            <seg xml:id="C16_app561-fMS_end"/>with him in mortal combat. He ap<lb n="c56-0124__main__7"/>proached; <seg xml:id="C16_app563-fMS_start"/>I <del rend="strikethrough" xml:id="c56-0124__main__d2e26172">saw again
+            <seg th:eID="C16_app561-fMS"/>with him in mortal combat. He ap<lb n="c56-0124__main__7"/>proached; <seg th:sID="C16_app563-fMS"/>I <del rend="strikethrough" xml:id="c56-0124__main__d2e26172">saw again
             that form from which</del>
             <lb n="c56-0124__main__8"/>
             <del rend="strikethrough" xml:id="c56-0124__main__d2e26177">I</del> 
-            <seg xml:id="C16_app563-fMS_end"/>His countenance bespoke bitter <seg xml:id="C16_app565-fMS_start"/>anguish <lb n="c56-0124__main__9"/> 
-            <seg xml:id="C16_app565-fMS_end"/>combined with <seg xml:id="C16_app567-fMS_start"/>d<mdel ana="start"/>e<mdel ana="end"/>isdain <seg xml:id="C16_app567-fMS_end"/>and <seg xml:id="C16_app569-fMS_start"/>malignancy. <lb n="c56-0124__main__10"/> 
-            <seg xml:id="C16_app569-fMS_end"/>But I <seg xml:id="C16_app571-fMS_start"/>
+            <seg th:eID="C16_app563-fMS"/>His countenance bespoke bitter <seg th:sID="C16_app565-fMS"/>anguish <lb n="c56-0124__main__9"/> 
+            <seg th:eID="C16_app565-fMS"/>combined with <seg th:sID="C16_app567-fMS"/>d<mdel ana="start"/>e<mdel ana="end"/>isdain <seg th:eID="C16_app567-fMS"/>and <seg th:sID="C16_app569-fMS"/>malignancy. <lb n="c56-0124__main__10"/> 
+            <seg th:eID="C16_app569-fMS"/>But I <seg th:sID="C16_app571-fMS"/>
             <del rend="strikethrough" xml:id="c56-0124__main__d2e26199">hardly</del>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>scarcely <seg xml:id="C16_app571-fMS_end"/>observed <seg xml:id="C16_app573-fMS_start"/>this–anger <seg xml:id="C16_app573-fMS_end"/>and hatred <seg xml:id="C16_app576-fMS_start"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>scarcely <seg th:eID="C16_app571-fMS"/>observed <seg th:sID="C16_app573-fMS"/>this–anger <seg th:eID="C16_app573-fMS"/>and hatred <seg th:sID="C16_app576-fMS"/>
             <lb n="c56-0124__main__11"/>
             <del rend="strikethrough" xml:id="c56-0124__main__d2e26214">at f</del>
-            <seg xml:id="C16_app576-fMS_end"/>had at first deprived me of <seg xml:id="C16_app578-fMS_start"/>utterance <lb n="c56-0124__main__12"/> 
-            <seg xml:id="C16_app578-fMS_end"/>and I recovered only to overwhelm him <seg xml:id="C16_app580-fMS_start"/>
+            <seg th:eID="C16_app576-fMS"/>had at first deprived me of <seg th:sID="C16_app578-fMS"/>utterance <lb n="c56-0124__main__12"/> 
+            <seg th:eID="C16_app578-fMS"/>and I recovered only to overwhelm him <seg th:sID="C16_app580-fMS"/>
             <lb n="c56-0124__main__13"/> 
-            <seg xml:id="C16_app580-fMS_end"/>with <seg xml:id="C16_app582-fMS_start"/>
+            <seg th:eID="C16_app580-fMS"/>with <seg th:sID="C16_app582-fMS"/>
             <del rend="strikethrough" xml:id="c56-0124__main__d2e26222">express</del>
-            <seg xml:id="C16_app582-fMS_end"/>words expressive of <seg xml:id="C16_app584-fMS_start"/>utter <lb n="c56-0124__main__14"/> 
-            <seg xml:id="C16_app584-fMS_end"/>detestation <seg xml:id="C16_app586-fMS_start"/>
+            <seg th:eID="C16_app582-fMS"/>words expressive of <seg th:sID="C16_app584-fMS"/>utter <lb n="c56-0124__main__14"/> 
+            <seg th:eID="C16_app584-fMS"/>detestation <seg th:sID="C16_app586-fMS"/>
             <del rend="strikethrough" xml:id="c56-0124__main__d2e26227">and</del>
             <del rend="strikethrough" xml:id="c56-0124__main__d2e26230">re</del> 
-            <seg xml:id="C16_app586-fMS_end"/>and <seg xml:id="C16_app588-fMS_start"/>contempt – "Devil" <lb n="c56-0124__main__15"/> 
-            <seg xml:id="C16_app588-fMS_end"/>I <seg xml:id="C16_app590-fMS_start"/>exclaimed – "do <seg xml:id="C16_app590-fMS_end"/>you dare approach <seg xml:id="C16_app592-fMS_start"/>me <lb n="c56-0124__main__16"/> 
-            <seg xml:id="C16_app592-fMS_end"/>and do not <metamark ana="start" function="insert"/>^<metamark ana="end"/>you <seg xml:id="C16_app594-fMS_start"/>dread <seg xml:id="C16_app594-fMS_end"/>the fierce vengeance <seg xml:id="C16_app596-fMS_start"/>
+            <seg th:eID="C16_app586-fMS"/>and <seg th:sID="C16_app588-fMS"/>contempt – "Devil" <lb n="c56-0124__main__15"/> 
+            <seg th:eID="C16_app588-fMS"/>I <seg th:sID="C16_app590-fMS"/>exclaimed – "do <seg th:eID="C16_app590-fMS"/>you dare approach <seg th:sID="C16_app592-fMS"/>me <lb n="c56-0124__main__16"/> 
+            <seg th:eID="C16_app592-fMS"/>and do not <metamark ana="start" function="insert"/>^<metamark ana="end"/>you <seg th:sID="C16_app594-fMS"/>dread <seg th:eID="C16_app594-fMS"/>the fierce vengeance <seg th:sID="C16_app596-fMS"/>
             <lb n="c56-0124__main__17"/> 
-            <seg xml:id="C16_app596-fMS_end"/>of my arm wreaked on your miserable <seg xml:id="C16_app598-fMS_start"/>
-            <lb n="c56-0124__main__18"/> head – Begone <seg xml:id="C16_app598-fMS_end"/>vile <seg xml:id="C16_app600-fMS_start"/>insect <seg xml:id="C16_app600-fMS_end"/>or <seg xml:id="C16_app602-fMS_start"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>rather <seg xml:id="C16_app602-fMS_end"/>
-            <seg xml:id="C16_app603-fMS_start"/>Stay <seg xml:id="C16_app603-fMS_end"/>that <seg xml:id="C16_app605-fMS_start"/>
+            <seg th:eID="C16_app596-fMS"/>of my arm wreaked on your miserable <seg th:sID="C16_app598-fMS"/>
+            <lb n="c56-0124__main__18"/> head – Begone <seg th:eID="C16_app598-fMS"/>vile <seg th:sID="C16_app600-fMS"/>insect <seg th:eID="C16_app600-fMS"/>or <seg th:sID="C16_app602-fMS"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>rather <seg th:eID="C16_app602-fMS"/>
+            <seg th:sID="C16_app603-fMS"/>Stay <seg th:eID="C16_app603-fMS"/>that <seg th:sID="C16_app605-fMS"/>
             <lb n="c56-0124__main__19"/> 
-            <seg xml:id="C16_app605-fMS_end"/>I may trample you to <seg xml:id="C16_app607-fMS_start"/>dust and oh <seg xml:id="C16_app607-fMS_end"/>that <seg xml:id="C16_app610-fMS_start"/>
+            <seg th:eID="C16_app605-fMS"/>I may trample you to <seg th:sID="C16_app607-fMS"/>dust and oh <seg th:eID="C16_app607-fMS"/>that <seg th:sID="C16_app610-fMS"/>
             <lb n="c56-0124__main__20"/> 
-            <seg xml:id="C16_app610-fMS_end"/>I <seg xml:id="C16_app612-fMS_start"/>could <seg xml:id="C16_app612-fMS_end"/>with <metamark ana="start" function="insert"/>^<metamark ana="end"/>the <seg xml:id="C16_app614-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0124__main__d2e26284">end</del>extinction <seg xml:id="C16_app614-fMS_end"/>of your miserable <seg xml:id="C16_app616-fMS_start"/>existence <lb n="c56-0124__main__21"/> 
-            <seg xml:id="C16_app616-fMS_end"/>restore those <seg xml:id="C16_app618-fMS_start"/>creatures <seg xml:id="C16_app618-fMS_end"/>whom you <seg xml:id="C16_app620-fMS_start"/>
+            <seg th:eID="C16_app610-fMS"/>I <seg th:sID="C16_app612-fMS"/>could <seg th:eID="C16_app612-fMS"/>with <metamark ana="start" function="insert"/>^<metamark ana="end"/>the <seg th:sID="C16_app614-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0124__main__d2e26284">end</del>extinction <seg th:eID="C16_app614-fMS"/>of your miserable <seg th:sID="C16_app616-fMS"/>existence <lb n="c56-0124__main__21"/> 
+            <seg th:eID="C16_app616-fMS"/>restore those <seg th:sID="C16_app618-fMS"/>creatures <seg th:eID="C16_app618-fMS"/>whom you <seg th:sID="C16_app620-fMS"/>
             <lb n="c56-0124__main__22"/> 
-            <seg xml:id="C16_app620-fMS_end"/>have <seg xml:id="C16_app622-fMS_start"/>diabollicaly murdered"<milestone unit="tei:p"/>
-            <lb n="c56-0124__main__23"/> "I <seg xml:id="C16_app622-fMS_end"/>expected this <seg xml:id="C16_app624-fMS_start"/>reception" <seg xml:id="C16_app624-fMS_end"/>said the <seg xml:id="C16_app626-fMS_start"/>dæmon <lb n="c56-0124__main__24"/> all <seg xml:id="C16_app626-fMS_end"/>men hate <metamark ana="start" function="insert"/>^<metamark ana="end"/>the <seg xml:id="C16_app628-fMS_start"/>wretched – <seg xml:id="C16_app628-fMS_end"/>
-            <seg xml:id="C16_app629-fMS_start"/>how then <seg xml:id="C16_app629-fMS_end"/>
-            <seg xml:id="C16_app630-fMS_start"/>
+            <seg th:eID="C16_app620-fMS"/>have <seg th:sID="C16_app622-fMS"/>diabollicaly murdered"<milestone unit="tei:p"/>
+            <lb n="c56-0124__main__23"/> "I <seg th:eID="C16_app622-fMS"/>expected this <seg th:sID="C16_app624-fMS"/>reception" <seg th:eID="C16_app624-fMS"/>said the <seg th:sID="C16_app626-fMS"/>dæmon <lb n="c56-0124__main__24"/> all <seg th:eID="C16_app626-fMS"/>men hate <metamark ana="start" function="insert"/>^<metamark ana="end"/>the <seg th:sID="C16_app628-fMS"/>wretched – <seg th:eID="C16_app628-fMS"/>
+            <seg th:sID="C16_app629-fMS"/>how then <seg th:eID="C16_app629-fMS"/>
+            <seg th:sID="C16_app630-fMS"/>
             <lb n="c56-0124__main__25"/> 
-            <seg xml:id="C16_app630-fMS_end"/>must <seg xml:id="C16_app632-fMS_start"/>
-            <mdel ana="start"/>O<mdel ana="end"/>I <seg xml:id="C16_app632-fMS_end"/>be <seg xml:id="C16_app634-fMS_start"/>hated <seg xml:id="C16_app634-fMS_end"/>who am miserable <seg xml:id="C16_app636-fMS_start"/>
+            <seg th:eID="C16_app630-fMS"/>must <seg th:sID="C16_app632-fMS"/>
+            <mdel ana="start"/>O<mdel ana="end"/>I <seg th:eID="C16_app632-fMS"/>be <seg th:sID="C16_app634-fMS"/>hated <seg th:eID="C16_app634-fMS"/>who am miserable <seg th:sID="C16_app636-fMS"/>
             <lb n="c56-0124__main__26"/> 
-            <seg xml:id="C16_app636-fMS_end"/>beyond <seg xml:id="C16_app638-fMS_start"/>
+            <seg th:eID="C16_app636-fMS"/>beyond <seg th:sID="C16_app638-fMS"/>
             <del rend="strikethrough" xml:id="c56-0124__main__d2e26334">conception
             or</del>
-            <del rend="strikethrough" xml:id="c56-0124__main__d2e26337">idea</del>all <seg xml:id="C16_app638-fMS_end"/>living <seg xml:id="C16_app640-fMS_start"/>things. – <seg xml:id="C16_app640-fMS_end"/>Yet <seg xml:id="C16_app642-fMS_start"/>you <lb n="c56-0124__main__27"/>
+            <del rend="strikethrough" xml:id="c56-0124__main__d2e26337">idea</del>all <seg th:eID="C16_app638-fMS"/>living <seg th:sID="C16_app640-fMS"/>things. – <seg th:eID="C16_app640-fMS"/>Yet <seg th:sID="C16_app642-fMS"/>you <lb n="c56-0124__main__27"/>
             <del rend="strikethrough" xml:id="c56-0124__main__d2e26346">my</del> 
-            <seg xml:id="C16_app642-fMS_end"/>my <seg xml:id="C16_app644-fMS_start"/>creator hate me <seg xml:id="C16_app644-fMS_end"/>and spurn <seg xml:id="C16_app646-fMS_start"/>me<lb n="c56-0125__main__1"/>
+            <seg th:eID="C16_app642-fMS"/>my <seg th:sID="C16_app644-fMS"/>creator hate me <seg th:eID="C16_app644-fMS"/>and spurn <seg th:sID="C16_app646-fMS"/>me<lb n="c56-0125__main__1"/>
             <del rend="strikethrough" xml:id="c56-0125__main__d2e26359">me</del> 
-            <seg xml:id="C16_app646-fMS_end"/>thy <seg xml:id="C16_app648-fMS_start"/>creature <seg xml:id="C16_app648-fMS_end"/>to whom thou art <seg xml:id="C16_app650-fMS_start"/>
+            <seg th:eID="C16_app646-fMS"/>thy <seg th:sID="C16_app648-fMS"/>creature <seg th:eID="C16_app648-fMS"/>to whom thou art <seg th:sID="C16_app650-fMS"/>
             <lb n="c56-0125__main__2"/> 
-            <seg xml:id="C16_app650-fMS_end"/>bound <seg xml:id="C16_app652-fMS_start"/>with <seg xml:id="C16_app652-fMS_end"/>ties only dissoluble by the <seg xml:id="C16_app654-fMS_start"/>
-            <lb n="c56-0125__main__3"/> death <seg xml:id="C16_app654-fMS_end"/>of one of us. <seg xml:id="C16_app656-fMS_start"/>
+            <seg th:eID="C16_app650-fMS"/>bound <seg th:sID="C16_app652-fMS"/>with <seg th:eID="C16_app652-fMS"/>ties only dissoluble by the <seg th:sID="C16_app654-fMS"/>
+            <lb n="c56-0125__main__3"/> death <seg th:eID="C16_app654-fMS"/>of one of us. <seg th:sID="C16_app656-fMS"/>
             <del rend="strikethrough" xml:id="c56-0125__main__d2e26366">And</del>
-            <mdel ana="start"/>y<mdel ana="end"/>You <del rend="strikethrough" xml:id="c56-0125__main__d2e26381">wish</del>purpose <seg xml:id="C16_app656-fMS_end"/>to kill <seg xml:id="C16_app658-fMS_start"/>
+            <mdel ana="start"/>y<mdel ana="end"/>You <del rend="strikethrough" xml:id="c56-0125__main__d2e26381">wish</del>purpose <seg th:eID="C16_app656-fMS"/>to kill <seg th:sID="C16_app658-fMS"/>
             <lb n="c56-0125__main__4"/> 
-            <seg xml:id="C16_app658-fMS_end"/>me. <seg xml:id="C16_app660-fMS_start"/>
+            <seg th:eID="C16_app658-fMS"/>me. <seg th:sID="C16_app660-fMS"/>
             <del rend="strikethrough" xml:id="c56-0125__main__d2e26390">And</del>
-            <mdel ana="start"/>h<mdel ana="end"/>How <seg xml:id="C16_app660-fMS_end"/>dare you sport thus <seg xml:id="C16_app662-fMS_start"/>
+            <mdel ana="start"/>h<mdel ana="end"/>How <seg th:eID="C16_app660-fMS"/>dare you sport thus <seg th:sID="C16_app662-fMS"/>
             <lb n="c56-0125__main__5"/> 
-            <seg xml:id="C16_app662-fMS_end"/>with life? Do your duty towards <seg xml:id="C16_app664-fMS_start"/>me <lb n="c56-0125__main__6"/> 
-            <seg xml:id="C16_app664-fMS_end"/>and I will do mine towards you &amp;<lb n="c56-0125__main__7"/> the
-            rest of mankind. <metamark ana="start" function="insert"/>^<metamark ana="end"/>If you comply with my <seg xml:id="C16_app668-fMS_start"/>conditions –I <seg xml:id="C16_app668-fMS_end"/>will leave them <seg xml:id="C16_app670-fMS_start"/>
+            <seg th:eID="C16_app662-fMS"/>with life? Do your duty towards <seg th:sID="C16_app664-fMS"/>me <lb n="c56-0125__main__6"/> 
+            <seg th:eID="C16_app664-fMS"/>and I will do mine towards you &amp;<lb n="c56-0125__main__7"/> the
+            rest of mankind. <metamark ana="start" function="insert"/>^<metamark ana="end"/>If you comply with my <seg th:sID="C16_app668-fMS"/>conditions –I <seg th:eID="C16_app668-fMS"/>will leave them <seg th:sID="C16_app670-fMS"/>
             <lb n="c56-0125__main__8"/> 
-            <seg xml:id="C16_app670-fMS_end"/>and you at <seg xml:id="C16_app672-fMS_start"/>peace – <seg xml:id="C16_app672-fMS_end"/>but <seg xml:id="C16_app674-fMS_start"/>as I am if <lb n="c56-0125__main__9"/> you do not comply with my conti
-            condi <lb n="c56-0125__main__10"/> tionsbut <seg xml:id="C16_app674-fMS_end"/>if you <seg xml:id="C16_app676-fMS_start"/>refuse <seg xml:id="C16_app676-fMS_end"/>I <metamark ana="start" function="insert"/>^<metamark ana="end"/>will glut the <seg xml:id="C16_app678-fMS_start"/>
+            <seg th:eID="C16_app670-fMS"/>and you at <seg th:sID="C16_app672-fMS"/>peace – <seg th:eID="C16_app672-fMS"/>but <seg th:sID="C16_app674-fMS"/>as I am if <lb n="c56-0125__main__9"/> you do not comply with my conti
+            condi <lb n="c56-0125__main__10"/> tionsbut <seg th:eID="C16_app674-fMS"/>if you <seg th:sID="C16_app676-fMS"/>refuse <seg th:eID="C16_app676-fMS"/>I <metamark ana="start" function="insert"/>^<metamark ana="end"/>will glut the <seg th:sID="C16_app678-fMS"/>
             <del rend="strikethrough" xml:id="c56-0125__main__d2e26449">t</del> 
-            <seg xml:id="C16_app678-fMS_end"/>maw of <seg xml:id="C16_app680-fMS_start"/>death untill <lb n="c56-0125__main__11"/>
-            <mdel ana="start"/>he<mdel ana="end"/>it <seg xml:id="C16_app680-fMS_end"/>be <seg xml:id="C16_app682-fMS_start"/>
+            <seg th:eID="C16_app678-fMS"/>maw of <seg th:sID="C16_app680-fMS"/>death untill <lb n="c56-0125__main__11"/>
+            <mdel ana="start"/>he<mdel ana="end"/>it <seg th:eID="C16_app680-fMS"/>be <seg th:sID="C16_app682-fMS"/>
             <del rend="strikethrough" xml:id="c56-0125__main__d2e26464">satiate</del>
-            <seg xml:id="C16_app682-fMS_end"/>satiated <seg xml:id="C16_app684-fMS_start"/>even <seg xml:id="C16_app684-fMS_end"/>with <seg xml:id="C16_app686-fMS_start"/>your <lb n="c56-0125__main__12"/> dearest friends."<milestone unit="tei:p"/>
+            <seg th:eID="C16_app682-fMS"/>satiated <seg th:sID="C16_app684-fMS"/>even <seg th:eID="C16_app684-fMS"/>with <seg th:sID="C16_app686-fMS"/>your <lb n="c56-0125__main__12"/> dearest friends."<milestone unit="tei:p"/>
             <lb n="c56-0125__main__13"/> "<del rend="strikethrough" xml:id="c56-0125__main__d2e26474">Miserable</del>
             <del rend="strikethrough" xml:id="c56-0125__main__d2e26477">wretch</del>
-            Abhorred monster, <lb n="c56-0125__main__14"/> cried I furiously, <seg xml:id="C16_app686-fMS_end"/>fiend that thou <seg xml:id="C16_app688-fMS_start"/>art <lb n="c56-0125__main__15"/> 
-            <seg xml:id="C16_app688-fMS_end"/>the tortures of Hell are too <seg xml:id="C16_app690-fMS_start"/>
+            Abhorred monster, <lb n="c56-0125__main__14"/> cried I furiously, <seg th:eID="C16_app686-fMS"/>fiend that thou <seg th:sID="C16_app688-fMS"/>art <lb n="c56-0125__main__15"/> 
+            <seg th:eID="C16_app688-fMS"/>the tortures of Hell are too <seg th:sID="C16_app690-fMS"/>
             <del rend="strikethrough" xml:id="c56-0125__main__d2e26486">soft for
             thee</del>
             <lb n="c56-0125__left_margin__1"/>
-            <seg xml:id="C16_app690-fMS_end"/>mild a <seg xml:id="C16_app692-fMS_start"/>
+            <seg th:eID="C16_app690-fMS"/>mild a <seg th:sID="C16_app692-fMS"/>
             <lb n="c56-0125__left_margin__2"/> 
-            <seg xml:id="C16_app692-fMS_end"/>vengeance for <seg xml:id="C16_app694-fMS_start"/>
+            <seg th:eID="C16_app692-fMS"/>vengeance for <seg th:sID="C16_app694-fMS"/>
             <lb n="c56-0125__left_margin__3"/> 
-            <seg xml:id="C16_app694-fMS_end"/>thy crimes.<lb n="c56-0125__main__16"/> 
-            <seg xml:id="C16_app696-fMS_start"/>wretched <seg xml:id="C16_app696-fMS_end"/>
-            <seg xml:id="C16_app697-fMS_start"/>devil! <seg xml:id="C16_app697-fMS_end"/>you reproach me <seg xml:id="C16_app699-fMS_start"/>
+            <seg th:eID="C16_app694-fMS"/>thy crimes.<lb n="c56-0125__main__16"/> 
+            <seg th:sID="C16_app696-fMS"/>wretched <seg th:eID="C16_app696-fMS"/>
+            <seg th:sID="C16_app697-fMS"/>devil! <seg th:eID="C16_app697-fMS"/>you reproach me <seg th:sID="C16_app699-fMS"/>
             <lb n="c56-0125__main__17"/> 
-            <seg xml:id="C16_app699-fMS_end"/>with your creation; <seg xml:id="C16_app701-fMS_start"/>come, <seg xml:id="C16_app701-fMS_end"/>that I may <seg xml:id="C16_app705-fMS_start"/>
+            <seg th:eID="C16_app699-fMS"/>with your creation; <seg th:sID="C16_app701-fMS"/>come, <seg th:eID="C16_app701-fMS"/>that I may <seg th:sID="C16_app705-fMS"/>
             <lb n="c56-0125__main__18"/> 
-            <seg xml:id="C16_app705-fMS_end"/>extinguish the spark <seg xml:id="C16_app707-fMS_start"/>that <seg xml:id="C16_app707-fMS_end"/>I so negli<lb n="c56-0125__main__19"/>gently <seg xml:id="C16_app709-fMS_start"/>bestowed." My <seg xml:id="C16_app709-fMS_end"/>rage was without <seg xml:id="C16_app711-fMS_start"/>
-            <lb n="c56-0125__main__20"/> bounds <seg xml:id="C16_app711-fMS_end"/>I <seg xml:id="C16_app713-fMS_start"/>sprung <seg xml:id="C16_app713-fMS_end"/>on <seg xml:id="C16_app715-fMS_start"/>him <del next="#c56-0125.06"
+            <seg th:eID="C16_app705-fMS"/>extinguish the spark <seg th:sID="C16_app707-fMS"/>that <seg th:eID="C16_app707-fMS"/>I so negli<lb n="c56-0125__main__19"/>gently <seg th:sID="C16_app709-fMS"/>bestowed." My <seg th:eID="C16_app709-fMS"/>rage was without <seg th:sID="C16_app711-fMS"/>
+            <lb n="c56-0125__main__20"/> bounds <seg th:eID="C16_app711-fMS"/>I <seg th:sID="C16_app713-fMS"/>sprung <seg th:eID="C16_app713-fMS"/>on <seg th:sID="C16_app715-fMS"/>him <del next="#c56-0125.06"
                  rend="strikethrough"
                  xml:id="c56-0125__main__d2e26524">that I</del>
             <del rend="strikethrough" xml:id="c56-0125__main__d2e26527">and</del>
             <lb n="c56-0125__main__21"/>
             <del rend="strikethrough" xml:id="c56-0125__main__d2e26535">might destroy so hateful a monster–</del>
             <del rend="strikethrough" xml:id="c56-0125__main__d2e26540">and</del> 
-            <seg xml:id="C16_app715-fMS_end"/>impelled by all the feelings which can arm one<lb n="c56-0125__left_margin__1"/> being against <seg xml:id="C16_app717-fMS_start"/>
+            <seg th:eID="C16_app715-fMS"/>impelled by all the feelings which can arm one<lb n="c56-0125__left_margin__1"/> being against <seg th:sID="C16_app717-fMS"/>
             <lb n="c56-0125__left_margin__2"/> 
-            <seg xml:id="C16_app717-fMS_end"/>the existence <seg xml:id="C16_app719-fMS_start"/>
+            <seg th:eID="C16_app717-fMS"/>the existence <seg th:sID="C16_app719-fMS"/>
             <lb n="c56-0125__left_margin__3"/> 
-            <seg xml:id="C16_app719-fMS_end"/>of <seg xml:id="C16_app721-fMS_start"/>another.<lb n="c56-0125__main__22"/> He <seg xml:id="C16_app721-fMS_end"/>eluded <seg xml:id="C16_app723-fMS_start"/>me easily, <seg xml:id="C16_app723-fMS_end"/>and <seg xml:id="C16_app725-fMS_start"/>said – Be <seg xml:id="C16_app725-fMS_end"/>calm! I entreat <seg xml:id="C16_app727-fMS_start"/>
+            <seg th:eID="C16_app719-fMS"/>of <seg th:sID="C16_app721-fMS"/>another.<lb n="c56-0125__main__22"/> He <seg th:eID="C16_app721-fMS"/>eluded <seg th:sID="C16_app723-fMS"/>me easily, <seg th:eID="C16_app723-fMS"/>and <seg th:sID="C16_app725-fMS"/>said – Be <seg th:eID="C16_app725-fMS"/>calm! I entreat <seg th:sID="C16_app727-fMS"/>
             <lb n="c56-0125__main__23"/>
             <del rend="strikethrough" xml:id="c56-0125__main__d2e26569">h</del> 
-            <seg xml:id="C16_app727-fMS_end"/>you to hear me, before you give vent <seg xml:id="C16_app729-fMS_start"/>
+            <seg th:eID="C16_app727-fMS"/>you to hear me, before you give vent <seg th:sID="C16_app729-fMS"/>
             <lb n="c56-0125__main__24"/> 
-            <seg xml:id="C16_app729-fMS_end"/>to your hatred <seg xml:id="C16_app731-fMS_start"/>upon <seg xml:id="C16_app731-fMS_end"/>my devoted <seg xml:id="C16_app733-fMS_start"/>head–. <seg xml:id="C16_app733-fMS_end"/>Have <seg xml:id="C16_app735-fMS_start"/>
+            <seg th:eID="C16_app729-fMS"/>to your hatred <seg th:sID="C16_app731-fMS"/>upon <seg th:eID="C16_app731-fMS"/>my devoted <seg th:sID="C16_app733-fMS"/>head–. <seg th:eID="C16_app733-fMS"/>Have <seg th:sID="C16_app735-fMS"/>
             <lb n="c56-0125__main__25"/> 
-            <seg xml:id="C16_app735-fMS_end"/>I not <seg xml:id="C16_app737-fMS_start"/>suffer<del rend="strikethrough" xml:id="c56-0125__main__d2e26583">r</del>ed enough <seg xml:id="C16_app737-fMS_end"/>that you <seg xml:id="C16_app739-fMS_start"/>
+            <seg th:eID="C16_app735-fMS"/>I not <seg th:sID="C16_app737-fMS"/>suffer<del rend="strikethrough" xml:id="c56-0125__main__d2e26583">r</del>ed enough <seg th:eID="C16_app737-fMS"/>that you <seg th:sID="C16_app739-fMS"/>
             <lb n="c56-0125__main__26"/>
             <del rend="strikethrough" xml:id="c56-0125__main__d2e26589">should</del>
-            wish <seg xml:id="C16_app739-fMS_end"/>to <seg xml:id="C16_app741-fMS_start"/>encrease <seg xml:id="C16_app741-fMS_end"/>my <seg xml:id="C16_app743-fMS_start"/>misery–Life <lb n="c56-0125__main__27"/> 
-            <seg xml:id="C16_app743-fMS_end"/>although it <seg xml:id="C16_app745-fMS_start"/>be <seg xml:id="C16_app745-fMS_end"/>only an accumulation <seg xml:id="C16_app749-fMS_start"/>
+            wish <seg th:eID="C16_app739-fMS"/>to <seg th:sID="C16_app741-fMS"/>encrease <seg th:eID="C16_app741-fMS"/>my <seg th:sID="C16_app743-fMS"/>misery–Life <lb n="c56-0125__main__27"/> 
+            <seg th:eID="C16_app743-fMS"/>although it <seg th:sID="C16_app745-fMS"/>be <seg th:eID="C16_app745-fMS"/>only an accumulation <seg th:sID="C16_app749-fMS"/>
             <lb n="c56-0125__main__28"/> 
-            <seg xml:id="C16_app749-fMS_end"/>of <seg xml:id="C16_app751-fMS_start"/>anguish <seg xml:id="C16_app751-fMS_end"/>is dear <seg xml:id="C16_app753-fMS_start"/>to <seg xml:id="C16_app753-fMS_end"/>
-            <seg xml:id="C16_app754-fMS_start"/>me <seg xml:id="C16_app754-fMS_end"/>and I will defend <seg xml:id="C16_app756-fMS_start"/>
-            <lb n="c56-0125__main__29"/> it remember <seg xml:id="C16_app756-fMS_end"/>thou hast made me more<lb n="c56-0126__main__1"/> powe<metamark ana="start" function="insert"/>^<metamark ana="end"/>rful than <seg xml:id="C16_app758-fMS_start"/>thyself <seg xml:id="C16_app758-fMS_end"/>my height is superior <seg xml:id="C16_app760-fMS_start"/>
+            <seg th:eID="C16_app749-fMS"/>of <seg th:sID="C16_app751-fMS"/>anguish <seg th:eID="C16_app751-fMS"/>is dear <seg th:sID="C16_app753-fMS"/>to <seg th:eID="C16_app753-fMS"/>
+            <seg th:sID="C16_app754-fMS"/>me <seg th:eID="C16_app754-fMS"/>and I will defend <seg th:sID="C16_app756-fMS"/>
+            <lb n="c56-0125__main__29"/> it remember <seg th:eID="C16_app756-fMS"/>thou hast made me more<lb n="c56-0126__main__1"/> powe<metamark ana="start" function="insert"/>^<metamark ana="end"/>rful than <seg th:sID="C16_app758-fMS"/>thyself <seg th:eID="C16_app758-fMS"/>my height is superior <seg th:sID="C16_app760-fMS"/>
             <lb n="c56-0126__main__2"/> 
-            <seg xml:id="C16_app760-fMS_end"/>to <seg xml:id="C16_app762-fMS_start"/>yours <seg xml:id="C16_app762-fMS_end"/>my joints more supple. But I <seg xml:id="C16_app764-fMS_start"/>
+            <seg th:eID="C16_app760-fMS"/>to <seg th:sID="C16_app762-fMS"/>yours <seg th:eID="C16_app762-fMS"/>my joints more supple. But I <seg th:sID="C16_app764-fMS"/>
             <lb n="c56-0126__main__3"/>
             <del rend="strikethrough" xml:id="c56-0126__main__d2e26626">do not wish to trave</del>
-            <del rend="strikethrough" xml:id="c56-0126__main__d2e26632">you</del>will <seg xml:id="C16_app764-fMS_end"/>not be tempted to set myself in opposition to <seg xml:id="C16_app766-fMS_start"/>thee, <seg xml:id="C16_app766-fMS_end"/>I am thy <seg xml:id="C16_app768-fMS_start"/>
-            <lb n="c56-0126__main__4"/> creature <seg xml:id="C16_app768-fMS_end"/>and <seg xml:id="C16_app770-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0126__main__d2e26642">I</del> wi<mdel ana="start"/>th<mdel ana="end"/>ll <seg xml:id="C16_app770-fMS_end"/>be even mild and docile <seg xml:id="C16_app772-fMS_start"/>
+            <del rend="strikethrough" xml:id="c56-0126__main__d2e26632">you</del>will <seg th:eID="C16_app764-fMS"/>not be tempted to set myself in opposition to <seg th:sID="C16_app766-fMS"/>thee, <seg th:eID="C16_app766-fMS"/>I am thy <seg th:sID="C16_app768-fMS"/>
+            <lb n="c56-0126__main__4"/> creature <seg th:eID="C16_app768-fMS"/>and <seg th:sID="C16_app770-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0126__main__d2e26642">I</del> wi<mdel ana="start"/>th<mdel ana="end"/>ll <seg th:eID="C16_app770-fMS"/>be even mild and docile <seg th:sID="C16_app772-fMS"/>
             <lb n="c56-0126__main__5"/>
             <del rend="strikethrough" xml:id="c56-0126__main__d2e26661">to you</del>
             <lb n="c56-0126__left_margin__1"/>to thee,
-            <del rend="strikethrough" xml:id="c56-0126__main__d2e26681">my gentle master</del>my <seg xml:id="C16_app772-fMS_end"/>natural <seg xml:id="C16_app774-fMS_start"/>master <seg xml:id="C16_app774-fMS_end"/>&amp; king, <seg xml:id="C16_app776-fMS_start"/>– <seg xml:id="C16_app776-fMS_end"/>if <seg xml:id="C16_app778-fMS_start"/>
+            <del rend="strikethrough" xml:id="c56-0126__main__d2e26681">my gentle master</del>my <seg th:eID="C16_app772-fMS"/>natural <seg th:sID="C16_app774-fMS"/>master <seg th:eID="C16_app774-fMS"/>&amp; king, <seg th:sID="C16_app776-fMS"/>– <seg th:eID="C16_app776-fMS"/>if <seg th:sID="C16_app778-fMS"/>
             <del rend="strikethrough" xml:id="c56-0126__main__d2e26690">you</del>thou will <lb n="c56-0126__main__6"/> 
-            <seg xml:id="C16_app778-fMS_end"/>perform <seg xml:id="C16_app780-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0126__main__d2e26701">your</del>thy part also, <seg xml:id="C16_app780-fMS_end"/>the which thou owest <seg xml:id="C16_app782-fMS_start"/>me dut<mdel ana="start"/>y<mdel ana="end"/>ies<del rend="strikethrough" xml:id="c56-0126__main__d2e26719">towards</del>
+            <seg th:eID="C16_app778-fMS"/>perform <seg th:sID="C16_app780-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0126__main__d2e26701">your</del>thy part also, <seg th:eID="C16_app780-fMS"/>the which thou owest <seg th:sID="C16_app782-fMS"/>me dut<mdel ana="start"/>y<mdel ana="end"/>ies<del rend="strikethrough" xml:id="c56-0126__main__d2e26719">towards</del>
             <metamark ana="start" function="insert"/>^<metamark ana="end"/>
-            <seg xml:id="C16_app782-fMS_end"/>me. <seg xml:id="C16_app784-fMS_start"/>Oh <seg xml:id="C16_app784-fMS_end"/>Fran<lb n="c56-0126__main__7"/>kenstein, <seg xml:id="C16_app786-fMS_start"/>do <seg xml:id="C16_app786-fMS_end"/>not <seg xml:id="C16_app788-fMS_start"/>be <seg xml:id="C16_app788-fMS_end"/>equitable to every <seg xml:id="C16_app790-fMS_start"/>other <lb n="c56-0126__main__8"/> 
-            <seg xml:id="C16_app790-fMS_end"/>and trample upon me <seg xml:id="C16_app792-fMS_start"/>alone <seg xml:id="C16_app792-fMS_end"/>to whom thy <seg xml:id="C16_app794-fMS_start"/>
-            <lb n="c56-0126__main__9"/> justice <seg xml:id="C16_app794-fMS_end"/>&amp; even <seg xml:id="C16_app796-fMS_start"/>
+            <seg th:eID="C16_app782-fMS"/>me. <seg th:sID="C16_app784-fMS"/>Oh <seg th:eID="C16_app784-fMS"/>Fran<lb n="c56-0126__main__7"/>kenstein, <seg th:sID="C16_app786-fMS"/>do <seg th:eID="C16_app786-fMS"/>not <seg th:sID="C16_app788-fMS"/>be <seg th:eID="C16_app788-fMS"/>equitable to every <seg th:sID="C16_app790-fMS"/>other <lb n="c56-0126__main__8"/> 
+            <seg th:eID="C16_app790-fMS"/>and trample upon me <seg th:sID="C16_app792-fMS"/>alone <seg th:eID="C16_app792-fMS"/>to whom thy <seg th:sID="C16_app794-fMS"/>
+            <lb n="c56-0126__main__9"/> justice <seg th:eID="C16_app794-fMS"/>&amp; even <seg th:sID="C16_app796-fMS"/>
             <del rend="strikethrough" xml:id="c56-0126__main__d2e26749">mere</del>
-            <del rend="strikethrough" xml:id="c56-0126__main__d2e26752">charity</del>they clemency, thy affection <seg xml:id="C16_app796-fMS_end"/>is most <seg xml:id="C16_app798-fMS_start"/>
+            <del rend="strikethrough" xml:id="c56-0126__main__d2e26752">charity</del>they clemency, thy affection <seg th:eID="C16_app796-fMS"/>is most <seg th:sID="C16_app798-fMS"/>
             <lb n="c56-0126__main__10"/> 
-            <seg xml:id="C16_app798-fMS_end"/>due. <seg xml:id="C16_app800-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0126__main__d2e26761">Remb</del> Remember <seg xml:id="C16_app800-fMS_end"/>that I am <seg xml:id="C16_app802-fMS_start"/>
+            <seg th:eID="C16_app798-fMS"/>due. <seg th:sID="C16_app800-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0126__main__d2e26761">Remb</del> Remember <seg th:eID="C16_app800-fMS"/>that I am <seg th:sID="C16_app802-fMS"/>
             <lb n="c56-0126__main__11"/> 
-            <seg xml:id="C16_app802-fMS_end"/>thy <seg xml:id="C16_app804-fMS_start"/>creature – <seg xml:id="C16_app804-fMS_end"/>I ought to be Thy <seg xml:id="C16_app806-fMS_start"/>Adam – <mdel ana="start"/>or<mdel ana="end"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>but <seg xml:id="C16_app806-fMS_end"/>I am rather the <seg xml:id="C16_app808-fMS_start"/>
+            <seg th:eID="C16_app802-fMS"/>thy <seg th:sID="C16_app804-fMS"/>creature – <seg th:eID="C16_app804-fMS"/>I ought to be Thy <seg th:sID="C16_app806-fMS"/>Adam – <mdel ana="start"/>or<mdel ana="end"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>but <seg th:eID="C16_app806-fMS"/>I am rather the <seg th:sID="C16_app808-fMS"/>
             <lb n="c56-0126__main__12"/> 
-            <seg xml:id="C16_app808-fMS_end"/>fallen <seg xml:id="C16_app810-fMS_start"/>angel <del rend="strikethrough" xml:id="c56-0126__main__d2e26789">for</del>whom <seg xml:id="C16_app810-fMS_end"/>thou <seg xml:id="C16_app812-fMS_start"/>driven <seg xml:id="C16_app812-fMS_end"/>from joy for no <seg xml:id="C16_app814-fMS_start"/>misdeed; <seg xml:id="C16_app814-fMS_end"/>every where I see <seg xml:id="C16_app816-fMS_start"/>
-            <lb n="c56-0126__main__13"/> bliss <seg xml:id="C16_app816-fMS_end"/>from <seg xml:id="C16_app818-fMS_start"/>whi<del rend="overwritten" xml:id="c56-0126__main__d2e26803">ile</del>ch <seg xml:id="C16_app818-fMS_end"/>I <seg xml:id="C16_app820-fMS_start"/>alome <seg xml:id="C16_app820-fMS_end"/>am <seg xml:id="C16_app822-fMS_start"/>irrecoverably <lb n="c56-0126__main__14"/>
+            <seg th:eID="C16_app808-fMS"/>fallen <seg th:sID="C16_app810-fMS"/>angel <del rend="strikethrough" xml:id="c56-0126__main__d2e26789">for</del>whom <seg th:eID="C16_app810-fMS"/>thou <seg th:sID="C16_app812-fMS"/>driven <seg th:eID="C16_app812-fMS"/>from joy for no <seg th:sID="C16_app814-fMS"/>misdeed; <seg th:eID="C16_app814-fMS"/>every where I see <seg th:sID="C16_app816-fMS"/>
+            <lb n="c56-0126__main__13"/> bliss <seg th:eID="C16_app816-fMS"/>from <seg th:sID="C16_app818-fMS"/>whi<del rend="overwritten" xml:id="c56-0126__main__d2e26803">ile</del>ch <seg th:eID="C16_app818-fMS"/>I <seg th:sID="C16_app820-fMS"/>alome <seg th:eID="C16_app820-fMS"/>am <seg th:sID="C16_app822-fMS"/>irrecoverably <lb n="c56-0126__main__14"/>
             <del rend="strikethrough" xml:id="c56-0126__main__d2e26815">wretched</del>
-            <lb n="c56-0126__left_margin__1"/>excluded. <seg xml:id="C16_app822-fMS_end"/>I was benevolent and <seg xml:id="C16_app824-fMS_start"/>good: <lb n="c56-0126__main__15"/> 
-            <seg xml:id="C16_app824-fMS_end"/>misery made me a fiend. Make me <seg xml:id="C16_app826-fMS_start"/>
-            <lb n="c56-0126__main__16"/> happy <seg xml:id="C16_app826-fMS_end"/>and I shall again be <seg xml:id="C16_app828-fMS_start"/>virtuous<milestone unit="tei:p"/>
+            <lb n="c56-0126__left_margin__1"/>excluded. <seg th:eID="C16_app822-fMS"/>I was benevolent and <seg th:sID="C16_app824-fMS"/>good: <lb n="c56-0126__main__15"/> 
+            <seg th:eID="C16_app824-fMS"/>misery made me a fiend. Make me <seg th:sID="C16_app826-fMS"/>
+            <lb n="c56-0126__main__16"/> happy <seg th:eID="C16_app826-fMS"/>and I shall again be <seg th:sID="C16_app828-fMS"/>virtuous<milestone unit="tei:p"/>
             <lb n="c56-0126__main__17"/>
-            Begone replied I – <seg xml:id="C16_app828-fMS_end"/>I <seg xml:id="C16_app830-fMS_start"/>
+            Begone replied I – <seg th:eID="C16_app828-fMS"/>I <seg th:sID="C16_app830-fMS"/>
             <del rend="strikethrough" xml:id="c56-0126__main__d2e26838">cannot
             and</del>
             <lb n="c56-0126__main__18"/> 
-            <seg xml:id="C16_app830-fMS_end"/>will not hear you. there can be no <seg xml:id="C16_app832-fMS_start"/>
+            <seg th:eID="C16_app830-fMS"/>will not hear you. there can be no <seg th:sID="C16_app832-fMS"/>
             <lb n="c56-0126__main__19"/> 
-            <seg xml:id="C16_app832-fMS_end"/>community between you and <seg xml:id="C16_app834-fMS_start"/>I– <seg xml:id="C16_app834-fMS_end"/>We are <seg xml:id="C16_app836-fMS_start"/>
-            <lb n="c56-0126__main__20"/> enemies — Begone <seg xml:id="C16_app836-fMS_end"/>or <seg xml:id="C16_app838-fMS_start"/>
+            <seg th:eID="C16_app832-fMS"/>community between you and <seg th:sID="C16_app834-fMS"/>I– <seg th:eID="C16_app834-fMS"/>We are <seg th:sID="C16_app836-fMS"/>
+            <lb n="c56-0126__main__20"/> enemies — Begone <seg th:eID="C16_app836-fMS"/>or <seg th:sID="C16_app838-fMS"/>
             <del rend="strikethrough" xml:id="c56-0126__main__d2e26847">allhow</del>
-            <seg xml:id="C16_app838-fMS_end"/>let us try <seg xml:id="C16_app840-fMS_start"/>
+            <seg th:eID="C16_app838-fMS"/>let us try <seg th:sID="C16_app840-fMS"/>
             <lb n="c56-0126__main__21"/> 
-            <seg xml:id="C16_app840-fMS_end"/>our <seg xml:id="C16_app842-fMS_start"/>streng<del rend="strikethrough" xml:id="c56-0126__main__d2e26853">h</del>th <seg xml:id="C16_app842-fMS_end"/>in a <seg xml:id="C16_app844-fMS_start"/>fight <seg xml:id="C16_app844-fMS_end"/>in which <seg xml:id="C16_app846-fMS_start"/>
+            <seg th:eID="C16_app840-fMS"/>our <seg th:sID="C16_app842-fMS"/>streng<del rend="strikethrough" xml:id="c56-0126__main__d2e26853">h</del>th <seg th:eID="C16_app842-fMS"/>in a <seg th:sID="C16_app844-fMS"/>fight <seg th:eID="C16_app844-fMS"/>in which <seg th:sID="C16_app846-fMS"/>
             <lb n="c56-0126__main__22"/> 
-            <seg xml:id="C16_app846-fMS_end"/>one must <seg xml:id="C16_app848-fMS_start"/>fall."<milestone unit="tei:p"/>
-            <lb n="c56-0126__main__23"/>&gt;<del rend="strikethrough" xml:id="c56-0126__main__d2e26862">How</del> How <seg xml:id="C16_app848-fMS_end"/>can I move <seg xml:id="C16_app850-fMS_start"/>you? said the <lb n="c56-0126__main__24"/> fiend— <seg xml:id="C16_app850-fMS_end"/>Will no entreaties cause <seg xml:id="C16_app852-fMS_start"/>you <lb n="c56-0126__main__25"/> 
-            <seg xml:id="C16_app852-fMS_end"/>to turn a <seg xml:id="C16_app854-fMS_start"/>favourable <seg xml:id="C16_app854-fMS_end"/>
-            <seg xml:id="C16_app855-fMS_start"/>eye <seg xml:id="C16_app855-fMS_end"/>upon thy <seg xml:id="C16_app857-fMS_start"/>
-            <lb n="c56-0126__main__26"/> creature <seg xml:id="C16_app857-fMS_end"/>who implores thy goodness and <seg xml:id="C16_app859-fMS_start"/>
-            <lb n="c56-0126__main__27"/> compassion – <seg xml:id="C16_app859-fMS_end"/>Believe me, <seg xml:id="C16_app861-fMS_start"/>Frankenstien <lb n="c56-0126__main__28"/> 
-            <seg xml:id="C16_app861-fMS_end"/>I was <seg xml:id="C16_app863-fMS_start"/>benevolent —my <seg xml:id="C16_app863-fMS_end"/>soul glowed with<lb n="c56-0127__main__1"/> love and <seg xml:id="C16_app865-fMS_start"/>humanity <seg xml:id="C16_app865-fMS_end"/>but am I not <seg xml:id="C16_app867-fMS_start"/>alone <lb n="c56-0127__main__2"/> 
-            <seg xml:id="C16_app867-fMS_end"/>miserably <seg xml:id="C16_app869-fMS_start"/>alone – None to love me but <lb n="c56-0127__main__3"/> all fly<del rend="strikethrough" xml:id="c56-0127__main__d2e26896">and</del> 
-            <seg xml:id="C16_app869-fMS_end"/>You, my <seg xml:id="C16_app871-fMS_start"/>creator <seg xml:id="C16_app871-fMS_end"/>abhor <seg xml:id="C16_app873-fMS_start"/>me <lb n="c56-0127__main__4"/> 
-            <seg xml:id="C16_app873-fMS_end"/>What hope <seg xml:id="C16_app875-fMS_start"/>
+            <seg th:eID="C16_app846-fMS"/>one must <seg th:sID="C16_app848-fMS"/>fall."<milestone unit="tei:p"/>
+            <lb n="c56-0126__main__23"/>&gt;<del rend="strikethrough" xml:id="c56-0126__main__d2e26862">How</del> How <seg th:eID="C16_app848-fMS"/>can I move <seg th:sID="C16_app850-fMS"/>you? said the <lb n="c56-0126__main__24"/> fiend— <seg th:eID="C16_app850-fMS"/>Will no entreaties cause <seg th:sID="C16_app852-fMS"/>you <lb n="c56-0126__main__25"/> 
+            <seg th:eID="C16_app852-fMS"/>to turn a <seg th:sID="C16_app854-fMS"/>favourable <seg th:eID="C16_app854-fMS"/>
+            <seg th:sID="C16_app855-fMS"/>eye <seg th:eID="C16_app855-fMS"/>upon thy <seg th:sID="C16_app857-fMS"/>
+            <lb n="c56-0126__main__26"/> creature <seg th:eID="C16_app857-fMS"/>who implores thy goodness and <seg th:sID="C16_app859-fMS"/>
+            <lb n="c56-0126__main__27"/> compassion – <seg th:eID="C16_app859-fMS"/>Believe me, <seg th:sID="C16_app861-fMS"/>Frankenstien <lb n="c56-0126__main__28"/> 
+            <seg th:eID="C16_app861-fMS"/>I was <seg th:sID="C16_app863-fMS"/>benevolent —my <seg th:eID="C16_app863-fMS"/>soul glowed with<lb n="c56-0127__main__1"/> love and <seg th:sID="C16_app865-fMS"/>humanity <seg th:eID="C16_app865-fMS"/>but am I not <seg th:sID="C16_app867-fMS"/>alone <lb n="c56-0127__main__2"/> 
+            <seg th:eID="C16_app867-fMS"/>miserably <seg th:sID="C16_app869-fMS"/>alone – None to love me but <lb n="c56-0127__main__3"/> all fly<del rend="strikethrough" xml:id="c56-0127__main__d2e26896">and</del> 
+            <seg th:eID="C16_app869-fMS"/>You, my <seg th:sID="C16_app871-fMS"/>creator <seg th:eID="C16_app871-fMS"/>abhor <seg th:sID="C16_app873-fMS"/>me <lb n="c56-0127__main__4"/> 
+            <seg th:eID="C16_app873-fMS"/>What hope <seg th:sID="C16_app875-fMS"/>
             <del rend="strikethrough" xml:id="c56-0127__main__d2e26903">have I then
-            from</del>can <seg xml:id="C16_app875-fMS_end"/>I gather from your <seg xml:id="C16_app877-fMS_start"/>
-            <lb n="c56-0127__main__5"/> fellow creatures <seg xml:id="C16_app877-fMS_end"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>who owe me <seg xml:id="C16_app879-fMS_start"/>nothing.—They <seg xml:id="C16_app879-fMS_end"/>spurn and <seg xml:id="C16_app881-fMS_start"/>
+            from</del>can <seg th:eID="C16_app875-fMS"/>I gather from your <seg th:sID="C16_app877-fMS"/>
+            <lb n="c56-0127__main__5"/> fellow creatures <seg th:eID="C16_app877-fMS"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>who owe me <seg th:sID="C16_app879-fMS"/>nothing.—They <seg th:eID="C16_app879-fMS"/>spurn and <seg th:sID="C16_app881-fMS"/>
             <del rend="strikethrough" xml:id="c56-0127__main__d2e26926">abhor</del>
             <metamark ana="start" function="insert"/>^<metamark ana="end"/>hate<lb n="c56-0127__main__6"/> 
-            <seg xml:id="C16_app881-fMS_end"/>me. The <seg xml:id="C16_app883-fMS_start"/>desart <seg xml:id="C16_app883-fMS_end"/>mountains and <seg xml:id="C16_app885-fMS_start"/>mourful <lb n="c56-0127__main__7"/> 
-            <seg xml:id="C16_app885-fMS_end"/>glaciers are my <seg xml:id="C16_app887-fMS_start"/>refuge—I <seg xml:id="C16_app887-fMS_end"/>have wandered <seg xml:id="C16_app889-fMS_start"/>
+            <seg th:eID="C16_app881-fMS"/>me. The <seg th:sID="C16_app883-fMS"/>desart <seg th:eID="C16_app883-fMS"/>mountains and <seg th:sID="C16_app885-fMS"/>mourful <lb n="c56-0127__main__7"/> 
+            <seg th:eID="C16_app885-fMS"/>glaciers are my <seg th:sID="C16_app887-fMS"/>refuge—I <seg th:eID="C16_app887-fMS"/>have wandered <seg th:sID="C16_app889-fMS"/>
             <lb n="c56-0127__main__8"/> 
-            <seg xml:id="C16_app889-fMS_end"/>here many <seg xml:id="C16_app891-fMS_start"/>days– <seg xml:id="C16_app891-fMS_end"/>The caves of <seg xml:id="C16_app893-fMS_start"/>ice <del rend="strikethrough" xml:id="c56-0127__main__d2e26948">are
+            <seg th:eID="C16_app889-fMS"/>here many <seg th:sID="C16_app891-fMS"/>days– <seg th:eID="C16_app891-fMS"/>The caves of <seg th:sID="C16_app893-fMS"/>ice <del rend="strikethrough" xml:id="c56-0127__main__d2e26948">are
             my</del>which<lb n="c56-0127__main__9"/> 
-            <seg xml:id="C16_app893-fMS_end"/>I only do not <seg xml:id="C16_app895-fMS_start"/>fear <seg xml:id="C16_app895-fMS_end"/>are a dwelling to <seg xml:id="C16_app897-fMS_start"/>me <seg xml:id="C16_app897-fMS_end"/>and <seg xml:id="C16_app899-fMS_start"/>
+            <seg th:eID="C16_app893-fMS"/>I only do not <seg th:sID="C16_app895-fMS"/>fear <seg th:eID="C16_app895-fMS"/>are a dwelling to <seg th:sID="C16_app897-fMS"/>me <seg th:eID="C16_app897-fMS"/>and <seg th:sID="C16_app899-fMS"/>
             <lb n="c56-0127__main__10"/> 
-            <seg xml:id="C16_app899-fMS_end"/>the only one which man does not <seg xml:id="C16_app901-fMS_start"/>grudge <lb n="c56-0127__main__11"/>
+            <seg th:eID="C16_app899-fMS"/>the only one which man does not <seg th:sID="C16_app901-fMS"/>grudge <lb n="c56-0127__main__11"/>
             <del rend="strikethrough" xml:id="c56-0127__main__d2e26964">to me</del> —
-            <del rend="strikethrough" xml:id="c56-0127__main__d2e26967">And food</del> – <seg xml:id="C16_app901-fMS_end"/>These bleak skies I <seg xml:id="C16_app903-fMS_start"/>
-            <lb n="c56-0127__main__12"/> hail <seg xml:id="C16_app903-fMS_end"/>for they are kinder to me than <seg xml:id="C16_app905-fMS_start"/>
+            <del rend="strikethrough" xml:id="c56-0127__main__d2e26967">And food</del> – <seg th:eID="C16_app901-fMS"/>These bleak skies I <seg th:sID="C16_app903-fMS"/>
+            <lb n="c56-0127__main__12"/> hail <seg th:eID="C16_app903-fMS"/>for they are kinder to me than <seg th:sID="C16_app905-fMS"/>
             <del rend="strikethrough" xml:id="c56-0127__main__d2e26978">man</del>your fellow <del rend="strikethrough" xml:id="c56-0127__main__d2e26983">creatures</del>
             <metamark ana="start" function="insert"/>^<metamark ana="end"/>beings<lb n="c56-0127__main__13"/>
             <del rend="strikethrough" xml:id="c56-0127__main__d2e26999">and</del>
@@ -626,200 +628,200 @@
             <del rend="strikethrough" xml:id="c56-0127__main__d2e27037">they</del>
             <mdel/>
             <lb n="c56-0127__left_margin__1"/> 
-            <seg xml:id="C16_app905-fMS_end"/>If the <seg xml:id="C16_app907-fMS_start"/>
+            <seg th:eID="C16_app905-fMS"/>If the <seg th:sID="C16_app907-fMS"/>
             <lb n="c56-0127__left_margin__2"/> 
-            <seg xml:id="C16_app907-fMS_end"/>multitude <seg xml:id="C16_app909-fMS_start"/>
+            <seg th:eID="C16_app907-fMS"/>multitude <seg th:sID="C16_app909-fMS"/>
             <lb n="c56-0127__left_margin__3"/> 
-            <seg xml:id="C16_app909-fMS_end"/>of mankind knew of my <seg xml:id="C16_app911-fMS_start"/>existence <seg xml:id="C16_app911-fMS_end"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>they would as <seg xml:id="C16_app915-fMS_start"/>you<metamark ana="start" function="insert"/>^<metamark ana="end"/>do<lb n="c56-0127__main__15"/> 
-            <seg xml:id="C16_app915-fMS_end"/>arm themselves for my <seg xml:id="C16_app917-fMS_start"/>destruction – <del rend="strikethrough" xml:id="c56-0127__main__d2e27091">And</del>
+            <seg th:eID="C16_app909-fMS"/>of mankind knew of my <seg th:sID="C16_app911-fMS"/>existence <seg th:eID="C16_app911-fMS"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>they would as <seg th:sID="C16_app915-fMS"/>you<metamark ana="start" function="insert"/>^<metamark ana="end"/>do<lb n="c56-0127__main__15"/> 
+            <seg th:eID="C16_app915-fMS"/>arm themselves for my <seg th:sID="C16_app917-fMS"/>destruction – <del rend="strikethrough" xml:id="c56-0127__main__d2e27091">And</del>
             <lb n="c56-0127__main__16"/>
-            <mdel ana="start"/>s<mdel ana="end"/>Shall <seg xml:id="C16_app917-fMS_end"/>I not then hate them who abhor <seg xml:id="C16_app919-fMS_start"/>me <lb n="c56-0127__main__17"/> 
-            <seg xml:id="C16_app919-fMS_end"/>I <metamark ana="start" function="insert"/>^<metamark ana="end"/>will keep no <seg xml:id="C16_app921-fMS_start"/>
+            <mdel ana="start"/>s<mdel ana="end"/>Shall <seg th:eID="C16_app917-fMS"/>I not then hate them who abhor <seg th:sID="C16_app919-fMS"/>me <lb n="c56-0127__main__17"/> 
+            <seg th:eID="C16_app919-fMS"/>I <metamark ana="start" function="insert"/>^<metamark ana="end"/>will keep no <seg th:sID="C16_app921-fMS"/>
             <del rend="strikethrough" xml:id="c56-0127__main__d2e27123">temm</del> 
-            <seg xml:id="C16_app921-fMS_end"/>terms with <metamark ana="start" function="insert"/>^<metamark ana="end"/>my <seg xml:id="C16_app923-fMS_start"/>enemies <del rend="strikethrough" xml:id="c56-0127__main__d2e27139">and</del>
+            <seg th:eID="C16_app921-fMS"/>terms with <metamark ana="start" function="insert"/>^<metamark ana="end"/>my <seg th:sID="C16_app923-fMS"/>enemies <del rend="strikethrough" xml:id="c56-0127__main__d2e27139">and</del>
             <lb n="c56-0127__main__18"/> 
-            <seg xml:id="C16_app923-fMS_end"/>I am <seg xml:id="C16_app925-fMS_start"/>miserable <seg xml:id="C16_app925-fMS_end"/>&amp; they shall share my <seg xml:id="C16_app927-fMS_start"/>
-            <lb n="c56-0127__main__19"/> wretchedness– <seg xml:id="C16_app927-fMS_end"/>Yet it is in your <seg xml:id="C16_app929-fMS_start"/>pow<mdel ana="start"/>re<mdel ana="end"/>er<lb n="c56-0127__main__20"/> 
-            <seg xml:id="C16_app929-fMS_end"/>to recompense <seg xml:id="C16_app931-fMS_start"/>me <seg xml:id="C16_app931-fMS_end"/>and deliver them from <seg xml:id="C16_app933-fMS_start"/>
+            <seg th:eID="C16_app923-fMS"/>I am <seg th:sID="C16_app925-fMS"/>miserable <seg th:eID="C16_app925-fMS"/>&amp; they shall share my <seg th:sID="C16_app927-fMS"/>
+            <lb n="c56-0127__main__19"/> wretchedness– <seg th:eID="C16_app927-fMS"/>Yet it is in your <seg th:sID="C16_app929-fMS"/>pow<mdel ana="start"/>re<mdel ana="end"/>er<lb n="c56-0127__main__20"/> 
+            <seg th:eID="C16_app929-fMS"/>to recompense <seg th:sID="C16_app931-fMS"/>me <seg th:eID="C16_app931-fMS"/>and deliver them from <seg th:sID="C16_app933-fMS"/>
             <lb n="c56-0127__main__21"/> 
-            <seg xml:id="C16_app933-fMS_end"/>an evil <seg xml:id="C16_app935-fMS_start"/>which<metamark ana="start" function="insert"/>^<metamark ana="end"/>it<lb n="c56-0127__left_margin__1"/> 
-            <seg xml:id="C16_app935-fMS_end"/>only remains <seg xml:id="C16_app937-fMS_start"/>
+            <seg th:eID="C16_app933-fMS"/>an evil <seg th:sID="C16_app935-fMS"/>which<metamark ana="start" function="insert"/>^<metamark ana="end"/>it<lb n="c56-0127__left_margin__1"/> 
+            <seg th:eID="C16_app935-fMS"/>only remains <seg th:sID="C16_app937-fMS"/>
             <lb n="c56-0127__left_margin__2"/> 
-            <seg xml:id="C16_app937-fMS_end"/>for you to <seg xml:id="C16_app939-fMS_start"/>
+            <seg th:eID="C16_app937-fMS"/>for you to <seg th:sID="C16_app939-fMS"/>
             <lb n="c56-0127__left_margin__3"/> 
-            <seg xml:id="C16_app939-fMS_end"/>make so <seg xml:id="C16_app941-fMS_start"/>
+            <seg th:eID="C16_app939-fMS"/>make so <seg th:sID="C16_app941-fMS"/>
             <lb n="c56-0127__left_margin__4"/> 
-            <seg xml:id="C16_app941-fMS_end"/>great, that <seg xml:id="C16_app943-fMS_start"/>
+            <seg th:eID="C16_app941-fMS"/>great, that <seg th:sID="C16_app943-fMS"/>
             <lb n="c56-0127__left_margin__5"/> 
-            <seg xml:id="C16_app943-fMS_end"/>not only you <lb n="c56-0127__left_margin__6"/>&amp; your <seg xml:id="C16_app945-fMS_start"/>family <lb n="c56-0127__left_margin__7"/> 
-            <seg xml:id="C16_app945-fMS_end"/>but thousands <seg xml:id="C16_app947-fMS_start"/>
+            <seg th:eID="C16_app943-fMS"/>not only you <lb n="c56-0127__left_margin__6"/>&amp; your <seg th:sID="C16_app945-fMS"/>family <lb n="c56-0127__left_margin__7"/> 
+            <seg th:eID="C16_app945-fMS"/>but thousands <seg th:sID="C16_app947-fMS"/>
             <lb n="c56-0127__left_margin__8"/> 
-            <seg xml:id="C16_app947-fMS_end"/>of <seg xml:id="C16_app949-fMS_start"/>others <seg xml:id="C16_app949-fMS_end"/>shall <seg xml:id="C16_app951-fMS_start"/>
+            <seg th:eID="C16_app947-fMS"/>of <seg th:sID="C16_app949-fMS"/>others <seg th:eID="C16_app949-fMS"/>shall <seg th:sID="C16_app951-fMS"/>
             <lb n="c56-0127__left_margin__9"/> 
-            <seg xml:id="C16_app951-fMS_end"/>be swallowed <seg xml:id="C16_app953-fMS_start"/>
+            <seg th:eID="C16_app951-fMS"/>be swallowed <seg th:sID="C16_app953-fMS"/>
             <lb n="c56-0127__left_margin__10"/> 
-            <seg xml:id="C16_app953-fMS_end"/>up in the <seg xml:id="C16_app955-fMS_start"/>
+            <seg th:eID="C16_app953-fMS"/>up in the <seg th:sID="C16_app955-fMS"/>
             <lb n="c56-0127__left_margin__11"/> 
-            <seg xml:id="C16_app955-fMS_end"/>whirlwinds of <seg xml:id="C16_app957-fMS_start"/>
+            <seg th:eID="C16_app955-fMS"/>whirlwinds of <seg th:sID="C16_app957-fMS"/>
             <lb n="c56-0127__left_margin__12"/> 
-            <seg xml:id="C16_app957-fMS_end"/>its <seg xml:id="C16_app959-fMS_start"/>rage.<del rend="strikethrough" xml:id="c56-0127__main__d2e27212">you</del>
+            <seg th:eID="C16_app957-fMS"/>its <seg th:sID="C16_app959-fMS"/>rage.<del rend="strikethrough" xml:id="c56-0127__main__d2e27212">you</del>
             <del rend="strikethrough" xml:id="c56-0127__main__d2e27218">have bestowed on them</del>. <lb n="c56-0127__main__22"/> 
-            <seg xml:id="C16_app959-fMS_end"/>Let your compassion <seg xml:id="C16_app961-fMS_start"/>and justice <seg xml:id="C16_app961-fMS_end"/>be <seg xml:id="C16_app963-fMS_start"/>
-            <lb n="c56-0127__main__23"/> moved <seg xml:id="C16_app963-fMS_end"/>and do <seg xml:id="C16_app965-fMS_start"/>not <seg xml:id="C16_app965-fMS_end"/>disdain me. Listen <seg xml:id="C16_app967-fMS_start"/>
+            <seg th:eID="C16_app959-fMS"/>Let your compassion <seg th:sID="C16_app961-fMS"/>and justice <seg th:eID="C16_app961-fMS"/>be <seg th:sID="C16_app963-fMS"/>
+            <lb n="c56-0127__main__23"/> moved <seg th:eID="C16_app963-fMS"/>and do <seg th:sID="C16_app965-fMS"/>not <seg th:eID="C16_app965-fMS"/>disdain me. Listen <seg th:sID="C16_app967-fMS"/>
             <lb n="c56-0127__main__24"/> 
-            <seg xml:id="C16_app967-fMS_end"/>to my <seg xml:id="C16_app969-fMS_start"/>tale ! <seg xml:id="C16_app969-fMS_end"/>when you have heard <seg xml:id="C16_app971-fMS_start"/>that <lb n="c56-0127__main__25"/> deny <seg xml:id="C16_app971-fMS_end"/>or <seg xml:id="C16_app973-fMS_start"/>comiserate<del rend="strikethrough" xml:id="c56-0127__main__d2e27234">d</del> me <seg xml:id="C16_app973-fMS_end"/>as you shall <seg xml:id="C16_app975-fMS_start"/>
+            <seg th:eID="C16_app967-fMS"/>to my <seg th:sID="C16_app969-fMS"/>tale ! <seg th:eID="C16_app969-fMS"/>when you have heard <seg th:sID="C16_app971-fMS"/>that <lb n="c56-0127__main__25"/> deny <seg th:eID="C16_app971-fMS"/>or <seg th:sID="C16_app973-fMS"/>comiserate<del rend="strikethrough" xml:id="c56-0127__main__d2e27234">d</del> me <seg th:eID="C16_app973-fMS"/>as you shall <seg th:sID="C16_app975-fMS"/>
             <lb n="c56-0127__main__26"/> 
-            <seg xml:id="C16_app975-fMS_end"/>judge that I <seg xml:id="C16_app977-fMS_start"/>deserve–. <seg xml:id="C16_app977-fMS_end"/>But <seg xml:id="C16_app979-fMS_start"/>
+            <seg th:eID="C16_app975-fMS"/>judge that I <seg th:sID="C16_app977-fMS"/>deserve–. <seg th:eID="C16_app977-fMS"/>But <seg th:sID="C16_app979-fMS"/>
             <del rend="strikethrough" xml:id="c56-0127__main__d2e27248">here</del>
             <metamark ana="start" function="insert"/>^<metamark ana="end"/>hear me –The <lb n="c56-0127__main__27"/> 
-            <seg xml:id="C16_app979-fMS_end"/>guilty <seg xml:id="C16_app981-fMS_start"/>
+            <seg th:eID="C16_app979-fMS"/>guilty <seg th:sID="C16_app981-fMS"/>
             <del rend="strikethrough" xml:id="c56-0127__main__d2e27263">may</del> 
-            <seg xml:id="C16_app981-fMS_end"/>are <seg xml:id="C16_app983-fMS_start"/>allowed <seg xml:id="C16_app983-fMS_end"/>by human laws, <seg xml:id="C16_app985-fMS_start"/>
+            <seg th:eID="C16_app981-fMS"/>are <seg th:sID="C16_app983-fMS"/>allowed <seg th:eID="C16_app983-fMS"/>by human laws, <seg th:sID="C16_app985-fMS"/>
             <lb n="c56-0127__main__28"/> 
-            <seg xml:id="C16_app985-fMS_end"/>bloody as they <seg xml:id="C16_app987-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0127__main__d2e27270">are</del>may <seg xml:id="C16_app987-fMS_end"/>
-            <seg xml:id="C16_app988-fMS_start"/>be, <seg xml:id="C16_app988-fMS_end"/>to speak in their own defence <lb n="c56-0127__main__29"/>before they
-            are <seg xml:id="C16_app990-fMS_start"/>condemned <seg xml:id="C16_app990-fMS_end"/>Listen to <seg xml:id="C16_app992-fMS_start"/>me Frankenstein <del rend="strikethrough" xml:id="c56-0127__main__d2e27286">for you are</del>
+            <seg th:eID="C16_app985-fMS"/>bloody as they <seg th:sID="C16_app987-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0127__main__d2e27270">are</del>may <seg th:eID="C16_app987-fMS"/>
+            <seg th:sID="C16_app988-fMS"/>be, <seg th:eID="C16_app988-fMS"/>to speak in their own defence <lb n="c56-0127__main__29"/>before they
+            are <seg th:sID="C16_app990-fMS"/>condemned <seg th:eID="C16_app990-fMS"/>Listen to <seg th:sID="C16_app992-fMS"/>me Frankenstein <del rend="strikethrough" xml:id="c56-0127__main__d2e27286">for you are</del>
             <lb n="c56-0128__main__1"/> 
-            <seg xml:id="C16_app992-fMS_end"/>you accuse me of <seg xml:id="C16_app994-fMS_start"/>muder <seg xml:id="C16_app994-fMS_end"/>and yet <seg xml:id="C16_app996-fMS_start"/>
+            <seg th:eID="C16_app992-fMS"/>you accuse me of <seg th:sID="C16_app994-fMS"/>muder <seg th:eID="C16_app994-fMS"/>and yet <seg th:sID="C16_app996-fMS"/>
             <del rend="strikethrough" xml:id="c56-0128__main__d2e27299">wh</del>
             <lb n="c56-0128__main__2"/> 
-            <seg xml:id="C16_app996-fMS_end"/>you <seg xml:id="C16_app998-fMS_start"/>would <seg xml:id="C16_app998-fMS_end"/>with a <seg xml:id="C16_app1000-fMS_start"/>
+            <seg th:eID="C16_app996-fMS"/>you <seg th:sID="C16_app998-fMS"/>would <seg th:eID="C16_app998-fMS"/>with a <seg th:sID="C16_app1000-fMS"/>
             <del rend="strikethrough" xml:id="c56-0128__main__d2e27304">s</del> satisfi<del rend="strikethrough" xml:id="c56-0128__main__d2e27310">c</del>ed
             conscience <lb n="c56-0128__main__3"/> 
-            <seg xml:id="C16_app1000-fMS_end"/>destroy <seg xml:id="C16_app1002-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0128__main__d2e27317">thy</del>thine <seg xml:id="C16_app1002-fMS_end"/>own <seg xml:id="C16_app1004-fMS_start"/>creature –Oh <seg xml:id="C16_app1004-fMS_end"/>praise the eter<lb n="c56-0128__main__4"/>nal justice of <seg xml:id="C16_app1006-fMS_start"/>man!—Yet <seg xml:id="C16_app1006-fMS_end"/>I ask you <seg xml:id="C16_app1008-fMS_start"/>
+            <seg th:eID="C16_app1000-fMS"/>destroy <seg th:sID="C16_app1002-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0128__main__d2e27317">thy</del>thine <seg th:eID="C16_app1002-fMS"/>own <seg th:sID="C16_app1004-fMS"/>creature –Oh <seg th:eID="C16_app1004-fMS"/>praise the eter<lb n="c56-0128__main__4"/>nal justice of <seg th:sID="C16_app1006-fMS"/>man!—Yet <seg th:eID="C16_app1006-fMS"/>I ask you <seg th:sID="C16_app1008-fMS"/>
             <lb n="c56-0128__main__5"/> 
-            <seg xml:id="C16_app1008-fMS_end"/>not to spare <seg xml:id="C16_app1010-fMS_start"/>me, <seg xml:id="C16_app1010-fMS_end"/>listen and <seg xml:id="C16_app1015-fMS_start"/>then, <seg xml:id="C16_app1015-fMS_end"/>if <seg xml:id="C16_app1017-fMS_start"/>
+            <seg th:eID="C16_app1008-fMS"/>not to spare <seg th:sID="C16_app1010-fMS"/>me, <seg th:eID="C16_app1010-fMS"/>listen and <seg th:sID="C16_app1015-fMS"/>then, <seg th:eID="C16_app1015-fMS"/>if <seg th:sID="C16_app1017-fMS"/>
             <lb n="c56-0128__main__6"/> 
-            <seg xml:id="C16_app1017-fMS_end"/>you <seg xml:id="C16_app1019-fMS_start"/>
-            <metamark ana="start"/>^<metamark ana="end"/>can <seg xml:id="C16_app1019-fMS_end"/>and if you will, destroy the work of your <seg xml:id="C16_app1021-fMS_start"/>hands."<milestone unit="tei:p"/>
+            <seg th:eID="C16_app1017-fMS"/>you <seg th:sID="C16_app1019-fMS"/>
+            <metamark ana="start"/>^<metamark ana="end"/>can <seg th:eID="C16_app1019-fMS"/>and if you will, destroy the work of your <seg th:sID="C16_app1021-fMS"/>hands."<milestone unit="tei:p"/>
             <lb n="c56-0128__main__7"/>
-            "Why" cried I–"do <seg xml:id="C16_app1021-fMS_end"/>you <seg xml:id="C16_app1023-fMS_start"/>
+            "Why" cried I–"do <seg th:eID="C16_app1021-fMS"/>you <seg th:sID="C16_app1023-fMS"/>
             <del rend="strikethrough" xml:id="c56-0128__main__d2e27355">ever</del> 
-            <seg xml:id="C16_app1023-fMS_end"/>call to my <seg xml:id="C16_app1025-fMS_start"/>
+            <seg th:eID="C16_app1023-fMS"/>call to my <seg th:sID="C16_app1025-fMS"/>
             <lb n="c56-0128__main__8"/> 
-            <seg xml:id="C16_app1025-fMS_end"/>
-            <seg xml:id="C16_app1026-fMS_start"/>remembrance <seg xml:id="C16_app1026-fMS_end"/>
-            <seg xml:id="C16_app1027-fMS_start"/>
+            <seg th:eID="C16_app1025-fMS"/>
+            <seg th:sID="C16_app1026-fMS"/>remembrance <seg th:eID="C16_app1026-fMS"/>
+            <seg th:sID="C16_app1027-fMS"/>
             <del rend="strikethrough" xml:id="c56-0128__main__d2e27360">those</del> 
-            <seg xml:id="C16_app1027-fMS_end"/>
-            <seg xml:id="C16_app1028-fMS_start"/>circumstances <seg xml:id="C16_app1028-fMS_end"/>of which <seg xml:id="C16_app1030-fMS_start"/>
+            <seg th:eID="C16_app1027-fMS"/>
+            <seg th:sID="C16_app1028-fMS"/>circumstances <seg th:eID="C16_app1028-fMS"/>of which <seg th:sID="C16_app1030-fMS"/>
             <lb n="c56-0128__main__9"/> 
-            <seg xml:id="C16_app1030-fMS_end"/>I shudder to <seg xml:id="C16_app1032-fMS_start"/>reflect <del rend="strikethrough" xml:id="c56-0128__main__d2e27370">ever
-            re occured</del>that <seg xml:id="C16_app1032-fMS_end"/>I have been the<lb n="c56-0128__left_margin__1"/> miserable <seg xml:id="C16_app1034-fMS_start"/>
+            <seg th:eID="C16_app1030-fMS"/>I shudder to <seg th:sID="C16_app1032-fMS"/>reflect <del rend="strikethrough" xml:id="c56-0128__main__d2e27370">ever
+            re occured</del>that <seg th:eID="C16_app1032-fMS"/>I have been the<lb n="c56-0128__left_margin__1"/> miserable <seg th:sID="C16_app1034-fMS"/>
             <lb n="c56-0128__left_margin__2"/> 
-            <seg xml:id="C16_app1034-fMS_end"/>origin <lb n="c56-0128__left_margin__3"/>&amp; <seg xml:id="C16_app1036-fMS_start"/>author – <lb n="c56-0128__main__10"/> 
-            <seg xml:id="C16_app1036-fMS_end"/>Cursed be the <seg xml:id="C16_app1038-fMS_start"/>
+            <seg th:eID="C16_app1034-fMS"/>origin <lb n="c56-0128__left_margin__3"/>&amp; <seg th:sID="C16_app1036-fMS"/>author – <lb n="c56-0128__main__10"/> 
+            <seg th:eID="C16_app1036-fMS"/>Cursed be the <seg th:sID="C16_app1038-fMS"/>
             <del rend="strikethrough" xml:id="c56-0128__main__d2e27395">night o
             during which you</del>
-            <lb n="c56-0128__main__11"/> day <seg xml:id="C16_app1038-fMS_end"/>in which you first saw <seg xml:id="C16_app1040-fMS_start"/>light, <seg xml:id="C16_app1040-fMS_end"/>cursed <seg xml:id="C16_app1042-fMS_start"/>
+            <lb n="c56-0128__main__11"/> day <seg th:eID="C16_app1038-fMS"/>in which you first saw <seg th:sID="C16_app1040-fMS"/>light, <seg th:eID="C16_app1040-fMS"/>cursed <seg th:sID="C16_app1042-fMS"/>
             <lb n="c56-0128__main__12"/> 
-            <seg xml:id="C16_app1042-fMS_end"/>(although I curse myself) be the hands <seg xml:id="C16_app1044-fMS_start"/>
+            <seg th:eID="C16_app1042-fMS"/>(although I curse myself) be the hands <seg th:sID="C16_app1044-fMS"/>
             <lb n="c56-0128__main__13"/> 
-            <seg xml:id="C16_app1044-fMS_end"/>that formed <seg xml:id="C16_app1046-fMS_start"/>you!— <seg xml:id="C16_app1046-fMS_end"/>You have made <seg xml:id="C16_app1048-fMS_start"/>
+            <seg th:eID="C16_app1044-fMS"/>that formed <seg th:sID="C16_app1046-fMS"/>you!— <seg th:eID="C16_app1046-fMS"/>You have made <seg th:sID="C16_app1048-fMS"/>
             <lb n="c56-0128__main__14"/> 
-            <seg xml:id="C16_app1048-fMS_end"/>me wretched beyond <seg xml:id="C16_app1050-fMS_start"/>expression <metamark ana="start"/>^<metamark ana="end"/>You <seg xml:id="C16_app1050-fMS_end"/>have left me no power to <seg xml:id="C16_app1052-fMS_start"/>considerwhether <seg xml:id="C16_app1052-fMS_end"/>I am just to <seg xml:id="C16_app1054-fMS_start"/>you <seg xml:id="C16_app1054-fMS_end"/>or <seg xml:id="C16_app1056-fMS_start"/>no. begone, <lb n="c56-0128__main__15"/> 
-            <seg xml:id="C16_app1056-fMS_end"/>relieve me from <seg xml:id="C16_app1058-fMS_start"/>
+            <seg th:eID="C16_app1048-fMS"/>me wretched beyond <seg th:sID="C16_app1050-fMS"/>expression <metamark ana="start"/>^<metamark ana="end"/>You <seg th:eID="C16_app1050-fMS"/>have left me no power to <seg th:sID="C16_app1052-fMS"/>considerwhether <seg th:eID="C16_app1052-fMS"/>I am just to <seg th:sID="C16_app1054-fMS"/>you <seg th:eID="C16_app1054-fMS"/>or <seg th:sID="C16_app1056-fMS"/>no. begone, <lb n="c56-0128__main__15"/> 
+            <seg th:eID="C16_app1056-fMS"/>relieve me from <seg th:sID="C16_app1058-fMS"/>
             <del rend="strikethrough" xml:id="c56-0128__main__d2e27426">they</del>your sight<milestone unit="tei:p"/>
-            <lb n="c56-0128__main__16"/>Thus <seg xml:id="C16_app1058-fMS_end"/>I relieve <seg xml:id="C16_app1060-fMS_start"/>you, Creator<lb n="c56-0128__main__17"/>he replied &amp;<del rend="strikethrough" xml:id="c56-0128__main__d2e27446">He</del> 
-            <seg xml:id="C16_app1060-fMS_end"/>placed his <seg xml:id="C16_app1062-fMS_start"/>abhorred hand<del rend="strikethrough" xml:id="c56-0128__main__d2e27451">s</del> 
-            <seg xml:id="C16_app1062-fMS_end"/>before <seg xml:id="C16_app1064-fMS_start"/>
+            <lb n="c56-0128__main__16"/>Thus <seg th:eID="C16_app1058-fMS"/>I relieve <seg th:sID="C16_app1060-fMS"/>you, Creator<lb n="c56-0128__main__17"/>he replied &amp;<del rend="strikethrough" xml:id="c56-0128__main__d2e27446">He</del> 
+            <seg th:eID="C16_app1060-fMS"/>placed his <seg th:sID="C16_app1062-fMS"/>abhorred hand<del rend="strikethrough" xml:id="c56-0128__main__d2e27451">s</del> 
+            <seg th:eID="C16_app1062-fMS"/>before <seg th:sID="C16_app1064-fMS"/>
             <lb n="c56-0128__main__18"/> 
-            <seg xml:id="C16_app1064-fMS_end"/>my <seg xml:id="C16_app1066-fMS_start"/>eyes – <del rend="strikethrough" xml:id="c56-0128__main__d2e27459">Thus
+            <seg th:eID="C16_app1064-fMS"/>my <seg th:sID="C16_app1066-fMS"/>eyes – <del rend="strikethrough" xml:id="c56-0128__main__d2e27459">Thus
             will I relieve yo</del>
-            <mdel ana="start"/>u<mdel ana="end"/>which <seg xml:id="C16_app1066-fMS_end"/>I flung from me with <seg xml:id="C16_app1068-fMS_start"/>violence – Creator <lb n="c56-0128__main__19"/> he replied
-            –fro<mdel ana="start"/>n<mdel ana="end"/>m the <seg xml:id="C16_app1068-fMS_end"/>sight <seg xml:id="C16_app1070-fMS_start"/>of one whom <lb n="c56-0128__main__20"/> 
-            <seg xml:id="C16_app1070-fMS_end"/>you <seg xml:id="C16_app1072-fMS_start"/>abhor.–still you can <seg xml:id="C16_app1072-fMS_end"/>listen to <seg xml:id="C16_app1074-fMS_start"/>me <lb n="c56-0128__main__21"/> 
-            <seg xml:id="C16_app1074-fMS_end"/>and grant me <seg xml:id="C16_app1076-fMS_start"/>your compassion –By the <lb n="c56-0128__main__22"/> 
-            <seg xml:id="C16_app1076-fMS_end"/>the virtues I <seg xml:id="C16_app1082-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0128__main__d2e27491">c</del>once possessed <seg xml:id="C16_app1082-fMS_end"/>I demand this <seg xml:id="C16_app1085-fMS_start"/>
+            <mdel ana="start"/>u<mdel ana="end"/>which <seg th:eID="C16_app1066-fMS"/>I flung from me with <seg th:sID="C16_app1068-fMS"/>violence – Creator <lb n="c56-0128__main__19"/> he replied
+            –fro<mdel ana="start"/>n<mdel ana="end"/>m the <seg th:eID="C16_app1068-fMS"/>sight <seg th:sID="C16_app1070-fMS"/>of one whom <lb n="c56-0128__main__20"/> 
+            <seg th:eID="C16_app1070-fMS"/>you <seg th:sID="C16_app1072-fMS"/>abhor.–still you can <seg th:eID="C16_app1072-fMS"/>listen to <seg th:sID="C16_app1074-fMS"/>me <lb n="c56-0128__main__21"/> 
+            <seg th:eID="C16_app1074-fMS"/>and grant me <seg th:sID="C16_app1076-fMS"/>your compassion –By the <lb n="c56-0128__main__22"/> 
+            <seg th:eID="C16_app1076-fMS"/>the virtues I <seg th:sID="C16_app1082-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0128__main__d2e27491">c</del>once possessed <seg th:eID="C16_app1082-fMS"/>I demand this <seg th:sID="C16_app1085-fMS"/>
             <lb n="c56-0128__main__23"/> of you – <del rend="strikethrough" xml:id="c56-0128__main__d2e27496">Lis</del> 
-            <seg xml:id="C16_app1085-fMS_end"/>Hear my <seg xml:id="C16_app1087-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0128__main__d2e27499">tale</del> tale –It <seg xml:id="C16_app1087-fMS_end"/>is <seg xml:id="C16_app1089-fMS_start"/>
+            <seg th:eID="C16_app1085-fMS"/>Hear my <seg th:sID="C16_app1087-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0128__main__d2e27499">tale</del> tale –It <seg th:eID="C16_app1087-fMS"/>is <seg th:sID="C16_app1089-fMS"/>
             <lb n="c56-0128__main__24"/> 
-            <seg xml:id="C16_app1089-fMS_end"/>long and <seg xml:id="C16_app1091-fMS_start"/>strange <del rend="strikethrough" xml:id="c56-0128__main__d2e27505">but</del> 
-            <seg xml:id="C16_app1091-fMS_end"/>and the temperature <seg xml:id="C16_app1093-fMS_start"/>
+            <seg th:eID="C16_app1089-fMS"/>long and <seg th:sID="C16_app1091-fMS"/>strange <del rend="strikethrough" xml:id="c56-0128__main__d2e27505">but</del> 
+            <seg th:eID="C16_app1091-fMS"/>and the temperature <seg th:sID="C16_app1093-fMS"/>
             <lb n="c56-0128__main__25"/> 
-            <seg xml:id="C16_app1093-fMS_end"/>of this place is not fitting <seg xml:id="C16_app1095-fMS_start"/>
+            <seg th:eID="C16_app1093-fMS"/>of this place is not fitting <seg th:sID="C16_app1095-fMS"/>
             <del rend="strikethrough" xml:id="c56-0128__main__d2e27510">y</del> 
-            <seg xml:id="C16_app1095-fMS_end"/>to your <seg xml:id="C16_app1097-fMS_start"/>
+            <seg th:eID="C16_app1095-fMS"/>to your <seg th:sID="C16_app1097-fMS"/>
             <lb n="c56-0128__main__26"/> 
-            <seg xml:id="C16_app1097-fMS_end"/>fine sensations; come to the hut <seg xml:id="C16_app1099-fMS_start"/>on <del next="#c56-0128.05"
+            <seg th:eID="C16_app1097-fMS"/>fine sensations; come to the hut <seg th:sID="C16_app1099-fMS"/>on <del next="#c56-0128.05"
                  rend="strikethrough"
                  xml:id="c56-0128__main__d2e27519">Motan</del>the
             mountain<lb n="c56-0128__main__27"/>
-            <del rend="strikethrough" xml:id="c56-0128__main__d2e27527">vert</del> – <seg xml:id="C16_app1099-fMS_end"/>The sun is yet high in the<lb n="c56-0129__main__1"/> 
-            <seg xml:id="C16_app1101-fMS_start"/>heavens – <seg xml:id="C16_app1101-fMS_end"/>before it descends to <seg xml:id="C16_app1103-fMS_start"/>
+            <del rend="strikethrough" xml:id="c56-0128__main__d2e27527">vert</del> – <seg th:eID="C16_app1099-fMS"/>The sun is yet high in the<lb n="c56-0129__main__1"/> 
+            <seg th:sID="C16_app1101-fMS"/>heavens – <seg th:eID="C16_app1101-fMS"/>before it descends to <seg th:sID="C16_app1103-fMS"/>
             <del rend="strikethrough" xml:id="c56-0129__main__d2e27542">its
             lowest</del>
             <lb n="c56-0129__main__2"/>
-            <seg xml:id="C16_app1103-fMS_end"/>hide itself behind <seg xml:id="C16_app1105-fMS_start"/>
+            <seg th:eID="C16_app1103-fMS"/>hide itself behind <seg th:sID="C16_app1105-fMS"/>
             <del rend="strikethrough" xml:id="c56-0129__main__d2e27549">thes</del>
-            <mdel ana="start"/>e<mdel ana="end"/>yon mountains <seg xml:id="C16_app1105-fMS_end"/>and <seg xml:id="C16_app1107-fMS_start"/>
-            <lb n="c56-0129__main__3"/> illuminates <seg xml:id="C16_app1107-fMS_end"/>another <seg xml:id="C16_app1109-fMS_start"/>world <seg xml:id="C16_app1109-fMS_end"/>you will have <seg xml:id="C16_app1111-fMS_start"/>
+            <mdel ana="start"/>e<mdel ana="end"/>yon mountains <seg th:eID="C16_app1105-fMS"/>and <seg th:sID="C16_app1107-fMS"/>
+            <lb n="c56-0129__main__3"/> illuminates <seg th:eID="C16_app1107-fMS"/>another <seg th:sID="C16_app1109-fMS"/>world <seg th:eID="C16_app1109-fMS"/>you will have <seg th:sID="C16_app1111-fMS"/>
             <lb n="c56-0129__main__4"/> 
-            <seg xml:id="C16_app1111-fMS_end"/>heard my <seg xml:id="C16_app1113-fMS_start"/>story <seg xml:id="C16_app1113-fMS_end"/>and can decide. <seg xml:id="C16_app1115-fMS_start"/>
+            <seg th:eID="C16_app1111-fMS"/>heard my <seg th:sID="C16_app1113-fMS"/>story <seg th:eID="C16_app1113-fMS"/>and can decide. <seg th:sID="C16_app1115-fMS"/>
             <del rend="strikethrough" xml:id="c56-0129__main__d2e27570">And</del>
             <lb n="c56-0129__main__5"/> 
-            <seg xml:id="C16_app1115-fMS_end"/>on you it <seg xml:id="C16_app1117-fMS_start"/>rests <seg xml:id="C16_app1117-fMS_end"/>whether I quit for ever <seg xml:id="C16_app1119-fMS_start"/>
+            <seg th:eID="C16_app1115-fMS"/>on you it <seg th:sID="C16_app1117-fMS"/>rests <seg th:eID="C16_app1117-fMS"/>whether I quit for ever <seg th:sID="C16_app1119-fMS"/>
             <lb n="c56-0129__main__6"/> 
-            <seg xml:id="C16_app1119-fMS_end"/>the <seg xml:id="C16_app1121-fMS_start"/>habitations <seg xml:id="C16_app1121-fMS_end"/>of <seg xml:id="C16_app1123-fMS_start"/>man <seg xml:id="C16_app1123-fMS_end"/>&amp; lead a <seg xml:id="C16_app1125-fMS_start"/>
+            <seg th:eID="C16_app1119-fMS"/>the <seg th:sID="C16_app1121-fMS"/>habitations <seg th:eID="C16_app1121-fMS"/>of <seg th:sID="C16_app1123-fMS"/>man <seg th:eID="C16_app1123-fMS"/>&amp; lead a <seg th:sID="C16_app1125-fMS"/>
             <lb n="c56-0129__main__7"/> 
-            <seg xml:id="C16_app1125-fMS_end"/>harmless <seg xml:id="C16_app1127-fMS_start"/>life <seg xml:id="C16_app1127-fMS_end"/>or become the scourge <seg xml:id="C16_app1129-fMS_start"/>
+            <seg th:eID="C16_app1125-fMS"/>harmless <seg th:sID="C16_app1127-fMS"/>life <seg th:eID="C16_app1127-fMS"/>or become the scourge <seg th:sID="C16_app1129-fMS"/>
             <lb n="c56-0129__main__8"/> 
-            <seg xml:id="C16_app1129-fMS_end"/>of your <seg xml:id="C16_app1131-fMS_start"/>fellow creatures,<del rend="strikethrough" xml:id="c56-0129__main__d2e27585">–</del>&amp; <seg xml:id="C16_app1131-fMS_end"/>the author of your own speedy <seg xml:id="C16_app1133-fMS_start"/>ruin.<milestone unit="tei:p"/>
-            <lb n="c56-0129__main__9"/> As <seg xml:id="C16_app1133-fMS_end"/>he said <seg xml:id="C16_app1135-fMS_start"/>this <seg xml:id="C16_app1135-fMS_end"/>he led the way <seg xml:id="C16_app1137-fMS_start"/>
+            <seg th:eID="C16_app1129-fMS"/>of your <seg th:sID="C16_app1131-fMS"/>fellow creatures,<del rend="strikethrough" xml:id="c56-0129__main__d2e27585">–</del>&amp; <seg th:eID="C16_app1131-fMS"/>the author of your own speedy <seg th:sID="C16_app1133-fMS"/>ruin.<milestone unit="tei:p"/>
+            <lb n="c56-0129__main__9"/> As <seg th:eID="C16_app1133-fMS"/>he said <seg th:sID="C16_app1135-fMS"/>this <seg th:eID="C16_app1135-fMS"/>he led the way <seg th:sID="C16_app1137-fMS"/>
             <lb n="c56-0129__main__10"/> 
-            <seg xml:id="C16_app1137-fMS_end"/>across the <seg xml:id="C16_app1139-fMS_start"/>ice –I followed – <seg xml:id="C16_app1139-fMS_end"/>my heart was <seg xml:id="C16_app1141-fMS_start"/>
-            <lb n="c56-0129__main__11"/> full <seg xml:id="C16_app1141-fMS_end"/>and I did not answer <seg xml:id="C16_app1143-fMS_start"/>him but <lb n="c56-0129__main__12"/>
+            <seg th:eID="C16_app1137-fMS"/>across the <seg th:sID="C16_app1139-fMS"/>ice –I followed – <seg th:eID="C16_app1139-fMS"/>my heart was <seg th:sID="C16_app1141-fMS"/>
+            <lb n="c56-0129__main__11"/> full <seg th:eID="C16_app1141-fMS"/>and I did not answer <seg th:sID="C16_app1143-fMS"/>him but <lb n="c56-0129__main__12"/>
             <del rend="strikethrough" xml:id="c56-0129__main__d2e27611">when</del>
-            <lb n="c56-0129__left_margin__1"/>as <seg xml:id="C16_app1143-fMS_end"/>I <seg xml:id="C16_app1145-fMS_start"/>proceeded <seg xml:id="C16_app1145-fMS_end"/>I weighed the various arguments <seg xml:id="C16_app1147-fMS_start"/>
-            <lb n="c56-0129__main__13"/> which <seg xml:id="C16_app1147-fMS_end"/>he had used, <seg xml:id="C16_app1149-fMS_start"/>
+            <lb n="c56-0129__left_margin__1"/>as <seg th:eID="C16_app1143-fMS"/>I <seg th:sID="C16_app1145-fMS"/>proceeded <seg th:eID="C16_app1145-fMS"/>I weighed the various arguments <seg th:sID="C16_app1147-fMS"/>
+            <lb n="c56-0129__main__13"/> which <seg th:eID="C16_app1147-fMS"/>he had used, <seg th:sID="C16_app1149-fMS"/>
             <metamark ana="start" function="insert"/>^<metamark ana="end"/>
             <del rend="strikethrough" xml:id="c56-0129__main__d2e27633">I</del>
-            <del rend="strikethrough" xml:id="c56-0129__main__d2e27636">felt enclined</del>&amp; I <seg xml:id="C16_app1149-fMS_end"/>determined at <lb n="c56-0129__main__14"/>
-            <lb n="c56-0129__left_margin__1"/>least to listen to his <seg xml:id="C16_app1151-fMS_start"/>tale—I <seg xml:id="C16_app1151-fMS_end"/>was partly urged <seg xml:id="C16_app1153-fMS_start"/>
+            <del rend="strikethrough" xml:id="c56-0129__main__d2e27636">felt enclined</del>&amp; I <seg th:eID="C16_app1149-fMS"/>determined at <lb n="c56-0129__main__14"/>
+            <lb n="c56-0129__left_margin__1"/>least to listen to his <seg th:sID="C16_app1151-fMS"/>tale—I <seg th:eID="C16_app1151-fMS"/>was partly urged <seg th:sID="C16_app1153-fMS"/>
             <lb n="c56-0129__main__15"/> 
-            <seg xml:id="C16_app1153-fMS_end"/>by curiosity, and <seg xml:id="C16_app1155-fMS_start"/>compassion <seg xml:id="C16_app1155-fMS_end"/>confirmed <seg xml:id="C16_app1157-fMS_start"/>
+            <seg th:eID="C16_app1153-fMS"/>by curiosity, and <seg th:sID="C16_app1155-fMS"/>compassion <seg th:eID="C16_app1155-fMS"/>confirmed <seg th:sID="C16_app1157-fMS"/>
             <lb n="c56-0129__main__16"/> me.– <del rend="strikethrough" xml:id="c56-0129__main__d2e27662">As</del>
             <del rend="strikethrough" xml:id="c56-0129__main__d2e27665">I was not</del> 
-            <seg xml:id="C16_app1157-fMS_end"/>I had hitherto suppos<lb n="c56-0129__main__17"/>ed him to be the
-            murderer of my <seg xml:id="C16_app1159-fMS_start"/>brother <lb n="c56-0129__main__18"/> 
-            <seg xml:id="C16_app1159-fMS_end"/>and <seg xml:id="C16_app1161-fMS_start"/>I wished to find this either confirmed <lb n="c56-0129__main__19"/> or
+            <seg th:eID="C16_app1157-fMS"/>I had hitherto suppos<lb n="c56-0129__main__17"/>ed him to be the
+            murderer of my <seg th:sID="C16_app1159-fMS"/>brother <lb n="c56-0129__main__18"/> 
+            <seg th:eID="C16_app1159-fMS"/>and <seg th:sID="C16_app1161-fMS"/>I wished to find this either confirmed <lb n="c56-0129__main__19"/> or
             denied<del rend="unmarked" xml:id="c56-0129__main__d2e27686">.</del>
             <lb n="c56-0129__left_margin__1"/> 
-            <seg xml:id="C16_app1161-fMS_end"/>I eagerly sought <seg xml:id="C16_app1163-fMS_start"/>
+            <seg th:eID="C16_app1161-fMS"/>I eagerly sought <seg th:sID="C16_app1163-fMS"/>
             <lb n="c56-0129__left_margin__2"/> 
-            <seg xml:id="C16_app1163-fMS_end"/>a <seg xml:id="C16_app1165-fMS_start"/>confirma<lb n="c56-0129__left_margin__3"/>tion <seg xml:id="C16_app1165-fMS_end"/>or denial <seg xml:id="C16_app1167-fMS_start"/>
+            <seg th:eID="C16_app1163-fMS"/>a <seg th:sID="C16_app1165-fMS"/>confirma<lb n="c56-0129__left_margin__3"/>tion <seg th:eID="C16_app1165-fMS"/>or denial <seg th:sID="C16_app1167-fMS"/>
             <lb n="c56-0129__left_margin__4"/> 
-            <seg xml:id="C16_app1167-fMS_end"/>of this opinion. For the first <seg xml:id="C16_app1169-fMS_start"/>time also <seg xml:id="C16_app1169-fMS_end"/>I felt <seg xml:id="C16_app1171-fMS_start"/>
+            <seg th:eID="C16_app1167-fMS"/>of this opinion. For the first <seg th:sID="C16_app1169-fMS"/>time also <seg th:eID="C16_app1169-fMS"/>I felt <seg th:sID="C16_app1171-fMS"/>
             <lb n="c56-0129__main__20"/> 
-            <seg xml:id="C16_app1171-fMS_end"/>what the duties of a creator towards his <seg xml:id="C16_app1173-fMS_start"/>
+            <seg th:eID="C16_app1171-fMS"/>what the duties of a creator towards his <seg th:sID="C16_app1173-fMS"/>
             <lb n="c56-0129__main__21"/> 
-            <seg xml:id="C16_app1173-fMS_end"/>creature <seg xml:id="C16_app1175-fMS_start"/>were <seg xml:id="C16_app1175-fMS_end"/>and that I ought to <seg xml:id="C16_app1177-fMS_start"/>
+            <seg th:eID="C16_app1173-fMS"/>creature <seg th:sID="C16_app1175-fMS"/>were <seg th:eID="C16_app1175-fMS"/>and that I ought to <seg th:sID="C16_app1177-fMS"/>
             <lb n="c56-0129__main__22"/> 
-            <seg xml:id="C16_app1177-fMS_end"/>render him happy before I complained <seg xml:id="C16_app1179-fMS_start"/>
+            <seg th:eID="C16_app1177-fMS"/>render him happy before I complained <seg th:sID="C16_app1179-fMS"/>
             <lb n="c56-0129__main__23"/> 
-            <seg xml:id="C16_app1179-fMS_end"/>of his wickedness. these motives urged me <seg xml:id="C16_app1181-fMS_start"/>
+            <seg th:eID="C16_app1179-fMS"/>of his wickedness. these motives urged me <seg th:sID="C16_app1181-fMS"/>
             <lb n="c56-0129__main__24"/> 
-            <seg xml:id="C16_app1181-fMS_end"/>to comply with his <seg xml:id="C16_app1183-fMS_start"/>
-            <del rend="strikethrough" xml:id="c56-0129__main__d2e27727">request</del>demand – <seg xml:id="C16_app1183-fMS_end"/>We crossed <seg xml:id="C16_app1185-fMS_start"/>
+            <seg th:eID="C16_app1181-fMS"/>to comply with his <seg th:sID="C16_app1183-fMS"/>
+            <del rend="strikethrough" xml:id="c56-0129__main__d2e27727">request</del>demand – <seg th:eID="C16_app1183-fMS"/>We crossed <seg th:sID="C16_app1185-fMS"/>
             <lb n="c56-0129__main__25"/> 
-            <seg xml:id="C16_app1185-fMS_end"/>the <seg xml:id="C16_app1187-fMS_start"/>ice <seg xml:id="C16_app1187-fMS_end"/>therefore, and ascended the <seg xml:id="C16_app1189-fMS_start"/>
+            <seg th:eID="C16_app1185-fMS"/>the <seg th:sID="C16_app1187-fMS"/>ice <seg th:eID="C16_app1187-fMS"/>therefore, and ascended the <seg th:sID="C16_app1189-fMS"/>
             <lb n="c56-0129__main__26"/> 
-            <seg xml:id="C16_app1189-fMS_end"/>opposite <seg xml:id="C16_app1191-fMS_start"/>rock.– <seg xml:id="C16_app1191-fMS_end"/>The air was <seg xml:id="C16_app1193-fMS_start"/>cold <seg xml:id="C16_app1193-fMS_end"/>and <seg xml:id="C16_app1195-fMS_start"/>
+            <seg th:eID="C16_app1189-fMS"/>opposite <seg th:sID="C16_app1191-fMS"/>rock.– <seg th:eID="C16_app1191-fMS"/>The air was <seg th:sID="C16_app1193-fMS"/>cold <seg th:eID="C16_app1193-fMS"/>and <seg th:sID="C16_app1195-fMS"/>
             <lb n="c56-0129__main__27"/> 
-            <seg xml:id="C16_app1195-fMS_end"/>the rain <seg xml:id="C16_app1197-fMS_start"/>began <seg xml:id="C16_app1197-fMS_end"/>again to <seg xml:id="C16_app1201-fMS_start"/>descend–We <lb n="c56-0129__main__28"/> 
-            <seg xml:id="C16_app1201-fMS_end"/>entered the <seg xml:id="C16_app1203-fMS_start"/>hut – <seg xml:id="C16_app1203-fMS_end"/>the fiend with an <seg xml:id="C16_app1205-fMS_start"/>
+            <seg th:eID="C16_app1195-fMS"/>the rain <seg th:sID="C16_app1197-fMS"/>began <seg th:eID="C16_app1197-fMS"/>again to <seg th:sID="C16_app1201-fMS"/>descend–We <lb n="c56-0129__main__28"/> 
+            <seg th:eID="C16_app1201-fMS"/>entered the <seg th:sID="C16_app1203-fMS"/>hut – <seg th:eID="C16_app1203-fMS"/>the fiend with an <seg th:sID="C16_app1205-fMS"/>
             <lb n="c56-0129__main__29"/> 
-            <seg xml:id="C16_app1205-fMS_end"/>air of <seg xml:id="C16_app1207-fMS_start"/>exultation <seg xml:id="C16_app1207-fMS_end"/>I with a heavy<lb n="c56-0130__main__1"/> 
-            <seg xml:id="C16_app1209-fMS_start"/>heart <seg xml:id="C16_app1209-fMS_end"/>and depressed <seg xml:id="C16_app1211-fMS_start"/>spirits – <seg xml:id="C16_app1211-fMS_end"/>But I consented <seg xml:id="C16_app1213-fMS_start"/>
+            <seg th:eID="C16_app1205-fMS"/>air of <seg th:sID="C16_app1207-fMS"/>exultation <seg th:eID="C16_app1207-fMS"/>I with a heavy<lb n="c56-0130__main__1"/> 
+            <seg th:sID="C16_app1209-fMS"/>heart <seg th:eID="C16_app1209-fMS"/>and depressed <seg th:sID="C16_app1211-fMS"/>spirits – <seg th:eID="C16_app1211-fMS"/>But I consented <seg th:sID="C16_app1213-fMS"/>
             <lb n="c56-0130__main__2"/> 
-            <seg xml:id="C16_app1213-fMS_end"/>to <seg xml:id="C16_app1215-fMS_start"/>listen and <del rend="strikethrough" xml:id="c56-0130__main__d2e27759">sitting</del>seating <seg xml:id="C16_app1215-fMS_end"/>myself by the fire which <seg xml:id="C16_app1217-fMS_start"/>he <lb n="c56-0130__main__3"/> lighted <seg xml:id="C16_app1217-fMS_end"/>he thus <seg xml:id="C16_app1219-fMS_start"/>
+            <seg th:eID="C16_app1213-fMS"/>to <seg th:sID="C16_app1215-fMS"/>listen and <del rend="strikethrough" xml:id="c56-0130__main__d2e27759">sitting</del>seating <seg th:eID="C16_app1215-fMS"/>myself by the fire which <seg th:sID="C16_app1217-fMS"/>he <lb n="c56-0130__main__3"/> lighted <seg th:eID="C16_app1217-fMS"/>he thus <seg th:sID="C16_app1219-fMS"/>
             <del rend="strikethrough" xml:id="c56-0130__main__d2e27768">began</del> 
-            <seg xml:id="C16_app1219-fMS_end"/>began his <seg xml:id="C16_app1221-fMS_start"/>tale. <seg xml:id="C16_app1221-fMS_end"/>
+            <seg th:eID="C16_app1219-fMS"/>began his <seg th:sID="C16_app1221-fMS"/>tale. <seg th:eID="C16_app1221-fMS"/>
          </div>
       </body>
    </text>
