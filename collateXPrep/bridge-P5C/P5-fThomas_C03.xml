@@ -26,11 +26,12 @@
          <div type="collation">
             <seg th:sID="C03_app1-fThomas__Pt1" part="I"/>
             <milestone n="2" type="start" unit="letter"/>
-            <head>
+            <seg th:eID="C03_app1-fThomas__Pt1" part="I"/>
+            <head xml:id="novel1_letter2_div2_head1">
                <seg th:sID="C03_app1-fThomas__Pt2" part="F"/>LETTER <seg th:eID="C03_app1-fThomas__Pt2" part="F"/>
                <seg th:sID="C03_app2-fThomas__Pt1" part="I"/>II.<seg th:eID="C03_app2-fThomas__Pt1" part="I"/>
             </head>
-            <ab>
+            <ab xml:id="novel1_letter2_div2_ab1">
                <seg th:sID="C03_app3-fThomas__Pt2" part="F"/>
                <hi xml:id="novel1_letter2_div2_ab1_hi1">
                   <seg th:sID="C03_app2-fThomas__Pt2" part="F"/>To <seg th:eID="C03_app2-fThomas__Pt2" part="F"/>
@@ -40,18 +41,18 @@
                <hi xml:id="novel1_letter2_div2_ab1_hi3">England.</hi>
                <seg th:eID="C03_app4-fThomas__Pt1" part="I"/>
             </ab>
-            <p>
+            <p xml:id="novel1_letter2_div2_p1">
                <seg th:sID="C03_app4-fThomas__Pt2" part="F"/>Archangel, <seg th:eID="C03_app4-fThomas__Pt2" part="F"/>
                <seg th:sID="C03_app5-fThomas__Pt1" part="I"/>28th March, 17—.<seg th:eID="C03_app5-fThomas__Pt1" part="I"/>
             </p>
-            <p>
+            <p xml:id="novel1_letter2_div2_p2">
                <seg th:sID="C03_app5-fThomas__Pt2" part="F"/>How slowly the time passes here, encompassed as I am by frost and <seg th:eID="C03_app5-fThomas__Pt2" part="F"/>
                <seg th:sID="C03_app6-fThomas"/>snow; <seg th:eID="C03_app6-fThomas"/>
                <seg th:sID="C03_app7-fThomas"/>yet a second step is taken towards my enterprise. I have hired a vessel, and am occupied in collecting my sailors; those whom I have already <seg th:eID="C03_app7-fThomas"/>
                <seg th:sID="C03_app8-fThomas"/>engaged <seg th:eID="C03_app8-fThomas"/>
                <seg th:sID="C03_app9-fThomas__Pt1" part="I"/>appear to be men on whom I can depend, and are certainly possessed of dauntless courage.<seg th:eID="C03_app9-fThomas__Pt1" part="I"/>
             </p>
-            <p>
+            <p xml:id="novel1_letter2_div2_p3">
                <seg th:sID="C03_app9-fThomas__Pt2" part="F"/>But I have one want which I have never yet been able to satisfy; and <seg th:eID="C03_app9-fThomas__Pt2" part="F"/>
                <seg th:sID="C03_app10-fThomas"/>the <seg th:eID="C03_app10-fThomas"/>
                <seg th:sID="C03_app11-fThomas"/>absence of the object of which I <seg th:eID="C03_app11-fThomas"/>
@@ -72,52 +73,32 @@
                <pb n="013" xml:id="F1818_v1_025"/>enough <seg th:eID="C03_app24-fThomas"/>
                <seg th:sID="C03_app25-fThomas__Pt1" part="I"/>for me to endeavour to regulate my mind.<seg th:eID="C03_app25-fThomas__Pt1" part="I"/>
             </p>
-            <p>
+            <p xml:id="novel1_letter2_div2_p4">
                <seg th:sID="C03_app25-fThomas__Pt2" part="F"/>Well, these are useless complaints; I shall certainly find no friend on the wide ocean, nor even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the dross of human nature, beat even in these rugged bosoms. My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous <seg th:eID="C03_app25-fThomas__Pt2" part="F"/>
                <seg th:sID="C03_app27-fThomas"/>of <seg th:eID="C03_app27-fThomas"/>
                <seg th:sID="C03_app28-fThomas"/>glory. <seg th:eID="C03_app28-fThomas"/>
                <seg th:sID="C03_app29-fThomas__Pt1" part="I"/>He is an Englishman, and in the midst of national and professional prejudices, unsoftened by cultivation, retains some of the noblest endowments of humanity. I first became acquainted with him on board a whale vessel: finding that he was unemployed in this city, I easily engaged him to assist in my enterprise.<seg th:eID="C03_app29-fThomas__Pt1" part="I"/>
             </p>
-            <p>
-               <seg th:eID="" part=""/>
+            <p xml:id="novel1_letter2_div2_p5">
                <seg th:sID="C03_app29-fThomas__Pt2" part="F"/>The master is a person of an excellent disposition, and is remarkable in <seg th:eID="C03_app29-fThomas__Pt2" part="F"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app30-fThomas"/>
-               <seg th:eID="" part=""/>
                <pb n="014" xml:id="F1818_v1_026"/>the <seg th:eID="C03_app30-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app31-fThomas"/>ship for his <seg th:eID="C03_app31-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app32-fThomas"/>gentleness, <seg th:eID="C03_app32-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app33-fThomas"/>and the <seg th:eID="C03_app33-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app34-fThomas"/>mildness <seg th:eID="C03_app34-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app35-fThomas"/>of his discipline. <seg th:eID="C03_app35-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app36-fThomas"/>He is, indeed, of so amiable <seg th:eID="C03_app36-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app37-fThomas"/>a <seg th:eID="C03_app37-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app38-fThomas"/>nature, that he will not hunt (a favourite, <seg th:eID="C03_app38-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app39-fThomas"/>and <seg th:eID="C03_app39-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app40-fThomas"/>almost <seg th:eID="C03_app40-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app41-fThomas"/>the <seg th:eID="C03_app41-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app42-fThomas"/>only amusement here), because he <seg th:eID="C03_app42-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app43-fThomas"/>cannot <seg th:eID="C03_app43-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app44-fThomas"/>endure <seg th:eID="C03_app44-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app45-fThomas"/>to <seg th:eID="C03_app45-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app46-fThomas"/>spill blood. <seg th:eID="C03_app46-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app47-fThomas__Pt1" part="I"/>
                <seg th:eID="C03_app47-fThomas__Pt1" part="I"/>
                <del xml:id="novel1_letter2_div2_p5_del1">
@@ -126,80 +107,44 @@
                   <seg th:sID="C03_app49-fThomas__Pt1" part="I"/>generous.<seg th:eID="C03_app49-fThomas__Pt1" part="I"/>
                </del>
                <seg th:sID="C03_app49-fThomas__Pt2" part="F"/>I will relate <seg th:eID="C03_app49-fThomas__Pt2" part="F"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app50-fThomas"/>to <seg th:eID="C03_app50-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app51-fThomas"/>you an anecdote <seg th:eID="C03_app51-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app52-fThomas"/>of <seg th:eID="C03_app52-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app54-fThomas"/>his <seg th:eID="C03_app54-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app55-fThomas"/>life, recounted <seg th:eID="C03_app55-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app56-fThomas"/>to <seg th:eID="C03_app56-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app57-fThomas"/>me <seg th:eID="C03_app57-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app58-fThomas"/>by <seg th:eID="C03_app58-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app59-fThomas"/>the parties themselves, which exemplifies the generosity, <seg th:eID="C03_app59-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app60-fThomas"/>I <seg th:eID="C03_app60-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app61-fThomas"/>had almost said <seg th:eID="C03_app61-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app62-fThomas"/>the <seg th:eID="C03_app62-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app63-fThomas"/>heroism <seg th:eID="C03_app63-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app64-fThomas"/>of <seg th:eID="C03_app64-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app66-fThomas"/>his <seg th:eID="C03_app66-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app67-fThomas"/>nature. <seg th:eID="C03_app67-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app68-fThomas"/>Some years ago he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match. He saw his mistress once before the destined ceremony; but she was bathed in tears, and, throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union. My generous friend reassured the suppliant, and on being informed of the name of her <seg th:eID="C03_app68-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app69-fThomas"/>lover <seg th:eID="C03_app69-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app70-fThomas"/>instantly abandoned his pursuit. He had <seg th:eID="C03_app70-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app71-fThomas"/>
-               <seg th:eID="" part=""/>
                <pb n="015" xml:id="F1818_v1_027"/>already <seg th:eID="C03_app71-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app72-fThomas"/>bought a farm with his <seg th:eID="C03_app72-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app73-fThomas"/>money, on <seg th:eID="C03_app73-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app74-fThomas"/>which he had designed to pass the remainder of his life; but he bestowed the whole on his rival, together with the remains of his prize-money to purchase stock, and then himself solicited the young <seg th:eID="C03_app74-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app75-fThomas"/>woman’s <seg th:eID="C03_app75-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app76-fThomas"/>father to consent to her marriage with her lover. But the old man decidedly refused, thinking himself bound in honour to my friend; who, when he found the father inexorable, quitted his country, nor returned until he heard that his former mistress was married according to her inclinations. “What a noble fellow!” you will exclaim. He is so; but then he <seg th:eID="C03_app76-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app77-fThomas"/>has passed all his life on board <seg th:eID="C03_app77-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app78-fThomas"/>a <seg th:eID="C03_app78-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app79-fThomas"/>vessel, <seg th:eID="C03_app79-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app80-fThomas"/>and <seg th:eID="C03_app80-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app81-fThomas"/>has scarcely an idea beyond <seg th:eID="C03_app81-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app82-fThomas"/>the <seg th:eID="C03_app82-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app83-fThomas"/>
-               <seg th:eID="" part=""/>
                <del xml:id="novel1_letter2_div2_p5_del2">rope</del>ship <seg th:eID="C03_app83-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app84-fThomas"/>and <seg th:eID="C03_app84-fThomas"/>
-               <seg th:eID="" part=""/>
                <seg th:sID="C03_app85-fThomas__Pt1" part="I"/>the<del xml:id="novel1_letter2_div2_p5_del3">shroud</del>crew.<seg th:eID="C03_app85-fThomas__Pt1" part="I"/>
             </p>
-            <p>
+            <p xml:id="novel1_letter2_div2_p6">
                <seg th:sID="C03_app85-fThomas__Pt2" part="F"/>But <seg th:eID="C03_app85-fThomas__Pt2" part="F"/>
                <seg th:sID="C03_app86-fThomas"/>do not <seg th:eID="C03_app86-fThomas"/>
                <seg th:sID="C03_app87-fThomas"/>suppose that, <seg th:eID="C03_app87-fThomas"/>
@@ -216,7 +161,7 @@
                <seg th:sID="C03_app97-fThomas"/>considerateness <seg th:eID="C03_app97-fThomas"/>
                <seg th:sID="C03_app98-fThomas__Pt1" part="I"/>whenever the safety of others is committed to my care.<seg th:eID="C03_app98-fThomas__Pt1" part="I"/>
             </p>
-            <p>
+            <p xml:id="novel1_letter2_div2_p7">
                <seg th:sID="C03_app98-fThomas__Pt2" part="F"/>I cannot describe to you my sensations on the near prospect of my undertaking. It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart. I am going to unexplored regions, to “the land of mist and <seg th:eID="C03_app98-fThomas__Pt2" part="F"/>
                <seg th:sID="C03_app99-fThomas"/>
                <pb n="017" xml:id="F1818_v1_029"/>snow;”<note xml:id="novel1_letter2_div2_p7_note1">Coleridge's Antient Mariner.</note> 
@@ -226,7 +171,7 @@
                <seg th:sID="C03_app104-fThomas"/>my <seg th:eID="C03_app104-fThomas"/>
                <seg th:sID="C03_app105-fThomas__Pt1" part="I"/>safety.<seg th:eID="C03_app105-fThomas__Pt1" part="I"/>
             </p>
-            <p>
+            <p xml:id="novel1_letter2_div2_p8">
                <seg th:sID="C03_app105-fThomas__Pt2" part="F"/>Shall <seg th:eID="C03_app105-fThomas__Pt2" part="F"/>
                <seg th:sID="C03_app106-fThomas"/>I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue <seg th:eID="C03_app106-fThomas"/>
                <seg th:sID="C03_app108-fThomas"/>to write to me by every opportunity: I may receive your letters <seg th:eID="C03_app108-fThomas"/>
@@ -234,11 +179,12 @@
                <seg th:sID="C03_app110-fThomas__Pt1" part="I"/>on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.<seg th:eID="C03_app110-fThomas__Pt1" part="I"/>
             </p>
             <p xml:id="novel1_letter2_div2_p9">Your affectionate brother,</p>
-            <p>
+            <p xml:id="novel1_letter2_div2_p10">
                <seg th:sID="C03_app110-fThomas__Pt2" part="F"/>R<hi xml:id="novel1_letter2_div2_p10_hi1">OBERT</hi> 
                <seg th:eID="C03_app110-fThomas__Pt2" part="F"/>
                <seg th:sID="C03_app111-fThomas__Pt1" part="I"/>W<hi xml:id="novel1_letter2_div2_p10_hi2">ALTON</hi>.<seg th:eID="C03_app111-fThomas__Pt1" part="I"/>
             </p>
+            <seg th:sID="C03_app111-fThomas__Pt2" part="F"/>
             <pb n="018" xml:id="F1818_v1_030"/>
             <milestone n="2" type="end" unit="letter"/> 
             <seg th:eID="C03_app111-fThomas__Pt2" part="F"/>

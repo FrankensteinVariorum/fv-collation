@@ -27,11 +27,12 @@
             <seg th:sID="C04_app1-f1823__Pt1" part="I"/>
             <pb n="18" xml:id="F1823_v1_037"/>
             <milestone n="3" type="start" unit="letter"/>
-            <head>
+            <seg th:eID="C04_app1-f1823__Pt1" part="I"/>
+            <head xml:id="novel1_letter3_div3_head1">
                <seg th:sID="C04_app1-f1823__Pt2" part="F"/>LETTER <seg th:eID="C04_app1-f1823__Pt2" part="F"/>
                <seg th:sID="C04_app2-f1823__Pt1" part="I"/>III.<seg th:eID="C04_app2-f1823__Pt1" part="I"/>
             </head>
-            <ab>
+            <ab xml:id="novel1_letter3_div3_ab1">
                <seg th:sID="C04_app3-f1823__Pt2" part="F"/>
                <hi xml:id="novel1_letter3_div3_ab1_hi1">
                   <seg th:sID="C04_app2-f1823__Pt2" part="F"/>To <seg th:eID="C04_app2-f1823__Pt2" part="F"/>
@@ -41,14 +42,14 @@
                <hi xml:id="novel1_letter3_div3_ab1_hi3">England.</hi>
                <seg th:eID="C04_app4-f1823__Pt1" part="I"/>
             </ab>
-            <p>
+            <p xml:id="novel1_letter3_div3_p1">
                <seg th:sID="C04_app4-f1823__Pt2" part="F"/>July <seg th:eID="C04_app4-f1823__Pt2" part="F"/>
                <seg th:sID="C04_app5-f1823__Pt1" part="I"/>7th, 17—.<seg th:eID="C04_app5-f1823__Pt1" part="I"/>
             </p>
             <p xml:id="novel1_letter3_div3_p2">
                <hi xml:id="novel1_letter3_div3_p2_hi1">MY DEAR
             SISTER</hi>,</p>
-            <p>
+            <p xml:id="novel1_letter3_div3_p3">
                <seg th:sID="C04_app5-f1823__Pt2" part="F"/>I <hi xml:id="novel1_letter3_div3_p3_hi1">WRITE</hi> a
             few lines in haste, to say that I am safe, and well advanced on my voyage. This letter
             will reach England by a <seg th:eID="C04_app5-f1823__Pt2" part="F"/>
@@ -68,7 +69,7 @@
             which I had not <seg th:eID="C04_app13-f1823"/>
                <seg th:sID="C04_app14-f1823__Pt1" part="I"/>expected.<seg th:eID="C04_app14-f1823__Pt1" part="I"/>
             </p>
-            <p>
+            <p xml:id="novel1_letter3_div3_p4">
                <seg th:sID="C04_app14-f1823__Pt2" part="F"/>No <seg th:eID="C04_app14-f1823__Pt2" part="F"/>
                <seg th:sID="C04_app15-f1823"/>incidents have hitherto befallen <seg th:eID="C04_app15-f1823"/>
                <seg th:sID="C04_app16-f1823"/>us <seg th:eID="C04_app16-f1823"/>
@@ -83,7 +84,7 @@
                <seg th:sID="C04_app24-f1823"/>content <seg th:eID="C04_app24-f1823"/>
                <seg th:sID="C04_app25-f1823__Pt1" part="I"/>if nothing worse happen to us during our voyage.<seg th:eID="C04_app25-f1823__Pt1" part="I"/>
             </p>
-            <p>
+            <p xml:id="novel1_letter3_div3_p5">
                <seg th:sID="C04_app25-f1823__Pt2" part="F"/>Adieu, my dear
             Margaret. Be assured, that for my own sake, as well as <seg th:eID="C04_app25-f1823__Pt2" part="F"/>
                <seg th:sID="C04_app26-f1823"/>yours, <seg th:eID="C04_app26-f1823"/>
@@ -92,17 +93,18 @@
                <seg th:sID="C04_app29-f1823"/>I will be cool, persevering, and <seg th:eID="C04_app29-f1823"/>
                <seg th:sID="C04_app30-f1823__Pt1" part="I"/>prudent.<seg th:eID="C04_app30-f1823__Pt1" part="I"/>
             </p>
-            <p>
+            <p xml:id="novel1_letter3_div3_p6">
                <seg th:sID="C04_app30-f1823__Pt2" part="F"/>
                <pb n="20" xml:id="F1823_v1_039"/>Remember <seg th:eID="C04_app30-f1823__Pt2" part="F"/>
                <seg th:sID="C04_app31-f1823"/>me to all <seg th:eID="C04_app31-f1823"/>
                <seg th:sID="C04_app32-f1823"/>my <seg th:eID="C04_app32-f1823"/>
                <seg th:sID="C04_app33-f1823__Pt1" part="I"/>English friends.<seg th:eID="C04_app33-f1823__Pt1" part="I"/>
             </p>
-            <p>
+            <p xml:id="novel1_letter3_div3_p7">
                <seg th:sID="C04_app33-f1823__Pt2" part="F"/>Most affectionately <seg th:eID="C04_app33-f1823__Pt2" part="F"/>
                <seg th:sID="C04_app34-f1823__Pt1" part="I"/>yours,<seg th:eID="C04_app34-f1823__Pt1" part="I"/>
             </p>
+            <seg th:sID="C04_app34-f1823__Pt2" part="F"/>
             <p xml:id="novel1_letter3_div3_p8">R. W.</p>
             <milestone n="3" type="end" unit="letter"/> 
             <seg th:eID="C04_app34-f1823__Pt2" part="F"/>

@@ -34,32 +34,16 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
          </xsl:result-document>
        </xsl:for-each>      
    </xsl:template>
-         
-   
-    <xsl:template match="div[@type='collation']//*[seg]">
-        <xsl:variable name="nodeNeighboringStart" as="node()*" select="child::text()[preceding-sibling::seg[1][@part and @th:sID][not(@th:sID = following-sibling::seg[@part]/@th:eID)]][preceding-sibling::seg[1][@part and @th:sID]/substring-before(@th:sID, '__') = following::seg[@th:eID][1]/substring-before(@th:eID, '__')][last()]"/>
-        <xsl:variable name="nodeNeighboringEnd" as="node()*" select="child::text()[following-sibling::seg[1][@part and @th:eID][not(@th:eID = preceding-sibling::seg[@part]/@th:sID)]][last()]"/>  
-     <xsl:element name="{name()}">
-            <xsl:for-each select="child::node()">
-                <xsl:choose>
-                    <xsl:when test="current() = $nodeNeighboringStart">
-                        <xsl:copy-of select="current()" copy-namespaces="no"/>
-                        <seg th:eID="{preceding-sibling::seg[1][@part and @th:sID]/@th:sID}" part="{preceding-sibling::seg[1][@part and @th:sID]/@part}"/>
-                    </xsl:when>
-                    <xsl:when test="current() = $nodeNeighboringEnd">
-                        <seg th:sID="{following-sibling::seg[1][@part and @th:eID]/@th:eID}" part="{following-sibling::seg[1][@part and @th:eID]/@part}"/>
-                        <xsl:copy-of select="current()" copy-namespaces="no"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:copy-of select="current()" copy-namespaces="no"/>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:for-each>            
-            
-     </xsl:element> 
-        
-    
+    <xsl:template match="text()[preceding-sibling::seg[1][@part and @th:sID][not(@th:sID = following-sibling::seg[@part]/@th:eID)]][following-sibling::node()[1][seg/substring-before(@th:eID, '__') = preceding-sibling::seg[1][@part and @th:sID]/substring-before(@th:sID, '__')]]">
+        <xsl:copy-of select="current()" copy-namespaces="no"/>
+        <seg th:eID="{preceding-sibling::seg[1][@part and @th:sID]/@th:sID}" part="{preceding-sibling::seg[1][@part and @th:sID]/@part}"/> 
     </xsl:template>
+   
+    <xsl:template match="text()[following-sibling::seg[1][@part and @th:eID][not(@th:eID = preceding-sibling::seg[1][@part]/@th:sID)]][preceding-sibling::node()[1]/seg[last()][substring-before(@th:eID, '__') = following::seg[1][@part and @th:eID]/substring-before(@th:eID, '__')]][1]">
+        <seg th:sID="{following-sibling::seg[1][@part and @th:eID]/@th:eID}" part="{following-sibling::seg[1][@part and @th:eID]/@part}"/>
+        <xsl:copy-of select="current()" copy-namespaces="no"/>
+   </xsl:template>
+        
  
 </xsl:stylesheet>
             
