@@ -6,10 +6,10 @@
     xmlns:mith="http://mith.umd.edu/sc/ns1#"
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
     exclude-result-prefixes="xs th pitt mith" version="3.0">
- <!--2018-07-30 ebb: Run with saxon command line over standoff_Spine directory -->   
+ <!--2018-07-30 ebb: Run with saxon command line over orig_standoff_Spine directory and output to standoff_Spine directory. -->   
     <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:variable name="spine-C10" as="document-node()+" select="collection('standoff_Spine')"/> 
-    <xsl:variable name="P5_coll" as="document-node()+" select="collection('bridge-P5-C10')"/>
+    <xsl:variable name="spine-C10" as="document-node()+" select="collection('orig_standoff_Spine')"/> 
+    <xsl:variable name="P5_coll" as="document-node()+" select="collection('bridge-P5')"/>
     
     <xsl:template match="app[not(@type='invariant')]">
           <app>
@@ -17,7 +17,7 @@
           <xsl:variable name="appID" as="xs:string" select="@xml:id"/>
      <xsl:for-each select="rdg">
     <rdg wit="{@wit}">     <xsl:variable name="currWit" as="xs:string" select="substring-after(@wit, '#')"/>
-         <xsl:variable name="currEdition" as="element()" select="$P5_coll//TEI[tokenize(base-uri(), '/')[last()] ! substring-before(., '_') ! substring-after(., 'P5-') eq $currWit]"/>
+         <xsl:variable name="currEdition" as="element()*" select="$P5_coll//TEI[tokenize(base-uri(), '/')[last()] ! substring-before(., '_') ! substring-after(., 'P5-') eq $currWit]"/>
          
           <xsl:variable name="currEd-Seg" as="element()*" select="$currEdition//seg[substring-before(@xml:id, '-') = $appID]"/>
          
