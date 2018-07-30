@@ -68,7 +68,7 @@ xmlns:mith="http://mith.umd.edu/sc/ns1#"  xmlns:th="http://www.blackmesatech.com
                    <seg th:eID="{substring-before(@xml:id, '_end')}"/>
                    </xsl:when>
                <xsl:otherwise>
-                   <seg th:eID="{substring-before(@xml:id, '_end')}__Part2" part="F"/>
+                   <seg th:eID="{substring-before(@xml:id, '_end')}__Pt2" part="F"/>
                </xsl:otherwise>
                </xsl:choose>
               </xsl:otherwise>

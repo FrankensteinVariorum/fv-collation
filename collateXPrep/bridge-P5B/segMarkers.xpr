@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="20.1">
+    <meta>
+        <filters directoryPatterns="" filePatterns="segMarkers.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options>
+            <serialized version="20.1" xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>key.xpath.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>xpath.proxy.ns.mappings</String>
+                        <String-array>
+                            <String>xs</String>
+                            <String>http://www.w3.org/2001/XMLSchema</String>
+                            <String>fn</String>
+                            <String>http://www.w3.org/2005/xpath-functions</String>
+                            <String>err</String>
+                            <String>http://www.w3.org/2005/xqt-errors</String>
+                            <String>math</String>
+                            <String>http://www.w3.org/2005/xpath-functions/math</String>
+                            <String>th</String>
+                            <String>http://www.blackmesatech.com/2017/nss/trojan-horse</String>
+                        </String-array>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
+    </meta>
+    <projectTree name="segMarkers.xpr">
+        <folder path="."/>
+    </projectTree>
+</project>
