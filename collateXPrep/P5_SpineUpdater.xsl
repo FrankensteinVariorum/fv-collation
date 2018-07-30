@@ -24,7 +24,7 @@
          
       <xsl:for-each select="$currEd-Seg">
           <ptr target="https://raw.githubusercontent.com/PghFrankenstein/Pittsburgh_Frankenstein/Text_Processing/collateXPrep/bridge-P5-C10/#{current()/@xml:id}"/>
-        <!--  <pitt:line_text><xsl:value-of select="current()/normalize-space()"/></pitt:line_text>  
+        <pitt:line_text><xsl:value-of select="current()/normalize-space()"/></pitt:line_text>  
           <pitt:resolved_text><xsl:value-of select="concat('#', current()/@xml:id)"/></pitt:resolved_text>-->
       </xsl:for-each>
              </rdg>
