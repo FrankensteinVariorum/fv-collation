@@ -6,9 +6,11 @@
     xmlns:mith="http://mith.umd.edu/sc/ns1#"
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
     exclude-result-prefixes="xs th pitt mith" version="3.0">
- <!--2018-07-30 ebb: Run with saxon command line over orig_standoff_Spine directory and output to standoff_Spine directory. -->   
+ <!--2018-07-31 ebb: Run with saxon command line over bridge-P1 directory and output to standoff_Spine directory.
+ 
+ -->   
     <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:variable name="spine-C10" as="document-node()+" select="collection('orig_standoff_Spine')"/> 
+    <xsl:variable name="spine-P1" as="document-node()+" select="collection('bridge-P1')"/> 
     <xsl:variable name="P5_coll" as="document-node()+" select="collection('bridge-P5')"/>
     
     <xsl:template match="app[not(@type='invariant')]">
