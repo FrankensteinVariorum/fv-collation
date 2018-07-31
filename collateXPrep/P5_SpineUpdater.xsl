@@ -6,11 +6,12 @@
     xmlns:mith="http://mith.umd.edu/sc/ns1#"
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
     exclude-result-prefixes="xs th pitt mith" version="3.0">
- <!--2018-07-31 ebb: Run with saxon command line over bridge-P1 directory and output to standoff_Spine directory.
- 
- -->   
+
+    <!--2018-07-30 ebb: Run with saxon command line over bridge-P1 directory and output to standoff_Spine directory. Output to standoff_Spine directory. -->
+    <!--2018-07-30 rv: Fixed URLs to TEI files -->
+    <!--2018-07-30 rv: Changing rdgGrps back into apps. This eventually should be addressed in previous steps. -->
     <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:variable name="spine-P1" as="document-node()+" select="collection('bridge-P1')"/> 
+
     <xsl:variable name="P5_coll" as="document-node()+" select="collection('bridge-P5')"/>
     
     <xsl:template match="app[not(@type='invariant')]">
@@ -18,23 +19,38 @@
           <xsl:copy-of select="@*"/>
           <xsl:variable name="appID" as="xs:string" select="@xml:id"/>
      <xsl:for-each select="rdg">
-    <rdg wit="{@wit}">     <xsl:variable name="currWit" as="xs:string" select="substring-after(@wit, '#')"/>
-         <xsl:variable name="currEdition" as="element()*" select="$P5_coll//TEI[tokenize(base-uri(), '/')[last()] ! substring-before(., '_') ! substring-after(., 'P5-') eq $currWit]"/>
+         <xsl:choose>
+             <xsl:when test="@wit='#fMS'">
+                 <xsl:sequence select="."/>
+             </xsl:when>
+             <xsl:otherwise>
+                 <rdg wit="{@wit}">     <xsl:variable name="currWit" as="xs:string" select="substring-after(@wit, '#')"/>
+                     <xsl:variable name="currEdition" as="element()*" select="$P5_coll//TEI[tokenize(base-uri(), '/')[last()] ! substring-before(., '_') ! substring-after(., 'P5-') eq $currWit]"/>
+                     
+                     <xsl:variable name="currEd-Seg" as="element()*" select="$currEdition//seg[substring-before(@xml:id, '-') = $appID]"/>
+                     
+                     <xsl:for-each select="$currEd-Seg">
+                         <ptr target="https://raw.githubusercontent.com/PghFrankenstein/Pittsburgh_Frankenstein/Text_Processing/collateXPrep/bridge-P5/P5-{$currWit}_C10.xml#{current()/@xml:id}"/>
+                         <pitt:line_text><xsl:value-of select="current()/normalize-space()"/></pitt:line_text>  
+                         <pitt:resolved_text><xsl:value-of select="concat('#', current()/@xml:id)"/></pitt:resolved_text>
+                     </xsl:for-each>
+                 </rdg>
+             </xsl:otherwise>
+         </xsl:choose>
          
-          <xsl:variable name="currEd-Seg" as="element()*" select="$currEdition//seg[substring-before(@xml:id, '-') = $appID]"/>
-         
-      <xsl:for-each select="$currEd-Seg">
-          <ptr target="https://raw.githubusercontent.com/PghFrankenstein/Pittsburgh_Frankenstein/Text_Processing/collateXPrep/bridge-P5-C10/#{current()/@xml:id}"/>
-        <pitt:line_text><xsl:value-of select="current()/normalize-space()"/></pitt:line_text>  
-          <pitt:resolved_text><xsl:value-of select="concat('#', current()/@xml:id)"/></pitt:resolved_text>
-      </xsl:for-each>
-             </rdg>
      </xsl:for-each>   </app>
       
         
     </xsl:template>
+    
+    <xsl:template match="rdgGrp">
+        <app>            
+            <xsl:sequence select="rdg"/>   
+        </app>
+    </xsl:template>
+    
     <xsl:template match="app[@type='invariant']"/>
-    <xsl:template match="rdgGrp"/>
+    <!--<xsl:template match="rdgGrp"/>-->
     <xsl:template match="ref"/>
     <xsl:template match="ptr"/>
     <xsl:template match="pitt:line_text"/>
