@@ -16,9 +16,9 @@
         <xsl:param name="str"/>
         <xsl:analyze-string select="$str" regex="^=&quot;([^&quot;]+?)&quot;\s*?/&gt;">
             <xsl:matching-substring>
-                <xsl:variable name="ms-rest" select="tokenize(regex-group(1), '-')"/>
+                <xsl:variable name="ms-rest" select="tokenize(regex-group(1), '-')"/>                
                 <xsl:variable name="ms" select="$ms-rest[1]"/>
-                <xsl:variable name="parts" select="tokenize($ms-rest[2], '__')"/>
+                <xsl:variable name="parts" select="tokenize(replace($ms-rest[2], '__Pt\d+', ''), '__')"/>
                 <xsl:variable name="surface" select="$parts[1]"/>
                 <xsl:variable name="zone" select="$parts[2]"/>
                 <xsl:variable name="line" select="$parts[3]"/>
