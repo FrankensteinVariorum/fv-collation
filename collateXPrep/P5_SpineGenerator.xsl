@@ -7,7 +7,8 @@
     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
     exclude-result-prefixes="xs th pitt mith" version="3.0">
 
-    <!--2018-07-30 ebb: Run with saxon command line over bridge-P1 directory and output to standoff_Spine directory. Output to standoff_Spine directory. -->
+    <!--2018-07-30 updated 2018-08-01 ebb: This file is now designed to generate the first incarnation of the standoff spine of the Frankenstein Variorum. The spine contains URI pointers to specific locations marked by <seg> elements in the edition files made in bridge-P5, and is based on information from the collation process stored in TEI in bridge P1.
+        Run with saxon command line over bridge-P1 directory and output to standoff_Spine directory. Output to standoff_Spine directory. -->
     <!--2018-07-30 rv: Fixed URLs to TEI files -->
     <!--2018-07-30 rv: Changing rdgGrps back into apps. This eventually should be addressed in previous steps. -->
     <xsl:mode on-no-match="shallow-copy"/>
