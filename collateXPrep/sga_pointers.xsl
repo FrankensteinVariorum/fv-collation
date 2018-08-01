@@ -16,9 +16,9 @@
         <xsl:param name="str"/>
         <xsl:analyze-string select="$str" regex="^=&quot;([^&quot;]+?)&quot;\s*?/&gt;">
             <xsl:matching-substring>
-                <xsl:variable name="ms-rest" select="tokenize(regex-group(1), '-')"/>
+                <xsl:variable name="ms-rest" select="tokenize(regex-group(1), '-')"/>                
                 <xsl:variable name="ms" select="$ms-rest[1]"/>
-                <xsl:variable name="parts" select="tokenize($ms-rest[2], '__')"/>
+                <xsl:variable name="parts" select="tokenize(replace($ms-rest[2], '__Pt\d+', ''), '__')"/>
                 <xsl:variable name="surface" select="$parts[1]"/>
                 <xsl:variable name="zone" select="$parts[2]"/>
                 <xsl:variable name="line" select="$parts[3]"/>
@@ -53,10 +53,10 @@
         </xsl:choose>
     </xsl:function>
     
-    <xsl:template match="rdg">
+    <xsl:template match="tei:rdg">
         <xsl:choose>
             <xsl:when test="@wit='#fMS'">
-                <rdg wit="#fMS">
+                <rdg wit="#fMS" xmlns="http://www.tei-c.org/ns/1.0">
                     <xsl:choose>
                         <!-- When a reading contains one or more LB elements, split the content around LB and determine the pointer based on the LB value -->                        
                         <xsl:when test="contains(normalize-space(.), 'lb n=&quot;')">
@@ -81,12 +81,12 @@
                                                     )"/>
                                                 <xsl:variable name="full_pointer" select="concat(string-join(pitt:getLbPointer(normalize-space(current()))),',0,',string-length($text)+1, ')')"/>
                                                 <ptr target="{$full_pointer}"/>
-                                                <line_text>
+                                                <pitt:line_text>
                                                     <xsl:value-of select="$text"/>                                        
-                                                </line_text>
-                                                <resolved_text>
+                                                </pitt:line_text>
+                                                <pitt:resolved_text>
                                                     <xsl:value-of select="pitt:resolvePointer($full_pointer)"/>
-                                                </resolved_text>
+                                                </pitt:resolved_text>
                                             </xsl:if> 
                                         </xsl:if>
                                     </xsl:when>
@@ -114,21 +114,21 @@
     
     <xsl:template name="lookback">
         <xsl:param name="rdg" select="."/>
-        <xsl:variable name="str" select="tokenize(normalize-space(string-join($rdg/preceding::rdg[@wit='#fMS'])), '&lt;lb\s+n')[last()]"/>
+        <xsl:variable name="str" select="tokenize(normalize-space(string-join($rdg/preceding::tei:rdg[@wit='#fMS'])), '&lt;lb\s+n')[last()]"/>
         <xsl:variable name="pointer">
-            <xsl:value-of select="pitt:getLbPointer(normalize-space(tokenize($rdg/preceding::rdg[@wit='#fMS'][contains(normalize-space(.), 'lb n=&quot;')][1], '&lt;lb\s+n')[last()]))"/>
+            <xsl:value-of select="pitt:getLbPointer(normalize-space(tokenize($rdg/preceding::tei:rdg[@wit='#fMS'][contains(normalize-space(.), 'lb n=&quot;')][1], '&lt;lb\s+n')[last()]))"/>
         </xsl:variable>
         <xsl:if test="not($pointer = '')">
             <xsl:variable name="pre_text" select="replace(replace($str, '&lt;.*?&gt;', ''), '^=&quot;[^&quot;]+?&quot;\s*?/&gt;', '')"/>
             <xsl:variable name="cur_text" select="replace(normalize-space(.), '&lt;.*?&gt;', '')"/>
             <xsl:variable name="full_pointer" select="concat($pointer,',',string-length($pre_text)+1,',',string-length($pre_text)+string-length($cur_text)+2, ')')"/> <!-- "2" accounts for needed extra space and index number -->
-            <ptr target="{$full_pointer}"/>
-            <line_text>
+            <ptr target="{$full_pointer}" xmlns="http://www.tei-c.org/ns/1.0"/>
+            <pitt:line_text>
                 <xsl:value-of select="concat('(', $pre_text, ') ', $cur_text)"/>
-            </line_text>
-            <resolved_text>
+            </pitt:line_text>
+            <pitt:resolved_text>
                 <xsl:value-of select="pitt:resolvePointer($full_pointer)"/>
-            </resolved_text>
+            </pitt:resolved_text>
         </xsl:if>      
     </xsl:template>
     
