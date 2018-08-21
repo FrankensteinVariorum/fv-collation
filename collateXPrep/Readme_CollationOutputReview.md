@@ -133,7 +133,7 @@ In these three examples, the `@resp` attribute indicates which of the three of u
 
 ## Where are we working?
 
-As we get started, please work with the 33 bridge-P1 files saved in our Google Drive as a sort of scratch workspace, following the production schedule described [here](https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/issues/59)
+As we get started, please work with the 33 bridge-P1 files saved in our Google Drive as a sort of scratch workspace, following the production schedule described [here](https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/issues/59).
 
 Go ahead and upload your files to the same space. **File Renaming Protocol**: Please save your revised file with an underscore followed by your initials at the end of the filename just before the file extension, like this: 
 
