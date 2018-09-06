@@ -133,18 +133,18 @@ def processWitness(inputWitness, id):
     return {'id': id, 'tokens': [processToken(token) for token in inputWitness]}
 
 
-for name in glob.glob('../collChunks-Part1/1818_fullFlat_*'):
+for name in glob.glob('../collChunks-Part2/1818_fullFlat_*'):
     try:
         matchString = name.split("fullFlat_", 1)[1]
         # ebb: above gets C30.xml for example
         matchStr = matchString.split(".", 1)[0]
         # ebb: above strips off the file extension
         with open(name, 'rb') as f1818file, \
-                open('../collChunks-Part1/Thomas_fullFlat_' + matchString, 'rb') as fThomasfile, \
-                open('../collChunks-Part1/1823_fullFlat_' + matchString, 'rb') as f1823file, \
-                open('../collChunks-Part1/1831_fullFlat_' + matchString, 'rb') as f1831file, \
-                open('../collChunks-Part1/msColl_' + matchString, 'rb') as fMSfile, \
-                open('../Full_Part1_xmlOutput/collation_' + matchStr + '.xml', 'w') as outputFile:
+                open('../collChunks-Part2/Thomas_fullFlat_' + matchString, 'rb') as fThomasfile, \
+                open('../collChunks-Part2/1823_fullFlat_' + matchString, 'rb') as f1823file, \
+                open('../collChunks-Part2/1831_fullFlat_' + matchString, 'rb') as f1831file, \
+                open('../collChunks-Part2/msColl_' + matchString, 'rb') as fMSfile, \
+                open('../Full_Part2_xmlOutput/collation_' + matchStr + '.xml', 'w') as outputFile:
                 # open('collationChunks/msColl_c56_' + matchString, 'rb') as fMSc56file, \
                 # open('collationChunks/msColl_c58_' + matchString, 'rb') as fMSc58file, \
                 # open('collationChunks/msColl_c57Frag_' + matchString, 'rb') as fMSc57Fragfile, \
