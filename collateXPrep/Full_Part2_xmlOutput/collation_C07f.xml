@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
-		<rdgGrp n="['&lt;p/&gt;In', 'this', 'description']">
+		<rdgGrp n="['&lt;p/&gt; In', 'this', 'description']">
 			<rdg wit="f1818">&lt;p sID=&quot;novel1_letter4_chapter1_div4_div1_p13&quot;/&gt;In this description </rdg>
 			<rdg wit="f1823">&lt;p sID=&quot;novel1_letter4_chapter1_div4_div1_p13&quot;/&gt;In this description </rdg>
 			<rdg wit="fThomas">&lt;p sID=&quot;novel1_letter4_chapter1_div4_div1_p13&quot;/&gt;In this description </rdg>
 		</rdgGrp>
-		<rdgGrp n="['In', '&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__left_margin__d2e685&quot;/&gt;this&lt;del eID=&quot;c56-0012__left_margin__d2e685&quot;/&gt;thedescription']">
+		<rdgGrp n="['In', '&lt;del&gt;this&lt;del&gt;thedescription']">
 			<rdg wit="fMS">&lt;metamark function=&quot;displacement&quot; xml:id=&quot;c56-0012.05&quot;&gt;X&lt;/metamark&gt;&lt;lb n=&quot;c56-0012__left_margin__1&quot;/&gt;&lt;metamark function=&quot;displacement&quot;&gt;X&lt;/metamark&gt;In &lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__left_margin__d2e685&quot;/&gt;this&lt;del eID=&quot;c56-0012__left_margin__d2e685&quot;/&gt;thedescrip&lt;lb n=&quot;c56-0012__left_margin__2&quot;/&gt;tion </rdg>
 		</rdgGrp>
 	</app>
@@ -37,7 +37,7 @@
 			<rdg wit="f1823">include </rdg>
 			<rdg wit="fThomas">include </rdg>
 		</rdgGrp>
-		<rdgGrp n="['include&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e712&quot;/&gt;I', 'include&lt;del eID=&quot;c56-0012__main__d2e712&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e716&quot;/&gt;Hen&lt;del eID=&quot;c56-0012__main__d2e716&quot;/&gt;']">
+		<rdgGrp n="['include&lt;del&gt;I', 'include&lt;del&gt;&lt;del&gt;Hen&lt;del&gt;']">
 			<rdg wit="fMS">include&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e712&quot;/&gt;I include&lt;del eID=&quot;c56-0012__main__d2e712&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e716&quot;/&gt;Hen&lt;del eID=&quot;c56-0012__main__d2e716&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -50,7 +50,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del next=&quot;#c56-0012.08&quot; rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e719&quot;/&gt;Carignan&lt;del eID=&quot;c56-0012__main__d2e719&quot;/&gt;Clerval,&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e728&quot; xml:id=&quot;c56-0012.08&quot;/&gt;in', 'this', 'account&lt;del eID=&quot;c56-0012__main__d2e728&quot;/&gt;']">
+		<rdgGrp n="['&lt;del&gt;Carignan&lt;del&gt;Clerval,&lt;del&gt;in', 'this', 'account&lt;del&gt;']">
 			<rdg wit="fMS">&lt;del next=&quot;#c56-0012.08&quot; rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e719&quot;/&gt;Carignan&lt;del eID=&quot;c56-0012__main__d2e719&quot;/&gt;Clerval,&lt;lb n=&quot;c56-0012__main__26&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e728&quot; xml:id=&quot;c56-0012.08&quot;/&gt;in this account&lt;del eID=&quot;c56-0012__main__d2e728&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['Clerval;']">
@@ -73,7 +73,7 @@
 			<rdg wit="f1823">was </rdg>
 			<rdg wit="fThomas">was </rdg>
 		</rdgGrp>
-		<rdgGrp n="['was&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e745&quot;/&gt;con&lt;del eID=&quot;c56-0012__main__d2e745&quot;/&gt;']">
+		<rdgGrp n="['was&lt;del&gt;con&lt;del&gt;']">
 			<rdg wit="fMS">was&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e745&quot;/&gt;con&lt;del eID=&quot;c56-0012__main__d2e745&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -117,7 +117,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e751&quot;/&gt;sho&lt;del eID=&quot;c56-0012__main__d2e751&quot;/&gt;']">
+		<rdgGrp n="['&lt;del&gt;sho&lt;del&gt;']">
 			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e751&quot;/&gt;sho&lt;del eID=&quot;c56-0012__main__d2e751&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -194,7 +194,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['h&lt;mdel&gt;&lt;/mdel&gt;is&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0013__Pt1__main__d2e789&quot;/&gt;to&lt;del eID=&quot;c56-0013__Pt1__main__d2e789&quot;/&gt;']">
+		<rdgGrp n="['h&lt;mdel&gt;&lt;/mdel&gt;is&lt;del&gt;to&lt;del&gt;']">
 			<rdg wit="fMS">h&lt;mdel&gt;&lt;/mdel&gt;is&lt;lb n=&quot;c56-0013__Pt1__main__3&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0013__Pt1__main__d2e789&quot;/&gt;to&lt;del eID=&quot;c56-0013__Pt1__main__d2e789&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['his']">
@@ -262,7 +262,7 @@
 			<rdg wit="fMS">&lt;lb n=&quot;c56-0013__Pt1__main__7&quot;/&gt; </rdg>
 			<rdg wit="f1831"> </rdg>
 		</rdgGrp>
-		<rdgGrp n="['absent.&lt;p/&gt;']">
+		<rdgGrp n="['absent.&lt;p/&gt; ']">
 			<rdg wit="f1818">absent.&lt;p eID=&quot;novel1_letter4_chapter1_div4_div1_p13&quot;/&gt; </rdg>
 			<rdg wit="f1823">absent.&lt;p eID=&quot;novel1_letter4_chapter1_div4_div1_p13&quot;/&gt; </rdg>
 			<rdg wit="fThomas">absent.&lt;p eID=&quot;novel1_letter4_chapter1_div4_div1_p13&quot;/&gt; </rdg>
@@ -274,4 +274,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2018-09-07 20:08:52.570474 -->
+<!-- 2018-09-17 17:43:46.082451 -->

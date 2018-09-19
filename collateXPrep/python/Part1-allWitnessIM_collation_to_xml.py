@@ -107,7 +107,7 @@ def extract(input_xml):
 
 
 def normalize(inputText):
-   return RE_AMP.sub('and',\
+   return RE_AMP.sub('and', \
         RE_MDEL.sub('', \
         RE_SHI.sub('', \
         RE_HI.sub('', \

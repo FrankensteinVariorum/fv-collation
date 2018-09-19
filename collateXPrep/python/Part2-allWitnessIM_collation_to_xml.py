@@ -23,24 +23,28 @@ regexBlankLine = re.compile(r'\n{2,}')
 regexLeadingBlankLine = re.compile(r'^\n')
 regexPageBreak = re.compile(r'<pb.+?/>')
 RE_MARKUP = re.compile(r'<.+?>')
-RE_PARA = re.compile(r'<p\s.+?/>')
-RE_MILESTONE = re.compile(r'<milestone.+?/>')
-RE_AMP_NSB = re.compile(r'\S&amp;')
-RE_AMP_NSE = re.compile(r'&amp;\S')
-RE_AMP = re.compile(r'&')
-RE_MDEL = re.compile(r'<mdel>.+?/</mdel>')
-RE_SHI = re.compile(r'<shi.+?>.+?</shi>')
-RE_METAMARK = re.compile(r'<metamark.+?>.+?</metamark>')
-RE_HI = re.compile(r'<hi\s.+?/>')
-RE_PB = re.compile(r'<pb.+?/>')
-RE_LB = re.compile(r'<lb.+?/>')
-RE_LG = re.compile(r'<lg.+?/>')
-RE_L = re.compile(r'<l\s.+?/>')
-RE_CIT = re.compile(r'<cit\s.+?/>')
-RE_QUOTE = re.compile(r'<quote\s.+?/>')
-RE_GAP = re.compile(r'<gap\s.+?/>')
+RE_PARA = re.compile(r'<p\s[^<]+?/>')
+RE_MILESTONE = re.compile(r'<milestone[^<]*/>')
+RE_HEAD = re.compile(r'<head[^>]*/>')
+RE_AMP_NSB = re.compile(r'\S&amp;\s')
+RE_AMP_NSE = re.compile(r'\s&amp;\S')
+RE_AMP_SQUISH = re.compile(r'\S&amp;\S')
+RE_AMP = re.compile(r'\s&amp;\s')
+RE_DELSTART = re.compile(r'<del[^<]*>')
+RE_ADDSTART = re.compile(r'<add[^<]*>')
+RE_MDEL = re.compile(r'<mdel[^<]*>.+?</mdel>')
+RE_SHI = re.compile(r'<shi[^<]*>.+?</shi>')
+RE_METAMARK = re.compile(r'<metamark[^<]*>.+?</metamark>')
+RE_HI = re.compile(r'<hi\s[^<]*/>')
+RE_PB = re.compile(r'<pb[^<]*/>')
+RE_LB = re.compile(r'<lb[^<]*/>')
+RE_LG = re.compile(r'<lg[^<]*/>')
+RE_L = re.compile(r'<l\s[^<]*/>')
+RE_CIT = re.compile(r'<cit\s[^<]*/>')
+RE_QUOTE = re.compile(r'<quote\s[^<]*/>')
+RE_GAP = re.compile(r'<gap\s[^<]*/>')
 # &lt;milestone unit="tei:p"/&gt;
-RE_sgaP = re.compile(r'<milestone\s+unit="tei:p".+?/>')
+RE_sgaP = re.compile(r'<milestone\sunit="tei:p"[^<]*/>')
 # ebb: RE_MDEL = those pesky deletions of two letters or less that we want to normalize out of the collation, but preserve in the output.
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
@@ -105,22 +109,28 @@ def extract(input_xml):
             continue
     return output
 
-
 def normalize(inputText):
-   return RE_AMP.sub('and',\
+   return RE_AMP.sub('and', \
+        RE_AMP_NSB.sub(' and', \
+        RE_AMP_NSE.sub('and ', \
+        RE_AMP_SQUISH.sub(' and ', \
         RE_MDEL.sub('', \
         RE_SHI.sub('', \
         RE_HI.sub('', \
         RE_LB.sub('', \
         RE_PB.sub('', \
-        RE_PARA.sub('<p/>', \
-        RE_sgaP.sub('<p/>', \
+        RE_PARA.sub('<p/> ', \
+        RE_sgaP.sub('<p/> ', \
         RE_LG.sub('<lg/>', \
         RE_L.sub('<l/>', \
         RE_CIT.sub('', \
         RE_QUOTE.sub('', \
         RE_GAP.sub('', \
-        RE_METAMARK.sub('', inputText))))))))))))))
+        RE_DELSTART.sub('<del>', \
+        RE_ADDSTART.sub('<add>', \
+        RE_MILESTONE.sub('<milestone/>', \
+        RE_HEAD.sub(' ', \
+        RE_METAMARK.sub('', inputText)))))))))))))))))))))
 # to lowercase the normalized tokens, add .lower() to the end.
 #    return regexPageBreak('',inputText)
 # ebb: The normalize function makes it possible to return normalized tokens that screen out some markup, but not all.
