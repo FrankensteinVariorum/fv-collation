@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
-		<rdgGrp n="['&lt;p/&gt; In', 'this', 'description']">
+		<rdgGrp n="['&lt;p/&gt; in', 'this', 'description']">
 			<rdg wit="f1818">&lt;p sID=&quot;novel1_letter4_chapter1_div4_div1_p13&quot;/&gt;In this description </rdg>
 			<rdg wit="f1823">&lt;p sID=&quot;novel1_letter4_chapter1_div4_div1_p13&quot;/&gt;In this description </rdg>
 			<rdg wit="fThomas">&lt;p sID=&quot;novel1_letter4_chapter1_div4_div1_p13&quot;/&gt;In this description </rdg>
 		</rdgGrp>
-		<rdgGrp n="['In', '&lt;del&gt;this&lt;del&gt;thedescription']">
+		<rdgGrp n="['in', '&lt;del&gt;this&lt;del&gt;thedescription']">
 			<rdg wit="fMS">&lt;metamark function=&quot;displacement&quot; xml:id=&quot;c56-0012.05&quot;&gt;X&lt;/metamark&gt;&lt;lb n=&quot;c56-0012__left_margin__1&quot;/&gt;&lt;metamark function=&quot;displacement&quot;&gt;X&lt;/metamark&gt;In &lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__left_margin__d2e685&quot;/&gt;this&lt;del eID=&quot;c56-0012__left_margin__d2e685&quot;/&gt;thedescrip&lt;lb n=&quot;c56-0012__left_margin__2&quot;/&gt;tion </rdg>
 		</rdgGrp>
 	</app>
@@ -24,7 +24,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['I']">
+		<rdgGrp n="['i']">
 			<rdg wit="f1818">I </rdg>
 			<rdg wit="f1823">I </rdg>
 			<rdg wit="fThomas">I </rdg>
@@ -37,12 +37,12 @@
 			<rdg wit="f1823">include </rdg>
 			<rdg wit="fThomas">include </rdg>
 		</rdgGrp>
-		<rdgGrp n="['include&lt;del&gt;I', 'include&lt;del&gt;&lt;del&gt;Hen&lt;del&gt;']">
+		<rdgGrp n="['include&lt;del&gt;i', 'include&lt;del&gt;&lt;del&gt;hen&lt;del&gt;']">
 			<rdg wit="fMS">include&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e712&quot;/&gt;I include&lt;del eID=&quot;c56-0012__main__d2e712&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e716&quot;/&gt;Hen&lt;del eID=&quot;c56-0012__main__d2e716&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['Henry']">
+		<rdgGrp n="['henry']">
 			<rdg wit="f1818">Henry </rdg>
 			<rdg wit="f1823">Henry </rdg>
 			<rdg wit="fThomas">Henry </rdg>
@@ -50,10 +50,10 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;Carignan&lt;del&gt;Clerval,&lt;del&gt;in', 'this', 'account&lt;del&gt;']">
+		<rdgGrp n="['&lt;del&gt;carignan&lt;del&gt;clerval,&lt;del&gt;in', 'this', 'account&lt;del&gt;']">
 			<rdg wit="fMS">&lt;del next=&quot;#c56-0012.08&quot; rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e719&quot;/&gt;Carignan&lt;del eID=&quot;c56-0012__main__d2e719&quot;/&gt;Clerval,&lt;lb n=&quot;c56-0012__main__26&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e728&quot; xml:id=&quot;c56-0012.08&quot;/&gt;in this account&lt;del eID=&quot;c56-0012__main__d2e728&quot;/&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['Clerval;']">
+		<rdgGrp n="['clerval;']">
 			<rdg wit="f1818">Clerval; </rdg>
 			<rdg wit="f1823">Clerval; </rdg>
 			<rdg wit="fThomas">Clerval; </rdg>
@@ -91,29 +91,11 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['with', 'us.']">
-			<rdg wit="f1818">with us. </rdg>
-			<rdg wit="f1823">with us. </rdg>
-			<rdg wit="fThomas">with us. </rdg>
-			<rdg wit="fMS">with us. </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['He']">
-			<rdg wit="f1818">He </rdg>
-			<rdg wit="f1823">He </rdg>
-			<rdg wit="fThomas">He </rdg>
-		</rdgGrp>
-		<rdgGrp n="['he']">
-			<rdg wit="fMS">he </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['went', 'to']">
-			<rdg wit="f1818">went to </rdg>
-			<rdg wit="f1823">went to </rdg>
-			<rdg wit="fThomas">went to </rdg>
-			<rdg wit="fMS">went to </rdg>
+		<rdgGrp n="['with', 'us.', 'he', 'went', 'to']">
+			<rdg wit="f1818">with us. He went to </rdg>
+			<rdg wit="f1823">with us. He went to </rdg>
+			<rdg wit="fThomas">with us. He went to </rdg>
+			<rdg wit="fMS">with us. he went to </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -250,7 +232,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and', 'we', 'were', 'never', 'completely', 'happy', 'when', 'Clerval', 'was']">
+		<rdgGrp n="['and', 'we', 'were', 'never', 'completely', 'happy', 'when', 'clerval', 'was']">
 			<rdg wit="f1818">and we were never completely happy when Clerval was </rdg>
 			<rdg wit="f1823">and we were never completely happy when Clerval was </rdg>
 			<rdg wit="fThomas">and we were never completely happy when Clerval was </rdg>
@@ -274,4 +256,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2018-09-22 23:22:07.824922 -->
+<!-- 2018-09-23 09:50:50.013956 -->

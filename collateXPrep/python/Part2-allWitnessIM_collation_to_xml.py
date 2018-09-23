@@ -24,12 +24,17 @@ regexLeadingBlankLine = re.compile(r'^\n')
 regexPageBreak = re.compile(r'<pb.+?/>')
 RE_MARKUP = re.compile(r'<.+?>')
 RE_PARA = re.compile(r'<p\s[^<]+?/>')
+RE_INCLUDE = re.compile(r'<include[^<]*/>')
 RE_MILESTONE = re.compile(r'<milestone[^<]*/>')
-RE_HEAD = re.compile(r'<head[^>]*/>')
+RE_HEAD = re.compile(r'<head[^<]*/>')
+RE_AB = re.compile(r'<ab[^<]*/>')
 RE_AMP_NSB = re.compile(r'\S&amp;\s')
 RE_AMP_NSE = re.compile(r'\s&amp;\S')
 RE_AMP_SQUISH = re.compile(r'\S&amp;\S')
 RE_AMP = re.compile(r'\s&amp;\s')
+# RE_MULTICAPS = re.compile(r'(?<=\W|\s|\>)[A-Z][A-Z]+[A-Z]*\s')
+# RE_INNERCAPS = re.compile(r'(?<=hi\d"/>)[A-Z]+[A-Z]+[A-Z]+[A-Z]*')
+# TITLE_MultiCaps = match(RE_MULTICAPS).lower()
 RE_DELSTART = re.compile(r'<del[^<]*>')
 RE_ADDSTART = re.compile(r'<add[^<]*>')
 RE_MDEL = re.compile(r'<mdel[^<]*>.+?</mdel>')
@@ -110,7 +115,13 @@ def extract(input_xml):
     return output
 
 def normalize(inputText):
-   return RE_AMP.sub('and', \
+# 2018-09-23 ebb THIS WORKS, SOMETIMES, BUT NOT EVERWHERE: RE_MULTICAPS.sub(format(re.findall(RE_MULTICAPS, inputText, flags=0)).title(), \
+# RE_INNERCAPS.sub(format(re.findall(RE_INNERCAPS, inputText, flags=0)).lower(), \
+    return RE_MILESTONE.sub('', \
+        RE_INCLUDE.sub('', \
+        RE_AB.sub('', \
+        RE_HEAD.sub(' ', \
+        RE_AMP.sub('and', \
         RE_AMP_NSB.sub(' and', \
         RE_AMP_NSE.sub('and ', \
         RE_AMP_SQUISH.sub(' and ', \
@@ -128,9 +139,8 @@ def normalize(inputText):
         RE_GAP.sub('', \
         RE_DELSTART.sub('<del>', \
         RE_ADDSTART.sub('<add>', \
-        RE_MILESTONE.sub('<milestone/>', \
-        RE_HEAD.sub(' ', \
-        RE_METAMARK.sub('', inputText)))))))))))))))))))))
+        RE_METAMARK.sub('', inputText))))))))))))))))))))))).lower()
+
 # to lowercase the normalized tokens, add .lower() to the end.
 #    return regexPageBreak('',inputText)
 # ebb: The normalize function makes it possible to return normalized tokens that screen out some markup, but not all.
