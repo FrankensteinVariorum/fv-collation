@@ -101,9 +101,14 @@ def extract(input_xml):
         elif event == pulldom.COMMENT:
             doc.expandNode(node)
             output += node.toxml()
-        # ebb: empty block elements: pb, milestone, lb, lg, l, p, ab, head, hi, around which to set white spaces:
+        # ebb: Next (below): empty block elements: pb, milestone, lb, lg, l, p, ab, head, hi,
+        # We COULD set white spaces around these like this ' ' + node.toxml() + ' '
+        # but what seems to happen is that the white spaces get added to tokens; they aren't used to
+        # isolate the markup into separate tokens, which is really what we'd want.
+        # So, I'm removing the white spaces here.
+        # NOTE: Removing the white space seems to improve/expand app alignment
         elif event == pulldom.START_ELEMENT and node.localName in blockEmpty:
-            output += ' ' + node.toxml() + ' '
+            output += node.toxml()
         # ebb: empty inline elements that do not take surrounding white spaces:
         elif event == pulldom.START_ELEMENT and node.localName in inlineEmpty:
             output += node.toxml()
@@ -128,7 +133,7 @@ def normalize(inputText):
     return RE_MILESTONE.sub('', \
         RE_INCLUDE.sub('', \
         RE_AB.sub('', \
-        RE_HEAD.sub(' ', \
+        RE_HEAD.sub('', \
         RE_AMP.sub('and', \
         RE_AMP_NSB.sub(' and', \
         RE_AMP_NSE.sub('and ', \
@@ -137,19 +142,19 @@ def normalize(inputText):
         RE_SHI.sub('', \
         RE_HI.sub('', \
         RE_LB.sub('', \
-        RE_PB.sub(' ', \
-        RE_PARA.sub('<p/> ', \
-        RE_sgaP.sub('<p/> ', \
+        RE_PB.sub('', \
+        RE_PARA.sub('<p/>', \
+        RE_sgaP.sub('<p/>', \
         RE_LG.sub('<lg/>', \
         RE_L.sub('<l/>', \
         RE_CIT.sub('', \
         RE_QUOTE.sub('', \
-        RE_OPENQT.sub('&quot;', \
-        RE_CLOSEQT.sub('&quot;', \
+        RE_OPENQT.sub('"', \
+        RE_CLOSEQT.sub('"', \
         RE_GAP.sub('', \
         RE_DELSTART.sub('<del>', \
         RE_ADDSTART.sub('<add>', \
-        RE_METAMARK.sub('', inputText)))))))))))))))))))))))).lower()
+        RE_METAMARK.sub('', inputText))))))))))))))))))))))))).lower()
 
 # to lowercase the normalized tokens, add .lower() to the end.
 #    return regexPageBreak('',inputText)
