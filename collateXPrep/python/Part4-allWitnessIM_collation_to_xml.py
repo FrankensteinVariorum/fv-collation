@@ -47,10 +47,12 @@ RE_LG = re.compile(r'<lg[^<]*/>')
 RE_L = re.compile(r'<l\s[^<]*/>')
 RE_CIT = re.compile(r'<cit\s[^<]*/>')
 RE_QUOTE = re.compile(r'<quote\s[^<]*/>')
+RE_OPENQT = re.compile(r'“')
+RE_CLOSEQT = re.compile(r'”')
 RE_GAP = re.compile(r'<gap\s[^<]*/>')
 # &lt;milestone unit="tei:p"/&gt;
 RE_sgaP = re.compile(r'<milestone\sunit="tei:p"[^<]*/>')
-RE_hyphen = re.compile(r'-')
+# RE_hyphen = re.compile(r'-')
 # ebb: RE_MDEL = those pesky deletions of two letters or less that we want to normalize out of the collation, but preserve in the output.
 
 # Element types: xml, div, head, p, hi, pb, note, lg, l; comment()
@@ -67,8 +69,9 @@ RE_hyphen = re.compile(r'-')
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
 ignore = ['sourceDoc', 'xml', 'comment', 'w', 'mod', 'anchor', 'include', 'delSpan', 'addSpan', 'add', 'handShift', 'damage', 'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace', 'damage', 'restore']
-inlineEmpty = ['pb', 'lb', 'gap', 'del', 'p', 'div', 'milestone', 'lg', 'l', 'note', 'cit', 'quote', 'bibl', 'ab', 'hi', 'head']
-# 2018-05-12 ebb: I'm setting a white space on either side of the inlineEmpty elements in line 76
+blockEmpty = ['pb', 'p', 'div', 'milestone', 'lg', 'l', 'note', 'cit', 'quote', 'bibl', 'ab', 'head']
+inlineEmpty = ['lb', 'gap', 'del',  'hi']
+# 2018-05-12 (mysteriously removed but reinstated 2018-09-27) ebb: I'm setting a white space on either side of the inlineEmpty elements in line 103
 # 2018-07-20: ebb: CHECK: are there white spaces on either side of empty elements in the output?
 inlineContent = ['metamark', 'mdel', 'shi']
 #2018-07-17 ebb: I moved the following list up into inlineEmpty, since they are all now empty elements: blockElement = ['lg', 'l', 'note', 'cit', 'quote', 'bibl']
@@ -78,6 +81,7 @@ inlineContent = ['metamark', 'mdel', 'shi']
 
 def normalizeSpace(inText):
     """Replaces all whitespace spans with single space characters"""
+    #2018-09-28 ebb: Is this doing what we think?
     if regexNonWhitespace.search(inText):
         return regexWhitespace.sub('\n', inText)
     else:
@@ -97,7 +101,10 @@ def extract(input_xml):
         elif event == pulldom.COMMENT:
             doc.expandNode(node)
             output += node.toxml()
-        # empty inline elements: pb, milestone, lb, lg, l, p, ab, head, hi
+        # ebb: empty block elements: pb, milestone, lb, lg, l, p, ab, head, hi, around which to set white spaces:
+        elif event == pulldom.START_ELEMENT and node.localName in blockEmpty:
+            output += ' ' + node.toxml() + ' '
+        # ebb: empty inline elements that do not take surrounding white spaces:
         elif event == pulldom.START_ELEMENT and node.localName in inlineEmpty:
             output += node.toxml()
         # non-empty inline elements: mdel, shi, metamark
@@ -133,11 +140,12 @@ def normalize(inputText):
         RE_PB.sub(' ', \
         RE_PARA.sub('<p/> ', \
         RE_sgaP.sub('<p/> ', \
-        RE_hyphen.sub(' - ', \
         RE_LG.sub('<lg/>', \
         RE_L.sub('<l/>', \
         RE_CIT.sub('', \
         RE_QUOTE.sub('', \
+        RE_OPENQT.sub('&quot;', \
+        RE_CLOSEQT.sub('&quot;', \
         RE_GAP.sub('', \
         RE_DELSTART.sub('<del>', \
         RE_ADDSTART.sub('<add>', \
