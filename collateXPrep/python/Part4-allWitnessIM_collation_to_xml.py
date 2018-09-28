@@ -155,7 +155,7 @@ def processWitness(inputWitness, id):
     return {'id': id, 'tokens': [processToken(token) for token in inputWitness]}
 
 
-for name in glob.glob('../collChunks-Part3/1818_fullFlat_*'):
+for name in glob.glob('../collChunks-Part4/1818_fullFlat_*'):
     try:
         matchString = name.split("fullFlat_", 1)[1]
         # ebb: above gets C30.xml for example
