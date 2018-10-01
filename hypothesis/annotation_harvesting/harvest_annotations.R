@@ -1,11 +1,16 @@
 library(httr)
-library(rapiclient)
+#library(rapiclient)
 library(jsonlite)
 
 hyp_token <- readLines("hypothesis/annotation_harvesting/.hypothesis_token")
 
-hyp_api <- get_api("hypothesis/annotation_harvesting/hypothesis.json")
-hyp_ops <- get_operations(hyp_api, .headers = c(Authorization = paste("Bearer", hyp_token)), path = "search")
+# I'd use the very clevery `rapiclient` package, except that it seems to get
+# confused when writing the function for the /search path, and ends up
+# duplicating the "group" argument which we very much need. Will revisit if I
+# can, but for now we just build the GET calls manually.
+
+# hyp_api <- get_api("hypothesis/annotation_harvesting/hypothesis.json")
+# hyp_ops <- get_operations(hyp_api, .headers = c(Authorization = paste("Bearer", hyp_token)), path = "search")
 
 fraken_group <- "GwWrAWaw"
 
