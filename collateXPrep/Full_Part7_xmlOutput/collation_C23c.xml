@@ -41,8 +41,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['dream', '&amp;']">
-			<rdg wit="fMS">dream &amp; </rdg>
+		<rdgGrp n="['dream']">
+			<rdg wit="fMS">dream </rdg>
 		</rdgGrp>
 		<rdgGrp n="['dream,']">
 			<rdg wit="f1818">dream, </rdg>
@@ -54,20 +54,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="f1831">and </rdg>
-			<rdg wit="fThomas">and </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['that']">
-			<rdg wit="f1818">that </rdg>
-			<rdg wit="f1823">that </rdg>
-			<rdg wit="f1831">that </rdg>
-			<rdg wit="fThomas">that </rdg>
-			<rdg wit="fMS">that </rdg>
+		<rdgGrp n="['and', 'that']">
+			<rdg wit="f1818">and that </rdg>
+			<rdg wit="f1823">and that </rdg>
+			<rdg wit="f1831">and that </rdg>
+			<rdg wit="fThomas">and that </rdg>
+			<rdg wit="fMS">&amp; that </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -220,29 +212,11 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['screams']">
-			<rdg wit="f1818">screams </rdg>
-			<rdg wit="f1823">screams </rdg>
-			<rdg wit="fThomas">screams </rdg>
-			<rdg wit="fMS">screams </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&amp;']">
-			<rdg wit="fMS">&amp;&lt;lb n=&quot;c57-0073__main__27&quot;/&gt; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="fThomas">and </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['bitter']">
-			<rdg wit="f1818">bitter </rdg>
-			<rdg wit="f1823">bitter </rdg>
-			<rdg wit="fThomas">bitter </rdg>
-			<rdg wit="fMS">bitter </rdg>
+		<rdgGrp n="['screams', 'and', 'bitter']">
+			<rdg wit="f1818">screams and bitter </rdg>
+			<rdg wit="f1823">screams and bitter </rdg>
+			<rdg wit="fThomas">screams and bitter </rdg>
+			<rdg wit="fMS">screams &amp;&lt;lb n=&quot;c57-0073__main__27&quot;/&gt; bitter </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -400,4 +374,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2018-09-30 15:08:37.002845 -->
+<!-- 2018-10-01 11:02:19.631052 -->

@@ -900,7 +900,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', 'manner', '&amp;then']">
+		<rdgGrp n="['', 'manner', 'andthen']">
 			<rdg wit="fMS">&lt;lb n=&quot;c56-0104__main__9&quot;/&gt; manner &amp;&lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;then </rdg>
 		</rdgGrp>
 		<rdgGrp n="['manner;', 'then']">
@@ -1203,29 +1203,11 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['i', 'would', 'i', 'were', 'in', 'peace', 'with', 'my', 'aunt']">
-			<rdg wit="f1818">I would I were in peace with my aunt </rdg>
-			<rdg wit="f1823">I would I were in peace with my aunt </rdg>
-			<rdg wit="fThomas">I would I were in peace with my aunt </rdg>
-			<rdg wit="fMS">I would I were &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;in peace with my aunt </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&amp;']">
-			<rdg wit="fMS">&amp; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="fThomas">and </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['my']">
-			<rdg wit="f1818">my </rdg>
-			<rdg wit="f1823">my </rdg>
-			<rdg wit="fThomas">my </rdg>
-			<rdg wit="fMS">my </rdg>
+		<rdgGrp n="['i', 'would', 'i', 'were', 'in', 'peace', 'with', 'my', 'aunt', 'and', 'my']">
+			<rdg wit="f1818">I would I were in peace with my aunt and my </rdg>
+			<rdg wit="f1823">I would I were in peace with my aunt and my </rdg>
+			<rdg wit="fThomas">I would I were in peace with my aunt and my </rdg>
+			<rdg wit="fMS">I would I were &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;in peace with my aunt &amp; my </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1735,23 +1717,23 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['life']">
-			<rdg wit="f1818">life </rdg>
-			<rdg wit="f1823">life </rdg>
-			<rdg wit="fThomas">life </rdg>
-			<rdg wit="fMS">life </rdg>
-			<rdg wit="f1831">life </rdg>
+		<rdgGrp n="['life', 'and']">
+			<rdg wit="f1818">life and </rdg>
+			<rdg wit="f1823">life and </rdg>
+			<rdg wit="fThomas">life and </rdg>
+			<rdg wit="fMS">life &amp; </rdg>
+			<rdg wit="f1831">life and </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&amp;', 'death']">
-			<rdg wit="fMS">&amp; death </rdg>
+		<rdgGrp n="['death']">
+			<rdg wit="fMS">death </rdg>
 		</rdgGrp>
-		<rdgGrp n="['and', 'death,']">
-			<rdg wit="f1818">and death, </rdg>
-			<rdg wit="f1823">and death, </rdg>
-			<rdg wit="fThomas">and death, </rdg>
-			<rdg wit="f1831">and death, </rdg>
+		<rdgGrp n="['death,']">
+			<rdg wit="f1818">death, </rdg>
+			<rdg wit="f1823">death, </rdg>
+			<rdg wit="fThomas">death, </rdg>
+			<rdg wit="f1831">death, </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1789,32 +1771,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['such', 'deep']">
-			<rdg wit="f1818">such deep </rdg>
-			<rdg wit="f1823">such deep </rdg>
-			<rdg wit="fThomas">such deep </rdg>
-			<rdg wit="fMS">Such deep </rdg>
-			<rdg wit="f1831">such deep </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&amp;']">
-			<rdg wit="fMS">&amp; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="fThomas">and </rdg>
-			<rdg wit="f1831">and </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['bitter']">
-			<rdg wit="f1818">bitter </rdg>
-			<rdg wit="f1823">bitter </rdg>
-			<rdg wit="fThomas">bitter </rdg>
-			<rdg wit="fMS">bitter </rdg>
-			<rdg wit="f1831">bitter </rdg>
+		<rdgGrp n="['such', 'deep', 'and', 'bitter']">
+			<rdg wit="f1818">such deep and bitter </rdg>
+			<rdg wit="f1823">such deep and bitter </rdg>
+			<rdg wit="fThomas">such deep and bitter </rdg>
+			<rdg wit="fMS">Such deep &amp; bitter </rdg>
+			<rdg wit="f1831">such deep and bitter </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2701,7 +2663,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['moon', '&lt;del&gt;which&lt;del&gt;&amp;']">
+		<rdgGrp n="['moon', '&lt;del&gt;which&lt;del&gt;and']">
 			<rdg wit="fMS">moon &lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0106__main__d2e22542&quot;/&gt;which&lt;del eID=&quot;c56-0106__main__d2e22542&quot;/&gt;&amp; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['moon,']">
@@ -2763,7 +2725,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['brightness', '&lt;del&gt;but&lt;del&gt;&lt;del&gt;misery&lt;del&gt;&lt;del&gt;&amp;&lt;del&gt;&lt;del&gt;desp&lt;del&gt;']">
+		<rdgGrp n="['brightness', '&lt;del&gt;but&lt;del&gt;&lt;del&gt;misery&lt;del&gt;&lt;del&gt;and&lt;del&gt;&lt;del&gt;desp&lt;del&gt;']">
 			<rdg wit="fMS">brightness &lt;lb n=&quot;c56-0106__main__14&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0106__main__d2e22572&quot;/&gt;but&lt;del eID=&quot;c56-0106__main__d2e22572&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0106__main__d2e22575&quot;/&gt;misery&lt;del eID=&quot;c56-0106__main__d2e22575&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0106__main__d2e22578&quot;/&gt;&amp;&lt;del eID=&quot;c56-0106__main__d2e22578&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0106__main__d2e22581&quot;/&gt;desp&lt;del eID=&quot;c56-0106__main__d2e22581&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['brightness.']">
@@ -3299,23 +3261,23 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['live,', 'and']">
-			<rdg wit="f1818">Live, and </rdg>
-			<rdg wit="f1823">Live, and </rdg>
-			<rdg wit="fThomas">Live, and </rdg>
-			<rdg wit="f1831">Live, and </rdg>
+		<rdgGrp n="['live,']">
+			<rdg wit="f1818">Live, </rdg>
+			<rdg wit="f1823">Live, </rdg>
+			<rdg wit="fThomas">Live, </rdg>
+			<rdg wit="f1831">Live, </rdg>
 		</rdgGrp>
-		<rdgGrp n="['–', 'live', '&amp;']">
-			<rdg wit="fMS">– live &amp; </rdg>
+		<rdgGrp n="['–', 'live']">
+			<rdg wit="fMS">– live </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['be']">
-			<rdg wit="f1818">be </rdg>
-			<rdg wit="f1823">be </rdg>
-			<rdg wit="fThomas">be </rdg>
-			<rdg wit="fMS">be </rdg>
-			<rdg wit="f1831">be </rdg>
+		<rdgGrp n="['and', 'be']">
+			<rdg wit="f1818">and be </rdg>
+			<rdg wit="f1823">and be </rdg>
+			<rdg wit="fThomas">and be </rdg>
+			<rdg wit="fMS">&amp; be </rdg>
+			<rdg wit="f1831">and be </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3984,7 +3946,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;&amp;&lt;del&gt;&lt;del&gt;gentle', 'tone&lt;del&gt;']">
+		<rdgGrp n="['&lt;del&gt;and&lt;del&gt;&lt;del&gt;gentle', 'tone&lt;del&gt;']">
 			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0107__main__d2e22737&quot;/&gt;&amp;&lt;del eID=&quot;c56-0107__main__d2e22737&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0107__main__d2e22740&quot;/&gt;gentle tone&lt;del eID=&quot;c56-0107__main__d2e22740&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -4027,7 +3989,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['wretch', '&lt;del&gt;none&lt;del&gt;&amp;']">
+		<rdgGrp n="['wretch', '&lt;del&gt;none&lt;del&gt;and']">
 			<rdg wit="fMS">wretch &lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0107__main__d2e22748&quot;/&gt;none&lt;del eID=&quot;c56-0107__main__d2e22748&quot;/&gt;&amp;&lt;lb n=&quot;c56-0107__main__21&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['wretch,']">
@@ -4148,4 +4110,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2018-09-28 08:47:23.479372 -->
+<!-- 2018-10-01 10:25:03.223100 -->

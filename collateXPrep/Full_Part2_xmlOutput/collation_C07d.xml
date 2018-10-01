@@ -461,11 +461,25 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['elizabeth', 'were', '', 'drawing', '&amp;', 'music.i']">
-			<rdg wit="fMS">Elizabeth were &lt;lb n=&quot;c56-0011__main__15&quot;/&gt; drawing &amp; music.&lt;metamark function=&quot;displacement&quot; xml:id=&quot;c56-0011.13&quot;&gt;X&lt;/metamark&gt;&lt;metamark function=&quot;displacement&quot;&gt;X&lt;/metamark&gt;I </rdg>
+		<rdgGrp n="['elizabeth', 'were', '', 'drawing']">
+			<rdg wit="fMS">Elizabeth were &lt;lb n=&quot;c56-0011__main__15&quot;/&gt; drawing </rdg>
 		</rdgGrp>
-		<rdgGrp n="['winter,', 'and', 'the', 'life', 'and', 'turbulence', 'of', 'our', 'alpine', 'summers,—she', 'found', 'ample', 'scope', 'for', 'admiration', 'and', 'delight.', 'while', 'my', 'companion', 'contemplated', 'with', 'a', 'serious', 'and', 'satisfied', 'spirit']">
-			<rdg wit="f1831">winter, and the life and turbulence of our Alpine summers,—she found ample scope for admiration and delight. While my companion contemplated with a serious and satisfied spirit </rdg>
+		<rdgGrp n="['winter,', 'and', 'the', 'life']">
+			<rdg wit="f1831">winter, and the life </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['and']">
+			<rdg wit="fMS">&amp; </rdg>
+			<rdg wit="f1831">and </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['music.i']">
+			<rdg wit="fMS">music.&lt;metamark function=&quot;displacement&quot; xml:id=&quot;c56-0011.13&quot;&gt;X&lt;/metamark&gt;&lt;metamark function=&quot;displacement&quot;&gt;X&lt;/metamark&gt;I </rdg>
+		</rdgGrp>
+		<rdgGrp n="['turbulence', 'of', 'our', 'alpine', 'summers,—she', 'found', 'ample', 'scope', 'for', 'admiration', 'and', 'delight.', 'while', 'my', 'companion', 'contemplated', 'with', 'a', 'serious', 'and', 'satisfied', 'spirit']">
+			<rdg wit="f1831">turbulence of our Alpine summers,—she found ample scope for admiration and delight. While my companion contemplated with a serious and satisfied spirit </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -682,4 +696,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2018-09-28 08:30:03.507248 -->
+<!-- 2018-10-01 10:15:03.568989 -->

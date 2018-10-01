@@ -894,7 +894,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;well', '&amp;&lt;del&gt;&lt;del&gt;far&lt;del&gt;', 'vigorous']">
+		<rdgGrp n="['&lt;del&gt;well', 'and&lt;del&gt;&lt;del&gt;far&lt;del&gt;', 'vigorous']">
 			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0058__main__d2e12219&quot;/&gt;well &amp;&lt;del eID=&quot;c56-0058__main__d2e12219&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0058__main__d2e12222&quot;/&gt;far&lt;del eID=&quot;c56-0058__main__d2e12222&quot;/&gt; vigorous </rdg>
 		</rdgGrp>
 		<rdgGrp n="['so', 'vigorous,']">
@@ -1135,13 +1135,31 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['robust', 'and', 'active.&lt;p/&gt;&lt;p/&gt;&quot;my']">
-			<rdg wit="f1818">robust and active.&lt;p eID=&quot;novel1_letter4_chapter5_div4_div5_p4&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter5_div4_div5_p5&quot;/&gt;&lt;pb n=&quot;116&quot; xml:id=&quot;F1818_v1_128&quot;/&gt;“My </rdg>
-			<rdg wit="f1823">robust and active.&lt;p eID=&quot;novel1_letter4_chapter5_div4_div5_p4&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter5_div4_div5_p5&quot;/&gt;&lt;pb n=&quot;116&quot; xml:id=&quot;F1823_v1_135&quot;/&gt;“My </rdg>
-			<rdg wit="fThomas">robust and active.&lt;p eID=&quot;novel1_letter4_chapter5_div4_div5_p3&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter5_div4_div5_p4&quot;/&gt;&lt;pb n=&quot;116&quot; xml:id=&quot;F1818_v1_128&quot;/&gt;“My </rdg>
+		<rdgGrp n="['robust']">
+			<rdg wit="f1818">robust </rdg>
+			<rdg wit="f1823">robust </rdg>
+			<rdg wit="fThomas">robust </rdg>
 		</rdgGrp>
-		<rdgGrp n="['well', '&amp;', 'if', 'i', '&lt;del&gt;y&lt;del&gt;', 'may', 'use', 'that', 'term', 'for', 'it', 'is', '', 'very', 'expressive.&lt;p/&gt;', '&quot;my']">
-			<rdg wit="fMS">well &amp;&lt;shi rend=&quot;underline&quot;&gt;hearty&lt;/shi&gt;&lt;lb n=&quot;c56-0059__main__3&quot;/&gt; if I &lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0059__main__d2e12273&quot;/&gt;y&lt;del eID=&quot;c56-0059__main__d2e12273&quot;/&gt; may use that term for it is &lt;lb n=&quot;c56-0059__main__4&quot;/&gt; very expressive.&lt;milestone unit=&quot;tei:p&quot;/&gt;&lt;lb n=&quot;c56-0059__main__5&quot;/&gt; &quot;My </rdg>
+		<rdgGrp n="['well']">
+			<rdg wit="fMS">well </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['and']">
+			<rdg wit="f1818">and </rdg>
+			<rdg wit="f1823">and </rdg>
+			<rdg wit="fThomas">and </rdg>
+			<rdg wit="fMS">&amp;&lt;shi rend=&quot;underline&quot;&gt;hearty&lt;/shi&gt;&lt;lb n=&quot;c56-0059__main__3&quot;/&gt; </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['active.&lt;p/&gt;&lt;p/&gt;&quot;my']">
+			<rdg wit="f1818">active.&lt;p eID=&quot;novel1_letter4_chapter5_div4_div5_p4&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter5_div4_div5_p5&quot;/&gt;&lt;pb n=&quot;116&quot; xml:id=&quot;F1818_v1_128&quot;/&gt;“My </rdg>
+			<rdg wit="f1823">active.&lt;p eID=&quot;novel1_letter4_chapter5_div4_div5_p4&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter5_div4_div5_p5&quot;/&gt;&lt;pb n=&quot;116&quot; xml:id=&quot;F1823_v1_135&quot;/&gt;“My </rdg>
+			<rdg wit="fThomas">active.&lt;p eID=&quot;novel1_letter4_chapter5_div4_div5_p3&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter5_div4_div5_p4&quot;/&gt;&lt;pb n=&quot;116&quot; xml:id=&quot;F1818_v1_128&quot;/&gt;“My </rdg>
+		</rdgGrp>
+		<rdgGrp n="['if', 'i', '&lt;del&gt;y&lt;del&gt;', 'may', 'use', 'that', 'term', 'for', 'it', 'is', '', 'very', 'expressive.&lt;p/&gt;', '&quot;my']">
+			<rdg wit="fMS">if I &lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0059__main__d2e12273&quot;/&gt;y&lt;del eID=&quot;c56-0059__main__d2e12273&quot;/&gt; may use that term for it is &lt;lb n=&quot;c56-0059__main__4&quot;/&gt; very expressive.&lt;milestone unit=&quot;tei:p&quot;/&gt;&lt;lb n=&quot;c56-0059__main__5&quot;/&gt; &quot;My </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1598,7 +1616,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;&amp;&lt;del&gt;']">
+		<rdgGrp n="['&lt;del&gt;and&lt;del&gt;']">
 			<rdg wit="fMS">&lt;lb n=&quot;c56-0059__main__17&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0059__main__d2e12355&quot;/&gt;&amp;&lt;del eID=&quot;c56-0059__main__d2e12355&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -1913,21 +1931,21 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', 'confid&lt;mdel&gt;&lt;/mdel&gt;ant', '&amp;']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0059__main__26&quot;/&gt; confid&lt;mdel&gt;&lt;/mdel&gt;ant &amp; </rdg>
+		<rdgGrp n="['', 'confid&lt;mdel&gt;&lt;/mdel&gt;ant']">
+			<rdg wit="fMS">&lt;lb n=&quot;c56-0059__main__26&quot;/&gt; confid&lt;mdel&gt;&lt;/mdel&gt;ant </rdg>
 		</rdgGrp>
-		<rdgGrp n="['confidant,', 'and']">
-			<rdg wit="f1818">confidant, and </rdg>
-			<rdg wit="f1823">confidant, and </rdg>
-			<rdg wit="fThomas">confidant, and </rdg>
+		<rdgGrp n="['confidant,']">
+			<rdg wit="f1818">confidant, </rdg>
+			<rdg wit="f1823">confidant, </rdg>
+			<rdg wit="fThomas">confidant, </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['sometimes']">
-			<rdg wit="f1818">sometimes </rdg>
-			<rdg wit="f1823">sometimes </rdg>
-			<rdg wit="fThomas">sometimes </rdg>
-			<rdg wit="fMS">sometimes </rdg>
+		<rdgGrp n="['and', 'sometimes']">
+			<rdg wit="f1818">and sometimes </rdg>
+			<rdg wit="f1823">and sometimes </rdg>
+			<rdg wit="fThomas">and sometimes </rdg>
+			<rdg wit="fMS">&amp; sometimes </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1982,7 +2000,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['employment&amp;']">
+		<rdgGrp n="['employmentand']">
 			<rdg wit="fMS">employment&lt;metamark function=&quot;displacement&quot; xml:id=&quot;c56-0059.03&quot;&gt;^&lt;/metamark&gt;&lt;lb n=&quot;c56-0059__left_margin__1&quot;/&gt;&amp;&lt;lb n=&quot;c56-0059__main__28&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['profession']">
@@ -2903,32 +2921,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['produced', 'simpler']">
-			<rdg wit="f1818">produced simpler </rdg>
-			<rdg wit="f1823">produced simpler </rdg>
-			<rdg wit="fThomas">produced simpler </rdg>
-			<rdg wit="f1831">produced simpler </rdg>
-			<rdg wit="fMS">produced simpler </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&amp;']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0060__left_margin__6&quot;/&gt;&amp; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="fThomas">and </rdg>
-			<rdg wit="f1831">and </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['happier', 'manners']">
-			<rdg wit="f1818">happier manners </rdg>
-			<rdg wit="f1823">happier manners </rdg>
-			<rdg wit="fThomas">happier manners </rdg>
-			<rdg wit="f1831">happier manners </rdg>
-			<rdg wit="fMS">happier manners </rdg>
+		<rdgGrp n="['produced', 'simpler', 'and', 'happier', 'manners']">
+			<rdg wit="f1818">produced simpler and happier manners </rdg>
+			<rdg wit="f1823">produced simpler and happier manners </rdg>
+			<rdg wit="fThomas">produced simpler and happier manners </rdg>
+			<rdg wit="f1831">produced simpler and happier manners </rdg>
+			<rdg wit="fMS">produced simpler &lt;lb n=&quot;c56-0060__left_margin__6&quot;/&gt;&amp; happier manners </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3053,23 +3051,23 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['into', 'which', 'human', 'beings', 'have', 'been', 'divided,', '&amp;']">
-			<rdg wit="fMS">into which human beings have been divided, &amp; </rdg>
+		<rdgGrp n="['into', 'which', 'human', 'beings', 'have', 'been', 'divided,']">
+			<rdg wit="fMS">into which human beings have been divided, </rdg>
 		</rdgGrp>
-		<rdgGrp n="['of', 'its', 'inhabitants;', 'and']">
-			<rdg wit="f1818">of its inhabitants; and </rdg>
-			<rdg wit="f1823">of its inhabitants; and </rdg>
-			<rdg wit="fThomas">of its inhabitants; and </rdg>
-			<rdg wit="f1831">of its inhabitants; and </rdg>
+		<rdgGrp n="['of', 'its', 'inhabitants;']">
+			<rdg wit="f1818">of its inhabitants; </rdg>
+			<rdg wit="f1823">of its inhabitants; </rdg>
+			<rdg wit="fThomas">of its inhabitants; </rdg>
+			<rdg wit="f1831">of its inhabitants; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['the', 'lower', 'orders', 'being', 'neither', 'so', 'poor', 'nor', 'so']">
-			<rdg wit="f1818">the lower orders being neither so poor nor so </rdg>
-			<rdg wit="f1823">the lower orders being neither so poor nor so </rdg>
-			<rdg wit="fThomas">the lower orders being neither so poor nor so </rdg>
-			<rdg wit="f1831">the lower orders being neither so poor nor so </rdg>
-			<rdg wit="fMS">the lower orders being neither so poor nor so </rdg>
+		<rdgGrp n="['and', 'the', 'lower', 'orders', 'being', 'neither', 'so', 'poor', 'nor', 'so']">
+			<rdg wit="f1818">and the lower orders being neither so poor nor so </rdg>
+			<rdg wit="f1823">and the lower orders being neither so poor nor so </rdg>
+			<rdg wit="fThomas">and the lower orders being neither so poor nor so </rdg>
+			<rdg wit="f1831">and the lower orders being neither so poor nor so </rdg>
+			<rdg wit="fMS">&amp; the lower orders being neither so poor nor so </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3084,32 +3082,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['are', 'more', 'refined']">
-			<rdg wit="f1818">are more refined </rdg>
-			<rdg wit="f1823">are more refined </rdg>
-			<rdg wit="fThomas">are more refined </rdg>
-			<rdg wit="f1831">are more refined </rdg>
-			<rdg wit="fMS">are more refined </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&amp;']">
-			<rdg wit="fMS">&amp; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="fThomas">and </rdg>
-			<rdg wit="f1831">and </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['moral.', 'a', 'servant']">
-			<rdg wit="f1818">moral. A servant </rdg>
-			<rdg wit="f1823">moral. A servant </rdg>
-			<rdg wit="fThomas">moral. A servant </rdg>
-			<rdg wit="f1831">moral. A servant </rdg>
-			<rdg wit="fMS">moral. A servant </rdg>
+		<rdgGrp n="['are', 'more', 'refined', 'and', 'moral.', 'a', 'servant']">
+			<rdg wit="f1818">are more refined and moral. A servant </rdg>
+			<rdg wit="f1823">are more refined and moral. A servant </rdg>
+			<rdg wit="fThomas">are more refined and moral. A servant </rdg>
+			<rdg wit="f1831">are more refined and moral. A servant </rdg>
+			<rdg wit="fMS">are more refined &amp; moral. A servant </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3290,7 +3268,7 @@
 		<rdgGrp n="['being.', '&lt;p/&gt;&lt;p/&gt;&quot;after']">
 			<rdg wit="f1823">being. &lt;p eID=&quot;novel1_letter4_chapter5_div4_div5_p6&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter5_div4_div5_p7&quot;/&gt;&lt;pb n=&quot;119&quot; xml:id=&quot;F1823_v1_138&quot;/&gt;“After </rdg>
 		</rdgGrp>
-		<rdgGrp n="['being.&lt;del&gt;where&lt;del&gt;she', 'was', 'taught', '', 'all', 'the', 'duties', 'of', 'servant', '&amp;', 'was', 'very', '', 'kindly', 'treated.']">
+		<rdgGrp n="['being.&lt;del&gt;where&lt;del&gt;she', 'was', 'taught', '', 'all', 'the', 'duties', 'of', 'servant', 'and', 'was', 'very', '', 'kindly', 'treated.']">
 			<rdg wit="fMS">being.&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0060__main__d2e12806&quot;/&gt;Where&lt;del eID=&quot;c56-0060__main__d2e12806&quot;/&gt;she was taught &lt;lb n=&quot;c56-0060__main__25&quot;/&gt; all the duties of servant &amp; was very &lt;lb n=&quot;c56-0060__main__26&quot;/&gt; kindly treated. </rdg>
 		</rdgGrp>
 		<rdgGrp n="['being.&lt;p/&gt;&lt;p/&gt;&quot;after']">
@@ -3384,8 +3362,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['yours,', '&amp;']">
-			<rdg wit="fMS">yours, &amp; </rdg>
+		<rdgGrp n="['yours,']">
+			<rdg wit="fMS">yours, </rdg>
 		</rdgGrp>
 		<rdgGrp n="['yours;']">
 			<rdg wit="f1823">yours; </rdg>
@@ -3397,20 +3375,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="fThomas">and </rdg>
-			<rdg wit="f1831">and </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['i']">
-			<rdg wit="f1818">I </rdg>
-			<rdg wit="f1823">I </rdg>
-			<rdg wit="fThomas">I </rdg>
-			<rdg wit="f1831">I </rdg>
-			<rdg wit="fMS">I </rdg>
+		<rdgGrp n="['and', 'i']">
+			<rdg wit="f1818">and I </rdg>
+			<rdg wit="f1823">and I </rdg>
+			<rdg wit="fThomas">and I </rdg>
+			<rdg wit="f1831">and I </rdg>
+			<rdg wit="fMS">&amp; I </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -4344,32 +4314,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['her', 'brothers']">
-			<rdg wit="f1818">her brothers </rdg>
-			<rdg wit="f1823">her brothers </rdg>
-			<rdg wit="fThomas">her brothers </rdg>
-			<rdg wit="f1831">her brothers </rdg>
-			<rdg wit="fMS">her brothers </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&amp;']">
-			<rdg wit="fMS">&amp; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="fThomas">and </rdg>
-			<rdg wit="f1831">and </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['sister']">
-			<rdg wit="f1818">sister </rdg>
-			<rdg wit="f1823">sister </rdg>
-			<rdg wit="fThomas">sister </rdg>
-			<rdg wit="f1831">sister </rdg>
-			<rdg wit="fMS">sister </rdg>
+		<rdgGrp n="['her', 'brothers', 'and', 'sister']">
+			<rdg wit="f1818">her brothers and sister </rdg>
+			<rdg wit="f1823">her brothers and sister </rdg>
+			<rdg wit="fThomas">her brothers and sister </rdg>
+			<rdg wit="f1831">her brothers and sister </rdg>
+			<rdg wit="fMS">her brothers &amp; sister </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -4976,32 +4926,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['brothers']">
-			<rdg wit="f1818">brothers </rdg>
-			<rdg wit="f1823">brothers </rdg>
-			<rdg wit="fThomas">brothers </rdg>
-			<rdg wit="f1831">brothers </rdg>
-			<rdg wit="fMS">brothers </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&amp;']">
-			<rdg wit="fMS">&amp; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="fThomas">and </rdg>
-			<rdg wit="f1831">and </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['sister.', 'perpetual', 'fretting']">
-			<rdg wit="f1818">sister. Perpetual fretting </rdg>
-			<rdg wit="f1823">sister. Perpetual fretting </rdg>
-			<rdg wit="fThomas">sister. Perpetual fretting </rdg>
-			<rdg wit="f1831">sister. Perpetual fretting </rdg>
-			<rdg wit="fMS">sister. Perpetual fretting </rdg>
+		<rdgGrp n="['brothers', 'and', 'sister.', 'perpetual', 'fretting']">
+			<rdg wit="f1818">brothers and sister. Perpetual fretting </rdg>
+			<rdg wit="f1823">brothers and sister. Perpetual fretting </rdg>
+			<rdg wit="fThomas">brothers and sister. Perpetual fretting </rdg>
+			<rdg wit="f1831">brothers and sister. Perpetual fretting </rdg>
+			<rdg wit="fMS">brothers &amp; sister. Perpetual fretting </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5264,31 +5194,45 @@
 		<rdgGrp n="['']">
 			<rdg wit="fMS">&lt;lb n=&quot;c56-0063__main__13&quot;/&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['and', 'gentle,']">
-			<rdg wit="f1818">and gentle, </rdg>
-			<rdg wit="f1823">and gentle, </rdg>
-			<rdg wit="fThomas">and gentle, </rdg>
-			<rdg wit="f1831">and gentle, </rdg>
+	</app>
+	<app>
+		<rdgGrp n="['and']">
+			<rdg wit="f1818">and </rdg>
+			<rdg wit="f1823">and </rdg>
+			<rdg wit="fThomas">and </rdg>
+			<rdg wit="f1831">and </rdg>
+			<rdg wit="fMS">and </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and', 'extremely']">
-			<rdg wit="f1818">and extremely </rdg>
-			<rdg wit="f1823">and extremely </rdg>
-			<rdg wit="fThomas">and extremely </rdg>
-			<rdg wit="f1831">and extremely </rdg>
-			<rdg wit="fMS">and extremely </rdg>
+		<rdgGrp n="['extremely', 'mild']">
+			<rdg wit="fMS">extremely mild </rdg>
+		</rdgGrp>
+		<rdgGrp n="['gentle,']">
+			<rdg wit="f1818">gentle, </rdg>
+			<rdg wit="f1823">gentle, </rdg>
+			<rdg wit="fThomas">gentle, </rdg>
+			<rdg wit="f1831">gentle, </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['mild', '&amp;', 'pretty', 'and']">
-			<rdg wit="fMS">mild &amp; pretty and </rdg>
+		<rdgGrp n="['and']">
+			<rdg wit="f1818">and </rdg>
+			<rdg wit="f1823">and </rdg>
+			<rdg wit="fThomas">and </rdg>
+			<rdg wit="f1831">and </rdg>
+			<rdg wit="fMS">&amp; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['pretty;']">
-			<rdg wit="f1818">pretty; </rdg>
-			<rdg wit="f1823">pretty; </rdg>
-			<rdg wit="fThomas">pretty; </rdg>
-			<rdg wit="f1831">pretty; </rdg>
+	</app>
+	<app>
+		<rdgGrp n="['extremely', 'pretty;']">
+			<rdg wit="f1818">extremely pretty; </rdg>
+			<rdg wit="f1823">extremely pretty; </rdg>
+			<rdg wit="fThomas">extremely pretty; </rdg>
+			<rdg wit="f1831">extremely pretty; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['pretty', 'and']">
+			<rdg wit="fMS">pretty and </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -6701,4 +6645,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2018-09-28 08:47:02.499067 -->
+<!-- 2018-10-01 10:17:43.130750 -->

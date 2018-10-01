@@ -3002,14 +3002,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['sought;&amp;']">
-			<rdg wit="fMS">sought;&lt;lb n=&quot;c56-0008__main__5&quot;/&gt;&amp; </rdg>
-		</rdgGrp>
 		<rdgGrp n="['sought;', 'and']">
 			<rdg wit="f1818">sought; and </rdg>
 			<rdg wit="f1823">sought; and </rdg>
 			<rdg wit="fThomas">sought; and </rdg>
 			<rdg wit="f1831">sought; and </rdg>
+		</rdgGrp>
+		<rdgGrp n="['sought;and']">
+			<rdg wit="fMS">sought;&lt;lb n=&quot;c56-0008__main__5&quot;/&gt;&amp; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3939,23 +3939,23 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['with', 'curiosity']">
-			<rdg wit="f1818">with curiosity </rdg>
-			<rdg wit="f1823">with curiosity </rdg>
-			<rdg wit="fThomas">with curiosity </rdg>
-			<rdg wit="fMS">with curiosity </rdg>
-			<rdg wit="f1831">with curiosity </rdg>
+		<rdgGrp n="['with', 'curiosity', 'and']">
+			<rdg wit="f1818">with curiosity and </rdg>
+			<rdg wit="f1823">with curiosity and </rdg>
+			<rdg wit="fThomas">with curiosity and </rdg>
+			<rdg wit="fMS">with curiosity &lt;lb n=&quot;c56-0014__left_margin__3&quot;/&gt;&amp; </rdg>
+			<rdg wit="f1831">with curiosity and </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&amp;', 'delight&lt;del&gt;the', 'door&lt;del&gt;&lt;del&gt;watchin&lt;del&gt;&lt;del&gt;g&lt;del&gt;.', '&lt;del&gt;when', 'it', 'was', 'most&lt;del&gt;as']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0014__left_margin__3&quot;/&gt;&amp; delight&lt;lb n=&quot;c56-0014__main__8&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0014__main__d2e2091&quot; xml:id=&quot;c56-0014.06&quot;/&gt;the door&lt;del eID=&quot;c56-0014__main__d2e2091&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0014__main__d2e2094&quot;/&gt;watchin&lt;del eID=&quot;c56-0014__main__d2e2094&quot;/&gt;&lt;del rend=&quot;unmarked&quot; sID=&quot;c56-0014__main__d2e2097&quot;/&gt;g&lt;del eID=&quot;c56-0014__main__d2e2097&quot;/&gt;. &lt;del next=&quot;#c56-0014.10&quot; rend=&quot;strikethrough&quot; sID=&quot;c56-0014__main__d2e2102&quot;/&gt;When it was most&lt;del eID=&quot;c56-0014__main__d2e2102&quot;/&gt;As </rdg>
+		<rdgGrp n="['delight.', 'as']">
+			<rdg wit="f1818">delight. As </rdg>
+			<rdg wit="f1823">delight. As </rdg>
+			<rdg wit="fThomas">delight. As </rdg>
+			<rdg wit="f1831">delight. As </rdg>
 		</rdgGrp>
-		<rdgGrp n="['and', 'delight.', 'as']">
-			<rdg wit="f1818">and delight. As </rdg>
-			<rdg wit="f1823">and delight. As </rdg>
-			<rdg wit="fThomas">and delight. As </rdg>
-			<rdg wit="f1831">and delight. As </rdg>
+		<rdgGrp n="['delight&lt;del&gt;the', 'door&lt;del&gt;&lt;del&gt;watchin&lt;del&gt;&lt;del&gt;g&lt;del&gt;.', '&lt;del&gt;when', 'it', 'was', 'most&lt;del&gt;as']">
+			<rdg wit="fMS">delight&lt;lb n=&quot;c56-0014__main__8&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0014__main__d2e2091&quot; xml:id=&quot;c56-0014.06&quot;/&gt;the door&lt;del eID=&quot;c56-0014__main__d2e2091&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0014__main__d2e2094&quot;/&gt;watchin&lt;del eID=&quot;c56-0014__main__d2e2094&quot;/&gt;&lt;del rend=&quot;unmarked&quot; sID=&quot;c56-0014__main__d2e2097&quot;/&gt;g&lt;del eID=&quot;c56-0014__main__d2e2097&quot;/&gt;. &lt;del next=&quot;#c56-0014.10&quot; rend=&quot;strikethrough&quot; sID=&quot;c56-0014__main__d2e2102&quot;/&gt;When it was most&lt;del eID=&quot;c56-0014__main__d2e2102&quot;/&gt;As </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -4166,14 +4166,34 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['disappeared,', 'and', 'nothing', 'remained']">
-			<rdg wit="f1818">disappeared, and nothing remained </rdg>
-			<rdg wit="f1823">disappeared, and nothing remained </rdg>
-			<rdg wit="fThomas">disappeared, and nothing remained </rdg>
-			<rdg wit="f1831">disappeared, and nothing remained </rdg>
+		<rdgGrp n="['disappeared,']">
+			<rdg wit="f1818">disappeared, </rdg>
+			<rdg wit="f1823">disappeared, </rdg>
+			<rdg wit="fThomas">disappeared, </rdg>
+			<rdg wit="f1831">disappeared, </rdg>
 		</rdgGrp>
-		<rdgGrp n="['dissappeared', '&amp;', 'nothingremained']">
-			<rdg wit="fMS">dissappeared &lt;mdel&gt;an&lt;/mdel&gt;&amp; nothingremained </rdg>
+		<rdgGrp n="['dissappeared']">
+			<rdg wit="fMS">dissappeared </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['and']">
+			<rdg wit="f1818">and </rdg>
+			<rdg wit="f1823">and </rdg>
+			<rdg wit="fThomas">and </rdg>
+			<rdg wit="fMS">&lt;mdel&gt;an&lt;/mdel&gt;&amp; </rdg>
+			<rdg wit="f1831">and </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['nothing', 'remained']">
+			<rdg wit="f1818">nothing remained </rdg>
+			<rdg wit="f1823">nothing remained </rdg>
+			<rdg wit="fThomas">nothing remained </rdg>
+			<rdg wit="f1831">nothing remained </rdg>
+		</rdgGrp>
+		<rdgGrp n="['nothingremained']">
+			<rdg wit="fMS">nothingremained </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -4386,4 +4406,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2018-09-28 08:30:03.507248 -->
+<!-- 2018-10-01 10:15:03.568989 -->

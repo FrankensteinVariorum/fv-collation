@@ -270,14 +270,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&amp;&lt;del&gt;fancy&lt;del&gt;', 'fancy']">
-			<rdg wit="fMS">&amp;&lt;del instant=&quot;true&quot; rend=&quot;strikethrough&quot; sID=&quot;c56-0011__main__d2e341&quot;/&gt;fancy&lt;del eID=&quot;c56-0011__main__d2e341&quot;/&gt; fancy </rdg>
-		</rdgGrp>
 		<rdgGrp n="['and', 'fancy.']">
 			<rdg wit="f1818">and fancy. </rdg>
 			<rdg wit="f1823">and fancy. </rdg>
 			<rdg wit="fThomas">and fancy. </rdg>
 			<rdg wit="f1831">and fancy. </rdg>
+		</rdgGrp>
+		<rdgGrp n="['and&lt;del&gt;fancy&lt;del&gt;', 'fancy']">
+			<rdg wit="fMS">&amp;&lt;del instant=&quot;true&quot; rend=&quot;strikethrough&quot; sID=&quot;c56-0011__main__d2e341&quot;/&gt;fancy&lt;del eID=&quot;c56-0011__main__d2e341&quot;/&gt; fancy </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -476,14 +476,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['chivalry&amp;', 'romance']">
-			<rdg wit="fMS">chi&lt;lb n=&quot;c56-0011__main__29&quot;/&gt;valry&amp; romance </rdg>
-		</rdgGrp>
 		<rdgGrp n="['chivalry']">
 			<rdg wit="f1818">chivalry </rdg>
 			<rdg wit="f1823">chivalry </rdg>
 			<rdg wit="fThomas">chivalry </rdg>
 			<rdg wit="f1831">chivalry </rdg>
+		</rdgGrp>
+		<rdgGrp n="['chivalryand', 'romance']">
+			<rdg wit="fMS">chi&lt;lb n=&quot;c56-0011__main__29&quot;/&gt;valry&amp; romance </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1185,17 +1185,18 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&amp;', 'english']">
-			<rdg wit="fMS">&amp;&lt;lb n=&quot;c56-0012__main__15&quot;/&gt; English </rdg>
-		</rdgGrp>
 		<rdgGrp n="['and']">
 			<rdg wit="f1818">and </rdg>
 			<rdg wit="f1823">and </rdg>
 			<rdg wit="fThomas">and </rdg>
+			<rdg wit="fMS">&amp;&lt;lb n=&quot;c56-0012__main__15&quot;/&gt; </rdg>
 			<rdg wit="f1831">and </rdg>
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['english']">
+			<rdg wit="fMS">English </rdg>
+		</rdgGrp>
 		<rdgGrp n="['english,']">
 			<rdg wit="f1818">English, </rdg>
 			<rdg wit="f1823">English, </rdg>
@@ -1680,4 +1681,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2018-09-28 08:30:03.507248 -->
+<!-- 2018-10-01 10:15:03.568989 -->

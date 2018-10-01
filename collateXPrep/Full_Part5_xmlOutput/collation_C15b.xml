@@ -180,7 +180,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['country', '&amp;&lt;del&gt;from&lt;del&gt;induced']">
+		<rdgGrp n="['country', 'and&lt;del&gt;from&lt;del&gt;induced']">
 			<rdg wit="fMS">country &amp;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0115__main__d2e24455&quot;/&gt;from&lt;del eID=&quot;c56-0115__main__d2e24455&quot;/&gt;&lt;lb n=&quot;c56-0115__left_margin__1&quot;/&gt;induced </rdg>
 		</rdgGrp>
 		<rdgGrp n="['country;', 'and,', 'induced']">
@@ -283,29 +283,11 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['but', 'elizabeth']">
-			<rdg wit="f1818">but Elizabeth </rdg>
-			<rdg wit="f1823">but Elizabeth </rdg>
-			<rdg wit="fThomas">but Elizabeth </rdg>
-			<rdg wit="fMS">but Elizabeth </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&amp;']">
-			<rdg wit="fMS">&amp; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="fThomas">and </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['ernest']">
-			<rdg wit="f1818">Ernest </rdg>
-			<rdg wit="f1823">Ernest </rdg>
-			<rdg wit="fThomas">Ernest </rdg>
-			<rdg wit="fMS">Ernest </rdg>
+		<rdgGrp n="['but', 'elizabeth', 'and', 'ernest']">
+			<rdg wit="f1818">but Elizabeth and Ernest </rdg>
+			<rdg wit="f1823">but Elizabeth and Ernest </rdg>
+			<rdg wit="fThomas">but Elizabeth and Ernest </rdg>
+			<rdg wit="fMS">but Elizabeth &amp; Ernest </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -396,29 +378,11 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['had', 'been', 'described', 'to', 'them', 'as', 'so', 'wonderful']">
-			<rdg wit="f1818">had been described to them as so wonderful </rdg>
-			<rdg wit="f1823">had been described to them as so wonderful </rdg>
-			<rdg wit="fThomas">had been described to them as so wonderful </rdg>
-			<rdg wit="fMS">had been described to them as so wonderful </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&amp;']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0115__main__22&quot;/&gt;&amp; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="fThomas">and </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['sublime.', 'accordingly', 'we', 'departed', 'from']">
-			<rdg wit="f1818">sublime. Accordingly we departed from </rdg>
-			<rdg wit="f1823">sublime. Accordingly we departed from </rdg>
-			<rdg wit="fThomas">sublime. Accordingly we departed from </rdg>
-			<rdg wit="fMS">sublime. Accordingly we departed from </rdg>
+		<rdgGrp n="['had', 'been', 'described', 'to', 'them', 'as', 'so', 'wonderful', 'and', 'sublime.', 'accordingly', 'we', 'departed', 'from']">
+			<rdg wit="f1818">had been described to them as so wonderful and sublime. Accordingly we departed from </rdg>
+			<rdg wit="f1823">had been described to them as so wonderful and sublime. Accordingly we departed from </rdg>
+			<rdg wit="fThomas">had been described to them as so wonderful and sublime. Accordingly we departed from </rdg>
+			<rdg wit="fMS">had been described to them as so wonderful &lt;lb n=&quot;c56-0115__main__22&quot;/&gt;&amp; sublime. Accordingly we departed from </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -435,4 +399,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2018-09-28 13:34:56.820721 -->
+<!-- 2018-10-01 10:31:12.082731 -->
