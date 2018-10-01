@@ -1,6 +1,6 @@
 # Variorum “Spine” Collation Review and Annotation Process
 
-## What is the Spine: 
+## What is the Spine? 
 The foundation of our Variorum edition is the XML-formatted output of automated collation from CollateX, so we have affectionately named it the “spine” analogous to the spine of a Creature or to the spine of a book in holding an entity together. The XML output shows how each of the *Frankenstein* editions we are comparing aligns and deviates from the others, and presents one way of “reading the Variorum under the hood." This output presents the entire novel of Frankenstein as a kind of braid of each represented edition, as it lines up units that are comparably the same or different in special XML elements. Here is an example of such an element:
 
 ```
@@ -41,7 +41,7 @@ Sometimes an `<app>` element does not contain all the reading witnesses. An `<ap
 In the example above, only the Manuscript notebook witness contains the word “window”, and otherwise all the witnesses agree and are of `@type="invariant"` before and after this moment of variance. This is all collated properly and as we expect.
 
 ## Misalignments to mark
-Unfortunately, automated collation does not always produce optimal alignment of reading witnesses. Here is an example of a faulty alignment: 
+Unfortunately, automated collation does not always produce optimal alignment of reading witnesses. Here is one example of a faulty alignment: 
 
 ```
 <app type="invariant" xml:id="C10_app95">
@@ -106,6 +106,7 @@ As we read the flow of the text through the `<app>` elements, notice that there 
                <rdg wit="#fThomas">years, </rdg>
             </app>
 ```
+
 ### Notes on our correction process: 
 Making corrections to the “spine” is tricky work and we (Elisa, Jon, Jack, and Avery) decided this should involve multiple sets of eyes and multiple passes to get right. We will make a first pass through the files adding `<note>` elements indicating errors and suggesting what to fix in our own words. Afterwards, we will carefully implement the corrections by correcting the contents of the `<rdg>` elements and eliminating `<app>` elements as needed.
 
@@ -133,7 +134,7 @@ In these three examples, the `@resp` attribute indicates which of the three of u
 
 ## Where are we working?
 
-As we get started, please work with the 33 bridge-P1 files saved in our Google Drive as a sort of scratch workspace, following the production schedule described [here](https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/issues/59)
+As we get started, please work with the 33 bridge-P1 files saved in our Google Drive as a sort of scratch workspace, following the production schedule described [here](https://github.com/PghFrankenstein/Pittsburgh_Frankenstein/issues/59).
 
 Go ahead and upload your files to the same space. **File Renaming Protocol**: Please save your revised file with an underscore followed by your initials at the end of the filename just before the file extension, like this: 
 
