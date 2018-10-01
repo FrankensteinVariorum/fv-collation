@@ -1,0 +1,797 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Hypothesis API Reference",
+    "description": "# Hypothesis API Reference\n\nThis is a reference for the Hypothesis HTTP API.\nSee [the API overview](../api/) for an introduction to the API and information\non how authorization works.\n\n## Expanding Resources\n\nResources often contain links to related resources in their response bodies.\nSome endpoints support resource expansion, allowing those related resources\nto be expanded inline within the response.\n\nTo expand resources (where supported), use the `expand` request parameter.\nDocumentation for endpoints identify which resources are expandable, if any.\n\n```\nGET /api/things?expand=organization&expand=foobar\n```\n\nValues for `expand` are the fields to expand. The above would expand\n`organization` and `foobar` fields within the (hypothetical) returned `thing`\nobjects. You can expand multiple fields by providing multiple values in the\n`expand` Array.\n",
+    "termsOfService": "https://hypothes.is/terms-of-service",
+    "license": {
+      "name": "BSD (2-Clause)",
+      "url": "https://github.com/hypothesis/h/blob/master/LICENSE"
+    }
+  },
+  "host": "hypothes.is",
+  "basePath": "/api",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "securityDefinitions": {
+    "developerAPIKey": {
+      "type": "apiKey",
+      "description": "Authorize with a developer API key.",
+      "name": "Authorization",
+      "in": "header"
+    },
+    "authClientCredentials": {
+      "type": "basic",
+      "description": "Authorize using client credentials via HTTP Basic Auth.\n\nClient credentials must be registered with the `h` service and are\nassociated with a particular _authority_. This type of credentials grant the\nability to create and manipulate users and other resources within the\nassociated authority.\n"
+    },
+    "authClientForwardedUser": {
+      "type": "basic",
+      "description": "Proxy as a user within an authority. Must be used in combination with\n`authClientCredentials`.\n\nIn some cases, it is possible to make requests on behalf of valid users\nwithin the authority associated with auth client credentials. This is\naccomplished by setting an `X-Forwarded-User` header to the `userid` of\na valid user within the auth client's associated authority.\n\ne.g. a request with valid auth client credentials associated with the authority\n`example.com` could set the following forwarded-user header (assuming this\nuser exists):\n\n```\nX-Forwarded-User: \"acct:fiona_smith@example.com\"\n```\n"
+    }
+  },
+  "security": [
+    {
+      "developerAPIKey": [
+
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "general",
+      "description": "General and miscellaneous API services"
+    },
+    {
+      "name": "annotations",
+      "description": "Annotation resource services"
+    },
+    {
+      "name": "groups",
+      "description": "Group resource services"
+    },
+    {
+      "name": "users",
+      "description": "User and profile resource services"
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "general"
+        ],
+        "summary": "Service root",
+        "description": "Provides a list of links to resources offered by the API.",
+        "operationId": "root",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "security": [
+
+        ]
+      }
+    },
+    "/annotations": {
+      "post": {
+        "tags": [
+          "annotations"
+        ],
+        "summary": "Create a new annotation",
+        "operationId": "createAnnotation",
+        "parameters": [
+          {
+            "name": "annotation",
+            "in": "body",
+            "description": "Annotation to be created",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/NewAnnotation"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Annotation successfully created",
+            "schema": {
+              "$ref": "#/definitions/Annotation"
+            }
+          },
+          "400": {
+            "description": "Could not create annotation from your request",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/annotations/{id}": {
+      "get": {
+        "tags": [
+          "annotations"
+        ],
+        "summary": "Fetch an annotation",
+        "operationId": "fetchAnnotation",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of annotation to return",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Annotation"
+            }
+          },
+          "404": {
+            "description": "Annotation not found or no permission to view",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "annotations"
+        ],
+        "summary": "Update an annotation",
+        "description": "This endpoint is available under both the `PATCH` and `PUT`\nrequest methods. Both endpoints have PATCH-characteristics\nas defined in [RFC5789](https://tools.ietf.org/html/rfc5789#section-1),\nmeaning the request body does not have to include the whole annotation\nobject.\n\nNew implementations should use the `PATCH` request method, and existing\nimplementations continue to work under `PUT` but should switch to `PATCH`.\n",
+        "operationId": "updateAnnotation",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of annotation to return",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "annotation",
+            "in": "body",
+            "description": "Updated annotation body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/NewAnnotation"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Annotation"
+            }
+          },
+          "400": {
+            "description": "Could not create annotation from your request",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          },
+          "404": {
+            "description": "Annotation not found or no permission to update",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "annotations"
+        ],
+        "summary": "Delete an annotation",
+        "operationId": "deleteAnnotation",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of annotation to return",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "required": [
+                "deleted",
+                "id"
+              ],
+              "properties": {
+                "deleted": {
+                  "type": "boolean",
+                  "enum": [
+                    true
+                  ]
+                },
+                "id": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Annotation not found or no permission to delete",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/profile": {
+      "get": {
+        "tags": [
+          "users"
+        ],
+        "operationId": "fetchProfile",
+        "summary": "Get the user's profile",
+        "description": "This can either be accessed with an API key, in which case it will show the authenticated user's profile, or without, in which case it will show information for a logged-out profile, including only public groups for the current authority.\n",
+        "parameters": [
+          {
+            "name": "authority",
+            "in": "query",
+            "description": "The current authority if the user is not logged in.\n",
+            "required": false,
+            "type": "string",
+            "default": "hypothes.is"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Profile information",
+            "schema": {
+              "$ref": "#/definitions/Profile"
+            }
+          }
+        }
+      }
+    },
+    "/groups": {
+      "get": {
+        "tags": [
+          "groups"
+        ],
+        "summary": "Get list of groups",
+        "operationId": "listGroups",
+        "description": "Retrieve a list of accessible, applicable groups for this user for the provided target document (document_uri).\nNote: This API service is pre-release and currently under development. Be aware that parameters and response body will be changing.\n",
+        "parameters": [
+          {
+            "name": "authority",
+            "in": "query",
+            "description": "Used to identify available public groups. Applies only to non-authorized requests.\n",
+            "required": false,
+            "type": "string",
+            "default": "hypothes.is"
+          },
+          {
+            "name": "document_uri",
+            "in": "query",
+            "description": "The URI of the document currently being annotated. Used to filter appropriate groups\n",
+            "required": false,
+            "type": "string",
+            "format": "uri"
+          },
+          {
+            "name": "expand",
+            "description": "Array of fields to expand in the response\n",
+            "in": "query",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "organization"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/GroupResults"
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "groups"
+        ],
+        "summary": "Create a new group",
+        "operationId": "createGroup",
+        "description": "Create a new, private group for the currently-authenticated user.\n",
+        "parameters": [
+          {
+            "name": "group",
+            "in": "body",
+            "description": "Group to be created",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/NewGroup"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Group successfully created",
+            "schema": {
+              "$ref": "#/definitions/GroupResult"
+            }
+          },
+          "400": {
+            "description": "Could not create group from your request",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        },
+        "security": [
+          {
+            "authClientForwardedUser": [
+
+            ]
+          },
+          {
+            "developerAPIKey": [
+
+            ]
+          }
+        ]
+      }
+    },
+    "/search": {
+      "get": {
+        "tags": [
+          "annotations"
+        ],
+        "summary": "Search for annotations",
+        "operationId": "search",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "The maximum number of annotations to return.",
+            "required": false,
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 200,
+            "default": 20
+          },
+          {
+            "name": "search_after",
+            "in": "query",
+            "description": "Returns results after the annotation who's sort field has this value. If specifying a date use the format yyyy-MM-dd'T'HH:mm:ss.SSX or time in miliseconds since the epoch. This is used for iteration through large collections of results.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "The number of initial annotations to skip. This is used for pagination. Not  suitable for paging through thousands of annotations-search_after should be  used instead.\n",
+            "required": false,
+            "type": "integer",
+            "default": 0,
+            "minimum": 0,
+            "maximum": 9800
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "The field by which annotations should be sorted.",
+            "required": false,
+            "type": "string",
+            "enum": [
+              "created",
+              "updated",
+              "group",
+              "id",
+              "user"
+            ],
+            "default": "updated"
+          },
+          {
+            "name": "order",
+            "in": "query",
+            "description": "The order in which the results should be sorted.",
+            "required": false,
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "desc"
+          },
+          {
+            "name": "uri",
+            "in": "query",
+            "description": "Limit the results to annotations matching the specific URI or equivalent URIs.\n\nURI can be a URL (a web page address) or a URN representing another kind of\nresource such as DOI (Digital Object Identifier) or a PDF fingerprint.\n",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "uri.parts",
+            "in": "query",
+            "description": "Limit the results to annotations containing the given keyword in\nthe URL.\n"
+          },
+          {
+            "name": "url",
+            "in": "query",
+            "description": "Alias of `uri`.\n",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "wildcard_uri",
+            "in": "query",
+            "description": "Limit the results to annotations matching the wildcard URI. \nURI can be a URL (a web page address) or a URN representing another \nkind of resource such as DOI (Digital Object Identifier) or a \nPDF fingerprint.\n\n`*` will match any character sequence (including an empty one), \nand a `?` will match any single character. Wildcards are only permitted \nwithin the path and query parts of the URI.\n\nEscaping wildcards is not supported.\n\nExamples of valid uris: `http://foo.com/*` `urn:x-pdf:*` `file://localhost/?bc.pdf`\n\nExamples of invalid uris: `*foo.com` `u?n:*` `file://*` `http://foo.com*`\n\n<mark>This feature is experimental and the API may change.</mark>\n",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "user",
+            "in": "query",
+            "description": "Limit the results to annotations made by the specified user.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "group",
+            "in": "query",
+            "description": "Limit the results to annotations made in the specified group.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "tag",
+            "in": "query",
+            "description": "Limit the results to annotations tagged with the specified value.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "tags",
+            "in": "query",
+            "description": "Alias of `tag`.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "any",
+            "in": "query",
+            "description": "Limit the results to annotations whose quote, tags, text or url fields contain this keyword.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "group",
+            "in": "query",
+            "description": "Limit the results to this group of annotations.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "quote",
+            "in": "query",
+            "description": "Limit the results to annotations that contain this text inside the text that was annotated.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "references",
+            "in": "query",
+            "description": "Returns annotations that are replies to this parent annotation id.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "text",
+            "in": "query",
+            "description": "Limit the results to annotations that contain this text in their textual body.",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Search results",
+            "schema": {
+              "$ref": "#/definitions/SearchResults"
+            }
+          }
+        }
+      }
+    },
+    "/users": {
+      "post": {
+        "tags": [
+          "users"
+        ],
+        "summary": "Create a new user",
+        "description": "Only for specific auth clients, this API call allows clients with a\ndesignated authority to create users within their authority. Optional\nidentity information may be provided to maintain provider-specific\nmetadata about users.\n\nThis endpoint will return an HTTP 409 (Conflict) if the request represents\na duplicate of an existing user—email, username or identity collision.\n",
+        "operationId": "createUser",
+        "parameters": [
+          {
+            "name": "user",
+            "in": "body",
+            "description": "User to be created",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/NewUser"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "User successfully created",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          },
+          "400": {
+            "description": "Could not create user from your request",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          },
+          "409": {
+            "description": "Conflict",
+            "schema": {
+              "$ref": "#/definitions/ConflictError"
+            }
+          }
+        },
+        "security": [
+          {
+            "authClientCredentials": [
+
+            ]
+          }
+        ]
+      }
+    },
+    "/users/{username}": {
+      "patch": {
+        "tags": [
+          "users"
+        ],
+        "summary": "Update an existing user",
+        "description": "Only for specific auth clients, this API call allows clients with a\ndesignated authority to update users within their authority.\n",
+        "operationId": "updateUser",
+        "parameters": [
+          {
+            "name": "user",
+            "in": "body",
+            "description": "User to be created",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UpdateUser"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "User successfully updated",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          },
+          "400": {
+            "description": "Could not update user from your request",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        },
+        "security": [
+          {
+            "authClientCredentials": [
+
+            ]
+          }
+        ]
+      }
+    },
+    "/groups/{id}/members/{user}": {
+      "delete": {
+        "tags": [
+          "groups"
+        ],
+        "summary": "Remove a member from a group",
+        "operationId": "deleteGroupMember",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Public ID of the group",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "userid",
+            "in": "path",
+            "description": "The userid of the user to remove from the group. For now, only the value `me` is\nsupported, representing the currently-authenticated user.\n",
+            "required": true,
+            "type": "string",
+            "enum": [
+              "me"
+            ]
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Success"
+          },
+          "404": {
+            "description": "Group not found",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "groups"
+        ],
+        "summary": "Add a member to a group",
+        "operationId": "addGroupMember",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Public ID of the group",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "userid",
+            "in": "path",
+            "description": "User ID of the user to add to the group.\nThe userID should be of the format `acct:<username>@<authority>`\n",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Success"
+          },
+          "404": {
+            "description": "User or Group not found",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        },
+        "security": [
+          {
+            "authClientCredentials": [
+
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "NewAnnotation": {
+      "$ref": "./schemas/annotation-schema.json"
+    },
+    "Annotation": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/NewAnnotation"
+        },
+        {
+          "required": [
+            "id"
+          ],
+          "properties": {
+            "id": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "Error": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "failure"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "description": "A human-readable description of the reason(s) for failure."
+        }
+      }
+    },
+    "ConflictError": {
+      "description": "An error indicating a resource conflict, typically because a duplicate resource already exists.",
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "failure"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "description": "One or more human-readable errors describing the conflict."
+        }
+      }
+    },
+    "SearchResults": {
+      "type": "object",
+      "required": [
+        "rows",
+        "total"
+      ],
+      "properties": {
+        "rows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Annotation"
+          }
+        },
+        "total": {
+          "description": "Total number of results matching query.",
+          "type": "integer"
+        }
+      }
+    },
+    "NewGroup": {
+      "$ref": "./schemas/new-group.yaml#/Group"
+    },
+    "GroupResult": {
+      "$ref": "./schemas/group.yaml#/Group"
+    },
+    "GroupResults": {
+      "type": "array",
+      "items": {
+        "$ref": "./schemas/group.yaml#/Group"
+      }
+    },
+    "NewUser": {
+      "$ref": "./schemas/new-user-schema.json"
+    },
+    "UpdateUser": {
+      "$ref": "./schemas/update-user-schema.json"
+    },
+    "User": {
+      "$ref": "./schemas/user-schema.json"
+    },
+    "Profile": {
+      "$ref": "./schemas/profile-schema.json"
+    }
+  }
+}
