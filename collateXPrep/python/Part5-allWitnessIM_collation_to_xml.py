@@ -28,10 +28,11 @@ RE_INCLUDE = re.compile(r'<include[^<]*/>')
 RE_MILESTONE = re.compile(r'<milestone[^<]*/>')
 RE_HEAD = re.compile(r'<head[^<]*/>')
 RE_AB = re.compile(r'<ab[^<]*/>')
-RE_AMP_NSB = re.compile(r'\S&amp;\s')
-RE_AMP_NSE = re.compile(r'\s&amp;\S')
-RE_AMP_SQUISH = re.compile(r'\S&amp;\S')
-RE_AMP = re.compile(r'\s&amp;\s')
+# 2018-10-1 ebb: ampersands are apparently not treated in python regex as entities any more than angle brackets.
+# RE_AMP_NSB = re.compile(r'\S&amp;\s')
+# RE_AMP_NSE = re.compile(r'\s&amp;\S')
+# RE_AMP_SQUISH = re.compile(r'\S&amp;\S')
+RE_AMP = re.compile(r'&')
 # RE_MULTICAPS = re.compile(r'(?<=\W|\s|\>)[A-Z][A-Z]+[A-Z]*\s')
 # RE_INNERCAPS = re.compile(r'(?<=hi\d"/>)[A-Z]+[A-Z]+[A-Z]+[A-Z]*')
 # TITLE_MultiCaps = match(RE_MULTICAPS).lower()
@@ -133,9 +134,6 @@ def normalize(inputText):
         RE_AB.sub('', \
         RE_HEAD.sub('', \
         RE_AMP.sub('and', \
-        RE_AMP_NSB.sub(' and', \
-        RE_AMP_NSE.sub('and ', \
-        RE_AMP_SQUISH.sub(' and ', \
         RE_MDEL.sub('', \
         RE_SHI.sub('', \
         RE_HI.sub('', \
@@ -152,7 +150,7 @@ def normalize(inputText):
         RE_GAP.sub('', \
         RE_DELSTART.sub('<del>', \
         RE_ADDSTART.sub('<add>', \
-        RE_METAMARK.sub('', inputText))))))))))))))))))))))))).lower()
+        RE_METAMARK.sub('', inputText)))))))))))))))))))))).lower()
 
 # to lowercase the normalized tokens, add .lower() to the end.
 #    return regexPageBreak('',inputText)

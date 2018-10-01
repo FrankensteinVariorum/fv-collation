@@ -28,6 +28,7 @@ RE_INCLUDE = re.compile(r'<include[^<]*/>')
 RE_MILESTONE = re.compile(r'<milestone[^<]*/>')
 RE_HEAD = re.compile(r'<head[^<]*/>')
 RE_AB = re.compile(r'<ab[^<]*/>')
+# 2018-10-1 ebb: ampersands are apparently not treated in python regex as entities any more than angle brackets.
 # RE_AMP_NSB = re.compile(r'\S&amp;\s')
 # RE_AMP_NSE = re.compile(r'\s&amp;\S')
 # RE_AMP_SQUISH = re.compile(r'\S&amp;\S')
