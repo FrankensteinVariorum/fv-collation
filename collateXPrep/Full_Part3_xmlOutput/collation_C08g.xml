@@ -2093,9 +2093,9 @@
 			<rdg wit="fMS">world with its own </rdg>
 		</rdgGrp>
 	</app>
-	<app>
+	<app><!--2018-10-04 ebb: Note: I moved the tei paragraph tag in the fMS witness to C08h to align the next app. It's applicable here, too. -->
 		<rdgGrp n="['', '&quot;shadows.&quot;&lt;p/&gt;']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0028__main__10&quot;/&gt; &quot;shadows.&quot;&lt;milestone unit=&quot;tei:p&quot;/&gt; </rdg>
+			<rdg wit="fMS">&lt;lb n=&quot;c56-0028__main__10&quot;/&gt; &quot;shadows.&quot; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['shadows.&quot;&lt;p/&gt;']">
 			<rdg wit="f1818">shadows.”&lt;p eID=&quot;novel1_letter4_chapter2_div4_div2_p14&quot;/&gt; </rdg>
