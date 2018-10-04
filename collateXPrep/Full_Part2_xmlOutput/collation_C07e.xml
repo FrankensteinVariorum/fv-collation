@@ -565,19 +565,11 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="fThomas">and </rdg>
-			<rdg wit="fMS">and </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['st.']">
-			<rdg wit="f1818">St. </rdg>
-			<rdg wit="f1823">St. </rdg>
-			<rdg wit="fThomas">St. </rdg>
-			<rdg wit="fMS">St. </rdg>
+		<rdgGrp n="['and', 'st.']">
+			<rdg wit="f1818">and St. </rdg>
+			<rdg wit="f1823">and St. </rdg>
+			<rdg wit="fThomas">and St. </rdg>
+			<rdg wit="fMS">and St. </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -914,21 +906,9 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['the']">
-			<rdg wit="f1818">the </rdg>
-			<rdg wit="f1823">the </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['desire']">
-			<rdg wit="f1818">desire </rdg>
-			<rdg wit="f1823">desire </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['of']">
-			<rdg wit="f1818">of </rdg>
-			<rdg wit="f1823">of </rdg>
+		<rdgGrp n="['the', 'desire', 'of']">
+			<rdg wit="f1818">the desire of </rdg>
+			<rdg wit="f1823">the desire of </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -964,24 +944,10 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['representation']">
-			<rdg wit="f1818">representation </rdg>
-			<rdg wit="f1823">representation </rdg>
-			<rdg wit="fMS">representation </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['of']">
-			<rdg wit="f1818">of </rdg>
-			<rdg wit="f1823">of </rdg>
-			<rdg wit="fMS">of </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['some']">
-			<rdg wit="f1818">some </rdg>
-			<rdg wit="f1823">some </rdg>
-			<rdg wit="fMS">some </rdg>
+		<rdgGrp n="['representation', 'of', 'some']">
+			<rdg wit="f1818">representation of some </rdg>
+			<rdg wit="f1823">representation of some </rdg>
+			<rdg wit="fMS">representation of some </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1030,17 +996,10 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['we', 'learned', 'latin']">
-			<rdg wit="f1818">We learned Latin </rdg>
-			<rdg wit="f1823">We learned Latin </rdg>
-			<rdg wit="fMS">We learned Latin </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="fMS">&amp;&lt;lb n=&quot;c56-0012__main__15&quot;/&gt; </rdg>
+		<rdgGrp n="['we', 'learned', 'latin', 'and']">
+			<rdg wit="f1818">We learned Latin and </rdg>
+			<rdg wit="f1823">We learned Latin and </rdg>
+			<rdg wit="fMS">We learned Latin &amp;&lt;lb n=&quot;c56-0012__main__15&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1085,24 +1044,10 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and', 'so', 'far']">
-			<rdg wit="f1818">and so far </rdg>
-			<rdg wit="f1823">and so far </rdg>
-			<rdg wit="fMS">and so far </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['from']">
-			<rdg wit="f1818">from </rdg>
-			<rdg wit="f1823">from </rdg>
-			<rdg wit="fMS">from </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['study']">
-			<rdg wit="f1818">study </rdg>
-			<rdg wit="f1823">study </rdg>
-			<rdg wit="fMS">study </rdg>
+		<rdgGrp n="['and', 'so', 'far', 'from', 'study']">
+			<rdg wit="f1818">and so far from study </rdg>
+			<rdg wit="f1823">and so far from study </rdg>
+			<rdg wit="fMS">and so far from study </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1159,17 +1104,10 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['have', 'been']">
-			<rdg wit="f1818">have been </rdg>
-			<rdg wit="f1823">have been </rdg>
-			<rdg wit="fMS">have been </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['the']">
-			<rdg wit="f1818">the </rdg>
-			<rdg wit="f1823">the </rdg>
-			<rdg wit="fMS">the </rdg>
+		<rdgGrp n="['have', 'been', 'the']">
+			<rdg wit="f1818">have been the </rdg>
+			<rdg wit="f1823">have been the </rdg>
+			<rdg wit="fMS">have been the </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1178,25 +1116,10 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['labours']">
-			<rdg wit="f1818">labours </rdg>
-			<rdg wit="f1823">labours </rdg>
-			<rdg wit="fMS">labours </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['of']">
-			<rdg wit="f1818">of </rdg>
-			<rdg wit="f1823">of </rdg>
-			<rdg wit="fMS">of </rdg>
-			<rdg wit="f1831">of </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['other', 'children.', 'perhaps']">
-			<rdg wit="f1818">other children. Perhaps </rdg>
-			<rdg wit="f1823">other children. Perhaps </rdg>
-			<rdg wit="fMS">other children. perhaps </rdg>
+		<rdgGrp n="['labours', 'of', 'other', 'children.', 'perhaps']">
+			<rdg wit="f1818">labours of other children. Perhaps </rdg>
+			<rdg wit="f1823">labours of other children. Perhaps </rdg>
+			<rdg wit="fMS">labours of other children. perhaps </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1205,17 +1128,10 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['we']">
-			<rdg wit="f1818">we </rdg>
-			<rdg wit="f1823">we </rdg>
-			<rdg wit="fMS">we </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['did', 'not', 'read', 'so', 'many']">
-			<rdg wit="f1818">did not read so many </rdg>
-			<rdg wit="f1823">did not read so many </rdg>
-			<rdg wit="fMS">did not read so many </rdg>
+		<rdgGrp n="['we', 'did', 'not', 'read', 'so', 'many']">
+			<rdg wit="f1818">we did not read so many </rdg>
+			<rdg wit="f1823">we did not read so many </rdg>
+			<rdg wit="fMS">we did not read so many </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1302,17 +1218,10 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['but']">
-			<rdg wit="f1818">but </rdg>
-			<rdg wit="f1823">but </rdg>
-			<rdg wit="fMS">but </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['what', 'we']">
-			<rdg wit="f1818">what we </rdg>
-			<rdg wit="f1823">what we </rdg>
-			<rdg wit="fMS">what we </rdg>
+		<rdgGrp n="['but', 'what', 'we']">
+			<rdg wit="f1818">but what we </rdg>
+			<rdg wit="f1823">but what we </rdg>
+			<rdg wit="fMS">but what we </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1321,17 +1230,10 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['learned', 'was', 'impressed', 'the', 'more', 'deeply', 'on']">
-			<rdg wit="f1818">learned was impressed the more deeply on </rdg>
-			<rdg wit="f1823">learned was impressed the more deeply on </rdg>
-			<rdg wit="fMS">learned was impressed the more deeply on </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['our']">
-			<rdg wit="f1818">our </rdg>
-			<rdg wit="f1823">our </rdg>
-			<rdg wit="fMS">our </rdg>
+		<rdgGrp n="['learned', 'was', 'impressed', 'the', 'more', 'deeply', 'on', 'our']">
+			<rdg wit="f1818">learned was impressed the more deeply on our </rdg>
+			<rdg wit="f1823">learned was impressed the more deeply on our </rdg>
+			<rdg wit="fMS">learned was impressed the more deeply on our </rdg>
 		</rdgGrp>
 	</app>
 	<app>
