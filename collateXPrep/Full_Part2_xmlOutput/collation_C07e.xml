@@ -254,33 +254,15 @@
 		</rdgGrp>	
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;i']">
-			<rdg wit="fThomas">&lt;del sID=&quot;novel1_letter4_chapter1_div4_div1_p11_del1&quot;/&gt;I </rdg>
+		<rdgGrp n="['&lt;del&gt;i', 'remember,', '&lt;del&gt;when']">
+			<rdg wit="fThomas">&lt;del sID=&quot;novel1_letter4_chapter1_div4_div1_p11_del1&quot;/&gt;I remember, &lt;del eID=&quot;novel1_letter4_chapter1_div4_div1_p11_del1&quot;/&gt;when</rdg>
 		</rdgGrp>
-		<rdgGrp n="['i']">
-			<rdg wit="f1818">I </rdg>
-			<rdg wit="f1823">I </rdg>
-			<rdg wit="fMS">I </rdg>
+		<rdgGrp n="['i', 'remember', 'when']">
+			<rdg wit="fMS">I remember &lt;lb n=&quot;c56-0011__main__24&quot;/&gt; when </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['remember', '']">
-			<rdg wit="fMS">remember &lt;lb n=&quot;c56-0011__main__24&quot;/&gt; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['remember,']">
-			<rdg wit="f1818">remember, </rdg>
-			<rdg wit="f1823">remember, </rdg>
-			<rdg wit="fThomas">remember, </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&lt;del&gt;when']">
-			<rdg wit="fThomas">&lt;del eID=&quot;novel1_letter4_chapter1_div4_div1_p11_del1&quot;/&gt;when </rdg>
-		</rdgGrp>
-		<rdgGrp n="['when']">
-			<rdg wit="f1818">when </rdg>
-			<rdg wit="f1823">when </rdg>
-			<rdg wit="fMS">when </rdg>
+		<rdgGrp n="['i', 'remember,', 'when']">
+			<rdg wit="f1818">I remember, when </rdg>
+			<rdg wit="f1823">I remember, when </rdg>
 		</rdgGrp>
 	</app>
 	<app>
