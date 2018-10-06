@@ -1,68 +1,16 @@
 <?xml version="1.0" ?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1831"> </rdg>
+		<rdgGrp n="['full', 'of', 'activity', 'and', 'spirit.', 'He', 'is', 'desirous', 'to', 'be', 'a', 'true', 'Swiss,', 'and', 'to', 'enter', 'into', 'foreign', 'service;', 'but', 'we', 'cannot', 'part', 'with', 'him,', 'at', 'least', 'until', 'his', 'elder', 'brother', 'return', 'to', 'us.', 'My', 'uncle', 'is', 'not', 'pleased', 'with', 'the', 'idea', 'of', 'a', 'military', 'career', 'in', 'a', 'distant', 'country;', 'but', 'Ernest', 'never', 'had', 'your', 'powers', 'of', 'application.', 'He', 'looks', 'upon', 'study', 'as', 'an', 'odious', 'fetter;—his', 'time', 'is', 'spent']">
+			<rdg wit="f1831">full of activity and spirit. He is desirous to be a true Swiss, and to enter into foreign service;&lt;pb xml:id="F1831_v_066" n="50"/&gt; but we cannot part with him, at least until his elder brother return to us. My uncle is not pleased with the idea of a military career in a distant country; but Ernest never had your powers of application. He looks upon study as an odious fetter;—his time is spent </rdg>
 		</rdgGrp>
-		<rdgGrp n="['has']">
-			<rdg wit="f1818">has </rdg>
-			<rdg wit="f1823">has </rdg>
-			<rdg wit="fThomas">has </rdg>
-			<rdg wit="fMS">has </rdg>
+		<rdgGrp n="['has', '&lt;del&gt;quite&lt;del&gt;', 'lost', 'that', 'sickly', 'appearance', 'that', 'he', 'had', 'some', 'years', 'ago', '–']">
+			<rdg wit="fMS">has &lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0058__main__d2e12253&quot;/&gt;quite&lt;del eID=&quot;c56-0058__main__d2e12253&quot;/&gt; lost that&lt;lb n=&quot;c56-0059__main__1&quot;/&gt; sickly appearance that he had &lt;lb n=&quot;c56-0059__main__2&quot;/&gt; some years ago – </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&lt;del&gt;quite&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0058__main__d2e12253&quot;/&gt;quite&lt;del eID=&quot;c56-0058__main__d2e12253&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['lost', 'that', 'sickly', 'appearance']">
-			<rdg wit="f1818">lost that sickly appearance </rdg>
-			<rdg wit="f1823">lost that sickly appearance </rdg>
-			<rdg wit="fThomas">lost that sickly appearance </rdg>
-			<rdg wit="fMS">lost that&lt;lb n=&quot;c56-0059__main__1&quot;/&gt; sickly appearance </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['that']">
-			<rdg wit="fMS">that </rdg>
-		</rdgGrp>
-		<rdgGrp n="['which']">
-			<rdg wit="f1818">which </rdg>
-			<rdg wit="f1823">which </rdg>
-			<rdg wit="fThomas">which </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['he', 'had']">
-			<rdg wit="f1818">he had </rdg>
-			<rdg wit="f1823">he had </rdg>
-			<rdg wit="fThomas">he had </rdg>
-			<rdg wit="fMS">he had </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0059__main__2&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['some', 'years']">
-			<rdg wit="f1818">some years </rdg>
-			<rdg wit="f1823">some years </rdg>
-			<rdg wit="fThomas">some years </rdg>
-			<rdg wit="fMS">some years </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['ago', '–']">
-			<rdg wit="fMS">ago – </rdg>
-		</rdgGrp>
-		<rdgGrp n="['ago;']">
-			<rdg wit="f1818">ago; </rdg>
-			<rdg wit="f1823">ago; </rdg>
-			<rdg wit="fThomas">ago; </rdg>
+		<rdgGrp n="['has', 'lost', 'that', 'sickly', 'appearance', 'which', 'he', 'had', 'some', 'years', 'ago;']">
+			<rdg wit="f1818">has lost that sickly appearance which he had some years ago; </rdg>
+			<rdg wit="f1823">has lost that sickly appearance which he had some years ago; </rdg>
+			<rdg wit="fThomas">has lost that sickly appearance which he had some years ago; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
