@@ -1,27 +1,14 @@
 <?xml version="1.0" ?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1831"> </rdg>
+		<rdgGrp n="['I', 'retired', 'to', 'rest', 'at', 'night;', 'my', 'slumbers,', 'as', 'it', 'were,', 'waited', 'on', 'and', 'ministered', 'to', 'by', 'the', 'assemblance', 'of', 'grand', 'shapes', 'which', 'I', 'had', 'contemplated', 'during', 'the', 'day.', 'They', 'congregated', 'round', 'me;', 'the', 'unstained', 'snowy', 'mountain-top,', 'the', 'glittering', 'pinnacle,', 'the', 'pine', 'woods,', 'and', 'ragged', 'bare', 'ravine;', 'the', 'eagle,', 'soaring', 'amidst', 'the', 'clouds—they', 'all', 'gathered', 'round', 'me,', 'and', 'bade', 'me', 'be', 'at', 'peace.&lt;p/&gt;', '&lt;p/&gt;Where', 'had', 'they', 'fled', 'when', 'the', 'next', 'morning', 'I', 'awoke?', 'All', 'of', 'soul-inspiriting', 'fled', 'with', 'sleep,', 'and', 'dark', 'melancholy', 'clouded', 'every', 'thought.']">
+			<rdg wit="f1831">I retired to rest at night; my slumbers, as it were, waited on and ministered to by the assemblance of grand shapes which I had contemplated during the day. They congregated round me; the unstained snowy mountain-top, the glittering pinnacle, the pine woods, and ragged bare ravine; the eagle, soaring amidst the clouds—they all gathered round me, and bade me be at peace.&lt;p eID="novel1_letter4_chapter10_div4_div10_p1"/&gt; &lt;p sID="novel1_letter4_chapter10_div4_div10_p2"/&gt;Where had they fled when the next morning I awoke? &lt;pb xml:id="F1831_v_097" n="81"/&gt;All of soul-inspiriting fled with sleep, and dark melancholy clouded every thought. </rdg>
 		</rdgGrp>
-		<rdgGrp n="['i', 'returned', 'in', 'the']">
-			<rdg wit="f1818">I returned in the </rdg>
-			<rdg wit="f1823">I returned in the </rdg>
-			<rdg wit="fThomas">I returned in the </rdg>
-			<rdg wit="fMS">I returned in the </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0119__main__14&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['evening,']">
-			<rdg wit="f1818">evening, </rdg>
-			<rdg wit="f1823">evening, </rdg>
-			<rdg wit="fThomas">evening, </rdg>
-			<rdg wit="fMS">evening, </rdg>
+		<rdgGrp n="['i', 'returned', 'in', 'the', 'evening,']">
+			<rdg wit="f1818">I returned in the evening, </rdg>
+			<rdg wit="f1823">I returned in the evening, </rdg>
+			<rdg wit="fThomas">I returned in the evening, </rdg>
+			<rdg wit="fMS">I returned in the &lt;lb n=&quot;c56-0119__main__14&quot;/&gt; evening, </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -141,137 +128,15 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;my']">
-			<rdg wit="fThomas">&lt;del sID=&quot;novel1_letter4_chapter9_div4_div10_p1_del1&quot;/&gt;My </rdg>
+		<rdgGrp n="['&lt;del&gt;my', 'father', 'was', 'pleased,', 'and', 'elizabeth', 'overjoyed.', '&quot;my', 'dear', 'cousin,&quot;', 'said', 'she,', '&quot;you', 'see', 'what', 'happiness', 'you', 'diffuse', 'when', 'you', 'are', 'happy;', 'do', 'not', 'relapse', 'again!&quot;&lt;del&gt;the', 'affectionate', 'smile', 'with', 'which', 'elizabeth', 'welcomed', 'my', 'altered', 'mood', 'excited', 'me', 'to', 'greater', 'exertion;', 'and', 'i', 'felt', 'as', 'i', 'spoke', 'long', 'forgotten', 'sensations', 'of', 'pleasure', 'arise', 'in', 'my', 'mind.', 'i', 'knew', 'that', 'this', 'state', 'of', 'being', 'would', 'only', 'be', 'temporary,', 'that', 'gloom', 'and', 'misery', 'was', 'near', 'at', 'hand,', 'but', 'this', 'knowledge', 'only', 'acted', 'as', 'a', 'stimulant,', 'and', '&lt;del&gt;gave&lt;del&gt;', 'added', 'a', 'tingling', 'sensation', 'of', 'fear,', 'while', 'the', 'blood', 'danced', 'along', 'my', 'veins—my', 'eyes', 'sparkled', 'and', 'my', 'limbs', 'even', 'trembled', 'beneath', 'the', 'influence', 'of', 'unaccustomed', 'emotion.&lt;p/&gt;&lt;p/&gt;the']">
+			<rdg wit="fThomas">&lt;del sID=&quot;novel1_letter4_chapter9_div4_div10_p1_del1&quot;/&gt;My father was pleased, and Elizabeth overjoyed. “My dear cousin,” said she, “you see what happiness you diffuse when you are happy; do not relapse again!”&lt;del eID=&quot;novel1_letter4_chapter9_div4_div10_p1_del1&quot;/&gt;The affectionate smile with which Elizabeth welcomed my altered mood excited me to greater exertion; and I felt as I spoke long forgotten sensations of pleasure arise in my mind. I knew that this state of being would only be temporary, that gloom and misery was near at hand, but this knowledge only acted as a stimu&lt;pb n=&quot;016&quot;/&gt;lant, and &lt;del sID=&quot;novel1_letter4_chapter9_div4_div10_p1_add1_del1&quot;/&gt;gave&lt;del eID=&quot;novel1_letter4_chapter9_div4_div10_p1_add1_del1&quot;/&gt; added a tingling sensation of fear, while the blood danced along my veins—my eyes sparkled and my limbs even trembled beneath the influence of unaccustomed emotion.&lt;p eID=&quot;novel1_letter4_chapter9_div4_div10_p1&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter9_div4_div10_p2&quot;/&gt;The </rdg>
 		</rdgGrp>
-		<rdgGrp n="['my']">
-			<rdg wit="f1818">My </rdg>
-			<rdg wit="f1823">My </rdg>
-			<rdg wit="fMS">My </rdg>
+		<rdgGrp n="['my', 'father', 'was', 'pleased,', 'and', 'elizabeth', 'overjoyed.', '&quot;my', 'dear', 'cousin,&quot;', 'said', 'she,', '&quot;you', 'see', 'what', 'happiness', 'you', 'diffuse', 'when', 'you', 'are', 'happy;', 'do', 'not', 'relapse', 'again!&quot;&lt;p/&gt;&lt;p/&gt;the']">
+			<rdg wit="f1818">My father was pleased, and Elizabeth overjoyed. “My dear cousin,” said she, “you see what happiness you diffuse when you are happy; do not relapse again!”&lt;p eID=&quot;novel1_letter4_chapter9_div4_div10_p1&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter9_div4_div10_p2&quot;/&gt;The </rdg>
+			<rdg wit="f1823">My father was pleased, and Elizabeth overjoyed. “My dear cousin,” said she, “you see what happiness you diffuse when you are happy; do not relapse again!”&lt;p eID=&quot;novel1_letter4_chapter9_div4_div9_p1&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter9_div4_div9_p2&quot;/&gt;The </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['father', 'was']">
-			<rdg wit="f1818">father was </rdg>
-			<rdg wit="f1823">father was </rdg>
-			<rdg wit="fThomas">father was </rdg>
-			<rdg wit="fMS">fa&lt;lb n=&quot;c56-0119__main__17&quot;/&gt;ther was </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['pleased']">
-			<rdg wit="fMS">pleased </rdg>
-		</rdgGrp>
-		<rdgGrp n="['pleased,']">
-			<rdg wit="f1818">pleased, </rdg>
-			<rdg wit="f1823">pleased, </rdg>
-			<rdg wit="fThomas">pleased, </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['and', 'elizabeth']">
-			<rdg wit="f1818">and Elizabeth </rdg>
-			<rdg wit="f1823">and Elizabeth </rdg>
-			<rdg wit="fThomas">and Elizabeth </rdg>
-			<rdg wit="fMS">and Elizabeth </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['overjoyed.']">
-			<rdg wit="f1818">overjoyed. </rdg>
-			<rdg wit="f1823">overjoyed. </rdg>
-			<rdg wit="fThomas">overjoyed. </rdg>
-		</rdgGrp>
-		<rdgGrp n="['overjoyed;']">
-			<rdg wit="fMS">overjoyed; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&quot;my']">
-			<rdg wit="f1818">“My </rdg>
-			<rdg wit="f1823">“My </rdg>
-			<rdg wit="fThomas">“My </rdg>
-			<rdg wit="fMS">&quot;My </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0119__main__18&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['dear', 'cousin,&quot;', 'said', 'she,', '&quot;you', 'see', 'what', 'happiness']">
-			<rdg wit="f1818">dear cousin,” said she, “you see what happiness </rdg>
-			<rdg wit="f1823">dear cousin,” said she, “you see what happiness </rdg>
-			<rdg wit="fThomas">dear cousin,” said she, “you see what happiness </rdg>
-			<rdg wit="fMS">dear Cousin,&quot; said she, &quot;You see what happiness </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0119__main__19&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['you', 'diffuse', 'when', 'you', 'are']">
-			<rdg wit="f1818">you diffuse when you are </rdg>
-			<rdg wit="f1823">you diffuse when you are </rdg>
-			<rdg wit="fThomas">you diffuse when you are </rdg>
-			<rdg wit="fMS">you diffuse when you are </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&lt;del&gt;cheerful&lt;del&gt;happy;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0119__main__d2e25157&quot;/&gt;cheerful&lt;del eID=&quot;c56-0119__main__d2e25157&quot;/&gt;happy; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['happy;']">
-			<rdg wit="f1818">happy; </rdg>
-			<rdg wit="f1823">happy; </rdg>
-			<rdg wit="fThomas">happy; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['do']">
-			<rdg wit="f1818">do </rdg>
-			<rdg wit="f1823">do </rdg>
-			<rdg wit="fThomas">do </rdg>
-			<rdg wit="fMS">do </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0119__main__20&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['not', 'relapse']">
-			<rdg wit="f1818">not relapse </rdg>
-			<rdg wit="f1823">not relapse </rdg>
-			<rdg wit="fThomas">not relapse </rdg>
-			<rdg wit="fMS">not relapse </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['again!&quot;&lt;del&gt;the', 'affectionate', 'smile', 'with', 'which', 'elizabeth', 'welcomed', 'my', 'altered', 'mood', 'excited', 'me', 'to', 'greater', 'exertion;', 'and', 'i', 'felt', 'as', 'i', 'spoke', 'long', 'forgotten', 'sensations', 'of', 'pleasure', 'arise', 'in', 'my', 'mind.', 'i', 'knew', 'that', 'this', 'state', 'of', 'being', 'would', 'only', 'be', 'temporary,', 'that', 'gloom', 'and', 'misery', 'was', 'near', 'at', 'hand,', 'but', 'this', 'knowledge', 'only', 'acted', 'as', 'a', 'stimulant,', 'and', '&lt;del&gt;gave&lt;del&gt;', 'added', 'a', 'tingling', 'sensation', 'of', 'fear,', 'while', 'the', 'blood', 'danced', 'along', 'my', 'veins—my', 'eyes', 'sparkled', 'and', 'my', 'limbs', 'even', 'trembled', 'beneath']">
-			<rdg wit="fThomas">again!”&lt;del eID=&quot;novel1_letter4_chapter9_div4_div10_p1_del1&quot;/&gt;The affectionate smile with which Elizabeth welcomed my altered mood excited me to greater exertion; and I felt as I spoke long forgotten sensations of pleasure arise in my mind. I knew that this state of being would only be temporary, that gloom and misery was near at hand, but this knowledge only acted as a stimu&lt;pb n=&quot;016&quot;/&gt;lant, and &lt;del sID=&quot;novel1_letter4_chapter9_div4_div10_p1_add1_del1&quot;/&gt;gave&lt;del eID=&quot;novel1_letter4_chapter9_div4_div10_p1_add1_del1&quot;/&gt; added a tingling sensation of fear, while the blood danced along my veins—my eyes sparkled and my limbs even trembled beneath </rdg>
-		</rdgGrp>
-		<rdgGrp n="['again!&quot;&lt;p/&gt;&lt;p/&gt;the']">
-			<rdg wit="f1818">again!”&lt;p eID=&quot;novel1_letter4_chapter9_div4_div10_p1&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter9_div4_div10_p2&quot;/&gt;The </rdg>
-			<rdg wit="f1823">again!”&lt;p eID=&quot;novel1_letter4_chapter9_div4_div9_p1&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter9_div4_div9_p2&quot;/&gt;The </rdg>
-		</rdgGrp>
-		<rdgGrp n="['again!—&lt;p/&gt;']">
-			<rdg wit="fMS">again!—&lt;milestone unit=&quot;tei:p&quot;/&gt;&lt;lb n=&quot;c56-0119__main__21&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['the']">
-			<rdg wit="fThomas">the </rdg>
-			<rdg wit="fMS">The </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['influence', 'of', 'unaccustomed', 'emotion.&lt;p/&gt;&lt;p/&gt;the']">
-			<rdg wit="fThomas">influence of unaccustomed emotion.&lt;p eID=&quot;novel1_letter4_chapter9_div4_div10_p1&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter9_div4_div10_p2&quot;/&gt;The </rdg>
+		<rdgGrp n="['my', 'father', 'was', 'pleased', 'and', 'elizabeth', 'overjoyed;', '&quot;my', 'dear', 'cousin,&quot;', 'said', 'she,', '&quot;you', 'see', 'what', 'happiness', 'you', 'diffuse', 'when', 'you', 'are', '&lt;del&gt;cheerful&lt;del&gt;happy;', 'do', 'not', 'relapse', 'again!—&lt;p/&gt;', 'the']">
+			<rdg wit="fMS">My fa&lt;lb n=&quot;c56-0119__main__17&quot;/&gt;ther was pleased and Elizabeth overjoyed; &quot;My &lt;lb n=&quot;c56-0119__main__18&quot;/&gt; dear Cousin,&quot; said she, &quot;You see what happiness &lt;lb n=&quot;c56-0119__main__19&quot;/&gt; you diffuse when you are &lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0119__main__d2e25157&quot;/&gt;cheerful&lt;del eID=&quot;c56-0119__main__d2e25157&quot;/&gt;happy; do &lt;lb n=&quot;c56-0119__main__20&quot;/&gt; not relapse again!—&lt;milestone unit=&quot;tei:p&quot;/&gt;&lt;lb n=&quot;c56-0119__main__21&quot;/&gt; The </rdg>
 		</rdgGrp>
 	</app>
 	<app>

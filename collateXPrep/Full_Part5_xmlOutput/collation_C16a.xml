@@ -1,9 +1,6 @@
 <?xml version="1.0" ?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1831"> </rdg>
-		</rdgGrp>
 		<rdgGrp n="['chap.', '14&lt;p/&gt;the']">
 			<rdg wit="fMS">&lt;lb n=&quot;c56-0119__main__1&quot;/&gt;&lt;milestone spanTo=&quot;#c56-0119.01&quot; unit=&quot;tei:head&quot;/&gt;Chap. 14&lt;milestone unit=&quot;tei:p&quot;/&gt;&lt;lb n=&quot;c56-0119__main__2&quot;/&gt;The </rdg>
 		</rdgGrp>
@@ -11,6 +8,7 @@
 			<rdg wit="f1818">&lt;milestone n=&quot;9&quot; type=&quot;start&quot; unit=&quot;chapter&quot;/&gt;&lt;pb n=&quot;016&quot; xml:id=&quot;F1818_v2_020&quot;/&gt;&lt;head sID=&quot;novel1_letter4_chapter9_div4_div10_head1&quot;/&gt;CHAPTER </rdg>
 			<rdg wit="f1823">&lt;pb n=&quot;197&quot; xml:id=&quot;F1823_v1_216&quot;/&gt;&lt;milestone n=&quot;9&quot; type=&quot;start&quot; unit=&quot;chapter&quot;/&gt;&lt;head sID=&quot;novel1_letter4_chapter9_div4_div9_head1&quot;/&gt;CHAPTER </rdg>
 			<rdg wit="fThomas">&lt;milestone n=&quot;9&quot; type=&quot;start&quot; unit=&quot;chapter&quot;/&gt;&lt;pb n=&quot;016&quot; xml:id=&quot;F1818_v2_020&quot;/&gt;&lt;head sID=&quot;novel1_letter4_chapter9_div4_div10_head1&quot;/&gt;CHAPTER </rdg>
+			<rdg wit="f1831">&lt;milestone unit="chapter" type="start" n="10"/&gt; &lt;head sID="novel1_letter4_chapter10_div4_div10_head1"/&gt;CHAPTER </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -21,8 +19,14 @@
 		<rdgGrp n="['ix.&lt;p/&gt;the']">
 			<rdg wit="f1823">IX.&lt;head eID=&quot;novel1_letter4_chapter9_div4_div9_head1&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter9_div4_div9_p1&quot;/&gt;T&lt;hi sID=&quot;novel1_letter4_chapter9_div4_div9_p1_hi1&quot;/&gt;HE&lt;hi eID=&quot;novel1_letter4_chapter9_div4_div9_p1_hi1&quot;/&gt; </rdg>
 		</rdgGrp>
+		<rdgGrp n="['x.&lt;p/&gt;I', 'spent']">
+			<rdg wit="f1831">X.&lt;head eID="novel1_letter4_chapter10_div4_div10_head1"/&gt; &lt;p sID="novel1_letter4_chapter10_div4_div10_p1"/&gt;I &lt;hi sID="novel1_letter4_chapter10_div4_div10_p1_hi1"/&gt;SPENT&lt;hi eID="novel1_letter4_chapter10_div4_div10_p1_hi1"/&gt;</rdg>
+		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['the', 'following', 'day', 'roaming', 'through', 'the', 'valley.']">
+			<rdg wit="f1831">the following day roaming through the valley. </rdg>
+		</rdgGrp>
 		<rdgGrp n="['next', 'day,', 'contrary', 'to', 'the']">
 			<rdg wit="f1818">next day, contrary to the </rdg>
 			<rdg wit="f1823">next day, contrary to the </rdg>
@@ -72,34 +76,24 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['although', 'clouded.', 'we', 'visited', 'the']">
-			<rdg wit="f1818">although clouded. We visited the </rdg>
-			<rdg wit="f1823">although clouded. We visited the </rdg>
-			<rdg wit="fThomas">although clouded. We visited the </rdg>
-			<rdg wit="fMS">although clouded. &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;We visited the </rdg>
+		<rdgGrp n="['although', 'clouded.']">
+			<rdg wit="f1818">although clouded. </rdg>
+			<rdg wit="f1823">although clouded. </rdg>
+			<rdg wit="fThomas">although clouded. </rdg>
+			<rdg wit="fMS">although clouded. </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0119__main__4&quot;/&gt; </rdg>
+		<rdgGrp n="['I', 'stood', 'beside', 'the', 'sources', 'of', 'the', 'Arveiron,', 'which', 'take', 'their', 'rise', 'in', 'a', 'glacier,', 'that', 'with', 'slow', 'pace', 'is', 'advancing', 'down', 'from', 'the', 'summit', 'of', 'the', 'hills,', 'to', 'barricade', 'the', 'valley.', 'The', 'abrupt', 'sides', 'of', 'vast', 'mountains', 'were', 'before', 'me;', 'the', 'icy', 'wall', 'of', 'the', 'glacier', 'overhung', 'me;', 'a', 'few', 'shattered', 'pines', 'were', 'scattered', 'around;', 'and', 'the', 'solemn', 'silence', 'of', 'this', 'glorious', 'presence-chamber', 'of', 'imperial', 'Nature', 'was', 'broken', 'only', 'by', 'the', 'brawling', 'waves,', 'or', 'the', 'fall', 'of', 'some', 'vast', 'fragment,', 'the', 'thunder', 'sound', 'of', 'the', 'avalanche,', 'or', 'the', 'cracking,', 'reverberated', 'along', 'the', 'mountains', 'of', 'the', 'accumulated', 'ice,', 'which,', 'through', 'the', 'silent', 'working', 'of', 'immutable', 'laws,', 'was', 'ever', 'and', 'anon', 'rent', 'and', 'torn,', 'as', 'if', 'it', 'had', 'been', 'but', 'a', 'plaything', 'in', 'their', 'hands.']">
+			<rdg wit="f1831">I stood beside the sources of the Arveiron, which take their rise in a glacier, that with slow pace is advancing down from the summit of the hills, to barricade the valley. The abrupt sides of vast mountains were before me; the icy wall of the glacier overhung me; a few shattered pines were scattered around; and the solemn silence of this glorious presence-chamber of imperial Nature was broken only by the brawling waves, or the fall of some vast fragment, the thunder sound of the avalanche, or the cracking, reverberated along the mountains of the accumulated ice, which, through the silent working of immutable laws, was ever and anon rent and torn, as if it had been but a plaything in their hands.</rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['source', 'of', 'the']">
-			<rdg wit="f1818">source of the </rdg>
-			<rdg wit="f1823">source of the </rdg>
-			<rdg wit="fThomas">source of the </rdg>
-			<rdg wit="fMS">source of the </rdg>
+		<rdgGrp n="['we', 'visited', 'the', 'source', 'of', 'the', 'arveiron,']">
+			<rdg wit="f1818">We visited the source of the Arveiron, </rdg>
+			<rdg wit="f1823">We visited the source of the Arveiron, </rdg>
+			<rdg wit="fThomas">We visited the source of the Arveiron, </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['arveiron,']">
-			<rdg wit="f1818">Arveiron, </rdg>
-			<rdg wit="f1823">Arveiron, </rdg>
-			<rdg wit="fThomas">Arveiron, </rdg>
-		</rdgGrp>
-		<rdgGrp n="['aveiron']">
-			<rdg wit="fMS">Aveiron </rdg>
+		<rdgGrp n="['we', 'visited', 'the', 'source', 'of', 'the', 'aveiron']">
+			<rdg wit="fMS">&lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;We visited the &lt;lb n=&quot;c56-0119__main__4&quot;/&gt; source of the Aveiron </rdg>
 		</rdgGrp>
 	</app>
 	<app>
