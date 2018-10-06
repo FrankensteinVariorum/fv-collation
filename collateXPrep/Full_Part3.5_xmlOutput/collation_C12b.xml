@@ -1,9 +1,6 @@
 <?xml version="1.0" ?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1831"> </rdg>
-		</rdgGrp>
 		<rdgGrp n="['&lt;p/&gt;', 'clerval']">
 			<rdg wit="fMS">&lt;milestone unit=&quot;tei:p&quot;/&gt;&lt;lb n=&quot;c56-0068__main__28&quot;/&gt; Clerval </rdg>
 		</rdgGrp>
@@ -11,9 +8,13 @@
 			<rdg wit="f1818">&lt;p sID=&quot;novel1_letter4_chapter5_div4_div5_p19&quot;/&gt;Clerval </rdg>
 			<rdg wit="f1823">&lt;p sID=&quot;novel1_letter4_chapter5_div4_div5_p19&quot;/&gt;Clerval </rdg>
 			<rdg wit="fThomas">&lt;p sID=&quot;novel1_letter4_chapter5_div4_div5_p18&quot;/&gt;Clerval </rdg>
+			<rdg wit="f1831">&lt;p sID="novel1_letter4_chapter6_div4_div6_p18"/&gt;Clerval </rdg>
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['had', 'never', 'sympathised', 'in', 'my', 'tastes', 'for', 'natural', 'science;']">
+			<rdg wit="f1831">had never sympathised in my tastes for natural science; </rdg>
+		</rdgGrp>
 		<rdgGrp n="['was', 'no', 'natural', 'philosopher.']">
 			<rdg wit="f1818">was no natural philosopher. </rdg>
 			<rdg wit="f1823">was no natural philosopher. </rdg>
@@ -27,6 +28,9 @@
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['and', 'his', 'literary', 'pursuits', 'differed', 'wholly', 'from', 'those', 'which', 'had', 'occupied', 'me.']">
+			<rdg wit="f1831">and his literary pursuits differed wholly from those which had occupied me. </rdg>
+		</rdgGrp>
 		<rdgGrp n="['his', 'imagination', 'was', 'too', 'vivid', 'for', 'the']">
 			<rdg wit="f1818">His imagination was too vivid for the </rdg>
 			<rdg wit="f1823">His imagination was too vivid for the </rdg>
@@ -53,31 +57,16 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;la&lt;del&gt;languages']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0069__main__d2e14412&quot;/&gt;La&lt;del eID=&quot;c56-0069__main__d2e14412&quot;/&gt;Lan&lt;lb n=&quot;c56-0069__main__2&quot;/&gt;guages </rdg>
+		<rdgGrp n="['He', 'came', 'to', 'the', 'university', 'with', 'the', 'design', 'of', 'making', 'himself', 'complete', 'master', 'of', 'the', 'oriental', 'languages,', 'as', 'thus', 'he', 'should', 'open', 'a', 'field', 'for', 'the', 'plan', 'of', 'life', 'he', 'had', 'marked', 'out', 'for', 'himself.', 'Resolved', 'to', 'pursue', 'no', 'inglorious', 'career,', 'he', 'turned', 'his', 'eyes', 'toward', 'the', 'East,', 'as', 'affording', 'scope', 'for', 'his', 'spirit', 'of', 'enterprise.']">
+			<rdg wit="f1831">He came to the university with the design of making himself complete master of the oriental languages, as thus he should open a field for the plan of life he had marked out for himself. Resolved to pursue no inglorious career, he turned his eyes toward the East, as affording scope for his spirit of enterprise. </rdg>
 		</rdgGrp>
-		<rdgGrp n="['languages']">
-			<rdg wit="f1818">Languages </rdg>
-			<rdg wit="f1823">Languages </rdg>
-			<rdg wit="fThomas">Languages </rdg>
+		<rdgGrp n="['&lt;del&gt;la&lt;del&gt;languages', 'were', 'his', '&lt;del&gt;chief&lt;del&gt;principal', 'study', 'for']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0069__main__d2e14412&quot;/&gt;La&lt;del eID=&quot;c56-0069__main__d2e14412&quot;/&gt;Lan&lt;lb n=&quot;c56-0069__main__2&quot;/&gt;guages were his &lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0069__main__d2e14424&quot;/&gt;chief&lt;del eID=&quot;c56-0069__main__d2e14424&quot;/&gt;&lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;principal study for </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['were', 'his']">
-			<rdg wit="f1818">were his </rdg>
-			<rdg wit="f1823">were his </rdg>
-			<rdg wit="fThomas">were his </rdg>
-			<rdg wit="fMS">were his </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&lt;del&gt;chief&lt;del&gt;principal', 'study', 'for']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0069__main__d2e14424&quot;/&gt;chief&lt;del eID=&quot;c56-0069__main__d2e14424&quot;/&gt;&lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;principal study for </rdg>
-		</rdgGrp>
-		<rdgGrp n="['principal', 'study;', 'and']">
-			<rdg wit="f1818">principal study; and </rdg>
-			<rdg wit="f1823">principal study; and </rdg>
-			<rdg wit="fThomas">principal study; and </rdg>
+		<rdgGrp n="['languages', 'were', 'his', 'principal', 'study;', 'and']">
+			<rdg wit="f1818">Languages were his principal study; and </rdg>
+			<rdg wit="f1823">Languages were his principal study; and </rdg>
+			<rdg wit="fThomas">Languages were his principal study; and </rdg>
 		</rdgGrp>
 	</app>
 	<app>
