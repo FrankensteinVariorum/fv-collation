@@ -1,63 +1,27 @@
 <?xml version="1.0" ?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1831"> </rdg>
+		<rdgGrp n="['&lt;p/&gt;Tears,', 'unrestrained,', 'fell', 'from', 'my', 'brother’s', 'eyes;', 'a', 'sense', 'of', 'mortal', 'agony', 'crept', 'over', 'my', 'frame.', 'Before,', 'I', 'had', 'only', 'imagined', 'the', 'wretchedness', 'of', 'my', 'desolated', 'home;', 'the', 'reality', 'came', 'on', 'me', 'as', 'a', 'new,', 'and', 'a', 'not', 'less', 'terrible,', 'disaster.']">
+			<rdg wit="f1831">&lt;p sID="novel1_letter4_chapter7_div4_div7_p35"/&gt;Tears, unrestrained, fell from my brother’s eyes; a sense of mortal agony crept over my frame. Before, I had only imagined the wretchedness of my desolated home; the reality came on me as a new, and a not less terrible, disaster. </rdg>
 		</rdgGrp>
-		<rdgGrp n="['ernest', 'began']">
-			<rdg wit="f1818">Er&lt;pb n=&quot;153&quot; xml:id=&quot;F1818_v1_165&quot;/&gt;nest began </rdg>
-			<rdg wit="f1823">Ernest began </rdg>
-			<rdg wit="fThomas">Er&lt;pb n=&quot;153&quot; xml:id=&quot;F1818_v1_165&quot;/&gt;nest began </rdg>
-			<rdg wit="fMS">Ernest began </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0086__main__9&quot;/&gt; </rdg>
+		<rdgGrp n="['ernest', 'began', 'to', 'weep', 'as', 'he', 'said', 'these']">
+			<rdg wit="f1818">Er&lt;pb n=&quot;153&quot; xml:id=&quot;F1818_v1_165&quot;/&gt;nest began to weep as he said these </rdg>
+			<rdg wit="f1823">Ernest began to weep as he said these </rdg>
+			<rdg wit="fThomas">Er&lt;pb n=&quot;153&quot; xml:id=&quot;F1818_v1_165&quot;/&gt;nest began to weep as he said these </rdg>
+			<rdg wit="fMS">Ernest began &lt;lb n=&quot;c56-0086__main__9&quot;/&gt; to weep as he said these </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['to', 'weep', 'as', 'he', 'said', 'these']">
-			<rdg wit="f1818">to weep as he said these </rdg>
-			<rdg wit="f1823">to weep as he said these </rdg>
-			<rdg wit="fThomas">to weep as he said these </rdg>
-			<rdg wit="fMS">to weep as he said these </rdg>
+		<rdgGrp n="['I', 'tried', 'to', 'calm', 'Ernest;', 'I', 'enquired', 'more', 'minutely', 'concerning', 'my', 'father,', 'and', 'her', 'I', 'named', 'my', 'cousin.&lt;p/&gt;']">
+			<rdg wit="f1831">I tried to calm Ernest; I enquired more minutely concerning my father, and her I named my cousin.&lt;p eID="novel1_letter4_chapter7_div4_div7_p35"/&gt; </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['words.&lt;p/&gt;', '&quot;do', 'not', 'you&quot;']">
-			<rdg wit="fMS">words.&lt;milestone unit=&quot;tei:p&quot;/&gt;&lt;lb n=&quot;c56-0086__main__10&quot;/&gt; &quot;Do not &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;you&quot; </rdg>
+		<rdgGrp n="['words.&lt;p/&gt;', '&quot;do', 'not', 'you&quot;', 'said', 'i,&quot;', 'welcome', 'me', 'thus;', 'try']">
+			<rdg wit="fMS">words.&lt;milestone unit=&quot;tei:p&quot;/&gt;&lt;lb n=&quot;c56-0086__main__10&quot;/&gt; &quot;Do not &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;you&quot; said I,&quot; welcome me thus; try </rdg>
 		</rdgGrp>
-		<rdgGrp n="['words.&lt;p/&gt;&lt;p/&gt;&quot;do', 'not,&quot;']">
-			<rdg wit="f1818">words.&lt;p eID=&quot;novel1_letter4_chapter6_div4_div6_p34&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter6_div4_div6_p35&quot;/&gt;“Do not,” </rdg>
-			<rdg wit="f1823">words.&lt;p eID=&quot;novel1_letter4_chapter6_div4_div6_p34&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter6_div4_div6_p35&quot;/&gt;“Do not,” </rdg>
-			<rdg wit="fThomas">words.&lt;p eID=&quot;novel1_letter4_chapter6_div4_div6_p34&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter6_div4_div6_p35&quot;/&gt;“Do not,” </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['said']">
-			<rdg wit="f1818">said </rdg>
-			<rdg wit="f1823">said </rdg>
-			<rdg wit="fThomas">said </rdg>
-			<rdg wit="fMS">said </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['i,&quot;', 'welcome']">
-			<rdg wit="fMS">I,&quot; welcome </rdg>
-		</rdgGrp>
-		<rdgGrp n="['i,', '&quot;welcome']">
-			<rdg wit="f1818">I, “welcome </rdg>
-			<rdg wit="f1823">I, “Welcome </rdg>
-			<rdg wit="fThomas">I, “welcome </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['me', 'thus;', 'try']">
-			<rdg wit="f1818">me thus; try </rdg>
-			<rdg wit="f1823">me thus; try </rdg>
-			<rdg wit="fThomas">me thus; try </rdg>
-			<rdg wit="fMS">me thus; try </rdg>
+		<rdgGrp n="['words.&lt;p/&gt;&lt;p/&gt;&quot;do', 'not,&quot;', 'said', 'i,', '&quot;welcome', 'me', 'thus;', 'try']">
+			<rdg wit="f1818">words.&lt;p eID=&quot;novel1_letter4_chapter6_div4_div6_p34&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter6_div4_div6_p35&quot;/&gt;“Do not,” said I, “welcome me thus; try </rdg>
+			<rdg wit="f1823">words.&lt;p eID=&quot;novel1_letter4_chapter6_div4_div6_p34&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter6_div4_div6_p35&quot;/&gt;“Do not,” said I, “welcome me thus; try </rdg>
+			<rdg wit="fThomas">words.&lt;p eID=&quot;novel1_letter4_chapter6_div4_div6_p34&quot;/&gt;&lt;p sID=&quot;novel1_letter4_chapter6_div4_div6_p35&quot;/&gt;“Do not,” said I, “welcome me thus; try </rdg>
 		</rdgGrp>
 	</app>
 	<app>
