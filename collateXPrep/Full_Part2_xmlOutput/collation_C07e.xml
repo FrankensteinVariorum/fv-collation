@@ -61,12 +61,9 @@
 			<rdg wit="f1818">a friend </rdg>
 			<rdg wit="f1823">a friend </rdg>
 			<rdg wit="fThomas">a friend </rdg>
-			<rdg wit="fMS">a friend </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&lt;del&gt;who&lt;del&gt;&lt;del&gt;who&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del instant=&quot;true&quot; rend=&quot;strikethrough&quot; sID=&quot;c56-0011__main__d2e294&quot;/&gt;who&lt;del eID=&quot;c56-0011__main__d2e294&quot;/&gt;&lt;del instant=&quot;true&quot; rend=&quot;strikethrough&quot; sID=&quot;c56-0011__main__d2e298&quot;/&gt;who&lt;del eID=&quot;c56-0011__main__d2e298&quot;/&gt; </rdg>
+		<rdgGrp n="['a', 'friend', '&lt;del&gt;who&lt;del&gt;&lt;del&gt;who&lt;del&gt;']">
+			<rdg wit="fMS">a friend &lt;del instant=&quot;true&quot; rend=&quot;strikethrough&quot; sID=&quot;c56-0011__main__d2e294&quot;/&gt;who&lt;del eID=&quot;c56-0011__main__d2e294&quot;/&gt;&lt;del instant=&quot;true&quot; rend=&quot;strikethrough&quot; sID=&quot;c56-0011__main__d2e298&quot;/&gt;who&lt;del eID=&quot;c56-0011__main__d2e298&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -274,16 +271,13 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['only']">
-			<rdg wit="fMS">only </rdg>
+		<rdgGrp n="['only', 'nine', 'years']">
+			<rdg wit="fMS">only nine years </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['nine', 'years']">
 			<rdg wit="f1818">nine years </rdg>
 			<rdg wit="f1823">nine years </rdg>
 			<rdg wit="fThomas">nine years </rdg>
-			<rdg wit="fMS">nine years </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -379,31 +373,13 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;like', 'don', 'quixote&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0011__main__d2e353&quot;/&gt;Like Don Quixote&lt;del eID=&quot;c56-0011__main__d2e353&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;del&gt;like', 'don', 'quixote&lt;del&gt;', 'his', 'favourite', 'study', '&lt;del&gt;was&lt;del&gt;consisted']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0011__main__d2e353&quot;/&gt;Like Don Quixote&lt;del eID=&quot;c56-0011__main__d2e353&quot;/&gt; his &lt;lb n=&quot;c56-0011__main__28&quot;/&gt; favourite study &lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0011__main__d2e360&quot;/&gt;was&lt;del eID=&quot;c56-0011__main__d2e360&quot;/&gt;consisted </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['his']">
-			<rdg wit="f1818">His </rdg>
-			<rdg wit="f1823">His </rdg>
-			<rdg wit="fThomas">His </rdg>
-			<rdg wit="fMS">his </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0011__main__28&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['favourite', 'study', '&lt;del&gt;was&lt;del&gt;consisted']">
-			<rdg wit="fMS">favourite study &lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0011__main__d2e360&quot;/&gt;was&lt;del eID=&quot;c56-0011__main__d2e360&quot;/&gt;consisted</rdg>
-		</rdgGrp>
-		<rdgGrp n="['favourite', 'study', 'consisted']">
-			<rdg wit="f1818">favourite study </rdg>
-			<rdg wit="f1823">favourite study </rdg>
-			<rdg wit="fThomas">favourite study </rdg>
+		<rdgGrp n="['his', 'favourite', 'study', 'consisted']">
+			<rdg wit="f1818">His favourite study </rdg>
+			<rdg wit="f1823">His favourite study </rdg>
+			<rdg wit="fThomas">His favourite study </rdg>
 		</rdgGrp>
 		<rdgGrp n="['he', 'was', 'deeply', 'read']">
 			<rdg wit="f1831">He was deeply read </rdg>
@@ -933,15 +909,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;of', 'her&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e554&quot;/&gt;of her&lt;del eID=&quot;c56-0012__main__d2e554&quot;/&gt;&lt;lb n=&quot;c56-0012__main__13&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;del&gt;of', 'her&lt;del&gt;', 'favourite']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e554&quot;/&gt;of her&lt;del eID=&quot;c56-0012__main__d2e554&quot;/&gt;&lt;lb n=&quot;c56-0012__main__13&quot;/&gt; favourite </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['favourite']">
 			<rdg wit="f1818">favourite </rdg>
 			<rdg wit="f1823">favourite </rdg>
-			<rdg wit="fMS">favourite </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -973,15 +946,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;latin&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e565&quot;/&gt;Latin&lt;del eID=&quot;c56-0012__main__d2e565&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;del&gt;latin&lt;del&gt;', 'we', 'learned', 'latin', 'and']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e565&quot;/&gt;Latin&lt;del eID=&quot;c56-0012__main__d2e565&quot;/&gt; We learned Latin &amp;&lt;lb n=&quot;c56-0012__main__15&quot;/&gt; </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['we', 'learned', 'latin', 'and']">
 			<rdg wit="f1818">We learned Latin and </rdg>
 			<rdg wit="f1823">We learned Latin and </rdg>
-			<rdg wit="fMS">We learned Latin &amp;&lt;lb n=&quot;c56-0012__main__15&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1049,15 +1019,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;by&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e599&quot;/&gt;by&lt;del eID=&quot;c56-0012__main__d2e599&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;del&gt;by&lt;del&gt;', 'to', 'us', 'through', 'punishment,', 'we', 'loved']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e599&quot;/&gt;by&lt;del eID=&quot;c56-0012__main__d2e599&quot;/&gt; to us th&lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;rough&lt;lb n=&quot;c56-0012__main__18&quot;/&gt; punishment, we loved </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['to', 'us', 'through', 'punishment,', 'we', 'loved']">
 			<rdg wit="f1818">to us through punishment, we loved </rdg>
 			<rdg wit="f1823">to us through punishment, we loved </rdg>
-			<rdg wit="fMS">to us th&lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;rough&lt;lb n=&quot;c56-0012__main__18&quot;/&gt; punishment, we loved </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1133,15 +1100,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;a&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e639&quot;/&gt;a&lt;del eID=&quot;c56-0012__main__d2e639&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;del&gt;a&lt;del&gt;', 'languages', 'so']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0012__main__d2e639&quot;/&gt;a&lt;del eID=&quot;c56-0012__main__d2e639&quot;/&gt; languages so </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['languages', 'so']">
 			<rdg wit="f1818">languages so </rdg>
 			<rdg wit="f1823">languages so </rdg>
-			<rdg wit="fMS">languages so </rdg>
 		</rdgGrp>
 	</app>
 	<app>
