@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['']">
@@ -157,29 +157,13 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['a', 'partner', 'with', 'him', 'in']">
-			<rdg wit="f1818">a partner with him in </rdg>
-			<rdg wit="f1823">a partner with him in </rdg>
-			<rdg wit="fThomas">a partner with him in </rdg>
-			<rdg wit="fMS">a partner with him in </rdg>
+		<rdgGrp n="['a', 'partner', 'with', 'him', 'in', 'business,']">
+			<rdg wit="f1818">a partner with him in business, </rdg>
+			<rdg wit="f1823">a partner with him in business, </rdg>
+			<rdg wit="fThomas">a partner with him in business, </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['', 'his']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0021__main__11&quot;/&gt; his </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['business,']">
-			<rdg wit="f1818">business, </rdg>
-			<rdg wit="f1823">business, </rdg>
-			<rdg wit="fThomas">business, </rdg>
-			<rdg wit="fMS">business, </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['and', '&lt;del&gt;he', 'said', 'he', 'did', 'not&lt;del&gt;&lt;del&gt;and&lt;del&gt;']">
-			<rdg wit="fMS">and &lt;del next=&quot;#c56-0021.03&quot; rend=&quot;strikethrough&quot; sID=&quot;c56-0021__main__d2e4092&quot;/&gt;he said he did not&lt;del eID=&quot;c56-0021__main__d2e4092&quot;/&gt;&lt;lb n=&quot;c56-0021__left_margin__1&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0021__left_margin__d2e4103&quot;/&gt;and&lt;del eID=&quot;c56-0021__left_margin__d2e4103&quot;/&gt; </rdg>
+		<rdgGrp n="['a', 'partner', 'with', 'him', 'in', 'his', 'business,', 'and', '&lt;del&gt;he', 'said', 'he', 'did', 'not&lt;del&gt;&lt;del&gt;and&lt;del&gt;']">
+			<rdg wit="fMS">a partner with him in &lt;lb n=&quot;c56-0021__main__11&quot;/&gt; his business, and &lt;del next=&quot;#c56-0021.03&quot; rend=&quot;strikethrough&quot; sID=&quot;c56-0021__main__d2e4092&quot;/&gt;he said he did not&lt;del eID=&quot;c56-0021__main__d2e4092&quot;/&gt;&lt;lb n=&quot;c56-0021__left_margin__1&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0021__left_margin__d2e4103&quot;/&gt;and&lt;del eID=&quot;c56-0021__left_margin__d2e4103&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -230,16 +214,13 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;the&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0021__left_margin__d2e4119&quot;/&gt;the&lt;del eID=&quot;c56-0021__left_margin__d2e4119&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;del&gt;the&lt;del&gt;', 'learning']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0021__left_margin__d2e4119&quot;/&gt;the&lt;del eID=&quot;c56-0021__left_margin__d2e4119&quot;/&gt; learning </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['learning']">
 			<rdg wit="f1818">learning </rdg>
 			<rdg wit="f1823">learning </rdg>
 			<rdg wit="fThomas">learning </rdg>
-			<rdg wit="fMS">learning </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -304,16 +285,13 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;i&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0021__main__d2e4270&quot;/&gt;I&lt;del eID=&quot;c56-0021__main__d2e4270&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;del&gt;i&lt;del&gt;', 'making', 'many', 'little']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0021__main__d2e4270&quot;/&gt;I&lt;del eID=&quot;c56-0021__main__d2e4270&quot;/&gt; making many little </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['making', 'many', 'little']">
 			<rdg wit="f1818">making many little </rdg>
 			<rdg wit="f1823">making many little </rdg>
 			<rdg wit="fThomas">making many little </rdg>
-			<rdg wit="fMS">making many little </rdg>
 		</rdgGrp>
 	</app>
 	<app>

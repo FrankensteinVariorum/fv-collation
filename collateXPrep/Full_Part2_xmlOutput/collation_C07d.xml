@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['&lt;del&gt;sevr&lt;del&gt;', 'servants', 'had', 'any', 'request']">
@@ -220,43 +220,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['i', 'was']">
-			<rdg wit="f1818">I was </rdg>
-			<rdg wit="f1823">I was </rdg>
-			<rdg wit="fThomas">I was </rdg>
-			<rdg wit="fMS">I was </rdg>
+		<rdgGrp n="['i', 'was', 'more', 'calm', 'and']">
+			<rdg wit="f1818">I was more calm and </rdg>
+			<rdg wit="f1823">I was more calm and </rdg>
+			<rdg wit="fThomas">I was more calm and </rdg>
+			<rdg wit="fMS">I was more calm and </rdg>
 		</rdgGrp>
-		<rdgGrp n="['i', 'was', 'capable', 'of', 'a']">
-			<rdg wit="f1831">I was capable of a </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['more']">
-			<rdg wit="f1818">more </rdg>
-			<rdg wit="f1823">more </rdg>
-			<rdg wit="fThomas">more </rdg>
-			<rdg wit="fMS">more </rdg>
-			<rdg wit="f1831">more </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['calm']">
-			<rdg wit="f1818">calm </rdg>
-			<rdg wit="f1823">calm </rdg>
-			<rdg wit="fThomas">calm </rdg>
-			<rdg wit="fMS">calm </rdg>
-		</rdgGrp>
-		<rdgGrp n="['intense', 'application,']">
-			<rdg wit="f1831">intense application, </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="fThomas">and </rdg>
-			<rdg wit="fMS">and </rdg>
-			<rdg wit="f1831">and </rdg>
+		<rdgGrp n="['i', 'was', 'capable', 'of', 'a', 'more', 'intense', 'application,', 'and']">
+			<rdg wit="f1831">I was capable of a more intense application, and </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -273,24 +244,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['than', 'my']">
-			<rdg wit="f1818">than my </rdg>
-			<rdg wit="f1823">than my </rdg>
-			<rdg wit="fThomas">than my </rdg>
-			<rdg wit="fMS">than my </rdg>
+		<rdgGrp n="['than', 'my', 'companion']">
+			<rdg wit="fMS">than my companion &lt;lb n=&quot;c56-0011__main__9&quot;/&gt; </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['companion', '']">
-			<rdg wit="fMS">companion &lt;lb n=&quot;c56-0011__main__9&quot;/&gt; </rdg>
+		<rdgGrp n="['than', 'my', 'companion;']">
+			<rdg wit="f1818">than my companion; </rdg>
+			<rdg wit="f1823">than my companion; </rdg>
+			<rdg wit="fThomas">than my companion; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['companion;']">
-			<rdg wit="f1818">companion; </rdg>
-			<rdg wit="f1823">companion; </rdg>
-			<rdg wit="fThomas">companion; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['she', 'busied', 'herself', 'with', 'following', 'the', 'aerial', 'creations', 'of', 'the', 'poets;', 'and', 'in', 'the', 'majestic', 'and', 'wondrous', 'scenes', 'which', 'surrounded', 'our', 'swiss', 'home—the', 'sublime', 'shapes', 'of', 'the', 'mountains;', 'the', 'changes', 'of', 'the', 'seasons;', 'tempest', 'and', 'calm;', 'the', 'silence', 'of', 'winter,', 'and', 'the', 'life', 'and', 'turbulence', 'of', 'our', 'Alpine', 'summers,—she', 'found', 'ample', 'scope', 'for', 'admiration', 'and', 'delight.']">
 			<rdg wit="f1831">She busied herself with following the aerial creations of the poets; and in the majestic and wondrous scenes which surrounded our Swiss home—the sublime shapes of the mountains; the changes of the seasons; tempest and calm; the silence of winter, and the life and turbulence of our Alpine summers,—she found ample scope for admiration and delight. </rdg>
 		</rdgGrp>

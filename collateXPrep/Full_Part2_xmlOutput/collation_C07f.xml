@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['&lt;p/&gt;in', 'this', 'description']">
@@ -238,18 +238,15 @@
 	</app>
 	<app>
 		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0013__Pt1__main__7&quot;/&gt; </rdg>
 			<rdg wit="f1831"> </rdg>
+		</rdgGrp>
+		<rdgGrp n="['absent.']">
+			<rdg wit="fMS">&lt;lb n=&quot;c56-0013__Pt1__main__7&quot;/&gt; absent. </rdg>
 		</rdgGrp>
 		<rdgGrp n="['absent.&lt;p/&gt;']">
 			<rdg wit="f1818">absent.&lt;p eID=&quot;novel1_letter4_chapter1_div4_div1_p13&quot;/&gt; </rdg>
 			<rdg wit="f1823">absent.&lt;p eID=&quot;novel1_letter4_chapter1_div4_div1_p13&quot;/&gt; </rdg>
 			<rdg wit="fThomas">absent.&lt;p eID=&quot;novel1_letter4_chapter1_div4_div1_p13&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['absent.']">
-			<rdg wit="fMS">absent. </rdg>
 		</rdgGrp>
 	</app>
 </cx:apparatus>

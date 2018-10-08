@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['&lt;del&gt;but', 'when', 'the', 'ne&lt;del&gt;besides']">
@@ -223,17 +223,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;utmost&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0026__left_margin__d2e5051&quot;/&gt;utmost&lt;del eID=&quot;c56-0026__left_margin__d2e5051&quot;/&gt;&lt;lb n=&quot;c56-0026__left_margin__2&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;del&gt;utmost&lt;del&gt;', 'ambition', 'of']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0026__left_margin__d2e5051&quot;/&gt;utmost&lt;del eID=&quot;c56-0026__left_margin__d2e5051&quot;/&gt;&lt;lb n=&quot;c56-0026__left_margin__2&quot;/&gt; ambition of </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['ambition', 'of']">
 			<rdg wit="f1818">ambition of </rdg>
 			<rdg wit="f1823">ambition of </rdg>
 			<rdg wit="fThomas">ambition of </rdg>
 			<rdg wit="f1831">ambition of </rdg>
-			<rdg wit="fMS">ambition of </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -463,13 +460,10 @@
 			<rdg wit="f1818">two or three days </rdg>
 			<rdg wit="f1823">two or three days </rdg>
 			<rdg wit="fThomas">two or three days </rdg>
-			<rdg wit="f1831">two or three days </rdg>
 			<rdg wit="fMS">two or three days </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['of', 'my', 'residence', 'at', 'ingolstadt,', 'which', 'were', 'chiefly']">
-			<rdg wit="f1831">of my residence at Ingolstadt, which were chiefly </rdg>
+		<rdgGrp n="['two', 'or', 'three', 'days', 'of', 'my', 'residence', 'at', 'ingolstadt,', 'which', 'were', 'chiefly']">
+			<rdg wit="f1831">two or three days of my residence at Ingolstadt, which were chiefly </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -523,17 +517,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;at&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0026__main__d2e5147&quot;/&gt;at&lt;del eID=&quot;c56-0026__main__d2e5147&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;del&gt;at&lt;del&gt;', 'as', 'the']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0026__main__d2e5147&quot;/&gt;at&lt;del eID=&quot;c56-0026__main__d2e5147&quot;/&gt; as the </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['as', 'the']">
 			<rdg wit="f1818">as the </rdg>
 			<rdg wit="f1823">as the </rdg>
 			<rdg wit="fThomas">as the </rdg>
 			<rdg wit="f1831">as the </rdg>
-			<rdg wit="fMS">as the </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -774,12 +765,9 @@
 			<rdg wit="f1823">as he had </rdg>
 			<rdg wit="fThomas">as he had </rdg>
 			<rdg wit="f1831">as he had </rdg>
-			<rdg wit="fMS">as he had </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['been', '']">
-			<rdg wit="fMS">been &lt;lb n=&quot;c56-0026__main__22&quot;/&gt; </rdg>
+		<rdgGrp n="['as', 'he', 'had', 'been', '']">
+			<rdg wit="fMS">as he had been &lt;lb n=&quot;c56-0026__main__22&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -923,17 +911,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['a']">
-			<rdg wit="fMS">a </rdg>
+		<rdgGrp n="['a', 'very']">
+			<rdg wit="fMS">a very </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['very']">
 			<rdg wit="f1818">very </rdg>
 			<rdg wit="f1823">very </rdg>
 			<rdg wit="fThomas">very </rdg>
 			<rdg wit="f1831">very </rdg>
-			<rdg wit="fMS">very </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1042,17 +1027,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;hars&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0026__main__d2e5254&quot;/&gt;hars&lt;del eID=&quot;c56-0026__main__d2e5254&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;del&gt;hars&lt;del&gt;', 'hairs', 'covered', 'his']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0026__main__d2e5254&quot;/&gt;hars&lt;del eID=&quot;c56-0026__main__d2e5254&quot;/&gt; hairs covered his </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['hairs', 'covered', 'his']">
 			<rdg wit="f1818">hairs covered his </rdg>
 			<rdg wit="f1823">hairs covered his </rdg>
 			<rdg wit="fThomas">hairs covered his </rdg>
 			<rdg wit="f1831">hairs covered his </rdg>
-			<rdg wit="fMS">hairs covered his </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1178,17 +1160,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['with', 'a', '&lt;del&gt;kind&lt;del&gt;']">
-			<rdg wit="fMS">with a &lt;lb n=&quot;c56-0027__main__6&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0027__main__d2e5283&quot;/&gt;kind&lt;del eID=&quot;c56-0027__main__d2e5283&quot;/&gt;&lt;mdel&gt;of&lt;/mdel&gt;&lt;lb n=&quot;c56-0027__left_margin__1&quot;/&gt; </rdg>
+		<rdgGrp n="['with', 'a', '&lt;del&gt;kind&lt;del&gt;', 'by', 'a', 'recapitulation', 'of', 'the', 'history', 'of']">
+			<rdg wit="fMS">with a &lt;lb n=&quot;c56-0027__main__6&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0027__main__d2e5283&quot;/&gt;kind&lt;del eID=&quot;c56-0027__main__d2e5283&quot;/&gt;&lt;mdel&gt;of&lt;/mdel&gt;&lt;lb n=&quot;c56-0027__left_margin__1&quot;/&gt; by a recapitu&lt;lb n=&quot;c56-0027__left_margin__2&quot;/&gt;lation of the history of </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['by', 'a', 'recapitulation', 'of', 'the', 'history', 'of']">
 			<rdg wit="f1818">by a recapitulation of the history of </rdg>
 			<rdg wit="f1823">by a recapitulation of the history of </rdg>
 			<rdg wit="fThomas">by a recapitulation of the history of </rdg>
 			<rdg wit="f1831">by a recapitulation of the history of </rdg>
-			<rdg wit="fMS">by a recapitu&lt;lb n=&quot;c56-0027__left_margin__2&quot;/&gt;lation of the history of </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1212,17 +1191,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['remark-ed']">
-			<rdg wit="fMS">remark-&lt;lb n=&quot;c56-0027__main__7&quot;/&gt;ed </rdg>
+		<rdgGrp n="['remark-ed', 'the', 'various', 'improvements']">
+			<rdg wit="fMS">remark-&lt;lb n=&quot;c56-0027__main__7&quot;/&gt;ed the various improvements </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['the', 'various', 'improvements']">
 			<rdg wit="f1818">the various improvements </rdg>
 			<rdg wit="f1823">the various improvements </rdg>
 			<rdg wit="fThomas">the various improvements </rdg>
 			<rdg wit="f1831">the various improvements </rdg>
-			<rdg wit="fMS">the various improvements </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1676,17 +1652,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;eyes&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0027__main__d2e5488&quot;/&gt;eyes&lt;del eID=&quot;c56-0027__main__d2e5488&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;del&gt;eyes&lt;del&gt;', 'hands']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0027__main__d2e5488&quot;/&gt;eyes&lt;del eID=&quot;c56-0027__main__d2e5488&quot;/&gt; hands </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['hands']">
 			<rdg wit="f1818">hands </rdg>
 			<rdg wit="f1823">hands </rdg>
 			<rdg wit="fThomas">hands </rdg>
 			<rdg wit="f1831">hands </rdg>
-			<rdg wit="fMS">hands </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1960,17 +1933,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;new&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0028__main__d2e5524&quot;/&gt;New&lt;del eID=&quot;c56-0028__main__d2e5524&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;del&gt;new&lt;del&gt;', 'they', 'have']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0028__main__d2e5524&quot;/&gt;New&lt;del eID=&quot;c56-0028__main__d2e5524&quot;/&gt; They have </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['they', 'have']">
 			<rdg wit="f1818">They have </rdg>
 			<rdg wit="f1823">They have </rdg>
 			<rdg wit="fThomas">They have </rdg>
 			<rdg wit="f1831">They have </rdg>
-			<rdg wit="fMS">They have </rdg>
 		</rdgGrp>
 	</app>
 	<app>

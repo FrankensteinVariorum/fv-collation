@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['I', 'expressed', 'myself', 'in', 'measured', 'terms,', 'with', 'the', 'modesty', 'and', 'deference', 'due', 'from', 'a', 'youth', 'to', 'his', 'instructor,', 'without', 'letting', 'escape', '(inexperience', 'in', 'life', 'would', 'have', 'made', 'me', 'ashamed)', 'any', 'of', 'the', 'enthusiasm', 'which', 'stimulated', 'my', 'intended', 'labours.']">
@@ -23,16 +23,13 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['requested']">
-			<rdg wit="fMS">request&lt;lb n=&quot;c56-0028__main__28&quot;/&gt;ed </rdg>
+		<rdgGrp n="['requested', 'at', 'the', 'same']">
+			<rdg wit="fMS">request&lt;lb n=&quot;c56-0028__main__28&quot;/&gt;ed at the same </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['at', 'the', 'same']">
 			<rdg wit="f1818">at the same </rdg>
 			<rdg wit="f1823">at the same </rdg>
 			<rdg wit="fThomas">at the same </rdg>
-			<rdg wit="fMS">at the same </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -177,17 +174,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['if']">
-			<rdg wit="fMS">if </rdg>
+		<rdgGrp n="['if', 'if', 'your']">
+			<rdg wit="fMS">if if your </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['if', 'your']">
 			<rdg wit="f1818">if your </rdg>
 			<rdg wit="f1823">if your </rdg>
 			<rdg wit="fThomas">if your </rdg>
 			<rdg wit="f1831">if your </rdg>
-			<rdg wit="fMS">if your </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -335,17 +329,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['for']">
-			<rdg wit="fMS">for </rdg>
+		<rdgGrp n="['for', 'my', 'peculiar']">
+			<rdg wit="fMS">for my peculiar </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['my', 'peculiar']">
 			<rdg wit="f1818">my peculiar </rdg>
 			<rdg wit="f1823">my peculiar </rdg>
 			<rdg wit="fThomas">my peculiar </rdg>
 			<rdg wit="f1831">my peculiar </rdg>
-			<rdg wit="fMS">my peculiar </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -546,17 +537,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['really']">
-			<rdg wit="fMS">really </rdg>
+		<rdgGrp n="['really', 'to', 'become']">
+			<rdg wit="fMS">really to become </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['to', 'become']">
 			<rdg wit="f1818">to become </rdg>
 			<rdg wit="f1823">to become </rdg>
 			<rdg wit="fThomas">to become </rdg>
 			<rdg wit="f1831">to become </rdg>
-			<rdg wit="fMS">to become </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -919,17 +907,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['des&lt;del&gt;der&lt;del&gt;']">
-			<rdg wit="fMS">des&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0029__main__d2e6067&quot;/&gt;der&lt;del eID=&quot;c56-0029__main__d2e6067&quot;/&gt; </rdg>
+		<rdgGrp n="['des&lt;del&gt;der&lt;del&gt;', 'derange']">
+			<rdg wit="fMS">des&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0029__main__d2e6067&quot;/&gt;der&lt;del eID=&quot;c56-0029__main__d2e6067&quot;/&gt; derange&lt;lb n=&quot;c56-0030__main__1&quot;/&gt; </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['derange']">
 			<rdg wit="f1818">derange </rdg>
 			<rdg wit="f1823">derange </rdg>
 			<rdg wit="fThomas">derange </rdg>
 			<rdg wit="f1831">derange </rdg>
-			<rdg wit="fMS">derange&lt;lb n=&quot;c56-0030__main__1&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>

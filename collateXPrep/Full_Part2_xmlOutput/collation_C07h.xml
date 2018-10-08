@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['&lt;p/&gt;the', 'catastrophe', 'of', 'this', 'tree', 'excited', 'my', 'extreme', 'astonishment;']">
@@ -1727,18 +1727,15 @@
 	</app>
 	<app>
 		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0016__main__12&quot;/&gt; </rdg>
 			<rdg wit="f1831"> </rdg>
+		</rdgGrp>
+		<rdgGrp n="['other.']">
+			<rdg wit="fMS">&lt;lb n=&quot;c56-0016__main__12&quot;/&gt; other. </rdg>
 		</rdgGrp>
 		<rdgGrp n="['other.&lt;p/&gt;']">
 			<rdg wit="f1818">other.&lt;p eID=&quot;novel1_letter4_chapter1_div4_div1_p28&quot;/&gt;&lt;milestone n=&quot;1&quot; type=&quot;end&quot; unit=&quot;chapter&quot;/&gt; </rdg>
 			<rdg wit="fThomas">other.&lt;p eID=&quot;novel1_letter4_chapter1_div4_div1_p28&quot;/&gt;&lt;milestone n=&quot;1&quot; type=&quot;end&quot; unit=&quot;chapter&quot;/&gt; </rdg>
 			<rdg wit="f1823">other.&lt;p eID=&quot;novel1_letter4_chapter1_div4_div1_p28&quot;/&gt;&lt;milestone n=&quot;1&quot; type=&quot;end&quot; unit=&quot;chapter&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['other.']">
-			<rdg wit="fMS">other. </rdg>
 		</rdgGrp>
 	</app>
 </cx:apparatus>

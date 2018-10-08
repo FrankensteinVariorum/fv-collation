@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['and']">
@@ -174,17 +174,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;affabity&lt;del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0028__main__d2e5588&quot;/&gt;affabity&lt;del eID=&quot;c56-0028__main__d2e5588&quot;/&gt;&lt;lb n=&quot;c56-0028__main__19&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;del&gt;affabity&lt;del&gt;', 'affability', 'and']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; sID=&quot;c56-0028__main__d2e5588&quot;/&gt;affabity&lt;del eID=&quot;c56-0028__main__d2e5588&quot;/&gt;&lt;lb n=&quot;c56-0028__main__19&quot;/&gt; affability and </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['affability', 'and']">
 			<rdg wit="f1818">&lt;pb n=&quot;075&quot; xml:id=&quot;F1818_v1_087&quot;/&gt;affability and </rdg>
 			<rdg wit="f1823">affability and </rdg>
 			<rdg wit="fThomas">&lt;pb n=&quot;075&quot; xml:id=&quot;F1818_v1_087&quot;/&gt;affability and </rdg>
 			<rdg wit="f1831">affability and </rdg>
-			<rdg wit="fMS">affability and </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -199,16 +196,13 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['i', 'gave', 'him', 'pretty', 'nearly', 'the', 'same', 'account', 'of', 'my', 'former', 'pursuits', 'as', 'i', 'had', 'given', 'to', 'his', 'fellow-professor.']">
-			<rdg wit="f1831">I gave him pretty nearly the same account of my former pursuits as I had given to his fellow-professor. </rdg>
+		<rdgGrp n="['i', 'gave', 'him', 'pretty', 'nearly', 'the', 'same', 'account', 'of', 'my', 'former', 'pursuits', 'as', 'i', 'had', 'given', 'to', 'his', 'fellow-professor.', 'he', 'heard']">
+			<rdg wit="f1831">I gave him pretty nearly the same account of my former pursuits as I had given to his fellow-professor. He heard </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['he', 'heard']">
 			<rdg wit="f1818">He heard </rdg>
 			<rdg wit="f1823">He heard </rdg>
 			<rdg wit="fThomas">He heard </rdg>
-			<rdg wit="f1831">He heard </rdg>
 			<rdg wit="fMS">He heard </rdg>
 		</rdgGrp>
 	</app>

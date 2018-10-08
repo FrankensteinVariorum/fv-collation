@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['&lt;p/&gt;&lt;del&gt;when', 'i&lt;del&gt;&lt;del&gt;i', 'had&lt;del&gt;', 'my']">
@@ -37,7 +37,6 @@
 			<rdg wit="f1823">but I had </rdg>
 			<rdg wit="fThomas">but I had </rdg>
 			<rdg wit="fMS">but I had </rdg>
-			<rdg wit="f1831">but I </rdg>
 		</rdgGrp>
 		<rdgGrp n="['but', I', 'united', 'myself', 'in', 'the', 'bonds', 'of', 'the', 'closest', 'friendship', 'to', 'one', 'among', 'them.']">
 			<rdg wit="f1831">but I united myself in the bonds of the closest friendship to one among them. </rdg>
@@ -399,7 +398,6 @@
 			<rdg wit="f1818">chivalry and romance; </rdg>
 			<rdg wit="f1823">chivalry and romance; </rdg>
 			<rdg wit="fThomas">chivalry and romance; </rdg>
-			<rdg wit="f1831">chivalry </rdg>
 		</rdgGrp>
 		<rdgGrp n="['chivalryand', 'romance']">
 			<rdg wit="fMS">chi&lt;lb n=&quot;c56-0011__main__29&quot;/&gt;valry&amp; romance </rdg>
@@ -556,15 +554,12 @@
 	</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['could']">
-			<rdg wit="fMS">could </rdg>
+		<rdgGrp n="['could', 'could']">
+			<rdg wit="fMS">could could </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['could']">
 			<rdg wit="f1818">could </rdg>
 			<rdg wit="f1823">could </rdg>
-			<rdg wit="fMS">could </rdg>
 		</rdgGrp>
 	</app>
 	<app>
