@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['']">
@@ -18,12 +18,9 @@
 			<rdg wit="f1818">I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue </rdg>
 			<rdg wit="f1823">I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue </rdg>
 			<rdg wit="fThomas">I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue </rdg>
-			<rdg wit="f1831">I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['for', 'the', 'present']">
-			<rdg wit="f1831">for the present </rdg>
+		<rdgGrp n="['i', 'meet', 'you', 'again,', 'after', 'having', 'traversed', 'immense', 'seas,', 'and', 'returned', 'by', 'the', 'most', 'southern', 'cape', 'of', 'africa', 'or', 'america?', 'i', 'dare', 'not', 'expect', 'such', 'success,', 'yet', 'i', 'cannot', 'bear', 'to', 'look', 'on', 'the', 'reverse', 'of', 'the', 'picture.', 'continue', 'for', 'the', 'present']">
+			<rdg wit="f1831">I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue for the present </rdg>
 		</rdgGrp>
 	</app>
 	<app>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['']">
@@ -22,16 +22,21 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['without', 'feeling', 'the', 'most', 'poignant', 'grief?', 'he', 'is', 'so', 'gentle,', 'yet', 'so', 'wise;', 'his', 'mind', 'is', 'so', 'cultivated;', 'and', 'when', 'he', 'speaks,']">
-			<rdg wit="f1818">without feeling the most poignant grief? He is so gentle, yet so wise; his mind is so cultivated; and when he speaks, </rdg>
-			<rdg wit="f1823">without feeling the most poignant grief? He is so gentle, yet so wise; his mind is so cultivated; and when he speaks, </rdg>
-			<rdg wit="fThomas">without feeling the most poignant grief? He is so gentle, yet so wise; his mind is so cultivated; and when he speaks, </rdg>
-			<rdg wit="f1831">without feeling the most poignant grief? He is so &lt;pb n=&quot;15&quot; xml:id=&quot;F1831_v_031&quot;/&gt;gentle, yet so wise; his mind is so cultivated; and when he speaks, </rdg>
+		<rdgGrp n="['without', 'feeling', 'the', 'most', 'poignant', 'grief?', 'he', 'is', 'so', 'gentle,', 'yet', 'so', 'wise;', 'his', 'mind', 'is', 'so', 'cultivated;']">
+			<rdg wit="f1818">without feeling the most poignant grief? He is so gentle, yet so wise; his mind is so cultivated; </rdg>
+			<rdg wit="f1823">without feeling the most poignant grief? He is so gentle, yet so wise; his mind is so cultivated; </rdg>
+			<rdg wit="fThomas">without feeling the most poignant grief? He is so gentle, yet so wise; his mind is so cultivated; </rdg>
+			<rdg wit="f1831">without feeling the most poignant grief? He is so &lt;pb n=&quot;15&quot; xml:id=&quot;F1831_v_031&quot;/&gt;gentle, yet so wise; his mind is so cultivated; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['in', 'his', 'native', 'language', 'which', 'is', 'french,']">
-			<rdg wit="fThomas">in his native language which is French, </rdg>
+		<rdgGrp n="['and', 'when', 'he', 'speaks,']">
+			<rdg wit="f1818">and when he speaks, </rdg>
+			<rdg wit="f1823">and when he speaks, </rdg>
+			<rdg wit="f1831">and when he speaks, </rdg>
+		</rdgGrp>
+		<rdgGrp n="['and', 'when', 'he', 'speaks,', 'in', 'his', 'native', 'language', 'which', 'is', 'french,']">
+			<rdg wit="fThomas">and when he speaks, in his native language which is French, </rdg>
 		</rdgGrp>
 	</app>
 	<app>

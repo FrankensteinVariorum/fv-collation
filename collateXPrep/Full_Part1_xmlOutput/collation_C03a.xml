@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['']">
@@ -84,26 +84,13 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['of', 'glory:', 'or', 'rather,', 'to', 'word', 'my', 'phrase', 'more', 'characteristically,']">
-			<rdg wit="f1831">of glory: or rather, to word my phrase more characteristically, </rdg>
+		<rdgGrp n="['of', 'glory:', 'or', 'rather,', 'to', 'word', 'my', 'phrase', 'more', 'characteristically,', 'of', 'advancement', 'in', 'his', 'profession.']">
+			<rdg wit="f1831">of glory: or rather, to word my phrase more characteristically, of advancement in his profession. </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['of']">
-			<rdg wit="f1818">of </rdg>
-			<rdg wit="f1823">of </rdg>
-			<rdg wit="fThomas">of </rdg>
-			<rdg wit="f1831">of </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['advancement', 'in', 'his', 'profession.']">
-			<rdg wit="f1831">advancement in his profession. </rdg>
-		</rdgGrp>
-		<rdgGrp n="['glory.']">
-			<rdg wit="f1818">glory. </rdg>
-			<rdg wit="f1823">glory. </rdg>
-			<rdg wit="fThomas">glory. </rdg>
+		<rdgGrp n="['of', 'glory.']">
+			<rdg wit="f1818">of glory. </rdg>
+			<rdg wit="f1823">of glory. </rdg>
+			<rdg wit="fThomas">of glory. </rdg>
 		</rdgGrp>
 	</app>
 	<app>

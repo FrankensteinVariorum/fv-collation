@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['']">
@@ -48,15 +48,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['mountains', 'and']">
-			<rdg wit="fThomas">mountains &amp; </rdg>
+		<rdgGrp n="['mountains', 'and', 'plains', 'of', 'ice,', 'which', 'seemed', 'to', 'have', 'no', 'end.', 'some', 'of', 'my', 'comrades', 'groaned,', 'and', 'my', 'own', 'mind', 'began', 'to', 'grow', 'watchful', 'with', 'anxious', 'thoughts,', 'when', 'a', 'strange', 'sight', 'suddenly', 'attracted', 'our', 'attention,', 'and', 'diverted', 'our', 'solicitude', 'from', 'our', 'own', 'situation.', 'we', 'perceived', 'a', 'low', 'carriage,', 'fixed', 'on', 'a', 'sledge', 'and', 'drawn', 'by', 'dogs,', 'pass', 'on', 'towards', 'the', 'north,', 'at', 'the', 'distance', 'of', 'half', 'a', 'mile:', 'a', 'being', 'which', 'had', 'the', 'shape', 'of', 'a', 'man,', 'but', 'apparently', 'of', 'gigantic', 'stature,', 'sat', 'in', 'the', 'sledge,', 'and', 'guided', 'the', 'dogs.', 'we', 'watched', 'the', 'rapid', 'progress', 'of', 'the', 'traveller', 'with', 'our', 'telescopes,', 'until', 'he', 'was', 'lost', 'among', 'the', 'distant', 'inequalities', 'of', 'the', 'ice.&lt;p/&gt;&lt;p/&gt;this', 'appearance', 'excited', 'our', 'unqualified', 'wonder.', 'we', 'were,', 'as', 'we', 'believed,', 'many', 'hundred', 'miles', 'from', 'any', 'land;', 'but', 'this', 'apparition', 'seemed', 'to', 'denote', 'that', 'it', 'was', 'not,', 'in', 'reality,', 'so', 'distant', 'as', 'we', 'had', 'supposed.', 'shut', 'in,', 'however,', 'by', 'ice,', 'it', 'was', 'impossible', 'to', 'follow', 'his', 'track,', 'which', 'we', 'had', 'observed', 'with', 'the', 'greatest']">
+			<rdg wit="fThomas">mountains &amp; plains of ice, which seemed to have no end. Some of my comrades groaned, and my own mind began to grow watchful with anxious thoughts, when a strange sight suddenly attracted our attention, and diverted our solicitude from our own situation. We perceived a low carriage, fixed on a sledge and drawn by dogs, pass on towards the north, at the distance of half a mile: a being which had the shape of a man, but apparently of gigantic stature, sat in the sledge, and guided the dogs. We watched the rapid progress of the traveller with our telescopes, until he was lost among the distant inequalities of the ice.&lt;p eID=&quot;novel1_letter4_div4_p4&quot;/&gt;&lt;p sID=&quot;novel1_letter4_div4_p5&quot;/&gt;&lt;pb n=&quot;023&quot; xml:id=&quot;F1818_v1_035&quot;/&gt;This appearance excited our unqualified wonder. We were, as we believed, many hundred miles from any land; but this apparition seemed to denote that it was not, in reality, so distant as we had supposed. Shut in, however, by ice, it was impossible to follow his track, which we had observed with the greatest </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['plains', 'of', 'ice,', 'which', 'seemed', 'to', 'have', 'no', 'end.', 'some', 'of', 'my', 'comrades', 'groaned,', 'and', 'my', 'own', 'mind', 'began', 'to', 'grow', 'watchful', 'with', 'anxious', 'thoughts,', 'when', 'a', 'strange', 'sight', 'suddenly', 'attracted', 'our', 'attention,', 'and', 'diverted', 'our', 'solicitude', 'from', 'our', 'own', 'situation.', 'we', 'perceived', 'a', 'low', 'carriage,', 'fixed', 'on', 'a', 'sledge', 'and', 'drawn', 'by', 'dogs,', 'pass', 'on', 'towards', 'the', 'north,', 'at', 'the', 'distance', 'of', 'half', 'a', 'mile:', 'a', 'being', 'which', 'had', 'the', 'shape', 'of', 'a', 'man,', 'but', 'apparently', 'of', 'gigantic', 'stature,', 'sat', 'in', 'the', 'sledge,', 'and', 'guided', 'the', 'dogs.', 'we', 'watched', 'the', 'rapid', 'progress', 'of', 'the', 'traveller', 'with', 'our', 'telescopes,', 'until', 'he', 'was', 'lost', 'among', 'the', 'distant', 'inequalities', 'of', 'the', 'ice.&lt;p/&gt;&lt;p/&gt;this', 'appearance', 'excited', 'our', 'unqualified', 'wonder.', 'we', 'were,', 'as', 'we', 'believed,', 'many', 'hundred', 'miles', 'from', 'any', 'land;', 'but', 'this', 'apparition', 'seemed', 'to', 'denote', 'that', 'it', 'was', 'not,', 'in', 'reality,', 'so', 'distant', 'as', 'we', 'had', 'supposed.', 'shut', 'in,', 'however,', 'by', 'ice,', 'it', 'was', 'impossible', 'to', 'follow', 'his', 'track,', 'which', 'we', 'had', 'observed', 'with', 'the', 'greatest']">
 			<rdg wit="f1818">plains of ice, which seemed to have no end. Some of my comrades groaned, and my own mind began to grow watchful with anxious thoughts, when a strange sight suddenly attracted our attention, and diverted our solicitude from our own situation. We perceived a low carriage, fixed on a sledge and drawn by dogs, pass on towards the north, at the distance of half a mile: a being which had the shape of a man, but apparently of gigantic stature, sat in the sledge, and guided the dogs. We watched the rapid progress of the traveller with our telescopes, until he was lost among the distant inequalities of the ice.&lt;p eID=&quot;novel1_letter4_div4_p4&quot;/&gt;&lt;p sID=&quot;novel1_letter4_div4_p5&quot;/&gt;&lt;pb n=&quot;023&quot; xml:id=&quot;F1818_v1_035&quot;/&gt;This appearance excited our unqualified wonder. We were, as we believed, many hundred miles from any land; but this apparition seemed to denote that it was not, in reality, so distant as we had supposed. Shut in, however, by ice, it was impossible to follow his track, which we had observed with the greatest </rdg>
 			<rdg wit="f1823">plains of ice, which seemed to have no end. Some of my comrades groaned, and my own mind began to grow watchful with anxious thoughts, when a strange sight suddenly attracted our attention, and diverted our solicitude from our own situation. We perceived a low carriage, fixed on a sledge and drawn by dogs, pass on towards the north, at the distance of half a mile: a being which had the shape of a man, but apparently of gigantic stature, sat in the sledge, and guided the dogs. We watched the rapid progress of the traveller with our telescopes, until he was lost among the distant inequalities of the ice.&lt;p eID=&quot;novel1_letter4_div4_p4&quot;/&gt;&lt;p sID=&quot;novel1_letter4_div4_p5&quot;/&gt;&lt;pb n=&quot;23&quot; xml:id=&quot;F1823_v1_042&quot;/&gt;This appearance excited our unqualified wonder. We were, as we believed, many hundred miles from any land; but this apparition seemed to denote that it was not, in reality, so distant as we had supposed. Shut in, however, by ice, it was impossible to follow his track, which we had observed with the greatest </rdg>
-			<rdg wit="fThomas">plains of ice, which seemed to have no end. Some of my comrades groaned, and my own mind began to grow watchful with anxious thoughts, when a strange sight suddenly attracted our attention, and diverted our solicitude from our own situation. We perceived a low carriage, fixed on a sledge and drawn by dogs, pass on towards the north, at the distance of half a mile: a being which had the shape of a man, but apparently of gigantic stature, sat in the sledge, and guided the dogs. We watched the rapid progress of the traveller with our telescopes, until he was lost among the distant inequalities of the ice.&lt;p eID=&quot;novel1_letter4_div4_p4&quot;/&gt;&lt;p sID=&quot;novel1_letter4_div4_p5&quot;/&gt;&lt;pb n=&quot;023&quot; xml:id=&quot;F1818_v1_035&quot;/&gt;This appearance excited our unqualified wonder. We were, as we believed, many hundred miles from any land; but this apparition seemed to denote that it was not, in reality, so distant as we had supposed. Shut in, however, by ice, it was impossible to follow his track, which we had observed with the greatest </rdg>
 			<rdg wit="f1831">plains of ice, which seemed to have no end. Some of my comrades groaned, and my own mind began to grow watchful with anxious thoughts, when a strange sight suddenly attracted our attention, and diverted our solicitude from our own situation. We perceived a low carriage, fixed on a sledge and drawn by dogs, pass on towards the north, at the distance of half a mile: a being which had the shape of a man, but apparently of gigantic stature, sat in the sledge, and guided the dogs. We watched the rapid progress of the traveller with our telescopes, until he was lost among the distant inequalities of the ice.&lt;p eID=&quot;novel1_letter4_div4_p4&quot;/&gt;&lt;p sID=&quot;novel1_letter4_div4_p5&quot;/&gt;This appearance excited our unqualified wonder. We were, as we believed, many hundred miles from any land; but this apparition seemed to denote that it was not, in reality, so distant as we had supposed. Shut in, however, by ice, it was impossible to follow his track, which we had observed with the greatest </rdg>
 		</rdgGrp>
 	</app>
@@ -207,26 +204,13 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['a', 'new', 'spirit', 'of', 'life', 'animated', 'the', 'decaying', 'frame', 'of']">
-			<rdg wit="f1831">a new spirit of life animated the decaying frame of </rdg>
+		<rdgGrp n="['the', 'stranger', 'seemed', 'very', 'eager']">
+			<rdg wit="f1818">the stranger seemed very eager </rdg>
+			<rdg wit="f1823">the stranger seemed very eager </rdg>
+			<rdg wit="fThomas">the stranger seemed very eager </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['the']">
-			<rdg wit="f1818">the </rdg>
-			<rdg wit="f1823">the </rdg>
-			<rdg wit="fThomas">the </rdg>
-			<rdg wit="f1831">the </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['stranger', 'seemed', 'very', 'eager']">
-			<rdg wit="f1818">stranger seemed very eager </rdg>
-			<rdg wit="f1823">stranger seemed very eager </rdg>
-			<rdg wit="fThomas">stranger seemed very eager </rdg>
-		</rdgGrp>
-		<rdgGrp n="['stranger.', 'he', 'manifested', 'the', 'greatest', 'eagerness']">
-			<rdg wit="f1831">stranger. He manifested the greatest eagerness </rdg>
+		<rdgGrp n="['a', 'new', 'spirit', 'of', 'life', 'animated', 'the', 'decaying', 'frame', 'of', 'the', 'stranger.', 'he', 'manifested', 'the', 'greatest', 'eagerness']">
+			<rdg wit="f1831">a new spirit of life animated the decaying frame of the stranger. He manifested the greatest eagerness </rdg>
 		</rdgGrp>
 	</app>
 	<app>

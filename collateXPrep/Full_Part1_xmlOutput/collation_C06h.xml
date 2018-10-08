@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['']">
@@ -8,12 +8,9 @@
 			<rdg wit="f1818">doubt </rdg>
 			<rdg wit="f1823">&lt;pb n=&quot;36&quot; xml:id=&quot;F1823_v1_055&quot;/&gt;doubt </rdg>
 			<rdg wit="fThomas">doubt </rdg>
-			<rdg wit="f1831">doubt </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['but']">
-			<rdg wit="f1831">but </rdg>
+			<rdgGrp n="['doubt', 'but']">
+				<rdg wit="f1831">doubt but </rdg>
+			</rdgGrp>
 		</rdgGrp>
 	</app>
 	<app>

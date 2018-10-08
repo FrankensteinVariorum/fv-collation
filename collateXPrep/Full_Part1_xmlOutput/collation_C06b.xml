@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['']">
@@ -14,15 +14,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['a']">
-			<rdg wit="fThomas">a </rdg>
+		<rdgGrp n="['a', 'gloom,']">
+			<rdg wit="fThomas">a gloom, </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['gloom,']">
 			<rdg wit="f1818">gloom, </rdg>
 			<rdg wit="f1823">gloom, </rdg>
-			<rdg wit="fThomas">gloom, </rdg>
 		</rdgGrp>
 	</app>
 	<app>
