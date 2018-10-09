@@ -4,7 +4,7 @@
     exclude-result-prefixes="xs"
     version="3.0">
     <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:variable name="collationFiles" as="document-node()+" select="collection('Full_Part8_xmlOutput/')"/>
+    <xsl:variable name="collationFiles" as="document-node()+" select="collection('Full_Part10_xmlOutput/')"/>
     <xsl:template match="/">
         <xsl:for-each select="$collationFiles">
             <xsl:variable name="filePath" as="xs:string" select="tokenize(base-uri(.), '\.xml')[1]"/>
