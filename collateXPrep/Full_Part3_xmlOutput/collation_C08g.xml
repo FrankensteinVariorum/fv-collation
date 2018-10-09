@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;but', 'when', 'the', 'ne&lt;del&gt;besides']">
@@ -33,7 +34,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;chemistry&lt;del&gt;natural']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__3"/&gt; &lt;del rend="strikethrough" sID="c56-0026__main__d2e4973"/&gt;chemistry&lt;del eID="c56-0026__main__d2e4973"/&gt;natural </rdg>
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0026__main__d2e4973"/&gt;chemistry&lt;del eID="c56-0026__main__d2e4973"/&gt;natural </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['natural']">
 			      <rdg wit="f1818">natural </rdg>
@@ -48,12 +49,12 @@
 			      <rdg wit="f1823">philosophy. It was very </rdg>
 			      <rdg wit="fThomas">philosophy. It was very </rdg>
 			      <rdg wit="f1831">philosophy. It was very </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__3"/&gt; philosophy. It was very </rdg>
+			      <rdg wit="fMS">philosophy. It was very </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;when&lt;del&gt;', 'different']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__3"/&gt; &lt;lb n="c56-0026__main__4"/&gt;&lt;del rend="strikethrough" sID="c56-0026__main__d2e4982"/&gt;when&lt;del eID="c56-0026__main__d2e4982"/&gt; different </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0026__main__4"/&gt;&lt;del rend="strikethrough" sID="c56-0026__main__d2e4982"/&gt;when&lt;del eID="c56-0026__main__d2e4982"/&gt; different </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['different,']">
 			      <rdg wit="f1818">different, </rdg>
@@ -68,7 +69,7 @@
 			      <rdg wit="f1823">when </rdg>
 			      <rdg wit="fThomas">when </rdg>
 			      <rdg wit="f1831">when </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__3"/&gt; when </rdg>
+			      <rdg wit="fMS">when </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -79,7 +80,7 @@
 			      <rdg wit="f1831">the </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['the&lt;del&gt;n&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__3"/&gt; the&lt;del rend="strikethrough" sID="c56-0026__main__d2e4985"/&gt;n&lt;del eID="c56-0026__main__d2e4985"/&gt; </rdg>
+			      <rdg wit="fMS">the&lt;del rend="strikethrough" sID="c56-0026__main__d2e4985"/&gt;n&lt;del eID="c56-0026__main__d2e4985"/&gt; </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -88,7 +89,7 @@
 			      <rdg wit="f1823">masters </rdg>
 			      <rdg wit="fThomas">masters </rdg>
 			      <rdg wit="f1831">masters </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__3"/&gt; masters </rdg>
+			      <rdg wit="fMS">masters </rdg>
 		    </rdgGrp>
 	  </app>
 	
@@ -113,7 +114,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;wealth&lt;del&gt;power;–']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__6"/&gt; &lt;del rend="strikethrough" sID="c56-0026__main__d2e4995"/&gt;wealth&lt;del eID="c56-0026__main__d2e4995"/&gt;power;– </rdg>
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0026__main__d2e4995"/&gt;wealth&lt;del eID="c56-0026__main__d2e4995"/&gt;power;– </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['power;']">
 			      <rdg wit="f1818">power; </rdg>
@@ -128,12 +129,12 @@
 			      <rdg wit="f1823">such </rdg>
 			      <rdg wit="fThomas">such </rdg>
 			      <rdg wit="f1831">such </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__6"/&gt; such </rdg>
+			      <rdg wit="fMS">such </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['views']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__6"/&gt; views </rdg>
+			      <rdg wit="fMS">views </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['views,']">
 			      <rdg wit="f1818">views, </rdg>
@@ -148,12 +149,12 @@
 			      <rdg wit="f1823">although </rdg>
 			      <rdg wit="fThomas">although </rdg>
 			      <rdg wit="f1831">although </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__6"/&gt; although </rdg>
+			      <rdg wit="fMS">although </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', 'futile']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__6"/&gt; &lt;lb n="c56-0026__main__7"/&gt; futile </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0026__main__7"/&gt; futile </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['futile,']">
 			      <rdg wit="f1818">futile, </rdg>
@@ -168,7 +169,7 @@
 			      <rdg wit="f1823">were </rdg>
 			      <rdg wit="fThomas">were </rdg>
 			      <rdg wit="f1831">were </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__6"/&gt; were </rdg>
+			      <rdg wit="fMS">were </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -179,7 +180,7 @@
 			      <rdg wit="f1831">grand: </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['grand;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__6"/&gt; grand; </rdg>
+			      <rdg wit="fMS">grand; </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -188,12 +189,12 @@
 			      <rdg wit="f1823">but now the scene was </rdg>
 			      <rdg wit="fThomas">but now the scene was </rdg>
 			      <rdg wit="f1831">but now the scene was </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__6"/&gt; but now &lt;mdel&gt;it&lt;/mdel&gt;the scene was </rdg>
+			      <rdg wit="fMS">but now &lt;mdel&gt;it&lt;/mdel&gt;the scene was </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;all&lt;del&gt;', 'changed.&lt;del&gt;t', 'and', 'the', 'expulsion&lt;del&gt;', 'of', 'chimera', 'overthrew', 'at', 'the', 'same', '', 'time', 'all', '&lt;del&gt;greatness', 'in', 'the', 'science&lt;del&gt;&lt;del&gt;those&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__6"/&gt; &lt;lb n="c56-0026__main__8"/&gt;&lt;del rend="strikethrough" sID="c56-0026__main__d2e5016"/&gt;all&lt;del eID="c56-0026__main__d2e5016"/&gt; changed.&lt;del rend="strikethrough" sID="c56-0026__main__d2e5021"/&gt;t and the expulsion&lt;del eID="c56-0026__main__d2e5021"/&gt;&lt;lb n="c56-0026__main__9"/&gt; of chimera overthrew at the same &lt;lb n="c56-0026__main__10"/&gt; time all &lt;del rend="strikethrough" sID="c56-0026__main__d2e5030"/&gt;greatness in the science&lt;del eID="c56-0026__main__d2e5030"/&gt;&lt;del rend="strikethrough" sID="c56-0026__main__d2e5033"/&gt;those&lt;del eID="c56-0026__main__d2e5033"/&gt;&lt;lb n="c56-0026__left_margin__1"/&gt; </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0026__main__8"/&gt;&lt;del rend="strikethrough" sID="c56-0026__main__d2e5016"/&gt;all&lt;del eID="c56-0026__main__d2e5016"/&gt; changed.&lt;del rend="strikethrough" sID="c56-0026__main__d2e5021"/&gt;t and the expulsion&lt;del eID="c56-0026__main__d2e5021"/&gt;&lt;lb n="c56-0026__main__9"/&gt; of chimera overthrew at the same &lt;lb n="c56-0026__main__10"/&gt; time all &lt;del rend="strikethrough" sID="c56-0026__main__d2e5030"/&gt;greatness in the science&lt;del eID="c56-0026__main__d2e5030"/&gt;&lt;del rend="strikethrough" sID="c56-0026__main__d2e5033"/&gt;those&lt;del eID="c56-0026__main__d2e5033"/&gt;&lt;lb n="c56-0026__left_margin__1"/&gt; </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['changed.']">
 			      <rdg wit="f1818">changed. </rdg>
@@ -208,12 +209,12 @@
 			      <rdg wit="f1823">The </rdg>
 			      <rdg wit="fThomas">The </rdg>
 			      <rdg wit="f1831">The </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__6"/&gt; the </rdg>
+			      <rdg wit="fMS">the </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;utmost&lt;del&gt;', 'ambition', 'of']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__6"/&gt; &lt;del rend="strikethrough" sID="c56-0026__left_margin__d2e5051"/&gt;utmost&lt;del eID="c56-0026__left_margin__d2e5051"/&gt;&lt;lb n="c56-0026__left_margin__2"/&gt; ambition of </rdg>
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0026__left_margin__d2e5051"/&gt;utmost&lt;del eID="c56-0026__left_margin__d2e5051"/&gt;&lt;lb n="c56-0026__left_margin__2"/&gt; ambition of </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['ambition', 'of']">
 			      <rdg wit="f1818">ambition of </rdg>
@@ -236,7 +237,7 @@
 	  <app>
 		    <rdgGrp n="['enquirer']">
 			      <rdg wit="f1831">enquirer </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__6"/&gt; enquirer </rdg>
+			      <rdg wit="fMS">enquirer </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['inquirer']">
 			      <rdg wit="f1818">inquirer </rdg>
@@ -250,7 +251,7 @@
 			      <rdg wit="f1823">seemed </rdg>
 			      <rdg wit="fThomas">seemed </rdg>
 			      <rdg wit="f1831">seemed </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__6"/&gt; seemed </rdg>
+			      <rdg wit="fMS">seemed </rdg>
 		    </rdgGrp>
 	  </app>
 	
@@ -351,7 +352,7 @@
 			      <rdg wit="f1831">grandeur </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['grandeur,', '']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__6"/&gt; grandeur, &lt;lb n="c56-0026__left_margin__7"/&gt; </rdg>
+			      <rdg wit="fMS">grandeur, &lt;lb n="c56-0026__left_margin__7"/&gt; </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -360,7 +361,7 @@
 			      <rdg wit="f1823">for realities of </rdg>
 			      <rdg wit="fThomas">for realities of </rdg>
 			      <rdg wit="f1831">for realities of </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__6"/&gt; for realities of </rdg>
+			      <rdg wit="fMS">for realities of </rdg>
 		    </rdgGrp>
 	  </app>
 	
@@ -375,7 +376,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['worth.&lt;p/&gt;', 'such']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; worth.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0026__main__11"/&gt; Such </rdg>
+			      <rdg wit="fMS">worth.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0026__main__11"/&gt; Such </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['worth.&lt;p/&gt;&lt;p/&gt;such']">
 			      <rdg wit="f1818">worth.&lt;p eID="novel1_letter4_chapter2_div4_div2_p11"/&gt;&lt;p sID="novel1_letter4_chapter2_div4_div2_p12"/&gt;Such </rdg>
@@ -390,12 +391,12 @@
 			      <rdg wit="f1823">were my reflections during </rdg>
 			      <rdg wit="fThomas">were my reflections during </rdg>
 			      <rdg wit="f1831">were my reflections during </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; were my reflections during </rdg>
+			      <rdg wit="fMS">were my reflections during </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;tw&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; &lt;lb n="c56-0026__main__12"/&gt;&lt;del rend="strikethrough" sID="c56-0026__main__d2e5110"/&gt;tw&lt;del eID="c56-0026__main__d2e5110"/&gt; </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0026__main__12"/&gt;&lt;del rend="strikethrough" sID="c56-0026__main__d2e5110"/&gt;tw&lt;del eID="c56-0026__main__d2e5110"/&gt; </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['the', 'first']">
 			      <rdg wit="f1818">the &lt;pb n="072" xml:id="F1818_v1_084"/&gt;first </rdg>
@@ -409,7 +410,7 @@
 			      <rdg wit="f1818">two or three days </rdg>
 			      <rdg wit="f1823">two or three days </rdg>
 			      <rdg wit="fThomas">two or three days </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; two or three days </rdg>
+			      <rdg wit="fMS">two or three days </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['two', 'or', 'three', 'days', 'of', 'my', 'residence', 'at', 'ingolstadt,', 'which', 'were', 'chiefly']">
 			      <rdg wit="f1831">two or three days of my residence at Ingolstadt, which were chiefly </rdg>
@@ -421,7 +422,7 @@
 			      <rdg wit="f1823">spent </rdg>
 			      <rdg wit="fThomas">spent </rdg>
 			      <rdg wit="f1831">spent </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt;spent </rdg>
+			      <rdg wit="fMS">&lt;metamark function="insert"&gt;^&lt;/metamark&gt;spent </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -429,7 +430,7 @@
 			      <rdg wit="f1818">almost </rdg>
 			      <rdg wit="f1823">almost </rdg>
 			      <rdg wit="fThomas">almost </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; almost </rdg>
+			      <rdg wit="fMS">almost </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['in', 'becoming', 'acquainted', 'with', 'the', 'localities,', 'and', 'the', 'principal', 'residents']">
 			      <rdg wit="f1831">in becoming acquainted with the localities, and the principal residents </rdg>
@@ -443,7 +444,7 @@
 			      <rdg wit="f1831">in </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['in&lt;del&gt;solitary&lt;del&gt;solitude:']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; in&lt;del rend="strikethrough" sID="c56-0026__main__d2e5130"/&gt;solitary&lt;del eID="c56-0026__main__d2e5130"/&gt;&lt;lb n="c56-0026__left_margin__1"/&gt;solitude:&lt;lb n="c56-0026__main__13"/&gt; </rdg>
+			      <rdg wit="fMS">in&lt;del rend="strikethrough" sID="c56-0026__main__d2e5130"/&gt;solitary&lt;del eID="c56-0026__main__d2e5130"/&gt;&lt;lb n="c56-0026__left_margin__1"/&gt;solitude:&lt;lb n="c56-0026__main__13"/&gt; </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -462,12 +463,12 @@
 			      <rdg wit="f1823">But </rdg>
 			      <rdg wit="fThomas">But </rdg>
 			      <rdg wit="f1831">But </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; but </rdg>
+			      <rdg wit="fMS">but </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;at&lt;del&gt;', 'as', 'the']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; &lt;del rend="strikethrough" sID="c56-0026__main__d2e5147"/&gt;at&lt;del eID="c56-0026__main__d2e5147"/&gt; as the </rdg>
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0026__main__d2e5147"/&gt;at&lt;del eID="c56-0026__main__d2e5147"/&gt; as the </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['as', 'the']">
 			      <rdg wit="f1818">as the </rdg>
@@ -478,7 +479,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['ensueing']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; ensueing </rdg>
+			      <rdg wit="fMS">ensueing </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['ensuing']">
 			      <rdg wit="f1818">ensuing </rdg>
@@ -493,12 +494,12 @@
 			      <rdg wit="f1823">week </rdg>
 			      <rdg wit="fThomas">week </rdg>
 			      <rdg wit="f1831">week </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; week </rdg>
+			      <rdg wit="fMS">week </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', 'commenced']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; &lt;lb n="c56-0026__main__14"/&gt; commenced </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0026__main__14"/&gt; commenced </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['commenced,']">
 			      <rdg wit="f1818">commenced, </rdg>
@@ -513,7 +514,7 @@
 			      <rdg wit="f1823">I thought of the information </rdg>
 			      <rdg wit="fThomas">I thought of the information </rdg>
 			      <rdg wit="f1831">I thought of the information </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; I thought of the infor&lt;lb n="c56-0026__main__15"/&gt;mation </rdg>
+			      <rdg wit="fMS">I thought of the infor&lt;lb n="c56-0026__main__15"/&gt;mation </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -530,12 +531,12 @@
 			      <rdg wit="f1823">M. </rdg>
 			      <rdg wit="fThomas">M. </rdg>
 			      <rdg wit="f1831">M. </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; M&lt;shi rend="sup"&gt;r&lt;/shi&gt;. </rdg>
+			      <rdg wit="fMS">M&lt;shi rend="sup"&gt;r&lt;/shi&gt;. </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['k.rempe']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; K.&lt;mdel&gt;—&lt;/mdel&gt;rempe </rdg>
+			      <rdg wit="fMS">K.&lt;mdel&gt;—&lt;/mdel&gt;rempe </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['krempe']">
 			      <rdg wit="f1818">Krempe </rdg>
@@ -550,7 +551,7 @@
 			      <rdg wit="f1823">had given me </rdg>
 			      <rdg wit="fThomas">had given me </rdg>
 			      <rdg wit="f1831">had given me </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__left_margin__8"/&gt; had given me </rdg>
+			      <rdg wit="fMS">had given me </rdg>
 		    </rdgGrp>
 	  </app>
 	
@@ -565,7 +566,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['lectures,']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__16"/&gt; lectures, </rdg>
+			      <rdg wit="fMS">lectures, </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['lectures.']">
 			      <rdg wit="f1818">lectures. </rdg>
@@ -580,7 +581,7 @@
 			      <rdg wit="f1823">And although </rdg>
 			      <rdg wit="fThomas">And although </rdg>
 			      <rdg wit="f1831">And although </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__16"/&gt; and although </rdg>
+			      <rdg wit="fMS">and although </rdg>
 		    </rdgGrp>
 	  </app>
 	
@@ -615,7 +616,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['pulpit']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__19"/&gt; pulpit </rdg>
+			      <rdg wit="fMS">pulpit </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['pulpit,']">
 			      <rdg wit="f1818">pulpit, </rdg>
@@ -630,7 +631,7 @@
 			      <rdg wit="f1823">I recollected what he had </rdg>
 			      <rdg wit="fThomas">I recollected what he had </rdg>
 			      <rdg wit="f1831">I recollected what he had </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__19"/&gt; I recollected what he had </rdg>
+			      <rdg wit="fMS">I recollected what he had </rdg>
 		    </rdgGrp>
 	  </app>
 	
@@ -645,7 +646,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['waldham,']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__20"/&gt; Waldham, </rdg>
+			      <rdg wit="fMS">Waldham, </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['waldman,']">
 			      <rdg wit="f1818">Waldman, </rdg>
@@ -660,7 +661,7 @@
 			      <rdg wit="f1823">whom I had </rdg>
 			      <rdg wit="fThomas">whom I had </rdg>
 			      <rdg wit="f1831">whom I had </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__20"/&gt; whom I had </rdg>
+			      <rdg wit="fMS">whom I had </rdg>
 		    </rdgGrp>
 	  </app>
 	
@@ -675,7 +676,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['seen', '&lt;del&gt;and&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__21"/&gt; seen &lt;del rend="strikethrough" sID="c56-0026__main__d2e5199"/&gt;and&lt;del eID="c56-0026__main__d2e5199"/&gt; </rdg>
+			      <rdg wit="fMS">seen &lt;del rend="strikethrough" sID="c56-0026__main__d2e5199"/&gt;and&lt;del eID="c56-0026__main__d2e5199"/&gt; </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['seen,']">
 			      <rdg wit="f1818">seen, </rdg>
@@ -692,7 +693,7 @@
 			      <rdg wit="f1831">as he had </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['as', 'he', 'had', 'been', '']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__21"/&gt; as he had been &lt;lb n="c56-0026__main__22"/&gt; </rdg>
+			      <rdg wit="fMS">as he had been &lt;lb n="c56-0026__main__22"/&gt; </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -701,7 +702,7 @@
 			      <rdg wit="f1823">hitherto </rdg>
 			      <rdg wit="fThomas">hitherto </rdg>
 			      <rdg wit="f1831">hitherto </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__21"/&gt; hitherto </rdg>
+			      <rdg wit="fMS">hitherto </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -718,12 +719,12 @@
 			      <rdg wit="f1823">out of </rdg>
 			      <rdg wit="fThomas">out of </rdg>
 			      <rdg wit="f1831">out of </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__21"/&gt; out of </rdg>
+			      <rdg wit="fMS">out of </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['town.&lt;p/&gt;&lt;del&gt;half', 'out', 'of&lt;del&gt;partly']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__21"/&gt; town.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0026__main__23"/&gt;&lt;del rend="strikethrough" sID="c56-0026__main__d2e5211"/&gt;Half out of&lt;del eID="c56-0026__main__d2e5211"/&gt;Partly </rdg>
+			      <rdg wit="fMS">town.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0026__main__23"/&gt;&lt;del rend="strikethrough" sID="c56-0026__main__d2e5211"/&gt;Half out of&lt;del eID="c56-0026__main__d2e5211"/&gt;Partly </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['town.&lt;p/&gt;&lt;p/&gt;partly']">
 			      <rdg wit="f1818">town.&lt;p eID="novel1_letter4_chapter2_div4_div2_p12"/&gt;&lt;p sID="novel1_letter4_chapter2_div4_div2_p13"/&gt;Partly </rdg>
@@ -738,12 +739,12 @@
 			      <rdg wit="f1823">from </rdg>
 			      <rdg wit="fThomas">from </rdg>
 			      <rdg wit="f1831">from </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__21"/&gt; from </rdg>
+			      <rdg wit="fMS">from </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['curiosity']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__21"/&gt; curiosity </rdg>
+			      <rdg wit="fMS">curiosity </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['curiosity,']">
 			      <rdg wit="f1818">curiosity, </rdg>
@@ -758,12 +759,12 @@
 			      <rdg wit="f1823">and partly from </rdg>
 			      <rdg wit="fThomas">and partly from </rdg>
 			      <rdg wit="f1831">and partly from </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__21"/&gt; and partly from </rdg>
+			      <rdg wit="fMS">and partly from </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', 'idleness']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__21"/&gt; &lt;lb n="c56-0026__main__24"/&gt; idleness </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0026__main__24"/&gt; idleness </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['idleness,']">
 			      <rdg wit="f1818">idleness, </rdg>
@@ -778,12 +779,12 @@
 			      <rdg wit="f1823">I went into the lecturing </rdg>
 			      <rdg wit="fThomas">I went into the lecturing </rdg>
 			      <rdg wit="f1831">I went into the lecturing </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__21"/&gt; I went into the lecturing </rdg>
+			      <rdg wit="fMS">I went into the lecturing </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['room', '']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__21"/&gt; room &lt;lb n="c56-0026__main__25"/&gt; </rdg>
+			      <rdg wit="fMS">room &lt;lb n="c56-0026__main__25"/&gt; </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['room,']">
 			      <rdg wit="f1818">room, </rdg>
@@ -798,12 +799,12 @@
 			      <rdg wit="f1823">which M. </rdg>
 			      <rdg wit="fThomas">which M. </rdg>
 			      <rdg wit="f1831">which M. </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__21"/&gt; which M&lt;shi rend="sup"&gt;r&lt;/shi&gt;. </rdg>
+			      <rdg wit="fMS">which M&lt;shi rend="sup"&gt;r&lt;/shi&gt;. </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['waldham']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__21"/&gt; Waldham </rdg>
+			      <rdg wit="fMS">Waldham </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['waldman']">
 			      <rdg wit="f1818">Waldman </rdg>
@@ -818,7 +819,7 @@
 			      <rdg wit="f1823">entered shortly </rdg>
 			      <rdg wit="fThomas">entered shortly </rdg>
 			      <rdg wit="f1831">entered shortly </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__21"/&gt; entered shortly </rdg>
+			      <rdg wit="fMS">entered shortly </rdg>
 		    </rdgGrp>
 	  </app>
 	
@@ -833,7 +834,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['a', 'very']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__26"/&gt; a very </rdg>
+			      <rdg wit="fMS">a very </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['very']">
 			      <rdg wit="f1818">very </rdg>
@@ -844,7 +845,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['different', 'man', 'from', '&lt;del&gt;the', 'other&lt;del&gt;his']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__26"/&gt; dif&lt;lb n="c56-0026__main__27"/&gt;ferent man from &lt;del rend="strikethrough" sID="c56-0026__main__d2e5236"/&gt;the other&lt;del eID="c56-0026__main__d2e5236"/&gt;his </rdg>
+			      <rdg wit="fMS">dif&lt;lb n="c56-0026__main__27"/&gt;ferent man from &lt;del rend="strikethrough" sID="c56-0026__main__d2e5236"/&gt;the other&lt;del eID="c56-0026__main__d2e5236"/&gt;his </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['unlike', 'his']">
 			      <rdg wit="f1818">unlike his </rdg>
@@ -859,12 +860,12 @@
 			      <rdg wit="f1823">colleague. He </rdg>
 			      <rdg wit="fThomas">colleague. He </rdg>
 			      <rdg wit="f1831">colleague. He </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__26"/&gt; colleague. He </rdg>
+			      <rdg wit="fMS">colleague. He </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', 'was']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__26"/&gt; &lt;lb n="c56-0026__main__28"/&gt; was </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0026__main__28"/&gt; was </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['appeared']">
 			      <rdg wit="f1818">appeared </rdg>
@@ -879,7 +880,7 @@
 			      <rdg wit="f1823">about fifty </rdg>
 			      <rdg wit="fThomas">about fifty </rdg>
 			      <rdg wit="f1831">about fifty </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__26"/&gt; about fifty </rdg>
+			      <rdg wit="fMS">about fifty </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -896,7 +897,7 @@
 			      <rdg wit="f1823">but with </rdg>
 			      <rdg wit="fThomas">but with </rdg>
 			      <rdg wit="f1831">but with </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__26"/&gt; but with </rdg>
+			      <rdg wit="fMS">but with </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -913,12 +914,12 @@
 			      <rdg wit="f1823">aspect expressive of the greatest </rdg>
 			      <rdg wit="fThomas">aspect expressive of the greatest </rdg>
 			      <rdg wit="f1831">aspect expressive of the greatest </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__26"/&gt; aspect ex&lt;lb n="c56-0026__main__29"/&gt;pressive of the greatest </rdg>
+			      <rdg wit="fMS">aspect ex&lt;lb n="c56-0026__main__29"/&gt;pressive of the greatest </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['benevolence', '']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__26"/&gt; benevolence &lt;lb n="c56-0026__main__30"/&gt; </rdg>
+			      <rdg wit="fMS">benevolence &lt;lb n="c56-0026__main__30"/&gt; </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['benevolence;']">
 			      <rdg wit="f1818">benevolence; </rdg>
@@ -933,7 +934,7 @@
 			      <rdg wit="f1823">a few </rdg>
 			      <rdg wit="fThomas">a few </rdg>
 			      <rdg wit="f1831">a few </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__26"/&gt; a few </rdg>
+			      <rdg wit="fMS">a few </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -944,12 +945,12 @@
 		    </rdgGrp>
 		    <rdgGrp n="['grey']">
 			      <rdg wit="f1831">grey </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__26"/&gt; grey </rdg>
+			      <rdg wit="fMS">grey </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;hars&lt;del&gt;', 'hairs', 'covered', 'his']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__26"/&gt; &lt;del rend="strikethrough" sID="c56-0026__main__d2e5254"/&gt;hars&lt;del eID="c56-0026__main__d2e5254"/&gt; hairs covered his </rdg>
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0026__main__d2e5254"/&gt;hars&lt;del eID="c56-0026__main__d2e5254"/&gt; hairs covered his </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['hairs', 'covered', 'his']">
 			      <rdg wit="f1818">hairs covered his </rdg>
@@ -960,7 +961,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['temples']">
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__26"/&gt; temples&lt;lb n="c56-0027__main__1"/&gt; </rdg>
+			      <rdg wit="fMS">temples&lt;lb n="c56-0027__main__1"/&gt; </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['temples,']">
 			      <rdg wit="f1818">temples, </rdg>
@@ -975,7 +976,7 @@
 			      <rdg wit="f1823">but those at the back of his head </rdg>
 			      <rdg wit="fThomas">but those at the back of his head </rdg>
 			      <rdg wit="f1831">but those at the back of his head </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0026__main__26"/&gt; but those at the back of his head </rdg>
+			      <rdg wit="fMS">but those at the back of his head </rdg>
 		    </rdgGrp>
 	  </app>
 	
@@ -990,7 +991,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['he']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__2"/&gt; He </rdg>
+			      <rdg wit="fMS">He </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['his', 'person']">
 			      <rdg wit="f1818">His person </rdg>
@@ -1005,12 +1006,12 @@
 			      <rdg wit="f1823">was </rdg>
 			      <rdg wit="fThomas">was </rdg>
 			      <rdg wit="f1831">was </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__2"/&gt; was </rdg>
+			      <rdg wit="fMS">was </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['short', 'in', '', 'person']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__2"/&gt; short in &lt;lb n="c56-0027__main__3"/&gt; person </rdg>
+			      <rdg wit="fMS">short in &lt;lb n="c56-0027__main__3"/&gt; person </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['short,']">
 			      <rdg wit="f1818">short, </rdg>
@@ -1025,12 +1026,12 @@
 			      <rdg wit="f1823">but remarkably </rdg>
 			      <rdg wit="fThomas">but remarkably </rdg>
 			      <rdg wit="f1831">but remarkably </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__2"/&gt; but remarkably </rdg>
+			      <rdg wit="fMS">but remarkably </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['erect', '&lt;del&gt;ha&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__2"/&gt; erect &lt;del rend="strikethrough" sID="c56-0027__main__d2e5271"/&gt;ha&lt;del eID="c56-0027__main__d2e5271"/&gt; </rdg>
+			      <rdg wit="fMS">erect &lt;del rend="strikethrough" sID="c56-0027__main__d2e5271"/&gt;ha&lt;del eID="c56-0027__main__d2e5271"/&gt; </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['erect;']">
 			      <rdg wit="f1818">erect; </rdg>
@@ -1045,7 +1046,7 @@
 			      <rdg wit="f1823">and </rdg>
 			      <rdg wit="fThomas">and </rdg>
 			      <rdg wit="f1831">and </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__2"/&gt; and </rdg>
+			      <rdg wit="fMS">and </rdg>
 		    </rdgGrp>
 	  </app>
 	
@@ -1070,7 +1071,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['with', 'a', '&lt;del&gt;kind&lt;del&gt;', 'by', 'a', 'recapitulation', 'of', 'the', 'history', 'of']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__5"/&gt; with a &lt;lb n="c56-0027__main__6"/&gt;&lt;del rend="strikethrough" sID="c56-0027__main__d2e5283"/&gt;kind&lt;del eID="c56-0027__main__d2e5283"/&gt;&lt;mdel&gt;of&lt;/mdel&gt;&lt;lb n="c56-0027__left_margin__1"/&gt; by a recapitu&lt;lb n="c56-0027__left_margin__2"/&gt;lation of the history of </rdg>
+			      <rdg wit="fMS">with a &lt;lb n="c56-0027__main__6"/&gt;&lt;del rend="strikethrough" sID="c56-0027__main__d2e5283"/&gt;kind&lt;del eID="c56-0027__main__d2e5283"/&gt;&lt;mdel&gt;of&lt;/mdel&gt;&lt;lb n="c56-0027__left_margin__1"/&gt; by a recapitu&lt;lb n="c56-0027__left_margin__2"/&gt;lation of the history of </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['by', 'a', 'recapitulation', 'of', 'the', 'history', 'of']">
 			      <rdg wit="f1818">by a recapitulation of the history of </rdg>
@@ -1084,7 +1085,7 @@
 			      <rdg wit="f1818">chemistry </rdg>
 			      <rdg wit="f1823">chemistry </rdg>
 			      <rdg wit="fThomas">chemistry </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__5"/&gt; chemistry </rdg>
+			      <rdg wit="fMS">chemistry </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['chemistry,']">
 			      <rdg wit="f1831">chemistry, </rdg>
@@ -1096,12 +1097,12 @@
 			      <rdg wit="f1823">and </rdg>
 			      <rdg wit="fThomas">and </rdg>
 			      <rdg wit="f1831">and </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__5"/&gt; and </rdg>
+			      <rdg wit="fMS">and </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['remark-ed', 'the', 'various', 'improvements']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__5"/&gt; remark-&lt;lb n="c56-0027__main__7"/&gt;ed the various improvements </rdg>
+			      <rdg wit="fMS">remark-&lt;lb n="c56-0027__main__7"/&gt;ed the various improvements </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['the', 'various', 'improvements']">
 			      <rdg wit="f1818">the various improvements </rdg>
@@ -1112,7 +1113,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;and', 'discoveries&lt;del&gt;differentmade']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__5"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt;&lt;del rend="strikethrough" sID="c56-0027__main__d2e5327"/&gt;&amp; discoveries&lt;del eID="c56-0027__main__d2e5327"/&gt;diffe&lt;lb n="c56-0027__main__8"/&gt;rentmade </rdg>
+			      <rdg wit="fMS">&lt;metamark function="insert"&gt;^&lt;/metamark&gt;&lt;del rend="strikethrough" sID="c56-0027__main__d2e5327"/&gt;&amp; discoveries&lt;del eID="c56-0027__main__d2e5327"/&gt;diffe&lt;lb n="c56-0027__main__8"/&gt;rentmade </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['made']">
 			      <rdg wit="f1818">made </rdg>
@@ -1127,7 +1128,7 @@
 			      <rdg wit="f1823">by </rdg>
 			      <rdg wit="fThomas">by </rdg>
 			      <rdg wit="f1831">by </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__5"/&gt; by </rdg>
+			      <rdg wit="fMS">by </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1138,7 +1139,7 @@
 			      <rdg wit="f1831">different </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['various']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__5"/&gt; various </rdg>
+			      <rdg wit="fMS">various </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1147,12 +1148,12 @@
 			      <rdg wit="f1823">men </rdg>
 			      <rdg wit="fThomas">men </rdg>
 			      <rdg wit="f1831">men </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__5"/&gt; men </rdg>
+			      <rdg wit="fMS">men </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;had', 'made&lt;del&gt;of', 'learning', 'pronoucing', '']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__5"/&gt; &lt;del rend="strikethrough" sID="c56-0027__main__d2e5355"/&gt;had made&lt;del eID="c56-0027__main__d2e5355"/&gt;of learning pronoucing &lt;lb n="c56-0027__main__9"/&gt; </rdg>
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0027__main__d2e5355"/&gt;had made&lt;del eID="c56-0027__main__d2e5355"/&gt;of learning pronoucing &lt;lb n="c56-0027__main__9"/&gt; </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['of', 'learning,', 'pronouncing', 'with', 'fervour']">
 			      <rdg wit="f1818">of learning, pronouncing with fervour </rdg>
@@ -1167,12 +1168,12 @@
 			      <rdg wit="f1823">the names of the </rdg>
 			      <rdg wit="fThomas">the names of the </rdg>
 			      <rdg wit="f1831">the names of the </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__5"/&gt; the names of the </rdg>
+			      <rdg wit="fMS">the names of the </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['greatest', 'discoverers', '&lt;del&gt;with', 'great', 'warmth&lt;del&gt;with', 'fervour.']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__5"/&gt; greatest discoverers &lt;lb n="c56-0027__main__10"/&gt;&lt;del rend="strikethrough" sID="c56-0027__main__d2e5369"/&gt;with great warmth&lt;del eID="c56-0027__main__d2e5369"/&gt;with fervour. </rdg>
+			      <rdg wit="fMS">greatest discoverers &lt;lb n="c56-0027__main__10"/&gt;&lt;del rend="strikethrough" sID="c56-0027__main__d2e5369"/&gt;with great warmth&lt;del eID="c56-0027__main__d2e5369"/&gt;with fervour. </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['most', 'distinguished', 'discoverers.']">
 			      <rdg wit="f1818">most distinguished discoverers. </rdg>
@@ -1187,7 +1188,7 @@
 			      <rdg wit="f1823">He then took </rdg>
 			      <rdg wit="fThomas">He then took </rdg>
 			      <rdg wit="f1831">He then took </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__5"/&gt; He then took </rdg>
+			      <rdg wit="fMS">He then took </rdg>
 		    </rdgGrp>
 	  </app>
 	
@@ -1212,7 +1213,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;chemistry&lt;del&gt;the']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__12"/&gt; &lt;del rend="strikethrough" sID="c56-0027__main__d2e5387"/&gt;chemistry&lt;del eID="c56-0027__main__d2e5387"/&gt;the </rdg>
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0027__main__d2e5387"/&gt;chemistry&lt;del eID="c56-0027__main__d2e5387"/&gt;the </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['the']">
 			      <rdg wit="f1818">the </rdg>
@@ -1227,7 +1228,7 @@
 			      <rdg wit="f1823">science, and explained many </rdg>
 			      <rdg wit="fThomas">science, and explained many </rdg>
 			      <rdg wit="f1831">science, and explained many </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__12"/&gt; science, and explained many </rdg>
+			      <rdg wit="fMS">science, and explained many </rdg>
 		    </rdgGrp>
 	  </app>
 	
@@ -1242,7 +1243,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;termes&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__13"/&gt; &lt;del rend="strikethrough" sID="c56-0027__main__d2e5397"/&gt;termes&lt;del eID="c56-0027__main__d2e5397"/&gt; </rdg>
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0027__main__d2e5397"/&gt;termes&lt;del eID="c56-0027__main__d2e5397"/&gt; </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['elementary']">
 			      <rdg wit="f1818">elementary </rdg>
@@ -1257,12 +1258,12 @@
 			      <rdg wit="f1823">terms. </rdg>
 			      <rdg wit="fThomas">terms. </rdg>
 			      <rdg wit="f1831">terms. </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__13"/&gt; terms. </rdg>
+			      <rdg wit="fMS">terms. </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;made&lt;del&gt;after', 'making']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__13"/&gt; &lt;del rend="strikethrough" sID="c56-0027__main__d2e5402"/&gt;made&lt;del eID="c56-0027__main__d2e5402"/&gt;After making </rdg>
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0027__main__d2e5402"/&gt;made&lt;del eID="c56-0027__main__d2e5402"/&gt;After making </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['after', 'having', 'made']">
 			      <rdg wit="f1818">After having made </rdg>
@@ -1277,7 +1278,7 @@
 			      <rdg wit="f1823">a few </rdg>
 			      <rdg wit="fThomas">a few </rdg>
 			      <rdg wit="f1831">a few </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__13"/&gt; a few </rdg>
+			      <rdg wit="fMS">a few </rdg>
 		    </rdgGrp>
 	  </app>
 	
@@ -1292,7 +1293,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['experiments', '&lt;del&gt;and&lt;del&gt;heconcluded']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; experiments &lt;del rend="strikethrough" sID="c56-0027__main__d2e5413"/&gt;and&lt;del eID="c56-0027__main__d2e5413"/&gt;heconclu&lt;lb n="c56-0027__main__15"/&gt;ded </rdg>
+			      <rdg wit="fMS">experiments &lt;del rend="strikethrough" sID="c56-0027__main__d2e5413"/&gt;and&lt;del eID="c56-0027__main__d2e5413"/&gt;heconclu&lt;lb n="c56-0027__main__15"/&gt;ded </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['experiments,', 'he', 'concluded']">
 			      <rdg wit="f1818">experiments, he concluded </rdg>
@@ -1307,7 +1308,7 @@
 			      <rdg wit="f1823">with a panegyric upon </rdg>
 			      <rdg wit="fThomas">with a panegyric upon </rdg>
 			      <rdg wit="f1831">with a panegyric upon </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; with a panegyric upon </rdg>
+			      <rdg wit="fMS">with a panegyric upon </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1318,7 +1319,7 @@
 			      <rdg wit="f1831">modern chemistry, </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['modernchemistry']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt;modernchemist&lt;lb n="c56-0027__main__16"/&gt;ry </rdg>
+			      <rdg wit="fMS">&lt;metamark function="insert"&gt;^&lt;/metamark&gt;modernchemist&lt;lb n="c56-0027__main__16"/&gt;ry </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1327,7 +1328,7 @@
 			      <rdg wit="f1823">the </rdg>
 			      <rdg wit="fThomas">the </rdg>
 			      <rdg wit="f1831">the </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; the </rdg>
+			      <rdg wit="fMS">the </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1338,7 +1339,7 @@
 			      <rdg wit="f1831">terms </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['words']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; words </rdg>
+			      <rdg wit="fMS">words </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1347,12 +1348,12 @@
 			      <rdg wit="f1823">of which I shall never </rdg>
 			      <rdg wit="fThomas">of which I shall never </rdg>
 			      <rdg wit="f1831">of which I shall never </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; of which I shall never </rdg>
+			      <rdg wit="fMS">of which I shall never </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', 'forget.&lt;p/&gt;', '&#34;the']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0027__main__17"/&gt; forget.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0027__main__18"/&gt; "The </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0027__main__17"/&gt; forget.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0027__main__18"/&gt; "The </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['forget:—&lt;p/&gt;&lt;p/&gt;&#34;the']">
 			      <rdg wit="f1818">forget:—&lt;p eID="novel1_letter4_chapter2_div4_div2_p13"/&gt;&lt;p sID="novel1_letter4_chapter2_div4_div2_p14"/&gt;“The </rdg>
@@ -1367,12 +1368,12 @@
 			      <rdg wit="f1823">ancient teachers of this </rdg>
 			      <rdg wit="fThomas">ancient teachers of this </rdg>
 			      <rdg wit="f1831">ancient teachers of this </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; ancient teachers of this </rdg>
+			      <rdg wit="fMS">ancient teachers of this </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['science&#34;', '']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; science" &lt;lb n="c56-0027__main__19"/&gt; </rdg>
+			      <rdg wit="fMS">science" &lt;lb n="c56-0027__main__19"/&gt; </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['science,&#34;']">
 			      <rdg wit="f1818">science,” </rdg>
@@ -1387,12 +1388,12 @@
 			      <rdg wit="f1823">said he, “promised </rdg>
 			      <rdg wit="fThomas">said he, “promised </rdg>
 			      <rdg wit="f1831">said he, “promised </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; said he, "promised </rdg>
+			      <rdg wit="fMS">said he, "promised </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['impossibilities', '', '&#34;and']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; impossibilities &lt;lb n="c56-0027__main__20"/&gt; "and </rdg>
+			      <rdg wit="fMS">impossibilities &lt;lb n="c56-0027__main__20"/&gt; "and </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['impossibilities,', 'and']">
 			      <rdg wit="f1818">impossibilities, and </rdg>
@@ -1407,12 +1408,12 @@
 			      <rdg wit="f1823">performed nothing. The modern </rdg>
 			      <rdg wit="fThomas">performed nothing. The modern </rdg>
 			      <rdg wit="f1831">performed nothing. The modern </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; performed nothing. The modern </rdg>
+			      <rdg wit="fMS">performed nothing. The modern </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;masters']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0027__main__21"/&gt; "masters </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0027__main__21"/&gt; "masters </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['masters']">
 			      <rdg wit="f1818">masters </rdg>
@@ -1427,12 +1428,12 @@
 			      <rdg wit="f1823">promise very </rdg>
 			      <rdg wit="fThomas">promise very </rdg>
 			      <rdg wit="f1831">promise very </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; promise very </rdg>
+			      <rdg wit="fMS">promise very </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['little.']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; little. </rdg>
+			      <rdg wit="fMS">little. </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['little;']">
 			      <rdg wit="f1818">little; </rdg>
@@ -1447,23 +1448,26 @@
 			      <rdg wit="f1823">they </rdg>
 			      <rdg wit="fThomas">they </rdg>
 			      <rdg wit="f1831">they </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; They </rdg>
+			      <rdg wit="fMS">They </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
-	      <rdgGrp n="['&#34;&lt;del&gt;no&lt;del&gt;', 'know', 'that', 'metals', 'cannot', 'be']">
-	          <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0027__main__22"/&gt; "&lt;del rend="strikethrough" sID="c56-0027__main__d2e5461"/&gt;no&lt;del eID="c56-0027__main__d2e5461"/&gt; &lt;lb n="c56-0027__main__14"/&gt; know that metals cannot be </rdg>
-	      </rdgGrp>
+		    <rdgGrp n="['', '&#34;&lt;del&gt;no&lt;del&gt;']">
+			      <rdg wit="fMS">&lt;lb n="c56-0027__main__22"/&gt; "&lt;del rend="strikethrough" sID="c56-0027__main__d2e5461"/&gt;no&lt;del eID="c56-0027__main__d2e5461"/&gt; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
 		    <rdgGrp n="['know', 'that', 'metals', 'cannot', 'be']">
 			      <rdg wit="f1818">know that metals cannot be </rdg>
 			      <rdg wit="f1823">know that metals cannot be </rdg>
 			      <rdg wit="fThomas">know that metals cannot be </rdg>
 			      <rdg wit="f1831">know that metals cannot be </rdg>
+			      <rdg wit="fMS">know that metals cannot be </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;transmuted']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0027__main__23"/&gt; "transmuted </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0027__main__23"/&gt; "transmuted </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['transmuted,']">
 			      <rdg wit="f1818">transmuted, </rdg>
@@ -1478,12 +1482,12 @@
 			      <rdg wit="f1823">and that the elixir </rdg>
 			      <rdg wit="fThomas">and that the elixir </rdg>
 			      <rdg wit="f1831">and that the elixir </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; and that the elixir </rdg>
+			      <rdg wit="fMS">and that the elixir </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;&lt;del&gt;vitæ&lt;del&gt;of']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0027__main__24"/&gt; "&lt;del rend="strikethrough" sID="c56-0027__main__d2e5470"/&gt;vitæ&lt;del eID="c56-0027__main__d2e5470"/&gt;of </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0027__main__24"/&gt; "&lt;del rend="strikethrough" sID="c56-0027__main__d2e5470"/&gt;vitæ&lt;del eID="c56-0027__main__d2e5470"/&gt;of </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['of']">
 			      <rdg wit="f1818">of </rdg>
@@ -1498,12 +1502,12 @@
 			      <rdg wit="f1823">life is a </rdg>
 			      <rdg wit="fThomas">life is a </rdg>
 			      <rdg wit="f1831">life is a </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; life is a </rdg>
+			      <rdg wit="fMS">life is a </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;mere&lt;del&gt;', 'chimæra.']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;del rend="strikethrough" sID="c56-0027__main__d2e5482"/&gt;mere&lt;del eID="c56-0027__main__d2e5482"/&gt; chimæra. </rdg>
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0027__main__d2e5482"/&gt;mere&lt;del eID="c56-0027__main__d2e5482"/&gt; chimæra. </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['chimera.']">
 			      <rdg wit="f1818">chimera. </rdg>
@@ -1518,12 +1522,12 @@
 			      <rdg wit="f1823">But </rdg>
 			      <rdg wit="fThomas">But </rdg>
 			      <rdg wit="f1831">But </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; But </rdg>
+			      <rdg wit="fMS">But </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;these', 'philosophers']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0027__main__25"/&gt; "these philosophers </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0027__main__25"/&gt; "these philosophers </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['these', 'philosophers,']">
 			      <rdg wit="f1818">these philosophers, </rdg>
@@ -1538,12 +1542,12 @@
 			      <rdg wit="f1823">whose </rdg>
 			      <rdg wit="fThomas">whose </rdg>
 			      <rdg wit="f1831">whose </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; whose </rdg>
+			      <rdg wit="fMS">whose </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;eyes&lt;del&gt;', 'hands']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;del rend="strikethrough" sID="c56-0027__main__d2e5488"/&gt;eyes&lt;del eID="c56-0027__main__d2e5488"/&gt; hands </rdg>
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0027__main__d2e5488"/&gt;eyes&lt;del eID="c56-0027__main__d2e5488"/&gt; hands </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['hands']">
 			      <rdg wit="f1818">hands </rdg>
@@ -1554,7 +1558,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;appear']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0027__main__26"/&gt; "appear </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0027__main__26"/&gt; "appear </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['seem']">
 			      <rdg wit="f1818">seem </rdg>
@@ -1569,12 +1573,12 @@
 			      <rdg wit="f1823">only made to dabble in </rdg>
 			      <rdg wit="fThomas">only made to dabble &lt;pb n="074" xml:id="F1818_v1_086"/&gt;in </rdg>
 			      <rdg wit="f1831">only made to dabble in </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; only made to dabble in </rdg>
+			      <rdg wit="fMS">only made to dabble in </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;dirt']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0027__main__27"/&gt; "dirt </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0027__main__27"/&gt; "dirt </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['dirt,']">
 			      <rdg wit="f1818">dirt, </rdg>
@@ -1589,14 +1593,14 @@
 			      <rdg wit="f1823">and their eyes to </rdg>
 			      <rdg wit="fThomas">and their eyes to </rdg>
 			      <rdg wit="f1831">and their eyes to </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; and their eyes to </rdg>
+			      <rdg wit="fMS">and their eyes to </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['pore']">
 			      <rdg wit="f1823">pore </rdg>
 			      <rdg wit="f1831">pore </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; pore </rdg>
+			      <rdg wit="fMS">pore </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['pour']">
 			      <rdg wit="f1818">pour </rdg>
@@ -1609,12 +1613,12 @@
 			      <rdg wit="f1823">over </rdg>
 			      <rdg wit="fThomas">over </rdg>
 			      <rdg wit="f1831">over </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; over </rdg>
+			      <rdg wit="fMS">over </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;the']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0027__main__28"/&gt; "the </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0027__main__28"/&gt; "the </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['the']">
 			      <rdg wit="f1818">the </rdg>
@@ -1629,7 +1633,7 @@
 			      <rdg wit="f1823">microscope or </rdg>
 			      <rdg wit="fThomas">microscope or </rdg>
 			      <rdg wit="f1831">microscope or </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; microscope or </rdg>
+			      <rdg wit="fMS">microscope or </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1640,7 +1644,7 @@
 			      <rdg wit="f1831">crucible, have </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['cruscible,', '', '&#34;have']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; cruscible, &lt;lb n="c56-0027__main__29"/&gt; "have </rdg>
+			      <rdg wit="fMS">cruscible, &lt;lb n="c56-0027__main__29"/&gt; "have </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1649,12 +1653,12 @@
 			      <rdg wit="f1823">indeed performed miracles. </rdg>
 			      <rdg wit="fThomas">indeed performed miracles. </rdg>
 			      <rdg wit="f1831">indeed performed miracles. </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; indeed performed miracles. </rdg>
+			      <rdg wit="fMS">indeed performed miracles. </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;they']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0027__main__30"/&gt; "They </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0027__main__30"/&gt; "They </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['they']">
 			      <rdg wit="f1818">They </rdg>
@@ -1669,12 +1673,12 @@
 			      <rdg wit="f1823">penetrate into the recesses of </rdg>
 			      <rdg wit="fThomas">penetrate into the recesses of </rdg>
 			      <rdg wit="f1831">penetrate into the recesses of </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; penetrate into the recesses of </rdg>
+			      <rdg wit="fMS">penetrate into the recesses of </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;nature']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0027__main__31"/&gt; "nature </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0027__main__31"/&gt; "nature </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['nature,']">
 			      <rdg wit="f1818">nature, </rdg>
@@ -1689,7 +1693,7 @@
 			      <rdg wit="f1823">and </rdg>
 			      <rdg wit="fThomas">and </rdg>
 			      <rdg wit="f1831">and </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; and </rdg>
+			      <rdg wit="fMS">and </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1700,7 +1704,7 @@
 		    <rdgGrp n="['show']">
 			      <rdg wit="f1823">show </rdg>
 			      <rdg wit="f1831">show </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; show </rdg>
+			      <rdg wit="fMS">show </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1709,12 +1713,12 @@
 			      <rdg wit="f1823">how she works </rdg>
 			      <rdg wit="fThomas">how she works </rdg>
 			      <rdg wit="f1831">how she works </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; how she works&lt;lb n="c56-0028__main__1"/&gt; </rdg>
+			      <rdg wit="fMS">how she works&lt;lb n="c56-0028__main__1"/&gt; </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['&#34;in']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; "in </rdg>
+			      <rdg wit="fMS">"in </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['in']">
 			      <rdg wit="f1818">in </rdg>
@@ -1729,12 +1733,12 @@
 			      <rdg wit="f1823">her hiding places. They ascend into </rdg>
 			      <rdg wit="fThomas">her hiding places. They ascend into </rdg>
 			      <rdg wit="f1831">her hiding places. They ascend into </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; her hiding places. They ascend into </rdg>
+			      <rdg wit="fMS">her hiding places. They ascend into </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;the', 'heavens;–']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0028__main__2"/&gt; "the heavens;– </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0028__main__2"/&gt; "the heavens;– </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['the']">
 			      <rdg wit="f1818">the </rdg>
@@ -1759,12 +1763,12 @@
 			      <rdg wit="f1823">they have </rdg>
 			      <rdg wit="fThomas">they have </rdg>
 			      <rdg wit="f1831">they have </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; they have </rdg>
+			      <rdg wit="fMS">they have </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['discoverd']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; discoverd </rdg>
+			      <rdg wit="fMS">discoverd </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['discovered']">
 			      <rdg wit="f1818">discovered </rdg>
@@ -1779,12 +1783,12 @@
 			      <rdg wit="f1823">how </rdg>
 			      <rdg wit="fThomas">how </rdg>
 			      <rdg wit="f1831">how </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; how </rdg>
+			      <rdg wit="fMS">how </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;the']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0028__main__3"/&gt; "the </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0028__main__3"/&gt; "the </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['the']">
 			      <rdg wit="f1818">the </rdg>
@@ -1799,12 +1803,12 @@
 			      <rdg wit="f1823">blood circulates, and the nature </rdg>
 			      <rdg wit="fThomas">blood circulates, and the nature </rdg>
 			      <rdg wit="f1831">blood circulates, and the nature </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; blood circulates, and the nature </rdg>
+			      <rdg wit="fMS">blood circulates, and the nature </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;of']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0028__main__4"/&gt; "of </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0028__main__4"/&gt; "of </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['of']">
 			      <rdg wit="f1818">of </rdg>
@@ -1819,12 +1823,12 @@
 			      <rdg wit="f1823">the air we breathe. </rdg>
 			      <rdg wit="fThomas">the air we breathe. </rdg>
 			      <rdg wit="f1831">the air we breathe. </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; the air we breathe. </rdg>
+			      <rdg wit="fMS">the air we breathe. </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;new&lt;del&gt;', 'they', 'have']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;del rend="strikethrough" sID="c56-0028__main__d2e5524"/&gt;New&lt;del eID="c56-0028__main__d2e5524"/&gt; They have </rdg>
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0028__main__d2e5524"/&gt;New&lt;del eID="c56-0028__main__d2e5524"/&gt; They have </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['they', 'have']">
 			      <rdg wit="f1818">They have </rdg>
@@ -1835,7 +1839,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;acquired']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0028__main__5"/&gt; "acquired </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0028__main__5"/&gt; "acquired </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['acquired']">
 			      <rdg wit="f1818">acquired </rdg>
@@ -1850,7 +1854,7 @@
 			      <rdg wit="f1823">new and almost unlimited </rdg>
 			      <rdg wit="fThomas">new and almost unlimited </rdg>
 			      <rdg wit="f1831">new and almost unlimited </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; new and almost unlimi&lt;lb n="c56-0028__main__6"/&gt;ted </rdg>
+			      <rdg wit="fMS">new and almost unlimi&lt;lb n="c56-0028__main__6"/&gt;ted </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1861,7 +1865,7 @@
 			      <rdg wit="f1831">powers; </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['powers;–']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; powers&lt;mdel&gt;,&lt;/mdel&gt;;– </rdg>
+			      <rdg wit="fMS">powers&lt;mdel&gt;,&lt;/mdel&gt;;– </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1870,12 +1874,12 @@
 			      <rdg wit="f1823">they can command the </rdg>
 			      <rdg wit="fThomas">they can command the </rdg>
 			      <rdg wit="f1831">they can command the </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; They can command the </rdg>
+			      <rdg wit="fMS">They can command the </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;thunders']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0028__main__7"/&gt; "thunders </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0028__main__7"/&gt; "thunders </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['thunders']">
 			      <rdg wit="f1818">thunders </rdg>
@@ -1890,7 +1894,7 @@
 			      <rdg wit="f1823">of heaven, </rdg>
 			      <rdg wit="fThomas">of heaven, </rdg>
 			      <rdg wit="f1831">of heaven, </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; of heaven, </rdg>
+			      <rdg wit="fMS">of heaven, </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1901,7 +1905,7 @@
 			      <rdg wit="f1831">mimic </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['mimick']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; mimick </rdg>
+			      <rdg wit="fMS">mimick </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1910,12 +1914,12 @@
 			      <rdg wit="f1823">the </rdg>
 			      <rdg wit="fThomas">the </rdg>
 			      <rdg wit="f1831">the </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; the </rdg>
+			      <rdg wit="fMS">the </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;earthquake,']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0028__main__8"/&gt; "earthquake, </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0028__main__8"/&gt; "earthquake, </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['earthquake,']">
 			      <rdg wit="f1818">earthquake, </rdg>
@@ -1930,12 +1934,12 @@
 			      <rdg wit="f1823">and even mock the </rdg>
 			      <rdg wit="fThomas">and even mock the </rdg>
 			      <rdg wit="f1831">and even mock the </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; and even mock the </rdg>
+			      <rdg wit="fMS">and even mock the </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['', '&#34;invisible']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0028__main__9"/&gt; "invisible </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0028__main__9"/&gt; "invisible </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['invisible']">
 			      <rdg wit="f1818">invisible </rdg>
@@ -1950,12 +1954,12 @@
 			      <rdg wit="f1823">world with its own </rdg>
 			      <rdg wit="fThomas">world with its own </rdg>
 			      <rdg wit="f1831">world with its own </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; world with its own </rdg>
+			      <rdg wit="fMS">world with its own </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app><!--2018-10-04 ebb: Note: I moved the tei paragraph tag in the fMS witness to C08h to align the next app. It's applicable here, too. -->
 		    <rdgGrp n="['', '&#34;shadows.&#34;&lt;p/&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0027__main__14"/&gt; &lt;lb n="c56-0028__main__10"/&gt; "shadows." </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0028__main__10"/&gt; "shadows." </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['shadows.&#34;&lt;p/&gt;']">
 			      <rdg wit="f1818">shadows.”&lt;p eID="novel1_letter4_chapter2_div4_div2_p14"/&gt; </rdg>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	  <app>
 		    <rdgGrp n="['never']">
@@ -87,7 +88,7 @@
 	  </app>
 	  <app>
 		    <rdgGrp n="['others']">
-			      <rdg wit="fMS">&lt;lb n="c56-0020__main__27"/&gt; others </rdg>
+			      <rdg wit="fMS">others </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['others,']">
 			      <rdg wit="f1818">others, </rdg>
@@ -100,12 +101,12 @@
 			      <rdg wit="f1818">entirely forgetful of </rdg>
 			      <rdg wit="f1823">entirely forgetful of </rdg>
 			      <rdg wit="fThomas">entirely forgetful of </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0020__main__27"/&gt; entirely forgetful&lt;lb n="c56-0021__main__1"/&gt; of </rdg>
+			      <rdg wit="fMS">entirely forgetful&lt;lb n="c56-0021__main__1"/&gt; of </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;hels&lt;del&gt;', 'herself.&lt;p/&gt;', 'the']">
-			      <rdg wit="fMS">&lt;lb n="c56-0020__main__27"/&gt; &lt;del rend="strikethrough" sID="c56-0021__main__d2e4010"/&gt;hels&lt;del eID="c56-0021__main__d2e4010"/&gt; herself.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0021__main__2"/&gt; The </rdg>
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0021__main__d2e4010"/&gt;hels&lt;del eID="c56-0021__main__d2e4010"/&gt; herself.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0021__main__2"/&gt; The </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['herself.&lt;p/&gt;&lt;p/&gt;the']">
 			      <rdg wit="f1818">herself.&lt;p eID="novel1_letter4_chapter2_div4_div2_p3"/&gt;&lt;p sID="novel1_letter4_chapter2_div4_div2_p4"/&gt;The </rdg>
@@ -119,12 +120,12 @@
 			      <rdg wit="f1823">day of my departure at </rdg>
 			      <rdg wit="fThomas">day of my departure at </rdg>
 			      <rdg wit="f1831">day of my departure at </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0020__main__27"/&gt; day of my departure at </rdg>
+			      <rdg wit="fMS">day of my departure at </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['lenghth', '', 'arrived', '–']">
-			      <rdg wit="fMS">&lt;lb n="c56-0020__main__27"/&gt; lenghth &lt;lb n="c56-0021__main__3"/&gt; arrived – </rdg>
+			      <rdg wit="fMS">lenghth &lt;lb n="c56-0021__main__3"/&gt; arrived – </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['length', 'arrived.']">
 			      <rdg wit="f1818">length arrived. </rdg>
