@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['']">
+			      <rdg wit="f1831"> </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['and', 'sunk']">
+			      <rdg wit="f1818">and sunk </rdg>
+			      <rdg wit="f1823">and sunk </rdg>
+			      <rdg wit="fThomas">and sunk </rdg>
+			      <rdg wit="fMS">&amp; sunk </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-01 11:48:33.219770 -->

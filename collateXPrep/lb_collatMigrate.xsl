@@ -4,7 +4,7 @@
     exclude-result-prefixes="xs"
     version="3.0">
     <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:variable name="collationFiles" as="document-node()+" select="collection('Full_Part10_xmlOutput/')"/>
+    <xsl:variable name="collationFiles" as="document-node()+" select="collection('Full_Part3.2_xmlOutput/old/?select=*.xml')"/>
     <xsl:template match="/">
         <xsl:for-each select="$collationFiles">
             <xsl:variable name="filePath" as="xs:string" select="tokenize(base-uri(.), '\.xml')[1]"/>
@@ -15,10 +15,10 @@
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="app[rdgGrp/@n='['''']'][count(rdgGrp) eq 1][descendant::rdg[@wit='fMS']]"/>
-    <xsl:template match="rdg[@wit='fMS'][ancestor::app[not(rdgGrp/@n='['''']')][preceding-sibling::app[rdgGrp/@n='['''']'][descendant::rdg[@wit='fMS']][count(rdgGrp) eq 1]]]">
+    <xsl:template match="rdg[@wit='fMS'][ancestor::app[not(rdgGrp/@n='['''']')][preceding-sibling::app[1][rdgGrp/@n='['''']'][descendant::rdg[@wit='fMS']][count(rdgGrp) eq 1]]]">
         
        <rdg wit="fMS"> 
-           <xsl:value-of select="ancestor::app/preceding-sibling::app[rdgGrp/@n='['''']'][count(rdgGrp) eq 1][descendant::rdg[@wit='fMS']][1]//rdg[@wit='fMS']"/>  
+           <xsl:value-of select="ancestor::app/preceding-sibling::app[1][rdgGrp/@n='['''']'][count(rdgGrp) eq 1][descendant::rdg[@wit='fMS']]//rdg[@wit='fMS']"/>  
        <xsl:apply-templates/> 
        </rdg>
     </xsl:template>   
