@@ -9,7 +9,7 @@
         </sch:rule>
     </sch:pattern>
     <sch:pattern>
-        <sch:rule context="app[count(rdgGrp) eq 1][count(descendant::rdg) eq 1][not(starts-with(descendant::rdg, '&lt;lb'))]">
+        <sch:rule context="app[count(rdgGrp) eq 1][count(descendant::rdg) eq 1]">
             <sch:report test="count(preceding-sibling::app[1]/rdgGrp) eq 1 or count(following-sibling::app[1]/rdgGrp) eq 1 or last()" role="warning">Here is a "singleton" app that may be best merged in with the preceding or following "unison" app as part of a new rdgGrp. 
             </sch:report>
         </sch:rule>

@@ -2689,40 +2689,24 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['&lt;del&gt;th&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0008__main__3"/&gt; &lt;lb n="c56-0008__main__6"/&gt;&lt;del rend="strikethrough" sID="c56-0008__main__d2e1667"/&gt;th&lt;del eID="c56-0008__main__d2e1667"/&gt; </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
+	  	<rdgGrp n="['&lt;del&gt;th&lt;del&gt;', 'and', 'mistake,', 'than', 'to', 'a', 'want', 'of', 'skill', 'or', 'fidelity', 'in']">
+	  		<rdg wit="fMS">&lt;lb n="c56-0008__main__3"/&gt; &lt;lb n="c56-0008__main__6"/&gt;&lt;del rend="strikethrough" sID="c56-0008__main__d2e1667"/&gt;th&lt;del eID="c56-0008__main__d2e1667"/&gt; &lt;lb n="c56-0008__main__3"/&gt; and mistake, than &lt;metamark function="insert"&gt;^&lt;/metamark&gt;to a want of skill &lt;metamark function="insert"&gt;^&lt;/metamark&gt;or fidelity in </rdg>
+	  	</rdgGrp>
 		    <rdgGrp n="['and', 'mistake,', 'than', 'to', 'a', 'want', 'of', 'skill', 'or', 'fidelity', 'in']">
 			      <rdg wit="f1818">and mistake, than to a want of skill or fidelity in </rdg>
 			      <rdg wit="f1823">and mistake, than to a want of skill or fidelity in </rdg>
 			      <rdg wit="fThomas">and mistake, than to a want of skill or fidelity in </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0008__main__3"/&gt; and mistake, than &lt;metamark function="insert"&gt;^&lt;/metamark&gt;to a want of skill &lt;metamark function="insert"&gt;^&lt;/metamark&gt;or fidelity in </rdg>
 			      <rdg wit="f1831">and mistake, than to a want of skill or fidelity in </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['', 'my', 'instructors.&lt;p/&gt;&lt;del&gt;when', 'i', 'was', 'about', 'fifteen']">
-			      <rdg wit="fMS">&lt;lb n="c56-0008__main__3"/&gt; &lt;lb n="c56-0008__main__7"/&gt; my instructors.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0008__main__8"/&gt;&lt;del rend="strikethrough" sID="c56-0008__main__d2e1704"/&gt;When I was about fifteen </rdg>
+	  	<rdgGrp n="['my', 'instructors.&lt;p/&gt;&lt;del&gt;when', 'i', 'was', 'about', 'fifteen', 'my', 'f&lt;del&gt;&lt;p/&gt;', 'the']">
+	  		<rdg wit="fMS">&lt;lb n="c56-0008__main__3"/&gt; &lt;lb n="c56-0008__main__7"/&gt; my instructors.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0008__main__8"/&gt;&lt;del rend="strikethrough" sID="c56-0008__main__d2e1704"/&gt;When I was about fifteen &lt;lb n="c56-0008__main__3"/&gt; f&lt;del eID="c56-0008__main__d2e1704"/&gt;&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0008__main__9"/&gt; The </rdg>
 		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['my']">
-			      <rdg wit="f1818">my </rdg>
-			      <rdg wit="f1823">my </rdg>
-			      <rdg wit="fThomas">my </rdg>
-			      <rdg wit="fMS">&lt;lb n="c56-0008__main__3"/&gt; my </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['f&lt;del&gt;&lt;p/&gt;', 'the']">
-			      <rdg wit="fMS">&lt;lb n="c56-0008__main__3"/&gt; f&lt;del eID="c56-0008__main__d2e1704"/&gt;&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0008__main__9"/&gt; The </rdg>
-		    </rdgGrp>
-		    <rdgGrp n="['instructors.&lt;p/&gt;&lt;p/&gt;the']">
-			      <rdg wit="f1818">instructors.&lt;p eID="novel1_letter4_chapter1_div4_div1_p19"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p20"/&gt;The </rdg>
-			      <rdg wit="f1823">instructors.&lt;p eID="novel1_letter4_chapter1_div4_div1_p19"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p20"/&gt;The </rdg>
-			      <rdg wit="fThomas">instructors.&lt;p eID="novel1_letter4_chapter1_div4_div1_p19"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p20"/&gt;The </rdg>
+	  	<rdgGrp n="['my', 'instructors.&lt;p/&gt;&lt;p/&gt;the']">
+	  		<rdg wit="f1818">my instructors.&lt;p eID="novel1_letter4_chapter1_div4_div1_p19"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p20"/&gt;The </rdg>
+	  		<rdg wit="f1823">my instructors.&lt;p eID="novel1_letter4_chapter1_div4_div1_p19"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p20"/&gt;The </rdg>
+	  		<rdg wit="fThomas">my instructors.&lt;p eID="novel1_letter4_chapter1_div4_div1_p19"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p20"/&gt;The </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
