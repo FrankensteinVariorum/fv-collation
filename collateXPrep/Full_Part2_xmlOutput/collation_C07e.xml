@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	  <app>
 		    <rdgGrp n="['&lt;p/&gt;&lt;del&gt;when', 'i&lt;del&gt;&lt;del&gt;i', 'had&lt;del&gt;', 'my']">
@@ -157,16 +156,13 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['&lt;del&gt;an&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0011__main__21"/&gt;&lt;del instant="true" rend="strikethrough" sID="c56-0011__main__d2e323"/&gt;an&lt;del eID="c56-0011__main__d2e323"/&gt; </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
+	      <rdgGrp n="['&lt;del&gt;an&lt;del&gt;' 'of']">
+	          <rdg wit="fMS">&lt;lb n="c56-0011__main__21"/&gt;&lt;del instant="true" rend="strikethrough" sID="c56-0011__main__d2e323"/&gt;an&lt;del eID="c56-0011__main__d2e323"/&gt; of </rdg>
+	      </rdgGrp>
 		    <rdgGrp n="['of']">
 			      <rdg wit="f1818">of </rdg>
 			      <rdg wit="f1823">of </rdg>
 			      <rdg wit="fThomas">of </rdg>
-			      <rdg wit="fMS">of </rdg>
 			      <rdg wit="f1831">of </rdg>
 		    </rdgGrp>
 	  </app>
@@ -232,16 +228,13 @@
 			      <rdg wit="f1818">and fancy. </rdg>
 			      <rdg wit="f1823">and fancy. </rdg>
 			      <rdg wit="fThomas">and fancy. </rdg>
-			      <rdg wit="f1831">and fancy. </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['and&lt;del&gt;fancy&lt;del&gt;', 'fancy']">
 			      <rdg wit="fMS">&amp;&lt;del instant="true" rend="strikethrough" sID="c56-0011__main__d2e341"/&gt;fancy&lt;del eID="c56-0011__main__d2e341"/&gt; fancy </rdg>
 		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['he', 'loved', 'enterprise,', 'hardship,' 'even', 'danger,', 'for', 'its', 'own', 'sake.']">
-			      <rdg wit="f1831">He loved enterprise, hardship, even danger, for its own sake. </rdg>
-		    </rdgGrp>	
+	      <rdgGrp n="['and', 'fancy.', 'he', 'loved', 'enterprise,', 'hardship,' 'even', 'danger,', 'for', 'its', 'own', 'sake.']">
+	          <rdg wit="f1831">and fancy. He loved enterprise, hardship, even danger, for its own sake. </rdg>
+	      </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['&lt;del&gt;i', 'remember,', '&lt;del&gt;when']">
@@ -333,7 +326,6 @@
 			      <rdg wit="f1823">and </rdg>
 			      <rdg wit="fThomas">and </rdg>
 			      <rdg wit="fMS">and </rdg>
-			      <rdg wit="f1831">and </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -603,19 +595,16 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['&lt;del&gt;and', 'our', 'stud&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0012__main__3"/&gt;&lt;del rend="strikethrough" sID="c56-0012__main__d2e440"/&gt;and our stud&lt;del eID="c56-0012__main__d2e440"/&gt; </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
+	      <rdgGrp n="['&lt;del&gt;and', 'our', 'stud&lt;del&gt;', 'our', 'studies', 'were', 'never']">
+	          <rdg wit="fMS">&lt;lb n="c56-0012__main__3"/&gt;&lt;del rend="strikethrough" sID="c56-0012__main__d2e440"/&gt;and our stud&lt;del eID="c56-0012__main__d2e440"/&gt; Our studies were never </rdg>
+	      </rdgGrp>
 		    <rdgGrp n="['our', 'studies', 'were', 'never']">
 			      <rdg wit="f1818">Our studies were never </rdg>
 			      <rdg wit="f1823">Our studies were never </rdg>
-			      <rdg wit="fMS">Our studies were never </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['', 'forced,']">
+		    <rdgGrp n="['forced,']">
 			      <rdg wit="fMS">&lt;lb n="c56-0012__main__4"/&gt; forced, </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['forced;']">
