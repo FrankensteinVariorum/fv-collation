@@ -4,11 +4,12 @@
     exclude-result-prefixes="xs"
     version="3.0">
     <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:variable name="collationFiles" as="document-node()+" select="collection('Full_Part3.2_xmlOutput/old/?select=*.xml')"/>
+    <xsl:variable name="collationFiles" as="document-node()+" select="collection('Full_Part2_xmlOutput/old/?select=*.xml')"/>
     <xsl:template match="/">
         <xsl:for-each select="$collationFiles">
-            <xsl:variable name="filePath" as="xs:string" select="tokenize(base-uri(.), '\.xml')[1]"/>
-            <xsl:result-document href="{$filePath}_new.xml" method="xml" indent="yes">
+            <xsl:variable name="filePath" as="xs:string" select="tokenize(base-uri(.), '/old/')[1]"/>
+            <xsl:variable name="fileName" as="xs:string" select="tokenize(base-uri(.), '/')[last()] ! substring-before(., '.xml')"/>
+            <xsl:result-document href="{$filePath}/{$fileName}_new.xml" method="xml" indent="yes">
                 <xsl:processing-instruction name="xml-model">href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
                 <xsl:apply-templates/>
             </xsl:result-document>
