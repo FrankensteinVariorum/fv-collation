@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	  <app>
 		    <rdgGrp n="['I', 'expressed', 'myself', 'in', 'measured', 'terms,', 'with', 'the', 'modesty', 'and', 'deference', 'due', 'from', 'a', 'youth', 'to', 'his', 'instructor,', 'without', 'letting', 'escape', '(inexperience', 'in', 'life', 'would', 'have', 'made', 'me', 'ashamed)', 'any', 'of', 'the', 'enthusiasm', 'which', 'stimulated', 'my', 'intended', 'labours.']">
@@ -183,17 +182,14 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['', '&#34;&lt;del&gt;appil&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0029__main__3"/&gt; "&lt;del rend="strikethrough" sID="c56-0029__main__d2e5865"/&gt;appil&lt;del eID="c56-0029__main__d2e5865"/&gt; </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
+	      <rdgGrp n="['&#34;&lt;del&gt;appil&lt;del&gt;', 'application', 'equals', 'your']">
+	          <rdg wit="fMS">&lt;lb n="c56-0029__main__3"/&gt; "&lt;del rend="strikethrough" sID="c56-0029__main__d2e5865"/&gt;appil&lt;del eID="c56-0029__main__d2e5865"/&gt; application equals your </rdg>
+	      </rdgGrp>
 		    <rdgGrp n="['application', 'equals', 'your']">
 			      <rdg wit="f1818">application equals your </rdg>
 			      <rdg wit="f1823">application equals your </rdg>
 			      <rdg wit="fThomas">application equals your </rdg>
 			      <rdg wit="f1831">application equals your </rdg>
-			      <rdg wit="fMS">application equals your </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -799,13 +795,10 @@
 			      <rdg wit="f1823">and promising me </rdg>
 			      <rdg wit="fThomas">and promising me </rdg>
 			      <rdg wit="f1831">and promising me </rdg>
-			      <rdg wit="fMS">and promising me </rdg>
 		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['&lt;del&gt;a', 'lone&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0029__main__30"/&gt;&lt;del rend="strikethrough" sID="c56-0029__main__d2e6050"/&gt;a lone&lt;del eID="c56-0029__main__d2e6050"/&gt; </rdg>
-		    </rdgGrp>
+	      <rdgGrp n="['and', 'promising', 'me', '&lt;del&gt;a', 'lone&lt;del&gt;']">
+	          <rdg wit="fMS">and promising me &lt;lb n="c56-0029__main__30"/&gt;&lt;del rend="strikethrough" sID="c56-0029__main__d2e6050"/&gt;a lone&lt;del eID="c56-0029__main__d2e6050"/&gt; </rdg>
+	      </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['the', 'use', 'of', 'his']">

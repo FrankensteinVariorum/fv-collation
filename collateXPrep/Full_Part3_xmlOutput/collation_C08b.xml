@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	  <app>
 		    <rdgGrp n="['It', 'appeared', 'to', 'me', 'sacrilege', 'so', 'soon', 'to', 'leave', 'the', 'repose,', 'akin', 'to', 'death,', 'of', 'the', 'house', 'of', 'mourning,', 'and', 'to', 'rush', 'into', 'the', 'thick', 'of', 'life.', 'I', 'was', 'new', 'to', 'sorrow,', 'but', 'it', 'did', 'not', 'the', 'less', 'alarm', 'me.', 'I', 'was', 'unwilling', 'to', 'quit', 'the', 'sight', 'of', 'those', 'that', 'remained', 'to', 'me;', 'and,', 'above', 'all,', 'I', 'desired', 'to', 'see', 'my', 'sweet', 'Elizabeth', 'in', 'some', 'degree', 'consoled.&lt;p/&gt;', '&lt;p/&gt;She', 'indeed', 'veiled', 'her', 'grief,', 'and', 'strove', 'to', 'act', 'the', 'comforter', 'to', 'us', 'all.', 'She', 'looked', 'steadily', 'on', 'life,', 'and', 'assumed', 'its', 'duties', 'with', 'courage', 'and', 'zeal.', 'She', 'devoted', 'herself', 'to', 'those', 'whom', 'she', 'had', 'been', 'taught', 'to', 'call', 'her', 'uncle', 'and', 'cousins.']">
@@ -302,16 +301,13 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['&lt;del&gt;and&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0020__main__22"/&gt;&lt;del rend="strikethrough" sID="c56-0020__main__d2e3954"/&gt;and&lt;del eID="c56-0020__main__d2e3954"/&gt; </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
+	      <rdgGrp n="['&lt;del&gt;and&lt;del&gt;', 'instructed', 'my']">
+	          <rdg wit="fMS">&lt;lb n="c56-0020__main__22"/&gt;&lt;del rend="strikethrough" sID="c56-0020__main__d2e3954"/&gt;and&lt;del eID="c56-0020__main__d2e3954"/&gt; instructed my </rdg>
+	      </rdgGrp>
 		    <rdgGrp n="['instructed', 'my']">
 			      <rdg wit="f1818">instructed my </rdg>
 			      <rdg wit="f1823">instructed my </rdg>
 			      <rdg wit="fThomas">instructed my </rdg>
-			      <rdg wit="fMS">instructed my </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>

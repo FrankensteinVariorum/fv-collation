@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	  <app>
 		    <rdgGrp n="['&lt;p/&gt;', 'i']">
@@ -294,17 +293,14 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['', 'an']">
-			      <rdg wit="fMS">&lt;lb n="c56-0022__main__13"/&gt; an </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
+	      <rdgGrp n="['an', 'invincible', 'repugnance', 'to', 'new']">
+	          <rdg wit="fMS">&lt;lb n="c56-0022__main__13"/&gt; an invincible repugnance to new </rdg>
+	      </rdgGrp>
 		    <rdgGrp n="['invincible', 'repugnance', 'to', 'new']">
 			      <rdg wit="f1818">invincible repugnance to new </rdg>
 			      <rdg wit="f1823">invincible repugnance to new </rdg>
 			      <rdg wit="fThomas">invincible repugnance to new </rdg>
 			      <rdg wit="f1831">invincible repugnance to new </rdg>
-			      <rdg wit="fMS">invincible repugnance to new </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1604,17 +1600,14 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['', '&#34;&lt;del&gt;your&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0025__main__3"/&gt; "&lt;del rend="strikethrough" sID="c56-0025__main__d2e4780"/&gt;your&lt;del eID="c56-0025__main__d2e4780"/&gt; </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
+	      <rdgGrp n="['', '&#34;&lt;del&gt;your&lt;del&gt;', they are ]">
+	          <rdg wit="fMS">&lt;lb n="c56-0025__main__3"/&gt; "&lt;del rend="strikethrough" sID="c56-0025__main__d2e4780"/&gt;your&lt;del eID="c56-0025__main__d2e4780"/&gt; they are </rdg>
+	      </rdgGrp>
 		    <rdgGrp n="['they', 'are']">
 			      <rdg wit="f1818">they are </rdg>
 			      <rdg wit="f1823">they are </rdg>
 			      <rdg wit="fThomas">they are </rdg>
 			      <rdg wit="f1831">they are </rdg>
-			      <rdg wit="fMS">they are </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1780,17 +1773,14 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['&lt;del&gt;wh&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;lb n="c56-0025__main__9"/&gt;&lt;del rend="strikethrough" sID="c56-0025__main__d2e4814"/&gt;wh&lt;del eID="c56-0025__main__d2e4814"/&gt; </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
+	      <rdgGrp n="['&lt;del&gt;wh&lt;del&gt;', 'wrote', 'down', 'a', 'list', 'of', 'several']">
+	          <rdg wit="fMS">&lt;lb n="c56-0025__main__9"/&gt;&lt;del rend="strikethrough" sID="c56-0025__main__d2e4814"/&gt;wh&lt;del eID="c56-0025__main__d2e4814"/&gt; wrote down a list of several </rdg>
+	      </rdgGrp>
 		    <rdgGrp n="['wrote', 'down', 'a', 'list', 'of', 'several']">
 			      <rdg wit="f1818">wrote down a list of several </rdg>
 			      <rdg wit="f1823">wrote down a list of several </rdg>
 			      <rdg wit="fThomas">wrote down a list of several </rdg>
 			      <rdg wit="f1831">wrote down a list of several </rdg>
-			      <rdg wit="fMS">wrote down a list of several </rdg>
 		    </rdgGrp>
 	  </app>
 	
