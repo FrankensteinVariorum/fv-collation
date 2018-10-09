@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['']">
+			      <rdg wit="f1831"> </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['well', '&amp;', 'hearty', 'if', 'I', '&lt;del&gt;y&lt;del&gt;', 'may', 'use', 'that', 'term', 'for', 'it', 'is', 'very', 'expressive.']">
+			      <rdg wit="fMS">well &amp; &lt;shi rend="underline"&gt;hearty&lt;/shi&gt; &lt;lb n="c56-0059__main__3"/&gt; if I &lt;del rend="strikethrough" sID="c56-0059__main__d2e12273"/&gt;y&lt;del eID="c56-0059__main__d2e12273"/&gt; may use that term for it is &lt;lb n="c56-0059__main__4"/&gt; very expressive. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['robust', 'and', 'active.&lt;p/&gt;']">
+			      <rdg wit="f1818">robust and active.&lt;p eID="novel1_letter4_chapter5_div4_div5_p4"/&gt; </rdg>
+			      <rdg wit="f1823">robust and active.&lt;p eID="novel1_letter4_chapter5_div4_div5_p4"/&gt; </rdg>
+			      <rdg wit="fThomas">robust and active.&lt;p eID="novel1_letter4_chapter5_div4_div5_p3"/&gt; </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-06 00:40:30.463023 -->

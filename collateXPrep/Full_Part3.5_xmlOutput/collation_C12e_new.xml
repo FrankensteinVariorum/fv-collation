@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['idleness', 'had']">
+			      <rdg wit="f1818">idleness had </rdg>
+			      <rdg wit="f1823">idleness had </rdg>
+			      <rdg wit="fThomas">idleness had </rdg>
+			      <rdg wit="f1831">Idleness had </rdg>
+			      <rdg wit="fMS">idleness had </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['ever', 'been', 'irksome', 'to']">
+			      <rdg wit="f1818">ever been irksome to </rdg>
+			      <rdg wit="f1823">ever been irksome to </rdg>
+			      <rdg wit="fThomas">ever been irksome to </rdg>
+			      <rdg wit="f1831">ever been irksome to </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__9"/&gt; ever been irksome to </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['me']">
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__9"/&gt; me </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['me,']">
+			      <rdg wit="f1831">me, </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['me;']">
+			      <rdg wit="f1818">me; </rdg>
+			      <rdg wit="f1823">me; </rdg>
+			      <rdg wit="fThomas">me; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['and']">
+			      <rdg wit="f1818">and </rdg>
+			      <rdg wit="f1823">and </rdg>
+			      <rdg wit="fThomas">and </rdg>
+			      <rdg wit="f1831">and </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__9"/&gt; and </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['now', 'that', 'i']">
+			      <rdg wit="f1818">now that I </rdg>
+			      <rdg wit="f1823">now that I </rdg>
+			      <rdg wit="fThomas">now that I </rdg>
+			      <rdg wit="f1831">now that I </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; now that I </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['wished', 'to']">
+			      <rdg wit="f1823">wished to </rdg>
+			      <rdg wit="f1831">wished to </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; wished to </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['wishedto']">
+			      <rdg wit="f1818">wished&lt;pb n="129" xml:id="F1818_v1_141"/&gt;to </rdg>
+			      <rdg wit="fThomas">wished&lt;pb n="129" xml:id="F1818_v1_141"/&gt;to </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['fly', 'from']">
+			      <rdg wit="f1818">fly from </rdg>
+			      <rdg wit="f1823">fly from </rdg>
+			      <rdg wit="fThomas">fly from </rdg>
+			      <rdg wit="f1831">fly from </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; fly from </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['reflection']">
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; reflec&lt;lb n="c56-0069__main__11"/&gt;tion </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['reflection,']">
+			      <rdg wit="f1818">reflection, </rdg>
+			      <rdg wit="f1823">reflection, </rdg>
+			      <rdg wit="fThomas">reflection, </rdg>
+			      <rdg wit="f1831">reflection, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['and', 'hated', 'my', 'former']">
+			      <rdg wit="f1818">and hated my former </rdg>
+			      <rdg wit="f1823">and hated my for&lt;pb n="129" xml:id="F1823_v1_148"/&gt;mer </rdg>
+			      <rdg wit="fThomas">and hated my former </rdg>
+			      <rdg wit="f1831">and hated my former </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; and hated my former </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['studies', '&lt;del&gt;a&lt;del&gt;']">
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; studies &lt;lb n="c56-0069__main__12"/&gt;&lt;del rend="strikethrough" sID="c56-0069__main__d2e14525"/&gt;a&lt;del eID="c56-0069__main__d2e14525"/&gt; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['studies,']">
+			      <rdg wit="f1818">studies, </rdg>
+			      <rdg wit="f1823">studies, </rdg>
+			      <rdg wit="fThomas">studies, </rdg>
+			      <rdg wit="f1831">studies, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['i']">
+			      <rdg wit="f1818">I </rdg>
+			      <rdg wit="f1823">I </rdg>
+			      <rdg wit="fThomas">I </rdg>
+			      <rdg wit="f1831">I </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; I </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['felt']">
+			      <rdg wit="f1818">felt </rdg>
+			      <rdg wit="f1823">felt </rdg>
+			      <rdg wit="fThomas">felt </rdg>
+			      <rdg wit="f1831">felt </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['found']">
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; found </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['great', 'relief', 'in', 'being', 'the']">
+			      <rdg wit="f1818">great relief in being the </rdg>
+			      <rdg wit="f1823">great relief in being the </rdg>
+			      <rdg wit="fThomas">great relief in being the </rdg>
+			      <rdg wit="f1831">great relief in being the </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; great relief in being the </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'fellow', 'pupil']">
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; &lt;lb n="c56-0069__main__13"/&gt; fellow pupil </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['fellow-pupil']">
+			      <rdg wit="f1818">fellow-pupil </rdg>
+			      <rdg wit="f1823">fellow-pupil </rdg>
+			      <rdg wit="fThomas">fellow-pupil </rdg>
+			      <rdg wit="f1831">fellow-pupil </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['with', 'my']">
+			      <rdg wit="f1818">with my </rdg>
+			      <rdg wit="f1823">with my </rdg>
+			      <rdg wit="fThomas">with my </rdg>
+			      <rdg wit="f1831">with my </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; &lt;mdel&gt;of&lt;/mdel&gt;with my </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;del&gt;fr&lt;del&gt;', 'friend']">
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; &lt;del rend="strikethrough" sID="c56-0069__main__d2e14542"/&gt;fr&lt;del eID="c56-0069__main__d2e14542"/&gt; friend </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['friend,']">
+			      <rdg wit="f1818">friend, </rdg>
+			      <rdg wit="f1823">friend, </rdg>
+			      <rdg wit="fThomas">friend, </rdg>
+			      <rdg wit="f1831">friend, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['and']">
+			      <rdg wit="f1818">and </rdg>
+			      <rdg wit="f1823">and </rdg>
+			      <rdg wit="fThomas">and </rdg>
+			      <rdg wit="f1831">and </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; and </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;del&gt;i']">
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; &lt;lb n="c56-0069__main__14"/&gt;&lt;del rend="strikethrough" sID="c56-0069__main__d2e14548"/&gt;I </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['found']">
+			      <rdg wit="f1818">found </rdg>
+			      <rdg wit="f1823">found </rdg>
+			      <rdg wit="fThomas">found </rdg>
+			      <rdg wit="f1831">found </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['not']">
+			      <rdg wit="f1818">not </rdg>
+			      <rdg wit="f1823">not </rdg>
+			      <rdg wit="fThomas">not </rdg>
+			      <rdg wit="f1831">not </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; not </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['a', 'only&lt;del&gt;', 'found', '&lt;del&gt;instruct&lt;del&gt;not', 'onlyinstruction']">
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; a only&lt;del eID="c56-0069__main__d2e14548"/&gt; found &lt;del rend="strikethrough" sID="c56-0069__main__d2e14553"/&gt;instruct&lt;del eID="c56-0069__main__d2e14553"/&gt;not onlyinstruc&lt;lb n="c56-0069__main__15"/&gt;tion </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['only', 'instruction']">
+			      <rdg wit="f1818">only instruction </rdg>
+			      <rdg wit="f1823">only instruction </rdg>
+			      <rdg wit="fThomas">only instruction </rdg>
+			      <rdg wit="f1831">only instruction </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['but', 'consolation', 'in', 'the', 'works', 'of', 'the', 'orientalists.', 'I', 'did', 'not,', 'like', 'him,', 'attempt', 'a', 'critical', 'knowledge', 'of', 'their', 'dialects,', 'for', 'I', 'did', 'not', 'contemplate', 'making', 'any', 'other', 'use', 'of', 'them', 'than', 'temporary', 'amusement.', 'I', 'read', 'merely', 'to', 'understand', 'their', 'meaning,', 'and', 'they', 'well', 'repaid', 'my', 'labours.']">
+			      <rdg wit="f1831">but consolation in the works of the orientalists. I did not, like him, attempt a critical knowledge of their dialects, for I did not contemplate making any other use of them than temporary amusement. I read merely to understand their meaning, and they well repaid my labours. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['but', 'consolation', 'in', 'the', 'works', 'of', 'the', 'orientalists.']">
+			      <rdg wit="f1818">but consolation in the works of the orientalists. </rdg>
+			      <rdg wit="f1823">but consolation in the works of the orientalists. </rdg>
+			      <rdg wit="fThomas">but consolation in the works of the orientalists. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['but', 'consolation', 'in', 'the', 'works', 'of', 'the', 'orientalists.', '&lt;del&gt;There', 'is', 'something', 'soothing&lt;del&gt;']">
+			      <rdg wit="fMS">&lt;lb n="c56-0069__main__10"/&gt; but consolation in the works of &lt;lb n="c56-0069__main__16"/&gt; the orientalists. &lt;del rend="strikethrough" sID="c56-0069__main__d2e14569"/&gt;There is something soothing&lt;del eID="c56-0069__main__d2e14569"/&gt; </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-06 00:40:30.463023 -->

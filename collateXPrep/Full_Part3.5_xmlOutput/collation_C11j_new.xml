@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['']">
+			      <rdg wit="f1831"> </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['&lt;p/&gt;&#34;my']">
+			      <rdg wit="f1818">&lt;p sID="novel1_letter4_chapter5_div4_div5_p5"/&gt;&lt;pb n="116" xml:id="F1818_v1_128"/&gt;“My </rdg>
+			      <rdg wit="f1823">&lt;p sID="novel1_letter4_chapter5_div4_div5_p5"/&gt;&lt;pb n="116" xml:id="F1823_v1_135"/&gt;“My </rdg>
+			      <rdg wit="fThomas">&lt;p sID="novel1_letter4_chapter5_div4_div5_p4"/&gt;&lt;pb n="116" xml:id="F1818_v1_128"/&gt;“My </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['&lt;p/&gt;', '&#34;my']">
+			      <rdg wit="fMS">&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0059__main__5"/&gt; "My </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['uncle', 'and', 'i', 'conversed']">
+			      <rdg wit="f1818">uncle and I conversed </rdg>
+			      <rdg wit="f1823">uncle and I conversed </rdg>
+			      <rdg wit="fThomas">uncle and I conversed </rdg>
+			      <rdg wit="fMS">uncle and I conversed </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;del&gt;the&lt;del&gt;', 'last', 'night']">
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0059__main__d2e12283"/&gt;the&lt;del eID="c56-0059__main__d2e12283"/&gt;&lt;lb n="c56-0059__main__6"/&gt; last night </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['a', 'long', 'time']">
+			      <rdg wit="f1818">a long time </rdg>
+			      <rdg wit="f1823">a long time </rdg>
+			      <rdg wit="fThomas">a long time </rdg>
+			      <rdg wit="fMS">a long time </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['last', 'night']">
+			      <rdg wit="f1818">last night </rdg>
+			      <rdg wit="f1823">last night </rdg>
+			      <rdg wit="fThomas">last night </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['about', 'what']">
+			      <rdg wit="f1818">about what </rdg>
+			      <rdg wit="f1823">about what </rdg>
+			      <rdg wit="fThomas">about what </rdg>
+			      <rdg wit="fMS">about what </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'professionernest', '&lt;del&gt;&lt;shi rend=&#34;underline&#34;&gt;should', 'be&lt;/shi&gt;&lt;del&gt;should']">
+			      <rdg wit="fMS">&lt;lb n="c56-0059__main__7"/&gt;&lt;lb n="c56-0059__left_margin__1"/&gt; professionErnest &lt;del rend="strikethrough" sID="c56-0059__main__d2e12303"/&gt;&lt;shi rend="underline"&gt;should be&lt;/shi&gt;&lt;del eID="c56-0059__main__d2e12303"/&gt;should </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['profession', 'ernest', 'should']">
+			      <rdg wit="f1818">profession Ernest should </rdg>
+			      <rdg wit="f1823">profession Ernest should </rdg>
+			      <rdg wit="fThomas">profession Ernest should </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['follow.', 'his', 'constant']">
+			      <rdg wit="f1818">follow. His constant </rdg>
+			      <rdg wit="f1823">follow. His constant </rdg>
+			      <rdg wit="fThomas">follow. His constant </rdg>
+			      <rdg wit="fMS">follow. His constant </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'ill', 'health']">
+			      <rdg wit="fMS">&lt;lb n="c56-0059__main__8"/&gt; ill health </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['illness']">
+			      <rdg wit="f1818">illness </rdg>
+			      <rdg wit="f1823">illness </rdg>
+			      <rdg wit="fThomas">illness </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['when', 'young', 'has', 'deprived']">
+			      <rdg wit="f1818">when young has deprived </rdg>
+			      <rdg wit="f1823">when young has deprived </rdg>
+			      <rdg wit="fThomas">when young has deprived </rdg>
+			      <rdg wit="fMS">when young has deprived </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'himof']">
+			      <rdg wit="fMS">&lt;lb n="c56-0059__main__9"/&gt;&lt;lb n="c56-0059__left_margin__1"/&gt; himof </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['him', 'of']">
+			      <rdg wit="f1818">him of </rdg>
+			      <rdg wit="f1823">him of </rdg>
+			      <rdg wit="fThomas">him of </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['the']">
+			      <rdg wit="f1818">the </rdg>
+			      <rdg wit="f1823">the </rdg>
+			      <rdg wit="fThomas">the </rdg>
+			      <rdg wit="fMS">the </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['habit']">
+			      <rdg wit="fMS">habit </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['habits']">
+			      <rdg wit="f1818">habits </rdg>
+			      <rdg wit="f1823">habits </rdg>
+			      <rdg wit="fThomas">habits </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['of']">
+			      <rdg wit="f1818">of </rdg>
+			      <rdg wit="f1823">of </rdg>
+			      <rdg wit="fThomas">of </rdg>
+			      <rdg wit="fMS">of </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['application']">
+			      <rdg wit="fMS">application </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['application;']">
+			      <rdg wit="f1818">application; </rdg>
+			      <rdg wit="f1823">application; </rdg>
+			      <rdg wit="fThomas">application; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['and', 'now']">
+			      <rdg wit="f1818">and now </rdg>
+			      <rdg wit="f1823">and now </rdg>
+			      <rdg wit="fThomas">and now </rdg>
+			      <rdg wit="fMS">and now </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['that', 'he', 'enjoys', 'good']">
+			      <rdg wit="f1818">that he enjoys good </rdg>
+			      <rdg wit="f1823">that he enjoys good </rdg>
+			      <rdg wit="fThomas">that he enjoys good </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0059__main__10"/&gt; that he enjoys good </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['health', '&lt;del&gt;we&lt;del&gt;']">
+			      <rdg wit="fMS">&lt;lb n="c56-0059__main__10"/&gt; health &lt;del rend="strikethrough" sID="c56-0059__main__d2e12330"/&gt;we&lt;del eID="c56-0059__main__d2e12330"/&gt; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['health,']">
+			      <rdg wit="f1818">health, </rdg>
+			      <rdg wit="f1823">health, </rdg>
+			      <rdg wit="fThomas">health, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['he']">
+			      <rdg wit="f1818">he </rdg>
+			      <rdg wit="f1823">he </rdg>
+			      <rdg wit="fThomas">he </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0059__main__10"/&gt; he </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['is', 'continually']">
+			      <rdg wit="f1818">is continually </rdg>
+			      <rdg wit="f1823">is continually </rdg>
+			      <rdg wit="fThomas">is continually </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0059__main__11"/&gt; is continually </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-06 00:40:30.463023 -->

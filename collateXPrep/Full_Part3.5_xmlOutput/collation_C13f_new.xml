@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['&lt;p/&gt;Tears,', 'unrestrained,', 'fell', 'from', 'my', 'brother’s', 'eyes;', 'a', 'sense', 'of', 'mortal', 'agony', 'crept', 'over', 'my', 'frame.', 'Before,', 'I', 'had', 'only', 'imagined', 'the', 'wretchedness', 'of', 'my', 'desolated', 'home;', 'the', 'reality', 'came', 'on', 'me', 'as', 'a', 'new,', 'and', 'a', 'not', 'less', 'terrible,', 'disaster.']">
+			      <rdg wit="f1831">&lt;p sID="novel1_letter4_chapter7_div4_div7_p35"/&gt;Tears, unrestrained, fell from my brother’s eyes; a sense of mortal agony crept over my frame. Before, I had only imagined the wretchedness of my desolated home; the reality came on me as a new, and a not less terrible, disaster. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['ernest', 'began', 'to', 'weep', 'as', 'he', 'said', 'these']">
+			      <rdg wit="f1818">Er&lt;pb n="153" xml:id="F1818_v1_165"/&gt;nest began to weep as he said these </rdg>
+			      <rdg wit="f1823">Ernest began to weep as he said these </rdg>
+			      <rdg wit="fThomas">Er&lt;pb n="153" xml:id="F1818_v1_165"/&gt;nest began to weep as he said these </rdg>
+			      <rdg wit="fMS">Ernest began &lt;lb n="c56-0086__main__9"/&gt; to weep as he said these </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['I', 'tried', 'to', 'calm', 'Ernest;', 'I', 'enquired', 'more', 'minutely', 'concerning', 'my', 'father,', 'and', 'her', 'I', 'named', 'my', 'cousin.&lt;p/&gt;']">
+			      <rdg wit="f1831">I tried to calm Ernest; I enquired more minutely concerning my father, and her I named my cousin.&lt;p eID="novel1_letter4_chapter7_div4_div7_p35"/&gt; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['words.&lt;p/&gt;', '&#34;do', 'not', 'you&#34;', 'said', 'i,&#34;', 'welcome', 'me', 'thus;', 'try']">
+			      <rdg wit="fMS">words.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0086__main__10"/&gt; "Do not &lt;metamark function="insert"&gt;^&lt;/metamark&gt;you" said I," welcome me thus; try </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['words.&lt;p/&gt;&lt;p/&gt;&#34;do', 'not,&#34;', 'said', 'i,', '&#34;welcome', 'me', 'thus;', 'try']">
+			      <rdg wit="f1818">words.&lt;p eID="novel1_letter4_chapter6_div4_div6_p34"/&gt;&lt;p sID="novel1_letter4_chapter6_div4_div6_p35"/&gt;“Do not,” said I, “welcome me thus; try </rdg>
+			      <rdg wit="f1823">words.&lt;p eID="novel1_letter4_chapter6_div4_div6_p34"/&gt;&lt;p sID="novel1_letter4_chapter6_div4_div6_p35"/&gt;“Do not,” said I, “welcome me thus; try </rdg>
+			      <rdg wit="fThomas">words.&lt;p eID="novel1_letter4_chapter6_div4_div6_p34"/&gt;&lt;p sID="novel1_letter4_chapter6_div4_div6_p35"/&gt;“Do not,” said I, “welcome me thus; try </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['to', 'be', 'more']">
+			      <rdg wit="f1818">to be more </rdg>
+			      <rdg wit="f1823">to be more </rdg>
+			      <rdg wit="fThomas">to be more </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0086__main__11"/&gt; to be more </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['calm', '&lt;del&gt;and&lt;del&gt;&lt;del&gt;not', 'letpreveng&lt;del&gt;&lt;del&gt;my', 'being&lt;del&gt;that']">
+			      <rdg wit="fMS">&lt;lb n="c56-0086__main__11"/&gt; calm &lt;del rend="strikethrough" sID="c56-0086__main__d2e18749"/&gt;and&lt;del eID="c56-0086__main__d2e18749"/&gt;&lt;del rend="strikethrough" sID="c56-0086__main__d2e18754"/&gt;not letpreveng&lt;del eID="c56-0086__main__d2e18754"/&gt;&lt;del rend="strikethrough" sID="c56-0086__main__d2e18761"/&gt;m&lt;mdel&gt;e&lt;/mdel&gt;y being&lt;del eID="c56-0086__main__d2e18761"/&gt;&lt;lb n="c56-0086__main__12"/&gt;that </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['calm,', 'that']">
+			      <rdg wit="f1818">calm, that </rdg>
+			      <rdg wit="f1823">calm, that </rdg>
+			      <rdg wit="fThomas">calm, that </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['i', 'may', 'not']">
+			      <rdg wit="f1818">I may not </rdg>
+			      <rdg wit="f1823">I may not </rdg>
+			      <rdg wit="fThomas">I may not </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0086__main__11"/&gt; I may not </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['be', 'absolutely']">
+			      <rdg wit="f1818">be absolutely </rdg>
+			      <rdg wit="f1823">be absolutely </rdg>
+			      <rdg wit="fThomas">be absolutely </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['beabsolutely']">
+			      <rdg wit="fMS">&lt;lb n="c56-0086__main__11"/&gt; beabsolutely </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['miserable', 'the', 'moment', 'i', 'enter']">
+			      <rdg wit="f1818">miserable the moment I enter </rdg>
+			      <rdg wit="f1823">miserable the moment I enter </rdg>
+			      <rdg wit="fThomas">miserable the moment I enter </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0086__main__11"/&gt; miserable the moment I enter </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['my']">
+			      <rdg wit="f1818">my </rdg>
+			      <rdg wit="f1823">my </rdg>
+			      <rdg wit="fThomas">my </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0086__main__13"/&gt; my </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['fathers']">
+			      <rdg wit="fMS">&lt;lb n="c56-0086__main__13"/&gt; fathers </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['father’s']">
+			      <rdg wit="f1818">father’s </rdg>
+			      <rdg wit="f1823">father’s </rdg>
+			      <rdg wit="fThomas">father’s </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['house', 'after', 'so', 'long', 'an', 'absence.']">
+			      <rdg wit="f1818">house after so long an absence. </rdg>
+			      <rdg wit="f1823">house after so long an absence. </rdg>
+			      <rdg wit="fThomas">house after so long an absence. </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0086__main__13"/&gt; house after so long an absence. </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-06 00:40:30.463023 -->
