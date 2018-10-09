@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['']">
+			      <rdg wit="fMS"> </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['&lt;p/&gt;i', 'threw', 'myself', 'into', 'the', 'carriage', 'that', 'was', 'to', 'convey', 'me', 'away,', 'hardly', 'knowing', 'whither', 'i', 'was', 'going,', 'and', 'careless', 'of', 'what', 'was', 'passing', 'around.', 'i', 'remembered', 'only,', 'and', 'it', 'was', 'with', 'a', 'bitter', 'anguish', 'that', 'i', 'reflected', 'on', 'it,', 'to', 'order', 'that', 'my', 'chemical', 'instruments', 'should', 'be', 'packed', 'to', 'go', 'with']">
+			      <rdg wit="f1818">&lt;p sID="novel1_letter4_chapter17_div4_div19_p16"/&gt;&lt;pb n="012" xml:id="F1818_v3_016"/&gt;I threw myself into the carriage that was to convey me away, hardly knowing whither I was going, and careless of what was passing around. I remembered only, and it was with a bitter anguish that I reflected on it, to order that my chemical instruments should be packed to go with </rdg>
+			      <rdg wit="f1823">&lt;p sID="novel1_letter4_chapter17_div4_div18_p16"/&gt;&lt;pb n="100" xml:id="F1823_v2_373"/&gt;I threw myself into the carriage that was to convey me away, hardly knowing whither I was going, and careless of what was passing around. I remembered only, and it was with a bitter anguish that I reflected on it, to order that my chemical instruments should be packed to go with </rdg>
+			      <rdg wit="f1831">&lt;p sID="novel1_letter4_chapter18_div4_div18_p15"/&gt;I threw myself into the carriage that was to convey me away, hardly knowing whither I was going, and careless of what was passing around. I remembered only, and it was with a bitter anguish that I reflected on it, to order that my chemical instruments should be packed to go with </rdg>
+			      <rdg wit="fThomas">&lt;p sID="novel1_letter4_chapter17_div4_div19_p16"/&gt;&lt;pb n="012" xml:id="F1818_v3_016"/&gt;I threw myself into the carriage that was to convey me away, hardly knowing whither I was going, and careless of what was passing around. I remembered only, and it was with a bitter anguish that I reflected on it, to order that my chemical instruments should be packed to go with </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['me.']">
+			      <rdg wit="f1831">me. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['me:', 'for', 'i', 'resolved', 'to', 'fulfil', 'my', 'promise', 'while', 'abroad,', 'and', 'return,', 'if', 'possible,', 'a', 'free', 'man.']">
+			      <rdg wit="f1818">me: for I resolved to fulfil my promise while abroad, and return, if possible, a free man. </rdg>
+			      <rdg wit="f1823">me: for I resolved to fulfil my promise while abroad, and return, if possible, a free man. </rdg>
+			      <rdg wit="fThomas">me: for I resolved to fulfil my promise while abroad, and return, if possible, a free man. </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['filled', 'with']">
+			      <rdg wit="f1818">Filled with </rdg>
+			      <rdg wit="f1823">Filled with </rdg>
+			      <rdg wit="f1831">Filled with </rdg>
+			      <rdg wit="fThomas">Filled with </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-01 11:49:02.044397 -->

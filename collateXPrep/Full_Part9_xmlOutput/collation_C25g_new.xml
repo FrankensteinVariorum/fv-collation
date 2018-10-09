@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['with', 'a', 'tremulous', 'and', 'eager', 'hope,', 'which']">
+			      <rdg wit="f1818">with a tremulous and eager hope, which </rdg>
+			      <rdg wit="f1823">with a tremulous and eager hope, which </rdg>
+			      <rdg wit="fThomas">with a tremulous and eager hope, which </rdg>
+			      <rdg wit="f1831">with a tremulous and eager hope, which </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['yet', '', 'freedom', 'from', 'the', 'curse']">
+			      <rdg wit="fMS">yet &lt;lb n="c57-0102__main__21"/&gt; freedom from the curse </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['i']">
+			      <rdg wit="f1818">I </rdg>
+			      <rdg wit="f1823">I </rdg>
+			      <rdg wit="fThomas">I </rdg>
+			      <rdg wit="f1831">I </rdg>
+			      <rdg wit="fMS">I </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['dared', 'not', 'trust', 'myself', 'to', 'question,', 'but', 'which']">
+			      <rdg wit="f1818">dared not trust myself to question, but which </rdg>
+			      <rdg wit="f1823">dared not trust myself to question, but which </rdg>
+			      <rdg wit="fThomas">dared not trust myself to question, but which </rdg>
+			      <rdg wit="f1831">dared not trust myself to question, but which </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['endured']">
+			      <rdg wit="fMS">endured </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['was']">
+			      <rdg wit="f1818">was </rdg>
+			      <rdg wit="f1823">was </rdg>
+			      <rdg wit="fThomas">was </rdg>
+			      <rdg wit="f1831">was </rdg>
+			      <rdg wit="fMS">was </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'a', 'joy', 'i', 'never', 'dared', 'promise', 'myself—', '&lt;note resp=&#34;#mws&#34;/&gt;finish', 'chap.', '2', 'here']">
+			      <rdg wit="fMS">&lt;lb n="c57-0102__main__22"/&gt; a joy I never dared promise myself— &lt;lb n="c57-0102__main__23"/&gt;&lt;note resp="#mws"/&gt;Finish Chap. 2 here </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['intermixed', 'with', 'obscure', 'forebodings', 'of', 'evil,', 'that', 'made', 'my', 'heart', 'sicken', 'in', 'my', 'bosom.&lt;p/&gt;']">
+			      <rdg wit="f1818">intermixed with obscure forebodings of evil, that made my heart sicken in my bosom.&lt;p eID="novel1_letter4_chapter18_div4_div20_p23"/&gt;&lt;milestone n="18" type="end" unit="chapter"/&gt; </rdg>
+			      <rdg wit="f1823">intermixed with obscure forebodings of evil, that made my heart sicken in my bosom.&lt;p eID="novel1_letter4_chapter18_div4_div19_p23"/&gt;&lt;milestone n="18" type="end" unit="chapter"/&gt; </rdg>
+			      <rdg wit="fThomas">intermixed with obscure forebodings of evil, that made my heart sicken in my bosom.&lt;p eID="novel1_letter4_chapter18_div4_div20_p23"/&gt;&lt;milestone n="18" type="end" unit="chapter"/&gt; </rdg>
+			      <rdg wit="f1831">intermixed with obscure forebodings of evil, that made my heart sicken in my bosom.&lt;p eID="novel1_letter4_chapter19_div4_div19_p23"/&gt;&lt;milestone n="19" type="end" unit="chapter"/&gt; </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-01 11:47:54.556103 -->
