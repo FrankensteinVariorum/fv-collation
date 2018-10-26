@@ -34,6 +34,63 @@ div.variant_table {
 	padding: 1px;
     background-color: #66cc99;
 }
+/* new gradient styles for Levenstein displays
+the goal is a 10-slot ranking, we need to cover 0 > 100
+0-10, 11-20, 21-30, 31-40, 41-50, 51-60, 61-70, 71-80, 81-90, 91-100
+these will need to be reviewed on modile ablet and monitor, and also
+checked against contrast for those with sight issues */
+/* alternative to experiment: the values could be assigned programmatically
+by value, BUT the contrast will not be distinct in most cases
+this may be the way to go for a heat map */
+
+.variant_display {
+    display: inline;
+    border: 1px dashed #206040;
+    padding: 1px;
+    background-color: #d9f2e6;
+}
+.variant_display lev1, .lev1 {
+    background-color: #ccffcc;
+    border: 1px dashed #33cc33;
+}
+.variant_display lev2, .lev2 {
+    background-color: #bbf9bb;
+    border: 1px solid #2ed82e;
+}
+.variant_display lev3, .lev3 {
+    background-color: #aaf3aa;
+    border: 1px dashed #29a329;
+}
+.variant_display lev4, .lev4 {
+    background-color: #99ee99;
+    border: 1px solid #248f24;
+}
+.variant_display lev5, .lev5 {
+    background-color: #88e888;
+    border: 1px dashed #1f7a1f;
+}
+.variant_display lev6, .lev6 {
+    background-color: #77e277;
+    border: 1px solid #196619;
+}
+.variant_display lev7, .lev7 {
+    background-color: #66dd66;
+    border: 1px dashed #145214;
+}
+.variant_display lev8, .lev8 {
+    background-color: #55d755;
+    border: 1px solid #0f3d0f;
+}
+.variant_display lev9, .lev9 {
+    background-color: #44d144;
+    border: 1px dashed #0a290a;
+}
+.variant_display lev10, .lev10 {
+    background-color: #33cc33;
+    border: 1px solid #015405;
+}
+
+
 .smcap {
     font-variant: small-caps;
 }
@@ -47,13 +104,13 @@ blockquote.poem note {
 }
 div.container-fluid {
 	margin-right: 10px;
-	margin-left: 10px;	
+	margin-left: 10px;
 }
 .app, .rdg {
 	display:block;
 	margin: 1px;
 	padding: 2px;
-	border: 1px dashed #ccc;	
+	border: 1px dashed #ccc;
 }
 .f1818::before {
 	content: "1818: ";
@@ -85,13 +142,13 @@ footer {
 }
 iframe#witness-1, iframe#witness-2 {
 	border: 1px solid #999;
-	border-radius: 10px; 
-	padding: 0; 
+	border-radius: 10px;
+	padding: 0;
 	margin: 0;
 }
 iframe#variations {
-	border: none; 
-	padding: 0; 
+	border: none;
+	padding: 0;
 	margin: 0;
 }
 /* error check and visualization testing styles to delete or modify */
