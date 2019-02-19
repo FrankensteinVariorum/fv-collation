@@ -78,6 +78,8 @@ span.l_i5 {display:block; padding-left:5em;}
 span.ab, span.ab_center{text-align:center; font-size:1.1em; display:block;}
 span.pb{color:DarkGreen; font-size:smaller; display:none;}
 span.smallcaps {font-variant: small-caps;}
+span.add{color:DarkGreen; font-weight:800;}
+span.del{color:DarkGreen; text-decoration: line-through; font-weight:800;}
 span.note {font-size:smaller; color:DarkGreen; margin-left:30%}
 p {padding-left:50px; padding-right:50px;}
 ol, ul {padding-left:55px; padding-right:55px;}

@@ -72,10 +72,16 @@
         </xsl:choose>
     </xsl:template>
     
-   <xsl:template match="pb">
+   <xsl:template match="pb[not(ancestor::add) and not(ancestor::del) and not(ancestor::note)]">
        <span class="pb" id="e{@xml:id}"><xsl:if test="@n"><xsl:value-of select="@n"/></xsl:if></span>
     </xsl:template>
     <xsl:template match="note | bibl">
        <span class="note"><xsl:apply-templates/></span> 
+    </xsl:template>
+    <xsl:template match="add">
+        <span class="add"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="del">
+        <span class="del"><xsl:apply-templates/></span>
     </xsl:template>
 </xsl:stylesheet>
