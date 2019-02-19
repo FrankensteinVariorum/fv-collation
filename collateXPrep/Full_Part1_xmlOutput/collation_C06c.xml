@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="fMS"> </rdg>
+			<rdg wit="f1831"> </rdg>
+		</rdgGrp>
+		<rdgGrp n="['i', 'have', 'endeavoured', 'to', 'win', 'his', 'confidence;', 'and', 'i', 'trust', 'that', 'i', 'have', 'succeeded.', 'one', 'day', 'i', 'mentioned', 'to', 'him', 'the', 'desire', 'i', 'had', 'always', 'felt', 'of', 'finding', 'a', 'friend', 'who', 'might']">
+			<rdg wit="f1818">I have endeavoured to win his confidence; and I trust that I have suc&lt;pb n=&quot;033&quot; xml:id=&quot;F1818_v1_045&quot;/&gt;ceeded. One day I mentioned to him the desire I had always felt of finding a friend who might </rdg>
+			<rdg wit="f1823">I have endeavoured to win his confidence; and I trust that I have suc&lt;pb n=&quot;33&quot; xml:id=&quot;F1823_v1_052&quot;/&gt;ceeded. One day I mentioned to him the desire I had always felt of finding a friend who might </rdg>
+			<rdg wit="fThomas">I have endeavoured to win his confidence; and I trust that I have suc&lt;pb n=&quot;033&quot; xml:id=&quot;F1818_v1_045&quot;/&gt;ceeded. One day I mentioned to him the desire I had always felt of finding a friend who might </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['sympathise']">
+			<rdg wit="f1823">sympathise </rdg>
+		</rdgGrp>
+		<rdgGrp n="['sympathize']">
+			<rdg wit="f1818">sympathize </rdg>
+			<rdg wit="fThomas">sympathize </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['with', 'me,', 'and', 'direct', 'me', 'by', 'his', 'counsel.', 'i', 'said,', 'i', 'did', 'not', 'belong', 'to', 'that', 'class', 'of', 'men', 'who', 'are', 'offended', 'by', 'advice.', '&quot;i', 'am', 'self-educated,', 'and', 'perhaps', 'i', 'hardly', 'rely', 'sufficiently', 'upon', 'my', 'own', 'powers.', 'i']">
+			<rdg wit="f1818">with me, and direct me by his counsel. I said, I did not belong to that class of men who are offended by advice. “I am self-educated, and perhaps I hardly rely sufficiently upon my own powers. I </rdg>
+			<rdg wit="f1823">with me, and direct me by his counsel. I said, I did not belong to that class of men who are offended by advice. “I am self-educated, and perhaps I hardly rely sufficiently upon my own powers. I </rdg>
+			<rdg wit="fThomas">with me, and direct me by his counsel. I said, I did not belong to that class of men who are offended by advice. “I am self-educated, and perhaps I hardly rely sufficiently upon my own powers. I </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['wish', 'therefore']">
+			<rdg wit="f1818">wish therefore </rdg>
+			<rdg wit="fThomas">wish therefore </rdg>
+		</rdgGrp>
+		<rdgGrp n="['wish,', 'therefore,']">
+			<rdg wit="f1823">wish, therefore, </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['that', 'my', 'companion', 'should', 'be', 'wiser', 'and', 'more', 'experienced', 'than', 'myself,', 'to', 'confirm', 'and', 'support', 'me;', 'nor', 'have', 'i', 'believed', 'it', 'impossible', 'to', 'find', 'a', 'true', 'friend.&quot;&lt;p/&gt;&lt;p/&gt;&quot;i', 'agree', 'with', 'you,&quot;', 'replied', 'the', 'stranger,', '&quot;in', 'believing', 'that', 'friendship', 'is', 'not', 'only', 'a', 'desirable,', 'but', 'a', 'possible', 'acquisition.']">
+			<rdg wit="f1818">that my companion should be wiser and more experienced than myself, to confirm and support me; nor have I believed it impossible to find a true friend.”&lt;p eID=&quot;novel1_letter4_div4_p27&quot;/&gt;&lt;p sID=&quot;novel1_letter4_div4_p28&quot;/&gt;“I agree with you,” replied the stranger, “in believing that friendship is not only a desirable, but a possible acquisition. </rdg>
+			<rdg wit="f1823">that my companion should be wiser and more experienced than myself, to confirm and support me; nor have I believed it impossible to find a true friend.”&lt;p eID=&quot;novel1_letter4_div4_p27&quot;/&gt;&lt;p sID=&quot;novel1_letter4_div4_p28&quot;/&gt;“I agree with you,” replied the stranger, “in believing that friendship is not only a desirable, but a possible acquisition. </rdg>
+			<rdg wit="fThomas">that my companion should be wiser and more experienced than myself, to confirm and support me; nor have I believed it impossible to find a true friend.”&lt;p eID=&quot;novel1_letter4_div4_p27&quot;/&gt;&lt;p sID=&quot;novel1_letter4_div4_p28&quot;/&gt;“I agree with you,” replied the stranger, “in believing that friendship is not only a desirable, but a possible acquisition. </rdg>
+		</rdgGrp>
+	</app>
+</cx:apparatus>
+<!-- 2018-10-03 19:23:51.102012 -->

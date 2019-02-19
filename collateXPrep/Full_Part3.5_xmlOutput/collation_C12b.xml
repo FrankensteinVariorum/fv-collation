@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['&lt;p/&gt;', 'clerval']">
+			      <rdg wit="fMS">&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0068__main__28"/&gt; Clerval </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['&lt;p/&gt;clerval']">
+			      <rdg wit="f1818">&lt;p sID="novel1_letter4_chapter5_div4_div5_p19"/&gt;Clerval </rdg>
+			      <rdg wit="f1823">&lt;p sID="novel1_letter4_chapter5_div4_div5_p19"/&gt;Clerval </rdg>
+			      <rdg wit="fThomas">&lt;p sID="novel1_letter4_chapter5_div4_div5_p18"/&gt;Clerval </rdg>
+			      <rdg wit="f1831">&lt;p sID="novel1_letter4_chapter6_div4_div6_p18"/&gt;Clerval </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['had', 'never', 'sympathised', 'in', 'my', 'tastes', 'for', 'natural', 'science;']">
+			      <rdg wit="f1831">had never sympathised in my tastes for natural science; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['was', 'no', 'natural', 'philosopher.']">
+			      <rdg wit="f1818">was no natural philosopher. </rdg>
+			      <rdg wit="f1823">was no natural philosopher. </rdg>
+			      <rdg wit="fThomas">was no natural philosopher. </rdg>
+			      <rdg wit="fMS">was no natural philosopher. </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['and', 'his', 'literary', 'pursuits', 'differed', 'wholly', 'from', 'those', 'which', 'had', 'occupied', 'me.']">
+			      <rdg wit="f1831">and his literary pursuits differed wholly from those which had occupied me. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['his', 'imagination', 'was', 'too', 'vivid', 'for', 'the']">
+			      <rdg wit="f1818">His imagination was too vivid for the </rdg>
+			      <rdg wit="f1823">His imagination was too vivid for the </rdg>
+			      <rdg wit="fThomas">His imagination was too vivid for the </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0068__main__29"/&gt; His imagination was too vivid for&lt;lb n="c56-0069__main__1"/&gt; the </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['minutiæ']">
+			      <rdg wit="fMS">&lt;lb n="c56-0068__main__29"/&gt; minutiæ </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['minutæ']">
+			      <rdg wit="f1818">minutæ </rdg>
+			      <rdg wit="f1823">minutæ </rdg>
+			      <rdg wit="fThomas">minutæ </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['of', 'science.']">
+			      <rdg wit="f1818">of science. </rdg>
+			      <rdg wit="f1823">of science. </rdg>
+			      <rdg wit="fThomas">of science. </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0068__main__29"/&gt; of science. </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['He', 'came', 'to', 'the', 'university', 'with', 'the', 'design', 'of', 'making', 'himself', 'complete', 'master', 'of', 'the', 'oriental', 'languages,', 'as', 'thus', 'he', 'should', 'open', 'a', 'field', 'for', 'the', 'plan', 'of', 'life', 'he', 'had', 'marked', 'out', 'for', 'himself.', 'Resolved', 'to', 'pursue', 'no', 'inglorious', 'career,', 'he', 'turned', 'his', 'eyes', 'toward', 'the', 'East,', 'as', 'affording', 'scope', 'for', 'his', 'spirit', 'of', 'enterprise.']">
+			      <rdg wit="f1831">He came to the university with the design of making himself complete master of the oriental languages, as thus he should open a field for the plan of life he had marked out for himself. Resolved to pursue no inglorious career, he turned his eyes toward the East, as affording scope for his spirit of enterprise. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['&lt;del&gt;la&lt;del&gt;languages', 'were', 'his', '&lt;del&gt;chief&lt;del&gt;principal', 'study', 'for']">
+			      <rdg wit="fMS">&lt;lb n="c56-0068__main__29"/&gt; &lt;del rend="strikethrough" sID="c56-0069__main__d2e14412"/&gt;La&lt;del eID="c56-0069__main__d2e14412"/&gt;Lan&lt;lb n="c56-0069__main__2"/&gt;guages were his &lt;del rend="strikethrough" sID="c56-0069__main__d2e14424"/&gt;chief&lt;del eID="c56-0069__main__d2e14424"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;principal study for </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['languages', 'were', 'his', 'principal', 'study;', 'and']">
+			      <rdg wit="f1818">Languages were his principal study; and </rdg>
+			      <rdg wit="f1823">Languages were his principal study; and </rdg>
+			      <rdg wit="fThomas">Languages were his principal study; and </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['he']">
+			      <rdg wit="f1818">he </rdg>
+			      <rdg wit="f1823">he </rdg>
+			      <rdg wit="fThomas">he </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0068__main__29"/&gt; he </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'wished']">
+			      <rdg wit="fMS">&lt;lb n="c56-0068__main__29"/&gt; &lt;lb n="c56-0069__main__3"/&gt; wished </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['sought,', 'by', 'acquiring', 'their', 'elements,']">
+			      <rdg wit="f1818">sought, by acquiring their elements, </rdg>
+			      <rdg wit="f1823">sought, by acquiring their elements, </rdg>
+			      <rdg wit="fThomas">sought, by acquiring their elements, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['to', 'open', 'a', 'field', 'for']">
+			      <rdg wit="f1818">to open a field for </rdg>
+			      <rdg wit="f1823">to open a field for </rdg>
+			      <rdg wit="fThomas">to open a field for </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0068__main__29"/&gt; to open a field for </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;del&gt;him&lt;del&gt;self-instruction']">
+			      <rdg wit="fMS">&lt;lb n="c56-0068__main__29"/&gt; &lt;del rend="strikethrough" sID="c56-0069__main__d2e14441"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;him&lt;del eID="c56-0069__main__d2e14441"/&gt;self-instruc&lt;lb n="c56-0069__main__4"/&gt;tion </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['self-instruction']">
+			      <rdg wit="f1818">self-instruction </rdg>
+			      <rdg wit="f1823">self-instruction </rdg>
+			      <rdg wit="fThomas">self-instruction </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['on', 'his', 'return']">
+			      <rdg wit="f1818">on his return </rdg>
+			      <rdg wit="f1823">on his return </rdg>
+			      <rdg wit="fThomas">on his return </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0068__main__29"/&gt; on his return </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['to', 'geneva.']">
+			      <rdg wit="f1818">to Geneva. </rdg>
+			      <rdg wit="f1823">to Geneva. </rdg>
+			      <rdg wit="fThomas">to Geneva. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['–']">
+			      <rdg wit="fMS">&lt;lb n="c56-0068__main__29"/&gt; – </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-06 00:40:30.463023 -->

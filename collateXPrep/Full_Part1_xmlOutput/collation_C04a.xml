@@ -1,0 +1,197 @@
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="fMS"> </rdg>
+		</rdgGrp>
+		<rdgGrp n="['letter', 'iii.to', 'mrs.', 'saville,', 'england.&lt;p/&gt;july', '7th,', '17—.&lt;p/&gt;&lt;p/&gt;my', 'dear', 'sister,&lt;p/&gt;&lt;p/&gt;i', 'write', 'a', 'few', 'lines', 'in', 'haste,', 'to', 'say', 'that', 'i', 'am', 'safe,', 'and', 'well', 'advanced', 'on', 'my', 'voyage.', 'this', 'letter', 'will', 'reach', 'england', 'by', 'a']">
+			<rdg wit="f1818">&lt;milestone n=&quot;3&quot; type=&quot;start&quot; unit=&quot;letter&quot;/&gt;&lt;head sID=&quot;novel1_letter3_div3_head1&quot;/&gt;LETTER III.&lt;head eID=&quot;novel1_letter3_div3_head1&quot;/&gt;&lt;ab sID=&quot;novel1_letter3_div3_ab1&quot;/&gt;&lt;hi sID=&quot;novel1_letter3_div3_ab1_hi1&quot;/&gt;To Mrs.&lt;hi eID=&quot;novel1_letter3_div3_ab1_hi1&quot;/&gt; S&lt;hi sID=&quot;novel1_letter3_div3_ab1_hi2&quot;/&gt;AVILLE&lt;hi eID=&quot;novel1_letter3_div3_ab1_hi2&quot;/&gt;, &lt;hi sID=&quot;novel1_letter3_div3_ab1_hi3&quot;/&gt;England.&lt;hi eID=&quot;novel1_letter3_div3_ab1_hi3&quot;/&gt;&lt;ab eID=&quot;novel1_letter3_div3_ab1&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p1&quot;/&gt;July 7th, 17—.&lt;p eID=&quot;novel1_letter3_div3_p1&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p2&quot;/&gt;&lt;hi sID=&quot;novel1_letter3_div3_p2_hi1&quot;/&gt;MY DEAR SISTER&lt;hi eID=&quot;novel1_letter3_div3_p2_hi1&quot;/&gt;,&lt;p eID=&quot;novel1_letter3_div3_p2&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p3&quot;/&gt;I &lt;hi sID=&quot;novel1_letter3_div3_p3_hi1&quot;/&gt;WRITE&lt;hi eID=&quot;novel1_letter3_div3_p3_hi1&quot;/&gt; a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a </rdg>
+			<rdg wit="f1823">&lt;pb n=&quot;18&quot; xml:id=&quot;F1823_v1_037&quot;/&gt;&lt;milestone n=&quot;3&quot; type=&quot;start&quot; unit=&quot;letter&quot;/&gt;&lt;head sID=&quot;novel1_letter3_div3_head1&quot;/&gt;LETTER III.&lt;head eID=&quot;novel1_letter3_div3_head1&quot;/&gt;&lt;ab sID=&quot;novel1_letter3_div3_ab1&quot;/&gt;&lt;hi sID=&quot;novel1_letter3_div3_ab1_hi1&quot;/&gt;To Mrs.&lt;hi eID=&quot;novel1_letter3_div3_ab1_hi1&quot;/&gt; S&lt;hi sID=&quot;novel1_letter3_div3_ab1_hi2&quot;/&gt;AVILLE&lt;hi eID=&quot;novel1_letter3_div3_ab1_hi2&quot;/&gt;, &lt;hi sID=&quot;novel1_letter3_div3_ab1_hi3&quot;/&gt;England.&lt;hi eID=&quot;novel1_letter3_div3_ab1_hi3&quot;/&gt;&lt;ab eID=&quot;novel1_letter3_div3_ab1&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p1&quot;/&gt;July 7th, 17—.&lt;p eID=&quot;novel1_letter3_div3_p1&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p2&quot;/&gt;&lt;hi sID=&quot;novel1_letter3_div3_p2_hi1&quot;/&gt;MY DEAR SISTER&lt;hi eID=&quot;novel1_letter3_div3_p2_hi1&quot;/&gt;,&lt;p eID=&quot;novel1_letter3_div3_p2&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p3&quot;/&gt;I &lt;hi sID=&quot;novel1_letter3_div3_p3_hi1&quot;/&gt;WRITE&lt;hi eID=&quot;novel1_letter3_div3_p3_hi1&quot;/&gt; a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a </rdg>
+			<rdg wit="fThomas">&lt;milestone n=&quot;3&quot; type=&quot;start&quot; unit=&quot;letter&quot;/&gt;&lt;head sID=&quot;novel1_letter3_div3_head1&quot;/&gt;LETTER III.&lt;head eID=&quot;novel1_letter3_div3_head1&quot;/&gt;&lt;ab sID=&quot;novel1_letter3_div3_ab1&quot;/&gt;&lt;hi sID=&quot;novel1_letter3_div3_ab1_hi1&quot;/&gt;To Mrs.&lt;hi eID=&quot;novel1_letter3_div3_ab1_hi1&quot;/&gt; S&lt;hi sID=&quot;novel1_letter3_div3_ab1_hi2&quot;/&gt;AVILLE&lt;hi eID=&quot;novel1_letter3_div3_ab1_hi2&quot;/&gt;, &lt;hi sID=&quot;novel1_letter3_div3_ab1_hi3&quot;/&gt;England.&lt;hi eID=&quot;novel1_letter3_div3_ab1_hi3&quot;/&gt;&lt;ab eID=&quot;novel1_letter3_div3_ab1&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p1&quot;/&gt;July 7th, 17—.&lt;p eID=&quot;novel1_letter3_div3_p1&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p2&quot;/&gt;&lt;hi sID=&quot;novel1_letter3_div3_p2_hi1&quot;/&gt;MY DEAR SISTER&lt;hi eID=&quot;novel1_letter3_div3_p2_hi1&quot;/&gt;,&lt;p eID=&quot;novel1_letter3_div3_p2&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p3&quot;/&gt;I &lt;hi sID=&quot;novel1_letter3_div3_p3_hi1&quot;/&gt;WRITE&lt;hi eID=&quot;novel1_letter3_div3_p3_hi1&quot;/&gt; a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a </rdg>
+			<rdg wit="f1831">&lt;milestone n=&quot;3&quot; type=&quot;start&quot; unit=&quot;letter&quot;/&gt;&lt;head sID=&quot;novel1_letter3_div3_head1&quot;/&gt;LETTER III.&lt;head eID=&quot;novel1_letter3_div3_head1&quot;/&gt;&lt;head sID=&quot;novel1_letter3_div3_head2&quot;/&gt;&lt;hi sID=&quot;novel1_letter3_div3_head2_hi1&quot;/&gt;To Mrs. Saville, England.&lt;hi eID=&quot;novel1_letter3_div3_head2_hi1&quot;/&gt;&lt;head eID=&quot;novel1_letter3_div3_head2&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p1&quot;/&gt;July 7th, 17—.&lt;p eID=&quot;novel1_letter3_div3_p1&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p2&quot;/&gt;M&lt;hi sID=&quot;novel1_letter3_div3_p2_hi1&quot;/&gt;Y DEAR&lt;hi eID=&quot;novel1_letter3_div3_p2_hi1&quot;/&gt; S&lt;hi sID=&quot;novel1_letter3_div3_p2_hi2&quot;/&gt;ISTER&lt;hi eID=&quot;novel1_letter3_div3_p2_hi2&quot;/&gt;,&lt;p eID=&quot;novel1_letter3_div3_p2&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p3&quot;/&gt;I &lt;hi sID=&quot;novel1_letter3_div3_p3_hi1&quot;/&gt;WRITE&lt;hi eID=&quot;novel1_letter3_div3_p3_hi1&quot;/&gt; a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['merchant-man']">
+			<rdg wit="f1818">merchant-man </rdg>
+			<rdg wit="f1823">merchant-man </rdg>
+			<rdg wit="fThomas">merchant-man </rdg>
+		</rdgGrp>
+		<rdgGrp n="['merchantman']">
+			<rdg wit="f1831">merchantman </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['now', 'on', 'its', 'homeward', 'voyage', 'from', 'archangel;', 'more', 'fortunate', 'than', 'i,', 'who', 'may', 'not', 'see', 'my', 'native', 'land,', 'perhaps,', 'for', 'many', 'years.', 'i', 'am,', 'however,', 'in', 'good', 'spirits:', 'my']">
+			<rdg wit="f1818">now on its homeward voyage from Archangel; more fortunate than I, who may not see my native land, perhaps, for many years. I am, however, in good spirits: my </rdg>
+			<rdg wit="f1823">now on its homeward voyage from Archangel; more fortunate than I, who may not see my native land, perhaps, for many years. I am, however, in good spirits: my </rdg>
+			<rdg wit="fThomas">now on its homeward voyage from Archangel; more fortunate than I, who may not see my native land, perhaps, for many years. I am, however, in good spirits: my </rdg>
+			<rdg wit="f1831">now on its homeward voyage from Archangel; more fortunate than I, who may not see my native land, perhaps, for many years. I am, however, in good spirits: my </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;del&gt;men&lt;del&gt;crew']">
+			<rdg wit="fThomas">&lt;del sID=&quot;novel1_letter3_div3_p3_del1&quot;/&gt;men&lt;del eID=&quot;novel1_letter3_div3_p3_del1&quot;/&gt;crew </rdg>
+		</rdgGrp>
+		<rdgGrp n="['men']">
+			<rdg wit="f1818">men </rdg>
+			<rdg wit="f1823">men </rdg>
+			<rdg wit="f1831">men </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['are']">
+			<rdg wit="f1818">are </rdg>
+			<rdg wit="f1823">are </rdg>
+			<rdg wit="fThomas">are </rdg>
+			<rdg wit="f1831">are </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;del&gt;bold&lt;del&gt;gallant', 'fellows,', '&lt;del&gt;and', 'apparently&lt;del&gt;and', 'i', 'am']">
+			<rdg wit="fThomas">&lt;del sID=&quot;novel1_letter3_div3_p3_del2&quot;/&gt;bold&lt;del eID=&quot;novel1_letter3_div3_p3_del2&quot;/&gt;gallant fellows, &lt;del sID=&quot;novel1_letter3_div3_p3_del3&quot;/&gt;and apparently&lt;del eID=&quot;novel1_letter3_div3_p3_del3&quot;/&gt;&amp; I am </rdg>
+		</rdgGrp>
+		<rdgGrp n="['bold,', 'and', 'apparently']">
+			<rdg wit="f1818">bold, and apparently </rdg>
+			<rdg wit="f1823">bold, and apparently </rdg>
+			<rdg wit="f1831">bold, and apparently </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['firm', 'of', 'purpose;', 'nor', 'do', 'the', 'floating', 'sheets', 'of', 'ice', 'that', 'continually', 'pass', 'us,', 'indicating', 'the', 'dangers', 'of', 'the', 'region', 'towards', 'which', 'we', 'are', 'advancing,', 'appear', 'to', 'dismay', 'them.', 'we', 'have', 'already', 'reached', 'a', 'very', 'high', 'latitude;', 'but', 'it', 'is', 'the', 'height', 'of', 'summer,', 'and', 'although', 'not', 'so', 'warm', 'as', 'in', 'england,', 'the', 'southern', 'gales,', 'which', 'blow', 'us', 'speedily', 'towards', 'those', 'shores', 'which', 'i', 'so', 'ardently', 'desire', 'to', 'attain,', 'breathe', 'a', 'degree', 'of', 'renovating', 'warmth', 'which', 'i', 'had', 'not']">
+			<rdg wit="f1818">firm of purpose; nor do the floating sheets of ice that continually pass us, indi&lt;pb n=&quot;019&quot; xml:id=&quot;F1818_v1_031&quot;/&gt;cating the dangers of the region towards which we are advancing, appear to dismay them. We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not </rdg>
+			<rdg wit="f1823">firm of purpose; nor do the floating sheets of ice that continually pass us, indi&lt;pb n=&quot;19&quot; xml:id=&quot;F1823_v1_038&quot;/&gt;cating the dangers of the region towards which we are advancing, appear to dismay them. We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not </rdg>
+			<rdg wit="fThomas">firm of purpose; nor do the floating sheets of ice that continually pass us, indi&lt;pb n=&quot;019&quot; xml:id=&quot;F1818_v1_031&quot;/&gt;cating the dangers of the region towards which we are advancing, appear to dismay them. We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not </rdg>
+			<rdg wit="f1831">firm of purpose; nor do the floating sheets of ice that continually pass us, indicating the dangers of the region towards which we are advancing, appear to dismay them. We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['expected.', 'the', 'appearance', 'of', 'the', 'sky', 'is', 'indiscribably', 'beautiful;', 'clear', 'by', 'day,', 'and', 'illuminated', 'at', 'night', 'by', 'the', 'aurora', 'borealis', '&lt;del&gt;w&lt;del&gt;', 'which', 'spreads', 'a', 'roseate', 'tinge', 'over', 'the', 'heavens,', 'and', 'over', 'the', 'sea', 'which', 'reflects', 'it’s', 'splendour.&lt;p/&gt;&lt;p/&gt;no']">
+			<rdg wit="fThomas">expected. The appearance of the sky is indiscribably beautiful; clear by day, and illuminated at night by the Aurora Borealis &lt;del sID=&quot;novel1_letter3_div3_p3_add4_del1&quot;/&gt;w&lt;del eID=&quot;novel1_letter3_div3_p3_add4_del1&quot;/&gt; which spreads a roseate tinge over the heavens, &amp; over the sea which reflects it’s splendour.&lt;p eID=&quot;novel1_letter3_div3_p3&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p4&quot;/&gt;No </rdg>
+		</rdgGrp>
+		<rdgGrp n="['expected.&lt;p/&gt;&lt;p/&gt;no']">
+			<rdg wit="f1818">expected.&lt;p eID=&quot;novel1_letter3_div3_p3&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p4&quot;/&gt;No </rdg>
+			<rdg wit="f1823">expected.&lt;p eID=&quot;novel1_letter3_div3_p3&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p4&quot;/&gt;No </rdg>
+			<rdg wit="f1831">expected.&lt;p eID=&quot;novel1_letter3_div3_p3&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p4&quot;/&gt;No </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['incidents', 'have', 'hitherto', 'befallen']">
+			<rdg wit="f1818">incidents have hitherto befallen </rdg>
+			<rdg wit="f1823">incidents have hitherto befallen </rdg>
+			<rdg wit="fThomas">incidents have hitherto befallen </rdg>
+			<rdg wit="f1831">incidents have hitherto befallen </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['us']">
+			<rdg wit="f1823">us </rdg>
+			<rdg wit="f1831">us </rdg>
+		</rdgGrp>
+		<rdgGrp n="['us,']">
+			<rdg wit="f1818">us, </rdg>
+			<rdg wit="fThomas">us, </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['that', 'would', 'make', 'a', 'figure', 'in', 'a', 'letter.', 'one', 'or']">
+			<rdg wit="f1818">that would make a figure in a letter. One or </rdg>
+			<rdg wit="f1823">that would make a figure in a letter. One or </rdg>
+			<rdg wit="fThomas">that would make a figure in a letter. One or </rdg>
+			<rdg wit="f1831">that would make a figure in a letter. One or </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['two', 'stiff']">
+			<rdg wit="f1818">two stiff </rdg>
+			<rdg wit="f1823">two stiff </rdg>
+			<rdg wit="f1831">two stiff </rdg>
+		</rdgGrp>
+		<rdgGrp n="['two&lt;del&gt;stiff&lt;del&gt;hard']">
+			<rdg wit="fThomas">two&lt;del sID=&quot;novel1_letter3_div3_p4_del1&quot;/&gt;stiff&lt;del eID=&quot;novel1_letter3_div3_p4_del1&quot;/&gt;hard </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['gales,', 'and', 'the']">
+			<rdg wit="f1818">gales, and the </rdg>
+			<rdg wit="f1823">gales, and the </rdg>
+			<rdg wit="fThomas">gales, and the </rdg>
+			<rdg wit="f1831">gales, and the </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;del&gt;breaking&lt;del&gt;carrying', 'away']">
+			<rdg wit="fThomas">&lt;del sID=&quot;novel1_letter3_div3_p4_del2&quot;/&gt;breaking&lt;del eID=&quot;novel1_letter3_div3_p4_del2&quot;/&gt;carrying away </rdg>
+		</rdgGrp>
+		<rdgGrp n="['breaking']">
+			<rdg wit="f1818">breaking </rdg>
+			<rdg wit="f1823">breaking </rdg>
+		</rdgGrp>
+		<rdgGrp n="['springing']">
+			<rdg wit="f1831">springing </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['of', 'a']">
+			<rdg wit="f1818">of a </rdg>
+			<rdg wit="f1823">of a </rdg>
+			<rdg wit="fThomas">of a </rdg>
+			<rdg wit="f1831">of a </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['leak,']">
+			<rdg wit="f1831">leak, </rdg>
+		</rdgGrp>
+		<rdgGrp n="['mast,']">
+			<rdg wit="f1818">mast, </rdg>
+			<rdg wit="f1823">mast, </rdg>
+			<rdg wit="fThomas">mast, </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['are', 'accidents', 'which', 'experienced', 'navigators', 'scarcely', 'remember', 'to', 'record;', 'and', 'i', 'shall', 'be', 'well']">
+			<rdg wit="f1818">are accidents which experienced navigators scarcely remember to record; and I shall be well </rdg>
+			<rdg wit="f1823">are accidents which experienced navigators scarcely remember to record; and I shall be well </rdg>
+			<rdg wit="fThomas">are accidents which experienced navigators scarcely remember to record; and I shall be well </rdg>
+			<rdg wit="f1831">are accidents which experienced navigators scarcely remember to record; and I shall be well </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['content']">
+			<rdg wit="f1823">content </rdg>
+			<rdg wit="f1831">content </rdg>
+		</rdgGrp>
+		<rdgGrp n="['content,']">
+			<rdg wit="f1818">content, </rdg>
+			<rdg wit="fThomas">content, </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['if', 'nothing', 'worse', 'happen', 'to', 'us', 'during', 'our', 'voyage.&lt;p/&gt;&lt;p/&gt;adieu,', 'my', 'dear', 'margaret.', 'be', 'assured,', 'that', 'for', 'my', 'own', 'sake,', 'as', 'well', 'as']">
+			<rdg wit="f1818">if nothing worse happen to us during our voyage.&lt;p eID=&quot;novel1_letter3_div3_p4&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p5&quot;/&gt;Adieu, my dear Margaret. Be assured, that for my own sake, as well as </rdg>
+			<rdg wit="f1823">if nothing worse happen to us during our voyage.&lt;p eID=&quot;novel1_letter3_div3_p4&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p5&quot;/&gt;Adieu, my dear Margaret. Be assured, that for my own sake, as well as </rdg>
+			<rdg wit="fThomas">if nothing worse happen to us during our voyage.&lt;p eID=&quot;novel1_letter3_div3_p4&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p5&quot;/&gt;Adieu, my dear Margaret. Be assured, that for my own sake, as well as </rdg>
+			<rdg wit="f1831">if nothing worse happen to us during our voyage.&lt;p eID=&quot;novel1_letter3_div3_p4&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p5&quot;/&gt;Adieu, my dear Margaret. Be assured, that for my own sake, as well as </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['yours,']">
+			<rdg wit="f1823">yours, </rdg>
+			<rdg wit="f1831">yours, </rdg>
+		</rdgGrp>
+		<rdgGrp n="['your’s,']">
+			<rdg wit="f1818">your’s, </rdg>
+			<rdg wit="fThomas">your’s, </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['i', 'will', 'not', 'rashly', 'encounter', 'danger.', 'i', 'will', 'be', 'cool,', 'persevering,', 'and', 'prudent.&lt;p/&gt;']">
+			<rdg wit="f1818">I will not rashly encounter dan&lt;pb n=&quot;020&quot; xml:id=&quot;F1818_v1_032&quot;/&gt;ger. I will be cool, persevering, and prudent.&lt;p eID=&quot;novel1_letter3_div3_p5&quot;/&gt; </rdg>
+			<rdg wit="f1823">I will not rashly encounter danger. I will be cool, persevering, and prudent.&lt;p eID=&quot;novel1_letter3_div3_p5&quot;/&gt; </rdg>
+			<rdg wit="fThomas">I will not rashly encounter dan&lt;pb n=&quot;020&quot; xml:id=&quot;F1818_v1_032&quot;/&gt;ger. I will be cool, persevering, and prudent.&lt;p eID=&quot;novel1_letter3_div3_p5&quot;/&gt; </rdg>
+			<rdg wit="f1831">I will not rashly encounter danger. I will be cool, persevering, and prudent.&lt;p eID=&quot;novel1_letter3_div3_p5&quot;/&gt; </rdg>
+		</rdgGrp>
+	</app>
+</cx:apparatus>
+<!-- 2018-10-03 19:23:51.102012 -->

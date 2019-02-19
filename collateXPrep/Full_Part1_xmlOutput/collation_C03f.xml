@@ -1,0 +1,50 @@
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="fMS"> </rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;p/&gt;shall']">
+			<rdg wit="f1818">&lt;p sID=&quot;novel1_letter2_div2_p8&quot;/&gt;Shall </rdg>
+			<rdg wit="f1823">&lt;p sID=&quot;novel1_letter2_div2_p8&quot;/&gt;&lt;pb n=&quot;17&quot; xml:id=&quot;F1823_v1_036&quot;/&gt;Shall </rdg>
+			<rdg wit="fThomas">&lt;p sID=&quot;novel1_letter2_div2_p8&quot;/&gt;Shall </rdg>
+		</rdgGrp>
+		<rdgGrp n="['shall']">
+			<rdg wit="f1831">Shall </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['i', 'meet', 'you', 'again,', 'after', 'having', 'traversed', 'immense', 'seas,', 'and', 'returned', 'by', 'the', 'most', 'southern', 'cape', 'of', 'africa', 'or', 'america?', 'i', 'dare', 'not', 'expect', 'such', 'success,', 'yet', 'i', 'cannot', 'bear', 'to', 'look', 'on', 'the', 'reverse', 'of', 'the', 'picture.', 'continue']">
+			<rdg wit="f1818">I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue </rdg>
+			<rdg wit="f1823">I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue </rdg>
+			<rdg wit="fThomas">I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue </rdg>
+		</rdgGrp>
+		<rdgGrp n="['i', 'meet', 'you', 'again,', 'after', 'having', 'traversed', 'immense', 'seas,', 'and', 'returned', 'by', 'the', 'most', 'southern', 'cape', 'of', 'africa', 'or', 'america?', 'i', 'dare', 'not', 'expect', 'such', 'success,', 'yet', 'i', 'cannot', 'bear', 'to', 'look', 'on', 'the', 'reverse', 'of', 'the', 'picture.', 'continue', 'for', 'the', 'present']">
+			<rdg wit="f1831">I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue for the present </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['to', 'write', 'to', 'me', 'by', 'every', 'opportunity:', 'i', 'may', 'receive', 'your', 'letters']">
+			<rdg wit="f1818">to write to me by every opportunity: I may receive your letters </rdg>
+			<rdg wit="f1823">to write to me by every opportunity: I may receive your letters </rdg>
+			<rdg wit="fThomas">to write to me by every opportunity: I may receive your letters </rdg>
+			<rdg wit="f1831">to write to me by every opportunity: I may receive your letters </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['(though', 'the', 'chance', 'is', 'very', 'doubtful)']">
+			<rdg wit="f1818">(though the chance is very doubtful) </rdg>
+			<rdg wit="f1823">(though the chance is very doubtful) </rdg>
+			<rdg wit="fThomas">(though the chance is very doubtful) </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['on', 'some', 'occasions', 'when', 'i', 'need', 'them', 'most', 'to', 'support', 'my', 'spirits.', 'i', 'love', 'you', 'very', 'tenderly.', 'remember', 'me', 'with', 'affection,', 'should', 'you', 'never', 'hear', 'from', 'me', 'again.&lt;p/&gt;&lt;p/&gt;your', 'affectionate', 'brother,&lt;p/&gt;&lt;p/&gt;robert', 'walton.&lt;p/&gt;']">
+			<rdg wit="f1818">on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.&lt;p eID=&quot;novel1_letter2_div2_p8&quot;/&gt;&lt;p sID=&quot;novel1_letter2_div2_p9&quot;/&gt;Your affectionate brother,&lt;p eID=&quot;novel1_letter2_div2_p9&quot;/&gt;&lt;p sID=&quot;novel1_letter2_div2_p10&quot;/&gt;R&lt;hi sID=&quot;novel1_letter2_div2_p10_hi1&quot;/&gt;OBERT&lt;hi eID=&quot;novel1_letter2_div2_p10_hi1&quot;/&gt; W&lt;hi sID=&quot;novel1_letter2_div2_p10_hi2&quot;/&gt;ALTON&lt;hi eID=&quot;novel1_letter2_div2_p10_hi2&quot;/&gt;.&lt;p eID=&quot;novel1_letter2_div2_p10&quot;/&gt;&lt;pb n=&quot;018&quot; xml:id=&quot;F1818_v1_030&quot;/&gt;&lt;milestone n=&quot;2&quot; type=&quot;end&quot; unit=&quot;letter&quot;/&gt; </rdg>
+			<rdg wit="f1823">on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.&lt;p eID=&quot;novel1_letter2_div2_p8&quot;/&gt;&lt;p sID=&quot;novel1_letter2_div2_p9&quot;/&gt;Your affectionate brother,&lt;p eID=&quot;novel1_letter2_div2_p9&quot;/&gt;&lt;p sID=&quot;novel1_letter2_div2_p10&quot;/&gt;R&lt;hi sID=&quot;novel1_letter2_div2_p10_hi1&quot;/&gt;OBERT&lt;hi eID=&quot;novel1_letter2_div2_p10_hi1&quot;/&gt; W&lt;hi sID=&quot;novel1_letter2_div2_p10_hi2&quot;/&gt;ALTON&lt;hi eID=&quot;novel1_letter2_div2_p10_hi2&quot;/&gt;.&lt;p eID=&quot;novel1_letter2_div2_p10&quot;/&gt;&lt;milestone n=&quot;2&quot; type=&quot;end&quot; unit=&quot;letter&quot;/&gt; </rdg>
+			<rdg wit="fThomas">on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.&lt;p eID=&quot;novel1_letter2_div2_p8&quot;/&gt;&lt;p sID=&quot;novel1_letter2_div2_p9&quot;/&gt;Your affectionate brother,&lt;p eID=&quot;novel1_letter2_div2_p9&quot;/&gt;&lt;p sID=&quot;novel1_letter2_div2_p10&quot;/&gt;R&lt;hi sID=&quot;novel1_letter2_div2_p10_hi1&quot;/&gt;OBERT&lt;hi eID=&quot;novel1_letter2_div2_p10_hi1&quot;/&gt; W&lt;hi sID=&quot;novel1_letter2_div2_p10_hi2&quot;/&gt;ALTON&lt;hi eID=&quot;novel1_letter2_div2_p10_hi2&quot;/&gt;.&lt;p eID=&quot;novel1_letter2_div2_p10&quot;/&gt;&lt;pb n=&quot;018&quot; xml:id=&quot;F1818_v1_030&quot;/&gt;&lt;milestone n=&quot;2&quot; type=&quot;end&quot; unit=&quot;letter&quot;/&gt; </rdg>
+			<rdg wit="f1831">on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.&lt;p eID=&quot;novel1_letter2_div2_p8&quot;/&gt;&lt;p sID=&quot;novel1_letter2_div2_p9&quot;/&gt;Your affectionate brother,&lt;p eID=&quot;novel1_letter2_div2_p9&quot;/&gt;&lt;p sID=&quot;novel1_letter2_div2_p10&quot;/&gt;R&lt;hi sID=&quot;novel1_letter2_div2_p10_hi1&quot;/&gt;OBERT&lt;hi eID=&quot;novel1_letter2_div2_p10_hi1&quot;/&gt; W&lt;hi sID=&quot;novel1_letter2_div2_p10_hi2&quot;/&gt;ALTON&lt;hi eID=&quot;novel1_letter2_div2_p10_hi2&quot;/&gt;.&lt;p eID=&quot;novel1_letter2_div2_p10&quot;/&gt;&lt;pb n=&quot;10&quot; xml:id=&quot;F1831_v_026&quot;/&gt;&lt;milestone n=&quot;2&quot; type=&quot;end&quot; unit=&quot;letter&quot;/&gt; </rdg>
+		</rdgGrp>
+	</app>
+</cx:apparatus>
+<!-- 2018-10-03 19:23:51.102012 -->

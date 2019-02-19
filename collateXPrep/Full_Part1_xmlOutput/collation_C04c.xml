@@ -1,0 +1,26 @@
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="fMS"> </rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;p/&gt;most', 'affectionately']">
+			<rdg wit="f1818">&lt;p sID=&quot;novel1_letter3_div3_p7&quot;/&gt;Most affectionately </rdg>
+			<rdg wit="f1823">&lt;p sID=&quot;novel1_letter3_div3_p7&quot;/&gt;Most affectionately </rdg>
+			<rdg wit="fThomas">&lt;p sID=&quot;novel1_letter3_div3_p7&quot;/&gt;Most affectionately </rdg>
+		</rdgGrp>
+		<rdgGrp n="['heaven', 'bless', 'my', 'beloved', 'sister!&lt;p/&gt;&lt;p/&gt;r.w.&lt;p/&gt;']">
+			<rdg wit="f1831">Heaven bless my beloved sister!&lt;p eID=&quot;novel1_letter3_div3_p7&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p8&quot;/&gt;R.W.&lt;p eID=&quot;novel1_letter3_div3_p8&quot;/&gt;&lt;pb n=&quot;11&quot; xml:id=&quot;F1831_v_027&quot;/&gt;&lt;milestone n=&quot;3&quot; type=&quot;end&quot; unit=&quot;letter&quot;/&gt; </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['yours,&lt;p/&gt;&lt;p/&gt;r.', 'w.&lt;p/&gt;']">
+			<rdg wit="f1823">yours,&lt;p eID=&quot;novel1_letter3_div3_p7&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p8&quot;/&gt;R. W.&lt;p eID=&quot;novel1_letter3_div3_p8&quot;/&gt;&lt;milestone n=&quot;3&quot; type=&quot;end&quot; unit=&quot;letter&quot;/&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['yours,&lt;p/&gt;&lt;p/&gt;r.w.&lt;p/&gt;']">
+			<rdg wit="f1818">yours,&lt;p eID=&quot;novel1_letter3_div3_p7&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p8&quot;/&gt;R.W.&lt;p eID=&quot;novel1_letter3_div3_p8&quot;/&gt;&lt;pb n=&quot;021&quot; xml:id=&quot;F1818_v1_033&quot;/&gt;&lt;milestone n=&quot;3&quot; type=&quot;end&quot; unit=&quot;letter&quot;/&gt; </rdg>
+			<rdg wit="fThomas">yours,&lt;p eID=&quot;novel1_letter3_div3_p7&quot;/&gt;&lt;p sID=&quot;novel1_letter3_div3_p8&quot;/&gt;R.W.&lt;p eID=&quot;novel1_letter3_div3_p8&quot;/&gt;&lt;pb n=&quot;021&quot; xml:id=&quot;F1818_v1_033&quot;/&gt;&lt;milestone n=&quot;3&quot; type=&quot;end&quot; unit=&quot;letter&quot;/&gt; </rdg>
+		</rdgGrp>
+	</app>
+</cx:apparatus>
+<!-- 2018-10-03 19:23:51.102012 -->

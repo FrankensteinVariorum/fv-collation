@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['']">
+			      <rdg wit="f1831"> </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['my', 'father,', 'who', 'saw', 'in', 'the', 'unhappiness', 'that', 'was', 'painted', 'in', 'my', 'face']">
+			      <rdg wit="f1818">My father, who saw in the unhappiness that was painted in my face </rdg>
+			      <rdg wit="f1823">My father, who saw in the unhappiness that was painted in my face </rdg>
+			      <rdg wit="fThomas">My father, who saw in the unhappiness that was painted in my face </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['my', 'father', 'who', 'saw', 'in', 'the', 'unhappiness', 'that', 'was', 'painted', 'in', 'my', 'face,']">
+			      <rdg wit="fMS">My father who saw &lt;lb n="c56-0115__main__7"/&gt; in the unhappiness that was painted in &lt;lb n="c56-0115__main__8"/&gt; my face, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['only', 'an', 'exaggeration', 'of', 'that']">
+			      <rdg wit="f1818">only an exaggeration of that </rdg>
+			      <rdg wit="f1823">only an exaggeration of that </rdg>
+			      <rdg wit="fThomas">only an exaggeration of that </rdg>
+			      <rdg wit="fMS">only an exaggeration of that </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		
+	</app>
+	  <app>
+		    <rdgGrp n="['sorrow', 'which', 'i', 'might', 'naturally', 'feel,']">
+			      <rdg wit="f1818">sorrow which I might naturally feel, </rdg>
+			      <rdg wit="f1823">&lt;pb n="192" xml:id="F1823_v1_211"/&gt;sorrow which I might naturally feel, </rdg>
+			      <rdg wit="fThomas">sorrow which I might naturally feel, </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['&lt;del&gt;w&lt;del&gt;', 'sorrow', 'which', 'i', 'might', 'naturally']">
+			      <rdg wit="fMS">&lt;lb n="c56-0115__main__9"/&gt;&lt;del rend="strikethrough" sID="c56-0115__main__d2e24424"/&gt;w&lt;del eID="c56-0115__main__d2e24424"/&gt; sorrow which I might naturally &lt;lb n="c56-0115__main__10"/&gt; feel </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['thought', 'that', 'an', 'amusement']">
+			      <rdg wit="f1818">thought that an amusement </rdg>
+			      <rdg wit="f1823">thought that an amusement </rdg>
+			      <rdg wit="fThomas">thought that an amusement </rdg>
+			      <rdg wit="fMS">thought that an amusement </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['suited', 'to', 'my', 'taste', 'would', 'be', 'the', 'best']">
+			      <rdg wit="f1818">suited to my taste would be the best </rdg>
+			      <rdg wit="f1823">suited to my taste would be the best </rdg>
+			      <rdg wit="fThomas">suited to my taste would be the best </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0115__main__11"/&gt; suited to my taste would be the best </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['means', 'of', 'restoring', 'to', 'me', 'my', 'wonted']">
+			      <rdg wit="f1818">means of restoring to me my wonted </rdg>
+			      <rdg wit="f1823">means of restoring to me my wonted </rdg>
+			      <rdg wit="fThomas">means of restoring to me my wonted </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0115__main__12"/&gt; means of restoring to me my wonted </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'serenity', '–']">
+			      <rdg wit="fMS">&lt;lb n="c56-0115__main__13"/&gt; serenity – </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['serenity.']">
+			      <rdg wit="f1818">serenity. </rdg>
+			      <rdg wit="f1823">serenity. </rdg>
+			      <rdg wit="fThomas">serenity. </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['it', 'was']">
+			      <rdg wit="f1818">It was </rdg>
+			      <rdg wit="f1823">It was </rdg>
+			      <rdg wit="fThomas">It was </rdg>
+			      <rdg wit="fMS">It was </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;del&gt;th&lt;del&gt;']">
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0115__main__d2e24435"/&gt;th&lt;del eID="c56-0115__main__d2e24435"/&gt; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['from', 'this', 'cause', 'that']">
+			      <rdg wit="f1818">from this cause that </rdg>
+			      <rdg wit="f1823">from this cause that </rdg>
+			      <rdg wit="fThomas">from this cause that </rdg>
+			      <rdg wit="fMS">fro&lt;mdel&gt;n&lt;/mdel&gt;m this cause that </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'he&lt;del&gt;a&lt;del&gt;']">
+			      <rdg wit="fMS">&lt;lb n="c56-0115__main__14"/&gt; he&lt;del rend="strikethrough" sID="c56-0115__main__d2e24450"/&gt;a&lt;del eID="c56-0115__main__d2e24450"/&gt; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['he']">
+			      <rdg wit="f1818">he </rdg>
+			      <rdg wit="f1823">he </rdg>
+			      <rdg wit="fThomas">he </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['had', 'removed', 'to', 'the']">
+			      <rdg wit="f1818">had removed to the </rdg>
+			      <rdg wit="f1823">had removed to the </rdg>
+			      <rdg wit="fThomas">had removed to the </rdg>
+			      <rdg wit="fMS">had removed to the </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['country', 'and&lt;del&gt;from&lt;del&gt;induced']">
+			      <rdg wit="fMS">country &amp;&lt;del rend="strikethrough" sID="c56-0115__main__d2e24455"/&gt;from&lt;del eID="c56-0115__main__d2e24455"/&gt;&lt;lb n="c56-0115__left_margin__1"/&gt;induced </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['country;', 'and,', 'induced']">
+			      <rdg wit="f1818">country; and, induced </rdg>
+			      <rdg wit="f1823">country; and, induced </rdg>
+			      <rdg wit="fThomas">country; and, induced </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['by', 'the', 'same']">
+			      <rdg wit="f1818">by the same </rdg>
+			      <rdg wit="f1823">by the same </rdg>
+			      <rdg wit="fThomas">by the same </rdg>
+			      <rdg wit="fMS">by&lt;lb n="c56-0115__main__15"/&gt; the same </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['motive,']">
+			      <rdg wit="f1818">motive, </rdg>
+			      <rdg wit="f1823">motive, </rdg>
+			      <rdg wit="fThomas">motive, </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['reasons']">
+			      <rdg wit="fMS">reasons </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;p/&gt;Sometimes', 'I', 'could', 'cope', 'with', 'the', 'sullen', 'despair', 'that', 'overwhelmed', 'me:', 'but', 'sometimes', 'the', 'whirlwind', 'passions', 'of', 'my', 'soul', 'drove', 'me', 'to', 'seek,', 'by', 'bodily', 'exercise', 'and', 'by', 'change', 'of', 'place,', 'some', 'relief', 'from', 'my', 'intolerable', 'sensations.', 'It', 'was', 'during', 'an', 'access', 'of', 'this', 'kind', 'that', 'I', 'suddenly', 'left', 'my', 'home,', 'and', 'bending', 'my', 'steps', 'towards', 'the', 'near', 'Alpine', 'valleys,', 'sought', 'in', 'the', 'magnificence,', 'the', 'eternity', 'of', 'such', 'scenes,', 'to', 'forget', 'myself', 'and', 'my', 'ephemeral,', 'because', 'human,', 'sorrows.', 'My', 'wanderings', 'were', 'directed', 'towards', 'the', 'valley', 'of', 'Chamounix.', 'I', 'had', 'visited', 'it', 'frequently', 'during', 'my', 'boyhood.', 'Six', 'years', 'had', 'passed', 'since', 'then:', 'I', 'was', 'a', 'wreck—but', 'nought', 'had', 'changed', 'in', 'those', 'savage', 'and', 'enduring', 'scenes.&lt;p/&gt;', '&lt;p/&gt;I', 'performed', 'the', 'first', 'part', 'of', 'my', 'journey', 'on', 'horseback.', 'I', 'afterwards', 'hired', 'a', 'mule,', 'as', 'the', 'more', 'sure-footed,', 'and', 'least', 'liable', 'to', 'receive', 'injury', 'on', 'these', 'rugged', 'roads.', 'The', 'weather', 'was', 'fine:', 'it', 'was']">
+			      <rdg wit="f1831">&lt;p sID="novel1_letter4_chapter9_div4_div9_p12"/&gt;Sometimes I could cope with the sullen despair that overwhelmed me: but sometimes the whirlwind passions of my soul drove me to seek, by bodily exercise and by change of place, some relief from my intolerable sensations. It was during an access of this kind that I suddenly left my home, and bending my steps towards the near Alpine valleys, sought in the magnificence, the eternity of such scenes, to forget myself and my ephemeral, because human, sorrows. My wanderings were directed towards the valley of Chamounix. I had visited it frequently during my boyhood. Six years had passed since then: &lt;hi sID="novel1_letter4_chapter9_div4_div9_p12_hi1"/&gt;I&lt;hi eID="novel1_letter4_chapter9_div4_div9_p12_hi1"/&gt; was a wreck—but nought had changed in those savage and enduring scenes.&lt;p eID="novel1_letter4_chapter9_div4_div9_p12"/&gt; &lt;p sID="novel1_letter4_chapter9_div4_div9_p13"/&gt;I performed the first part of my journey on horseback. I afterwards hired a mule, as the more sure-footed, and least liable to receive injury on these rugged roads. The weather was fine: it was </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['he', 'now', 'proposed', 'that', 'we', 'should', 'all', 'make', 'an', 'excursion', 'to', 'the', 'valley', 'of', 'chamounix.', 'i', 'had', 'been', 'there', 'before,']">
+			      <rdg wit="f1818">he now proposed that we should all make an excursion to the valley of Chamounix. I had been there before, </rdg>
+			      <rdg wit="f1823">he now proposed that we should all make an excursion to the valley of Chamounix. I had been there before, </rdg>
+			      <rdg wit="fThomas">he now proposed that we should all make an excursion to the valley of Chamounix. I had been there before, </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['he', 'now', 'proposed', 'that', '&lt;del&gt;i&lt;del&gt;', 'we', 'should', 'all', '&lt;del&gt;tak&lt;del&gt;', 'take', 'a', '', 'journey', 'to', 'the', 'valley', 'of', 'chamounix.', 'i', 'had', 'been', 'there', 'before']">
+			      <rdg wit="fMS">he now proposed &lt;lb n="c56-0115__main__16"/&gt; that &lt;del rend="strikethrough" sID="c56-0115__main__d2e24474"/&gt;I&lt;del eID="c56-0115__main__d2e24474"/&gt; we should all &lt;del rend="strikethrough" sID="c56-0115__main__d2e24477"/&gt;tak&lt;del eID="c56-0115__main__d2e24477"/&gt; take a &lt;lb n="c56-0115__main__17"/&gt; journey to the Valley of C&lt;metamark function="insert"&gt;^&lt;/metamark&gt;hamounix. I had &lt;lb n="c56-0115__main__18"/&gt; been there before </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['but', 'elizabeth', 'and', 'ernest']">
+			      <rdg wit="f1818">but Elizabeth and Ernest </rdg>
+			      <rdg wit="f1823">but Elizabeth and Ernest </rdg>
+			      <rdg wit="fThomas">but Elizabeth and Ernest </rdg>
+			      <rdg wit="fMS">but Elizabeth &amp; Ernest </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['never']">
+			      <rdg wit="f1818">never </rdg>
+			      <rdg wit="f1823">never </rdg>
+			      <rdg wit="fThomas">never </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0115__main__19"/&gt; never </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['had,']">
+			      <rdg wit="fMS">had, </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['had;']">
+			      <rdg wit="f1818">had; </rdg>
+			      <rdg wit="f1823">had; </rdg>
+			      <rdg wit="fThomas">had; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['and', 'both', 'had', 'often', 'expressed']">
+			      <rdg wit="f1818">and both had often expressed </rdg>
+			      <rdg wit="f1823">and both had often expressed </rdg>
+			      <rdg wit="fThomas">and both had often expressed </rdg>
+			      <rdg wit="fMS">and both had often ex&lt;lb n="c56-0115__main__20"/&gt;pressed </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['a', 'wish']">
+			      <rdg wit="fMS">a wish </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['an', 'earnest', 'desire']">
+			      <rdg wit="f1818">an earnest desire </rdg>
+			      <rdg wit="f1823">an earnest desire </rdg>
+			      <rdg wit="fThomas">an earnest desire </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['to', 'see']">
+			      <rdg wit="f1818">to see </rdg>
+			      <rdg wit="f1823">to see </rdg>
+			      <rdg wit="fThomas">to see </rdg>
+			      <rdg wit="fMS">to see </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['the', 'scenery', 'of']">
+			      <rdg wit="f1818">the scenery of </rdg>
+			      <rdg wit="f1823">the scenery of </rdg>
+			      <rdg wit="fThomas">the scenery of </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['this']">
+			      <rdg wit="f1818">this </rdg>
+			      <rdg wit="f1823">this </rdg>
+			      <rdg wit="fThomas">this </rdg>
+			      <rdg wit="fMS">this </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['place']">
+			      <rdg wit="fMS">place </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['place,']">
+			      <rdg wit="f1818">place, </rdg>
+			      <rdg wit="f1823">place, </rdg>
+			      <rdg wit="fThomas">place, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['which']">
+			      <rdg wit="f1818">which </rdg>
+			      <rdg wit="f1823">which </rdg>
+			      <rdg wit="fThomas">which </rdg>
+			      <rdg wit="fMS">which </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['had', 'been', 'described', 'to', 'them', 'as', 'so', 'wonderful', 'and', 'sublime.', 'accordingly', 'we', 'departed', 'from']">
+			      <rdg wit="f1818">had been described to them as so wonderful and sublime. Accordingly we departed from </rdg>
+			      <rdg wit="f1823">had been described to them as so wonderful and sublime. Accordingly we departed from </rdg>
+			      <rdg wit="fThomas">had been described to them as so wonderful and sublime. Accordingly we departed from </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0115__main__21"/&gt; had been described to them as so wonderful &lt;lb n="c56-0115__main__22"/&gt;&amp; sublime. Accordingly we departed from </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['geneva', 'on', 'this', 'tour']">
+			      <rdg wit="f1818">Geneva on this tour </rdg>
+			      <rdg wit="f1823">Geneva on this tour </rdg>
+			      <rdg wit="fThomas">Geneva on this tour </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0115__main__23"/&gt; Geneva on this tour </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-01 10:31:12.082731 -->

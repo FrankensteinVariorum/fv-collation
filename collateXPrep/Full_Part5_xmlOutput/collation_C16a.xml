@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['chap.', '14&lt;p/&gt;the']">
+			      <rdg wit="fMS">&lt;lb n="c56-0119__main__1"/&gt;&lt;milestone spanTo="#c56-0119.01" unit="tei:head"/&gt;Chap. 14&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0119__main__2"/&gt;The </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['chapter']">
+			      <rdg wit="f1818">&lt;milestone n="9" type="start" unit="chapter"/&gt;&lt;pb n="016" xml:id="F1818_v2_020"/&gt;&lt;head sID="novel1_letter4_chapter9_div4_div10_head1"/&gt;CHAPTER </rdg>
+			      <rdg wit="f1823">&lt;pb n="197" xml:id="F1823_v1_216"/&gt;&lt;milestone n="9" type="start" unit="chapter"/&gt;&lt;head sID="novel1_letter4_chapter9_div4_div9_head1"/&gt;CHAPTER </rdg>
+			      <rdg wit="fThomas">&lt;milestone n="9" type="start" unit="chapter"/&gt;&lt;pb n="016" xml:id="F1818_v2_020"/&gt;&lt;head sID="novel1_letter4_chapter9_div4_div10_head1"/&gt;CHAPTER </rdg>
+			      <rdg wit="f1831">&lt;milestone unit="chapter" type="start" n="10"/&gt; &lt;head sID="novel1_letter4_chapter10_div4_div10_head1"/&gt;CHAPTER </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['ii.&lt;p/&gt;the']">
+			      <rdg wit="f1818">II.&lt;head eID="novel1_letter4_chapter9_div4_div10_head1"/&gt;&lt;p sID="novel1_letter4_chapter9_div4_div10_p1"/&gt;T&lt;hi sID="novel1_letter4_chapter9_div4_div10_p1_hi1"/&gt;HE&lt;hi eID="novel1_letter4_chapter9_div4_div10_p1_hi1"/&gt; </rdg>
+			      <rdg wit="fThomas">II.&lt;head eID="novel1_letter4_chapter9_div4_div10_head1"/&gt;&lt;p sID="novel1_letter4_chapter9_div4_div10_p1"/&gt;T&lt;hi sID="novel1_letter4_chapter9_div4_div10_p1_hi1"/&gt;HE&lt;hi eID="novel1_letter4_chapter9_div4_div10_p1_hi1"/&gt; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['ix.&lt;p/&gt;the']">
+			      <rdg wit="f1823">IX.&lt;head eID="novel1_letter4_chapter9_div4_div9_head1"/&gt;&lt;p sID="novel1_letter4_chapter9_div4_div9_p1"/&gt;T&lt;hi sID="novel1_letter4_chapter9_div4_div9_p1_hi1"/&gt;HE&lt;hi eID="novel1_letter4_chapter9_div4_div9_p1_hi1"/&gt; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['x.&lt;p/&gt;I', 'spent']">
+			      <rdg wit="f1831">X.&lt;head eID="novel1_letter4_chapter10_div4_div10_head1"/&gt; &lt;p sID="novel1_letter4_chapter10_div4_div10_p1"/&gt;I &lt;hi sID="novel1_letter4_chapter10_div4_div10_p1_hi1"/&gt;SPENT&lt;hi eID="novel1_letter4_chapter10_div4_div10_p1_hi1"/&gt;</rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['the', 'following', 'day', 'roaming', 'through', 'the', 'valley.']">
+			      <rdg wit="f1831">the following day roaming through the valley. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['next', 'day,', 'contrary', 'to', 'the']">
+			      <rdg wit="f1818">next day, contrary to the </rdg>
+			      <rdg wit="f1823">next day, contrary to the </rdg>
+			      <rdg wit="fThomas">next day, contrary to the </rdg>
+			      <rdg wit="fMS">next day, contrary to the </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['prognostications']">
+			      <rdg wit="f1818">prognostications </rdg>
+			      <rdg wit="f1823">prognostications </rdg>
+			      <rdg wit="fThomas">prognostications </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['prognostics']">
+			      <rdg wit="fMS">prognostics </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['of', 'our']">
+			      <rdg wit="f1818">of our </rdg>
+			      <rdg wit="f1823">of our </rdg>
+			      <rdg wit="fThomas">of our </rdg>
+			      <rdg wit="fMS">of our </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['guides,', 'was']">
+			      <rdg wit="f1818">guides, was </rdg>
+			      <rdg wit="f1823">guides, was </rdg>
+			      <rdg wit="fThomas">guides, was </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0119__main__3"/&gt; guides, was </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['fine']">
+			      <rdg wit="fMS">fine </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['fine,']">
+			      <rdg wit="f1818">fine, </rdg>
+			      <rdg wit="f1823">fine, </rdg>
+			      <rdg wit="fThomas">fine, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['although', 'clouded.']">
+			      <rdg wit="f1818">although clouded. </rdg>
+			      <rdg wit="f1823">although clouded. </rdg>
+			      <rdg wit="fThomas">although clouded. </rdg>
+			      <rdg wit="fMS">although clouded. </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['I', 'stood', 'beside', 'the', 'sources', 'of', 'the', 'Arveiron,', 'which', 'take', 'their', 'rise', 'in', 'a', 'glacier,', 'that', 'with', 'slow', 'pace', 'is', 'advancing', 'down', 'from', 'the', 'summit', 'of', 'the', 'hills,', 'to', 'barricade', 'the', 'valley.', 'The', 'abrupt', 'sides', 'of', 'vast', 'mountains', 'were', 'before', 'me;', 'the', 'icy', 'wall', 'of', 'the', 'glacier', 'overhung', 'me;', 'a', 'few', 'shattered', 'pines', 'were', 'scattered', 'around;', 'and', 'the', 'solemn', 'silence', 'of', 'this', 'glorious', 'presence-chamber', 'of', 'imperial', 'Nature', 'was', 'broken', 'only', 'by', 'the', 'brawling', 'waves,', 'or', 'the', 'fall', 'of', 'some', 'vast', 'fragment,', 'the', 'thunder', 'sound', 'of', 'the', 'avalanche,', 'or', 'the', 'cracking,', 'reverberated', 'along', 'the', 'mountains', 'of', 'the', 'accumulated', 'ice,', 'which,', 'through', 'the', 'silent', 'working', 'of', 'immutable', 'laws,', 'was', 'ever', 'and', 'anon', 'rent', 'and', 'torn,', 'as', 'if', 'it', 'had', 'been', 'but', 'a', 'plaything', 'in', 'their', 'hands.']">
+			      <rdg wit="f1831">I stood beside the sources of the Arveiron, which take their rise in a glacier, that with slow pace is advancing down from the summit of the hills, to barricade the valley. The abrupt sides of vast mountains were before me; the icy wall of the glacier overhung me; a few shattered pines were scattered around; and the solemn silence of this glorious presence-chamber of imperial Nature was broken only by the brawling waves, or the fall of some vast fragment, the thunder sound of the avalanche, or the cracking, reverberated along the mountains of the accumulated ice, which, through the silent working of immutable laws, was ever and anon rent and torn, as if it had been but a plaything in their hands.</rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['we', 'visited', 'the', 'source', 'of', 'the', 'arveiron,']">
+			      <rdg wit="f1818">We visited the source of the Arveiron, </rdg>
+			      <rdg wit="f1823">We visited the source of the Arveiron, </rdg>
+			      <rdg wit="fThomas">We visited the source of the Arveiron, </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['we', 'visited', 'the', 'source', 'of', 'the', 'aveiron']">
+			      <rdg wit="fMS">&lt;metamark function="insert"&gt;^&lt;/metamark&gt;We visited the &lt;lb n="c56-0119__main__4"/&gt; source of the Aveiron </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['and', 'rode', 'about', 'the']">
+			      <rdg wit="f1818">and rode about the </rdg>
+			      <rdg wit="f1823">and rode about the </rdg>
+			      <rdg wit="fThomas">and rode about the </rdg>
+			      <rdg wit="fMS">and rode about the </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['valley']">
+			      <rdg wit="f1818">valley </rdg>
+			      <rdg wit="f1823">valley </rdg>
+			      <rdg wit="fThomas">valley </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0119__main__5"/&gt; valley </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;del&gt;the', 'whole', 'da&lt;del&gt;until']">
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0119__main__d2e25060"/&gt;the whole da&lt;del eID="c56-0119__main__d2e25060"/&gt;&lt;mdel&gt;y&lt;/mdel&gt;until </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['until']">
+			      <rdg wit="f1818">until </rdg>
+			      <rdg wit="f1823">until </rdg>
+			      <rdg wit="fThomas">until </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['evening.']">
+			      <rdg wit="f1818">evening. </rdg>
+			      <rdg wit="f1823">evening. </rdg>
+			      <rdg wit="fThomas">evening. </rdg>
+			      <rdg wit="fMS">evening. </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-01 10:31:12.082731 -->

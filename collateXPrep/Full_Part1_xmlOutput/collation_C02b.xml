@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="fMS"> </rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;del&gt;for', 'ever&lt;del&gt;constantly']">
+			<rdg wit="fThomas">&lt;del sID=&quot;novel1_letter1_div1_p3_del1&quot;/&gt;for ever&lt;del eID=&quot;novel1_letter1_div1_p3_del1&quot;/&gt;constantly </rdg>
+		</rdgGrp>
+		<rdgGrp n="['for', 'ever']">
+			<rdg wit="f1818">for ever </rdg>
+			<rdg wit="f1823">for ever </rdg>
+			<rdg wit="f1831">for ever </rdg>
+		</rdgGrp>
+	</app>
+</cx:apparatus>
+<!-- 2018-10-03 19:23:51.102012 -->

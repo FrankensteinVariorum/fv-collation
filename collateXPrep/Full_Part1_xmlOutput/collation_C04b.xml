@@ -1,0 +1,17 @@
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="fMS"> </rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;p&gt;But', 'success', 'shall', 'crown', 'my', 'endeavours.', 'Wherefore', 'not?', 'Thus', 'far', 'I', 'have', 'gone,', 'tracing', 'a', 'secure', 'way', 'over', 'the', 'pathless', 'seas:', 'the', 'very', 'stars', 'themselves', 'being', 'witnesses', 'and', 'testimonies', 'of', 'my', 'triumph.', 'Why', 'not', 'still', 'proceed', 'over', 'the', 'untamed', 'yet', 'obedient', 'element?', 'What', 'can', 'stop', 'the', 'determined', 'heart', 'and', 'resolved', 'will', 'of', 'man?&lt;p&gt;', '&lt;p&gt;My', 'swelling', 'heart', 'involuntarily', 'pours', 'itself', 'out', 'thus.', 'But', 'I', 'must', 'finish.']">
+			<rdg wit="f1831">&lt;p sID="novel1_letter3_div3_p6"/&gt;But success &lt;hi sID="novel1_letter3_div3_p6_hi1"/&gt;shall&lt;hi eID="novel1_letter3_div3_p6_hi1"/&gt; crown my endeavours. Wherefore not? Thus far I have gone, tracing a secure way over the pathless seas: the very stars themselves being witnesses and testimonies of my triumph. Why not still proceed over the untamed yet obedient element? What can stop the determined heart and resolved will of man?&lt;p eID="novel1_letter3_div3_p6"/&gt; &lt;p sID="novel1_letter3_div3_p7"/&gt;My swelling heart involuntarily pours itself out thus. But I must finish.</rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;p/&gt;remember', 'me', 'to', 'all', 'my', 'english', 'friends.&lt;p/&gt;']">
+			<rdg wit="f1818">&lt;p sID=&quot;novel1_letter3_div3_p6&quot;/&gt;Remember me to all my English friends.&lt;p eID=&quot;novel1_letter3_div3_p6&quot;/&gt; </rdg>
+			<rdg wit="f1823">&lt;p sID=&quot;novel1_letter3_div3_p6&quot;/&gt;&lt;pb n=&quot;20&quot; xml:id=&quot;F1823_v1_039&quot;/&gt;Remember me to all my English friends.&lt;p eID=&quot;novel1_letter3_div3_p6&quot;/&gt; </rdg>
+			<rdg wit="fThomas">&lt;p sID=&quot;novel1_letter3_div3_p6&quot;/&gt;Remember me to all my English friends.&lt;p eID=&quot;novel1_letter3_div3_p6&quot;/&gt; </rdg>
+		</rdgGrp>
+	</app>
+</cx:apparatus>
+<!-- 2018-10-03 19:23:51.102012 -->

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['never']">
+			      <rdg wit="f1818">never </rdg>
+			      <rdg wit="f1823">never </rdg>
+			      <rdg wit="fThomas">never </rdg>
+			      <rdg wit="f1831">Never </rdg>
+			      <rdg wit="fMS">never </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['']">
+			      <rdg wit="fMS">&lt;lb n="c56-0020__main__23"/&gt; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['was', 'she']">
+			      <rdg wit="f1831">was she </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['beheld', 'her']">
+			      <rdg wit="f1818">beheld her </rdg>
+			      <rdg wit="f1823">beheld her </rdg>
+			      <rdg wit="fThomas">beheld her </rdg>
+			      <rdg wit="fMS">beheld her </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['so', 'enchanting', 'as', 'at', 'this']">
+			      <rdg wit="f1818">so enchanting as at this </rdg>
+			      <rdg wit="f1823">so enchanting as at this </rdg>
+			      <rdg wit="fThomas">so enchanting as at this </rdg>
+			      <rdg wit="f1831">so enchanting as at this </rdg>
+			      <rdg wit="fMS">so enchanting as at this </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'time']">
+			      <rdg wit="fMS">&lt;lb n="c56-0020__main__24"/&gt; time </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['time,']">
+			      <rdg wit="f1818">time, </rdg>
+			      <rdg wit="f1823">time, </rdg>
+			      <rdg wit="fThomas">time, </rdg>
+			      <rdg wit="f1831">time, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['when', 'she']">
+			      <rdg wit="f1818">when she </rdg>
+			      <rdg wit="f1823">when she </rdg>
+			      <rdg wit="fThomas">when she </rdg>
+			      <rdg wit="f1831">when she </rdg>
+			      <rdg wit="fMS">when she </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['recalled', 'the', 'sunshine', 'of', 'her', 'smiles', 'and', 'spent', 'them', 'upon', 'us.', 'she', 'forgot', 'even', 'her', 'own', 'regret', 'in', 'her', 'endeavours', 'to', 'make', 'us', 'forget.&lt;p/&gt;&lt;p/&gt;the']">
+			      <rdg wit="f1831">recalled the sunshine of her smiles and spent them upon us. She forgot even her own regret in her endeavours to make us forget.&lt;p eID="novel1_letter4_chapter3_div4_div3_p5"/&gt;&lt;p sID="novel1_letter4_chapter3_div4_div3_p6"/&gt;The </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['sar', 'sacrifised', 'every', '', 'minut&lt;del&gt;e&lt;del&gt;&lt;del&gt;of', 'her', 'time&lt;del&gt;&lt;del&gt;to', 'others&lt;del&gt;wascontinually']">
+			      <rdg wit="fMS">sar sacrifised every &lt;lb n="c56-0020__main__25"/&gt; minut&lt;del rend="unmarked" sID="c56-0020__main__d2e3968"/&gt;e&lt;del eID="c56-0020__main__d2e3968"/&gt;&lt;del rend="strikethrough" sID="c56-0020__main__d2e3971"/&gt;of her time&lt;del eID="c56-0020__main__d2e3971"/&gt;&lt;del rend="strikethrough" sID="c56-0020__main__d2e3974"/&gt;to others&lt;del eID="c56-0020__main__d2e3974"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;wascontinual&lt;lb n="c56-0020__main__26"/&gt;ly </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['was', 'continually']">
+			      <rdg wit="f1818">was continually </rdg>
+			      <rdg wit="f1823">was continually </rdg>
+			      <rdg wit="fThomas">was continually </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['endeavouring', 'to', 'contribute', 'to', 'the']">
+			      <rdg wit="f1818">endeavouring to con&lt;pb n="066" xml:id="F1818_v1_078"/&gt;tribute to the </rdg>
+			      <rdg wit="f1823">endeavouring to contribute to the </rdg>
+			      <rdg wit="fThomas">endeavouring to con&lt;pb n="066" xml:id="F1818_v1_078"/&gt;tribute to the </rdg>
+			      <rdg wit="fMS">endeavouring to contribute to the </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['happiness', 'of']">
+			      <rdg wit="f1818">happiness of </rdg>
+			      <rdg wit="f1823">happi&lt;pb n="65" xml:id="F1823_v1_085"/&gt;ness of </rdg>
+			      <rdg wit="fThomas">happiness of </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0020__main__27"/&gt; happiness of </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['others']">
+			      <rdg wit="fMS">others </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['others,']">
+			      <rdg wit="f1818">others, </rdg>
+			      <rdg wit="f1823">others, </rdg>
+			      <rdg wit="fThomas">others, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['entirely', 'forgetful', 'of']">
+			      <rdg wit="f1818">entirely forgetful of </rdg>
+			      <rdg wit="f1823">entirely forgetful of </rdg>
+			      <rdg wit="fThomas">entirely forgetful of </rdg>
+			      <rdg wit="fMS">entirely forgetful&lt;lb n="c56-0021__main__1"/&gt; of </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;del&gt;hels&lt;del&gt;', 'herself.&lt;p/&gt;', 'the']">
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0021__main__d2e4010"/&gt;hels&lt;del eID="c56-0021__main__d2e4010"/&gt; herself.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0021__main__2"/&gt; The </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['herself.&lt;p/&gt;&lt;p/&gt;the']">
+			      <rdg wit="f1818">herself.&lt;p eID="novel1_letter4_chapter2_div4_div2_p3"/&gt;&lt;p sID="novel1_letter4_chapter2_div4_div2_p4"/&gt;The </rdg>
+			      <rdg wit="f1823">herself.&lt;p eID="novel1_letter4_chapter2_div4_div2_p4"/&gt;&lt;p sID="novel1_letter4_chapter2_div4_div2_p5"/&gt;The </rdg>
+			      <rdg wit="fThomas">herself.&lt;p eID="novel1_letter4_chapter2_div4_div2_p3"/&gt;&lt;p sID="novel1_letter4_chapter2_div4_div2_p4"/&gt;The </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['day', 'of', 'my', 'departure', 'at']">
+			      <rdg wit="f1818">day of my departure at </rdg>
+			      <rdg wit="f1823">day of my departure at </rdg>
+			      <rdg wit="fThomas">day of my departure at </rdg>
+			      <rdg wit="f1831">day of my departure at </rdg>
+			      <rdg wit="fMS">day of my departure at </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['lenghth', '', 'arrived', '–']">
+			      <rdg wit="fMS">lenghth &lt;lb n="c56-0021__main__3"/&gt; arrived – </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['length', 'arrived.']">
+			      <rdg wit="f1818">length arrived. </rdg>
+			      <rdg wit="f1823">length arrived. </rdg>
+			      <rdg wit="fThomas">length arrived. </rdg>
+			      <rdg wit="f1831">length arrived. </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-04 16:58:37.992715 -->

@@ -1,0 +1,49 @@
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="fMS"> </rdg>
+		</rdgGrp>
+		<rdgGrp n="['some', 'years', 'ago', 'he', 'loved', 'a', 'young', 'russian', 'lady,', 'of', 'moderate', 'fortune;', 'and', 'having', 'amassed', 'a', 'considerable', 'sum', 'in', 'prize-money,', 'the', 'father', 'of', 'the', 'girl', 'consented', 'to', 'the', 'match.', 'he', 'saw', 'his', 'mistress', 'once', 'before', 'the', 'destined', 'ceremony;', 'but', 'she', 'was', 'bathed', 'in', 'tears,', 'and,', 'throwing', 'herself', 'at', 'his', 'feet,', 'entreated', 'him', 'to', 'spare', 'her,', 'confessing', 'at', 'the', 'same', 'time', 'that', 'she', 'loved', 'another,', 'but', 'that', 'he', 'was', 'poor,', 'and', 'that', 'her', 'father', 'would', 'never', 'consent', 'to', 'the', 'union.', 'my', 'generous', 'friend', 'reassured', 'the', 'suppliant,', 'and', 'on', 'being', 'informed', 'of', 'the', 'name', 'of', 'her']">
+			<rdg wit="f1818">Some years ago he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match. He saw his mistress once before the destined ceremony; but she was bathed in tears, and, throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union. My generous friend reassured the suppliant, and on being informed of the name of her </rdg>
+			<rdg wit="f1823">Some years ago he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match. He saw his mistress once before the destined ceremony; but she was bathed in tears, and, throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union. My generous friend reassured the suppliant, and on being informed of the name of her </rdg>
+			<rdg wit="fThomas">Some years ago he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match. He saw his mistress once before the destined ceremony; but she was bathed in tears, and, throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union. My generous friend reassured the suppliant, and on being informed of the name of her </rdg>
+			<rdg wit="f1831">Some years ago he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match. He saw his mistress once before the destined ceremony; but she was bathed in tears, and, throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union. My generous friend reassured the suppliant, and on being informed of the name of her </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['lover']">
+			<rdg wit="f1818">lover </rdg>
+			<rdg wit="f1823">lover </rdg>
+			<rdg wit="fThomas">lover </rdg>
+		</rdgGrp>
+		<rdgGrp n="['lover,']">
+			<rdg wit="f1831">lover, </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['instantly', 'abandoned', 'his', 'pursuit.', 'he', 'had', 'already', 'bought', 'a', 'farm', 'with', 'his']">
+			<rdg wit="f1818">instantly abandoned his pursuit. He had &lt;pb n=&quot;015&quot; xml:id=&quot;F1818_v1_027&quot;/&gt;already bought a farm with his </rdg>
+			<rdg wit="f1823">instantly abandoned his pursuit. He had already bought a farm with his </rdg>
+			<rdg wit="fThomas">instantly abandoned his pursuit. He had &lt;pb n=&quot;015&quot; xml:id=&quot;F1818_v1_027&quot;/&gt;already bought a farm with his </rdg>
+			<rdg wit="f1831">instantly abandoned his pursuit. He had already bought a farm with his </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['money,', 'on']">
+			<rdg wit="f1818">money, on </rdg>
+			<rdg wit="fThomas">money, on </rdg>
+			<rdg wit="f1831">money, on </rdg>
+			<rdg wit="f1823">money, &lt;pb n=&quot;15&quot; xml:id=&quot;Fv1_1823_034&quot;/&gt;on </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['which', 'he', 'had', 'designed', 'to', 'pass', 'the', 'remainder', 'of', 'his', 'life;', 'but', 'he', 'bestowed', 'the', 'whole', 'on', 'his', 'rival,', 'together', 'with', 'the', 'remains', 'of', 'his', 'prize-money', 'to', 'purchase', 'stock,', 'and', 'then', 'himself', 'solicited', 'the', 'young', 'woman’s', 'father', 'to', 'consent', 'to', 'her', 'marriage', 'with', 'her', 'lover.', 'but', 'the', 'old', 'man', 'decidedly', 'refused,', 'thinking', 'himself', 'bound', 'in', 'honour', 'to', 'my', 'friend;', 'who,', 'when', 'he', 'found', 'the', 'father', 'inexorable,', 'quitted', 'his', 'country,', 'nor', 'returned', 'until', 'he', 'heard', 'that', 'his', 'former', 'mistress', 'was', 'married', 'according', 'to', 'her', 'inclinations.', '&quot;what', 'a', 'noble', 'fellow!&quot;', 'you', 'will', 'exclaim.', 'he', 'is', 'so;', 'but', 'then', 'he']">
+			<rdg wit="f1818">which he had designed to pass the remainder of his life; but he bestowed the whole on his rival, together with the remains of his prize-money to purchase stock, and then himself solicited the young woman’s father to consent to her marriage with her lover. But the old man decidedly refused, thinking himself bound in honour to my friend; who, when he found the father inexorable, quitted his country, nor returned until he heard that his former mistress was married according to her inclinations. “What a noble fellow!” you will exclaim. He is so; but then he </rdg>
+			<rdg wit="f1823">which he had designed to pass the remainder of his life; but he bestowed the whole on his rival, together with the remains of his prize-money to purchase stock, and then himself solicited the young woman’s father to consent to her marriage with her lover. But the old man decidedly refused, thinking himself bound in honour to my friend; who, when he found the father inexorable, quitted his country, nor returned until he heard that his former mistress was married according to her inclinations. “What a noble fellow!” you will exclaim. He is so; but then he </rdg>
+			<rdg wit="fThomas">which he had designed to pass the remainder of his life; but he bestowed the whole on his rival, together with the remains of his prize-money to purchase stock, and then himself solicited the young woman’s father to consent to her marriage with her lover. But the old man decidedly refused, thinking himself bound in honour to my friend; who, when he found the father inexorable, quitted his country, nor returned until he heard that his former mistress was married according to her inclinations. “What a noble fellow!” you will exclaim. He is so; but then he </rdg>
+			<rdg wit="f1831">which he had designed to pass the remainder of his life; but he bestowed the whole on his rival, together with the remains of his prize-money to purchase stock, and then himself solicited the young woman’s father to consent to her marriage with her lover. But the old man decidedly refused, thinking himself bound in honour to my friend; who, when he found the father inexorable, quitted his country, nor returned until he heard that his former mistress was married according to her inclinations. “What a noble fellow!” you will exclaim. He is so; but then he </rdg>
+		</rdgGrp>
+	</app>
+</cx:apparatus>
+<!-- 2018-10-03 19:23:51.102012 -->

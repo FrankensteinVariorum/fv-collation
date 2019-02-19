@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['i', 'rose']">
+			      <rdg wit="f1818">I rose </rdg>
+			      <rdg wit="f1823">I rose </rdg>
+			      <rdg wit="fThomas">I rose </rdg>
+			      <rdg wit="fMS">I rose </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['early', '']">
+			      <rdg wit="fMS">early &lt;lb n="c56-0119__main__24"/&gt; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['early,']">
+			      <rdg wit="f1818">early, </rdg>
+			      <rdg wit="f1823">early, </rdg>
+			      <rdg wit="fThomas">early, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['but', 'felt', 'unusually', 'melancholy.', 'the', 'rain']">
+			      <rdg wit="f1818">but felt unusually melancholy. The rain </rdg>
+			      <rdg wit="f1823">but felt unusually melancholy. The rain </rdg>
+			      <rdg wit="fThomas">but felt unusually melancholy. The rain </rdg>
+			      <rdg wit="fMS">but felt unusually melancholy. The rain </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['depressed']">
+			      <rdg wit="f1818">depressed </rdg>
+			      <rdg wit="f1823">depressed </rdg>
+			      <rdg wit="fThomas">depressed </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0119__main__25"/&gt; depressed </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['me,']">
+			      <rdg wit="fMS">&lt;mdel&gt;my&lt;/mdel&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;me, </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['me;']">
+			      <rdg wit="f1818">me; </rdg>
+			      <rdg wit="f1823">me; </rdg>
+			      <rdg wit="fThomas">me; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['my', 'old', 'feelings']">
+			      <rdg wit="f1818">my old feelings </rdg>
+			      <rdg wit="f1823">my old feelings </rdg>
+			      <rdg wit="fThomas">my old feelings </rdg>
+			      <rdg wit="fMS">my old feelings </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['recurred', '']">
+			      <rdg wit="fMS">recurred &lt;lb n="c56-0119__main__26"/&gt; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['recurred,']">
+			      <rdg wit="f1818">recurred, </rdg>
+			      <rdg wit="f1823">recurred, </rdg>
+			      <rdg wit="fThomas">recurred, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['and', 'i', 'was', 'miserable.', 'i', 'knew', 'how']">
+			      <rdg wit="f1818">and I was miserable. I knew how </rdg>
+			      <rdg wit="f1823">and I was miserable. I knew how </rdg>
+			      <rdg wit="fThomas">and I was miserable. I knew how </rdg>
+			      <rdg wit="fMS">and I was miserable. I knew how </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['disappointed']">
+			      <rdg wit="f1818">disappointed </rdg>
+			      <rdg wit="f1823">disappointed </rdg>
+			      <rdg wit="fThomas">disappointed </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['my', 'father']">
+			      <rdg wit="f1818">my father </rdg>
+			      <rdg wit="f1823">my father </rdg>
+			      <rdg wit="fThomas">my father </rdg>
+			      <rdg wit="fMS">my father </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['would', 'be']">
+			      <rdg wit="f1818">would be </rdg>
+			      <rdg wit="f1823">would be </rdg>
+			      <rdg wit="fThomas">would be </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0119__main__27"/&gt; would be </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['dissapointed']">
+			      <rdg wit="fMS">dissapointed </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['at', 'this', 'sudden']">
+			      <rdg wit="f1818">at this sudden </rdg>
+			      <rdg wit="f1823">at this sudden </rdg>
+			      <rdg wit="fThomas">at this sudden </rdg>
+			      <rdg wit="fMS">at this sudden </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'change']">
+			      <rdg wit="fMS">&lt;lb n="c56-0119__main__28"/&gt; change </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['change,']">
+			      <rdg wit="f1818">change, </rdg>
+			      <rdg wit="f1823">change, </rdg>
+			      <rdg wit="fThomas">change, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['and', 'i', 'wished', 'to', 'avoid', 'him']">
+			      <rdg wit="f1818">and I wished to avoid him </rdg>
+			      <rdg wit="f1823">and I wished to avoid him </rdg>
+			      <rdg wit="fThomas">and I wished to avoid him </rdg>
+			      <rdg wit="fMS">and I wished to avoid him </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'untill']">
+			      <rdg wit="fMS">&lt;lb n="c56-0119__main__29"/&gt; untill </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['until']">
+			      <rdg wit="f1818">until </rdg>
+			      <rdg wit="f1823">until </rdg>
+			      <rdg wit="fThomas">until </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['i', 'had']">
+			      <rdg wit="f1818">I had </rdg>
+			      <rdg wit="f1823">I had </rdg>
+			      <rdg wit="fThomas">I had </rdg>
+			      <rdg wit="fMS">I had </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;del&gt;rev&lt;del&gt;']">
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0119__main__d2e25203"/&gt;rev&lt;del eID="c56-0119__main__d2e25203"/&gt; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['recovered', 'myself', 'so', 'far']">
+			      <rdg wit="f1818">recovered myself so far </rdg>
+			      <rdg wit="f1823">recovered myself so far </rdg>
+			      <rdg wit="fThomas">recovered myself so far </rdg>
+			      <rdg wit="fMS">recovered myself so far </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['as']">
+			      <rdg wit="f1818">as </rdg>
+			      <rdg wit="f1823">as </rdg>
+			      <rdg wit="fThomas">as </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0119__main__30"/&gt; as </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['to', 'be', 'enabled']">
+			      <rdg wit="f1818">to be enabled </rdg>
+			      <rdg wit="f1823">to be enabled </rdg>
+			      <rdg wit="fThomas">to be enabled </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['to', 'conceal']">
+			      <rdg wit="f1818">to conceal </rdg>
+			      <rdg wit="f1823">to conceal </rdg>
+			      <rdg wit="fThomas">to conceal </rdg>
+			      <rdg wit="fMS">to conceal </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['the']">
+			      <rdg wit="fMS">the </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['those']">
+			      <rdg wit="f1818">those </rdg>
+			      <rdg wit="f1823">those </rdg>
+			      <rdg wit="fThomas">those </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['feelings', 'that', 'overpowered']">
+			      <rdg wit="f1818">feelings that overpowered </rdg>
+			      <rdg wit="f1823">feelings that overpowered </rdg>
+			      <rdg wit="fThomas">feelings that overpowered </rdg>
+			      <rdg wit="fMS">feelings that overpowered </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'me', '—']">
+			      <rdg wit="fMS">&lt;lb n="c56-0119__main__31"/&gt; me — </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['me.']">
+			      <rdg wit="f1818">me. </rdg>
+			      <rdg wit="f1823">me. </rdg>
+			      <rdg wit="fThomas">me. </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['i', 'knew', 'that', 'they', 'would', 'remain']">
+			      <rdg wit="f1818">I knew that they would remain </rdg>
+			      <rdg wit="f1823">I knew that they would remain </rdg>
+			      <rdg wit="fThomas">I knew that they would remain </rdg>
+			      <rdg wit="fMS">I knew that they would remain </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['that', 'day', 'at', 'the']">
+			      <rdg wit="f1818">that day at the </rdg>
+			      <rdg wit="f1823">that day at the </rdg>
+			      <rdg wit="fThomas">that day at the </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0119__main__32"/&gt; that day at the </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['inn']">
+			      <rdg wit="fMS">inn </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['inn;']">
+			      <rdg wit="f1818">inn; </rdg>
+			      <rdg wit="f1823">inn; </rdg>
+			      <rdg wit="fThomas">inn; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['and', 'as', 'i']">
+			      <rdg wit="f1818">&lt;pb n="018" xml:id="F1818_v2_022"/&gt;and as I </rdg>
+			      <rdg wit="f1823">&lt;pb n="199" xml:id="F1823_v1_218"/&gt;and as I </rdg>
+			      <rdg wit="fThomas">&lt;pb n="018" xml:id="F1818_v2_022"/&gt;and as I </rdg>
+			      <rdg wit="fMS">and as I </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['had', 'ever']">
+			      <rdg wit="f1818">had ever </rdg>
+			      <rdg wit="f1823">had ever </rdg>
+			      <rdg wit="fThomas">had ever </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['had&lt;del&gt;n&lt;del&gt;ever']">
+			      <rdg wit="fMS">had&lt;lb n="c56-0120__main__1"/&gt;&lt;del rend="strikethrough" sID="c56-0120__main__d2e25223"/&gt;n&lt;del eID="c56-0120__main__d2e25223"/&gt;ever </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['inured', 'myself', 'to']">
+			      <rdg wit="f1818">inured myself to </rdg>
+			      <rdg wit="f1823">inured myself to </rdg>
+			      <rdg wit="fThomas">inured myself to </rdg>
+			      <rdg wit="fMS">inured myself to </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['rain']">
+			      <rdg wit="fMS">rain </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['rain,', 'moisture,']">
+			      <rdg wit="f1818">rain, moisture, </rdg>
+			      <rdg wit="f1823">rain, moisture, </rdg>
+			      <rdg wit="fThomas">rain, moisture, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['and']">
+			      <rdg wit="f1818">and </rdg>
+			      <rdg wit="f1823">and </rdg>
+			      <rdg wit="fThomas">and </rdg>
+			      <rdg wit="fMS">and </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['cold']">
+			      <rdg wit="fMS">cold </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['cold,']">
+			      <rdg wit="f1818">cold, </rdg>
+			      <rdg wit="f1823">cold, </rdg>
+			      <rdg wit="fThomas">cold, </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-01 10:31:12.082731 -->

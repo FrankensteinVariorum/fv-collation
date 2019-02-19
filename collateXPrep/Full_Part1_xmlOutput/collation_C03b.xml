@@ -1,0 +1,24 @@
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="fMS"> </rdg>
+		</rdgGrp>
+ <rdgGrp n="['This', 'circumstance,', 'added', 'to', 'his', 'well', 'known', 'integrity', 'and', 'dauntless', 'courage,', 'made', 'me', 'very', 'desirous', 'to', 'engage', 'him.', 'A', 'youth', 'passed', 'in', 'solitude,', 'my', 'best', 'years', 'spent', 'under', 'your', 'gentle', 'and', 'feminine', 'fosterage,', 'has', 'so', 'refined', 'the', 'groundwork', 'of', 'my', 'character,', 'that', 'I', 'cannot', 'overcome', 'an', 'intense', 'distaste', 'to', 'the', 'usual', 'brutality', 'exercised', 'on', 'board', 'ship:', 'I', 'have', 'never', 'believed', 'it', 'to', 'be', 'necessary;', 'and', 'when', 'I', 'heard', 'of', 'a', 'mariner', 'equally', 'noted', 'for', 'his', 'kindliness', 'of', 'heart,', 'and', 'the', 'respect', 'and', 'obedience', 'paid', 'to', 'him', 'by', 'his', 'crew,', 'I', 'felt', 'myself', 'peculiarly', 'fortunate', 'in', 'being', 'able', 'to', 'secure', 'his', 'services.', 'I', 'heard', 'of', 'him', 'first', 'in', 'rather', 'a', 'romantic', 'manner,', 'from', 'a', 'lady', 'who', 'owes', 'to', 'him', 'the', 'happiness', 'of', 'her', 'life.', 'This,', 'briefly,', 'is', 'his', 'story.']"><rdg wit="f1831">This circumstance, added to his well known integrity and dauntless courage, made me very desirous to engage him. A youth passed in solitude, my best years spent under your gentle and feminine fosterage, has so refined the groundwork of my character, that I cannot overcome an intense distaste to the usual brutality exercised on board ship: I have never believed it to be necessary; and when I heard of a mariner equally noted for his kindliness of heart, and the respect and obedience paid to him by his crew, I felt myself peculiarly fortunate in being able to secure his services. I heard of him first in rather a romantic manner, from a lady who owes to him the happiness of her life. This, briefly, is his story.</rdg></rdgGrp>
+		<rdgGrp n="['he', 'is,', 'indeed,', 'of', 'so', 'amiable', 'a', 'nature,', 'that', 'he', 'will', 'not', 'hunt', '(a', 'favourite,', 'and', 'almost', 'the', 'only', 'amusement', 'here),', 'because', 'he', 'cannot', 'endure', 'to', 'spill', 'blood.']">
+			<rdg wit="f1818">He is, indeed, of so amiable a nature, that he will not hunt (a favourite, and almost the only amusement here), because he cannot endure to spill blood. </rdg>
+			<rdg wit="f1823">He is, indeed, of so amiable a nature, that he will not hunt (a favourite, and almost the only amusement here), because he cannot endure to spill blood. </rdg>
+			<rdg wit="fThomas">He is, indeed, of so amiable a nature, that he will not hunt (a favourite, and almost the only amusement here), because he cannot endure to spill blood. </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;del&gt;he', 'is,', 'moreover,', 'heroically', 'generous.&lt;del&gt;', '&lt;add&gt;I', 'will', 'relate', 'to', 'you', 'an', 'anecdote', 'of', 'his', 'life,', 'recounted', 'to', 'me', 'by', 'the', 'parties', 'themselves,', 'which', 'exemplifies', 'the', 'generosity,', 'I', 'had', 'almost', 'said', 'the', 'heroism', 'of', 'his', 'nature.&lt;add&gt;']">
+			<rdg wit="fThomas">&lt;del sID=&quot;novel1_letter2_div2_p5_del1&quot;/&gt;He is, moreover, heroically generous.&lt;del eID=&quot;novel1_letter2_div2_p5_del1&quot;/&gt; &lt;add sID="novel1_letter2_div2_p5_add1"/&gt;I will relate to you an anecdote of his life, recounted to me by the parties themselves, which exemplifies the generosity, I had almost said the heroism of his nature.&lt;add eID="novel1_letter2_div2_p5_add1"/&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['he', 'is,', 'moreover,', 'heroically', 'generous.']">
+			<rdg wit="f1818">He is, moreover, heroically generous. </rdg>
+			<rdg wit="f1823">He is, moreover, heroically generous. </rdg>
+		</rdgGrp>
+	</app>
+</cx:apparatus>
+<!-- 2018-10-03 19:23:51.102012 -->

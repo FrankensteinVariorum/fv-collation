@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="fMS"> </rdg>
+		</rdgGrp>
+		<rdgGrp n="['visible', 'for', 'more', 'than', 'half', 'the', 'year;']">
+			<rdg wit="fThomas">visible for more than half the year; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['visible;']">
+			<rdg wit="f1818">visible; </rdg>
+			<rdg wit="f1823">visible; </rdg>
+			<rdg wit="f1831">visible; </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['its', 'broad', 'disk', 'just', 'skirting', 'the', 'horizon,', 'and', 'diffusing', 'a', 'perpetual', 'splendour.', 'there—for', 'with', 'your', 'leave,', 'my', 'sister,', 'i', 'will', 'put', 'some', 'trust', 'in', 'preceding', 'navigators—there', 'snow', 'and', 'frost', 'are', 'banished;', 'and,', 'sailing', 'over', 'a', 'calm', 'sea,', 'we', 'may', 'be', 'wafted', 'to', 'a', 'land', 'surpassing', 'in', 'wonders', 'and', 'in', 'beauty', 'every', 'region', 'hitherto', 'discovered', 'on', 'the', 'habitable', 'globe.', 'its', 'productions', 'and', 'features', 'may', 'be', 'without', 'example,', 'as', 'the']">
+			<rdg wit="f1818">its broad disk just skirting the horizon, and diffusing a perpetual splendour. There—for with your leave, my sister, I will put some trust in preceding navigators—there snow and frost are banished; and, sailing over a calm sea, we may be wafted to a land surpassing in wonders &lt;pb n=&quot;003&quot; xml:id=&quot;F1818_v1_015&quot;/&gt;and in beauty every region hitherto discovered on the habitable globe. Its productions and features may be without example, as the </rdg>
+			<rdg wit="f1823">its broad disk just skirting the horizon, and diffusing a perpetual splendour. There—for with your leave, my sister, I will put some trust in preceding navigators—there snow and frost are banished; and, sailing over a calm sea, we may be wafted to a land surpassing in wonders and &lt;pb n=&quot;3&quot; xml:id=&quot;F1823_v1_022&quot;/&gt;in beauty every region hitherto discovered on the habitable globe. Its productions and features may be without example, as the </rdg>
+			<rdg wit="fThomas">its broad disk just skirting the horizon, and diffusing a perpetual splendour. There—for with your leave, my sister, I will put some trust in preceding navigators—there snow and frost are banished; and, sailing over a calm sea, we may be wafted to a land surpassing in wonders &lt;pb n=&quot;003&quot; xml:id=&quot;F1818_v1_015&quot;/&gt;and in beauty every region hitherto discovered on the habitable globe. Its productions and features may be without example, as the </rdg>
+			<rdg wit="f1831">its broad disk just skirting the horizon, and diffusing a perpetual splendour. There—for with your leave, my sister, I will put some trust in preceding navigators—there snow and frost are banished; and, sailing over a calm sea, we may be wafted to a land surpassing in wonders and in beauty every region hitherto discovered on the habitable globe. Its productions and features may be without ex&lt;pb n=&quot;4&quot; xml:id=&quot;F1831_v_020&quot;/&gt;ample, as the </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['phenomena']">
+			<rdg wit="f1823">phenomena </rdg>
+			<rdg wit="f1831">phenomena </rdg>
+		</rdgGrp>
+		<rdgGrp n="['phænomena']">
+			<rdg wit="f1818">phænomena </rdg>
+			<rdg wit="fThomas">phænomena </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['of', 'the', 'heavenly', 'bodies', 'undoubtedly', 'are', 'in', 'those', 'undiscovered', 'solitudes.', 'what', 'may', 'not', 'be', 'expected', 'in', 'a', 'country']">
+			<rdg wit="f1818">of the heavenly bodies undoubtedly are in those undiscovered solitudes. What may not be expected in a country </rdg>
+			<rdg wit="f1823">of the heavenly bodies undoubtedly are in those undiscovered solitudes. What may not be expected in a country </rdg>
+			<rdg wit="fThomas">of the heavenly bodies undoubtedly are in those undiscovered solitudes. What may not be expected in a country </rdg>
+			<rdg wit="f1831">of the heavenly bodies undoubtedly are in those undiscovered solitudes. What may not be expected in a country </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;del&gt;of', 'eternal', 'light?&lt;del&gt;', '&lt;add&gt;ruled', 'by', 'different', 'laws', 'and', 'in', 'which', 'numerous', 'circumstances', 'enforce', 'a', 'belief', 'that', 'the', 'aspect', 'of', 'nature', 'differs', 'essentially', 'from', 'anything', 'of', 'which', 'we', 'have', 'any', 'experience.&lt;add&gt;']">
+			<rdg wit="fThomas">&lt;del sID=&quot;novel1_letter1_div1_p3_del2&quot;/&gt;of eternal light?&lt;del eID=&quot;novel1_letter1_div1_p3_del2&quot;/&gt; &lt;add sID="novel1_letter1_div1_p3_add3"/&gt;ruled by different laws and in which numerous circumstances enforce a belief that the aspect of nature differs essentially from anything of which we have any experience.&lt;add eID="novel1_letter1_div1_p3_add3"/&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['of', 'eternal', 'light?']">
+			<rdg wit="f1818">of eternal light? </rdg>
+			<rdg wit="f1823">of eternal light? </rdg>
+			<rdg wit="f1831">of eternal light? </rdg>
+		</rdgGrp>
+	</app>
+</cx:apparatus>
+<!-- 2018-10-03 19:23:51.102012 -->

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['I', 'retired', 'to', 'rest', 'at', 'night;', 'my', 'slumbers,', 'as', 'it', 'were,', 'waited', 'on', 'and', 'ministered', 'to', 'by', 'the', 'assemblance', 'of', 'grand', 'shapes', 'which', 'I', 'had', 'contemplated', 'during', 'the', 'day.', 'They', 'congregated', 'round', 'me;', 'the', 'unstained', 'snowy', 'mountain-top,', 'the', 'glittering', 'pinnacle,', 'the', 'pine', 'woods,', 'and', 'ragged', 'bare', 'ravine;', 'the', 'eagle,', 'soaring', 'amidst', 'the', 'clouds—they', 'all', 'gathered', 'round', 'me,', 'and', 'bade', 'me', 'be', 'at', 'peace.&lt;p/&gt;', '&lt;p/&gt;Where', 'had', 'they', 'fled', 'when', 'the', 'next', 'morning', 'I', 'awoke?', 'All', 'of', 'soul-inspiriting', 'fled', 'with', 'sleep,', 'and', 'dark', 'melancholy', 'clouded', 'every', 'thought.']">
+			      <rdg wit="f1831">I retired to rest at night; my slumbers, as it were, waited on and ministered to by the assemblance of grand shapes which I had contemplated during the day. They congregated round me; the unstained snowy mountain-top, the glittering pinnacle, the pine woods, and ragged bare ravine; the eagle, soaring amidst the clouds—they all gathered round me, and bade me be at peace.&lt;p eID="novel1_letter4_chapter10_div4_div10_p1"/&gt; &lt;p sID="novel1_letter4_chapter10_div4_div10_p2"/&gt;Where had they fled when the next morning I awoke? &lt;pb xml:id="F1831_v_097" n="81"/&gt;All of soul-inspiriting fled with sleep, and dark melancholy clouded every thought. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['i', 'returned', 'in', 'the', 'evening,']">
+			      <rdg wit="f1818">I returned in the evening, </rdg>
+			      <rdg wit="f1823">I returned in the evening, </rdg>
+			      <rdg wit="fThomas">I returned in the evening, </rdg>
+			      <rdg wit="fMS">I returned in the &lt;lb n="c56-0119__main__14"/&gt; evening, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['fatigued']">
+			      <rdg wit="fMS">fatigued </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['fatigued,']">
+			      <rdg wit="f1818">fatigued, </rdg>
+			      <rdg wit="f1823">fatigued, </rdg>
+			      <rdg wit="fThomas">fatigued, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['but', 'less']">
+			      <rdg wit="f1818">but less </rdg>
+			      <rdg wit="f1823">but less </rdg>
+			      <rdg wit="fThomas">but less </rdg>
+			      <rdg wit="fMS">but less </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['unhappy']">
+			      <rdg wit="fMS">unhappy </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['unhappy,']">
+			      <rdg wit="f1818">unhappy, </rdg>
+			      <rdg wit="f1823">unhappy, </rdg>
+			      <rdg wit="fThomas">unhappy, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['and']">
+			      <rdg wit="f1818">and </rdg>
+			      <rdg wit="f1823">and </rdg>
+			      <rdg wit="fThomas">and </rdg>
+			      <rdg wit="fMS">and </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['convered', '']">
+			      <rdg wit="fMS">convered &lt;lb n="c56-0119__main__15"/&gt; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['conversed']">
+			      <rdg wit="f1818">conversed </rdg>
+			      <rdg wit="f1823">conversed </rdg>
+			      <rdg wit="fThomas">conversed </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['with']">
+			      <rdg wit="f1818">with </rdg>
+			      <rdg wit="f1823">with </rdg>
+			      <rdg wit="fThomas">with </rdg>
+			      <rdg wit="fMS">with </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['my']">
+			      <rdg wit="f1818">my </rdg>
+			      <rdg wit="f1823">my </rdg>
+			      <rdg wit="fThomas">my </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['the']">
+			      <rdg wit="fMS">the </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['family']">
+			      <rdg wit="f1818">family </rdg>
+			      <rdg wit="f1823">family </rdg>
+			      <rdg wit="fThomas">family </rdg>
+			      <rdg wit="fMS">family </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;del&gt;t&lt;del&gt;']">
+			      <rdg wit="fMS">&lt;del sID="c56-0119__main__d2e25123" type="strikethrough"/&gt;t&lt;del eID="c56-0119__main__d2e25123"/&gt; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['with', 'more', 'cheerfulness', 'than']">
+			      <rdg wit="f1818">with more cheerfulness than </rdg>
+			      <rdg wit="f1823">with more cheerfulness than </rdg>
+			      <rdg wit="fThomas">with more cheerfulness than </rdg>
+			      <rdg wit="fMS">with more cheerfulness than </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;del&gt;i&lt;del&gt;']">
+			      <rdg wit="fMS">&lt;lb n="c56-0119__main__16"/&gt;&lt;del rend="strikethrough" sID="c56-0119__main__d2e25129"/&gt;I&lt;del eID="c56-0119__main__d2e25129"/&gt; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['had', 'been']">
+			      <rdg wit="f1818">had been </rdg>
+			      <rdg wit="f1823">had been </rdg>
+			      <rdg wit="fThomas">had been </rdg>
+			      <rdg wit="fMS">had been </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;del&gt;accustomed&lt;del&gt;my']">
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0119__main__d2e25134"/&gt;accustomed&lt;del eID="c56-0119__main__d2e25134"/&gt;&lt;mdel&gt;to&lt;/mdel&gt;my </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['my']">
+			      <rdg wit="f1818">my </rdg>
+			      <rdg wit="f1823">my </rdg>
+			      <rdg wit="fThomas">my </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['custom', 'for', 'some', 'time.']">
+			      <rdg wit="f1818">custom for some time. </rdg>
+			      <rdg wit="f1823">custom for some time. </rdg>
+			      <rdg wit="fThomas">custom for some time. </rdg>
+			      <rdg wit="fMS">custom for some time. </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;del&gt;my', 'father', 'was', 'pleased,', 'and', 'elizabeth', 'overjoyed.', '&#34;my', 'dear', 'cousin,&#34;', 'said', 'she,', '&#34;you', 'see', 'what', 'happiness', 'you', 'diffuse', 'when', 'you', 'are', 'happy;', 'do', 'not', 'relapse', 'again!&#34;&lt;del&gt;the', 'affectionate', 'smile', 'with', 'which', 'elizabeth', 'welcomed', 'my', 'altered', 'mood', 'excited', 'me', 'to', 'greater', 'exertion;', 'and', 'i', 'felt', 'as', 'i', 'spoke', 'long', 'forgotten', 'sensations', 'of', 'pleasure', 'arise', 'in', 'my', 'mind.', 'i', 'knew', 'that', 'this', 'state', 'of', 'being', 'would', 'only', 'be', 'temporary,', 'that', 'gloom', 'and', 'misery', 'was', 'near', 'at', 'hand,', 'but', 'this', 'knowledge', 'only', 'acted', 'as', 'a', 'stimulant,', 'and', '&lt;del&gt;gave&lt;del&gt;', 'added', 'a', 'tingling', 'sensation', 'of', 'fear,', 'while', 'the', 'blood', 'danced', 'along', 'my', 'veins—my', 'eyes', 'sparkled', 'and', 'my', 'limbs', 'even', 'trembled', 'beneath', 'the', 'influence', 'of', 'unaccustomed', 'emotion.&lt;p/&gt;&lt;p/&gt;the']">
+			      <rdg wit="fThomas">&lt;del sID="novel1_letter4_chapter9_div4_div10_p1_del1"/&gt;My father was pleased, and Elizabeth overjoyed. “My dear cousin,” said she, “you see what happiness you diffuse when you are happy; do not relapse again!”&lt;del eID="novel1_letter4_chapter9_div4_div10_p1_del1"/&gt;The affectionate smile with which Elizabeth welcomed my altered mood excited me to greater exertion; and I felt as I spoke long forgotten sensations of pleasure arise in my mind. I knew that this state of being would only be temporary, that gloom and misery was near at hand, but this knowledge only acted as a stimu&lt;pb n="016"/&gt;lant, and &lt;del sID="novel1_letter4_chapter9_div4_div10_p1_add1_del1"/&gt;gave&lt;del eID="novel1_letter4_chapter9_div4_div10_p1_add1_del1"/&gt; added a tingling sensation of fear, while the blood danced along my veins—my eyes sparkled and my limbs even trembled beneath the influence of unaccustomed emotion.&lt;p eID="novel1_letter4_chapter9_div4_div10_p1"/&gt;&lt;p sID="novel1_letter4_chapter9_div4_div10_p2"/&gt;The </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['my', 'father', 'was', 'pleased,', 'and', 'elizabeth', 'overjoyed.', '&#34;my', 'dear', 'cousin,&#34;', 'said', 'she,', '&#34;you', 'see', 'what', 'happiness', 'you', 'diffuse', 'when', 'you', 'are', 'happy;', 'do', 'not', 'relapse', 'again!&#34;&lt;p/&gt;&lt;p/&gt;the']">
+			      <rdg wit="f1818">My father was pleased, and Elizabeth overjoyed. “My dear cousin,” said she, “you see what happiness you diffuse when you are happy; do not relapse again!”&lt;p eID="novel1_letter4_chapter9_div4_div10_p1"/&gt;&lt;p sID="novel1_letter4_chapter9_div4_div10_p2"/&gt;The </rdg>
+			      <rdg wit="f1823">My father was pleased, and Elizabeth overjoyed. “My dear cousin,” said she, “you see what happiness you diffuse when you are happy; do not relapse again!”&lt;p eID="novel1_letter4_chapter9_div4_div9_p1"/&gt;&lt;p sID="novel1_letter4_chapter9_div4_div9_p2"/&gt;The </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['my', 'father', 'was', 'pleased', 'and', 'elizabeth', 'overjoyed;', '&#34;my', 'dear', 'cousin,&#34;', 'said', 'she,', '&#34;you', 'see', 'what', 'happiness', 'you', 'diffuse', 'when', 'you', 'are', '&lt;del&gt;cheerful&lt;del&gt;happy;', 'do', 'not', 'relapse', 'again!—&lt;p/&gt;', 'the']">
+			      <rdg wit="fMS">My fa&lt;lb n="c56-0119__main__17"/&gt;ther was pleased and Elizabeth overjoyed; "My &lt;lb n="c56-0119__main__18"/&gt; dear Cousin," said she, "You see what happiness &lt;lb n="c56-0119__main__19"/&gt; you diffuse when you are &lt;del rend="strikethrough" sID="c56-0119__main__d2e25157"/&gt;cheerful&lt;del eID="c56-0119__main__d2e25157"/&gt;happy; do &lt;lb n="c56-0119__main__20"/&gt; not relapse again!—&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0119__main__21"/&gt; The </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['following', 'morning']">
+			      <rdg wit="f1818">following morning </rdg>
+			      <rdg wit="f1823">following morning </rdg>
+			      <rdg wit="fThomas">following morning </rdg>
+			      <rdg wit="fMS">following morning </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-01 10:31:12.082731 -->

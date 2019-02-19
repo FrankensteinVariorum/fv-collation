@@ -1,0 +1,178 @@
+<?xml version="1.0" ?><?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="fMS"> </rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;p/&gt;august']">
+			<rdg wit="f1818">&lt;p sID=&quot;novel1_letter4_div4_p32&quot;/&gt;August </rdg>
+			<rdg wit="f1823">&lt;p sID=&quot;novel1_letter4_div4_p32&quot;/&gt;August </rdg>
+			<rdg wit="fThomas">&lt;p sID=&quot;novel1_letter4_div4_p32&quot;/&gt;August </rdg>
+			<rdg wit="f1831">&lt;p sID=&quot;novel1_letter4_div4_p34&quot;/&gt;&lt;pb n=&quot;17&quot; xml:id=&quot;F1831_v_033&quot;/&gt;August </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['19.']">
+			<rdg wit="f1831">19. </rdg>
+		</rdgGrp>
+		<rdgGrp n="['19th,']">
+			<rdg wit="f1818">19th, </rdg>
+			<rdg wit="f1823">19th, </rdg>
+			<rdg wit="fThomas">19th, </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['17—.&lt;p/&gt;&lt;p/&gt;yesterday', 'the', 'stranger', 'said', 'to', 'me,', '&quot;you', 'may', 'easily', 'perceive,', 'captain', 'walton,', 'that', 'i']">
+			<rdg wit="f1818">17—.&lt;p eID=&quot;novel1_letter4_div4_p32&quot;/&gt;&lt;p sID=&quot;novel1_letter4_div4_p33&quot;/&gt;Yesterday the stranger said to me, “You may easily perceive, Captain Walton, that I </rdg>
+			<rdg wit="f1823">17—.&lt;p eID=&quot;novel1_letter4_div4_p32&quot;/&gt;&lt;p sID=&quot;novel1_letter4_div4_p33&quot;/&gt;Yesterday the stranger said to me, “You may easily perceive, Captain Walton, that I </rdg>
+			<rdg wit="fThomas">17—.&lt;p eID=&quot;novel1_letter4_div4_p32&quot;/&gt;&lt;p sID=&quot;novel1_letter4_div4_p33&quot;/&gt;Yesterday the stranger said to me, “You may easily perceive, Captain Walton, that I </rdg>
+			<rdg wit="f1831">17—.&lt;p eID=&quot;novel1_letter4_div4_p34&quot;/&gt;&lt;p sID=&quot;novel1_letter4_div4_p35&quot;/&gt;Yesterday the stranger said to me, “You may easily perceive, Captain Walton, that I </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['have', 'suffered']">
+			<rdg wit="f1818">have suffered </rdg>
+			<rdg wit="f1823">have suffered </rdg>
+			<rdg wit="f1831">have suffered </rdg>
+			<rdg wit="fThomas">have suffered </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['great', 'and', 'unparalleled', 'misfortunes.', 'i', 'had', 'determined,']">
+			<rdg wit="f1818">great and unparalleled misfortunes. I had determined, </rdg>
+			<rdg wit="f1823">great and unparalleled misfortunes. I had determined, </rdg>
+			<rdg wit="fThomas">great and unparalleled misfortunes. I had determined, </rdg>
+			<rdg wit="f1831">great and unparalleled misfortunes. I had determined, </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['at', 'one', 'time,']">
+			<rdg wit="f1831">at one time, </rdg>
+		</rdgGrp>
+		<rdgGrp n="['once,']">
+			<rdg wit="f1818">once, </rdg>
+			<rdg wit="f1823">once, </rdg>
+			<rdg wit="fThomas">once, </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['that', 'the', 'memory']">
+			<rdg wit="f1818">that the memory </rdg>
+			<rdg wit="f1823">that the memory </rdg>
+			<rdg wit="fThomas">that the memory </rdg>
+			<rdg wit="f1831">that the memory </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['of', 'these']">
+			<rdg wit="f1818">of these </rdg>
+			<rdg wit="f1823">of these </rdg>
+			<rdg wit="f1831">of these </rdg>
+			<rdg wit="fThomas">of these </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['evils', 'should', 'die', 'with', 'me;', 'but', 'you', 'have', 'won', 'me', 'to', 'alter', 'my', 'determination.', 'you']">
+			<rdg wit="f1818">evils should die with me; but you have won me to alter my determination. You </rdg>
+			<rdg wit="f1823">evils should die with me; but you have won me to alter my determination. You </rdg>
+			<rdg wit="fThomas">evils should die with me; but you have won me to alter my determination. You </rdg>
+			<rdg wit="f1831">evils should die with me; but you have won me to alter my determination. You </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['seek', 'for']">
+			<rdg wit="f1818">seek for </rdg>
+			<rdg wit="f1823">seek for </rdg>
+			<rdg wit="f1831">seek for </rdg>
+			<rdg wit="fThomas">seek for </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['knowledge', 'and', 'wisdom,', 'as', 'i', 'once', 'did;', 'and', 'i', 'ardently', 'hope', 'that', 'the', 'gratification']">
+			<rdg wit="f1818">knowledge and wisdom, as I once did; and I ardently hope that the gratification </rdg>
+			<rdg wit="f1823">knowledge and wisdom, as I once did; and I ardently hope that the gratification </rdg>
+			<rdg wit="fThomas">knowledge and wisdom, as I once did; and I ardently hope that the gratification </rdg>
+			<rdg wit="f1831">knowledge and wisdom, as I once did; and I ardently hope that the gratification </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['of', 'your']">
+			<rdg wit="f1818">of your </rdg>
+			<rdg wit="f1823">of your </rdg>
+			<rdg wit="f1831">of your </rdg>
+		</rdgGrp>
+		<rdgGrp n="['ofyour']">
+			<rdg wit="fThomas">ofyour </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['wishes', 'may', 'not', 'be', 'a', 'serpent', 'to', 'sting', 'you,', 'as', 'mine', 'has', 'been.', 'i', 'do', 'not', 'know', 'that']">
+			<rdg wit="f1818">wishes may not be a serpent to sting you, as mine has been. I do not know that </rdg>
+			<rdg wit="f1823">wishes may not be a serpent to sting you, as mine has been. I do not know that </rdg>
+			<rdg wit="fThomas">wishes may not be a serpent to sting you, as mine has been. I do not know that </rdg>
+			<rdg wit="f1831">wishes may not be a serpent to sting you, as mine has been. I do not know that </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['the', 'relation']">
+			<rdg wit="f1818">the relation </rdg>
+			<rdg wit="f1823">the relation </rdg>
+			<rdg wit="f1831">the relation </rdg>
+		</rdgGrp>
+		<rdgGrp n="['therelation']">
+			<rdg wit="fThomas">therelation </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['of', 'my']">
+			<rdg wit="f1818">of my </rdg>
+			<rdg wit="f1823">of my </rdg>
+			<rdg wit="fThomas">of my </rdg>
+			<rdg wit="f1831">of my </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['disasters']">
+			<rdg wit="f1831">disasters </rdg>
+		</rdgGrp>
+		<rdgGrp n="['misfortunes']">
+			<rdg wit="f1818">misfortunes </rdg>
+			<rdg wit="f1823">misfortunes </rdg>
+			<rdg wit="fThomas">misfortunes </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['will', 'be', 'useful', 'to']">
+			<rdg wit="f1818">will be useful to </rdg>
+			<rdg wit="f1823">will be useful to </rdg>
+			<rdg wit="fThomas">will be useful to </rdg>
+			<rdg wit="f1831">will be useful to </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['you,']">
+			<rdg wit="f1818">you, </rdg>
+			<rdg wit="fThomas">you, </rdg>
+		</rdgGrp>
+		<rdgGrp n="['you;']">
+			<rdg wit="f1823">you; </rdg>
+			<rdg wit="f1831">you; </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['yet,']">
+			<rdg wit="f1818">yet, </rdg>
+			<rdg wit="f1823">yet, </rdg>
+			<rdg wit="fThomas">yet, </rdg>
+			<rdg wit="f1831">yet, </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['if']">
+			<rdg wit="f1818">if </rdg>
+			<rdg wit="f1823">if </rdg>
+			<rdg wit="fThomas">if </rdg>
+		</rdgGrp>
+	</app>
+</cx:apparatus>
+<!-- 2018-10-03 19:23:51.102012 -->

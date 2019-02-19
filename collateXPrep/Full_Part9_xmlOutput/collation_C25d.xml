@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['the', 'memory']">
+			      <rdg wit="f1818">The memory </rdg>
+			      <rdg wit="f1823">The memory </rdg>
+			      <rdg wit="fThomas">The memory </rdg>
+			      <rdg wit="f1831">The memory </rdg>
+			      <rdg wit="fMS">the memory </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['of', 'that']">
+			      <rdg wit="f1818">of that </rdg>
+			      <rdg wit="f1823">of that </rdg>
+			      <rdg wit="fThomas">of that </rdg>
+			      <rdg wit="f1831">of that </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['the']">
+			      <rdg wit="fMS">th&lt;mdel&gt;a&lt;/mdel&gt;e&lt;mdel&gt;t&lt;/mdel&gt; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['unfortunate', 'king,']">
+			      <rdg wit="f1818">unfortunate king, </rdg>
+			      <rdg wit="f1823">unfortunate king, </rdg>
+			      <rdg wit="fThomas">unfortunate king, </rdg>
+			      <rdg wit="f1831">unfortunate king, </rdg>
+			      <rdg wit="fMS">unfortunate king, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['']">
+			      <rdg wit="fMS">&lt;lb n="c57-0095__main__30"/&gt; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['and', 'his', 'companions,']">
+			      <rdg wit="f1818">and his companions, </rdg>
+			      <rdg wit="f1823">and his companions, </rdg>
+			      <rdg wit="fThomas">and his companions, </rdg>
+			      <rdg wit="f1831">and his companions, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['the', 'amiable']">
+			      <rdg wit="f1818">the amiable </rdg>
+			      <rdg wit="f1823">the amiable </rdg>
+			      <rdg wit="fThomas">the amiable </rdg>
+			      <rdg wit="f1831">the amiable </rdg>
+			      <rdg wit="fMS">the amiable </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['falkland', 'and']">
+			      <rdg wit="fMS">Falkland and </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['falkland,']">
+			      <rdg wit="f1818">Falkland, </rdg>
+			      <rdg wit="f1823">Falkland, </rdg>
+			      <rdg wit="fThomas">Falkland, </rdg>
+			      <rdg wit="f1831">Falkland, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['the', 'insolent']">
+			      <rdg wit="f1818">the insolent </rdg>
+			      <rdg wit="f1823">the insolent </rdg>
+			      <rdg wit="fThomas">the insolent </rdg>
+			      <rdg wit="f1831">the insolent </rdg>
+			      <rdg wit="fMS">the insolent </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'gower']">
+			      <rdg wit="fMS">&lt;lb n="c57-0095__main__31"/&gt; Gower </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['goring,']">
+			      <rdg wit="f1823">Goring, </rdg>
+			      <rdg wit="f1831">Goring, </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['gower,']">
+			      <rdg wit="f1818">Gower, </rdg>
+			      <rdg wit="fThomas">Gower, </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-01 11:47:54.556103 -->

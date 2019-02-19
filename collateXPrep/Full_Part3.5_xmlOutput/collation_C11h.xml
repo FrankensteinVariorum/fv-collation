@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['full', 'of', 'activity', 'and', 'spirit.', 'He', 'is', 'desirous', 'to', 'be', 'a', 'true', 'Swiss,', 'and', 'to', 'enter', 'into', 'foreign', 'service;', 'but', 'we', 'cannot', 'part', 'with', 'him,', 'at', 'least', 'until', 'his', 'elder', 'brother', 'return', 'to', 'us.', 'My', 'uncle', 'is', 'not', 'pleased', 'with', 'the', 'idea', 'of', 'a', 'military', 'career', 'in', 'a', 'distant', 'country;', 'but', 'Ernest', 'never', 'had', 'your', 'powers', 'of', 'application.', 'He', 'looks', 'upon', 'study', 'as', 'an', 'odious', 'fetter;—his', 'time', 'is', 'spent']">
+			      <rdg wit="f1831">full of activity and spirit. He is desirous to be a true Swiss, and to enter into foreign service;&lt;pb xml:id="F1831_v_066" n="50"/&gt; but we cannot part with him, at least until his elder brother return to us. My uncle is not pleased with the idea of a military career in a distant country; but Ernest never had your powers of application. He looks upon study as an odious fetter;—his time is spent </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['has', '&lt;del&gt;quite&lt;del&gt;', 'lost', 'that', 'sickly', 'appearance', 'that', 'he', 'had', 'some', 'years', 'ago', '–']">
+			      <rdg wit="fMS">has &lt;del rend="strikethrough" sID="c56-0058__main__d2e12253"/&gt;quite&lt;del eID="c56-0058__main__d2e12253"/&gt; lost that&lt;lb n="c56-0059__main__1"/&gt; sickly appearance that he had &lt;lb n="c56-0059__main__2"/&gt; some years ago – </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['has', 'lost', 'that', 'sickly', 'appearance', 'which', 'he', 'had', 'some', 'years', 'ago;']">
+			      <rdg wit="f1818">has lost that sickly appearance which he had some years ago; </rdg>
+			      <rdg wit="f1823">has lost that sickly appearance which he had some years ago; </rdg>
+			      <rdg wit="fThomas">has lost that sickly appearance which he had some years ago; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['he', 'is']">
+			      <rdg wit="f1818">he is </rdg>
+			      <rdg wit="f1823">he is </rdg>
+			      <rdg wit="fThomas">he is </rdg>
+			      <rdg wit="fMS">he is </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['grown']">
+			      <rdg wit="f1818">grown </rdg>
+			      <rdg wit="f1823">grown </rdg>
+			      <rdg wit="fThomas">grown </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['quite']">
+			      <rdg wit="f1818">quite </rdg>
+			      <rdg wit="f1823">quite </rdg>
+			      <rdg wit="fThomas">quite </rdg>
+			      <rdg wit="fMS">quite </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-06 00:40:30.463023 -->

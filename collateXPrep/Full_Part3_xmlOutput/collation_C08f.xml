@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['pursuits.', 'In', 'rather', 'a', 'too', 'philosophical', 'and', 'connected', 'a', 'strain,', 'perhaps,', 'I', 'have', 'given', 'an', 'account', 'of', 'the', 'conclusions', 'I', 'had', 'come', 'to', 'concerning', 'them', 'in', 'my', 'early', 'years.', 'As', 'a', 'child,', 'I', 'had', 'not', 'been', 'content', 'with', 'the', 'results', 'promised', 'by', 'the', 'modern', 'professors', 'of', 'natural', 'science.', 'With', 'a', 'confusion', 'of', 'ideas', 'only', 'to', 'be', 'accounted', 'for', 'by', 'my', 'extreme', 'youth,', 'and', 'my', 'want', 'of', 'a', 'guide', 'on', 'such', 'matters,', 'I', 'had', 'retrod', 'the', 'steps', 'of', 'knowledge', 'along', 'the', 'paths', 'of', 'time,', 'and', 'exchanged', 'the', 'discoveries', 'of', 'recent', 'enquirers', 'for', 'the', 'dreams', 'of', 'forgotten', 'alchymists.']">
+			      <rdg wit="f1831">pursuits. In rather a too philosophical and connected a strain, perhaps, I have given an account of the conclusions I had come to concerning them in my early years. As a child, I had not been content with the results promised by the modern professors of natural science. With a confusion of ideas only to be accounted for by my extreme youth, and my want of a guide on such matters, I had retrod the steps of knowledge along the paths of time, and exchanged the discoveries of recent enquirers for the dreams of forgotten alchymists. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['&lt;del&gt;science&lt;del&gt;doctrine.']">
+			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0026__main__d2e4949"/&gt;science&lt;del eID="c56-0026__main__d2e4949"/&gt;&lt;mdel&gt;.&lt;/mdel&gt;doctrine. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['doctrine.']">
+			      <rdg wit="f1818">doctrine. </rdg>
+			      <rdg wit="f1823">doctrine. </rdg>
+			      <rdg wit="fThomas">doctrine. </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-04 16:58:37.992715 -->

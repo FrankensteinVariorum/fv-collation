@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	  <app>
+		    <rdgGrp n="['My', 'tale', 'was', 'not', 'one', 'to', 'announce', 'publicly;', 'its', 'astounding', 'horror', 'would', 'be', 'looked', 'upon', 'as', 'madness', 'by', 'the', 'vulgar.', 'Did', 'any', 'one', 'indeed', 'exist,', 'except', 'I,', 'the', 'creator,', 'who', 'would', 'believe,', 'unless', 'his', 'senses', 'convinced', 'him,', 'in', 'the', 'existence', 'of', 'the', 'living', 'monument', 'of', 'presumption', 'and', 'rash', 'ignorance', 'which', 'I', 'had', 'let', 'loose', 'upon', 'the', 'world?&lt;p&gt;']">
+			      <rdg wit="f1831">My tale was not one to announce publicly; its astounding horror would be looked upon as madness by the vulgar. Did any one indeed exist, except I, the creator, who would believe, unless his senses convinced him, in the existence of the living monument of presumption and rash ignorance which I had let loose upon the world?&lt;p eID="novel1_letter4_chapter7_div4_div7_p47"/&gt; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['and', 'in', 'this', 'assurance', 'i', 'calmed', 'myself', 'expecting', 'the', 'trial', 'with', 'eagerness', ]">
+			      <rdg wit="fMS">and in this assurance I calmed &lt;lb n="c56-0089__main__11"/&gt; myself expecting the trial with eagerness &lt;lb n="c56-0089__main__12"/&gt; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['and,', 'in', 'this', 'assurance,', 'i', 'calmed', 'myself,', 'expecting', 'the', 'trial', 'with', 'eagerness,']">
+			      <rdg wit="f1818">and, in this assurance, I calmed myself, expecting the trial with eagerness, </rdg>
+			      <rdg wit="f1823">and, in this assurance, I calmed myself, expecting the trial with eagerness, </rdg>
+			      <rdg wit="fThomas">and, in this assurance, I calmed myself, expecting the trial with eagerness, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['but', 'without', 'prognosticating', 'an', 'evil']">
+			      <rdg wit="f1818">but without prognosticating an evil </rdg>
+			      <rdg wit="f1823">but without prognosticating an evil </rdg>
+			      <rdg wit="fThomas">but without prognosticating an evil </rdg>
+			      <rdg wit="fMS">but without prognosticating an evil </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'result.', '&lt;metamark function=&#34;displacement&#34;&gt;&lt;/metamark&gt;i', 'saw', 'unhappiness', 'deeply', 'impressed', '&lt;del&gt;co&lt;del&gt;', 'on', 'his', 'countenance', 'but', 'he', 'endeavoured', 'to', 'welcome', 'me', 'cheerfully', '', 'and', 'heafter', '&lt;del&gt;our&lt;del&gt;we&lt;del&gt;mournful&lt;del&gt;', 'had', 'exchanged', 'our', 'mournful', 'greetings', 'would', 'have', 'spoken', 'on', 'some', '', 'other', 'topic', 'than', 'that', 'of', 'our', 'disaster', '', 'had', 'not']">
+			      <rdg wit="fMS">&lt;lb n="c56-0089__main__13"/&gt; result. &lt;lb n="c56-0089__main__14"/&gt;&lt;metamark function="separate"&gt;_____________________&lt;/metamark&gt;&lt;lb n="c56-0089__main__15"/&gt;&lt;metamark function="displacement"&gt;&lt;/metamark&gt;I saw unhappiness deeply impressed &lt;lb n="c56-0089__main__16"/&gt;&lt;del rend="strikethrough" sID="c56-0089__main__d2e19434"/&gt;co&lt;del eID="c56-0089__main__d2e19434"/&gt; on his countenance but he endea&lt;lb n="c56-0089__main__17"/&gt;voured to welcome me cheerfully &lt;lb n="c56-0089__main__18"/&gt; and &lt;lb n="c56-0089__left_margin__1"/&gt;he&lt;metamark function="insert"&gt;^&lt;/metamark&gt;after &lt;del rend="strikethrough" sID="c56-0089__main__d2e19468"/&gt;our&lt;del eID="c56-0089__main__d2e19468"/&gt;we&lt;del rend="strikethrough" sID="c56-0089__main__d2e19475"/&gt;mournful&lt;del eID="c56-0089__main__d2e19475"/&gt; had exchanged our mournful greetings would have spoken on some &lt;lb n="c56-0089__main__19"/&gt; other topic than that of our disaster &lt;lb n="c56-0089__main__20"/&gt; had not</rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['result.&lt;p/&gt;]">
+			      <rdg wit="f1818">result.&lt;p eID="novel1_letter4_chapter6_div4_div6_p47"/&gt; </rdg>
+			      <rdg wit="f1823">result.&lt;p eID="novel1_letter4_chapter6_div4_div6_p47"/&gt; </rdg>
+			      <rdg wit="fThomas">result.&lt;p eID="novel1_letter4_chapter6_div4_div6_p47"/&gt; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['chap.', '11&lt;p/&gt;', 'we', 'were', 'soon', 'joined', 'by', 'elizabeth.', 'time']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__1"/&gt;&lt;milestone spanTo="#c56-0090.03" unit="tei:head"/&gt;Chap. 11&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0090__main__2"/&gt; We were soon joined &lt;mdel&gt;By&lt;/mdel&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;by Elizabeth. Time </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="[&lt;p/&gt;we', 'were', 'soon', 'joined', 'by', 'elizabeth.', 'time']">
+			      <rdg wit="f1818">&lt;p sID="novel1_letter4_chapter6_div4_div6_p48"/&gt;We were soon joined by Elizabeth. Time </rdg>
+			      <rdg wit="f1823">&lt;p sID="novel1_letter4_chapter6_div4_div6_p48"/&gt;We were soon joined by Elizabeth. Time </rdg>
+			      <rdg wit="fThomas">&lt;p sID="novel1_letter4_chapter6_div4_div6_p48"/&gt;We were soon joined by Elizabeth. Time </rdg>
+			      <rdg wit="f1831">&lt;p sID="novel1_letter4_chapter7_div4_div7_p48"/&gt;We were soon joined by Elizabeth. Time </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['had', 'altered', 'her', 'since', 'I', 'last', 'beheld', 'her;', 'it', 'had', 'endowed', 'her', 'with', 'loveliness', 'surpassing', 'the', 'beauty', 'of', 'her', 'childish', 'years.', 'There', 'was', 'the', 'same', 'candour,', 'the', 'same', 'vivacity,', 'but', 'it', 'was', 'allied', 'to', 'an', 'expression', 'more', 'full', 'of', 'sensibility', 'and', 'intellect.']">
+			      <rdg wit="f1831">had altered her since I last beheld her; it had endowed her with loveliness surpassing the beauty of her childish years. There was the same candour, the same vivacity, but it was allied to an expression more full of sensibility and intellect. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['had', 'made', 'great', 'alterations', 'in', 'her', 'form', 'since', 'i', 'had', 'last', 'beheld', 'her.']">
+			      <rdg wit="f1818">had made great alterations in her form since I had last beheld her. </rdg>
+			      <rdg wit="f1823">had made great alterations in her form since I had last beheld her. </rdg>
+			      <rdg wit="fThomas">had made great alterations in her form since I had last beheld her. </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__3"/&gt; had made great alterations in her form since &lt;lb n="c56-0090__main__4"/&gt; I had last beheld her. </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['five']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__3"/&gt; Five </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['six']">
+			      <rdg wit="f1818">Six </rdg>
+			      <rdg wit="f1823">Six </rdg>
+			      <rdg wit="fThomas">Six </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['years']">
+			      <rdg wit="f1818">years </rdg>
+			      <rdg wit="f1823">years </rdg>
+			      <rdg wit="fThomas">years </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__3"/&gt; years </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;del&gt;ago&lt;del&gt;']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__3"/&gt; &lt;del rend="strikethrough" sID="c56-0090__main__d2e19524"/&gt;ago&lt;del eID="c56-0090__main__d2e19524"/&gt; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['before']">
+			      <rdg wit="f1818">before </rdg>
+			      <rdg wit="f1823">before </rdg>
+			      <rdg wit="fThomas">before </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__3"/&gt; before </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['she']">
+			      <rdg wit="f1818">she </rdg>
+			      <rdg wit="f1823">she </rdg>
+			      <rdg wit="fThomas">she </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__5"/&gt; she </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['had', 'been']">
+			      <rdg wit="f1818">had been </rdg>
+			      <rdg wit="f1823">had been </rdg>
+			      <rdg wit="fThomas">had been </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['was']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__5"/&gt; was </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['a', 'pretty,']">
+			      <rdg wit="f1818">a pretty, </rdg>
+			      <rdg wit="f1823">a pretty, </rdg>
+			      <rdg wit="fThomas">a pretty, </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__5"/&gt; a pretty, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['good', 'humoured', 'girl', 'with', 'an', '', 'understanding', 'above', 'her', 'years']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__5"/&gt; good humoured girl with an &lt;lb n="c56-0090__main__6"/&gt; understanding above her years </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['good-humoured', 'girl,']">
+			      <rdg wit="f1818">good-humoured girl, </rdg>
+			      <rdg wit="f1823">good-humoured girl, </rdg>
+			      <rdg wit="fThomas">good-humoured girl, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['whom', 'every']">
+			      <rdg wit="f1818">whom every </rdg>
+			      <rdg wit="f1823">whom every </rdg>
+			      <rdg wit="fThomas">whom every </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__5"/&gt; Whom every </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['one']">
+			      <rdg wit="f1818">one </rdg>
+			      <rdg wit="f1823">one </rdg>
+			      <rdg wit="fThomas">one </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__7"/&gt; one </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['loved']">
+			      <rdg wit="f1818">loved </rdg>
+			      <rdg wit="f1823">loved </rdg>
+			      <rdg wit="fThomas">loved </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['loved,']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__7"/&gt; loved, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['and']">
+			      <rdg wit="f1818">and </rdg>
+			      <rdg wit="f1823">and </rdg>
+			      <rdg wit="fThomas">and </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__7"/&gt; and </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['&lt;del&gt;humoured&lt;del&gt;caressed.']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__7"/&gt; &lt;del rend="strikethrough" sID="c56-0090__main__d2e19540"/&gt;humoured&lt;del eID="c56-0090__main__d2e19540"/&gt;caressed. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['caressed.']">
+			      <rdg wit="f1818">caressed. </rdg>
+			      <rdg wit="f1823">caressed. </rdg>
+			      <rdg wit="fThomas">caressed. </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['she', 'was', 'now', 'a', 'woman']">
+			      <rdg wit="f1818">She was now a woman </rdg>
+			      <rdg wit="f1823">She was now a woman </rdg>
+			      <rdg wit="fThomas">She was now a woman </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__7"/&gt; She was now a woman </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['in', 'stature', 'and', 'expression', 'of']">
+			      <rdg wit="f1818">in stature and expression of </rdg>
+			      <rdg wit="f1823">in stature and expression of </rdg>
+			      <rdg wit="fThomas">in stature and expression of </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__8"/&gt; in stature and expression of </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['countenance', '']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__8"/&gt; countenance &lt;lb n="c56-0090__main__9"/&gt; </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['countenance,']">
+			      <rdg wit="f1818">countenance, </rdg>
+			      <rdg wit="f1823">countenance, </rdg>
+			      <rdg wit="fThomas">countenance, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['which', 'was', 'uncommonly']">
+			      <rdg wit="f1818">which was uncommonly </rdg>
+			      <rdg wit="f1823">which was uncommonly </rdg>
+			      <rdg wit="fThomas">which was uncommonly </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__8"/&gt; which was uncommonly </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['lovely', '—']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__8"/&gt; lovely — </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['lovely.']">
+			      <rdg wit="f1818">lovely. </rdg>
+			      <rdg wit="f1823">lovely. </rdg>
+			      <rdg wit="fThomas">lovely. </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['an', 'open', 'and', 'capacious', 'forehead', 'gave', 'indications', 'of', 'a', 'good']">
+			      <rdg wit="f1818">An open and capacious forehead gave indications of a good </rdg>
+			      <rdg wit="f1823">An open and capacious forehead gave indications of a good </rdg>
+			      <rdg wit="fThomas">An open and capacious forehead gave indications of a good </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__8"/&gt; An open &amp;&lt;lb n="c56-0090__main__10"/&gt; capacious for&lt;metamark function="insert"&gt;^&lt;/metamark&gt;ehead gave indications of a good </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['', 'understanding']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__8"/&gt; &lt;lb n="c56-0090__main__11"/&gt; understanding </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['understanding,']">
+			      <rdg wit="f1818">understanding, </rdg>
+			      <rdg wit="f1823">understanding, </rdg>
+			      <rdg wit="fThomas">understanding, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['joined', 'to', 'great']">
+			      <rdg wit="f1818">joined to great </rdg>
+			      <rdg wit="f1823">joined to great </rdg>
+			      <rdg wit="fThomas">joined to great </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__8"/&gt; joined to great </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['frankness', 'of', 'disposition.']">
+			      <rdg wit="f1818">frankness of disposition. </rdg>
+			      <rdg wit="f1823">frankness of disposition. </rdg>
+			      <rdg wit="fThomas">frankness of disposition. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['frankness.']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__8"/&gt; frankness. </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['her']">
+			      <rdg wit="f1818">Her </rdg>
+			      <rdg wit="f1823">Her </rdg>
+			      <rdg wit="fThomas">Her </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__8"/&gt; Her </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['eyes', 'were']">
+			      <rdg wit="f1818">eyes were </rdg>
+			      <rdg wit="f1823">eyes were </rdg>
+			      <rdg wit="fThomas">eyes were </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__12"/&gt; eyes were </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['hazel']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__12"/&gt; hazel </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['hazel,']">
+			      <rdg wit="f1818">hazel, </rdg>
+			      <rdg wit="f1823">hazel, </rdg>
+			      <rdg wit="fThomas">hazel, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['and']">
+			      <rdg wit="f1818">and </rdg>
+			      <rdg wit="f1823">and </rdg>
+			      <rdg wit="fThomas">and </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__12"/&gt; and </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['expressive', 'of', 'mildness,']">
+			      <rdg wit="f1818">&lt;pb n="158" xml:id="F1818_v1_170"/&gt;expressive of mildness, </rdg>
+			      <rdg wit="f1823">&lt;pb n="158" xml:id="F1823_v1_177"/&gt;expressive of mildness, </rdg>
+			      <rdg wit="fThomas">&lt;pb n="158" xml:id="F1818_v1_170"/&gt;expressive of mildness, </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['very', 'soft', 'now', 'through', '', 'recent', 'affliction', 'they', 'expressed', 'sorrow.', 'her', '', 'smile', 'had', 'som', 'expressive&lt;del&gt;great&lt;del&gt;of', 'uncommon', 'mildness']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__12"/&gt; very soft now through &lt;lb n="c56-0090__main__13"/&gt; recent affliction they expressed sorrow. Her &lt;lb n="c56-0090__main__14"/&gt; smile had som express&lt;mdel&gt;ed&lt;/mdel&gt;ive&lt;del rend="strikethrough" sID="c56-0090__main__d2e19590"/&gt;great&lt;del eID="c56-0090__main__d2e19590"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;of uncommon mildness </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['now']">
+			      <rdg wit="f1818">now </rdg>
+			      <rdg wit="fThomas">now </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__12"/&gt; now </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['now,']">
+			      <rdg wit="f1823">now, </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['through', 'recent']">
+			      <rdg wit="f1818">through recent </rdg>
+			      <rdg wit="f1823">through recent </rdg>
+			      <rdg wit="fThomas">through recent </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__15"/&gt; through recent </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['affliction']">
+			      <rdg wit="f1818">affliction </rdg>
+			      <rdg wit="fThomas">affliction </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__15"/&gt; affliction </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['affliction,']">
+			      <rdg wit="f1823">affliction, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['allied', 'to']">
+			      <rdg wit="f1818">allied to </rdg>
+			      <rdg wit="f1823">allied to </rdg>
+			      <rdg wit="fThomas">allied to </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__15"/&gt; allied to </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['sadness.']">
+			      <rdg wit="f1818">sadness. </rdg>
+			      <rdg wit="f1823">sadness. </rdg>
+			      <rdg wit="fThomas">sadness. </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['sadness–', '']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__15"/&gt; sadness– &lt;lb n="c56-0090__main__16"/&gt; </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['her', 'hair', 'was', 'of', 'a']">
+			      <rdg wit="f1818">Her hair was of a </rdg>
+			      <rdg wit="f1823">Her hair was of a </rdg>
+			      <rdg wit="fThomas">Her hair was of a </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__15"/&gt; Her hair was of a </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['rich', 'dark', 'auburn,', 'her']">
+			      <rdg wit="f1818">rich dark auburn, her </rdg>
+			      <rdg wit="f1823">rich dark auburn, her </rdg>
+			      <rdg wit="fThomas">rich dark auburn, her </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['richdark', 'auburnher']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__15"/&gt; rich&lt;metamark function="insert"&gt;^&lt;/metamark&gt;dark auburn&lt;metamark function="insert"&gt;^&lt;/metamark&gt;her </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['complexion']">
+			      <rdg wit="f1818">complexion </rdg>
+			      <rdg wit="f1823">complexion </rdg>
+			      <rdg wit="fThomas">complexion </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__15"/&gt; complexion </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['fair']">
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__15"/&gt; fair </rdg>
+		    </rdgGrp>
+		    <rdgGrp n="['fair,']">
+			      <rdg wit="f1818">fair, </rdg>
+			      <rdg wit="f1823">fair, </rdg>
+			      <rdg wit="fThomas">fair, </rdg>
+		    </rdgGrp>
+	  </app>
+	  <app>
+		    <rdgGrp n="['and', 'her']">
+			      <rdg wit="f1818">and her </rdg>
+			      <rdg wit="f1823">and her </rdg>
+			      <rdg wit="fThomas">and her </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__15"/&gt; and her </rdg>
+		    </rdgGrp>
+	  </app>
+	
+	  <app>
+		    <rdgGrp n="['figure', 'slight', 'and', 'graceful.']">
+			      <rdg wit="f1818">figure slight and graceful. </rdg>
+			      <rdg wit="f1823">figure slight and graceful. </rdg>
+			      <rdg wit="fThomas">figure slight and graceful. </rdg>
+			      <rdg wit="fMS">&lt;lb n="c56-0090__main__17"/&gt; figure sli&lt;mdel&gt;m&lt;/mdel&gt;ght and graceful. </rdg>
+		    </rdgGrp>
+	  </app>
+</cx:apparatus>
+<!-- 2018-10-06 00:40:30.463023 -->
