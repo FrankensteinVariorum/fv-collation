@@ -80,7 +80,7 @@ span.pb{color:DarkGreen; font-size:smaller; display:none;}
 span.smallcaps {font-variant: small-caps;}
 span.add{color:DarkGreen; font-weight:800;}
 span.del{color:DarkGreen; text-decoration: line-through; font-weight:800;}
-span.note {font-size:smaller; color:DarkGreen; margin-left:30%}
+span.note {font-size:smaller; color:DarkGreen; border-style: solid; background-color:#fffff7;}
 p {padding-left:50px; padding-right:50px;}
 ol, ul {padding-left:55px; padding-right:55px;}
 p.boilerplate span{
