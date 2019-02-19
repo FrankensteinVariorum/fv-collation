@@ -1,6 +1,7 @@
 a.link-no-style {
   color: inherit;
 }
+/* 2019-02-18 ebb: The rules below are from a course website, easy to adapt. */
 div.flexBox{ display: flex; justify-content: flex-start; flex-direction: row;}
 figure {flex:1}
 div.courseDesc {flex:2}
