@@ -8,7 +8,7 @@
     <xsl:template match="/">
         <html lang="en">
             <head><title>Frankenstein (<xsl:value-of select="substring-before(tokenize(base-uri(), '/')[last()], '_')"/>)</title>
-                <link rel="stylesheet" type="text/css" href="frankenStyle.css"/>
+                <link rel="stylesheet" type="text/css" href="frankenStyle_Thom.css"/>
             </head>
         <body>
     <h1><xsl:apply-templates select="//header/title"/></h1>

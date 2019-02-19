@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<header>
+    <title level="m">FRANKENSTEIN; OR, THE MODERN PROMETHEUS: The Thomas Copy</title>    
+    <edition>The Pittsburgh Bicentennial Edition, or Frankenstein Variorum</edition>
+    
+    <div type="editIntro">
+        <head>INTRODUCTORY NOTE ON THE TEXT</head>
+        
+        <p>This is a digital edition of the Thomas copy was prepared for the Frankenstein Variorum project, initiated to commemorate the 200th anniversary of the first published edition of <hi rend="italic">Frankenstein; or, the
+            Modern Prometheus</hi> in
+            1818.</p>
+        
+        <p><title level="m">Frankenstein; or, the Modern Prometheus: Pittsburgh Bicentennial
+            Edition</title> is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+            4.0 International License.</p>
+        
+        <p>Date this document was first produced: 2019-02-19.</p>
+        
+        <p>This edition of the Thomas copy is part of the Pittsburgh research team’s contribution to the Bicentennial
+            Frankenstein Variorum Project, and is prepared by Elisa Beshero-Bondar of the University of
+            Pittsburgh at Greensburg and Rikk Mulligan of Carnegie Mellon University. We are grateful
+            for consultation from Wendell Piez, David J. Birnbaum, and Raffaele Viglianti, as well as
+            Neil Fraistat and Dave Rettenmaier. This edition’s stages of development are stored and
+            documented in the <ref target="https://github.com/ebeshero/Pittsburgh_Frankenstein/"
+                >Pittsburgh_Frankenstein GitHub repository</ref>.</p>
+        
+        <resp>We have produced this XML edition for two purposes:</resp>
+        <list type="numbered">
+            <item>To prepare for automated collation of the 1818, Thomas, 1823, and 1831 editions of <hi
+                rend="italic">Frankenstein</hi> using CollateX, in order to generate a TEI XML document
+                that stores the variations of these texts.</item>
+            
+            <item>To provide a reliable digital base text of each edition tractable for collation, as a
+                stage in preparing a TEI P5 edition, and as a basis for related projects.</item>
+        </list>
+        
+        <p>This edition was made from our project file of the 1818 edition, to which we added transcriptions of the handwritten annotations and emendations written on the Thomas copy edition. Transcriptions were made by consulting the Thomas Copy at the Morgan Library and checked against their representation in James Rieger’s and Nora Crook’s print critical editions, with a few cases of disagreement, usually in cases where Rieger did not fully note alterations.</p>
+ 
+        
+        <!--<p>Our plain text edition preserves the rendering of italics, square brackets, and centered
+        text from the PA EE HTML texts.</p>
+-->
+        <p>We have added page breaks using the TEI self-closing pb element. We will not be preserving
+            the running headers but will retain page number in order to link to page images in future
+            iterations of the text.</p>
+        
+        <!--<p>To track pages from our source images we will be using the TEI self-closing milestone
+        element with "unNum" as the marker.</p>-->
+        
+        <list>
+            <!-- <item>In the PA EE there is no distinction between italics for titles and italics for
+          emphasized words. Italics have been converted to hi elements with @rend="italic"</item>-->
+            
+            <item>We preserved italics and small caps.</item>
+            
+            <item>We have not normalized the spelling, and where the PA EE did so, we have silently
+                restored the spelling to its original state as observed in the photo facsimile
+                nineteenth-century editions. To prevent errors in collation, we have commented out editor
+                notes written by us recording our observations of errors in the source text. We have also
+                commented out the one instance in the 1831 PA EE HTML in which square brackets were used
+                to hold a normalized variant of a word, to suppress that from the output.</item>
+            
+            <!--<item>When centered text is the heading of a chapter or book, we render it inside head
+          elements. Otherwise we use hi @rend="center".</item>-->
+        </list>
+        <!--<note resp="#ebb">Note for later processing: In the PA EE of this text, there are 1337 encoded links, each pointing to an editorial annotation.</note> -->
+    </div>
+</header>
