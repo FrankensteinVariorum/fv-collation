@@ -1,0 +1,26 @@
+a.link-no-style {
+  color: inherit;
+}
+div.flexBox{ display: flex; justify-content: flex-start; flex-direction: row;}
+figure {flex:1}
+div.courseDesc {flex:2}
+img {width:100%}
+table#weekMenu tr td:nth-child(even){background: #f0f5f5;}
+/*  table#team tr td img {max-width:150px; width:15%;}*/
+tr:nth-child(even) {background: #f0f5f5}
+.rpad {padding-right:2em;}
+td:first-child, th:first-child {min-width:7em;}
+td:nth-child(2), th:nth-child(2) {width:30em;}
+div #credits {padding-top:1.5em;}
+
+@media screen and (min-width: 64em) {
+  .page-header-subpages {
+    padding: 0.5rem 0.6rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .page-header-subpages {
+    padding: 0.3rem 0.4rem; } }
+
+@media screen and (max-width: 42em) {
+  .page-header-subpages {
+    padding: 0.2rem 0.1rem; } }
