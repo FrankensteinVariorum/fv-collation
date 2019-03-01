@@ -2,8 +2,7 @@
 redirect_from: "https://ebeshero.github.io/Pittsburgh_Frankenstein/"
 ---
 
-Welcome to our GitHub Page!
-We are working on preparing a new digital edition of the novel _Frankenstein_ in its first three editions for the bicentennial of its first publication in 1818. Our edition is a digital collation of five distinct versions of the novel produced between 1816 and 1831.
+Welcome to our GitHub site! We are preparing a new digital variorum edition of the novel _Frankenstein_. Our edition is a digital collation of five distinct versions of the novel produced between 1816 and 1831. We first launched in response to the bicentennial of _Frankenstein_’s first publication in 1818, thinking only to improve the comparison view of the 1818 and 1831 editions available on [Romantic Circles](https://www.rc.umd.edu/editions/frankenstein). Since we launched, our project has grown into a more comprehensive effort to revive and rework earlier ambitious digital editions of the novel, from the [Pennsylvania Electronic Edition](http://knarf.english.upenn.edu/) of the mid 1990s onward. One of our projects is to bring together the 1816 manuscript notebook edition of the [Shelley-Godwin Archive](http://shelleygodwinarchive.org/contents/frankenstein/) and the manuscript annotations of [the Thomas copy](https://www.themorgan.org/collection/frankenstein) into readable and interoperable comparison with the print editions of the novel, to help students, scholars, and fans explore the novel’s intensive, nonlinear revision history.
 
 ### "Beta editions" ready for reading: 
 * [1818 publication of _Frankenstein_](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html). 
