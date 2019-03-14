@@ -45,7 +45,7 @@
             <sch:let name="tokenCount" value="$collTokens => count()"/>
             <sch:let name="spaceCount" value="tokenize(@n, ' ') => count()"/>
 <sch:assert test="$tokenCount = $spaceCount" role="warning">
-    Double-check this to be sure we're not missing a comma.. 
+    Double-check this to be sure we're not missing a comma. 
 </sch:assert>
         </sch:rule>
     </sch:pattern>
