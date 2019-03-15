@@ -2,77 +2,22 @@
 <?xml-model href="../collationOutputTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	  <app>
-		    <rdgGrp n="['&lt;p/&gt;', 'in', 'this', 'account', 'of', 'my', 'early', '', 'youth', 'i', 'wish', 'particularly', 'to', 'mention', '&lt;del&gt;record', '&lt;del&gt;', 'those', 'circumstances', 'which', '', 'led', 'to', 'and', 'nourished']">
-			      <rdg wit="fMS">&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0013__Pt1__main__8"/&gt; In this account of my early &lt;lb n="c56-0013__Pt1__main__9"/&gt; youth I wish particularly to men&lt;lb n="c56-0013__Pt1__main__10"/&gt;tion &lt;lb n="c56-0013__Pt1__left_margin__1"/&gt;&lt;del rend="strikethrough" sID="c56-0013__Pt1__left_margin__d2e831"/&gt;record &lt;del eID="c56-0013__Pt1__left_margin__d2e831"/&gt; those circumstances which &lt;lb n="c56-0013__Pt1__main__11"/&gt; led to and nourished </rdg>
+	  	<rdgGrp n="['&lt;p/&gt;', 'in', 'this', 'account', 'of', 'my', 'early', '', 'youth', 'i', 'wish', 'particularly', 'to', 'mention', '&lt;del&gt;record', '&lt;del&gt;', 'those', 'circumstances', 'which', 'led', 'to', 'and', 'nourished', 'my', 'taste', 'for', 'that', 'science', 'which', 'was', 'the', 'principal', 'amusement', 'of', 'my', 'boyish', 'days', 'and', 'in', 'the', 'end', 'decided', 'my', 'destiny.']">
+	  		<rdg wit="fMS">&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0013__Pt1__main__8"/&gt; In this account of my early &lt;lb n="c56-0013__Pt1__main__9"/&gt; youth I wish particularly to men&lt;lb n="c56-0013__Pt1__main__10"/&gt;tion &lt;lb n="c56-0013__Pt1__left_margin__1"/&gt;&lt;del rend="strikethrough" sID="c56-0013__Pt1__left_margin__d2e831"/&gt;record &lt;del eID="c56-0013__Pt1__left_margin__d2e831"/&gt; those circumstances which &lt;lb n="c56-0013__Pt1__main__11"/&gt; led to and nourished my taste &lt;lb n="c56-0013__Pt1__main__12"/&gt; for that science which was &lt;lb n="c56-0013__Pt1__main__13"/&gt; the principal amusement of my &lt;lb n="c56-0013__Pt1__main__14"/&gt; boyish days and in the end deci&lt;lb n="c56-0013__Pt1__main__15"/&gt;ded my destiny. </rdg>
 		    </rdgGrp>
-	  	<rdgGrp n="['&lt;p/&gt;i', 'feel', 'pleasure', 'in', 'dwelling', 'on', 'the', 'recollections', 'of', 'childhood,', 'before', 'misfortune', 'had', 'tainted']">
-	  		<rdg wit="f1818">&lt;p sID="novel1_letter4_chapter1_div4_div1_p14"/&gt;I feel pleasure in dwelling on the recollections of childhood, before misfortune had tainted </rdg>
-	  		<rdg wit="f1823">&lt;p sID="novel1_letter4_chapter1_div4_div1_p14"/&gt;I feel pleasure in dwelling on the recollections of childhood, before misfortune had tainted </rdg>
-	  		<rdg wit="fThomas">&lt;p sID="novel1_letter4_chapter1_div4_div1_p14"/&gt;I feel pleasure in dwelling on the recollections of childhood, before misfortune had tainted </rdg>
+	  	<rdgGrp n="['&lt;p/&gt;i', 'feel', 'pleasure', 'in', 'dwelling', 'on', 'the', 'recollections', 'of', 'childhood,', 'before', 'misfortune', 'had', 'tainted', 'my', 'mind,', 'and', 'changed', 'its', 'bright', 'visions', 'of', 'extensive', 'usefulness', 'into', 'gloomy', 'and', 'narrow', 'reflections', 'upon', 'self.']">
+	  		<rdg wit="f1818">&lt;p sID="novel1_letter4_chapter1_div4_div1_p14"/&gt;I feel pleasure in dwelling on the recollections of childhood, before misfortune had tainted my mind, and changed its bright visions of extensive usefulness into gloomy and narrow reflections upon self. </rdg>
+	  		<rdg wit="f1823">&lt;p sID="novel1_letter4_chapter1_div4_div1_p14"/&gt;I feel pleasure in dwelling on the recollections of childhood, before misfortune had tainted my mind, and changed its bright visions of extensive usefulness into gloomy and narrow reflections upon self. </rdg>
+	  		<rdg wit="fThomas">&lt;p sID="novel1_letter4_chapter1_div4_div1_p14"/&gt;I feel pleasure in dwelling on the recollections of childhood, before misfortune had tainted my mind, and changed its bright visions of extensive usefulness into gloomy and narrow reflections upon self. </rdg>
 	  	</rdgGrp>
-	  	<rdgGrp n="['&lt;p/&gt;i', 'feel', 'exquisite', 'pleasure', 'in', 'dwelling', 'on', 'the', 'recollections', 'of', 'childhood,', 'before', 'misfortune', 'had', 'tainted']">
-	  		<rdg wit="f1831">&lt;p sID="novel1_letter4_chapter2_div4_div2_p6"/&gt;I feel exquisite pleasure in dwelling on the recollections of childhood, before misfortune had tainted </rdg>
+	  	<rdgGrp n="['&lt;p/&gt;i', 'feel', 'exquisite', 'pleasure', 'in', 'dwelling', 'on', 'the', 'recollections', 'of', 'childhood,', 'before', 'misfortune', 'had', 'tainted', 'my', 'mind,', 'and', 'changed', 'its', 'bright', 'visions', 'of', 'extensive', 'usefulness', 'into', 'gloomy', 'and', 'narrow', 'reflections', 'upon', 'self.']">
+	  		<rdg wit="f1831">&lt;p sID="novel1_letter4_chapter2_div4_div2_p6"/&gt;I feel exquisite pleasure in dwelling on the recollections of childhood, before misfortune had tainted my mind, and changed its bright visions of extensive usefulness into gloomy and narrow reflections upon self. </rdg>
 	  		
 	  	</rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['my']">
-			      <rdg wit="f1818">my </rdg>
-			      <rdg wit="f1823">my </rdg>
-			      <rdg wit="fThomas">my </rdg>
-			      <rdg wit="fMS">my </rdg>
-			      <rdg wit="f1831">my </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['mind,', 'and', 'changed', 'its', 'bright', 'visions']">
-			      <rdg wit="f1818">mind, and changed its bright visions </rdg>
-			      <rdg wit="f1823">mind, and changed its bright visions </rdg>
-			      <rdg wit="fThomas">mind, and changed its bright visions </rdg>
-			      <rdg wit="f1831">mind, and changed its bright visions </rdg>
-		    </rdgGrp>
-		    <rdgGrp n="['taste', '', 'for', 'that', 'science', 'which', 'was', '', 'the', 'principal', 'amusement']">
-			      <rdg wit="fMS">taste &lt;lb n="c56-0013__Pt1__main__12"/&gt; for that science which was &lt;lb n="c56-0013__Pt1__main__13"/&gt; the principal amusement </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['of']">
-			      <rdg wit="f1818">of </rdg>
-			      <rdg wit="f1823">of </rdg>
-			      <rdg wit="fThomas">of </rdg>
-			      <rdg wit="fMS">of </rdg>
-			      <rdg wit="f1831">of </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['extensive', 'usefulness', 'into', 'gloomy']">
-			      <rdg wit="f1818">extensive usefulness into gloomy </rdg>
-			      <rdg wit="f1823">extensive usefulness into gloomy </rdg>
-			      <rdg wit="fThomas">extensive usefulness into gloomy </rdg>
-			      <rdg wit="f1831">extensive usefulness into gloomy </rdg>
-		    </rdgGrp>
-		    <rdgGrp n="['my', '', 'boyish', 'days']">
-			      <rdg wit="fMS">my &lt;lb n="c56-0013__Pt1__main__14"/&gt; boyish days </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['and']">
-			      <rdg wit="f1818">and </rdg>
-			      <rdg wit="f1823">and </rdg>
-			      <rdg wit="fThomas">and </rdg>
-			      <rdg wit="fMS">and </rdg>
-			      <rdg wit="f1831">and </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['in', 'the', 'end', 'decided', 'my', 'destiny.', 'i', 'mentioned', 'before', '', 'my', 'taste', 'for', 'old', 'books']">
-			      <rdg wit="fMS">in the end deci&lt;lb n="c56-0013__Pt1__main__15"/&gt;ded my destiny. I mentioned before &lt;lb n="c56-0013__Pt1__main__16"/&gt; my taste for old books </rdg>
-		    </rdgGrp>
-		    <rdgGrp n="['narrow', 'reflections', 'upon', 'self.']">
-			      <rdg wit="f1818">narrow reflections upon self. </rdg>
-			      <rdg wit="f1823">narrow reflections upon self. </rdg>
-			      <rdg wit="fThomas">narrow reflections upon self. </rdg>
-			      <rdg wit="f1831">narrow reflections upon self. </rdg>
+	  	<rdgGrp n="['i', 'mentioned', 'before', '', 'my', 'taste', 'for', 'old', 'books', 'of', 'chemistry', 'and', 'natural', 'magic', 'and', 'i', 'remember', 'very', 'well', 'that', 'i', 'learned', 'latin', 'principally', 'that', 'i', 'might', 'read', '', &#34;pliny's&#34;, 'natural', 'history', 'my', 'father', 'refusing', 'to', 'allow', 'me', 'to', 'read', 'a', '', 'translation.', 'i', 'used', 'when', 'very', 'young', '', 'to', 'attend', 'lectures', 'of', 'chemistry', 'given', 'in', 'geneva', 'and', 'athough', 'i', 'did', 'not', 'understand', 'them', 'the', 'experiments', 'never', 'failed', 'to', '', 'attract', 'my', 'attention.', '&lt;del&gt;', 'i', 'remember&lt;del&gt;', '&lt;del&gt;also&lt;del&gt;']">
+	  		<rdg wit="fMS">I mentioned before &lt;lb n="c56-0013__Pt1__main__16"/&gt; my taste for old books of chemist&lt;lb n="c56-0013__Pt1__main__17"/&gt;ry and natural magic and I remem&lt;lb n="c56-0013__Pt1__main__18"/&gt;ber very well that I learned latin &lt;lb n="c56-0013__Pt1__main__19"/&gt; principally that I might read &lt;lb n="c56-0013__Pt1__main__20"/&gt; Pliny's Natural History my father &lt;lb n="c56-0013__Pt1__main__21"/&gt; refusing to allow me to read a &lt;lb n="c56-0013__Pt1__main__22"/&gt; translation. I used when very young &lt;lb n="c56-0013__Pt1__main__23"/&gt; to attend lectures of chemistry &lt;lb n="c56-0013__Pt1__main__24"/&gt; given in Geneva and athough &lt;lb n="c56-0013__Pt1__main__25"/&gt; I did not understand them the &lt;lb n="c56-0013__Pt1__main__26"/&gt; experiments never failed to &lt;lb n="c56-0013__Pt1__main__27"/&gt; attract my attention.&lt;del next="#c56-0013.06" rend="strikethrough" sID="c56-0013__Pt1__main__d2e899"/&gt; I reme&lt;metamark function="insert"&gt;^&lt;/metamark&gt;mber&lt;del eID="c56-0013__Pt1__main__d2e899"/&gt;&lt;lb n="c56-0013__Pt1__main__28"/&gt;&lt;del rend="strikethrough" sID="c56-0013__Pt1__main__d2e917" xml:id="c56-0013.06"/&gt;also&lt;del eID="c56-0013__Pt1__main__d2e917"/&gt;</rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -86,48 +31,16 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['in', 'drawing', 'the', 'picture']">
-			      <rdg wit="f1818">in drawing the picture </rdg>
-			      <rdg wit="f1823">in drawing the picture </rdg>
-			      <rdg wit="fThomas">in drawing the picture </rdg>
-			      <rdg wit="f1831">in drawing the picture </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['of']">
-			      <rdg wit="f1818">of </rdg>
-			      <rdg wit="f1823">of </rdg>
-			      <rdg wit="fThomas">of </rdg>
-			      <rdg wit="fMS">of </rdg>
-			      <rdg wit="f1831">of </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['chemistry', 'and', 'natural', 'magic', 'and', 'i', 'remember', 'very', 'well', 'that']">
-			      <rdg wit="fMS">chemist&lt;lb n="c56-0013__Pt1__main__17"/&gt;ry and natural magic and I remem&lt;lb n="c56-0013__Pt1__main__18"/&gt;ber very well that </rdg>
-		    </rdgGrp>
-		    <rdgGrp n="['my', 'early', 'days,']">
-			      <rdg wit="f1818">my early days, </rdg>
-			      <rdg wit="f1823">my early days, </rdg>
-			      <rdg wit="fThomas">my early days, </rdg>
-			      <rdg wit="f1831">my early days, </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['i']">
-			      <rdg wit="f1818">I </rdg>
-			      <rdg wit="f1823">I </rdg>
-			      <rdg wit="fThomas">I </rdg>
-			      <rdg wit="fMS">I </rdg>
-			      <rdg wit="f1831">I </rdg>
+	  	<rdgGrp n="['in', 'drawing', 'the', 'picture', 'of', 'my', 'early', 'days,', 'i']">
+	  		<rdg wit="f1818">in drawing the picture of my early days, I </rdg>
+	  		<rdg wit="f1823">in drawing the picture of my early days, I </rdg>
+	  		<rdg wit="fThomas">in drawing the picture of my early days, I </rdg>
+	  		<rdg wit="f1831">in drawing the picture of my early days, I </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
 		    <rdgGrp n="['also']">
 			      <rdg wit="f1831">also </rdg>
-		    </rdgGrp>
-		    <rdgGrp n="['learned', 'latin', '', 'principally', 'that', 'i', 'might', 'read', '', &#34;pliny's&#34;, 'natural', 'history', 'my', 'father', '', 'refusing']">
-			      <rdg wit="fMS">learned latin &lt;lb n="c56-0013__Pt1__main__19"/&gt; principally that I might read &lt;lb n="c56-0013__Pt1__main__20"/&gt; Pliny's Natural History my father &lt;lb n="c56-0013__Pt1__main__21"/&gt; refusing </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['must', 'not', 'omit', 'to']">
 			      <rdg wit="f1818">must not omit to </rdg>
@@ -154,112 +67,33 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['to']">
-			      <rdg wit="f1818">to </rdg>
-			      <rdg wit="f1823">to </rdg>
-			      <rdg wit="fThomas">to </rdg>
-			      <rdg wit="fMS">to </rdg>
-			      <rdg wit="f1831">to </rdg>
+	  	<rdgGrp n="['to', 'my', 'after', 'tale', 'of', 'misery:', 'for', 'when', 'i', 'would', 'account', 'to', 'myself', 'for', 'the', 'birth', 'of', 'that', 'passion,', 'which', 'afterwards', 'ruled', 'my', 'destiny,']">
+	  		<rdg wit="f1818">to my after tale of misery: for when I would account to myself for the birth of that passion, which afterwards ruled my destiny, </rdg>
+	  		<rdg wit="f1823">to my after tale of misery: for when I would account to myself for the birth of that passion, which afterwards ruled my destiny, </rdg>
+	  		<rdg wit="fThomas">to my after tale of misery: for when I would account to myself for the birth of that passion, which afterwards ruled my destiny, </rdg>
+	  		<rdg wit="f1831">to my after tale of misery: for when I would account to myself for the birth of that passion, which afterwards ruled my destiny, </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['allow', 'me', 'to', 'read', 'a', '', 'translation.']">
-			      <rdg wit="fMS">allow me to read a &lt;lb n="c56-0013__Pt1__main__22"/&gt; translation. </rdg>
+	  	<rdgGrp n="['chapt.', '2', 'those', 'events', 'which', 'materially', 'influence', 'our', 'future', 'destinies', '&lt;del&gt;are&lt;del&gt;', 'often', '&lt;del&gt;caused&lt;del&gt;&lt;del&gt;by', 'slight', 'or&lt;del&gt;derive', 'thier', 'origin', 'from', 'a', 'trivial', 'occurence&lt;del&gt;s&lt;del&gt;.', '&lt;del&gt;strange', 'as', 'the&lt;del&gt;&lt;del&gt;statement', 'of', 'the&lt;del&gt;&lt;del&gt;simple', 'fact&lt;del&gt;&lt;del&gt;may', 'appear', 'my', 'fate', 'had', 'been&lt;del&gt;']">
+	  		<rdg wit="fMS">&lt;gap quantity="22" reason="resequencing" unit="tokens"/&gt;&lt;gap quantity="4" reason="resequencing" unit="lines"/&gt;&lt;lb n="c56-0005__main__1"/&gt;&lt;milestone spanTo="#c56-0005.06" unit="tei:head"/&gt;Chapt. 2&lt;lb n="c56-0005__main__2"/&gt; Those events which materially influence our fu&lt;lb n="c56-0005__main__3"/&gt;ture destinies &lt;del rend="strikethrough" sID="c56-0005__main__d2e949"/&gt;are&lt;del eID="c56-0005__main__d2e949"/&gt; often &lt;del rend="strikethrough" sID="c56-0005__main__d2e954"/&gt;caused&lt;del eID="c56-0005__main__d2e954"/&gt;&lt;del rend="strikethrough" sID="c56-0005__main__d2e957"/&gt;by slight or&lt;del eID="c56-0005__main__d2e957"/&gt;derive thier origin from atri&lt;lb n="c56-0005__main__4"/&gt;vial occurence&lt;del rend="strikethrough" sID="c56-0005__main__d2e971"/&gt;s&lt;del eID="c56-0005__main__d2e971"/&gt;. &lt;del next="#c56-0005.02" rend="strikethrough" sID="c56-0005__main__d2e974"/&gt;Strange as the&lt;del eID="c56-0005__main__d2e974"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;&lt;del rend="strikethrough" sID="c56-0005__main__d2e985"/&gt;statement of the&lt;del eID="c56-0005__main__d2e985"/&gt;&lt;del next="#c56-0005.03" rend="strikethrough" sID="c56-0005__main__d2e992" xml:id="c56-0005.02"/&gt;simple fact&lt;del eID="c56-0005__main__d2e992"/&gt;&lt;lb n="c56-0005__main__5"/&gt;&lt;del rend="strikethrough" sID="c56-0005__main__d2e998" xml:id="c56-0005.03"/&gt;may appear my fate had been&lt;del eID="c56-0005__main__d2e998"/&gt;</rdg>
 		    </rdgGrp>
-		    <rdgGrp n="['my', 'after', 'tale', 'of', 'misery:', 'for', 'when']">
-			      <rdg wit="f1818">my after tale of misery: for when </rdg>
-			      <rdg wit="f1823">my after tale of misery: for when </rdg>
-			      <rdg wit="fThomas">my after tale of misery: for when </rdg>
-			      <rdg wit="f1831">my after tale of misery: for when </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['i']">
-			      <rdg wit="f1818">I </rdg>
-			      <rdg wit="f1823">I </rdg>
-			      <rdg wit="fThomas">I </rdg>
-			      <rdg wit="fMS">I </rdg>
-			      <rdg wit="f1831">I </rdg>
+	  	<rdgGrp n="['i', 'find', 'it', 'arise,', 'like', 'a', 'mountain', 'river,', 'from', 'ignoble', 'and', 'almost', 'forgotten', 'sources;', 'but,', 'swelling', 'as', 'it', 'proceeded,', 'it', 'became', 'the', 'torrent', 'which,', 'in', 'its', 'course,', 'has', 'swept', 'away', 'all', 'my', 'hopes', 'and', 'joys.&lt;p/&gt;']">
+	  		<rdg wit="f1818">I find it arise, like a mountain river, from ignoble and almost forgotten sources; but, swelling as it proceeded, it became the torrent which, in its course, has swept away all my hopes and joys.&lt;p eID="novel1_letter4_chapter1_div4_div1_p14"/&gt; </rdg>
+	  		<rdg wit="f1823">I find it arise, like a mountain river, from ignoble and almost forgotten sources; but, swelling as it proceeded, it became the torrent which, in its course, has swept away all my hopes and joys.&lt;p eID="novel1_letter4_chapter1_div4_div1_p14"/&gt; </rdg>
+	  		<rdg wit="fThomas">I find it arise, like a mountain river, from ignoble and almost forgotten sources; but, swelling as it proceeded, it became the torrent which, in its course, has swept away all my hopes and joys.&lt;p eID="novel1_letter4_chapter1_div4_div1_p14"/&gt; </rdg>
+	  		<rdg wit="f1831">I find it arise, like a mountain river, from ignoble and almost forgotten sources; but, swelling as it proceeded, it became the torrent which, in its course, has swept away all my hopes and joys.&lt;p eID="novel1_letter4_chapter2_div4_div2_p6"/&gt; </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['used', 'when', 'very', 'young', '', 'to', 'attend', 'lectures']">
-			      <rdg wit="fMS">used when very young &lt;lb n="c56-0013__Pt1__main__23"/&gt; to attend lectures </rdg>
+	  	<rdgGrp n="['&lt;del&gt;chemist&lt;del&gt;natural', 'philosophy']">
+	  		<rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0005__main__d2e1001"/&gt;Chemist&lt;del eID="c56-0005__main__d2e1001"/&gt;Natu&lt;lb n="c56-0005__main__6"/&gt;ral philosophy </rdg>
 		    </rdgGrp>
-		    <rdgGrp n="['would', 'account', 'to', 'myself', 'for', 'the', 'birth']">
-			      <rdg wit="f1818">would account to myself for the birth </rdg>
-			      <rdg wit="f1823">would account to myself for the birth </rdg>
-			      <rdg wit="fThomas">would account to myself for the birth </rdg>
-			      <rdg wit="f1831">would account to myself for the birth </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['of']">
-			      <rdg wit="f1818">of </rdg>
-			      <rdg wit="f1823">of </rdg>
-			      <rdg wit="fThomas">of </rdg>
-			      <rdg wit="fMS">of </rdg>
-			      <rdg wit="f1831">of </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['chemistry', '', 'given', 'in', 'geneva', 'and', 'athough', '']">
-			      <rdg wit="fMS">chemistry &lt;lb n="c56-0013__Pt1__main__24"/&gt; given in Geneva and athough &lt;lb n="c56-0013__Pt1__main__25"/&gt; </rdg>
-		    </rdgGrp>
-		    <rdgGrp n="['that', 'passion,', 'which', 'afterwards', 'ruled', 'my', 'destiny,']">
-			      <rdg wit="f1818">that passion, which afterwards ruled my destiny, </rdg>
-			      <rdg wit="f1823">that passion, which afterwards ruled my destiny, </rdg>
-			      <rdg wit="fThomas">that passion, which afterwards ruled my destiny, </rdg>
-			      <rdg wit="f1831">that passion, which afterwards ruled my destiny, </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['i']">
-			      <rdg wit="f1818">I </rdg>
-			      <rdg wit="f1823">I </rdg>
-			      <rdg wit="fThomas">I </rdg>
-			      <rdg wit="fMS">I </rdg>
-			      <rdg wit="f1831">I </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['did', 'not', 'understand', 'them', 'the', '', 'experiments', 'never', 'failed', 'to', '', 'attract', 'my', 'attention.&lt;del&gt;', 'i', 'remember&lt;del&gt;&lt;del&gt;also&lt;del&gt;chapt.', '2', 'those', 'events', 'which', 'materially', 'influence', 'our', 'future', 'destinies', '&lt;del&gt;are&lt;del&gt;', 'often', '&lt;del&gt;caused&lt;del&gt;&lt;del&gt;by', 'slight', 'or&lt;del&gt;derive', 'thier', 'origin', 'from', 'atrivial', 'occurence&lt;del&gt;s&lt;del&gt;.', '&lt;del&gt;strange', 'as', 'the&lt;del&gt;&lt;del&gt;statement', 'of', 'the&lt;del&gt;&lt;del&gt;simple', 'fact&lt;del&gt;&lt;del&gt;may', 'appear']">
-			      <rdg wit="fMS">did not understand them the &lt;lb n="c56-0013__Pt1__main__26"/&gt; experiments never failed to &lt;lb n="c56-0013__Pt1__main__27"/&gt; attract my attention.&lt;del next="#c56-0013.06" rend="strikethrough" sID="c56-0013__Pt1__main__d2e899"/&gt; I reme&lt;metamark function="insert"&gt;^&lt;/metamark&gt;mber&lt;del eID="c56-0013__Pt1__main__d2e899"/&gt;&lt;lb n="c56-0013__Pt1__main__28"/&gt;&lt;del rend="strikethrough" sID="c56-0013__Pt1__main__d2e917" xml:id="c56-0013.06"/&gt;also&lt;del eID="c56-0013__Pt1__main__d2e917"/&gt;&lt;gap quantity="22" reason="resequencing" unit="tokens"/&gt;&lt;gap quantity="4" reason="resequencing" unit="lines"/&gt;&lt;lb n="c56-0005__main__1"/&gt;&lt;milestone spanTo="#c56-0005.06" unit="tei:head"/&gt;Chapt. 2&lt;lb n="c56-0005__main__2"/&gt; Those events which materially influence our fu&lt;lb n="c56-0005__main__3"/&gt;ture destinies &lt;del rend="strikethrough" sID="c56-0005__main__d2e949"/&gt;are&lt;del eID="c56-0005__main__d2e949"/&gt; often &lt;del rend="strikethrough" sID="c56-0005__main__d2e954"/&gt;caused&lt;del eID="c56-0005__main__d2e954"/&gt;&lt;del rend="strikethrough" sID="c56-0005__main__d2e957"/&gt;by slight or&lt;del eID="c56-0005__main__d2e957"/&gt;derive thier origin from atri&lt;lb n="c56-0005__main__4"/&gt;vial occurence&lt;del rend="strikethrough" sID="c56-0005__main__d2e971"/&gt;s&lt;del eID="c56-0005__main__d2e971"/&gt;. &lt;del next="#c56-0005.02" rend="strikethrough" sID="c56-0005__main__d2e974"/&gt;Strange as the&lt;del eID="c56-0005__main__d2e974"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;&lt;del rend="strikethrough" sID="c56-0005__main__d2e985"/&gt;statement of the&lt;del eID="c56-0005__main__d2e985"/&gt;&lt;del next="#c56-0005.03" rend="strikethrough" sID="c56-0005__main__d2e992" xml:id="c56-0005.02"/&gt;simple fact&lt;del eID="c56-0005__main__d2e992"/&gt;&lt;lb n="c56-0005__main__5"/&gt;&lt;del rend="strikethrough" sID="c56-0005__main__d2e998" xml:id="c56-0005.03"/&gt;may appear </rdg>
-		    </rdgGrp>
-		    <rdgGrp n="['find', 'it', 'arise,', 'like', 'a', 'mountain', 'river,', 'from', 'ignoble', 'and', 'almost', 'forgotten', 'sources;', 'but,', 'swelling', 'as', 'it', 'proceeded,', 'it', 'became', 'the', 'torrent', 'which,', 'in', 'its', 'course,', 'has', 'swept', 'away', 'all']">
-			      <rdg wit="f1818">find it arise, like a mountain river, from ignoble and almost forgotten sources; but, swelling as it proceeded, it became the torrent which, in its course, has swept away all </rdg>
-			      <rdg wit="f1823">find it arise, like a mountain river, from ignoble and almost forgotten sources; but, swelling as it proceeded, it became the torrent which, in its course, has swept away all </rdg>
-			      <rdg wit="fThomas">find it arise, like a mountain river, from ignoble and almost forgotten sources; but, swelling as it proceeded, it became the torrent which, in its course, has swept away all </rdg>
-			      <rdg wit="f1831">find it arise, like a mountain river, from ignoble and almost forgotten sources; but, swelling as it proceeded, it became the torrent which, in its course, has swept away all </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['my']">
-			      <rdg wit="f1818">my </rdg>
-			      <rdg wit="f1823">my </rdg>
-			      <rdg wit="fThomas">my </rdg>
-			      <rdg wit="fMS">my </rdg>
-			      <rdg wit="f1831">my </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['fate', 'had', 'been&lt;del&gt;&lt;del&gt;chemist&lt;del&gt;natural']">
-			      <rdg wit="fMS">fate had been&lt;del eID="c56-0005__main__d2e998"/&gt;&lt;del rend="strikethrough" sID="c56-0005__main__d2e1001"/&gt;Chemist&lt;del eID="c56-0005__main__d2e1001"/&gt;Natu&lt;lb n="c56-0005__main__6"/&gt;ral </rdg>
-		    </rdgGrp>
-		    <rdgGrp n="['hopes', 'and', 'joys.&lt;p/&gt;&lt;p/&gt;natural']">
-			      <rdg wit="f1818">hopes and joys.&lt;p eID="novel1_letter4_chapter1_div4_div1_p14"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p15"/&gt;Natural </rdg>
-			      <rdg wit="f1823">hopes and joys.&lt;p eID="novel1_letter4_chapter1_div4_div1_p14"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p15"/&gt;Natural </rdg>
-			      <rdg wit="fThomas">hopes and joys.&lt;p eID="novel1_letter4_chapter1_div4_div1_p14"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p15"/&gt;Natural </rdg>
-			      <rdg wit="f1831">hopes and joys.&lt;p eID="novel1_letter4_chapter2_div4_div2_p6"/&gt;&lt;p sID="novel1_letter4_chapter2_div4_div2_p7"/&gt;Natural </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['philosophy']">
-			      <rdg wit="f1818">philosophy </rdg>
-			      <rdg wit="f1823">philosophy </rdg>
-			      <rdg wit="fThomas">philosophy </rdg>
-			      <rdg wit="fMS">philosophy </rdg>
-			      <rdg wit="f1831">philosophy </rdg>
+	  	<rdgGrp n="['&lt;p/&gt;natural', 'philosophy']">
+	  		<rdg wit="f1818">&lt;p sID="novel1_letter4_chapter1_div4_div1_p15"/&gt;Natural philosophy </rdg>
+	  		<rdg wit="f1823">&lt;p sID="novel1_letter4_chapter1_div4_div1_p15"/&gt;Natural philosophy </rdg>
+	  		<rdg wit="fThomas">&lt;p sID="novel1_letter4_chapter1_div4_div1_p15"/&gt;Natural philosophy </rdg>
+	  		<rdg wit="f1831">&lt;p sID="novel1_letter4_chapter2_div4_div2_p7"/&gt;Natural philosophy </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -334,7 +168,7 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['account', '', 'of', 'my', 'early', 'years']">
+		    <rdgGrp n="['account', 'of', 'my', 'early', 'years']">
 			      <rdg wit="fMS">account &lt;lb n="c56-0005__main__8"/&gt; of my early years </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['narration,']">
@@ -546,7 +380,7 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['apathy', '&lt;del&gt;but&lt;del&gt;the']">
+		    <rdgGrp n="['apathy', '&lt;del&gt;but&lt;del&gt;', 'the']">
 			      <rdg wit="fMS">apathy &lt;lb n="c56-0005__main__17"/&gt;&lt;del next="#c56-0005.04" rend="strikethrough" sID="c56-0005__main__d2e1143"/&gt;but&lt;del eID="c56-0005__main__d2e1143"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;the </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['apathy;', 'the']">
@@ -626,7 +460,7 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['thathe', 'relates', '&lt;del&gt;chan&lt;del&gt;']">
+		    <rdgGrp n="['that', 'he', 'relates', '&lt;del&gt;chan&lt;del&gt;']">
 			      <rdg wit="fMS">thathe relates &lt;del rend="strikethrough" sID="c56-0005__main__d2e1160"/&gt;chan&lt;del eID="c56-0005__main__d2e1160"/&gt; </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['which', 'he', 'relates,']">
@@ -749,7 +583,7 @@
 		    <rdgGrp n="['&lt;del&gt;i', 'cannot', 'help', 'remarking', 'here', 'the', 'many', 'opportunities', 'instructors', 'possess', 'of', 'directing', 'the', 'attention', 'of', 'their', 'pupils', 'to', 'useful', 'knowledge,', 'which', 'they', 'utterly', 'neglect.', 'my', 'father', 'looked&lt;del&gt;who', 'looking']">
 			      <rdg wit="fThomas">&lt;del sID="novel1_letter4_chapter1_div4_div1_p15_del2"/&gt;I cannot help remarking here the many opportunities instructors possess of directing the attention of their pupils to useful knowledge, which they utterly neglect. My father looked&lt;del eID="novel1_letter4_chapter1_div4_div1_p15_del2"/&gt;who looking </rdg>
 		    </rdgGrp>
-		    <rdgGrp n="['i', 'cannot', 'help', 'here', 'remarking', 'the', 'many', 'opportunities', '&lt;del&gt;parents&lt;del&gt;instructors&lt;del&gt;have&lt;del&gt;posess', 'of', 'directing', 'the', 'attention', 'of', 'their', 'pupils', 'to', 'useful', 'knowledge,', 'which', 'they', 'utterly', 'neglect.', 'my', 'father', 'looked']">
+		    <rdgGrp n="['i', 'cannot', 'help', 'here', 'remarking', 'the', 'many', 'opportunities', '&lt;del&gt;parents&lt;del&gt;instructors&lt;del&gt;', 'have&lt;del&gt;posess', 'of', 'directing', 'the', 'attention', 'of', 'their', 'pupils', 'to', 'useful', 'knowledge,', 'which', 'they', 'utterly', 'neglect.', 'my', 'father', 'looked']">
 			      <rdg wit="fMS">I cannot help here remark&lt;lb n="c56-0005__main__21"/&gt;ing the many opportunities &lt;del rend="strikethrough" sID="c56-0005__main__d2e1192"/&gt;parents&lt;del eID="c56-0005__main__d2e1192"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;instructors&lt;del rend="strikethrough" sID="c56-0005__main__d2e1208"/&gt;have&lt;del eID="c56-0005__main__d2e1208"/&gt;posess&lt;lb n="c56-0005__main__22"/&gt; of directing the attention of their pupils to &lt;lb n="c56-0005__main__23"/&gt; useful knowledge, which they utterly neglect. &lt;lb n="c56-0005__main__24"/&gt; My father looked </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['i', 'cannot', 'help', 'remarking', 'here', 'the', 'many', 'opportunities', 'instructors', 'possess', 'of', 'directing', 'the', 'attention', 'of', 'their', 'pupils', 'to', 'useful', 'knowledge,', 'which', 'they', 'utterly', 'neglect.', 'my', 'father', 'looked']">
@@ -911,7 +745,7 @@
 			      <rdg wit="fThomas">trash.”&lt;p eID="novel1_letter4_chapter1_div4_div1_p15"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p16"/&gt;If, </rdg>
 			      <rdg wit="f1831">trash.”&lt;p eID="novel1_letter4_chapter2_div4_div2_p7"/&gt;&lt;p sID="novel1_letter4_chapter2_div4_div2_p8"/&gt;If, </rdg>
 		    </rdgGrp>
-		    <rdgGrp n="['trash.', '', 'if']">
+		    <rdgGrp n="['trash.', 'if']">
 			      <rdg wit="fMS">trash. &lt;lb n="c56-0005__main__28"/&gt; If </rdg>
 		    </rdgGrp>
 	  </app>
@@ -1152,7 +986,7 @@
 			      <rdg wit="fThomas">former were </rdg>
 			      <rdg wit="f1831">former were </rdg>
 		    </rdgGrp>
-		    <rdgGrp n="['moderns', '', 'are']">
+		    <rdgGrp n="['moderns', 'are']">
 			      <rdg wit="fMS">moderns &lt;lb n="c56-0006__main__7"/&gt; are </rdg>
 		    </rdgGrp>
 	  </app>
@@ -1166,7 +1000,7 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['', 'circumstances']">
+		    <rdgGrp n="['circumstances']">
 			      <rdg wit="fMS">&lt;lb n="c56-0006__main__8"/&gt; circumstances </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['circumstances,']">
@@ -1248,24 +1082,21 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['was,']">
-			      <rdg wit="f1818">was, </rdg>
-			      <rdg wit="f1823">was, </rdg>
-			      <rdg wit="fThomas">was, </rdg>
-			      <rdg wit="f1831">was, </rdg>
+	  	<rdgGrp n="['was,', 'should']">
+	  		<rdg wit="f1818">was, should </rdg>
+	  		<rdg wit="f1823">was, should </rdg>
+	  		<rdg wit="fThomas">was, should </rdg>
 		    </rdgGrp>
-		    <rdgGrp n="['wasshould']">
+		    <rdgGrp n="['was', 'should']">
 			      <rdg wit="fMS">was&lt;mdel&gt;w&lt;/mdel&gt;should </rdg>
 		    </rdgGrp>
+	  	<rdgGrp n="['was,']">
+	  		<rdg wit="f1831">was, </rdg>
+	  	</rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['by', 'returning', 'with', 'greater', 'ardour']">
-			      <rdg wit="f1831">by returning with greater ardour </rdg>
-		    </rdgGrp>
-		    <rdgGrp n="['should']">
-			      <rdg wit="f1818">should </rdg>
-			      <rdg wit="f1823">should </rdg>
-			      <rdg wit="fThomas">should </rdg>
+	  	<rdgGrp n="['by', 'returning', 'with', 'greater', 'ardour', 'to']">
+	  		<rdg wit="f1831">by returning with greater ardour to </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -1277,7 +1108,7 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['', 'aplied']">
+		    <rdgGrp n="['aplied']">
 			      <rdg wit="fMS">&lt;lb n="c56-0006__main__11"/&gt; aplied </rdg>
 		    </rdgGrp>
 		    <rdgGrp n="['applied']">
@@ -1300,23 +1131,22 @@
 			      <rdg wit="f1823">to </rdg>
 			      <rdg wit="fThomas">to </rdg>
 			      <rdg wit="fMS">to </rdg>
-			      <rdg wit="f1831">to </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['&lt;del&gt;m&lt;del&gt;']">
-			      <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0006__main__d2e1318"/&gt;m&lt;del eID="c56-0006__main__d2e1318"/&gt; </rdg>
-		    </rdgGrp>
+		   
 		    <rdgGrp n="['my', 'former', 'studies.']">
 			      <rdg wit="f1831">my former studies. </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
+	  	<rdgGrp n="['&lt;del&gt;m&lt;del&gt;', 'the', 'more']">
+	  		<rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0006__main__d2e1318"/&gt;m&lt;del eID="c56-0006__main__d2e1318"/&gt; the more </rdg>
+	  	</rdgGrp>
 		    <rdgGrp n="['the', 'more']">
 			      <rdg wit="f1818">the more </rdg>
 			      <rdg wit="f1823">the more </rdg>
 			      <rdg wit="fThomas">the more </rdg>
-			      <rdg wit="fMS">the more </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
@@ -3360,23 +3190,14 @@
 		    </rdgGrp>
 	  </app>
 	  <app>
-		    <rdgGrp n="['']">
-			      <rdg wit="fMS">&lt;lb n="c56-0013__Pt2__main__32"/&gt; </rdg>
-		    </rdgGrp>
-		    <rdgGrp n="['most']">
-			      <rdg wit="f1818">most </rdg>
-			      <rdg wit="f1823">most </rdg>
-			      <rdg wit="fThomas">most </rdg>
-			      <rdg wit="f1831">most </rdg>
-		    </rdgGrp>
-	  </app>
-	  <app>
-		    <rdgGrp n="['violent', 'and', 'terrible']">
-			      <rdg wit="f1818">violent and terrible </rdg>
-			      <rdg wit="f1823">violent and terrible </rdg>
-			      <rdg wit="fThomas">violent and terrible </rdg>
-			      <rdg wit="fMS">violent &lt;mdel&gt;at&lt;/mdel&gt;and terrible </rdg>
-			      <rdg wit="f1831">violent and terrible </rdg>
+	  	<rdgGrp n="['violent', 'and', 'terrible']">
+	  		<rdg wit="fMS">&lt;lb n="c56-0013__Pt2__main__32"/&gt; violent &lt;mdel&gt;at&lt;/mdel&gt;and terrible </rdg>
+	</rdgGrp>
+	  	<rdgGrp n="['most', 'violent', 'and', 'terrible']">
+	  		<rdg wit="f1818">most violent and terrible </rdg>
+	  		<rdg wit="f1823">most violent and terrible </rdg>
+	  		<rdg wit="fThomas">most violent and terrible </rdg>
+	  		<rdg wit="f1831">most violent and terrible </rdg>
 		    </rdgGrp>
 	  </app>
 	  <app>
