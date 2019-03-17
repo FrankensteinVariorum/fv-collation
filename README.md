@@ -1,2 +1,2 @@
 # Pittsburgh_Frankenstein
-a repository for the Pittsburgh research team working on the Frankenstein Bicentennial Project
+first-stage collation processing in the Frankenstein Variorum Project. For post processing and Variorum development, see our GitHub organization: <https://github.com/PghFrankenstein>
