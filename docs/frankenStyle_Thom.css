@@ -76,10 +76,11 @@ span.l{display:block;}
 span.l_i2 {display:block; padding-left:2em;}
 span.l_i5 {display:block; padding-left:5em;}
 span.ab, span.ab_center{text-align:center; font-size:1.1em; display:block;}
-span.pb{color:DarkGreen; font-size:smaller; display:none;}
+span.pb{font-size:smaller; display:none;}
 span.smallcaps {font-variant: small-caps;}
 span.add{color:DarkGreen; font-weight:800;}
-span.del{color:DarkGreen; text-decoration: line-through; font-weight:800;}
+span.delMS{color:DarkGreen; text-decoration: line-through; font-weight:800;}
+span.delStruckPrint{text-decoration: line-through DarkGreen; font-weight:800;}
 span.note {font-size:smaller; color:DarkGreen; border-style: solid; background-color:#fffff7;}
 p {padding-left:50px; padding-right:50px;}
 ol, ul {padding-left:55px; padding-right:55px;}
