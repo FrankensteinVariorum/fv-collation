@@ -6,7 +6,7 @@ Welcome to our GitHub site! We are preparing a new digital variorum edition of t
 
 ### "Beta editions" ready for reading: 
 
-* [Frankenstein Variorum Collation Data Tables](P1_tableView.html)
+* [Frankenstein Variorum Collation Data Tables](P1_tableView.html):
 A view of the aligned collation data designed for the project team to review. You can read about one-third of the novel across 5 different versions aligned in tables.
 
 * The following are distinct editions prepared “under the hood” by correcting prior digital editions and preparing new digital editions the 1823 and Thomas edition. These files represent each edition prior to collation processing. Comparison data is not marked in these documents, but each is a distinct edition in its own right suitable for reading and annotation.  
