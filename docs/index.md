@@ -4,25 +4,20 @@ redirect_from: "https://ebeshero.github.io/Pittsburgh_Frankenstein/"
 
 Welcome to our GitHub site! We are preparing a new digital variorum edition of the novel _Frankenstein_. Our edition is a digital collation of five distinct versions of the novel produced between 1816 and 1831. We launched our project in response to the bicentennial of _Frankenstein_’s first publication in 1818, thinking only to improve the comparison view of the 1818 and 1831 editions available on [Romantic Circles](https://www.rc.umd.edu/editions/frankenstein). Since we launched, our project has grown into a more comprehensive effort to revive and rework earlier ambitious digital editions of the novel, from the [Pennsylvania Electronic Edition](http://knarf.english.upenn.edu/) of the mid 1990s onward. One of our projects is to bring together the 1816 manuscript notebook edition of the [Shelley-Godwin Archive](http://shelleygodwinarchive.org/contents/frankenstein/) and the manuscript annotations of [the Thomas copy](https://www.themorgan.org/collection/frankenstein) into readable comparison with the print editions of the novel, to help students, scholars, and fans explore _Frankenstein_’s intensive, nonlinear revision history.
 
-### [Frankenstein Variorum Collation Data Tables](P1_tableView.html)
-A view of the aligned collation data designed for the project team to review. You can read about one-third of the novel across 5 different versions aligned in tables.
-
 ### "Beta editions" ready for reading: 
-These are distinct editions of the novel prepared for the collation process. Each edition is prepared “under the hood” from code marking comparable units or points of alignment with each of the other editions. Each is also a distinct edition in its own right suitable for reading and annotation.  
 
-* [1818 publication of _Frankenstein_](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html). 
+* 
 
-* [The Thomas copy](Frankenstein_Thom.html), an edition representing Mary Shelley's edits handwritten on an 1818 edition of the novel.
+* The following are distinct editions of the novel prepared for the collation process. Each edition is prepared “under the hood” from code marking comparable units or points of alignment with each of the other editions. Each is also a distinct edition in its own right suitable for reading and annotation.  
 
-* [1823 publication of _Frankenstein_ (supervised by William Godwin)](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1823.html).
+   * [1818 publication of _Frankenstein_](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html).
+      * [Pitt-Greensburg classroom edition of the 1818 text](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818_classEd.html) (a copy of the same) for use in annotation assignments.  
 
-* [1831 publication of _Frankenstein_](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html).
+   * [The Thomas copy](Frankenstein_Thom.html), an edition representing Mary Shelley's edits handwritten on an 1818 edition of the novel.
 
-### Teaching copy:
-* [Pitt-Greensburg classroom edition of the 1818 text](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818_classEd.html) (a copy of the same) for use in annotation assignments.
+   * [1823 publication of _Frankenstein_ (supervised by William Godwin)](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1823.html).
 
-### Coming soon: 
-* Collated editions of the 1816 draft notebooks (based on Shelley-Godwin Archive documents), 1818, Thomas text, 1823, and 1831 versions.
+   * [1831 publication of _Frankenstein_](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html).
 
 
 ### About *Frankenstein* and our variorum project:
