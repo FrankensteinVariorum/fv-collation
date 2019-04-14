@@ -82,6 +82,11 @@
         <span class="add"><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match="del">
-        <span class="del"><xsl:apply-templates/></span>
+        <!--2019-04-14 ebb: For the Thomas copy, we want to visually distinguish strikeouts of the 1818 print text from deletions made inside inserted marginalia. The choices below will help distinguish delStruckPrint (strikeouts of the print edition) from deletions inside handwritten edits.  -->
+       <xsl:choose><xsl:when test="ancestor::add"> <span class="delMS"><xsl:apply-templates/></span></xsl:when>
+       <xsl:otherwise>
+           <span class="delStruckPrint"><xsl:apply-templates/></span>
+       </xsl:otherwise>
+       </xsl:choose>
     </xsl:template>
 </xsl:stylesheet>
