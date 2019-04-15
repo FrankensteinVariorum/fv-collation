@@ -4,10 +4,10 @@ redirect_from: "https://ebeshero.github.io/Pittsburgh_Frankenstein/"
 
 Welcome to our GitHub site! We are preparing a new digital variorum edition of the novel _Frankenstein_. Our edition is a digital collation of five distinct versions of the novel produced between 1816 and 1831. We launched our project in response to the bicentennial of _Frankenstein_’s first publication in 1818, thinking only to improve the comparison view of the 1818 and 1831 editions available on [Romantic Circles](https://www.rc.umd.edu/editions/frankenstein). Since we launched, our project has grown into a more comprehensive effort to revive and rework earlier ambitious digital editions of the novel, from the [Pennsylvania Electronic Edition](http://knarf.english.upenn.edu/) of the mid 1990s onward. One of our projects is to bring together the 1816 manuscript notebook edition of the [Shelley-Godwin Archive](http://shelleygodwinarchive.org/contents/frankenstein/) and the manuscript annotations of [the Thomas copy](https://www.themorgan.org/collection/frankenstein) into readable comparison with the print editions of the novel, to help students, scholars, and fans explore _Frankenstein_’s intensive, nonlinear revision history.
 
-### "Beta editions" ready for reading: 
+### “Beta editions” ready for reading: 
 
-* [Frankenstein Variorum Collation Data Tables](P1_tableView.html):
-A view of the aligned collation data designed for the project team to review. You can read about one-third of the novel across 5 different versions aligned in tables.
+* [Frankenstein Variorum Collation Data Tables](tableView.html):
+A work-in-progress view of the aligned collation data designed for the project team to review. You can search *most* of the novel across 5 different versions aligned in tables. 
 
 * The following are distinct editions prepared “under the hood” by correcting prior digital editions and preparing new digital editions the 1823 and Thomas edition. These files represent each edition prior to collation processing. Comparison data is not marked in these documents, but each is a distinct edition in its own right suitable for reading and annotation.  
 
