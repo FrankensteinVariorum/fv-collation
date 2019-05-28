@@ -38,9 +38,11 @@ A work-in-progress view of the aligned collation data designed for the project t
 
 * Elisa E. Beshero-Bondar
 
+* Steven Gotzler
+
 * Jon Klancher
 
-* Matthew Lavin
+* Matthew Lincoln
 
 * Rikk Mulligan
 
@@ -52,6 +54,6 @@ A work-in-progress view of the aligned collation data designed for the project t
 
 * Scott B. Weingart
 
-* Avery Wiscombe 
+* Avery J. Wiscomb
 
 More resources, including editions of the 1823 and 1831 versions of the novel, will become available here as our project develops. 
