@@ -5,7 +5,7 @@
     exclude-result-prefixes="xs"
     version="3.0">
     <xsl:output method="xml" indent="yes"/> 
-    
+<!--2019-06-05 ebb: NOTE TO SELF: REMOVE DELETIONS, ESPECIALLY FROM THOMAS. ALSO FROM MS. -->    
     <xsl:variable name="frankenChunks" as="document-node()+" select="collection('collationChunks/?select=*.xml')"/>
     
     <xsl:variable name="collChunkIds" as="item()+" select="$frankenChunks//anchor[@type='collate']/@xml:id => distinct-values() => sort()"/>
@@ -30,7 +30,7 @@
                 <xsl:variable name="SL_1831" select="$CU_1831//text()[not(matches(., '^\s+$'))]/normalize-space() ! string-length() => sum()"/>
                 
                 <g class="notebooks">String length here: <xsl:value-of select="$SL_msColl"/></g>
-            <g class="1818ed">String length here: <xsl:value-of select="$SL_1818"/></g>
+            <g class="1818ed">String length here: <xsl:comment><xsl:value-of select="$SL_1818"/></xsl:comment></g>
                 <g class="Thomas">String length here: <xsl:value-of select="$SL_Thomas"/></g>
                 <g class="1823ed">String length here: <xsl:value-of select="$SL_1823"/></g>
                 <g class="1831ed">String length here: <xsl:value-of select="$SL_1831"/></g>
