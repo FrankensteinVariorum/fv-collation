@@ -5,14 +5,23 @@
     exclude-result-prefixes="xs"
     version="3.0">
     <xsl:output method="xml" indent="yes"/> 
-<!--2019-06-05 ebb: NOTE TO SELF: REMOVE DELETIONS, ESPECIALLY FROM THOMAS. ALSO FROM MS. -->    
+<!--2019-06-05 ebb: NOTE TO SELF: REMOVE DELETIONS, ESPECIALLY FROM THOMAS. ALSO FROM MS. 
+    2019-06-06 ebb: ADD NUMBERING, CHECK IF FIRST SEVEN ARE OUTPUTTING AND SHOWING IN VIEWPORT
+    -->    
     <xsl:variable name="frankenChunks" as="document-node()+" select="collection('collationChunks/?select=*.xml')"/>
     
     <xsl:variable name="collChunkIds" as="item()+" select="$frankenChunks//anchor[@type='collate']/@xml:id => distinct-values() => sort()"/>
     <xsl:template match="/">
-        <svg>
-        <xsl:for-each select="$collChunkIds">   
+        <svg width="500" height="12000" viewBox="0 0 400 12000">
+            <g id="wrapper" transform="translate(80, 9000)">
+        <xsl:for-each select="$collChunkIds">
+            <xsl:sort order="descending"/>
+            <xsl:variable name="pos" select="position()"/>
+            <xsl:variable name="ySpacer" select="-250"/>
+            <xsl:variable name="xSpacer" select="20"/>
             <g id="{current()}"><!--Collation unit wrapper-->
+                <xsl:variable name="yPos1" select="($pos * $ySpacer) "/><!-- a negative value--> 
+                <text x="-{$xSpacer}" y="{$yPos1}" fill="black"><xsl:value-of select="current()"/></text>
                 <!--msColl data -->
                 <xsl:variable name="CU_msColl" as="item()" select="$frankenChunks//xml[tokenize(base-uri(), '/')[last()] => starts-with('msColl')][tokenize(base-uri(), '/')[last()] => substring-before('.xml') => substring-after('_') = current()]"/> 
                 <xsl:variable name="SL_msColl" select="$CU_msColl//text()[not(matches(., '^\s+$'))]/normalize-space() ! string-length() => sum()"/>             
@@ -29,14 +38,30 @@
                 <xsl:variable name="CU_1831" as="item()" select="$frankenChunks//xml[tokenize(base-uri(), '/')[last()] => starts-with('1831')][anchor[@type='collate']/@xml:id = current()]"/> 
                 <xsl:variable name="SL_1831" select="$CU_1831//text()[not(matches(., '^\s+$'))]/normalize-space() ! string-length() => sum()"/>
                 
-                <g class="notebooks">String length here: <xsl:value-of select="$SL_msColl"/></g>
-            <g class="1818ed">String length here: <xsl:comment><xsl:value-of select="$SL_1818"/></xsl:comment></g>
-                <g class="Thomas">String length here: <xsl:value-of select="$SL_Thomas"/></g>
-                <g class="1823ed">String length here: <xsl:value-of select="$SL_1823"/></g>
-                <g class="1831ed">String length here: <xsl:value-of select="$SL_1831"/></g>
+                <g class="notebooks"><xsl:comment>String length here: <xsl:value-of select="$SL_msColl"/></xsl:comment>
+                   
+                    <xsl:variable name="yPos2_ms" select="$yPos1 - ($SL_msColl div 100) "/>
+                    <line x1="{$xSpacer}" y1="{$yPos1}" x2="{$xSpacer}" y2="{$yPos2_ms}" style="stroke:rgb(255,0,0);stroke-width:2" />
+                </g>
+                <g class="1818ed"><xsl:comment>String length here: <xsl:value-of select="$SL_1818"/></xsl:comment>
+                    <xsl:variable name="yPos2_1818" select="$yPos1 - ($SL_1818 div 100) "/>
+                    <line x1="{$xSpacer * 2}" y1="{$yPos1}" x2="{$xSpacer * 2}" y2="{$yPos2_1818}" style="stroke:rgb(55, 200,0);stroke-width:2" />     
+                </g>
+                <g class="Thomas"><xsl:comment>String length here: <xsl:value-of select="$SL_Thomas"/></xsl:comment>
+                    <xsl:variable name="yPos2_Thomas" select="$yPos1 - ($SL_Thomas div 100) "/>
+                    <line x1="{$xSpacer * 3}" y1="{$yPos1}" x2="{$xSpacer * 3}" y2="{$yPos2_Thomas}" style="stroke:rgb(255,0,0);stroke-width:2" />
+                </g>
+                <g class="1823ed"><xsl:comment>String length here: <xsl:value-of select="$SL_1823"/></xsl:comment>
+                    <xsl:variable name="yPos2_1823" select="$yPos1 - ($SL_1823 div 100) "/>
+                    <line x1="{$xSpacer * 4}" y1="{$yPos1}" x2="{$xSpacer * 4}" y2="{$yPos2_1823}" style="stroke:rgb(55, 200,0);stroke-width:2" />
+                </g>
+                <g class="1831ed"><xsl:comment>String length here: <xsl:value-of select="$SL_1831"/></xsl:comment>
+                    <xsl:variable name="yPos2_1831" select="$yPos1 - ($SL_1831 div 100) "/>
+                    <line x1="{$xSpacer * 5}" y1="{$yPos1}" x2="{$xSpacer * 5}" y2="{$yPos2_1831}" style="stroke:rgb(55, 55, 200);stroke-width:2" />
+                </g>
            
            </g></xsl:for-each>
-            
+            </g>   
         </svg>
         
     </xsl:template>
