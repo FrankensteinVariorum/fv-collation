@@ -6,7 +6,8 @@
     version="3.0">
     <xsl:output method="xml" indent="yes"/>    
     <xsl:variable name="frankenChunks" as="document-node()+" select="collection('collationChunks/?select=*.xml')"/>
- <!--Between 13 and 228 width if you want to compare size of collation unit on the X axis as stroke-widths based on string-lengths. Set 20 between each. -->  
+ <!--Between 14 and 228 width if you want to compare size of collation unit on the X axis as stroke-widths based on string-lengths. Set 20 between each. 
+ -->  
     <xsl:variable name="collChunkIds" as="item()+" select="$frankenChunks//anchor[@type='collate']/@xml:id => distinct-values() => sort()"/>
     <xsl:template match="/">
         <svg width="500" height="3600" viewBox="0 0 400 4000">
@@ -23,7 +24,7 @@
                 <xsl:variable name="CU_msColl" as="item()" select="$frankenChunks//xml[tokenize(base-uri(), '/')[last()] => starts-with('msColl')][tokenize(base-uri(), '/')[last()] => substring-before('.xml') => substring-after('_') = current()]"/> 
                 <xsl:variable name="SL_msColl" select="$CU_msColl//text()[not(matches(., '^\s+$'))][not(preceding-sibling::del[1][@sID])]/normalize-space() ! string-length() => sum()"/>             
                 <!--1818 data-->
-   <xsl:variable name="CU_1818" as="item()" select="$frankenChunks//xml[tokenize(base-uri(), '/')[last()] => starts-with('1818')][anchor[@type='collate']/@xml:id = current()]"/> 
+                <xsl:variable name="CU_1818" as="item()" select="$frankenChunks//xml[tokenize(base-uri(), '/')[last()] => starts-with('1818')][anchor[@type='collate']/@xml:id = current()]"/> 
                 <xsl:variable name="SL_1818" select="$CU_1818//text()[not(matches(., '^\s+$'))]/normalize-space() ! string-length() => sum()"/>
                 <!--Thomas data -->
                 <xsl:variable name="CU_Thomas" as="item()" select="$frankenChunks//xml[tokenize(base-uri(), '/')[last()] => starts-with('Thomas')][anchor[@type='collate']/@xml:id = current()]"/> 
@@ -36,6 +37,10 @@
                 <xsl:variable name="CU_1831" as="item()" select="$frankenChunks//xml[tokenize(base-uri(), '/')[last()] => starts-with('1831')][anchor[@type='collate']/@xml:id = current()]"/> 
                 <xsl:variable name="SL_1831" select="$CU_1831//text()[not(matches(., '^\s+$'))]/normalize-space() ! string-length() => sum()"/>
                 <xsl:variable name="SL_max" select="max(($SL_Thomas, $SL_1818, $SL_1823, $SL_1831, $SL_msColl))"/>
+                
+            
+            
+            <xsl:for-each select="($CU_msColl, $CU_1818, $CU_Thomas, $CU_1823, $CU_1831)">
                 
                 <g class="notebooks"><xsl:comment>String length here: <xsl:value-of select="$SL_msColl"/></xsl:comment>
                    
@@ -58,6 +63,7 @@
                     <xsl:variable name="yPos2_1831" select="$yPos1 - ($SL_1831 div $SL_max) * 100 "/>
                     <line x1="{$xSpacer * 5}" y1="{$yPos1}" x2="{$xSpacer * 5}" y2="{$yPos2_1831}" style="stroke:rgb(55, 55, 200);stroke-width:10" />
                 </g>
+            </xsl:for-each>
            
            </g></xsl:for-each>
             </g>   
