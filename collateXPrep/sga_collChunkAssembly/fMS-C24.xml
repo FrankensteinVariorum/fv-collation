@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fMS-C24">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Frankenstein manuscripts, Chunk msColl_C24.xml</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Shelley-Godwin Archive edition, <date>2012-2015</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>Oxford University</distributor>
+            <address>
+               <addrLine>
+                  <ref target="http://www.shelleygodwinarchive.org/">http://www.shelleygodwinarchive.org/</ref>
+               </addrLine>
+            </address>
+            <availability status="free">
+               <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+                  <p>CC0 1.0 Universal.</p>
+                  <p> To the extent possible under law, the creators of the metadata records for the Shelley-Godwin Archive 
+                              have waived all copyright and related or neighboring rights to this work.</p>
+               </licence>
+            </availability>
+            <pubPlace>Oxford, UK, and College Park, MD</pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library, University of Oxford</repository>
+                  <idno type="Bod">MS. Abinger c.56, c.57, and c.58</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" xml:id="mws">
+                        <persName>Mary Shelley</persName>
+                     </handNote>
+                     <handNote scope="minor" xml:id="pbs">
+                        <persName>Percy Shelley</persName>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#ebb">Constructed this to help organize S-GA files to be included as 
+                      collation units for the Frankenstein Variorum project.</change>
+      </revisionDesc>
+   </teiHeader>
+   <sourceDoc>
+      <anchor xmlns="" type="collate" xml:id="C24"/>
+      <surface xmlns=""
+               lrx="5138"
+               lry="7032"
+               partOf="#ox-frankenstein_volume_ii"
+               ulx="0"
+               uly="0"
+               folio="37v"
+               shelfmark="MS. Abinger c. 57"
+               base="ox-ms_abinger_c57/ox-ms_abinger_c57-0074.xml"
+               id="ox-ms_abinger_c57-0074"
+               sID="ox-ms_abinger_c57-0074"/>
+   </sourceDoc>
+</TEI>
