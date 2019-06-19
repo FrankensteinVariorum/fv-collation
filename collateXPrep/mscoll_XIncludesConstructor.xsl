@@ -63,7 +63,7 @@ a new one. Keep creative commons license in <availability>.
               </sourceDesc>
           </fileDesc>
               <revisionDesc>
-                  <change who="#ebb">Constructed this to help organize S-GA files to be included as 
+                  <change who="#ebb" when="2019-06-19">Constructed this to help organize S-GA files to be included as 
                       collation units for the Frankenstein Variorum project.</change>
               </revisionDesc>
           </teiHeader>
