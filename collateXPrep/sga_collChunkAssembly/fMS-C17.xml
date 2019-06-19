@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fMS-C17">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="fMS-C17">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,35 +53,20 @@
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0001.xml"/>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0002.xml"/>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0003.xml"/>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0004.xml"/>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0005.xml"/>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0006.xml"/>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0007.xml"/>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0008.xml"/>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0009.xml"/>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0010.xml"/>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0011.xml"/>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0012.xml"/>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0013.xml"/>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0014.xml"/>
-      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0015.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0001.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0002.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0003.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0004.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0005.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0006.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0007.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0008.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0009.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0010.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0011.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0012.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0013.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0014.xml"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0015.xml"/>
    </sourceDoc>
 </TEI>

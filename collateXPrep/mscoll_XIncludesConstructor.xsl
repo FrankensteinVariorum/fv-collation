@@ -2,7 +2,6 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns="http://www.tei-c.org/ns/1.0"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
     exclude-result-prefixes="#all"
     version="3.0">
     <xsl:output method="xml" indent="yes"/>    
@@ -21,7 +20,7 @@ a new one. Keep creative commons license in <availability>.
       <xsl:for-each select="$msCollChunks">
           <xsl:variable name="filename" select="concat('sga_collChunkAssembly/', 'fMS-', descendant::anchor[@type='collate']/@xml:id, '.xml')"/>
           <xsl:result-document method="xml" indent="yes" href="{$filename}">     
-              <TEI xml:id="fMS-{descendant::anchor[@type='collate']/@xml:id}">
+              <TEI xml:id="fMS-{descendant::anchor[@type='collate']/@xml:id}" xmlns:xi="http://www.w3.org/2001/XInclude">
           <teiHeader><fileDesc>
               <titleStmt>
                   <title type="main">Frankenstein manuscripts, Chunk <xsl:value-of select="tokenize(current()/base-uri(), '/')[last()]"/></title>
