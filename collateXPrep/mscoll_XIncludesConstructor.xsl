@@ -2,7 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xs"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    exclude-result-prefixes="#all"
     version="3.0">
     <xsl:output method="xml" indent="yes"/>    
     <xsl:variable name="frankenChunks" as="document-node()+" select="collection('collationChunks/?select=*.xml')"/>
@@ -19,7 +20,7 @@ a new one. Keep creative commons license in <availability>.
     <xsl:template match="/">
       <xsl:for-each select="$msCollChunks">
           <xsl:variable name="filename" select="concat('sga_collChunkAssembly/', 'fMS-', descendant::anchor[@type='collate']/@xml:id, '.xml')"/>
-     <xsl:result-document method="xml" indent="yes" href="{$filename}">     
+          <xsl:result-document method="xml" indent="yes" href="{$filename}">     
           <TEI xml:id="fMS-{descendant::anchor[@type='collate']/@xml:id}">
           <teiHeader><fileDesc>
               <titleStmt>
@@ -50,7 +51,7 @@ a new one. Keep creative commons license in <availability>.
                       <msIdentifier>
                           <settlement>Oxford</settlement>
                           <repository>Bodleian Library, University of Oxford</repository>
-                          <idno type="Bod">MS. Abinger c.56, c.57, and c.58</idno>
+                          <idno type="Bod">MS. Abinger <xsl:value-of select="string-join(descendant::anchor[@type='collate']/following::surface/@xml:id ! substring-before(., '-') ! substring-after(., 'ox-ms_abinger_') => distinct-values(), ', ')"/></idno>
                       </msIdentifier>
                       <physDesc>
                           <handDesc>
@@ -76,8 +77,9 @@ a new one. Keep creative commons license in <availability>.
       </xsl:for-each>
     </xsl:template>
     <xsl:template match="anchor[@type='collate']"> 
-        <xsl:copy-of select="current()"/>
-        <xsl:copy-of select="current()/following-sibling::*[1]"/>
+        <xsl:variable name="currAnchorElem" as="element()" select="current()"/>
+        
+        <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml" />
    
     </xsl:template>
     
