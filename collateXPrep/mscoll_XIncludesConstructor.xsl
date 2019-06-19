@@ -21,7 +21,7 @@ a new one. Keep creative commons license in <availability>.
       <xsl:for-each select="$msCollChunks">
           <xsl:variable name="filename" select="concat('sga_collChunkAssembly/', 'fMS-', descendant::anchor[@type='collate']/@xml:id, '.xml')"/>
           <xsl:result-document method="xml" indent="yes" href="{$filename}">     
-          <TEI xml:id="fMS-{descendant::anchor[@type='collate']/@xml:id}">
+              <TEI xml:id="fMS-{descendant::anchor[@type='collate']/@xml:id}">
           <teiHeader><fileDesc>
               <titleStmt>
                   <title type="main">Frankenstein manuscripts, Chunk <xsl:value-of select="tokenize(current()/base-uri(), '/')[last()]"/></title>
@@ -51,7 +51,7 @@ a new one. Keep creative commons license in <availability>.
                       <msIdentifier>
                           <settlement>Oxford</settlement>
                           <repository>Bodleian Library, University of Oxford</repository>
-                          <idno type="Bod">MS. Abinger <xsl:value-of select="string-join(descendant::anchor[@type='collate']/following::surface/@xml:id ! substring-before(., '-') ! substring-after(., 'ox-ms_abinger_') => distinct-values(), ', ')"/></idno>
+                          <idno type="Bod">MS. Abinger <xsl:value-of select="string-join(descendant::anchor[@type='collate']/following::surface/@base ! substring-before(., '/') ! substring-after(., 'ox-ms_abinger_') => distinct-values(), ', ')"/></idno>
                       </msIdentifier>
                       <physDesc>
                           <handDesc>
@@ -68,19 +68,29 @@ a new one. Keep creative commons license in <availability>.
               </revisionDesc>
           </teiHeader>
           <sourceDoc>
-          <xsl:apply-templates select="descendant::anchor[@type='collate']">
-          <xsl:sort select="@xml:id"/>
-      </xsl:apply-templates>
+             <xsl:for-each select="descendant::anchor[@type='collate']/following::surface[@sID]">
+                 <xsl:variable name="filepath" as="xs:string" select="'https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/'"/>
+                 <xsl:variable name="base" as="xs:string" select="@base/string()"/>
+                 
+                 
+                 <!-- On surface elements in our source XML, the @base attributes hold last part of pointer.  -->
+              <xsl:element name="xi:include">
+                  <xsl:attribute name="href">
+                      <xsl:value-of select="concat($filepath, $base)"/>
+                  </xsl:attribute>
+              </xsl:element>
+               <!--     <include href="{concat($filepath, $base)}" />-->
+         </xsl:for-each>
           </sourceDoc>
       </TEI>  
      </xsl:result-document>
       </xsl:for-each>
     </xsl:template>
-    <xsl:template match="anchor[@type='collate']"> 
-        <xsl:variable name="currAnchorElem" as="element()" select="current()"/>
+
+      
         
-        <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml" />
+        
    
-    </xsl:template>
+    
     
 </xsl:stylesheet>
