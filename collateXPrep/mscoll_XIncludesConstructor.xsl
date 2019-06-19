@@ -65,6 +65,10 @@ a new one. Keep creative commons license in <availability>.
                   <change who="#ebb" when="2019-06-19">Constructed this to help organize S-GA files to be included as 
                       collation units for the Frankenstein Variorum project.</change>
               </revisionDesc>
+              <!-- 2019-06-19 ebb: Note that this currently ONLY accommodates xincludes of page <surface> elements and does not go looking for other kinds of elements that could precede a first surface, or that could follow a last surface in a chunk file.
+           In the next stage, we'll flag the presence of such elements in a given chunk, and attempt to include them with an XPointer and an xpath() to resolve to specific elements. 
+           
+              -->
           </teiHeader>
           <sourceDoc>
              <xsl:for-each select="descendant::anchor[@type='collate']/following::surface[@sID]">
