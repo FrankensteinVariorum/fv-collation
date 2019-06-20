@@ -53,6 +53,10 @@
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#milestone[@unit=tei:p]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
       <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0135.xml"/>
       <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0136.xml"/>
       <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0137.xml"/>

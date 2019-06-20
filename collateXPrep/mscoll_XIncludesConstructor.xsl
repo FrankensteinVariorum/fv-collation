@@ -16,6 +16,7 @@ a new one. Keep creative commons license in <availability>.
  These are ONLY for ms sga stuff.
  Reconstruct the filenames from the surface xml:ids. 
  -->
+    <xsl:variable name="filepath" as="xs:string" select="'https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/'"/>
     <xsl:template match="/">
       <xsl:for-each select="$msCollChunks">
           <xsl:variable name="filename" select="concat('sga_collChunkAssembly/', 'fMS-', descendant::anchor[@type='collate']/@xml:id, '.xml')"/>
@@ -64,6 +65,7 @@ a new one. Keep creative commons license in <availability>.
               <revisionDesc>
                   <change who="#ebb" when="2019-06-19">Constructed this to help organize S-GA files to be included as 
                       collation units for the Frankenstein Variorum project.</change>
+                  <change who="#ebb" when="2019-06-20">Working on pinpointing where there are elements outside of page zone boundaries in collation chunks for fMS. Not finished.</change>
               </revisionDesc>
               <!-- 2019-06-19 ebb: Note that this currently ONLY accommodates xincludes of page <surface> elements and does not go looking for other kinds of elements that could precede a first surface, or that could follow a last surface in a chunk file.
            In the next stage, we'll flag the presence of such elements in a given chunk, and attempt to include them with an XPointer and an xpath() to resolve to specific elements.
@@ -72,8 +74,33 @@ a new one. Keep creative commons license in <availability>.
               -->
           </teiHeader>
           <sourceDoc>
+              <xsl:if test="descendant::anchor[@type='collate'][following-sibling::*[1][not(self::surface[@sID])]]">
+                  <xsl:variable name="preBase" as="xs:string" select="concat(descendant::anchor[@type='collate']/following-sibling::*[1]/preceding::surface[@eID][1]/@eID ! replace(., '-\d+$', ''), '/', descendant::anchor[@type='collate']/following-sibling::*[1]/preceding::surface[@eID][1]/@eID)"/>
+                  
+                  <xsl:for-each select="descendant::anchor[@type='collate']/following::element()[self::milestone or self::*[@sID]][following::surface[@sID][not(preceding::surface[@sID])]]">  
+                      <xsl:variable name="elemName" as="xs:string">
+                          <xsl:choose>
+                              <xsl:when test="self::milestone"><xsl:value-of select="concat(name(), '[@unit=', @unit, ']')"/></xsl:when>
+                              <xsl:when test="self::lb">
+                                  <xsl:value-of select="concat('line', '[ancestor::zone[@type=', '&quot;', tokenize(@n, '__')[2], '&quot;', '[2]', '[', tokenize(@n, '__')[last()], ']')"/>
+                              </xsl:when>
+                              <xsl:when test="self::zone">
+                                  <xsl:value-of select="concat(name(), '[@type=', @type, ']', '[', '@corresp=', @corresp, ']')"/>             
+                              </xsl:when>
+                              <xsl:when test="not(self::zone) and not(self::lb) and @sID">
+                                  <xsl:value-of select="concat(name(), '[ancestor::zone[@type=', '&quot;', tokenize(@sID, '__')[2], '&quot;', '[2]')"/>                      
+                              </xsl:when>
+                          </xsl:choose>
+                      </xsl:variable>
+                      <xsl:element name="xi:include">
+                          <xsl:attribute name="href">
+                              <xsl:value-of select="concat($filepath, $preBase, '#', $elemName)"/>
+                          </xsl:attribute>
+                      </xsl:element></xsl:for-each>
+                  
+              </xsl:if>
              <xsl:for-each select="descendant::anchor[@type='collate']/following::surface[@sID]">
-                 <xsl:variable name="filepath" as="xs:string" select="'https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/'"/>
+
                  <xsl:variable name="base" as="xs:string" select="@base/string()"/>
                  
                  
@@ -85,6 +112,32 @@ a new one. Keep creative commons license in <availability>.
               </xsl:element>
                <!--     <include href="{concat($filepath, $base)}" />-->
          </xsl:for-each>
+              <xsl:if test="(descendant::surface[@eID])[last()][following-sibling::surface[@sID]]">
+                  <xsl:variable name="postBase" as="xs:string" select="concat(descendant::surface[@eID][last()]/following-sibling::*[1][self::surface[@sID]]/@sID ! replace(., '-\d+$', ''), '/', descendant::surface[@eID][last()]/following-sibling::*[1][self::surface[@sID]]/@sID)"/>
+                  <xsl:comment>Elements follow the last complete page surface in this collation chunk.</xsl:comment>
+              <!--    
+                  <xsl:for-each select="descendant::surface[@eID][last()][following-sibling::surface[@sID]]/following::*">  
+                      <xsl:variable name="elemNamePost" as="xs:string">
+                          <xsl:choose>
+                              <xsl:when test="self::milestone"><xsl:value-of select="concat(name(), '[@unit=', '&quot;', @unit, '&quot;', ']')"/></xsl:when>
+                              <xsl:when test="self::lb">
+                                  <xsl:value-of select="concat('line', '[ancestor::zone[@type=', '&quot;', tokenize(@n, '__')[2], '&quot;', '[2]', '[', tokenize(@n, '__')[last()], ']')"/>
+                              </xsl:when>
+                              <xsl:when test="self::zone">
+                                  <xsl:value-of select="concat(name(), '[@type=', '&quot;', @type, '&quot;', ']')"/>             
+                              </xsl:when>
+                              <xsl:when test="not(self::zone) and not(self::lb) and @sID">
+                                  <xsl:value-of select="concat(name(), '[ancestor::zone[@type=', '&quot;', tokenize(@sID, '__')[2], '&quot;', '[2]')"/>                      
+                              </xsl:when>
+                          </xsl:choose>
+                      </xsl:variable>
+                      <xsl:element name="xi:include">
+                          <xsl:attribute name="href">
+                              <xsl:value-of select="concat($filepath, $postBase, '#', $elemNamePost)"/>
+                          </xsl:attribute>
+                      </xsl:element></xsl:for-each>-->
+                  
+              </xsl:if>
           </sourceDoc>
       </TEI>  
      </xsl:result-document>
