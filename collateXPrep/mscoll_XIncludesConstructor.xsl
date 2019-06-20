@@ -9,13 +9,11 @@
     <xsl:variable name="msCollChunks" as="document-node()+" select="collection('collationChunks/?select=msColl_*.xml')"/>
    <!-- <xsl:variable name="anchorPoints-msColl" as="element()+" select="$frankenChunks//anchor[@type='collate'][contains(tokenize(base-uri(), '/')[last()], 'msColl') ]"/>
 -->
- <!-- 2019-06-19 Output new file for each chunk (xsl:result-document), 
-     keep Header physDesc. Drop original revisionDesc but maybe start
-a new one. Keep creative commons license in <availability>. 
- 
- These are ONLY for ms sga stuff.
- Reconstruct the filenames from the surface xml:ids. 
- -->
+    <!-- 2019-06-20 ebb: This XSLT is designed to construct a file for each collation unit's scope of S-GA files. It is designed to list xi:includes for each file that constitutes a page surface in the collation unit. 
+        
+        Right now, the file reliably accommodates xincludes of page <surface> elements and does not go looking for other kinds of elements that could precede a first surface, or that could follow a last surface in a chunk file. We have determined that these instances are rare and do not affect the first 10 collation units, but will need special scoping with XPath/XPointers. 
+        The transformation now simply flag the presence of such elements in a given chunk. We'll continue to develop this to include them with an XPointer and an xpath() to resolve to specific elements.
+              -->
     <xsl:variable name="filepath" as="xs:string" select="'https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/'"/>
     <xsl:template match="/">
       <xsl:for-each select="$msCollChunks">
@@ -67,15 +65,10 @@ a new one. Keep creative commons license in <availability>.
                       collation units for the Frankenstein Variorum project.</change>
                   <change who="#ebb" when="2019-06-20">Working on pinpointing where there are elements outside of page zone boundaries in collation chunks for fMS. Not finished.</change>
               </revisionDesc>
-              <!-- 2019-06-19 ebb: Note that this currently ONLY accommodates xincludes of page <surface> elements and does not go looking for other kinds of elements that could precede a first surface, or that could follow a last surface in a chunk file.
-           In the next stage, we'll flag the presence of such elements in a given chunk, and attempt to include them with an XPointer and an xpath() to resolve to specific elements.
-           We are aware that this situation does not affect the first 10 collation units, so it is not urgent to address immediately.
-           
-              -->
           </teiHeader>
           <sourceDoc>
               <xsl:if test="descendant::anchor[@type='collate'][following-sibling::*[1][not(self::surface[@sID])]]">
-                  <xsl:variable name="preBase" as="xs:string" select="concat(descendant::anchor[@type='collate']/following-sibling::*[1]/preceding::surface[@eID][1]/@eID ! replace(., '-\d+$', ''), '/', descendant::anchor[@type='collate']/following-sibling::*[1]/preceding::surface[@eID][1]/@eID)"/>
+                  <xsl:variable name="preBase" as="xs:string" select="concat(descendant::anchor[@type='collate']/following::surface[@eID][1]/@eID ! replace(., '-\d+$', ''), '/', descendant::anchor[@type='collate']/following::surface[@eID][1]/@eID)"/>
                   
                   <xsl:for-each select="descendant::anchor[@type='collate']/following::element()[self::milestone or self::*[@sID]][following::surface[@sID][not(preceding::surface[@sID])]]">  
                       <xsl:variable name="elemName" as="xs:string">
