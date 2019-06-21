@@ -15,7 +15,7 @@
             <distributor>Oxford University</distributor>
             <address>
                <addrLine>
-                  <ref target="http://www.shelleygodwinarchive.org/">http://www.shelleygodwinarchive.org/</ref>
+                  <ref target="http://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p38">http://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p38</ref>
                </addrLine>
             </address>
             <availability status="free">
@@ -45,96 +45,100 @@
                   </handDesc>
                </physDesc>
             </msDesc>
+            <bibl type="sga">
+                      The Shelley-Godwin Archive edition
+                  </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
          <change who="#ebb" when="2019-06-19">Constructed this to help organize S-GA files to be included as 
                       collation units for the Frankenstein Variorum project.</change>
+         <change who="#ebb" when="2019-06-20">Working on pinpointing where there are elements outside of page zone boundaries in collation chunks for fMS. Not finished.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#milestone[@unit=tei:p]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#zone[@type=left_margin][@corresp=#c57-0037.02]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#milestone[@unit=tei:p]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#zone[@type=left_margin][@corresp=#c57-0037.06]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#zone[@type=left_margin][@corresp=#c57-0037.08]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;left_margin&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;left_margin&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;left_margin&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#milestone[@unit=tei:p]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#zone[@type=left_margin][@corresp=#c57-0037.02]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#milestone[@unit=tei:p]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#zone[@type=left_margin][@corresp=#c57-0037.06]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#zone[@type=left_margin][@corresp=#c57-0037.08]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;left_margin&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;left_margin&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;left_margin&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0037#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
       <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0038.xml"/>
       <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0039.xml"/>
       <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0040.xml"/>

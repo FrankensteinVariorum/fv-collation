@@ -18,6 +18,9 @@
     <xsl:template match="/">
       <xsl:for-each select="$msCollChunks">
           <xsl:variable name="filename" select="concat('sga_collChunkAssembly/', 'fMS-', descendant::anchor[@type='collate']/@xml:id, '.xml')"/>
+          <xsl:variable name="first_surf-id" select="descendant::anchor[@type='collate']/following::surface[@sID][1]/@sID"/>
+          <xsl:variable name="sga_page_url_frag_parts" select="substring-after($first_surf-id, 'abinger_') => tokenize('-')"/>
+          <xsl:variable name="sga_page_url_frag" select="$sga_page_url_frag_parts[1] || '/#/p' || number($sga_page_url_frag_parts[2])"/>
           <xsl:result-document method="xml" indent="yes" href="{$filename}">     
               <TEI xml:id="fMS-{descendant::anchor[@type='collate']/@xml:id}" xmlns:xi="http://www.w3.org/2001/XInclude">
           <teiHeader><fileDesc>
@@ -25,14 +28,15 @@
                   <title type="main">Frankenstein manuscripts, Chunk <xsl:value-of select="tokenize(current()/base-uri(), '/')[last()]"/></title>
               </titleStmt>
               <editionStmt>
-                  <edition>Shelley-Godwin Archive edition, <date>2012-2015</date>
-                  </edition>
+                  <edition>Shelley-Godwin Archive edition, <date>2012-2015</date></edition>
               </editionStmt>
               <publicationStmt>
                   <distributor>Oxford University</distributor>
                   <address>
                       <addrLine>
-                          <ref target="http://www.shelleygodwinarchive.org/">http://www.shelleygodwinarchive.org/</ref>
+                          <ref target="http://shelleygodwinarchive.org/sc/oxford/ms_abinger/{$sga_page_url_frag}">
+                              <xsl:value-of select="'http://shelleygodwinarchive.org/sc/oxford/ms_abinger/' || $sga_page_url_frag"/>
+                          </ref>
                       </addrLine>
                   </address>
                   <availability status="free">
@@ -58,6 +62,9 @@
                           </handDesc>
                       </physDesc>
                   </msDesc>
+                  <bibl type="sga">
+                      The Shelley-Godwin Archive edition
+                  </bibl>
               </sourceDesc>
           </fileDesc>
               <revisionDesc>
