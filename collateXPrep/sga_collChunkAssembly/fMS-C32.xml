@@ -50,89 +50,1197 @@
       <revisionDesc>
          <change who="#ebb" when="2019-06-19">Constructed this to help organize S-GA files to be included as 
                       collation units for the Frankenstein Variorum project.</change>
+         <change who="#ebb" when="2019-06-20">Working on pinpointing where there are elements outside of page zone boundaries in collation chunks for fMS. Not finished.</change>
       </revisionDesc>
    </teiHeader>
-   <sourceDoc>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#milestone[@unit=tei:head]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#milestone[@unit=tei:p]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#milestone[@unit=tei:date]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#zone[@type=left_margin][@corresp=#c57-0168.05]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#zone[@type=left_margin][@corresp=#c57-0168.12]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;left_margin&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#milestone[@unit=tei:p]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#zone[@type=left_margin][@corresp=#c57-0168.13]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;left_margin&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#del[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#mod[ancestor::zone[@type=&#34;main&#34;[2]"/>
-      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox//#add[ancestor::zone[@type=&#34;main&#34;[2]"/>
+   <sourceDoc><!--Non-page elements precede the first complete page surface in this collation chunk.-->
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="milestone[@unit=&#34;tei:head&#34;]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#milestone[@unit="tei:head"]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="milestone[@unit=&#34;tei:p&#34;]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#milestone[@unit="tei:p"]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="milestone[@unit=&#34;tei:date&#34;]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#milestone[@unit="tei:date"]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="zone[@type=&#34;left_margin&#34;][@corresp=&#34;#c57-0168.05&#34;]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#zone[@type="left_margin"][@corresp="#c57-0168.05"]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="zone[@type=&#34;left_margin&#34;][@corresp=&#34;#c57-0168.12&#34;]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#zone[@type="left_margin"][@corresp="#c57-0168.12"]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;left_margin&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="left_margin"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="milestone[@unit=&#34;tei:p&#34;]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#milestone[@unit="tei:p"]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="zone[@type=&#34;left_margin&#34;][@corresp=&#34;#c57-0168.13&#34;]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#zone[@type="left_margin"][@corresp="#c57-0168.13"]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;left_margin&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="left_margin"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#del[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#mod[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168#add[ancestor::zone[@type="main"][2]</p>
+         </xi:fallback>
+      </xi:include>
       <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0169.xml"/>
       <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0170.xml"/>
       <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0171.xml"/>
       <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172.xml"/>
-      <!--Elements follow the last complete page surface in this collation chunk.-->
+      <!--Non-page elements follow the last complete page surface in this collation chunk.-->
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="surface[@base=&#34;ox-ms_abinger_c57/ox-ms_abinger_c57-0172.xml&#34;][@xml:id=&#34;ox-ms_abinger_c57-0172&#34;]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#surface[@base="ox-ms_abinger_c57/ox-ms_abinger_c57-0172.xml"][@xml:id="ox-ms_abinger_c57-0172"]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="graphic"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#graphic</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="zone[@type=&#34;main&#34;]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#zone[@type="main"]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][1]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][1]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="w"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#w</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][3]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][3]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][4]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][4]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][5]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][5]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mod[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="metamark"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#metamark</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mod"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mod</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][6]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][6]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][7]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][7]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="w"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#w</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][8]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][8]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="w"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#w</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][9]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][9]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][10]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][10]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][11]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][11]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mod[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mod"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mod</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][12]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][12]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][13]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][13]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][14]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][14]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][15]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][15]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][16]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][16]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="w"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#w</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][17]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][17]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="w"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#w</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mod[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mdel"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mdel</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="metamark"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#metamark</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mod"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mod</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][18]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][18]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mod[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mod"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mod</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][19]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][19]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mod[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mod"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mod</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mod[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mod"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mod</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][20]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][20]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][21]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][21]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="w"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#w</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][22]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][22]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="w"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#w</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][23]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][23]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][24]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][24]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][25]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][25]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mod[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mod[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del[ancestor::zone[@type=&#34;main&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del[ancestor::zone[@type="main"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="del"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#del</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="anchor"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#anchor</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="zone[@type=&#34;left_margin&#34;]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#zone[@type="left_margin"]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;left_margin&#34;[2][1]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="left_margin"[2][1]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add[ancestor::zone[@type=&#34;left_margin&#34;[2]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add[ancestor::zone[@type="left_margin"[2]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="add"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#add</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="zone[@type=&#34;&#34;]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#zone[@type=""]</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="mod"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#mod</p>
+         </xi:fallback>
+      </xi:include>
+      <xi:include href="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172"
+                  xpointer="line[ancestor::zone[@type=&#34;main&#34;[2][26]"
+                  parse="application/xml">
+         <xi:fallback>
+            <p>Sorry, we couldn't this resource: https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0172#line[ancestor::zone[@type="main"[2][26]</p>
+         </xi:fallback>
+      </xi:include>
    </sourceDoc>
 </TEI>

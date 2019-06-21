@@ -69,27 +69,42 @@
           <sourceDoc>
               <xsl:if test="descendant::anchor[@type='collate'][following-sibling::*[1][not(self::surface[@sID])]]">
                   <xsl:variable name="preBase" as="xs:string" select="concat(descendant::anchor[@type='collate']/following::surface[@eID][1]/@eID ! replace(., '-\d+$', ''), '/', descendant::anchor[@type='collate']/following::surface[@eID][1]/@eID)"/>
-                  
+                  <xsl:comment>Non-page elements precede the first complete page surface in this collation chunk.</xsl:comment>
                   <xsl:for-each select="descendant::anchor[@type='collate']/following::element()[self::milestone or self::*[@sID]][following::surface[@sID][not(preceding::surface[@sID])]]">  
                       <xsl:variable name="elemName" as="xs:string">
                           <xsl:choose>
-                              <xsl:when test="self::milestone"><xsl:value-of select="concat(name(), '[@unit=', @unit, ']')"/></xsl:when>
+                              <xsl:when test="self::milestone"><xsl:value-of select="concat(name(), '[@unit=', '&quot;', @unit/string(), '&quot;', ']')"/></xsl:when>
                               <xsl:when test="self::lb">
-                                  <xsl:value-of select="concat('line', '[ancestor::zone[@type=', '&quot;', tokenize(@n, '__')[2], '&quot;', '[2]', '[', tokenize(@n, '__')[last()], ']')"/>
+                                  <xsl:variable name="tokenizedatt" as="xs:string" select="tokenize(@n, '__')[2]"/>
+                                  <xsl:value-of select="concat('line', '[ancestor::zone[@type=', '&quot;', $tokenizedatt, '&quot;', '[2]', '[', tokenize(@n, '__')[last()], ']')"/>
                               </xsl:when>
                               <xsl:when test="self::zone">
-                                  <xsl:value-of select="concat(name(), '[@type=', @type, ']', '[', '@corresp=', @corresp, ']')"/>             
+                                  <xsl:value-of select="concat(name(), '[@type=', '&quot;', @type, '&quot;', ']', '[', '@corresp=', '&quot;', @corresp, '&quot;', ']')"/>             
                               </xsl:when>
                               <xsl:when test="not(self::zone) and not(self::lb) and @sID">
-                                  <xsl:value-of select="concat(name(), '[ancestor::zone[@type=', '&quot;', tokenize(@sID, '__')[2], '&quot;', '[2]')"/>                      
+                                  <xsl:variable name="tokenizedatt2" as="xs:string" select="tokenize(@sID, '__')[2]"/>
+                                  <xsl:value-of select="concat(name(), '[ancestor::zone[@type=', '&quot;', $tokenizedatt2, '&quot;', ']', '[2]')"/>                      
                               </xsl:when>
+                              <xsl:otherwise>
+                                  <xsl:value-of select="name()"/>
+                              </xsl:otherwise>
                           </xsl:choose>
                       </xsl:variable>
                       <xsl:element name="xi:include">
                           <xsl:attribute name="href">
-                              <xsl:value-of select="concat($filepath, $preBase, '#', $elemName)"/>
+                              <xsl:value-of select="concat($filepath, $preBase)"/>
                           </xsl:attribute>
-                      </xsl:element></xsl:for-each>
+                          <xsl:attribute name="xpointer">
+                              <xsl:value-of select="$elemName"/>
+                          </xsl:attribute>
+                          <xsl:attribute name="parse">
+                              <xsl:text>application/xml</xsl:text>
+                          </xsl:attribute>
+                          <xsl:element name="xi:fallback">
+                              <p>Sorry, we couldn't this resource: <xsl:value-of select="concat($filepath, $preBase, '#', $elemName)"/></p>
+                          </xsl:element>
+                      </xsl:element>
+                  </xsl:for-each>
                   
               </xsl:if>
              <xsl:for-each select="descendant::anchor[@type='collate']/following::surface[@sID]">
@@ -105,13 +120,17 @@
               </xsl:element>
                <!--     <include href="{concat($filepath, $base)}" />-->
          </xsl:for-each>
-              <xsl:if test="(descendant::surface[@eID])[last()][following-sibling::surface[@sID]]">
-                  <xsl:variable name="postBase" as="xs:string" select="concat(descendant::surface[@eID][last()]/following-sibling::*[1][self::surface[@sID]]/@sID ! replace(., '-\d+$', ''), '/', descendant::surface[@eID][last()]/following-sibling::*[1][self::surface[@sID]]/@sID)"/>
-                  <xsl:comment>Elements follow the last complete page surface in this collation chunk.</xsl:comment>
-              <!--    
-                  <xsl:for-each select="descendant::surface[@eID][last()][following-sibling::surface[@sID]]/following::*">  
+              <xsl:if test="descendant::surface[@eID][last()][following-sibling::surface[@sID]]">
+                  <xsl:variable name="postBase" as="xs:string" select="concat(descendant::surface[@eID][last()]/following-sibling::surface[@sID][1]/@sID ! replace(., '-\d+$', ''), '/', descendant::surface[@eID][last()]/following-sibling::surface[@sID][1]/@sID)"/>
+                  <xsl:comment>Non-page elements follow the last complete page surface in this collation chunk.</xsl:comment>
+                  
+  
+                  <xsl:for-each select="descendant::surface[@eID][last()]/following::*">  
                       <xsl:variable name="elemNamePost" as="xs:string">
                           <xsl:choose>
+                              <xsl:when test="self::surface[@sID]">
+                                  <xsl:value-of select="concat(name(), '[', '@base=', '&quot;', @base, '&quot;', ']', '[', '@xml:id=', '&quot;', @id, '&quot;', ']'  )"/>
+                              </xsl:when>
                               <xsl:when test="self::milestone"><xsl:value-of select="concat(name(), '[@unit=', '&quot;', @unit, '&quot;', ']')"/></xsl:when>
                               <xsl:when test="self::lb">
                                   <xsl:value-of select="concat('line', '[ancestor::zone[@type=', '&quot;', tokenize(@n, '__')[2], '&quot;', '[2]', '[', tokenize(@n, '__')[last()], ']')"/>
@@ -122,13 +141,26 @@
                               <xsl:when test="not(self::zone) and not(self::lb) and @sID">
                                   <xsl:value-of select="concat(name(), '[ancestor::zone[@type=', '&quot;', tokenize(@sID, '__')[2], '&quot;', '[2]')"/>                      
                               </xsl:when>
+                              <xsl:otherwise>
+                                  <xsl:value-of select="name()"/>
+                              </xsl:otherwise>
                           </xsl:choose>
                       </xsl:variable>
                       <xsl:element name="xi:include">
                           <xsl:attribute name="href">
-                              <xsl:value-of select="concat($filepath, $postBase, '#', $elemNamePost)"/>
+                              <xsl:value-of select="concat($filepath, $postBase)"/>
                           </xsl:attribute>
-                      </xsl:element></xsl:for-each>-->
+                          <xsl:attribute name="xpointer">
+                              <xsl:value-of select="$elemNamePost"/>
+                          </xsl:attribute>
+                          <xsl:attribute name="parse">
+                              <xsl:text>application/xml</xsl:text>
+                          </xsl:attribute>
+                          <xsl:element name="xi:fallback">
+                              <p>Sorry, we couldn't this resource: <xsl:value-of select="concat($filepath, $postBase, '#', $elemNamePost)"/></p>
+                          </xsl:element>
+                      </xsl:element>
+                  </xsl:for-each>
                   
               </xsl:if>
           </sourceDoc>
