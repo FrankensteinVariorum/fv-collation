@@ -27,11 +27,11 @@
     
     <xsl:template match="/">
         <svg width="1000" height="1000" viewBox="0 0 1500 1500">
-            <g id="wrapper" transform="translate(80, 1000)">
+            <g id="wrapper" transform="translate(880, 1000)">
         <xsl:for-each select="$collChunkIds">
             <xsl:sort order="descending"/>
             <xsl:variable name="vertPos" as="xs:integer" select="position() mod 9"/>
-            <xsl:variable name="columnPos" as="xs:decimal" select="(floor(position() div 9)) * 200"/>
+            <xsl:variable name="columnPos" as="xs:decimal" select="(floor(position() div 9) + 1) * -200"/>
             <xsl:variable name="ySpacer" select="-105"/>
             <xsl:variable name="xSpacer" select="10"/>
             <xsl:variable name="widthFactor" select="1000"/>
