@@ -15,6 +15,6 @@ let $text := string-join($m/following::text()[not(matches(., '^\s+$'))][position
 let $unitNumText := concat($u, ' ', $n, ' ', substring($text, 1, 60), '&#10;')
 let $string-length := $m/preceding::text()[not(matches(., '^\s+$'))][preceding::anchor[@type='collate']]/string-length() => sum()
 let $filename := $m/base-uri() ! tokenize(., '/')[last()]
-let $collEdUnit := substring-before($filename, '_fullFlat') || substring-after($filename, 'fullFlat') ! substring-before(., '.xml')
+let $collEdUnit := ($filename[not(contains(., 'fullFlat'))], tokenize($filename, '_fullFlat')[1] || tokenize($filename, 'fullFlat')[2] ! substring-before(., '.xml'))[1]
 return concat($collEdUnit, ': ', $u, ' ', $n, ' ', $string-length, ': ', substring($text, 1, 60), '&#10;')
 (:replace(substring($text, 1, 30), '([ “]?[A-Z])\s*([A-Z])', '$1$2'):)
