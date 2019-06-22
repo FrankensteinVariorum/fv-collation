@@ -26,8 +26,8 @@
     <xsl:variable name="color_Thom" as="xs:string" select="concat('#', '98C99F')"/>
     
     <xsl:template match="/">
-        <svg width="500" height="3600" viewBox="0 0 1200 9000">
-            <g id="wrapper" transform="translate(80, 3600)">
+        <svg width="1000" height="1000" viewBox="0 0 1500 1500">
+            <g id="wrapper" transform="translate(80, 1000)">
         <xsl:for-each select="$collChunkIds">
             <xsl:sort order="descending"/>
             <xsl:variable name="vertPos" as="xs:integer" select="position() mod 9"/>
