@@ -6,8 +6,14 @@
     version="3.0">
     <xsl:output method="xml" indent="yes"/>    
     <xsl:variable name="frankenChunks" as="document-node()+" select="collection('collationChunks/?select=*.xml')"/>
- <!--Between 14 and 228 width if you want to compare size of collation unit on the X axis as stroke-widths based on string-lengths. Set 20 between each. 
+ <!--ebb: Between 14 and 228 width if you want to compare size of collation unit on the X axis as stroke-widths based on string-lengths. Set 20 between each. 
  -->  
+   <!--2019-06-21 ebb: Lining up text unit milestones: 
+   Look for milestone elements and get @unit and @n (mscoll has @unit)
+   Get string-length, divide by max string-length to determine position...
+   
+   --> 
+    
     <xsl:variable name="collChunkIds" as="item()+" select="$frankenChunks//anchor[@type='collate']/@xml:id => distinct-values() => sort()"/>
     <xsl:template match="/">
         <svg width="500" height="3600" viewBox="0 0 400 4000">

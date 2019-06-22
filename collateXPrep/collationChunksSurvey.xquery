@@ -5,7 +5,7 @@ let $head := $collChunks//head[@sID]
 (:for $h in $head
 let $text := $h/following-sibling::text()[following::head[@eID eq $h/@sID]]:)
 (:return concat(string-join($text, ' '), '&#10;'):)
-let $milestone := $collChunks//milestone[not(@unit='tei:p')][not(@* = ('tei:lg', 'tei:l', 'tei:note', 'tei:seg', 'tei:head', 'end'))]
+let $milestone := $collChunks//milestone[not(@unit='tei:p')][not(@* = ('tei:lg', 'tei:l', 'tei:note', 'tei:seg', 'end'))]
 let $mileheads := ($milestone)
 for $m in $mileheads
 let $u := $m/@unit/string()
