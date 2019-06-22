@@ -8,6 +8,10 @@
     <xsl:variable name="frankenChunks" as="document-node()+" select="collection('collationChunks/?select=*.xml')"/>
  <!--ebb: Between 14 and 228 width if you want to compare size of collation unit on the X axis as stroke-widths based on string-lengths. Set 20 between each. 
  -->  
+    <!-- 3 column layout: Widest is around 60, but we need to add sidebar info, so try making each column 200 wide, 9 coll units long. 
+        This makes 4 columns @200 = 800 wide
+    
+    -->
    <!--2019-06-21 ebb: Lining up text unit milestones: 
    Look for milestone elements and get @unit and @n (mscoll has @unit)
    Get string-length, divide by max string-length to determine position...
@@ -22,17 +26,18 @@
     <xsl:variable name="color_Thom" as="xs:string" select="concat('#', '98C99F')"/>
     
     <xsl:template match="/">
-        <svg width="500" height="3600" viewBox="0 0 600 9000">
+        <svg width="500" height="3600" viewBox="0 0 1200 9000">
             <g id="wrapper" transform="translate(80, 3600)">
         <xsl:for-each select="$collChunkIds">
             <xsl:sort order="descending"/>
-            <xsl:variable name="pos" select="position()"/>
+            <xsl:variable name="vertPos" as="xs:integer" select="position() mod 9"/>
+            <xsl:variable name="columnPos" as="xs:decimal" select="(floor(position() div 9)) * 200"/>
             <xsl:variable name="ySpacer" select="-105"/>
             <xsl:variable name="xSpacer" select="10"/>
             <xsl:variable name="widthFactor" select="1000"/>
             <g id="{current()}"><!--Collation unit wrapper-->
-                <xsl:variable name="yPos1" select="($pos * $ySpacer) "/><!-- a negative value--> 
-                <text x="-{$xSpacer * 3}" y="{$yPos1}" fill="black"><xsl:value-of select="current()"/></text>
+                <xsl:variable name="yPos1" select="($vertPos * $ySpacer) "/><!-- a negative value--> 
+                <text x="{-($xSpacer * 3) + $columnPos}" y="{$yPos1}" fill="black"><xsl:value-of select="current()"/></text>
                 <!--msColl data -->
                 <xsl:variable name="CU_msColl" as="item()" select="$frankenChunks//xml[tokenize(base-uri(), '/')[last()] => starts-with('msColl')][tokenize(base-uri(), '/')[last()] => substring-before('.xml') => substring-after('_') = current()]"/> 
                 <xsl:variable name="SL_msColl" select="$CU_msColl//text()[not(matches(., '^\s+$'))][not(preceding-sibling::del[1][@sID])]/normalize-space() ! string-length() => sum()"/>             
@@ -58,23 +63,23 @@
                 <g class="notebooks"><xsl:comment>String length here: <xsl:value-of select="$SL_msColl"/></xsl:comment>
                    
                     <xsl:variable name="yPos2_ms" select="$yPos1 - ($SL_msColl div $SL_max) * 100 "/>
-                    <line x1="{$xSpacer}" y1="{$yPos1}" x2="{$xSpacer}" y2="{$yPos2_ms}" style="stroke:{$color_MS};stroke-width:{$SL_msColl div $widthFactor}" />
+                    <line x1="{$xSpacer + $columnPos}" y1="{$yPos1}" x2="{$xSpacer + $columnPos}" y2="{$yPos2_ms}" style="stroke:{$color_MS};stroke-width:{$SL_msColl div $widthFactor}" />
                 </g>
                 <g class="1818ed"><xsl:comment>String length here: <xsl:value-of select="$SL_1818"/></xsl:comment>
                     <xsl:variable name="yPos2_1818" select="$yPos1 - ($SL_1818 div $SL_max) * 100 "/>
-                    <line x1="{($SL_msColl div $widthFactor) + $xSpacer * 2}" y1="{$yPos1}" x2="{($SL_msColl div $widthFactor) + $xSpacer * 2}" y2="{$yPos2_1818}" style="stroke:{$color_1818};stroke-width:{$SL_1818 div $widthFactor}" />     
+                    <line x1="{($SL_msColl div $widthFactor) + $xSpacer * 2 + $columnPos}" y1="{$yPos1}" x2="{($SL_msColl div $widthFactor) + $xSpacer * 2 + $columnPos}" y2="{$yPos2_1818}" style="stroke:{$color_1818};stroke-width:{$SL_1818 div $widthFactor}" />     
                 </g>
                 <g class="1823ed"><xsl:comment>String length here: <xsl:value-of select="$SL_1823"/></xsl:comment>
                     <xsl:variable name="yPos2_1823" select="$yPos1 - ($SL_1823 div $SL_max) * 100 "/>
-                    <line x1="{(($SL_msColl + $SL_1818)  div $widthFactor) + $xSpacer * 3}" y1="{$yPos1}" x2="{(($SL_msColl + $SL_1818)  div $widthFactor) + $xSpacer * 3}" y2="{$yPos2_1823}" style="stroke:{$color_1823};stroke-width:{$SL_1823 div $widthFactor}" />
+                    <line x1="{(($SL_msColl + $SL_1818)  div $widthFactor) + $xSpacer * 3  + $columnPos}" y1="{$yPos1}" x2="{(($SL_msColl + $SL_1818)  div $widthFactor) + $xSpacer * 3 + $columnPos}" y2="{$yPos2_1823}" style="stroke:{$color_1823};stroke-width:{$SL_1823 div $widthFactor}" />
                 </g>
                 <g class="1831ed"><xsl:comment>String length here: <xsl:value-of select="$SL_1831"/></xsl:comment>
                     <xsl:variable name="yPos2_1831" select="$yPos1 - ($SL_1831 div $SL_max) * 100 "/>
-                    <line x1="{(($SL_msColl + $SL_1818 + $SL_1823)  div $widthFactor) + $xSpacer * 4}" y1="{$yPos1}" x2="{(($SL_msColl + $SL_1818 + $SL_1823)  div $widthFactor) + $xSpacer * 4}" y2="{$yPos2_1831}" style="stroke:{$color_1831};stroke-width:{$SL_1831 div $widthFactor}" />
+                    <line x1="{(($SL_msColl + $SL_1818 + $SL_1823)  div $widthFactor) + $xSpacer * 4 + $columnPos}" y1="{$yPos1}" x2="{(($SL_msColl + $SL_1818 + $SL_1823)  div $widthFactor) + $xSpacer * 4 + $columnPos}" y2="{$yPos2_1831}" style="stroke:{$color_1831};stroke-width:{$SL_1831 div $widthFactor}" />
                 </g>
                 <g class="Thomas"><xsl:comment>String length here: <xsl:value-of select="$SL_Thomas"/></xsl:comment>
                     <xsl:variable name="yPos2_Thomas" select="$yPos1 - ($SL_Thomas div $SL_max) * 100 "/>
-                    <line x1="{(($SL_msColl + $SL_1818 + $SL_1823 + $SL_1831)  div $widthFactor) + $xSpacer * 5}" y1="{$yPos1}" x2="{(($SL_msColl + $SL_1818 + $SL_1823 + $SL_1831)  div $widthFactor) + $xSpacer * 5}" y2="{$yPos2_Thomas}" style="stroke:{$color_Thom};stroke-width:{$SL_Thomas div $widthFactor}" />
+                    <line x1="{(($SL_msColl + $SL_1818 + $SL_1823 + $SL_1831)  div $widthFactor + $xSpacer * 5) + $columnPos}" y1="{$yPos1}" x2="{(($SL_msColl + $SL_1818 + $SL_1823 + $SL_1831)  div $widthFactor + $xSpacer * 5) + $columnPos}" y2="{$yPos2_Thomas}" style="stroke:{$color_Thom};stroke-width:{$SL_Thomas div $widthFactor}" />
                 </g>
             </xsl:for-each>
            
