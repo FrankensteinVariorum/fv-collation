@@ -29,8 +29,8 @@
 
               <xsl:for-each select="$versionChunks">
                   <xsl:variable name="cu_SL" select="descendant::text()[not(matches(., '^\s+$'))][not(preceding-sibling::del[1][@sID])]/normalize-space() ! string-length() => sum()"/>
-                  <xsl:value-of select="tokenize(base-uri(), '/')[last()] ! substring-before(., 'xml')"/>
-                  <f name="{tokenize(base-uri(), '/')[last()] ! substring-before(., '.xml')}--stringLength" fVal="{$cu_SL}">         
+                  <f name="{tokenize(base-uri(), '/')[last()] ! substring-before(., '.xml')}--stringLength" fVal="{$cu_SL}"> 
+                      <xsl:value-of select="tokenize(base-uri(), '/')[last()] ! substring-before(., '.xml')"/>
              <xsl:variable name="milestones" as="element()*" select="descendant::milestone[not(@* = ('tei:p', 'tei:lg', 'tei:l', 'tei:note', 'tei:seg', 'end'))]"/>         
                <xsl:if test="$milestones"> 
                    <fs type="milestoneMeasures">
