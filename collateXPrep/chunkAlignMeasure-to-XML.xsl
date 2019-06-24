@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    exclude-result-prefixes="xs"
+    version="3.0">
+    <!--ebb: This is going to make designing an SVG much easier, and allow us to hand measurement data over in an accessible data format. 
+ -->  
+    <!--2019-06-21 ebb: Lining up text unit milestones: 
+   Look for milestone elements and get @unit and @n (mscoll has @unit)
+   Get string-length, divide by max string-length to determine position...
+   --> 
+    <xsl:output method="xml" indent="yes"/>    
+    <xsl:variable name="frankenChunks" as="document-node()+" select="collection('collationChunks/?select=*.xml')"/>
+    <xsl:variable name="collChunkIds" as="item()+" select="$frankenChunks//anchor[@type='collate']/@xml:id => distinct-values() => sort()"/>
+    <xsl:variable name="fileName" as="xs:string" select="tokenize(base-uri(), '/')[last()]"/>
+   
+    <xsl:template match="/">
+       <fLib n="collUnit-StringLengths"> 
+           <xsl:comment>This contains string-length data from the collation units in the Frankenstein Variorum project. It includes string lengths preceding milestone markers to help determine relative positioning of volume, letter, and chapter beginnings.</xsl:comment>
+           <xsl:for-each select="$collChunkIds">
+            <xsl:sort/>
+               <xsl:variable name="currID" as="xs:string" select="current()"/>
+          <fs type="collationUnit" xml:id="{$currID}">  
+              <!-- the documents at this unit -->
+              <xsl:variable name="versionChunks" as="document-node()+">
+                  <xsl:variable name="CU_msColl" as="document-node()*" select="doc($frankenChunks//document-node()[$fileName => starts-with('msColl') and $fileName ! tokenize(., '_')[last()] ! substring-before(., '.xml') eq $currID])"/> 
+                  <xsl:variable name="CU_1818" as="document-node()*" select="doc($frankenChunks//document-node()[$fileName => starts-with('1818') and $fileName ! tokenize(., '_')[last()] ! substring-before(., '.xml') eq $currID])"/> 
+                  <xsl:variable name="CU_1823" as="document-node()*" select="doc($frankenChunks//document-node()[$fileName => starts-with('1823') and $fileName ! tokenize(., '_')[last()] ! substring-before(., '.xml') eq $currID])"/>  
+                  <xsl:variable name="CU_1831" as="document-node()*" select="doc($frankenChunks//document-node()[$fileName => starts-with('1831') and $fileName ! tokenize(., '_')[last()] ! substring-before(., '.xml') eq $currID])"/> 
+                  <xsl:variable name="CU_Thomas" as="document-node()*" select="doc($frankenChunks//document-node()[$fileName => starts-with('Thomas') and $fileName ! tokenize(., '_')[last()] ! substring-before(., '.xml') eq $currID])"/>
+                  <xsl:copy-of select="($CU_msColl, $CU_1818, $CU_1823, $CU_1831, $CU_Thomas)"/>
+              </xsl:variable>       
+              <xsl:for-each select="$versionChunks">
+                  <xsl:variable name="cu_SL" select="descendant::text()[not(matches(., '^\s+$'))][not(preceding-sibling::del[1][@sID])]/normalize-space() ! string-length() => sum()"/>
+                  <xsl:value-of select="$fileName ! substring-before(., 'xml')"/>
+         <f name="{$fileName ! substring-before(., '.xml')}--stringLength" fVal="{$cu_SL}">         
+             <xsl:variable name="milestones" as="element()*" select="descendant::milestone[not(@* = ('tei:p', 'tei:lg', 'tei:l', 'tei:note', 'tei:seg', 'end'))]"/>         
+               <xsl:if test="$milestones"> 
+                   <fs type="milestoneMeasures">
+                   <xsl:for-each select="$milestones">  
+                    <xsl:variable name="textUnit" as="xs:string*">
+                        <xsl:value-of select="preceding::text()[not(matches(., '^\s+$'))][not(preceding-sibling::del[1][@sID])]/normalize-space()"/>        
+                     </xsl:variable> 
+                       <xsl:message><xsl:value-of select="$textUnit"/></xsl:message>
+                       <xsl:variable name="stringLengthToHere" as="xs:integer">
+                           <xsl:value-of select="$textUnit ! string-length() => sum()"/>
+                       </xsl:variable>
+                       
+                           <xsl:comment>Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.</xsl:comment>
+                          <f name="{@unit}" fVal="{$stringLengthToHere}"/>        
+          </xsl:for-each>
+                   </fs>
+               </xsl:if>
+               </f>
+               </xsl:for-each>
+          </fs>
+           
+           </xsl:for-each>
+       </fLib>
+        
+    </xsl:template>
+    
+</xsl:stylesheet>
