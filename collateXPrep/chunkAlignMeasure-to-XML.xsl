@@ -3,12 +3,6 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     exclude-result-prefixes="xs"
     version="3.0">
-    <!--ebb: This is going to make designing an SVG much easier, and allow us to hand measurement data over in an accessible data format. 
- -->  
-    <!--2019-06-21 ebb: Lining up text unit milestones: 
-   Look for milestone elements and get @unit and @n (mscoll has @unit)
-   Get string-length, divide by max string-length to determine position...
-   --> 
     <xsl:output method="xml" indent="yes"/>    
     <xsl:variable name="frankenChunks" as="document-node()+" select="collection('collationChunks/?select=*.xml')"/>
     <xsl:variable name="collChunkIds" as="item()+" select="$frankenChunks//anchor[@type='collate']/@xml:id => distinct-values() => sort()"/>
@@ -21,11 +15,11 @@
           <fs type="collationUnit" xml:id="{$currID}">  
               <!-- the documents at this unit -->
                   <xsl:variable name="CU_msColl" as="document-node()*" select="doc($frankenChunks[starts-with(tokenize(base-uri(), '/')[last()], 'msColl') and tokenize(base-uri(), '/')[last()] ! tokenize(., '_')[last()] ! substring-before(., '.xml') eq $currID]/base-uri())"/> 
-                  <xsl:variable name="CU_1818" as="document-node()*" select="doc($frankenChunks[starts-with(tokenize(base-uri(), '/')[last()], '1818') and tokenize(base-uri(), '/')[last()] ! tokenize(., '_')[last()] ! substring-before(., '.xml') eq $currID]/base-uri())"/> 
+                  <xsl:variable name="CU_1818" as="document-node()*" select="doc($frankenChunks[starts-with(tokenize(base-uri(), '/')[last()], '1818') and tokenize(base-uri(), '/')[last()] ! tokenize(., '_')[last()] ! substring-before(., '.xml') eq $currID]/base-uri())"/>
+              <xsl:variable name="CU_Thomas" as="document-node()*" select="doc($frankenChunks[starts-with(tokenize(base-uri(), '/')[last()], 'Thomas') and tokenize(base-uri(), '/')[last()] ! tokenize(., '_')[last()] ! substring-before(., '.xml') eq $currID]/base-uri())"/>
                   <xsl:variable name="CU_1823" as="document-node()*" select="doc($frankenChunks[starts-with(tokenize(base-uri(), '/')[last()], '1823') and tokenize(base-uri(), '/')[last()] ! tokenize(., '_')[last()] ! substring-before(., '.xml') eq $currID]/base-uri())"/>  
               <xsl:variable name="CU_1831" as="document-node()*" select="doc($frankenChunks[starts-with(tokenize(base-uri(), '/')[last()], '1831') and tokenize(base-uri(), '/')[last()] ! tokenize(., '_')[last()] ! substring-before(., '.xml') eq $currID]/base-uri())"/> 
-              <xsl:variable name="CU_Thomas" as="document-node()*" select="doc($frankenChunks[starts-with(tokenize(base-uri(), '/')[last()], 'Thomas') and tokenize(base-uri(), '/')[last()] ! tokenize(., '_')[last()] ! substring-before(., '.xml') eq $currID]/base-uri())"/>
-              <xsl:variable name="versionChunks" as="document-node()+" select="($CU_msColl, $CU_1818, $CU_1823, $CU_1831, $CU_Thomas)"/>
+              <xsl:variable name="versionChunks" as="document-node()+" select="($CU_msColl, $CU_1818, $CU_Thomas, $CU_1823, $CU_1831)"/>
 
               <xsl:for-each select="$versionChunks">
                   <xsl:variable name="cu_SL" select="descendant::text()[not(matches(., '^\s+$'))][not(preceding-sibling::del[1][@sID])]/normalize-space() ! string-length() => sum()"/>

@@ -1,129 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fLib n="collUnit-StringLengths">
-   <!--This contains string-length data from the collation units in the Frankenstein Variorum project. It includes string lengths preceding milestone markers to help determine relative positioning of volume, letter, and chapter beginnings.-->
+<fLib n="collUnit-StringLengths"><!--This contains string-length data from the collation units in the Frankenstein Variorum project. It includes string lengths preceding milestone markers to help determine relative positioning of volume, letter, and chapter beginnings.-->
    <fs type="collationUnit" xml:id="C01">
       <f name="msColl_C01--stringLength" fVal="0">msColl_C01</f>
-      <f name="1818_fullFlat_C01--stringLength" fVal="3339">1818_fullFlat_C01<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C01--stringLength" fVal="3339">1818_fullFlat_C01<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="volume" fVal="0"/>
             <f name="frontmatter" fVal="0"/>
             <f name="preface" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C01--stringLength" fVal="3343">1823_fullFlat_C01<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C01--stringLength" fVal="3339">Thomas_fullFlat_C01<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="volume" fVal="0"/>
             <f name="frontmatter" fVal="0"/>
             <f name="preface" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C01--stringLength" fVal="3369">1831_fullFlat_C01<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C01--stringLength" fVal="3343">1823_fullFlat_C01<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+            <f name="volume" fVal="0"/>
+            <f name="frontmatter" fVal="0"/>
+            <f name="preface" fVal="0"/>
+         </fs>
+      </f>
+      <f name="1831_fullFlat_C01--stringLength" fVal="3369">1831_fullFlat_C01<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="frontmatter" fVal="0"/>
             <f name="introduction" fVal="0"/>
-            <f name="preface" fVal="0"/>
-         </fs>
-      </f>
-      <f name="Thomas_fullFlat_C01--stringLength" fVal="3339">Thomas_fullFlat_C01<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
-            <f name="volume" fVal="0"/>
-            <f name="frontmatter" fVal="0"/>
             <f name="preface" fVal="0"/>
          </fs>
       </f>
    </fs>
    <fs type="collationUnit" xml:id="C02">
       <f name="msColl_C02--stringLength" fVal="0">msColl_C02</f>
-      <f name="1818_fullFlat_C02--stringLength" fVal="6867">1818_fullFlat_C02<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C02--stringLength" fVal="6867">1818_fullFlat_C02<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="novel" fVal="0"/>
             <f name="letter" fVal="40"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C02--stringLength" fVal="6868">1823_fullFlat_C02<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
-            <f name="novel" fVal="0"/>
-            <f name="letter" fVal="41"/>
-         </fs>
-      </f>
-      <f name="1831_fullFlat_C02--stringLength" fVal="6872">1831_fullFlat_C02<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
-            <f name="novel" fVal="0"/>
-            <f name="letter" fVal="41"/>
-         </fs>
-      </f>
-      <f name="Thomas_fullFlat_C02--stringLength" fVal="7044">Thomas_fullFlat_C02<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C02--stringLength" fVal="7044">Thomas_fullFlat_C02<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="novel" fVal="0"/>
             <f name="letter" fVal="40"/>
+         </fs>
+      </f>
+      <f name="1823_fullFlat_C02--stringLength" fVal="6868">1823_fullFlat_C02<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+            <f name="novel" fVal="0"/>
+            <f name="letter" fVal="41"/>
+         </fs>
+      </f>
+      <f name="1831_fullFlat_C02--stringLength" fVal="6872">1831_fullFlat_C02<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+            <f name="novel" fVal="0"/>
+            <f name="letter" fVal="41"/>
          </fs>
       </f>
    </fs>
    <fs type="collationUnit" xml:id="C03">
       <f name="msColl_C03--stringLength" fVal="0">msColl_C03</f>
-      <f name="1818_fullFlat_C03--stringLength" fVal="5891">1818_fullFlat_C03<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C03--stringLength" fVal="5891">1818_fullFlat_C03<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="letter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C03--stringLength" fVal="5889">1823_fullFlat_C03<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C03--stringLength" fVal="6041">Thomas_fullFlat_C03<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="letter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C03--stringLength" fVal="7354">1831_fullFlat_C03<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C03--stringLength" fVal="5889">1823_fullFlat_C03<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="letter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C03--stringLength" fVal="6041">Thomas_fullFlat_C03<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C03--stringLength" fVal="7354">1831_fullFlat_C03<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="letter" fVal="0"/>
          </fs>
       </f>
    </fs>
    <fs type="collationUnit" xml:id="C04">
       <f name="msColl_C04--stringLength" fVal="0">msColl_C04</f>
-      <f name="1818_fullFlat_C04--stringLength" fVal="1336">1818_fullFlat_C04<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C04--stringLength" fVal="1336">1818_fullFlat_C04<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="letter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C04--stringLength" fVal="1334">1823_fullFlat_C04<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C04--stringLength" fVal="1543">Thomas_fullFlat_C04<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="letter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C04--stringLength" fVal="1688">1831_fullFlat_C04<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C04--stringLength" fVal="1334">1823_fullFlat_C04<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="letter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C04--stringLength" fVal="1543">Thomas_fullFlat_C04<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C04--stringLength" fVal="1688">1831_fullFlat_C04<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="letter" fVal="0"/>
          </fs>
       </f>
    </fs>
    <fs type="collationUnit" xml:id="C05">
       <f name="msColl_C05--stringLength" fVal="0">msColl_C05</f>
-      <f name="1818_fullFlat_C05--stringLength" fVal="7514">1818_fullFlat_C05<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C05--stringLength" fVal="7514">1818_fullFlat_C05<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="letter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C05--stringLength" fVal="7512">1823_fullFlat_C05<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C05--stringLength" fVal="7802">Thomas_fullFlat_C05<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="letter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C05--stringLength" fVal="7587">1831_fullFlat_C05<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C05--stringLength" fVal="7512">1823_fullFlat_C05<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="letter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C05--stringLength" fVal="7802">Thomas_fullFlat_C05<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C05--stringLength" fVal="7587">1831_fullFlat_C05<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="letter" fVal="0"/>
          </fs>
       </f>
@@ -131,34 +110,30 @@
    <fs type="collationUnit" xml:id="C06">
       <f name="msColl_C06--stringLength" fVal="0">msColl_C06</f>
       <f name="1818_fullFlat_C06--stringLength" fVal="5407">1818_fullFlat_C06</f>
+      <f name="Thomas_fullFlat_C06--stringLength" fVal="5729">Thomas_fullFlat_C06</f>
       <f name="1823_fullFlat_C06--stringLength" fVal="5411">1823_fullFlat_C06</f>
       <f name="1831_fullFlat_C06--stringLength" fVal="7572">1831_fullFlat_C06</f>
-      <f name="Thomas_fullFlat_C06--stringLength" fVal="5729">Thomas_fullFlat_C06</f>
    </fs>
    <fs type="collationUnit" xml:id="C07">
       <f name="msColl_C07--stringLength" fVal="11639">msColl_C07<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="tei:head" fVal="3499"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C07--stringLength" fVal="17113">1818_fullFlat_C07<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C07--stringLength" fVal="17113">1818_fullFlat_C07<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C07--stringLength" fVal="17113">1823_fullFlat_C07<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C07--stringLength" fVal="16358">Thomas_fullFlat_C07<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C07--stringLength" fVal="22877">1831_fullFlat_C07<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C07--stringLength" fVal="17113">1823_fullFlat_C07<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+            <f name="chapter" fVal="0"/>
+         </fs>
+      </f>
+      <f name="1831_fullFlat_C07--stringLength" fVal="22877">1831_fullFlat_C07<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
             <f name="chapter" fVal="10185"/>
-         </fs>
-      </f>
-      <f name="Thomas_fullFlat_C07--stringLength" fVal="16358">Thomas_fullFlat_C07<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
-            <f name="chapter" fVal="0"/>
          </fs>
       </f>
    </fs>
@@ -168,23 +143,19 @@
             <f name="tei:head" fVal="6257"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C08--stringLength" fVal="12856">1818_fullFlat_C08<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C08--stringLength" fVal="12856">1818_fullFlat_C08<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C08--stringLength" fVal="12854">1823_fullFlat_C08<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C08--stringLength" fVal="13381">Thomas_fullFlat_C08<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C08--stringLength" fVal="15296">1831_fullFlat_C08<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C08--stringLength" fVal="12854">1823_fullFlat_C08<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C08--stringLength" fVal="13381">Thomas_fullFlat_C08<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C08--stringLength" fVal="15296">1831_fullFlat_C08<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -195,23 +166,19 @@
             <f name="tei:head" fVal="7203"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C09--stringLength" fVal="14519">1818_fullFlat_C09<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C09--stringLength" fVal="14519">1818_fullFlat_C09<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C09--stringLength" fVal="14517">1823_fullFlat_C09<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C09--stringLength" fVal="14739">Thomas_fullFlat_C09<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C09--stringLength" fVal="14437">1831_fullFlat_C09<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C09--stringLength" fVal="14517">1823_fullFlat_C09<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C09--stringLength" fVal="14739">Thomas_fullFlat_C09<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C09--stringLength" fVal="14437">1831_fullFlat_C09<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -222,23 +189,19 @@
             <f name="tei:head" fVal="9977"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C10--stringLength" fVal="12953">1818_fullFlat_C10<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C10--stringLength" fVal="12953">1818_fullFlat_C10<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C10--stringLength" fVal="12949">1823_fullFlat_C10<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C10--stringLength" fVal="13029">Thomas_fullFlat_C10<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C10--stringLength" fVal="12942">1831_fullFlat_C10<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C10--stringLength" fVal="12949">1823_fullFlat_C10<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C10--stringLength" fVal="13029">Thomas_fullFlat_C10<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C10--stringLength" fVal="12942">1831_fullFlat_C10<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -248,23 +211,19 @@
             <f name="tei:head" fVal="0"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C11--stringLength" fVal="7857">1818_fullFlat_C11<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C11--stringLength" fVal="7857">1818_fullFlat_C11<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C11--stringLength" fVal="7853">1823_fullFlat_C11<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C11--stringLength" fVal="8033">Thomas_fullFlat_C11<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C11--stringLength" fVal="7658">1831_fullFlat_C11<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C11--stringLength" fVal="7853">1823_fullFlat_C11<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C11--stringLength" fVal="8033">Thomas_fullFlat_C11<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C11--stringLength" fVal="7658">1831_fullFlat_C11<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -275,9 +234,9 @@
          </fs>
       </f>
       <f name="1818_fullFlat_C12--stringLength" fVal="7370">1818_fullFlat_C12</f>
+      <f name="Thomas_fullFlat_C12--stringLength" fVal="7370">Thomas_fullFlat_C12</f>
       <f name="1823_fullFlat_C12--stringLength" fVal="7371">1823_fullFlat_C12</f>
       <f name="1831_fullFlat_C12--stringLength" fVal="7816">1831_fullFlat_C12</f>
-      <f name="Thomas_fullFlat_C12--stringLength" fVal="7370">Thomas_fullFlat_C12</f>
    </fs>
    <fs type="collationUnit" xml:id="C13">
       <f name="msColl_C13--stringLength" fVal="19376">msColl_C13<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
@@ -286,23 +245,19 @@
             <f name="tei:head" fVal="18465"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C13--stringLength" fVal="19672">1818_fullFlat_C13<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C13--stringLength" fVal="19672">1818_fullFlat_C13<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C13--stringLength" fVal="19677">1823_fullFlat_C13<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C13--stringLength" fVal="19980">Thomas_fullFlat_C13<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C13--stringLength" fVal="19801">1831_fullFlat_C13<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C13--stringLength" fVal="19677">1823_fullFlat_C13<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C13--stringLength" fVal="19980">Thomas_fullFlat_C13<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C13--stringLength" fVal="19801">1831_fullFlat_C13<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -312,28 +267,24 @@
             <f name="tei:head" fVal="8819"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C14--stringLength" fVal="16871">1818_fullFlat_C14<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C14--stringLength" fVal="16871">1818_fullFlat_C14<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
             <f name="volume" fVal="16929"/>
             <f name="frontmatter" fVal="16929"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C14--stringLength" fVal="16859">1823_fullFlat_C14<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
-            <f name="chapter" fVal="0"/>
-         </fs>
-      </f>
-      <f name="1831_fullFlat_C14--stringLength" fVal="17256">1831_fullFlat_C14<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
-            <f name="chapter" fVal="0"/>
-         </fs>
-      </f>
-      <f name="Thomas_fullFlat_C14--stringLength" fVal="16868">Thomas_fullFlat_C14<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C14--stringLength" fVal="16868">Thomas_fullFlat_C14<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
             <f name="volume" fVal="16933"/>
             <f name="frontmatter" fVal="16933"/>
+         </fs>
+      </f>
+      <f name="1823_fullFlat_C14--stringLength" fVal="16859">1823_fullFlat_C14<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+            <f name="chapter" fVal="0"/>
+         </fs>
+      </f>
+      <f name="1831_fullFlat_C14--stringLength" fVal="17256">1831_fullFlat_C14<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+            <f name="chapter" fVal="0"/>
          </fs>
       </f>
    </fs>
@@ -342,23 +293,19 @@
             <f name="tei:head" fVal="0"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C15--stringLength" fVal="11507">1818_fullFlat_C15<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C15--stringLength" fVal="11507">1818_fullFlat_C15<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C15--stringLength" fVal="11510">1823_fullFlat_C15<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C15--stringLength" fVal="11665">Thomas_fullFlat_C15<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C15--stringLength" fVal="12442">1831_fullFlat_C15<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C15--stringLength" fVal="11510">1823_fullFlat_C15<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C15--stringLength" fVal="11665">Thomas_fullFlat_C15<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C15--stringLength" fVal="12442">1831_fullFlat_C15<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -368,23 +315,19 @@
             <f name="tei:head" fVal="0"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C16--stringLength" fVal="12355">1818_fullFlat_C16<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C16--stringLength" fVal="12355">1818_fullFlat_C16<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C16--stringLength" fVal="12370">1823_fullFlat_C16<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C16--stringLength" fVal="12722">Thomas_fullFlat_C16<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C16--stringLength" fVal="12950">1831_fullFlat_C16<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C16--stringLength" fVal="12370">1823_fullFlat_C16<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C16--stringLength" fVal="12722">Thomas_fullFlat_C16<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C16--stringLength" fVal="12950">1831_fullFlat_C16<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -395,23 +338,19 @@
             <f name="tei:head" fVal="9492"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C17--stringLength" fVal="15939">1818_fullFlat_C17<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C17--stringLength" fVal="15939">1818_fullFlat_C17<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C17--stringLength" fVal="15949">1823_fullFlat_C17<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C17--stringLength" fVal="16361">Thomas_fullFlat_C17<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C17--stringLength" fVal="15954">1831_fullFlat_C17<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C17--stringLength" fVal="15949">1823_fullFlat_C17<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C17--stringLength" fVal="16361">Thomas_fullFlat_C17<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C17--stringLength" fVal="15954">1831_fullFlat_C17<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -421,48 +360,40 @@
             <f name="tei:head" fVal="2129"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C18--stringLength" fVal="11938">1818_fullFlat_C18<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C18--stringLength" fVal="11938">1818_fullFlat_C18<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C18--stringLength" fVal="11950">1823_fullFlat_C18<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C18--stringLength" fVal="12191">Thomas_fullFlat_C18<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+            <f name="chapter" fVal="0"/>
+         </fs>
+      </f>
+      <f name="1823_fullFlat_C18--stringLength" fVal="11950">1823_fullFlat_C18<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
             <f name="volume" fVal="12016"/>
             <f name="frontmatter" fVal="12016"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C18--stringLength" fVal="11946">1831_fullFlat_C18<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
-            <f name="chapter" fVal="0"/>
-         </fs>
-      </f>
-      <f name="Thomas_fullFlat_C18--stringLength" fVal="12191">Thomas_fullFlat_C18<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C18--stringLength" fVal="11946">1831_fullFlat_C18<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
    </fs>
    <fs type="collationUnit" xml:id="C19">
       <f name="msColl_C19--stringLength" fVal="0">msColl_C19</f>
-      <f name="1818_fullFlat_C19--stringLength" fVal="11558">1818_fullFlat_C19<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C19--stringLength" fVal="11558">1818_fullFlat_C19<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C19--stringLength" fVal="11562">1823_fullFlat_C19<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C19--stringLength" fVal="12082">Thomas_fullFlat_C19<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C19--stringLength" fVal="11581">1831_fullFlat_C19<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C19--stringLength" fVal="11562">1823_fullFlat_C19<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C19--stringLength" fVal="12082">Thomas_fullFlat_C19<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C19--stringLength" fVal="11581">1831_fullFlat_C19<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -472,23 +403,19 @@
             <f name="tei:head" fVal="0"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C20--stringLength" fVal="10484">1818_fullFlat_C20<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C20--stringLength" fVal="10484">1818_fullFlat_C20<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C20--stringLength" fVal="10474">1823_fullFlat_C20<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C20--stringLength" fVal="10568">Thomas_fullFlat_C20<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C20--stringLength" fVal="10461">1831_fullFlat_C20<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C20--stringLength" fVal="10474">1823_fullFlat_C20<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C20--stringLength" fVal="10568">Thomas_fullFlat_C20<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C20--stringLength" fVal="10461">1831_fullFlat_C20<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -498,23 +425,19 @@
             <f name="tei:head" fVal="10450"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C21--stringLength" fVal="17076">1818_fullFlat_C21<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C21--stringLength" fVal="17076">1818_fullFlat_C21<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C21--stringLength" fVal="17069">1823_fullFlat_C21<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C21--stringLength" fVal="17498">Thomas_fullFlat_C21<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C21--stringLength" fVal="17113">1831_fullFlat_C21<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C21--stringLength" fVal="17069">1823_fullFlat_C21<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C21--stringLength" fVal="17498">Thomas_fullFlat_C21<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C21--stringLength" fVal="17113">1831_fullFlat_C21<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -526,23 +449,19 @@
             <f name="tei:head" fVal="13604"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C22--stringLength" fVal="16840">1818_fullFlat_C22<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C22--stringLength" fVal="16840">1818_fullFlat_C22<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C22--stringLength" fVal="16841">1823_fullFlat_C22<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C22--stringLength" fVal="16840">Thomas_fullFlat_C22<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C22--stringLength" fVal="17536">1831_fullFlat_C22<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C22--stringLength" fVal="16841">1823_fullFlat_C22<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C22--stringLength" fVal="16840">Thomas_fullFlat_C22<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C22--stringLength" fVal="17536">1831_fullFlat_C22<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -552,28 +471,24 @@
             <f name="tei:head" fVal="0"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C23--stringLength" fVal="10822">1818_fullFlat_C23<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C23--stringLength" fVal="10822">1818_fullFlat_C23<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
             <f name="volume" fVal="10861"/>
             <f name="frontmatter" fVal="10861"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C23--stringLength" fVal="10724">1823_fullFlat_C23<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
-            <f name="chapter" fVal="0"/>
-         </fs>
-      </f>
-      <f name="1831_fullFlat_C23--stringLength" fVal="10254">1831_fullFlat_C23<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
-            <f name="chapter" fVal="0"/>
-         </fs>
-      </f>
-      <f name="Thomas_fullFlat_C23--stringLength" fVal="10823">Thomas_fullFlat_C23<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C23--stringLength" fVal="10823">Thomas_fullFlat_C23<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
             <f name="volume" fVal="10864"/>
             <f name="frontmatter" fVal="10864"/>
+         </fs>
+      </f>
+      <f name="1823_fullFlat_C23--stringLength" fVal="10724">1823_fullFlat_C23<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+            <f name="chapter" fVal="0"/>
+         </fs>
+      </f>
+      <f name="1831_fullFlat_C23--stringLength" fVal="10254">1831_fullFlat_C23<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+            <f name="chapter" fVal="0"/>
          </fs>
       </f>
    </fs>
@@ -582,23 +497,19 @@
             <f name="tei:head" fVal="0"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C24--stringLength" fVal="15218">1818_fullFlat_C24<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C24--stringLength" fVal="15218">1818_fullFlat_C24<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C24--stringLength" fVal="15201">1823_fullFlat_C24<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C24--stringLength" fVal="15224">Thomas_fullFlat_C24<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C24--stringLength" fVal="16153">1831_fullFlat_C24<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C24--stringLength" fVal="15201">1823_fullFlat_C24<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C24--stringLength" fVal="15224">Thomas_fullFlat_C24<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C24--stringLength" fVal="16153">1831_fullFlat_C24<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -609,23 +520,19 @@
             <f name="tei:head" fVal="10386"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C25--stringLength" fVal="14442">1818_fullFlat_C25<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C25--stringLength" fVal="14442">1818_fullFlat_C25<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C25--stringLength" fVal="14450">1823_fullFlat_C25<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C25--stringLength" fVal="14440">Thomas_fullFlat_C25<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C25--stringLength" fVal="14815">1831_fullFlat_C25<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C25--stringLength" fVal="14450">1823_fullFlat_C25<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C25--stringLength" fVal="14440">Thomas_fullFlat_C25<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C25--stringLength" fVal="14815">1831_fullFlat_C25<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -635,23 +542,19 @@
             <f name="tei:head" fVal="6608"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C26--stringLength" fVal="18605">1818_fullFlat_C26<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C26--stringLength" fVal="18605">1818_fullFlat_C26<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C26--stringLength" fVal="18620">1823_fullFlat_C26<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C26--stringLength" fVal="18651">Thomas_fullFlat_C26<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C26--stringLength" fVal="19039">1831_fullFlat_C26<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C26--stringLength" fVal="18620">1823_fullFlat_C26<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C26--stringLength" fVal="18651">Thomas_fullFlat_C26<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C26--stringLength" fVal="19039">1831_fullFlat_C26<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -662,46 +565,38 @@
             <f name="tei:head" fVal="13912"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C27--stringLength" fVal="20044">1818_fullFlat_C27<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C27--stringLength" fVal="20044">1818_fullFlat_C27<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C27--stringLength" fVal="19918">1823_fullFlat_C27<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C27--stringLength" fVal="20027">Thomas_fullFlat_C27<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C27--stringLength" fVal="20438">1831_fullFlat_C27<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C27--stringLength" fVal="19918">1823_fullFlat_C27<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C27--stringLength" fVal="20027">Thomas_fullFlat_C27<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C27--stringLength" fVal="20438">1831_fullFlat_C27<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
    </fs>
    <fs type="collationUnit" xml:id="C28">
       <f name="msColl_C28--stringLength" fVal="3560">msColl_C28</f>
-      <f name="1818_fullFlat_C28--stringLength" fVal="3456">1818_fullFlat_C28<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C28--stringLength" fVal="3456">1818_fullFlat_C28<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C28--stringLength" fVal="3462">1823_fullFlat_C28<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C28--stringLength" fVal="4162">Thomas_fullFlat_C28<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C28--stringLength" fVal="4067">1831_fullFlat_C28<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C28--stringLength" fVal="3462">1823_fullFlat_C28<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C28--stringLength" fVal="4162">Thomas_fullFlat_C28<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C28--stringLength" fVal="4067">1831_fullFlat_C28<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -712,32 +607,28 @@
          </fs>
       </f>
       <f name="1818_fullFlat_C29--stringLength" fVal="14877">1818_fullFlat_C29</f>
+      <f name="Thomas_fullFlat_C29--stringLength" fVal="15191">Thomas_fullFlat_C29</f>
       <f name="1823_fullFlat_C29--stringLength" fVal="14882">1823_fullFlat_C29</f>
       <f name="1831_fullFlat_C29--stringLength" fVal="14954">1831_fullFlat_C29</f>
-      <f name="Thomas_fullFlat_C29--stringLength" fVal="15191">Thomas_fullFlat_C29</f>
    </fs>
    <fs type="collationUnit" xml:id="C30">
       <f name="msColl_C30--stringLength" fVal="13058">msColl_C30<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="tei:head" fVal="0"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C30--stringLength" fVal="13638">1818_fullFlat_C30<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C30--stringLength" fVal="13638">1818_fullFlat_C30<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C30--stringLength" fVal="13634">1823_fullFlat_C30<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C30--stringLength" fVal="14160">Thomas_fullFlat_C30<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C30--stringLength" fVal="14034">1831_fullFlat_C30<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C30--stringLength" fVal="13634">1823_fullFlat_C30<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C30--stringLength" fVal="14160">Thomas_fullFlat_C30<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C30--stringLength" fVal="14034">1831_fullFlat_C30<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -747,23 +638,19 @@
             <f name="tei:head" fVal="0"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C31--stringLength" fVal="16358">1818_fullFlat_C31<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C31--stringLength" fVal="16358">1818_fullFlat_C31<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C31--stringLength" fVal="16370">1823_fullFlat_C31<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C31--stringLength" fVal="16356">Thomas_fullFlat_C31<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C31--stringLength" fVal="16372">1831_fullFlat_C31<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1823_fullFlat_C31--stringLength" fVal="16370">1823_fullFlat_C31<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
-      <f name="Thomas_fullFlat_C31--stringLength" fVal="16356">Thomas_fullFlat_C31<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C31--stringLength" fVal="16372">1831_fullFlat_C31<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="chapter" fVal="0"/>
          </fs>
       </f>
@@ -775,9 +662,9 @@
          </fs>
       </f>
       <f name="1818_fullFlat_C32--stringLength" fVal="6756">1818_fullFlat_C32</f>
+      <f name="Thomas_fullFlat_C32--stringLength" fVal="6756">Thomas_fullFlat_C32</f>
       <f name="1823_fullFlat_C32--stringLength" fVal="6726">1823_fullFlat_C32</f>
       <f name="1831_fullFlat_C32--stringLength" fVal="6731">1831_fullFlat_C32</f>
-      <f name="Thomas_fullFlat_C32--stringLength" fVal="6756">Thomas_fullFlat_C32</f>
    </fs>
    <fs type="collationUnit" xml:id="C33">
       <f name="msColl_C33--stringLength" fVal="19000">msColl_C33<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
@@ -785,24 +672,20 @@
             <f name="tei:date" fVal="6237"/>
          </fs>
       </f>
-      <f name="1818_fullFlat_C33--stringLength" fVal="22467">1818_fullFlat_C33<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1818_fullFlat_C33--stringLength" fVal="22467">1818_fullFlat_C33<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="backmatter" fVal="22538"/>
          </fs>
       </f>
-      <f name="1823_fullFlat_C33--stringLength" fVal="22515">1823_fullFlat_C33<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="Thomas_fullFlat_C33--stringLength" fVal="22467">Thomas_fullFlat_C33<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+            <f name="backmatter" fVal="22540"/>
+         </fs>
+      </f>
+      <f name="1823_fullFlat_C33--stringLength" fVal="22515">1823_fullFlat_C33<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="backmatter" fVal="22585"/>
          </fs>
       </f>
-      <f name="1831_fullFlat_C33--stringLength" fVal="22573">1831_fullFlat_C33<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
+      <f name="1831_fullFlat_C33--stringLength" fVal="22573">1831_fullFlat_C33<fs type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
             <f name="backmatter" fVal="22627"/>
-         </fs>
-      </f>
-      <f name="Thomas_fullFlat_C33--stringLength" fVal="22467">Thomas_fullFlat_C33<fs
-            type="milestoneMeasures"><!--Note: These are measurements for all qualifying text nodes from the beginning of the collation unit to the point of the current milestone.-->
-            <f name="backmatter" fVal="22540"/>
          </fs>
       </f>
    </fs>
