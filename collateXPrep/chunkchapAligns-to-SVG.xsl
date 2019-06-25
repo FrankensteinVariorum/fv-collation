@@ -33,8 +33,8 @@ The variable below reads a document storing string-length measurements for each 
     <xsl:variable name="colorArray" as="xs:string+" select="concat($color_MS, ', ', $color_1818, ', ', $color_Thom, ', ', $color_1823, ', ', $color_1831)"/>
     
     <xsl:template match="/">
-        <svg width="3000" height="5000" viewBox="0 0 3500 9000">
-            <g id="wrapper" transform="translate(0, 30)">
+        <svg width="1500" height="2500" viewBox="0 0 2000 4000">
+            <g id="wrapper" transform="translate(-100, 80)">
         
           <xsl:for-each select="$collChunkUnits">
               <xsl:sort select="@xml:id"/>
@@ -57,13 +57,23 @@ The variable below reads a document storing string-length measurements for each 
                 <xsl:comment>Sum of max values to here: <xsl:value-of select="$Sum_MaxestoHere div $heightFactor"/>
                 </xsl:comment>
                 <xsl:variable name="yPos1" as="xs:double" select="($Sum_MaxestoHere div $heightFactor) + ($ySpacer * $vertPos) "/>
-            <text x="{-($xSpacer * 3) + $columnPos}" y="{$yPos1}" fill="black" font-size="20" font-weight="bold"><xsl:value-of select="current()/@xml:id"/></text>
+            <text x="{-($xSpacer * 3) + $columnPos}" y="{$yPos1}" fill="black" font-size="20" font-weight="bold">cu <xsl:value-of select="current()/@xml:id ! substring-after(., 'C')"/></text>
+               
                <xsl:for-each select="f">
                    <xsl:variable name="fPos" select="position()"/>
                   <xsl:variable name="xPos" select="($widthFactor + $xSpacer) * $fPos + $columnPos"/>
-       <g class="{./normalize-space()}">
-           <line x1="{$xPos}" x2="{$xPos}" y1="{$yPos1}" y2="{$yPos1 + (@fVal/string() ! number() div $heightFactor)}" style="stroke:{tokenize($colorArray, ', ')[$fPos]};stroke-width:{$widthFactor}"/>
-        <xsl:for-each select="fs[@type='milestoneMeasures']/f">
+       <g class="{./text() ! normalize-space()}">
+           <line x1="{$xPos}" x2="{$xPos}" y1="{$yPos1}" y2="{$yPos1 + (@fVal/string() ! number() div $heightFactor)}" style="stroke:{tokenize($colorArray, ', ')[$fPos]};stroke-width:{$widthFactor}">
+               <title><xsl:value-of select="@name ! substring-before(., '_')"/></title>
+           </line>
+           
+        <xsl:if test="contains(@name, '1818') and fs[@type='milestoneMeasures']">  /
+              <xsl:for-each select="fs[@type='milestoneMeasures']/f[starts-with(., 'LETTER') or starts-with(., 'CHAPTER')]"> 
+                  <text x="{(-$xSpacer * 25) + $columnPos}" y="{$yPos1 + @fVal div $heightFactor}" fill="black" font-size="20">1818: <xsl:value-of select="text() ! tokenize(., ' ')[position() lt 3] => string-join(' ')"/></text></xsl:for-each>
+           
+           </xsl:if>
+           
+           <xsl:for-each select="fs[@type='milestoneMeasures']/f">
       <xsl:variable name="yMile" select="$yPos1 + @fVal div $heightFactor"/>
           <!--  <text x="{($xSpacer * position() - 200) + $columnPos}" y="{$yMile}" fill="black" font-size="20"><xsl:value-of select="@name"/></text>-->
             <line x1="{$xPos - $widthFactor div 2}" x2="{$xPos + $widthFactor div 2}" y1="{$yMile + 15 div 2}" y2="{$yMile + 15 div 2}" style="stroke:black; stroke-width:15">
