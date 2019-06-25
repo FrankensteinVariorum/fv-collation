@@ -33,8 +33,8 @@ The variable below reads a document storing string-length measurements for each 
     <xsl:variable name="colorArray" as="xs:string+" select="concat($color_MS, ', ', $color_1818, ', ', $color_Thom, ', ', $color_1823, ', ', $color_1831)"/>
     
     <xsl:template match="/">
-        <svg width="1500" height="2500" viewBox="0 0 3000 4000">
-            <g id="wrapper" transform="translate(-100, -400)">
+        <svg width="1500" height="1300" viewBox="0 0 2200 2550">
+            <g id="wrapper" transform="translate(-100, 50)">
         
           <xsl:for-each select="$collChunkUnits">
               <xsl:sort select="@xml:id"/>
@@ -69,7 +69,7 @@ The variable below reads a document storing string-length measurements for each 
            
         <xsl:if test="contains(@name, '1818') and fs[@type='milestoneMeasures']">
               <xsl:for-each select="fs[@type='milestoneMeasures']/f[starts-with(., 'LETTER') or starts-with(., 'CHAPTER')]"> 
-                  <text x="{(-$xSpacer * 25) + $columnPos}" y="{$yPos1 + @fVal div $heightFactor}" fill="black" font-size="20">1818: <xsl:value-of select="text() ! tokenize(., ' ')[position() lt 3] => string-join(' ')"/></text></xsl:for-each>
+                  <text x="{(-$xSpacer * 25) + $columnPos}" y="{$yPos1 + @fVal div $heightFactor}" fill="black" font-size="22" font-weight="400">1818: <xsl:value-of select="text() ! tokenize(., ' ')[position() lt 3] => string-join(' ')"/></text></xsl:for-each>
            
            </xsl:if>
            
