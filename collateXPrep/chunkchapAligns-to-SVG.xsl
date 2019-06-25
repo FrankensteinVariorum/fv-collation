@@ -33,8 +33,8 @@ The variable below reads a document storing string-length measurements for each 
     <xsl:variable name="colorArray" as="xs:string+" select="concat($color_MS, ', ', $color_1818, ', ', $color_Thom, ', ', $color_1823, ', ', $color_1831)"/>
     
     <xsl:template match="/">
-        <svg width="1500" height="2500" viewBox="0 0 2000 4000">
-            <g id="wrapper" transform="translate(-100, 80)">
+        <svg width="1500" height="2500" viewBox="0 0 3000 4000">
+            <g id="wrapper" transform="translate(-100, -400)">
         
           <xsl:for-each select="$collChunkUnits">
               <xsl:sort select="@xml:id"/>
