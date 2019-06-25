@@ -66,7 +66,9 @@ The variable below reads a document storing string-length measurements for each 
         <xsl:for-each select="fs[@type='milestoneMeasures']/f">
       <xsl:variable name="yMile" select="$yPos1 + @fVal div $heightFactor"/>
           <!--  <text x="{($xSpacer * position() - 200) + $columnPos}" y="{$yMile}" fill="black" font-size="20"><xsl:value-of select="@name"/></text>-->
-            <line x1="{$xPos - $widthFactor div 2}" x2="{$xPos + $widthFactor div 2}" y1="{$yMile}" y2="{$yMile}" style="stroke:black; stroke-width:15"/>
+            <line x1="{$xPos - $widthFactor div 2}" x2="{$xPos + $widthFactor div 2}" y1="{$yMile + 15 div 2}" y2="{$yMile + 15 div 2}" style="stroke:black; stroke-width:15">
+                <title><xsl:value-of select="."/></title>
+                </line>
         </xsl:for-each>
        </g>              
                </xsl:for-each>  
