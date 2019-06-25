@@ -67,7 +67,7 @@ The variable below reads a document storing string-length measurements for each 
                <title><xsl:value-of select="@name ! substring-before(., '_')"/></title>
            </line>
            
-        <xsl:if test="contains(@name, '1818') and fs[@type='milestoneMeasures']">  /
+        <xsl:if test="contains(@name, '1818') and fs[@type='milestoneMeasures']">
               <xsl:for-each select="fs[@type='milestoneMeasures']/f[starts-with(., 'LETTER') or starts-with(., 'CHAPTER')]"> 
                   <text x="{(-$xSpacer * 25) + $columnPos}" y="{$yPos1 + @fVal div $heightFactor}" fill="black" font-size="20">1818: <xsl:value-of select="text() ! tokenize(., ' ')[position() lt 3] => string-join(' ')"/></text></xsl:for-each>
            
