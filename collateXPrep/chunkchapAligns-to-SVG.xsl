@@ -33,14 +33,14 @@ The variable below reads a document storing string-length measurements for each 
     <xsl:variable name="colorArray" as="xs:string+" select="concat($color_MS, ', ', $color_1818, ', ', $color_Thom, ', ', $color_1823, ', ', $color_1831)"/>
     
     <xsl:template match="/">
-        <svg width="3000" height="5000" viewBox="0 0 5000 8500">
-            <g id="wrapper" transform="translate(-300, 30)">
+        <svg width="3000" height="5000" viewBox="0 0 3500 9000">
+            <g id="wrapper" transform="translate(0, 30)">
         
           <xsl:for-each select="$collChunkUnits">
               <xsl:sort select="@xml:id"/>
             <xsl:variable name="cu_pos" select="position()"/>
-            <xsl:variable name="vertPos" as="xs:integer" select="$cu_pos mod 10"/>
-            <xsl:variable name="columnPos" as="xs:decimal" select="(floor($cu_pos div 10) + 1) * 500"/>
+            <xsl:variable name="vertPos" as="xs:integer" select="$cu_pos mod 9"/>
+            <xsl:variable name="columnPos" as="xs:decimal" select="(floor($cu_pos div 9) + 1) * 500"/>
             <xsl:variable name="ySpacer" select="20"/>
             <xsl:variable name="xSpacer" select="10"/>
             <xsl:variable name="widthFactor" select="20"/>
@@ -62,8 +62,12 @@ The variable below reads a document storing string-length measurements for each 
                    <xsl:variable name="fPos" select="position()"/>
                   <xsl:variable name="xPos" select="($widthFactor + $xSpacer) * $fPos + $columnPos"/>
        <g class="{./normalize-space()}">
-           <line x1="{$xPos}" x2="{$xPos}" y1="{$yPos1}" y2="{$yPos1 + (@fVal/string() ! number() div $heightFactor)}" style="stroke:{tokenize($colorArray, ', ')[$fPos]};stroke-width:{20}"/>
-           
+           <line x1="{$xPos}" x2="{$xPos}" y1="{$yPos1}" y2="{$yPos1 + (@fVal/string() ! number() div $heightFactor)}" style="stroke:{tokenize($colorArray, ', ')[$fPos]};stroke-width:{$widthFactor}"/>
+        <xsl:for-each select="fs[@type='milestoneMeasures']/f">
+      <xsl:variable name="yMile" select="$yPos1 + @fVal div $heightFactor"/>
+            <text x="{($xSpacer * position() - 200) + $columnPos}" y="{$yMile}" fill="black" font-size="20"><xsl:value-of select="@name"/></text>
+            <line x1="{$xPos - $widthFactor div 2}" x2="{$xPos + $widthFactor div 2}" y1="{$yMile}" y2="{$yMile}" style="stroke:black; stroke-width:5"/>
+        </xsl:for-each>
        </g>              
                </xsl:for-each>  
             </g>
