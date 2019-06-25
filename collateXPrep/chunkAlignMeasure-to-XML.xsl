@@ -37,7 +37,19 @@
                        <xsl:variable name="stringLengthToHere" as="xs:integer">
                            <xsl:value-of select="$textUnit ! string-length() => sum()"/>
                        </xsl:variable>
-                          <f name="{@unit}" fVal="{$stringLengthToHere}"/>        
+                       <xsl:variable name="labelHere" as="xs:string">
+                           <xsl:choose>
+                               <xsl:when test="following::text()[position() lt 5][not(matches(., '^\s+$'))]"> 
+                        <xsl:value-of select="string-join(following::text()[not(matches(., '^\s+$'))][position() lt 5][following-sibling::*[1] eq ./following-sibling::*[1]] ! normalize-space(), ' ')"/>
+                          </xsl:when>
+                              <xsl:otherwise>
+                                  <xsl:value-of select="@unit/string()"/>
+                              </xsl:otherwise>
+                          </xsl:choose>
+                       </xsl:variable>
+                          <f name="{@unit}" fVal="{$stringLengthToHere}">
+                            <xsl:value-of select="$labelHere"/>  
+                          </f>        
           </xsl:for-each>
                    </fs>
                </xsl:if>

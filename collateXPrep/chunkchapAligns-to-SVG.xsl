@@ -57,7 +57,7 @@ The variable below reads a document storing string-length measurements for each 
                 <xsl:comment>Sum of max values to here: <xsl:value-of select="$Sum_MaxestoHere div $heightFactor"/>
                 </xsl:comment>
                 <xsl:variable name="yPos1" as="xs:double" select="($Sum_MaxestoHere div $heightFactor) + ($ySpacer * $vertPos) "/>
-            <text x="{-($xSpacer * 3) + $columnPos}" y="{$yPos1}" fill="black" font-size="20"><xsl:value-of select="current()/@xml:id"/></text>
+            <text x="{-($xSpacer * 3) + $columnPos}" y="{$yPos1}" fill="black" font-size="20" font-weight="bold"><xsl:value-of select="current()/@xml:id"/></text>
                <xsl:for-each select="f">
                    <xsl:variable name="fPos" select="position()"/>
                   <xsl:variable name="xPos" select="($widthFactor + $xSpacer) * $fPos + $columnPos"/>
@@ -65,8 +65,8 @@ The variable below reads a document storing string-length measurements for each 
            <line x1="{$xPos}" x2="{$xPos}" y1="{$yPos1}" y2="{$yPos1 + (@fVal/string() ! number() div $heightFactor)}" style="stroke:{tokenize($colorArray, ', ')[$fPos]};stroke-width:{$widthFactor}"/>
         <xsl:for-each select="fs[@type='milestoneMeasures']/f">
       <xsl:variable name="yMile" select="$yPos1 + @fVal div $heightFactor"/>
-            <text x="{($xSpacer * position() - 200) + $columnPos}" y="{$yMile}" fill="black" font-size="20"><xsl:value-of select="@name"/></text>
-            <line x1="{$xPos - $widthFactor div 2}" x2="{$xPos + $widthFactor div 2}" y1="{$yMile}" y2="{$yMile}" style="stroke:black; stroke-width:5"/>
+          <!--  <text x="{($xSpacer * position() - 200) + $columnPos}" y="{$yMile}" fill="black" font-size="20"><xsl:value-of select="@name"/></text>-->
+            <line x1="{$xPos - $widthFactor div 2}" x2="{$xPos + $widthFactor div 2}" y1="{$yMile}" y2="{$yMile}" style="stroke:black; stroke-width:15"/>
         </xsl:for-each>
        </g>              
                </xsl:for-each>  
