@@ -11,14 +11,14 @@ A work-in-progress view of the aligned collation data designed for the project t
 
 * The following are distinct editions prepared “under the hood” by correcting prior digital editions and preparing new digital editions the 1823 and Thomas edition. These files represent each edition prior to collation processing. Comparison data is not marked in these documents, but each is a distinct edition in its own right suitable for reading and annotation.  
 
-   * [1818 publication of _Frankenstein_](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html).
-      * [Pitt-Greensburg classroom edition of the 1818 text](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818_classEd.html) (a copy of the same) for use in annotation assignments.  
+   * [1818 publication of _Frankenstein_](Frankenstein_1818.html).
+      * [Pitt-Greensburg classroom edition of the 1818 text](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818_classEd.html) (a copy of the same) for use in annotation assignments. 
 
    * [The Thomas copy](Frankenstein_Thom.html), an edition representing Mary Shelley's edits handwritten on an 1818 edition of the novel.
 
-   * [1823 publication of _Frankenstein_ (supervised by William Godwin)](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1823.html).
+   * [1823 publication of _Frankenstein_ (supervised by William Godwin)](Frankenstein_1823.html).
 
-   * [1831 publication of _Frankenstein_](https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html).
+   * [1831 publication of _Frankenstein_](Frankenstein_1831.html).
 
 
 ### About *Frankenstein* and our variorum project:
