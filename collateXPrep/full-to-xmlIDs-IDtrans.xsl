@@ -11,7 +11,7 @@
             <xsl:variable name="currFile" as="xs:string">
                 <xsl:value-of select="tokenize(base-uri(.), '/')[last()]"/>
             </xsl:variable> 
-            <xsl:result-document method="xml" indent="yes" href="../../fv-data/hypothesis/migration/xml-ids/print-full-ids/{$currFile}">
+            <xsl:result-document method="xml" indent="yes" href="../../fv-data/hypothesis/migration/xml-ids/{$currFile}">
                 <xml>
         
                     <xsl:apply-templates/>
