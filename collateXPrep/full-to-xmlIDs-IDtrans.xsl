@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs"
     version="3.0">
 <!--2019-11-02 ebb: This is meant to assist migration of hypothes.is annotations originally made on HTML versions of pre-collation files, to determine their locations in the constructed Variorum edition. -->
@@ -12,10 +13,28 @@
                 <xsl:value-of select="tokenize(base-uri(.), '/')[last()]"/>
             </xsl:variable> 
             <xsl:result-document method="xml" indent="yes" href="../../fv-data/hypothesis/migration/xml-ids/{$currFile}">
-                <xml>
+                <TEI>
+                    <fileDesc>
+                        <titleStmt>
+                            <title></title>
+                        </titleStmt>
+                        <publicationStmt>
+                            <authority>Frankenstein Variorum Project</authority>
+                            <date>2018</date>
+                            <availability>
+                                <licence>Distributed under a Creative Commons
+                                    Attribution-ShareAlike 3.0 Unported License</licence>
+                            </availability>
+                        </publicationStmt>
+                        <sourceDesc>
+                            <p>This TEI was produced to assist migration of hypothes.is annotations made on distinct HTML editions prior to collation. 
+                                The source is an XML file of the full edition prior to flattening all elements for collation.</p>
+                        </sourceDesc>
+                    </fileDesc>
+                    
         
-                    <xsl:apply-templates/>
-                </xml>
+                   <text> <xsl:apply-templates select="descendant::text"/></text>
+                </TEI>
             </xsl:result-document> 
         </xsl:for-each>
     </xsl:template>
