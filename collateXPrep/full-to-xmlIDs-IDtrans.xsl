@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
     exclude-result-prefixes="xs"
     version="3.0">
 <!--2019-11-02 ebb: This is meant to assist migration of hypothes.is annotations originally made on HTML versions of pre-collation files, to determine their locations in the constructed Variorum edition. -->
@@ -14,9 +15,12 @@
             </xsl:variable> 
             <xsl:result-document method="xml" indent="yes" href="../../fv-data/hypothesis/migration/xml-ids/{$currFile}">
                 <TEI>
-                    <fileDesc>
+                    <xsl:comment>ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi='http://www.w3.org/2001/XInclude', and apply
+                        xi: namespace prefix to include elements in the document.</xsl:comment>
+                    <teiHeader>
+                        <fileDesc>
                         <titleStmt>
-                            <title></title>
+                            <title>Uncollated TEI: <xsl:value-of select="descendant::header/include ! substring-after(@href, 'standOff_Includes/') ! substring-before(., '_')"/> edition</title>
                         </titleStmt>
                         <publicationStmt>
                             <authority>Frankenstein Variorum Project</authority>
@@ -26,14 +30,13 @@
                                     Attribution-ShareAlike 3.0 Unported License</licence>
                             </availability>
                         </publicationStmt>
-                        <sourceDesc>
-                            <p>This TEI was produced to assist migration of hypothes.is annotations made on distinct HTML editions prior to collation. 
-                                The source is an XML file of the full edition prior to flattening all elements for collation.</p>
-                        </sourceDesc>
+                            <sourceDesc><p>The source is an XML file of one complete print edition of Frankenstein prior to flattening all elements for collation.</p>
+</sourceDesc>
                     </fileDesc>
+                    <encodingDesc><p>This TEI was produced to assist migration of hypothes.is annotations made on distinct HTML editions prior to collation. The document contains TEI elements representing the basic structure of each edition file as they appear in the Variorum edition, but lacking the markup of variorum "hotspots" indicating loci of variance with other editions.</p></encodingDesc>
                     
-        
-                   <text> <xsl:apply-templates select="descendant::text"/></text>
+                    </teiHeader>
+                   <xsl:apply-templates select="descendant::text"/>
                 </TEI>
             </xsl:result-document> 
         </xsl:for-each>
@@ -41,8 +44,16 @@
     
     <!--ebb: Suppress comment elements -->
     <xsl:template match="comment"/>
-
-    <xsl:template match="text//*[text() | *][not(self::div)][not(self::comment)]">
+    
+    <xsl:template match="text">
+        <text xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:apply-templates/>
+        </text>
+    </xsl:template>
+<xsl:template match="include">
+    <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/{@href}" parse="xml"/> 
+</xsl:template>
+    <xsl:template match="text//*[not(self::div)][not(self::comment)][not(self::include)]">
         <xsl:variable name="nodeName" as="xs:string" select="name()"/>
         <xsl:variable name="locationFlag">
             <xsl:for-each select="ancestor::div">
@@ -61,12 +72,16 @@
             <xsl:value-of select="$nodeName"/>
             <xsl:value-of select="count(preceding-sibling::*[name() = $nodeName]) + 1"/>
         </xsl:variable>
-        <xsl:copy>
-            <xsl:attribute name="xml:id">
+        <xsl:element name="{local-name()}" namespace="http://www.tei-c.org/ns/1.0">
+            <xsl:copy-of select="@*"/>
+           <xsl:if test="not(@xml:id)"> <xsl:attribute name="xml:id">
                 <xsl:value-of select="$locationFlag"/>
-            </xsl:attribute>
+            </xsl:attribute></xsl:if>
             <xsl:apply-templates/>
-        </xsl:copy>
+        </xsl:element>
+      
+            
+        
     </xsl:template>
     
     <xsl:template match="div">
