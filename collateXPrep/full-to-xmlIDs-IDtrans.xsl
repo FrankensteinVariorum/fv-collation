@@ -24,16 +24,16 @@
                         </titleStmt>
                         <publicationStmt>
                             <authority>Frankenstein Variorum Project</authority>
-                            <date>2018</date>
+                            <date><xsl:value-of select="current-dateTime()"/></date>
                             <availability>
                                 <licence>Distributed under a Creative Commons
                                     Attribution-ShareAlike 3.0 Unported License</licence>
                             </availability>
                         </publicationStmt>
-                            <sourceDesc><p>The source is an XML file of one complete print edition of Frankenstein prior to flattening all elements for collation.</p>
+                            <sourceDesc><p>The source is an XML file of one complete print edition of Frankenstein prior to flattening all elements for collation. The source document is not in any namespace. Where div elements would be expected in a TEI document to structure the full edition, these are represented by milestone markers signalling the beginning and end of a text division.</p>
 </sourceDesc>
                     </fileDesc>
-                    <encodingDesc><p>This TEI was produced to assist migration of hypothes.is annotations made on distinct HTML editions prior to collation. The document contains TEI elements representing the basic structure of each edition file as they appear in the Variorum edition, but lacking the markup of variorum "hotspots" indicating loci of variance with other editions.</p></encodingDesc>
+                        <encodingDesc><p>This TEI was produced to assist migration of hypothes.is annotations made on distinct HTML editions prior to collation. The document contains TEI elements representing the basic structure of each edition file as they appear in the Variorum edition, but lacking the markup of variorum "hotspots" indicating loci of variance with other editions. Currently this TEI document is not valid against the TEI All schema because div elements are absent, having been flattened to milestone start and end markers. Also, there are include elements present that are not active because they are not in the xi:include namespace. To activate them, apply the xi: namespace prefix to include elements in the document, and (in the oXygen XML Editor) run canonicalize to resolve them. The include elements are currently here as placeholders representing more material present in each edition (such as title pages and backmatter) that was not part of the collation process.</p></encodingDesc>
                     
                     </teiHeader>
                    <xsl:apply-templates select="descendant::text"/>
