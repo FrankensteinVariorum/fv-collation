@@ -20,7 +20,7 @@
                     <teiHeader>
                         <fileDesc>
                         <titleStmt>
-                            <title>Uncollated TEI: <xsl:value-of select="descendant::header/include ! substring-after(@href, 'standOff_Includes/') ! substring-before(., '_')"/> edition</title>
+                            <title>Uncollated TEI: <xsl:value-of select="descendant::header/include ! substring-after(@href, '../standOff_Includes/') ! substring-before(., '_')"/> edition</title>
                         </titleStmt>
                         <publicationStmt>
                             <authority>Frankenstein Variorum Project</authority>
@@ -51,7 +51,7 @@
         </text>
     </xsl:template>
 <xsl:template match="include">
-    <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/{@href}" parse="xml"/> 
+    <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/{substring-after(@href, '../')}" parse="xml"/> 
 </xsl:template>
     <xsl:template match="text//*[not(self::div)][not(self::comment)][not(self::include)]">
         <xsl:variable name="nodeName" as="xs:string" select="name()"/>
