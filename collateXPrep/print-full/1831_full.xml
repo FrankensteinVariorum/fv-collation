@@ -3,12 +3,12 @@
     xi: namespace prefix to include elements in the document.
   "/>
   <header>
-    <include href="../standOff_Includes/1831_header.xml" parse="xml"/>
+    <xi:include href="../standOff_Includes/1831_header.xml" parse="xml"/>
   </header>
   <text>
     <anchor type="collate" xml:id="C01"/>
     <div type="frontmatter">
-      <include href="../standOff_Includes/1831_frontMatter.xml" parse="xml"/>
+      <xi:include href="../standOff_Includes/1831_frontMatter.xml" parse="xml"/>
     </div>
     <div type="introduction">
      <xi:include href="../standOff_Includes/1831_introduction.xml" parse="xml"/>
@@ -5558,7 +5558,7 @@
       </div>
     </div>
        <div type="backmatter">
-        <include href="../standOff_Includes/1831_backMatter.xml" parse="xml"/>
+        <xi:include href="../standOff_Includes/1831_backMatter.xml" parse="xml"/>
        </div>
   </text>
 </xml>
