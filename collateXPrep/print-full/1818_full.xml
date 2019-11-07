@@ -3,13 +3,13 @@
   xi: namespace prefix to include elements in the document.
   "/>
   <header>
-    <include href="standOff_Includes/1818_header.xml" parse="xml"/>
+    <include href="../standOff_Includes/1818_header.xml" parse="xml"/>
   </header>
   <text>
     <anchor type="collate" xml:id="C01"/>
     <milestone unit="volume" n="1"/>
     <div type="frontmatter" n="1">
-      <include href="standOff_Includes/1818_frontMatter1.xml" parse="xml"/>
+      <include href="../standOff_Includes/1818_frontMatter1.xml" parse="xml"/>
     </div>
     <div type="preface">
       <pb xml:id="F1818_v1_007" n="viii"/>
@@ -1953,7 +1953,7 @@
 
         <milestone unit="volume" n="2"/>
         <div type="frontmatter" n="2">
-          <include href="standOff_Includes/1818_frontMatter2.xml" parse="xml"/>
+          <include href="../standOff_Includes/1818_frontMatter2.xml" parse="xml"/>
         </div>
         <anchor type="collate" xml:id="C15"/>
         <div type="chapter">
@@ -3578,7 +3578,7 @@
         <head>END OF VOL. II</head>
         <milestone unit="volume" n="3"/>
         <div type="frontmatter" n="3">
-          <include href="standOff_Includes/1818_frontMatter3.xml" parse="xml"/>
+          <include href="../standOff_Includes/1818_frontMatter3.xml" parse="xml"/>
         </div><anchor type="collate" xml:id="C24"/>
         <div type="chapter">
           <head>CHAPTER I.</head>
@@ -5568,7 +5568,7 @@
     </div>
 
     <div type="backmatter">
-      <include href="standOff_Includes/1818_backMatter.xml" parse="xml"/>
+      <include href="../standOff_Includes/1818_backMatter.xml" parse="xml"/>
     </div>
 
   </text>
