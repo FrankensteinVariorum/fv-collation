@@ -7,11 +7,11 @@
     version="3.0">
 <!--2019-11-02 ebb: This is meant to assist migration of hypothes.is annotations originally made on HTML versions of pre-collation files, to determine their locations in the constructed Variorum edition. -->
     <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:variable name="printColl" as="document-node()+" select="collection('print-full')"/>
+    <xsl:variable name="printColl" as="document-node()+" select="collection('print-full')[tokenize(base-uri(), '/')[last()] ! contains(., 'C')]"/>
     <xsl:template match="/">
         <xsl:for-each select="$printColl//xml">
             <xsl:variable name="currFile" as="xs:string">
-                <xsl:value-of select="tokenize(base-uri(.), '/')[last()]"/>
+                <xsl:value-of select="concat(tokenize(base-uri(.), '/')[last()] ! substring-before(., 'C'), '.xml')"/>
             </xsl:variable> 
             <xsl:result-document method="xml" indent="yes" href="../../fv-data/hypothesis/migration/xml-ids/{$currFile}">
                 <TEI>
@@ -61,14 +61,14 @@
                 <xsl:value-of select="count(current()/preceding-sibling::div[@type=current()/@type]) + 1"/>
                 <xsl:text>_</xsl:text>
             </xsl:for-each>
-            <xsl:if test="ancestor::*[not(self::div)]/ancestor::div[1]">
-                <xsl:for-each select="ancestor::*[not(self::div)][ancestor::div[1]]">
+        <!--    <xsl:if test="ancestor::*[not(self::div)]/ancestor::div[1]">-->
+                <xsl:for-each select="ancestor::*[ancestor::div[1]]">
                     <xsl:variable name="ancNodeName" as="xs:string" select="name()"/>
                     <xsl:value-of select="$ancNodeName"/>
                     <xsl:value-of select="count(preceding-sibling::*[name() = $ancNodeName]) + 1"/>
                     <xsl:text>_</xsl:text>
                 </xsl:for-each>
-            </xsl:if>
+            <!--</xsl:if>-->
             <xsl:value-of select="$nodeName"/>
             <xsl:value-of select="count(preceding-sibling::*[name() = $nodeName]) + 1"/>
         </xsl:variable>
