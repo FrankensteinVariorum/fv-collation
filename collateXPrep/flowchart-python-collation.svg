@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="68cm" height="20cm" viewBox="89 30 1360 397" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="111" y="51">
+    <tspan x="111" y="51"></tspan>
+  </text>
+  <g>
+    <path style="fill: #ffffff" d="M 168.833 164 L 480.167,164 C 523.153,164 558,204.518 558,254.5 C 558,304.482 523.153,345 480.167,345 L 168.833,345 C 125.847,345 91,304.482 91,254.5 C 91,204.518 125.847,164 168.833,164z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 168.833 164 L 480.167,164 C 523.153,164 558,204.518 558,254.5 C 558,304.482 523.153,345 480.167,345 L 168.833,345 C 125.847,345 91,304.482 91,254.5 C 91,204.518 125.847,164 168.833,164"/>
+    <text font-size="16.9331" style="fill: #403ead;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="324.5" y="261.115">
+      <tspan x="324.5" y="261.115"></tspan>
+    </text>
+  </g>
+  <text font-size="28.2218" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="140" y="58">
+    <tspan x="140" y="58">Flowchart of the Python Process to Prepare and Process Collations in the Frankenstein Variorum Project</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="524" y="52">
+    <tspan x="524" y="52"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="162" y="55">
+    <tspan x="162" y="55"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="228" y="47">
+    <tspan x="228" y="47"></tspan>
+  </text>
+  <text font-size="16.9331" style="fill: #ff0000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="155.5" y="201.5">
+    <tspan x="155.5" y="201.5">Installations needed (command line/shell)</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="273" y="191">
+    <tspan x="273" y="191"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="324.5" y="254.5">
+    <tspan x="324.5" y="254.5"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="324.5" y="254.5">
+    <tspan x="324.5" y="254.5"></tspan>
+  </text>
+  <text font-size="14.1109" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="177.5" y="232.5">
+    <tspan x="177.5" y="232.5">pip install collatex</tspan>
+    <tspan x="177.5" y="250.139">pip install python-levenshtein</tspan>
+    <tspan x="177.5" y="267.778"></tspan>
+    <tspan x="177.5" y="285.417">(If we want to try SVG graphing, but it's complicated:</tspan>
+    <tspan x="177.5" y="303.056"> pip install graphviz</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="270">
+    <tspan x="300" y="270"></tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="560,239 580,239 580,259 590.264,259 "/>
+    <polygon style="fill: #000000" points="597.764,259 587.764,264 590.264,259 587.764,254 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="597.764,259 587.764,264 590.264,259 587.764,254 "/>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 661.5 204 L 931.5,204 C 968.779,204 999,253.696 999,315 C 999,376.304 968.779,426 931.5,426 L 661.5,426 C 624.221,426 594,376.304 594,315 C 594,253.696 624.221,204 661.5,204z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 661.5 204 L 931.5,204 C 968.779,204 999,253.696 999,315 C 999,376.304 968.779,426 931.5,426 L 661.5,426 C 624.221,426 594,376.304 594,315 C 594,253.696 624.221,204 661.5,204"/>
+    <text font-size="14.1109" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="796.5" y="320.512">
+      <tspan x="796.5" y="320.512"></tspan>
+    </text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="796.5" y="315">
+    <tspan x="796.5" y="315"></tspan>
+  </text>
+  <text font-size="16.9331" style="fill: #ff0000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="630" y="187">
+    <tspan x="630" y="187">In the Python script:</tspan>
+  </text>
+  <text font-size="14.1109" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="634.5" y="240">
+    <tspan x="634.5" y="240">Imports we need:</tspan>
+    <tspan x="634.5" y="257.639"></tspan>
+    <tspan x="634.5" y="275.278">import glob (for defining filepaths)</tspan>
+    <tspan x="634.5" y="292.917">import re (for working with regular expressions)</tspan>
+    <tspan x="634.5" y="310.556">from datetime import datetime (for time stamp)</tspan>
+    <tspan x="634.5" y="328.194">from xml.dom import pulldom</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="729" y="234">
+    <tspan x="729" y="234"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="672" y="287">
+    <tspan x="672" y="287"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="893" y="287">
+    <tspan x="893" y="287"></tspan>
+  </text>
+</svg>
