@@ -113,12 +113,14 @@ matchString = name.split("fullFlat_", 1)[1]
 # ebb: above gets C30.xml for example
 matchStr = matchString.split(".", 1)[0]
 # ebb: above strips off the file extension
+# ebb: input files and output file location are prepped below here:
 with open(name, 'rb') as f1818file, \
         open('../collationChunks/Thomas_fullFlat_' + matchString, 'rb') as fThomasfile, \
         open('../collationChunks/1823_fullFlat_' + matchString, 'rb') as f1823file, \
         open('../collationChunks/1831_fullFlat_' + matchString, 'rb') as f1831file, \
         open('../collationChunks/msColl_' + matchString, 'rb') as fMSfile, \
-        open('../C09-NormalizedTokens/collation_' + matchStr + '.json', 'w') as outputFile:
+        open('../testOutputs/collation_' + matchStr + '.xml', 'w') as outputFile:
+
         # open('collationChunks/msColl_c56_' + matchString, 'rb') as fMSc56file, \
         # open('collationChunks/msColl_c58_' + matchString, 'rb') as fMSc58file, \
         # open('collationChunks/msColl_c57Frag_' + matchString, 'rb') as fMSc57Fragfile, \
@@ -145,8 +147,8 @@ with open(name, 'rb') as f1818file, \
     collation_input = {"witnesses": [f1818_tokenlist, fThomas_tokenlist, f1823_tokenlist, f1831_tokenlist, fMS_tokenlist]}
     # table = collate(collation_input, output='tei', segmentation=True)
     # table = collate(collation_input, segmentation=True, layout='vertical')
-    # table = collate(collation_input, output='xml', segmentation=True)
+    table = collate(collation_input, output='xml', segmentation=True)
     # print('<!-- ' + nowStr + ' -->' + table, file=outputFile)
     # print(fMS_tokenlist, file=outputFile)
-    print(collation_input, file=outputFile)
-    # print(table, file=outputFile)
+    # print(collation_input, file=outputFile)
+    print(table, file=outputFile)
