@@ -3,7 +3,9 @@ digraph {
 	A [label="King Arthur"]
 	B [label="Sir Bedevere the Wise"]
 	L [label="Sir Lancelot the Brave"]
+	G [label=Garfunkle]
 	A -> B
 	A -> L
+	G -> L
 	B -> L [constraint=false]
 }
