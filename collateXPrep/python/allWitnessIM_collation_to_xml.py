@@ -146,7 +146,7 @@ for name in glob.glob('../collChunks-Part1/1818_fullFlat_*'):
                 open('../collChunks-Part1/1823_fullFlat_' + matchString, 'rb') as f1823file, \
                 open('../collChunks-Part1/1831_fullFlat_' + matchString, 'rb') as f1831file, \
                 open('../collChunks-Part1/msColl_' + matchString, 'rb') as fMSfile, \
-                open('../testOutputs/collation_' + matchStr + '.svg', 'w') as outputFile:
+                open('../testOutputs/collation_' + matchStr + '.xml', 'w') as outputFile:
                 # open('../Full_Part1_xmlOutput/collation_' + matchStr + '.xml', 'w') as outputFile:
                 # open('collationChunks/msColl_c56_' + matchString, 'rb') as fMSc56file, \
                 # open('collationChunks/msColl_c58_' + matchString, 'rb') as fMSc58file, \
@@ -174,7 +174,7 @@ for name in glob.glob('../collChunks-Part1/1818_fullFlat_*'):
             collation_input = {"witnesses": [f1818_tokenlist, fThomas_tokenlist, f1823_tokenlist, f1831_tokenlist, fMS_tokenlist]}
             # table = collate(collation_input, output='tei', segmentation=True)
             # table = collate(collation_input, segmentation=True, layout='vertical')
-            table = collate(collation_input, output='svg', segmentation=True)
+            table = collate(collation_input, output='xml', segmentation=True)
             print(table + '<!-- ' + nowStr + ' -->', file=outputFile)
             # print(table, file=outputFile)
     except IOError:
