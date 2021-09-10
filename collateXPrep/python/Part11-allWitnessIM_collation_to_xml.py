@@ -44,9 +44,10 @@ RE_SHI = re.compile(r'<shi[^<]*>.+?</shi>')
 RE_METAMARK = re.compile(r'<metamark[^<]*>.+?</metamark>')
 RE_HI = re.compile(r'<hi\s[^<]*/>')
 RE_PB = re.compile(r'<pb[^<]*/>')
-RE_LB = re.compile(r'<lb[^<]*/>', re.MULTILINE)
+RE_LB = re.compile(r'<lb.*?/>', re.DOTALL)
 # 2021-09-06: ebb and djb: On <lb> collation troubles: LOOK FOR DOT MATCHES ALL FLAG
 # b/c this is likely spanning multiple lines, and getting split by the tokenizing algorithm.
+# 2021-09-10: ebb with mb and jc: trying .*? and DOTALL flag
 RE_LG = re.compile(r'<lg[^<]*/>')
 RE_L = re.compile(r'<l\s[^<]*/>')
 RE_CIT = re.compile(r'<cit\s[^<]*/>')
