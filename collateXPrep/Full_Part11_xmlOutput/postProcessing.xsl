@@ -10,24 +10,24 @@
     solitary apps reliably into their neighboring app elements representing all witnesses. 
     
     -->
-    <xsl:mode on-no-match="shallow-copy"/>
+  <xsl:mode on-no-match="shallow-copy"/>
     
     <xsl:template match="app[count(descendant::rdg) = 1][contains(descendant::rdg, '&lt;del')]">
   
-         <xsl:choose>  <xsl:when test="following-sibling::app[1][count(descendant::rdgGrp) = 1 and count(descendant::rdg) gt 1]">
+        <xsl:if test="following-sibling::app[1][count(descendant::rdgGrp) = 1 and count(descendant::rdg) gt 1]">
                <xsl:apply-templates select="following-sibling::app[1]" mode="restructure">
                   <xsl:with-param as="node()" name="loner" select="descendant::rdg" tunnel="yes" />
                    <xsl:with-param as="attribute()" name="norm" select="rdgGrp/@n" tunnel="yes"/>
                </xsl:apply-templates>
                
-           </xsl:when>
-       <xsl:otherwise>
-               <xsl:apply-templates/>
-           </xsl:otherwise></xsl:choose>
-           
-       
+           </xsl:if>
     </xsl:template>
     
+    
+    <xsl:template match="app[preceding-sibling::app[1][count(descendant::rdg) = 1][contains(descendant::rdg, '&lt;del')]]"/>
+        
+    
+
     <xsl:template match="app" mode="restructure">
         <xsl:param name="loner" tunnel="yes"/>
         <xsl:param name="norm" tunnel="yes"/>
@@ -41,19 +41,31 @@
               </rdg>
                
            </rdgGrp> 
-        </app>   
+        </app> 
+      <!--  <xsl:apply-templates select="current()">
+        <xsl:with-param as="node()" name="app-restructured" select="current()" tunnel="yes"/>
+        </xsl:apply-templates>-->
     </xsl:template>
     
     <xsl:template match="rdgGrp" mode="restructure">
         <xsl:param name="loner" tunnel="yes"/>
-        
-       <rdgGrp n="{@n}"> 
-           <xsl:if test="rdg[@wit ne $loner/@wit]">
-            <xsl:apply-templates/>
-        </xsl:if>
-       </rdgGrp>
 
+           <xsl:if test="rdg[@wit ne $loner/@wit]">
+            <xsl:copy-of select="current()" />
+        </xsl:if>
     </xsl:template>
+    
+ <!--<xsl:template match="app">
+        <xsl:param name="app-restructured" tunnel="yes"/>
+          <xsl:if test="current() != $app-restructured">
+
+              <xsl:copy-of select="current()"/>
+          </xsl:if>
+        </xsl:template>-->
+    
+
+    
+   
 <!-- 
         ebb: We are having trouble with this output processing a restructured app twice, so we need to 
         suppress it from being copied by the id transform.
