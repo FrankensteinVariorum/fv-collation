@@ -35,7 +35,13 @@
         <xsl:apply-templates select="rdgGrp" mode="restructure">
                 <xsl:with-param  as="node()" name="loner" tunnel="yes" select="$loner"/>
             </xsl:apply-templates>
-           <rdgGrp n="{$norm ! string()}{descendant::rdgGrp[descendant::rdg[@wit=$loner/@wit]]/@n}">
+            <xsl:variable name="TokenSquished">
+                <xsl:value-of select="$norm ! string()||descendant::rdgGrp[descendant::rdg[@wit=$loner/@wit]]/@n"/>
+            </xsl:variable>
+            <xsl:variable name="newToken">
+                <xsl:value-of select="replace($TokenSquished, '\]\[', ', ')"/>
+            </xsl:variable>
+           <rdgGrp n="{$newToken}">
               <rdg wit="{$loner/@wit}"><xsl:value-of select="$loner/text()"/>
               <xsl:value-of select="descendant::rdg[@wit = $loner/@wit]"/>
               </rdg>
