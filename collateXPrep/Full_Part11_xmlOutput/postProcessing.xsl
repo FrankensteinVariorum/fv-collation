@@ -11,7 +11,13 @@
     
     -->
   <xsl:mode on-no-match="shallow-copy"/>
-    
+  
+<!-- ********************************************************************************************
+        LONER DELS: These templates deal with collateX output of app elements 
+        containing a solitary MS witness containing a deletion, which we interpret as usually a false start, 
+        before a passage.
+     *********************************************************************************************
+    -->  
     <xsl:template match="app[count(descendant::rdg) = 1][contains(descendant::rdg, '&lt;del')]">
   
         <xsl:if test="following-sibling::app[1][count(descendant::rdgGrp) = 1 and count(descendant::rdg) gt 1]">
@@ -25,8 +31,7 @@
     
     
     <xsl:template match="app[preceding-sibling::app[1][count(descendant::rdg) = 1][contains(descendant::rdg, '&lt;del')]]"/>
-        
-    
+
 
     <xsl:template match="app" mode="restructure">
         <xsl:param name="loner" tunnel="yes"/>
@@ -48,9 +53,6 @@
                
            </rdgGrp> 
         </app> 
-      <!--  <xsl:apply-templates select="current()">
-        <xsl:with-param as="node()" name="app-restructured" select="current()" tunnel="yes"/>
-        </xsl:apply-templates>-->
     </xsl:template>
     
     <xsl:template match="rdgGrp" mode="restructure">
@@ -60,27 +62,7 @@
             <xsl:copy-of select="current()" />
         </xsl:if>
     </xsl:template>
-    
- <!--<xsl:template match="app">
-        <xsl:param name="app-restructured" tunnel="yes"/>
-          <xsl:if test="current() != $app-restructured">
-
-              <xsl:copy-of select="current()"/>
-          </xsl:if>
-        </xsl:template>-->
-    
-
-    
    
-<!-- 
-        ebb: We are having trouble with this output processing a restructured app twice, so we need to 
-        suppress it from being copied by the id transform.
-        
-        <xsl:template match="app[preceding-sibling::app[count(descendant::rdg) = 1]]">
-     
- </xsl:template>-->
-       
-    
     
     
 </xsl:stylesheet>
