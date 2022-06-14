@@ -77,8 +77,9 @@ ignore = ['sourceDoc', 'xml', 'comment', 'w', 'mod', 'anchor', 'include', 'delSp
 # 2021-09-06 ebb: Let's try putting pb and lb up in ignore where I think they belong.
 # 2021-09-06: ebb: NO. that's a problem because we eliminate pb and lb from the collation output,
 # and we need them for location markers.
-blockEmpty = ['pb', 'p', 'div', 'milestone', 'lg', 'l', 'note', 'cit', 'quote', 'bibl', 'ab', 'head']
-inlineEmpty = ['lb', 'gap', 'del',  'hi']
+blockEmpty = ['lb', 'pb', 'p', 'div', 'milestone', 'lg', 'l', 'note', 'cit', 'quote', 'bibl', 'ab', 'head']
+inlineEmpty = ['gap', 'del',  'hi']
+# 2022-06-13 ebb: What happens if we move lb into blockEntry? Does the tokenizing of lb change?
 # 2018-05-12 (mysteriously removed but reinstated 2018-09-27) ebb: I'm setting a white space on either side of the inlineEmpty elements in line 103
 # 2018-07-20: ebb: CHECK: are there white spaces on either side of empty elements in the output?
 inlineContent = ['metamark', 'mdel', 'shi']
